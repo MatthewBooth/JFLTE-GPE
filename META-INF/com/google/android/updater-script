@@ -371,7 +371,7 @@ set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fm
 run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
 # Disable the default root package
-    	package_extract_file("scripts/disableroot.sh", "/tmp/disableroot.sh");
+    	package_extract_file("root/scripts/disableroot.sh", "/tmp/disableroot.sh");
         set_perm(0, 0, 0755, "/tmp/disableroot.sh");
         run_program("/tmp/disableroot.sh");
         delete("/tmp/disableroot.sh");
@@ -389,7 +389,7 @@ run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
 
         # SuperSU requires some additional work
-        package_extract_file("scripts/supersu.sh", "/tmp/supersu.sh");
+        package_extract_file("root/scripts/supersu.sh", "/tmp/supersu.sh");
         set_perm(0, 0, 0755, "/tmp/supersu.sh");
         run_program("/tmp/supersu.sh");
         delete("/tmp/supersu.sh");
