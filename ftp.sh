@@ -1,8 +1,10 @@
-#!/system/bin/sh
-# UltimaROM build script
-## Usage
-# Run "sh ftp.sh filename ftp.example.com/folder/to/your/save/location username password"
+#! /bin/bash
+VERSION=$(cat version.txt)
+FILE=Danvdh-${VERSION}.zip
 
-curl -T $1 ftp://$2 --user $3:$4
+## Usage
+# Run "sh ftp.sh ftp.example.com/folder/to/your/save/location username password"
+
+curl -T ${FILE} ftp://$1 --user $2:$3
 
 exit 0
