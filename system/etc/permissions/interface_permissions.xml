@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/******************************************************************************
+*  Copyright (C) 2013 Qualcomm Technologies Incorporated.
+*  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.
+*  *****************************************************************************
+*/
+-->
+<permissions>
+    <!--  Request permissions for DIAG, Radio and QMI -->
+    <permission name="com.qualcomm.permission.INTERFACE_DIAG">
+        <group gid="qcom_diag" />
+    </permission>
+    <permission name="com.qualcomm.permission.INTERFACE_RADIO">
+        <group gid="radio" />
+    </permission>
+    <permission name="com.qualcomm.permission.INTERFACE_NETRAW">
+        <group gid="net_raw" />
+    </permission>
+</permissions>
+

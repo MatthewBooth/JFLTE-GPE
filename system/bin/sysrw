@@ -1,0 +1,3 @@
+#!/system/bin/sh
+mount -o rw,remount /system
+echo "System Mounted - don't forget to unmount"
