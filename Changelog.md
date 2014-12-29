@@ -1,6 +1,6 @@
 # Changelog
 * Removed some unnecessary files from the zip
-* Use Awesomeplayer by default - Should help fix some audio stuttering issues one and for all
+* Use Awesomeplayer by default - Should help fix some audio stuttering issues once and for all
 * Moved most apps, that are able, to the data partition so that they can be uninstalled if you wish
 * Updated Google Play Store and Google Camera
 * Fixed FC in default Launcher
