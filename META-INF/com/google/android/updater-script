@@ -415,7 +415,8 @@ run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 # This updater-script segment isn't touched by ArchiKitchen
 # You can add your own entries here
 # updater-script-90_KERNEL
-package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
-# updater-script-91_MODEM
-# updater-script-99_TAIL
+package_extract_file("kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+package_extract_dir("kernel/system", "/system");
+set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 unmount("/system");
+
