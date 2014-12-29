@@ -419,4 +419,4 @@ package_extract_file("kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/
 package_extract_dir("kernel/system", "/system");
 set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 unmount("/system");
-
+umount("/data")
