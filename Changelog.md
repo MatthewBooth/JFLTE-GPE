@@ -12,3 +12,6 @@ Visit http://ultimarom.com for downloads
 * Fixed FC in default Launcher
 * Added a fix for tethering on first boot. Will require one reboot, after the first boot, to be fully working
 * Ported CM's Changelog feature into the GPE Settings.apk. Settings->About
+* Removed ADblocking by default, made AdAway a new user app
+* Added missing Emoji fonts from the Nexus 5
+* Updated latest APN entires from CyanogenMod
