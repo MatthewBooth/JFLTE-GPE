@@ -11,3 +11,4 @@ Visit http://ultimarom.com for downloads
 * Updated Google Play Store and Google Camera
 * Fixed FC in default Launcher
 * Added a fix for tethering on first boot. Will require one reboot, after the first boot, to be fully working
+* Ported CM's Changelog feature into the GPE Settings.apk. Settings->About
