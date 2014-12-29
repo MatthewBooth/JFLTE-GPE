@@ -1,4 +1,10 @@
-# Changelog
+# JFLTE-GPE
+
+Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
+
+Visit http://ultimarom.com for downloads
+
+### Changelog
 * Removed some unnecessary files from the zip
 * Use Awesomeplayer by default - Should help fix some audio stuttering issues once and for all
 * Moved most apps, that are able, to the data partition so that they can be uninstalled if you wish
