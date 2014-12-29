@@ -5,6 +5,7 @@ run_program("/sbin/mount", "-t", "auto", "/data");
 delete_recursive("/system");
 show_progress(1.0, 1532);
 package_extract_dir("system", "/system");
+package_extract_file("Changelog.md", "/system/etc/CHANGELOG.txt");
 package_extract_dir("data", "/data");
 # updater-script-10_SYMLINKS
 symlink("app_process32", "/system/bin/app_process");
