@@ -1,28 +1,14 @@
-<b><#selectbg_g>UltimaMod - v2.0.1 Folkvangr</#></b>
-<*>Updated to latest CyanogenMod sources as of build date</*>
-<*>Updated Gapps to latest, including Play Store and GSF</*>
-<*>Added Google Gallery, TTS, Face Unlock and Messenger</*>
-<*>Removed Google Sheets, Slides, Translate and Device Manager (all are not usual GApps packages)</*>
-<*>Updated Misc Apps (SwiftKey, etc)</*>
-<*>Dropbox suggesting there isn't enough room on the device. Their error. Removed until they fix this</*>
-<*>Updated SuperSU to 2.16</*>
-<*>Fixed factory reset installer option</*>
-<*>Fixed i9505 camera and media recording/codec issues</*>
-<*>Had to remove Odex option as it was breaking the i9505 build (CyanogenMod have been made aware of this)</*>
-
-<b><#selectbg_g>UltimaMod - v2.0 Folkvangr</#></b>
-<*>Rebranded to UltimaMod (Ultima CyanogenMOD) </*>
-<*>Changed base to CyanogenMod 11 (latest sources as of build time) - Should make for quicker updates</*>
-<*>Odexed and Deodexed version available in the same zip</*>
-<*>Added Gapps packages in the installer. Many options. Full, lite or custom</*>
-<*>Added call recording as default for all devices (Cyanogen limit this per region, which is unnecessary)</*>
-<*>Added Traffic Meter and controls to SystemUI</*>
-<*>Added Recents panel controls (Clear all button position and RAM bar)</*>
-<*>Added battery color, text and font controls</*>
-<*>Added clock option: AM/PM indicator, colour and day of week</*>
-<*>Added F-Droid option in the installer, for those who don't want Google Apps.</*>
-<*>Added DisconnectMobile option in the installer</*>
-<*>Added root options in the installer, including none</*>
-<*>Added Runtime choice in installer</*>
-<*>Added custom battery icon colours (color, level colors, bolt colours, text colors etc) </*>
-<*>Fixed some Messaging theming issues </*>
+<b><#selectbg_g>JFLTE-GPE - 5.0 - 01012015</#></b>
+<*>Implemented AROMA installer</*>
+<*>Removed some unnecessary files from the zip</*>
+<*>Use Awesomeplayer by default - Should help fix some audio stuttering issues once and for all</*>
+<*>Updated Google Play Store and Google Camera</*>
+<*>Fixed FC's in Trebuchet Launcher</*>
+<*>Added a fix for tethering on first boot. No need to reboot or issue a command in the shell</*>
+<*>Ported CM's Changelog feature into the GPE Settings.apk. Settings->About</*>
+<*>Removed Adblocking by default, made AdAway a new user app</*>
+<*>Added missing Emoji fonts from the Nexus 5</*>
+<*>Updated latest APN entires from CyanogenMod</*>
+<*>Added Moto Gallery and Camera options. Moto Camera cannot shoot in HDR, but supports saving to SD</*>
+<*>Updated OTA Updater. Now correctly checks update on first boot and background services does run to check in time</*>
+<*>Updated Interface with some new icons and added ability to choose whether to disable hardware buttons when using onscreen navigation</*>
