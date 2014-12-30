@@ -585,7 +585,14 @@ ui_print("<#009688>Installing GoogyMax Kernel...</#>");
 
 	package_extract_dir("aroma/kernel/system", "/system");
 	set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+	
+ui_print("<#009688>Finishing Installation...</#>");
 
+if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+    getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+    run_script("/aroma/scripts/default_network.sh");
+	endif;
+	
 ui_print("<#009688>ROM Installed!</#>");
 ui_print(" ");	
 
