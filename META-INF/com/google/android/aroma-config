@@ -133,8 +133,8 @@ textbox(
 			"camera_moto",			"Motorola", 			"Motorola's Camera. No HDR, but supports saving to SDcard",							"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
-			"gallery_aosp",			"AOSP", 				"AOSP Gallery from CyanogenMod 12",													"select.selected",
-			"gallery_moto",			"Motorola", 			"Motorola's Material UI themed gallery",											"select",
+			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
+			"no",					"No", 					"Do not install a Gallery",															"select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
