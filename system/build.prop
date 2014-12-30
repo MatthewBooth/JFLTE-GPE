@@ -114,6 +114,7 @@ persist.audio.fluence.mode=endfire
 persist.audio.vr.enable=false
 persist.audio.handset.mic=digital
 persist.audio.lowlatency.rec=false
+persist.sys.media.use-awesome=1
 
 # System prop to select audio resampler quality
 af.resampler.quality=255
@@ -250,7 +251,7 @@ persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 ro.pip.gated=0
 persist.adb.notify=0
-persist.sys.media.use-awesome=1
+wifi.supplicant_scan_interval=120
 
 # OTA Updates
 ro.ota.romname=GooglePlayEdition

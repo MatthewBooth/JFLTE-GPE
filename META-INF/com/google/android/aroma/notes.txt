@@ -1,0 +1,10 @@
+<@center><b><#selectbg_g>UltimaMod Installation Notes:</#></b>
+
+<b><#selectbg_g>PLEASE READ</#></b></@>
+
+<@fill>
+<*><#selectbg_g>When coming from ANY other base firmware other than the one listed, you <b>MUST</b> wipe otherwise face problems. If you are using the same base then it is generally ok to just wipe cache. Not Wiping will result in loss of contacts pictures and other problems which nothing can be done about other than wiping.</#></*>
+
+</@>
+<@center>Please note the above before continuing to save any needless posts in the thread!</@>
+

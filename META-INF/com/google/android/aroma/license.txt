@@ -1,0 +1,26 @@
+<@center><b><#selectbg_g>UltimaMod TERMS & CONDITIONS</#></b>
+Version 17.0, July 2014
+
+<b><#selectbg_g>TERMS AND CONDITIONS FOR USE</#></b></@>
+
+<@fill><q>By clicking agree and flashing this ROM you agree that:
+
+<*>I am not responsible for any loss of data that may occur from using this ROM.</*>
+<*>This ROM comes AS IS and no support is guaranteed (though I will do my best).</*>
+<*>That you will NOT use this ROM to start a Nuclear War (Very important).</*>
+<*>You will READ this installer as you go along to understand everything about it. Please do this to save us all some time!</*>
+<*>You will agree that CATS are our overlords. Everything we do, we do to serve them.</*>
+
+I hope you enjoy this!
+
+<#selectbg_g><b>Big thanks to my girlfriend, Jo, who puts up with my late nights and telling her about the ROM 24/7!</b></#>
+
+<#selectbg_g><b>Thanks/Credits</b></#>
+<*>JustArchi - A lot of things. Just, seriously. A lot. You're the man.</*>
+<*>CyanogenMod</*>
+
+<#selectbg_g><b>Big Thanks to Donators!</b></#>
+
+</@>
+
+
