@@ -568,10 +568,23 @@ ui_print("<#009688>Installing SuperSU...</#>");
     run_program("/system/xbin/su", "--install");
 
 ui_print("<#009688>Installing GoogyMax Kernel...</#>");
-	package_extract_file("aroma/kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		
+	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+		getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+		package_extract_dir("aroma/scripts/loki", "/tmp");
+		package_extract_file("aroma/kernel/boot.img", "/tmp/boot.img");
+
+		set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+		set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+		set_perm(0, 0, 0777, "/tmp/loki_patch");
+		set_perm(0, 0, 0777, "/tmp/loki_flash");
+		run_program("/tmp/flash_kernel.sh");
+	else 
+		package_extract_file("aroma/kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+	endif;
+
 	package_extract_dir("aroma/kernel/system", "/system");
 	set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
-
 
 ui_print("<#009688>ROM Installed!</#>");
 ui_print(" ");	
