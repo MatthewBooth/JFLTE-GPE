@@ -131,6 +131,7 @@ textbox(
 			"camera",				"<#selectbg_g>Camera</#>","",																				"group",
 			"camera_google",		"Google", 				"Stock camera. HDR available, but no save to SDcard",								"select.selected",
 			"camera_moto",			"Motorola", 			"Motorola's Camera. No HDR, but supports saving to SDcard",							"select",
+			"no",					"No", 					"Do not install a Camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
 			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
