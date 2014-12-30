@@ -136,6 +136,10 @@ textbox(
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
 			"gallery_aosp",			"AOSP", 				"AOSP Gallery from CyanogenMod 12",													"select.selected",
 			"gallery_moto",			"Motorola", 			"Motorola's Material UI themed gallery",											"select",
+
+			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
+			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
+			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",
 			
 			"keyboards",			"<#selectbg_g>Keyboards</#>","",																			"group",
 			"google",				"Google", 				"Google enhanced AOSP Keyboard with swipe functionality",							"select.selected",

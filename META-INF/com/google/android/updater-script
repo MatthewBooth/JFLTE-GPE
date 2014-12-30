@@ -111,6 +111,16 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/gallery/moto", "/system");
     endif;
 
+# Contacts and Dialer
+    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "stock" then
+        ui_print("Installing Stock Contacts and Dialer");
+        package_extract_dir("aroma/apps/contacts_dialer/stock", "/system/priv-app");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "dark" then
+        ui_print("Installing Dark Contacts and Dialer");
+        package_extract_dir("aroma/apps/contacts_dialer/dark", "/system/priv-app");
+    endif;
+
 #Keyboards
     if file_getprop("/tmp/aroma-data/install.prop","keyboards") == "google" then
       ui_print("Installing Google Keyboard");
