@@ -110,7 +110,6 @@ textbox(
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
 		"factory",				"Factory Reset", 		"Wipe everything on the data partition, except /data/media (the internal storage) <#ff4444>(RECOMMENDED)</#>",		"select.selected",
-		"everything",			"Everything", 			"Wipe everything on the data partition, including the internal storage (extSdCard is not touched)",					"select",
 		"nothing",				"Nothing", 				"Wipe just /system. Same as a 'dirty' flash (useful for upgrading)",												"select"
 	);
 		
@@ -125,7 +124,7 @@ textbox(
 			
 			"launcher",				"<#selectbg_g>Launchers</#>","",																			"group",
 			"stock",				"Trebuchet", 			"Stock CyanogenMod Launcher",														"select.selected",
-			"google",				"Google", 				"Google Experience Launcher 4.4.2",													"select",
+			"google",				"Google", 				"Google Experience Launcher",														"select",
 			"nova",					"Nova", 				"Highly customisable custom launcher",												"select",
 			"apex",					"Apex", 				"Create a customized homescreen experience",										"select",
 			
