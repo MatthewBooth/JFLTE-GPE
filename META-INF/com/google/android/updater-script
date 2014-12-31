@@ -591,10 +591,15 @@ ui_print("<#009688>Finishing Installation...</#>");
     if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 		getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw" || 
 		getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then
-    
+
 		package_extract_file("aroma/scripts/default_network.sh", "/tmp/default_network.sh");
-	    set_perm(0, 0, 0777, "/tmp/default_network.sh");
+		set_perm(0, 0, 0777, "/tmp/default_network.sh");
 		run_script("/tmp/default_network.sh");
+	endif;
+
+if (getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then    
+		package_extract_file("aroma/scripts/eri.xml", "/data/eri.xml");
+	    set_perm(0, 0, 0644, "/data/eri.xml");
 	endif;
 	
 ui_print("<#009688>ROM Installed!</#>");
