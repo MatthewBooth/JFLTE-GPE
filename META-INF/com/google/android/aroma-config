@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "01012015");
+ini_set("rom_version",          "20150101");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "01012015");
+ini_set("rom_date",             "20150101");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX219");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -138,8 +138,9 @@ textbox(
 			"no",					"No", 					"Do not install a Gallery",															"select",
 
 			"messenger",			"<#selectbg_g>Google MMS</#>","",																			"group",
-			"yes",					"Yes", 					"Install Google Messenger",											                "select.selected",
-			"no",					"No", 					"Do not install Google Messenger",													"select",
+			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
+			"cyan",					"Cyanogen",				"Install Cyanogen Messaging",										                "select",
+			"no",					"No", 					"Do not a messsgaing app",															"select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
