@@ -137,6 +137,10 @@ textbox(
 			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
 			"no",					"No", 					"Do not install a Gallery",															"select",
 
+			"messenger",			"<#selectbg_g>Google MMS</#>","",																				"group",
+			"yes",					"Yes", 					"Install Google Messenger",											"select.selected",
+			"no",					"No", 					"Do not install Google Messenger",															"select",
+
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
 			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",

@@ -1,0 +1,15 @@
+﻿Remove Messenger from system, add to AROMA
+
+Description says it all
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   META-INF/com/google/android/aroma-config
+#	modified:   META-INF/com/google/android/updater-script
+#	renamed:    system/priv-app/Messenger/base.apk -> aroma/apps/mms/messenger/Messenger/base.apk
+#
+

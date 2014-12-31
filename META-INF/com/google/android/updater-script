@@ -101,6 +101,12 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing AOSP Gallery");
         package_extract_dir("aroma/apps/gallery/aosp", "/system");
     endif;
+	
+# Messenger
+    if file_getprop("/tmp/aroma-data/install.prop","messenger") == "yes" then
+        ui_print("Installing Google Messenger");
+        package_extract_dir("aroma/apps/mms/messenger", "/system/priv-app");
+    endif;
 
 # Contacts and Dialer
     if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "stock" then
