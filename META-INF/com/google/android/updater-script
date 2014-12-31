@@ -594,7 +594,7 @@ ui_print("<#009688>Finishing Installation...</#>");
 
 		package_extract_file("aroma/scripts/default_network.sh", "/tmp/default_network.sh");
 		set_perm(0, 0, 0777, "/tmp/default_network.sh");
-		run_script("/tmp/default_network.sh");
+		run_program("/tmp/default_network.sh");
 	endif;
 
 if (getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then    
