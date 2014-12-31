@@ -258,4 +258,4 @@ ro.ota.romname=JFLTE-GPE
 ro.ota.version=20150101
 ro.ota.codename=LRX219
 ro.ota.device=jflte
-ro.ota.manifest=https://dl.dropboxusercontent.com/u/36948586/update_manifest.xml?dl=1
+ro.ota.manifest=http://ultimarom.com/rom/files/update-manifests/update_manifest.xml
