@@ -118,16 +118,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/contacts_dialer/dark", "/system/priv-app");
     endif;
 
-#Keyboards
-    if file_getprop("/tmp/aroma-data/install.prop","keyboards") == "google" then
-      ui_print("Installing Google Keyboard");
-	  package_extract_dir("aroma/apps/keyboards/google", "/system/app");
-    endif;	
-	if file_getprop("/tmp/aroma-data/install.prop","keyboards") == "swift" then
-      ui_print("Installing SwiftKey Keyboard");
-	  package_extract_dir("aroma/apps/keyboards/swiftkey", "/system/app");
-    endif;
-
 # Data Apps
 	if file_getprop("/tmp/aroma-data/install.prop","adaway") == "1" then
 		ui_print("Installing AdAway");

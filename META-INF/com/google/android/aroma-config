@@ -137,18 +137,14 @@ textbox(
 			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
 			"no",					"No", 					"Do not install a Gallery",															"select",
 
-			"messenger",			"<#selectbg_g>Google MMS</#>","",																				"group",
-			"yes",					"Yes", 					"Install Google Messenger",											"select.selected",
-			"no",					"No", 					"Do not install Google Messenger",															"select",
+			"messenger",			"<#selectbg_g>Google MMS</#>","",																			"group",
+			"yes",					"Yes", 					"Install Google Messenger",											                "select.selected",
+			"no",					"No", 					"Do not install Google Messenger",													"select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
 			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",
-			
-			"keyboards",			"<#selectbg_g>Keyboards</#>","",																			"group",
-			"google",				"Google", 				"Google enhanced AOSP Keyboard with swipe functionality",							"select.selected",
-			"swift",				"SwiftKey", 			"Keyboard app for Android that delivers autocorrect and next-word prediction",		"select",
-			
+							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
 			"busybox",				"Busybox",				"Stericson Busybox installer",														"check.checked",
