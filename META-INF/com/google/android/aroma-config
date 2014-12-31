@@ -144,6 +144,10 @@ textbox(
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
 			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",
+
+			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
+			"stock",				"Stock", 				"Stock Settings app",																"select.selected",
+			"dark",					"Dark", 				"Dark themed Settings app",															"select",
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
