@@ -14,6 +14,7 @@ Visit http://ultimarom.com for downloads
 * Fixed FC's in Trebuchet Launcher
 * SQlite3 will now work as intended
 * Ported CM's Changelog feature into the GPE Settings.apk. Settings->About
+* Added option for dark material Settings
 * Removed Adblocking by default, made AdAway an option in AROMA
 * Added missing Emoji fonts from the Nexus 5
 * Updated latest APN entires from CyanogenMod
