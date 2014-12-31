@@ -138,12 +138,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/data/adaway", "/data");
     endif;
 
-    if file_getprop("/tmp/aroma-data/install.prop","busybox") == "1" then
-        ui_print("Installing Busybox Installer");
-        package_extract_dir("aroma/apps/data/busybox", "/data/app");
-    endif;
-
-	 if file_getprop("/tmp/aroma-data/install.prop","chrome") == "1" then
+	if file_getprop("/tmp/aroma-data/install.prop","chrome") == "1" then
 		ui_print("Installing Google Chrome");
         package_extract_dir("aroma/apps/data/chrome", "/data/app");
     endif;

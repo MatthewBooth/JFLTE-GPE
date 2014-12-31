@@ -152,7 +152,6 @@ textbox(
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
-			"busybox",				"Busybox",				"Stericson Busybox installer",														"check.checked",
 			"chrome",				"Chrome", 				"Google Chrome browser",															"check.checked",
 			"es_file_explorer",		"ES File Explorer", 	"One of best resource management tools",											"check.checked",
 			"gmail",				"GMail", 				"Google's Email service and email checking application",							"check.checked",
