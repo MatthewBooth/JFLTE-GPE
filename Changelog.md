@@ -4,7 +4,7 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog
+### Changelog 20150101
 * Implemented AROMA installer to customize you're installation
 * Updated to latest googy_max kernel 1.2.5
 * Kernel will auto loki for AT&T/VZW
@@ -25,3 +25,5 @@ Visit http://ultimarom.com for downloads
 * S-tweaks themed material and enhanced
 * Updated Google Play Store and Google Camera
 * Removed some unnecessary files from the zip
+* Material UI themed cLock
+* Added Cyanogen Messaging

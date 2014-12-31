@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE - 5.0 - 01012015</#></b>
+<b><#selectbg_g>JFLTE-GPE - 5.0 - 20150101</#></b>
 <*>Implemented AROMA installer to customize you're installation</*>
 <*>Updated to latest googy_max kernel 1.2.5</*>
 <*>Kernel will auto loki for AT&T/VZW</*>
@@ -19,3 +19,6 @@
 <*>S-tweaks themed material and enhanced</*>
 <*>Updated Google Play Store and Google Camera</*>
 <*>Removed some unnecessary files from the zip</*>
+<*>Material UI themed cLock</*>
+<*>Added Cyanogen Messaging</*>
+
