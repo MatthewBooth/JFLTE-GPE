@@ -107,9 +107,9 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Google Messenger");
         package_extract_dir("aroma/apps/mms/messenger", "/system/priv-app");
     endif;
-    if file_getprop("/tmp/aroma-data/install.prop","messenger") == "cyan" then
-        ui_print("Installing Cyanogen Messaging");
-        package_extract_dir("aroma/apps/mms/cyan", "/system/priv-app");
+    if file_getprop("/tmp/aroma-data/install.prop","messenger") == "aosp" then
+        ui_print("Installing AOSP Messaging");
+        package_extract_dir("aroma/apps/mms/aosp", "/system/priv-app");
     endif;
 
 # Contacts and Dialer

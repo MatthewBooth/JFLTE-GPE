@@ -139,7 +139,7 @@ textbox(
 
 			"messenger",			"<#selectbg_g>Google MMS</#>","",																			"group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
-			"cyan",					"Cyanogen",				"Install Cyanogen Messaging",										                "select",
+			"aosp",					"AOSP",				"Install AOSP Messaging",										                "select",
 			"no",					"No", 					"Do not a messsgaing app",															"select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
