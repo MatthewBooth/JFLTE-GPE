@@ -254,7 +254,7 @@ persist.adb.notify=0
 wifi.supplicant_scan_interval=120
 
 # OTA Updates
-ro.ota.romname=GooglePlayEdition
+ro.ota.romname=JFLTE-GPE
 ro.ota.version=01012015
 ro.ota.codename=LRX219
 ro.ota.device=jflte
