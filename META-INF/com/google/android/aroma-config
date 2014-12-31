@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "12242014");
+ini_set("rom_version",          "01012015");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "12242014");
+ini_set("rom_date",             "01012015");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX219");
 setvar("rom_codebase", 			"Google Play Edition");
