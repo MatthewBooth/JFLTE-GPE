@@ -15,6 +15,8 @@ Visit http://ultimarom.com for downloads
 * SQlite3 will now work as intended
 * Ported CM's Changelog feature into the GPE Settings.apk. Settings->About
 * Added option for dark material Settings
+* Added a choice for AOSP Messaging with quick reply
+* AOSP Sound recorder
 * Removed Adblocking by default, made AdAway an option in AROMA
 * Added missing Emoji fonts from the Nexus 5
 * Updated latest APN entires from CyanogenMod
@@ -26,4 +28,3 @@ Visit http://ultimarom.com for downloads
 * Updated Google Play Store and Google Camera
 * Removed some unnecessary files from the zip
 * Material UI themed cLock
-* Added Cyanogen Messaging
