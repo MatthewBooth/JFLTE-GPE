@@ -125,12 +125,12 @@ textbox(
 			"launcher",				"<#selectbg_g>Launchers</#>","",																			"group",
 			"stock",				"Trebuchet", 			"Stock CyanogenMod Launcher",														"select.selected",
 			"google",				"Google", 				"Google Experience Launcher",														"select",
-			"nova",					"Nova", 				"Highly customisable custom launcher",												"select",
-			"apex",					"Apex", 				"Create a customized homescreen experience",										"select",
+			"nova",					"Nova", 				"Nova Launcher",												                    "select",
+			"apex",					"Apex", 				"Apex Launcher",										                            "select",
 			
 			"camera",				"<#selectbg_g>Camera</#>","",																				"group",
-			"camera_google",		"Google", 				"Stock camera. HDR available, but no save to SDcard",								"select.selected",
-			"camera_moto",			"Motorola", 			"Motorola's Camera. No HDR, but supports saving to SDcard",							"select",
+			"camera_google",		"Google", 				"Stock camera. HDR available, but no saving to SDcard",								"select.selected",
+			"camera_moto",			"Motorola", 			"Motorola Camera. No HDR, but supports saving to SDcard",							"select",
 			"no",					"No", 					"Do not install a Camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
@@ -140,7 +140,7 @@ textbox(
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
 			"aosp",					"AOSP",				    "Install AOSP Messaging",										                    "select",
-			"no",					"No", 					"Do not install a messsgaing app",													"select",
+			"no",					"No", 					"Do not install a MMS app",													        "select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
@@ -156,6 +156,7 @@ textbox(
 			"es_file_explorer",		"ES File Explorer", 	"One of best resource management tools",											"check.checked",
 			"gmail",				"GMail", 				"Google's Email service and email checking application",							"check.checked",
 			"lockclock",			"cLock", 				"CyanogenMod's clock and weather widget",											"check.checked",
+			"ears",				    "Google Sound Search", 	"Install Google Sound Search",							                            "check.checked",
 			"tts",					"Google TTS", 			"Google's Text-to-Speech synthesizer",												"check.checked",
 			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked"
 		);

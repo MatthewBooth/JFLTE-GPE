@@ -157,6 +157,11 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing cLock");
         package_extract_dir("aroma/apps/data/lockclock", "/data/app");
     endif;
+	
+	if file_getprop("/tmp/aroma-data/install.prop","ears") == "1" then
+        ui_print("Installing Google Sound Search");
+        package_extract_dir("aroma/apps/ears", "/system/app");
+    endif;
 
     if file_getprop("/tmp/aroma-data/install.prop","tts") == "1" then
         ui_print("Installing Google Text-to-Speech");
