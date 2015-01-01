@@ -157,7 +157,7 @@ textbox(
 			"gmail",				"GMail", 				"Google's Email service and email checking application",							"check.checked",
 			"lockclock",			"cLock", 				"CyanogenMod's clock and weather widget",											"check.checked",
 			"tts",					"Google TTS", 			"Google's Text-to-Speech synthesizer",												"check.checked",
-			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked",
+			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked"
 		);
 			
 	  
