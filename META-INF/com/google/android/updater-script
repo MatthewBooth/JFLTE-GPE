@@ -162,6 +162,11 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Google Text-to-Speech");
         package_extract_dir("aroma/apps/data/tts", "/data/app");
     endif;
+	
+	if file_getprop("/tmp/aroma-data/install.prop","wallet") == "1" then
+        ui_print("Installing Google Wallet");
+        package_extract_dir("aroma/apps/wallet/google", "/system/priv-app");
+    endif;
 
 #### Symlinking, permissions and Busybox
 ui_print("<#009688>Symlinking...</#>");
