@@ -168,6 +168,10 @@
           <TimeoutValue>2.5</TimeoutValue>
           <LCDStatus>off</LCDStatus>
         </FastDormancyRel8>
+        <WbAmr>
+          <NetworkName>default</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
       </Network>
       <Phone>
         <DefLanguage>automatic</DefLanguage>
