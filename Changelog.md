@@ -16,7 +16,7 @@ Visit http://ultimarom.com for downloads
 * AROMA improvements
 
 ### Changelog 20150101
-* Implemented AROMA installer to customize you're installation
+* Implemented AROMA installer to customize your installation
 * Updated to latest googy_max kernel 1.2.5
 * Kernel will auto loki for AT&T/VZW
 * Verizon and Sprint will boot with proper framework and CDMA settings right out of the box
