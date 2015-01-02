@@ -132,7 +132,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/settings/dark", "/system/priv-app");
     endif;
 
-# Settings
+# DSP Audio
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "stock" then
         ui_print("Installing Stock DSP");
         package_extract_dir("aroma/apps/audio/stock", "/system");
