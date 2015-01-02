@@ -4,6 +4,7 @@
 <*>Googla Wallet is now optional in AROMA</*>
 <*>Google Sound Search is now optional in AROMA</*>
 <*>Apex will now install as intended via AROMA</*>
+<*>DSP or stock processing in AROMA</*>
 <*>Spanish translation for interface app thanks to marcuzzi</*>
 <*>Fixed Voice recorder</*>
 <*>OTA app updates</*>

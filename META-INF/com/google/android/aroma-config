@@ -149,6 +149,10 @@ textbox(
 			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
 			"stock",				"Stock", 				"Stock Settings app",																"select.selected",
 			"dark",					"Dark", 				"Dark themed Settings app",															"select",
+
+			"dsp",					"<#selectbg_g>Digital Signal Processing</#>","",															"group",
+			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select",
+			"cyan",					"Cyanogen",				"Cyanogen Digital Signal Processing <#ff4444>RECOMMENDED</#>",						"select.selected",
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
