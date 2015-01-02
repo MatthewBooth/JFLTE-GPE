@@ -19,7 +19,7 @@
 ##
 #
 # 				  AROMA Installer
-# 		Written by Kryten2k35 Using AROMA Installer
+# 		Written by Kryten2k35 & Danvdh Using AROMA Installer
 #
 # Initializing Rom Information & Variables
 #
@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150101");
+ini_set("rom_version",          "20150102");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150101");
+ini_set("rom_date",             "20150102");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX219");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -123,8 +123,8 @@ textbox(
 			"install.prop",
 			
 			"launcher",				"<#selectbg_g>Launchers</#>","",																			"group",
-			"stock",				"Trebuchet", 			"Stock CyanogenMod Launcher",														"select.selected",
-			"google",				"Google", 				"Google Experience Launcher",														"select",
+			"google",				"Google", 				"Google Now Launcher",														        "select.selected",
+			"stock",				"Trebuchet", 			"CyanogenMod Launcher",														        "select",
 			"nova",					"Nova", 				"Nova Launcher",												                    "select",
 			"apex",					"Apex", 				"Apex Launcher",										                            "select",
 			

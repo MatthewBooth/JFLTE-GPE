@@ -4,6 +4,17 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
+### Changelog 20150102
+* TeleService FC with certain languages is fixed
+* Cleaned up Updater-Script in regards to setting default network for Sprint
+* Googla Wallet is now optional in AROMA
+* Google Sound Search is now optional in AROMA
+* Apex will now install as intended via AROMA
+* Spanish translation for interface app thanks to marcuzzi
+* Fixed Voice recorder 
+* OTA app updates
+* AROMA improvements
+
 ### Changelog 20150101
 * Implemented AROMA installer to customize you're installation
 * Updated to latest googy_max kernel 1.2.5

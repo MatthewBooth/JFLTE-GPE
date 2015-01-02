@@ -1,3 +1,14 @@
+<b><#selectbg_g>JFLTE-GPE - 5.0 - 20150102</#></b>
+<*>TeleService FC with certain languages is fixed</*>
+<*>Cleaned up Updater-Script in regards to setting default network for Sprint</*>
+<*>Googla Wallet is now optional in AROMA</*>
+<*>Google Sound Search is now optional in AROMA</*>
+<*>Apex will now install as intended via AROMA</*>
+<*>Spanish translation for interface app thanks to marcuzzi</*>
+<*>Fixed Voice recorder</*>
+<*>OTA app updates</*>
+<*>AROMA improvements</*>
+
 <b><#selectbg_g>JFLTE-GPE - 5.0 - 20150101</#></b>
 <*>Implemented AROMA installer to customize you're installation</*>
 <*>Updated to latest googy_max kernel 1.2.5</*>
