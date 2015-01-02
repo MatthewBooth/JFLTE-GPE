@@ -15,6 +15,7 @@ Visit http://ultimarom.com for downloads
 * Fixed Voice recorder 
 * OTA app updates
 * AROMA improvements
+* Enabled HD-Voice for all, by default
 
 ### Changelog 20150101
 * Implemented AROMA installer to customize your installation

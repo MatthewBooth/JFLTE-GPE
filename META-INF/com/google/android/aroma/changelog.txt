@@ -9,6 +9,7 @@
 <*>Fixed Voice recorder</*>
 <*>OTA app updates</*>
 <*>AROMA improvements</*>
+<*>Enabled HD-Voice for all, by default</*>
 
 <b><#selectbg_g>JFLTE-GPE - 5.0 - 20150101</#></b>
 <*>Implemented AROMA installer to customize your installation</*>
