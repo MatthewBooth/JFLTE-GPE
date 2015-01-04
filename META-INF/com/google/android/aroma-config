@@ -28,12 +28,12 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150102");
+ini_set("rom_version",          "20150104");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150102");
+ini_set("rom_date",             "20150104");
 setvar("rom_website", 			"www.ultimarom.com");
-setvar("rom_codename",          "LRX22c");
+setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");
 setvar("rom_type",				"GPE");
 ##
@@ -110,7 +110,7 @@ textbox(
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
 		"factory",				"Factory Reset", 		"Wipe everything on the data partition, except /data/media (the internal storage) <#ff4444>(RECOMMENDED)</#>",		"select.selected",
-		"nothing",				"Nothing", 				"Wipe just /system. Same as a 'dirty' flash (useful for upgrading)",												"select"
+		"nothing",				"Nothing", 				"Wipe just /system. Same as a 'dirty' flash",												                        "select"
 	);
 		
 	  #-------------------------+-----------------[     Install Data     ]----------------+---------------#
@@ -122,20 +122,20 @@ textbox(
 			"@install",
 			"install.prop",
 			
-			"launcher",				"<#selectbg_g>Launchers</#>","",																			"group",
+			"launcher",				"<#selectbg_g>Launcher</#>","",																			"group",
 			"google",				"Google", 				"Google Now Launcher",														        "select.selected",
 			"stock",				"Trebuchet", 			"CyanogenMod Launcher",														        "select",
 			"nova",					"Nova", 				"Nova Launcher",												                    "select",
 			"apex",					"Apex", 				"Apex Launcher",										                            "select",
 			
 			"camera",				"<#selectbg_g>Camera</#>","",																				"group",
-			"camera_google",		"Google", 				"Stock camera. HDR available, but no saving to SDcard",								"select.selected",
-			"camera_moto",			"Motorola", 			"Motorola Camera. No HDR, but supports saving to SDcard",							"select",
-			"no",					"No", 					"Do not install a Camera",															"select",
+			"camera_google",		"Google", 				"Stock camera. HDR available, no saving to SDcard",								    "select.selected",
+			"camera_moto",			"Motorola", 			"Motorola Camera. saving to SDcard supported, no HDR",							    "select",
+			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
 			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
-			"no",					"No", 					"Do not install a Gallery",															"select",
+			"no",					"No", 					"Do not install a gallery",															"select",
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
@@ -158,7 +158,7 @@ textbox(
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
 			"chrome",				"Chrome", 				"Google Chrome browser",															"check.checked",
 			"es_file_explorer",		"ES File Explorer", 	"One of best resource management tools",											"check.checked",
-			"gmail",				"GMail", 				"Google's Email service and email checking application",							"check.checked",
+			"gmail",				"Gmail", 				"Google's Email service and email checking application",							"check.checked",
 			"lockclock",			"cLock", 				"CyanogenMod's clock and weather widget",											"check.checked",
 			"ears",				    "Google Sound Search", 	"Install Google Sound Search",							                            "check.checked",
 			"tts",					"Google TTS", 			"Google's Text-to-Speech synthesizer",												"check.checked",
