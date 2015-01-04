@@ -33,7 +33,7 @@ ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
 ini_set("rom_date",             "20150102");
 setvar("rom_website", 			"www.ultimarom.com");
-setvar("rom_codename",          "LRX219");
+setvar("rom_codename",          "LRX22c");
 setvar("rom_codebase", 			"Google Play Edition");
 setvar("rom_type",				"GPE");
 ##
@@ -56,7 +56,7 @@ fontresload( "1", "ttf/Roboto-Regular.ttf", "16" );
 theme("material");
 ###################################################################################################################
 #                                                                                                                 #
-#                                           INFORMATIUON                                                          #
+#                                           INFORMATION                                                          #
 #                                                                                                                 #
 ###################################################################################################################
 viewbox(
