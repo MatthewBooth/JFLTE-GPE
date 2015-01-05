@@ -4,7 +4,7 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150104
+### Changelog 20150105
 * Fixed SMS for vodafone NL
 * Increases the falsing threshold when for the keyguard affordances
 * Voicemail now can be accessed by holding 1 for most carriers
@@ -15,6 +15,8 @@ Visit http://ultimarom.com for downloads
 * Ported CM Battery icons to the ROM
 * Clear all in recents
 * Extended power menu (includes reboot, airplane mode and sound controls)
+* Toggle advanced power menu option in interface
+* Updated OTA app
 * Updated ad-away (fixes for 5.x) 
 
 

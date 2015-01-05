@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150104");
+ini_set("rom_version",          "20150105");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150104");
+ini_set("rom_date",             "20150105");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -122,7 +122,7 @@ textbox(
 			"@install",
 			"install.prop",
 			
-			"launcher",				"<#selectbg_g>Launcher</#>","",																			"group",
+			"launcher",				"<#selectbg_g>Launcher</#>","",																			    "group",
 			"google",				"Google", 				"Google Now Launcher",														        "select.selected",
 			"stock",				"Trebuchet", 			"CyanogenMod Launcher",														        "select",
 			"nova",					"Nova", 				"Nova Launcher",												                    "select",
@@ -130,7 +130,7 @@ textbox(
 			
 			"camera",				"<#selectbg_g>Camera</#>","",																				"group",
 			"camera_google",		"Google", 				"Stock camera. HDR available, no saving to SDcard",								    "select.selected",
-			"camera_moto",			"Motorola", 			"Motorola Camera. saving to SDcard supported, no HDR",							    "select",
+			"camera_moto",			"Motorola", 			"Motorola Camera. saving to SD card supported, no HDR",							    "select",
 			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
@@ -139,7 +139,7 @@ textbox(
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
-			"aosp",					"AOSP",				    "Install AOSP Messaging",										                    "select",
+			"aosp",					"AOSP",				    "Install AOSP Messaging<#ff4444>EXPERIMENTAL</#>",									"select",
 			"no",					"No", 					"Do not install a MMS app",													        "select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",

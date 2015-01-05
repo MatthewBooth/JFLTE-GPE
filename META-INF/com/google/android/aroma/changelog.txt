@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150104</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150105</#></b>
 <*>Fixed SMS for vodafone NL</*>
 <*>Increases the falsing threshold when for the keyguard affordances</*>
 <*>Voicemail now can be accessed by holding 1 for most carriers</*>
@@ -9,5 +9,7 @@
 <*>Ported CM Battery icons to the ROM</*>
 <*>Clear all in recents</*>
 <*>Extended power menu</*>
-<*>Updated ad-away</*>
+<*>Toggle advanced power menu option in interface</*>
+<*>Updated OTA app
+<*>Updated AdAway</*>
 
