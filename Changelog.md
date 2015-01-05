@@ -5,19 +5,19 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 Visit http://ultimarom.com for downloads
 
 ### Changelog 20150105
+* Even with 5.0.1 LRX22C - Unofficial 5.0.1
+* Deodexed framework
 * Fixed SMS for vodafone NL
 * Increases the falsing threshold when for the keyguard affordances
 * Voicemail now can be accessed by holding 1 for most carriers
 * Some ADB fail safe fixes that were merged into 5.0.1
-* Even with 5.0.1 LRX22C (Unofficial 5.0.1, our kernel is way ahead of Samsung)
-* Deodexed framework
 * Fixed SystemUI heads up notification spacing
 * Ported CM Battery icons to the ROM
 * Clear all in recents
-* Extended power menu (includes reboot, airplane mode and sound controls)
+* Extended power menu
 * Toggle advanced power menu option in interface
-* Updated OTA app
-* Updated ad-away (fixes for 5.x) 
+* Updated OTA app - fixed open recovery script installation. Using markdown for changelog rendering
+* Updated AdAway (fixes for 5.0)
 
 
 ### Changelog 20150102
