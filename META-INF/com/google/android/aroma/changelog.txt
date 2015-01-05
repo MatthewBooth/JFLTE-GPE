@@ -10,6 +10,6 @@
 <*>Clear all in recents</*>
 <*>Extended power menu</*>
 <*>Toggle advanced power menu option in interface</*>
-<*>Updated OTA app
+<*>Updated OTA app</*>
 <*>Updated AdAway</*>
 
