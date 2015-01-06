@@ -2,7 +2,7 @@
 <*>Even with 5.0.1 LRX22C - Unofficial 5.0.1</*>
 <*>Deodexed framework</*>
 <*>Fixed SMS for vodafone NL</*>
-<*>Increases the falsing threshold when for the keyguard affordances</*>
+<*>Increased the falsing threshold - merged from 5.0.1</*>
 <*>Voicemail now can be accessed by holding 1 for most carriers</*>
 <*>Some ADB fail safe fixes that were merged into 5.0.1</*>
 <*>Fixed SystemUI heads up notification spacing</*>
