@@ -256,4 +256,4 @@ wifi.supplicant_scan_interval=120
 # OTA Updates
 ro.ota.romname=JFLTE-GPE
 ro.ota.version=20150105
-ro.ota.manifest=http://ultimarom.com/rom/files/update-manifests/update_manifest.xml
+ro.ota.manifest=https://romhut.com/roms/danvdh-googleedition/ota.xml
