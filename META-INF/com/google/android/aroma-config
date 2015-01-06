@@ -157,6 +157,15 @@ textbox(
 			"dsp",					"<#selectbg_g>Digital Signal Processing</#>","",															"group",
 			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select",
 			"cyan",					"Cyanogen",				"Cyanogen Digital Signal Processing <#ff4444>RECOMMENDED</#>",						"select.selected",
+
+			"dpi",					"<#selectbg_g>Dots-Per-Inch</#>","",																		"group",
+			"480",					"480", 					"Stock value",																		"select.selected",
+			"460",					"460",					"Set a value of 460",																"select",
+			"440",					"440",					"Set a value of 440",																"select",
+			"420",					"420",					"Set a value of 420",																"select",
+			"400",					"400",					"Set a value of 400",																"select",
+			"380",					"380",					"Set a value of 380",																"select",
+			"370",					"370",					"Set a value of 370",																"select",
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",

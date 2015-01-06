@@ -69,6 +69,14 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	delete_recursive("/data/data/com.ota.updates");
 	delete_recursive("/data/data/com.ultima.settings");
 
+### Setting DPI
+
+	if file_getprop("/tmp/aroma-data/install.prop","dpi") != "480" then
+		package_extract_file("aroma/scripts/set_dpi.sh", "/tmp/set_dpi.sh");
+		set_perm(0, 0, 0777, "/tmp/set_dpi.sh");
+		run_program("/tmp/set_dpi.sh", file_getprop("/tmp/aroma-data/install.prop","dpi"));
+	endif;
+
 #### Installing custom apps
 
 # Launchers
