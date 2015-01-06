@@ -67,6 +67,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 
 # Clear OTA app data for those that anger developers and dirty flash >.<
 	delete_recursive("/data/data/com.ota.updates");
+	delete_recursive("/data/data/com.ultima.settings");
 
 #### Installing custom apps
 
