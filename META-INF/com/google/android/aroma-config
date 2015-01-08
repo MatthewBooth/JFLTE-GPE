@@ -166,6 +166,7 @@ textbox(
 			"400",					"400",					"Set a value of 400",																"select",
 			"380",					"380",					"Set a value of 380",																"select",
 			"370",					"370",					"Set a value of 370",																"select",
+			"360",					"360",					"Set a value of 360",																"select",
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
