@@ -410,6 +410,7 @@ ui_print("<b><#009688>Symlinking...</#></b>");
 	symlink("/system/lib/libjni_pacprocessor.so", "/system/app/PacProcessor/lib/arm/libjni_pacprocessor.so");
 	symlink("/system/lib/libnfc_nci_jni.so", "/system/app/NfcNci/lib/arm/libnfc_nci_jni.so");
 	symlink("/system/lib/libprintspooler_jni.so", "/system/app/PrintSpooler/lib/arm/libprintspooler_jni.so");
+	symlink("/system/xbin/su", "/system/bin/su");
 	symlink("toolbox", "/system/bin/cat");
 	symlink("toolbox", "/system/bin/chcon");
 	symlink("toolbox", "/system/bin/chmod");
@@ -563,46 +564,44 @@ ui_print("<b><#009688>Installing BusyBox...</#></b>");
 	run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
 #### Rooting
-	if file_getprop("/tmp/aroma-data/install.prop","root") == "yes" then
-		ui_print("<b><#009688>Installing SuperSU...</#></b>");
-		    package_extract_file("aroma/scripts/disableroot.sh", "/tmp/disableroot.sh");
-		    set_perm(0, 0, 0755, "/tmp/disableroot.sh");
-		    run_program("/tmp/disableroot.sh");
-		    delete("/tmp/disableroot.sh");
+ui_print("<b><#009688>Installing SuperSU...</#></b>");
+    package_extract_file("aroma/scripts/disableroot.sh", "/tmp/disableroot.sh");
+    set_perm(0, 0, 0755, "/tmp/disableroot.sh");
+    run_program("/tmp/disableroot.sh");
+    delete("/tmp/disableroot.sh");
 
-		    package_extract_dir("aroma/supersu", "/system");
-		    symlink("/system/xbin/su", "/system/bin/su");
-		    symlink("/system/etc/install-recovery.sh", "/system/bin/install-recovery.sh");
-		    delete("/system/bin/app_process");
-		    symlink("/system/xbin/daemonsu", "/system/bin/app_process");
-		    set_metadata("/system/bin/app_process", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/etc/install-recovery.sh", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/etc/init.d/99SuperSUDaemon", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/xbin/su", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-
-
-		    # SuperSU requires some additional work
-		    package_extract_file("aroma/scripts/supersu.sh", "/tmp/supersu.sh");
-		    set_perm(0, 0, 0755, "/tmp/supersu.sh");
-		    run_program("/tmp/supersu.sh");
-		    delete("/tmp/supersu.sh");
+    package_extract_dir("aroma/supersu", "/system");
+    symlink("/system/xbin/su", "/system/bin/su");
+    symlink("/system/etc/install-recovery.sh", "/system/bin/install-recovery.sh");
+    delete("/system/bin/app_process");
+    symlink("/system/xbin/daemonsu", "/system/bin/app_process");
+    set_metadata("/system/bin/app_process", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/etc/install-recovery.sh", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/etc/init.d/99SuperSUDaemon", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/xbin/su", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 
 
-		    set_metadata("/system/bin/app_process_init", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/bin/app_process32_original", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    # SuperSU requires some additional work
+    package_extract_file("aroma/scripts/supersu.sh", "/tmp/supersu.sh");
+    set_perm(0, 0, 0755, "/tmp/supersu.sh");
+    run_program("/tmp/supersu.sh");
+    delete("/tmp/supersu.sh");
 
-		    symlink("/system/xbin/daemonsu", "/system/bin/app_process32");
-		    set_metadata("/system/bin/app_process32", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    
-		    
-		    # Apply permissions
-		    set_metadata("/system/xbin/sugote", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:zygote_exec:s0");
-		    set_metadata("/system/xbin/sugote-mksh", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/xbin/supolicy", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/Superuser/lib/arm/libsupol.so", "uid", 0, "gid", 0, "mode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    set_metadata("/system/bin/.ext", "uid", 0, "gid", 0, "mode", 0777, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-		    run_program("/system/xbin/su", "--install");
-    endif;
+
+    set_metadata("/system/bin/app_process_init", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/bin/app_process32_original", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+
+    symlink("/system/xbin/daemonsu", "/system/bin/app_process32");
+    set_metadata("/system/bin/app_process32", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    
+    
+    # Apply permissions
+    set_metadata("/system/xbin/sugote", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:zygote_exec:s0");
+    set_metadata("/system/xbin/sugote-mksh", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/xbin/supolicy", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/Superuser/lib/arm/libsupol.so", "uid", 0, "gid", 0, "mode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    set_metadata("/system/bin/.ext", "uid", 0, "gid", 0, "mode", 0777, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+    run_program("/system/xbin/su", "--install");
 
 ui_print("<b><#009688>Installing GoogyMax Kernel...</#></b>");
 		

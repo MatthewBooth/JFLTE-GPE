@@ -121,10 +121,6 @@ textbox(
 			"Choose your options",
 			"@install",
 			"install.prop",
-
-			"root",					"<#selectbg_g>Root</#>","",																					"group",
-			"yes",					"Yes", 					"Install SuperSU",																    "select.selected",
-			"no",					"No", 					"Do not root",																		"select",
 			
 			"launcher",				"<#selectbg_g>Launcher</#>","",																			    "group",
 			"google",				"Google", 				"Google Now Launcher",														        "select.selected",
