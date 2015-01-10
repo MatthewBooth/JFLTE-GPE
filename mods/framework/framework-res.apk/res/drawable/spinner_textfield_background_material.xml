@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="@dimen/control_inset_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector android:autoMirrored="true">
+        <item android:state_checked="false" android:state_pressed="false">
+            <layer-list android:paddingMode="stack">
+                <item>
+                    <nine-patch android:src="@drawable/textfield_default_mtrl_alpha" android:tint="?colorControlNormal" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/spinner_mtrl_am_alpha" android:tint="?colorControlNormal" />
+                </item>
+            </layer-list>
+        </item>
+        <item>
+            <layer-list android:paddingMode="stack">
+                <item>
+                    <nine-patch android:src="@drawable/textfield_activated_mtrl_alpha" android:tint="?colorControlActivated" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/spinner_mtrl_am_alpha" android:tint="?colorControlActivated" />
+                </item>
+            </layer-list>
+        </item>
+    </selector>
+</inset>

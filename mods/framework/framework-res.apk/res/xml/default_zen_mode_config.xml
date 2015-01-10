@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zen version="1">
+    <allow calls="false" messages="false" />
+    <sleep startHour="22" startMin="0" endHour="7" endMin="0" />
+</zen>

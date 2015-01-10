@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">入力できるのはあと%d回です。この回数を超えるとSIMがロックされます。</item>
+        <item quantity="one">入力できるのはあと%d回です。この回数を超えるとSIMがロックされます。</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">過去%d日間</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fiを利用できます</item>
+        <item quantity="one">Wi-Fiを利用できます</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Wi-Fiオープンネットワークが利用できます</item>
+        <item quantity="one">Wi-Fiオープンネットワークが利用できます</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d/%2$d件</item>
+        <item quantity="one">1件一致</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d秒後に再試行</item>
+        <item quantity="one">1秒後に再試行</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+</resources>

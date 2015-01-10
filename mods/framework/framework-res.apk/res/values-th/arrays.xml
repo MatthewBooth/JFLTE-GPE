@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>บ้าน</item>
+        <item>ที่ทำงาน</item>
+        <item>อื่นๆ</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ที่ทำงาน</item>
+        <item>อื่นๆ</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>บ้าน</item>
+        <item>มือถือ</item>
+        <item>ที่ทำงาน</item>
+        <item>โทรสารที่ทำงาน</item>
+        <item>โทรสารที่บ้าน</item>
+        <item>เพจเจอร์</item>
+        <item>อื่นๆ</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>บ้าน</item>
+        <item>ที่ทำงาน</item>
+        <item>อื่นๆ</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>บ้าน</item>
+        <item>ที่ทำงาน</item>
+        <item>อื่นๆ</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">ሲምዎ ከመቆለፉ በፊት %d ሙከራዎች ይቀሩዎታል።</item>
+        <item quantity="one">ሲምዎ ከመቆለፉ በፊት %d ሙከራ ይቀርዎታል።</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d ሰኮንዶች በፊት</item>
+        <item quantity="one">ከ1 ሴኮንድ በፊት</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d ደቂቃዎች በፊት</item>
+        <item quantity="one">ከ 1 ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">ከ %d ሰዓት በፊት</item>
+        <item quantity="one">ከ1 ሰዓት በፊት</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">ቀኖች %d ያልቃል</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">ከ %dቀን በፊት</item>
+        <item quantity="one">ትላንትና</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">በ%d ሰከንዶች ውስጥ</item>
+        <item quantity="one">በ1 ሴኮንድ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">በ%d ደቂቃዎች ውስጥ</item>
+        <item quantity="one">በ1 ደቂቃ ውስጥ</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">በ %d ሰዓቶች</item>
+        <item quantity="one">"በ  1 ሰዓት"</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">በ%d ቀኖች</item>
+        <item quantity="one">ነገ</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d ሰከንዶች በፊት</item>
+        <item quantity="one">1 ሴኮንድ በፊት</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">ከ %d ደቂቃዎች በፊት</item>
+        <item quantity="one">ከ 1 ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">ከ %d ሰዓት በፊት</item>
+        <item quantity="one">ከ1 ሰዓት በፊት</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">ከ %dቀን በፊት</item>
+        <item quantity="one">ትላንትና</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">በ%d ሰከንዶች ውስጥ</item>
+        <item quantity="one">በ1 ሴኮንድ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">በ%d ደቂቃዎች ውስጥ</item>
+        <item quantity="one">በ1 ደቂቃ ውስጥ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">በ %d ሰዓቶች</item>
+        <item quantity="one">"በ  1 ሰዓት"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">በ%d ቀኖች</item>
+        <item quantity="one">ነገ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">1 ሴኮንድ</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">1 ደቂቃ</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ሰዓቶች</item>
+        <item quantity="one">1 ሰዓት</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">የWi-Fi አውታረ መረቦች አሉ</item>
+        <item quantity="one">የWi-Fi አውታረ መረብ አለ</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">አውታረ መረቦች ሲኖሩ Wi-Fi ክፈት</item>
+        <item quantity="one">አውታረ መረብ ሲኖር Wi-Fi ክፈት</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ከ %2$d</item>
+        <item quantity="one">1 ጨዋታ</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">በ%d ሰከንዶች ውስጥ እንደገና ይሞክሩ</item>
+        <item quantity="one">በ1 ሰከንድ ውስጥ እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">ለ%d ደቂቃዎች</item>
+        <item quantity="one">ለአንድ ደቂቃ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">ለ%d ሰዓቶች</item>
+        <item quantity="one">ለአንድ ሰዓት</item>
+    </plurals>
+</resources>

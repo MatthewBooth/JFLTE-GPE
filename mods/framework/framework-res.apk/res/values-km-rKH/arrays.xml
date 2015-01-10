@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>កន្លែង​ធ្វើការ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាម​តម្រូវ​ការ</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>ជជែក​ Google</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>កន្លែង​ធ្វើការ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាម​តម្រូវ​ការ</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ផ្ទះ</item>
+        <item>​ចល័ត</item>
+        <item>កន្លែង​ធ្វើការ</item>
+        <item>ទូរសារ​កន្លែង​ធ្វើ</item>
+        <item>ទូរសារ​ផ្ទះ</item>
+        <item>ភេយ័រ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាម​បំណង</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>កន្លែង​ធ្វើការ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាម​បំណង</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>កន្លែង​ធ្វើការ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាម​តម្រូវការ</item>
+    </string-array>
+</resources>

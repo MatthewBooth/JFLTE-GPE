@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:id="@id/search_bar" android:background="@color/transparent" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" class="android.app.SearchDialog$SearchBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="?actionModeBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/closeButton" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?homeAsUpIndicator" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/search_app_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        </LinearLayout>
+        <SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="600.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ab_solid_shadow_holo" android:scaleType="fitXY" />
+</view>

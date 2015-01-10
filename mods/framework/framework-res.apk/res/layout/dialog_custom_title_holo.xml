@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="start|center" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="@dimen/alert_dialog_title_height" android:layout_weight="0.0" style="?android:attr/windowTitleBackgroundStyle" />
+    <View android:id="@id/titleDivider" android:background="@color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?windowContentOverlay" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

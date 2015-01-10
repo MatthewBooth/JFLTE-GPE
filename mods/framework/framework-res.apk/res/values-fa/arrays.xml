@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>خانه</item>
+        <item>محل کار</item>
+        <item>سایر موارد</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>محل کار</item>
+        <item>سایر موارد</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>خانه</item>
+        <item>تلفن همراه</item>
+        <item>محل کار</item>
+        <item>نمابر محل کار</item>
+        <item>نمابر خانه</item>
+        <item>پیجر</item>
+        <item>سایر موارد</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>خانه</item>
+        <item>محل کار</item>
+        <item>سایر موارد</item>
+        <item>سفارشی</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>خانه</item>
+        <item>محل کار</item>
+        <item>سایر موارد</item>
+        <item>سفارشی</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="wrap_content" android:layout_height="fill_parent" class="com.android.internal.widget.ActionBarView$HomeView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?homeAsUpIndicator" android:layout_marginEnd="-8.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/action_bar_icon_vertical_padding" android:layout_marginBottom="@dimen/action_bar_icon_vertical_padding" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginEnd="8.0dip" />
+</view>

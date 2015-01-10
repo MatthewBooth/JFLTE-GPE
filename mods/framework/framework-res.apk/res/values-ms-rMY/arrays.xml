@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Rumah</item>
+        <item>Kerja</item>
+        <item>Lain-lain</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Bual Google</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Kerja</item>
+        <item>Lain-lain</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Laman Utama</item>
+        <item>Mudah alih</item>
+        <item>Kerja</item>
+        <item>Faks Kerja</item>
+        <item>Faks Rumah</item>
+        <item>Alat kelui</item>
+        <item>Lain-lain</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Rumah</item>
+        <item>Kerja</item>
+        <item>Lain-lain</item>
+        <item>Peribadi</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>4210484</item>
+        <item>101975766</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>Laman Utama</item>
+        <item>Kerja</item>
+        <item>Lain-lain</item>
+        <item>Peribadi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Sähköposti (koti)</item>
+        <item>Työ</item>
+        <item>Muu</item>
+        <item>Muokattu</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Työ</item>
+        <item>Muu</item>
+        <item>Muokattu</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Puhelinnumero (koti)</item>
+        <item>Mobiili</item>
+        <item>Työ</item>
+        <item>Faksi (työ)</item>
+        <item>Faksi (koti)</item>
+        <item>Hakulaite</item>
+        <item>Muu</item>
+        <item>Muokattu</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Osoite (koti)</item>
+        <item>Työ</item>
+        <item>Muu</item>
+        <item>Muokattu</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Pikaviestin (koti)</item>
+        <item>Työ</item>
+        <item>Muu</item>
+        <item>Muokattu</item>
+    </string-array>
+</resources>

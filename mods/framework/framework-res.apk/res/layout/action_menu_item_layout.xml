@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.view.menu.ActionMenuItemView android:textAppearance="?actionMenuTextAppearance" android:gravity="center" android:layout_gravity="center" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="?attr/actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

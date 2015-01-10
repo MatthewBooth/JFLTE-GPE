@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>主要信箱</item>
+        <item>公司信箱</item>
+        <item>其他信箱</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>工作</item>
+        <item>其他</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>住家電話</item>
+        <item>行動電話</item>
+        <item>公司電話</item>
+        <item>公司傳真</item>
+        <item>住家傳真</item>
+        <item>呼叫器</item>
+        <item>其他</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>住家</item>
+        <item>公司</item>
+        <item>其他</item>
+        <item>自訂</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>25022112</item>
+        <item>121478019</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>住家</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自訂</item>
+    </string-array>
+</resources>

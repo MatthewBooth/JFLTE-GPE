@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_cdma_3waycall_flash_delay">300</integer>
+</resources>

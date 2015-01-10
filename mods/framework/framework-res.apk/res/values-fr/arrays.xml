@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Domicile</item>
+        <item>Mobile</item>
+        <item>Bureau</item>
+        <item>Télécopie bureau</item>
+        <item>Télécopie domicile</item>
+        <item>Bipeur</item>
+        <item>Autre</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisé</item>
+    </string-array>
+</resources>

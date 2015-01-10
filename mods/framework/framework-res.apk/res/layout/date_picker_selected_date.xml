@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/day_picker_selector_layout" android:paddingBottom="8.0dip" android:layout_width="@dimen/datepicker_component_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/date_picker_header" android:layout_width="@dimen/datepicker_component_width" android:layout_height="@dimen/datepicker_header_height" android:layout_marginBottom="8.0dip" android:importantForAccessibility="no" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/date_picker_month_day_year_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/date_picker_month_and_day_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/date_picker_month" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:gravity="center" android:id="@id/date_picker_day" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_marginBottom="-10.0dip" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/date_picker_year" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

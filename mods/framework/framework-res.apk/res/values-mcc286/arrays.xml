@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_sms_enabled_single_shift_tables">
+        <item>1</item>
+    </integer-array>
+</resources>

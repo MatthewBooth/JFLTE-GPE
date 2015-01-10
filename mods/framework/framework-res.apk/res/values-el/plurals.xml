@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Απομένουν %d προσπάθειες προτού η κάρτα SIM κλειδωθεί.</item>
+        <item quantity="one">Απομένει άλλη %d προσπάθεια προτού η κάρτα SIM κλειδωθεί.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">πριν από %d δευτερόλεπτα</item>
+        <item quantity="one">πριν από 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από 1 λεπτό</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από 1 ώρα</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Τελευταίες %d ημέρες</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">χθες</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">σε %d δευτερόλεπτα</item>
+        <item quantity="one">σε 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">σε %d λεπτά</item>
+        <item quantity="one">σε 1 λεπτό</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">σε %d ώρες</item>
+        <item quantity="one">σε 1 ώρα</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">σε %d ημέρες</item>
+        <item quantity="one">αύριο</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">πριν από %d δευτερόλεπτα</item>
+        <item quantity="one">πριν από 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από 1 λεπτό</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από 1 ώρα</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">χθες</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">σε %d δευτερόλεπτα</item>
+        <item quantity="one">σε 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">σε %d λεπτά</item>
+        <item quantity="one">σε 1 λεπτό</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">σε %d ώρες</item>
+        <item quantity="one">σε 1 ώρα</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">σε %d ημέρες</item>
+        <item quantity="one">αύριο</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Υπάρχουν διαθέσιμα δίκτυα Wi-Fi</item>
+        <item quantity="one">Υπάρχει διαθέσιμο δίκτυο Wi-Fi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Υπάρχουν διαθέσιμα ανοικτά δίκτυα Wi-Fi</item>
+        <item quantity="one">Υπάρχει διαθέσιμο ανοικτό δίκτυο Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d από %2$d</item>
+        <item quantity="one">1 αποτέλεσμα</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Επανάληψη σε %d δευτ.</item>
+        <item quantity="one">Επανάληψη σε 1 δευτ.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Για %d λεπτά</item>
+        <item quantity="one">Για ένα λεπτό</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Για %d ώρες</item>
+        <item quantity="one">Για μία ώρα</item>
+    </plurals>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbnail_height">420.0dip</dimen>
+    <dimen name="thumbnail_width">420.0dip</dimen>
+    <dimen name="preference_screen_side_margin">0.0dip</dimen>
+    <dimen name="preference_screen_side_margin_negative">-4.0dip</dimen>
+    <dimen name="preference_fragment_padding_bottom">16.0dip</dimen>
+    <dimen name="preference_fragment_padding_side">32.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingLeft">32.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingRight">32.0dip</dimen>
+    <dimen name="preference_icon_minWidth">56.0dip</dimen>
+    <item type="dimen" name="dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <dimen name="preference_screen_header_vertical_padding">32.0dip</dimen>
+    <dimen name="preference_screen_header_padding_side">0.0dip</dimen>
+    <dimen name="default_app_widget_padding_left">12.0dip</dimen>
+    <dimen name="default_app_widget_padding_top">4.0dip</dimen>
+    <dimen name="default_app_widget_padding_right">12.0dip</dimen>
+    <dimen name="default_app_widget_padding_bottom">20.0dip</dimen>
+    <dimen name="kg_status_clock_font_size">188.0dip</dimen>
+    <dimen name="kg_status_date_font_size">34.0dip</dimen>
+    <dimen name="kg_status_line_font_size">19.0sp</dimen>
+    <dimen name="kg_status_line_font_right_margin">32.0dip</dimen>
+    <dimen name="kg_clock_top_margin">0.0dip</dimen>
+    <dimen name="kg_widget_pager_horizontal_padding">80.0dip</dimen>
+    <dimen name="kg_widget_pager_top_padding">0.0dip</dimen>
+    <dimen name="kg_widget_pager_bottom_padding">0.0dip</dimen>
+    <dimen name="kg_runway_lights_top_margin">-30.0dip</dimen>
+    <dimen name="keyguard_security_width">420.0dip</dimen>
+    <dimen name="keyguard_security_height">420.0dip</dimen>
+    <dimen name="keyguard_muliuser_selector_margin">24.0dip</dimen>
+    <dimen name="keyguard_avatar_frame_stroke_width">3.0dip</dimen>
+    <dimen name="keyguard_avatar_size">88.0dip</dimen>
+    <dimen name="keyguard_avatar_name_size">12.0sp</dimen>
+    <item type="dimen" name="navigation_bar_height_portrait">@dimen/navigation_bar_height</item>
+</resources>

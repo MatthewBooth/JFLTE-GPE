@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Doma</item>
+        <item>Služba</item>
+        <item>Drugo</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Služba</item>
+        <item>Drugo</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Začetna stran</item>
+        <item>Mobilni</item>
+        <item>Služba</item>
+        <item>Službeni faks</item>
+        <item>Domači faks</item>
+        <item>Pozivnik</item>
+        <item>Drugo</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Začetna stran</item>
+        <item>Služba</item>
+        <item>Drugo</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Začetna stran</item>
+        <item>Služba</item>
+        <item>Drugo</item>
+        <item>Po meri</item>
+    </string-array>
+</resources>

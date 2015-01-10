@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_tether_apndata">Vf Tethering,internet.vodafone.gr,,,,,,,,,202,05,,DUN</string>
+</resources>

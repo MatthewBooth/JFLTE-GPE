@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">У вас залишилося стільки спроб: %d. Після цього SIM-карту буде заблоковано.</item>
+        <item quantity="one">У вас залишилась %d спроба. Після цього SIM-карту буде заблоковано.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d сек. тому</item>
+        <item quantity="one">1 сек. тому</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d хв. тому</item>
+        <item quantity="one">1 хвилину тому</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d год. тому</item>
+        <item quantity="one">1 год. тому</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Остан. %d дн.</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">учора</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">через %d сек.</item>
+        <item quantity="one">через 1 сек.</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">через %d хв.</item>
+        <item quantity="one">через 1 хв.</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">через %d год.</item>
+        <item quantity="one">через 1 год.</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">через %d дн.</item>
+        <item quantity="one">завтра</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d сек. тому</item>
+        <item quantity="one">1 сек. тому</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d хв. тому</item>
+        <item quantity="one">1 хв. тому</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d год. тому</item>
+        <item quantity="one">1 годину тому</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">учора</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">через %d сек.</item>
+        <item quantity="one">через 1 с.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">через %d хв.</item>
+        <item quantity="one">через 1 хв.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">через %d год.</item>
+        <item quantity="one">через 1 год.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">через %d дн.</item>
+        <item quantity="one">завтра</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">1 с</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">1 хв</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d год</item>
+        <item quantity="one">1 год</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi мережі доступні</item>
+        <item quantity="one">Wi-Fi мережа доступна</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Відкриті Wi-Fi мережі доступні</item>
+        <item quantity="one">Відкрита Wi-Fi мережа доступна</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d з %2$d</item>
+        <item quantity="one">1 збіг</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Повтор за %d с</item>
+        <item quantity="one">Повтор за 1 с</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Протягом %d хв</item>
+        <item quantity="one">Протягом хвилини</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Протягом %d год</item>
+        <item quantity="one">Протягом години</item>
+    </plurals>
+</resources>

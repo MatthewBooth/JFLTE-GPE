@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/account_row_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="8.0dip" />
+    <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center_vertical" android:id="@id/account_row_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeight"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

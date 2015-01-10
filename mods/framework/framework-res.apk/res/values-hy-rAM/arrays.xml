@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Տուն</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հատուկ</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հատուկ</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Տնային</item>
+        <item>Բջջային</item>
+        <item>Աշխատանքային</item>
+        <item>Աշխատանքային ֆաքս</item>
+        <item>Տնային ֆաքս</item>
+        <item>Փեյջեր</item>
+        <item>Այլ</item>
+        <item>Հատուկ</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Տնային</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հատուկ</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Տնային</item>
+        <item>Աշխատանքային</item>
+        <item>Այլ</item>
+        <item>Հատուկ</item>
+    </string-array>
+</resources>

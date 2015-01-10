@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Liko %d band. Paskui SIM kortelė bus užrakinta.</item>
+        <item quantity="one">Liko %d band. Paskui SIM kortelė bus užrakinta.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Prieš %d sek.</item>
+        <item quantity="one">Prieš 1 sek.</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš 1 minutę</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš 1 valandą</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Paskutinės %d dienos (-ų)</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">po %d sek.</item>
+        <item quantity="one">po 1 sek.</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">po %d min.</item>
+        <item quantity="one">po 1 min.</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">po %d val.</item>
+        <item quantity="one">po 1 val.</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">po %d d.</item>
+        <item quantity="one">rytoj</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Prieš %d sek.</item>
+        <item quantity="one">Prieš 1 sek.</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš 1 valandą</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">po %d sek.</item>
+        <item quantity="one">po 1 sek.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">po %d min.</item>
+        <item quantity="one">po 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">po %d val.</item>
+        <item quantity="one">po 1 val.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">po %d d.</item>
+        <item quantity="one">rytoj</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">galimi „Wi-Fi“ tinklai</item>
+        <item quantity="one">Galimas „Wi-Fi“ tinklas</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Atidaryti galimus „Wi-Fi“ tinklus</item>
+        <item quantity="one">Atidaryti galimą „Wi-Fi“ tinklą</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d iš %2$d</item>
+        <item quantity="one">1 atitiktis</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Band. dar po %d s</item>
+        <item quantity="one">Band. dar po 1 s</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>መነሻ</item>
+        <item>ስራ</item>
+        <item>ሌላ</item>
+        <item>ብጁ</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>ዊንዶውዝ ቀጥታ ስርጭት</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>ስራ</item>
+        <item>ሌላ</item>
+        <item>ብጁ</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>መነሻ</item>
+        <item>ተንቀሳቃሽ</item>
+        <item>ስራ</item>
+        <item>የስራ ፋክስ</item>
+        <item>የቤት ፋክስ</item>
+        <item>"ምልክት  ማድረጊያ"</item>
+        <item>ሌላ</item>
+        <item>ብጁ</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>መነሻ</item>
+        <item>ስራ</item>
+        <item>ሌላ</item>
+        <item>ብጁ</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>መነሻ</item>
+        <item>ስራ</item>
+        <item>ሌላ</item>
+        <item>ብጁ</item>
+    </string-array>
+</resources>

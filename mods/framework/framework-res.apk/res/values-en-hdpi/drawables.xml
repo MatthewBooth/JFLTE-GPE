@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="APKTOOL_DUMMY_00bb">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00c4">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_00fb">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0111">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_01b3">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_01b7">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_06b9">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_06ba">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_06cd">false</item>
+</resources>

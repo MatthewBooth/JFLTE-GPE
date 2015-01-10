@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_bar_latest_event_content" android:layout_width="fill_parent" android:layout_height="wrap_content" internal:layout_maxHeight="unbounded" internal:layout_minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <include android:layout_width="@dimen/notification_large_icon_width" android:layout_height="@dimen/notification_large_icon_height" layout="@layout/notification_template_icon_group" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/notification_large_icon_height" android:layout_marginStart="@dimen/notification_large_icon_width">
+        <include layout="@layout/notification_template_part_line1" />
+        <include layout="@layout/notification_template_part_line2" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+            <TextView android:textAppearance="@style/TextAppearance.Material.Notification" android:id="@id/big_text" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" />
+            <ImageView android:id="@id/profile_badge_large_template" android:visibility="gone" android:layout_width="@dimen/notification_badge_size" android:layout_height="@dimen/notification_badge_size" android:scaleType="fitCenter" android:layout_weight="0.0" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" layout="@layout/notification_template_part_line3" />
+        <ImageView android:id="@id/action_divider" android:background="@drawable/notification_template_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="-8.0dip" layout="@layout/notification_material_action_list" />
+    </LinearLayout>
+</FrameLayout>

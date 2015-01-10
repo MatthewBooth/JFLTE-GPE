@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>맞춤설정</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google 토크</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>회사</item>
+        <item>기타</item>
+        <item>맞춤설정</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>집</item>
+        <item>모바일</item>
+        <item>회사</item>
+        <item>회사 팩스</item>
+        <item>집(팩스)</item>
+        <item>호출기</item>
+        <item>기타</item>
+        <item>맞춤설정</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>맞춤설정</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>맞춤설정</item>
+    </string-array>
+</resources>

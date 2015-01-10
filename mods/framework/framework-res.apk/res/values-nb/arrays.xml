@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Hjemme</item>
+        <item>Arbeid</item>
+        <item>Annen</item>
+        <item>Egendefinert…</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Arbeid</item>
+        <item>Annen</item>
+        <item>Egendefinert…</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Hjemmenummer</item>
+        <item>Mobil</item>
+        <item>Arbeid</item>
+        <item>Faks arbeid</item>
+        <item>Faks hjemme</item>
+        <item>Personsøker</item>
+        <item>Annen</item>
+        <item>Egendefinert…</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Hjemme</item>
+        <item>Arbeid</item>
+        <item>Annen</item>
+        <item>Egendefinert…</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Hjemme</item>
+        <item>Arbeid</item>
+        <item>Annen</item>
+        <item>Egendefinert…</item>
+    </string-array>
+</resources>

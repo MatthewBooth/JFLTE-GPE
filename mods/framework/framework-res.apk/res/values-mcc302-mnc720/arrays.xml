@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_tether_upstream_types">
+        <item>1</item>
+        <item>4</item>
+        <item>7</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="config_operatorConsideredNonRoaming">
+        <item>302220</item>
+        <item>302370</item>
+        <item>302610</item>
+        <item>302660</item>
+        <item>302780</item>
+    </string-array>
+</resources>

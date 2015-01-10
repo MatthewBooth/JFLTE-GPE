@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/ic_media_route_on_0_holo_light" />
+    <item android:duration="500" android:drawable="@drawable/ic_media_route_on_1_holo_light" />
+    <item android:duration="500" android:drawable="@drawable/ic_media_route_on_2_holo_light" />
+    <item android:duration="500" android:drawable="@drawable/ic_media_route_on_1_holo_light" />
+</animation-list>

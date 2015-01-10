@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?findOnPagePreviousDrawable" android:id="@id/find_prev" android:title="@string/find_previous" android:showAsAction="always" />
+    <item android:icon="?findOnPageNextDrawable" android:id="@id/find_next" android:title="@string/find_next" android:showAsAction="always" />
+</menu>

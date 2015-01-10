@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Pagrindinis</item>
+        <item>Darbo</item>
+        <item>Kita</item>
+        <item>Priskirtas</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>„Google“ pokalbiai</item>
+        <item>ICQ</item>
+        <item>„Jabber“</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Darbo</item>
+        <item>Kita</item>
+        <item>Priskirtas</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Pagrindinis</item>
+        <item>Mobilusis</item>
+        <item>Darbo</item>
+        <item>Darbo faksas</item>
+        <item>Namų faksas</item>
+        <item>Pranešimų gaviklis</item>
+        <item>Kita</item>
+        <item>Priskirtas</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Pagrindinis</item>
+        <item>Darbo</item>
+        <item>Kita</item>
+        <item>Priskirtas</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Pagrindinis</item>
+        <item>Darbo</item>
+        <item>Kita</item>
+        <item>Priskirtas</item>
+    </string-array>
+</resources>

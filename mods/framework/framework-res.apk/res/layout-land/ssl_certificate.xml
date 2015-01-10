@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <ImageView android:gravity="fill_horizontal" android:id="@id/title_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_horizontal_dark" android:scaleType="fitXY" android:layout_weight="1.0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <TableLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1">
+            <TextView android:textStyle="bold" android:id="@id/issued_to_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/issued_to" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TableRow>
+                <TextView android:id="@id/to_common_header" android:text="@string/common_name" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/to_common" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/to_org_header" android:text="@string/org_name" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/to_org" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/to_org_unit_header" android:text="@string/org_unit" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/to_org_unit" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/serial_number_header" android:text="@string/serial_number" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/serial_number" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TextView android:textStyle="bold" android:id="@id/issued_to_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/issued_by" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TableRow>
+                <TextView android:id="@id/by_common_header" android:text="@string/common_name" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/by_common" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/by_org_header" android:text="@string/org_name" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/by_org" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/by_org_unit_header" android:text="@string/org_unit" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/by_org_unit" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TextView android:textStyle="bold" android:id="@id/validity_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/validity_period" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TableRow>
+                <TextView android:id="@id/issued_on_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/issued_on" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/issued_on" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/expires_on_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/expires_on" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/expires_on" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TextView android:textStyle="bold" android:id="@id/fingerprints" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/fingerprints" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TableRow>
+                <TextView android:id="@id/sha256_fingerprint_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sha256_fingerprint" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/sha256_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/sha1_fingerprint_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sha1_fingerprint" android:layout_marginStart="20.0dip" />
+                <TextView android:id="@id/sha1_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

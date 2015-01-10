@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="imsServiceAllowTurnOff">false</bool>
+    <bool name="config_carrier_volte_vt_available">false</bool>
+    <bool name="config_auto_attach_data_on_creation">false</bool>
+</resources>

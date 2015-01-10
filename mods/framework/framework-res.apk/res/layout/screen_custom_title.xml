@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:theme="?actionBarTheme" android:id="@id/action_mode_bar_stub" android:layout="@layout/action_mode_bar" android:inflatedId="@id/action_mode_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="?windowTitleSize" android:transitionName="android:title" style="?android:attr/windowTitleBackgroundStyle" />
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="?windowContentOverlay" android:layout_weight="1.0" android:foregroundGravity="fill_horizontal|center|top" />
+</LinearLayout>

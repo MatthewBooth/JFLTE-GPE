@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_tether_apndata">MTS -Tethering,internet.mts,,,,,,,,,302,660,,DUN</string>
+</resources>

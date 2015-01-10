@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/datepicker_default_pressed_text_color_holo_dark" />
+    <item android:state_selected="true" android:state_pressed="false" android:color="@color/datepicker_default_selected_text_color_holo_dark" />
+    <item android:state_selected="false" android:state_pressed="false" android:color="@color/datepicker_default_normal_text_color_holo_dark" />
+</selector>

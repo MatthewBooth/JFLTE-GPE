@@ -1,0 +1,12 @@
+version: 2.0.0-RC3
+apkFileName: framework-res.apk
+isFrameworkApk: true
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '1'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0-I9505GUEUDNL3
+compressionType: false

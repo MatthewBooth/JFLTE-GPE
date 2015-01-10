@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_title_height" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:id="@id/left_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="?android:attr/windowTitleStyle" />
+        <ImageView android:id="@id/right_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="fitCenter" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <View android:id="@id/titleDivider" android:background="@color/holo_blue_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?windowContentOverlay" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true">
+        <TextView android:textSize="18.0sp" android:textColor="?textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_compat_mode_scale" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <Switch android:layout_gravity="center_vertical" android:id="@id/compat_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <CheckBox android:layout_gravity="center_horizontal" android:id="@id/ask_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_compat_mode_show" />
+    <TextView android:textAppearance="?textAppearanceSmall" android:gravity="center" android:id="@id/reask_hint" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/screen_compat_mode_hint" />
+</LinearLayout>

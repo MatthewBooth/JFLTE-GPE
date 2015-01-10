@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.view.menu.IconMenuView android:id="@id/icon_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowHeight="66.0dip" android:maxRows="3" android:maxItemsPerRow="3" android:maxItems="6"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

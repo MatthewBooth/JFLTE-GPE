@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Ekhaya</item>
+        <item>Umsebenzi</item>
+        <item>Okunye</item>
+        <item>Ngokwezifiso</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>i-AIM</item>
+        <item>I-Windows Live</item>
+        <item>i-Yahoo</item>
+        <item>i-Skype</item>
+        <item>i-QQ</item>
+        <item>Ingxoxo ye-Google</item>
+        <item>i-ICQ</item>
+        <item>I-Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Umsebenzi</item>
+        <item>Okunye</item>
+        <item>Ngokwezifiso</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Ekhaya</item>
+        <item>Iselula</item>
+        <item>Umsebenzi</item>
+        <item>Ifeksi Yasemsebenzini</item>
+        <item>Ifeksi Yasekhaya</item>
+        <item>Isicingo</item>
+        <item>Okunye</item>
+        <item>Ngokwezifiso</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Ekhaya</item>
+        <item>Umsebenzi</item>
+        <item>Okunye</item>
+        <item>Ngokwezifiso</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Ekhaya</item>
+        <item>Umsebenzi</item>
+        <item>Okunye</item>
+        <item>Ngokwezifiso</item>
+    </string-array>
+</resources>

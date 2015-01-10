@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Casa</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitza</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Casa</item>
+        <item>Mòbil</item>
+        <item>Feina</item>
+        <item>Fax de la feina</item>
+        <item>Fax particular</item>
+        <item>Cercapersones</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Casa</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitza</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Casa</item>
+        <item>Feina</item>
+        <item>Altres</item>
+        <item>Personalitzat</item>
+    </string-array>
+</resources>

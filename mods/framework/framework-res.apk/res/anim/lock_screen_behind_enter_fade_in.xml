@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha android:background="#ff000000" android:interpolator="@interpolator/linear" android:duration="250" android:shareInterpolator="false" android:fillBefore="true" android:fillAfter="true" android:startOffset="100" android:fromAlpha="0.0" android:toAlpha="1.0" android:fillEnabled="true" android:detachWallpaper="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

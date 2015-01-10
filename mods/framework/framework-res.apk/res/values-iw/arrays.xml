@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>בית</item>
+        <item>נייד</item>
+        <item>עבודה</item>
+        <item>פקס בעבודה</item>
+        <item>פקס בבית</item>
+        <item>זימונית</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+</resources>

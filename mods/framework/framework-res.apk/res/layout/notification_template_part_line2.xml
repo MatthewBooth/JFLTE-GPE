@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Line2" android:ellipsize="marquee" android:id="@id/text2" android:visibility="gone" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-1.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/profile_badge_line2" android:visibility="gone" android:layout_width="@dimen/notification_badge_size" android:layout_height="@dimen/notification_badge_size" android:scaleType="fitCenter" android:layout_weight="0.0" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/progress" android:visibility="gone" android:layout="@layout/notification_template_progressbar" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_weight="0.0" android:layout_marginEnd="8.0dip" />
+</merge>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Mayroon kang %d (na) natitirang pagsubok bago ma-lock ang SIM.</item>
+        <item quantity="one">Mayroon kang %d (na) natitirang pagsubok bago ma-lock ang SIM.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d (na) segundo ang nakalipas</item>
+        <item quantity="one">1 segundo ang nakakalipas</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+        <item quantity="one">1 minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+        <item quantity="one">1 oras ang nakalipas</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Huling %d (na) araw</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+        <item quantity="one">kahapon</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">sa %d (na) segundo</item>
+        <item quantity="one">sa 1 segundo</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">sa %d (na) minuto</item>
+        <item quantity="one">sa 1 minuto</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">sa %d (na) oras</item>
+        <item quantity="one">sa 1 oras</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">sa %d (na) araw</item>
+        <item quantity="one">bukas</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d (na) segundo ang nakalipas</item>
+        <item quantity="one">1 segundo ang nakalipas</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+        <item quantity="one">1 minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+        <item quantity="one">1 oras ang nakalipas</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+        <item quantity="one">kahapon</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">sa %d (na) segundo</item>
+        <item quantity="one">sa 1 seg</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">sa %d (na) minuto</item>
+        <item quantity="one">sa 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">sa %d (na) oras</item>
+        <item quantity="one">sa 1 oras</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">sa %d (na) araw</item>
+        <item quantity="one">bukas</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Available ang mga Wi-Fi network</item>
+        <item quantity="one">Available ang Wi-Fi network</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Buksan ang mga available na Wi-Fi network</item>
+        <item quantity="one">Available ang bukas na Wi-Fi network</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ng %2$d</item>
+        <item quantity="one">1 tugma</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Subukan muli sa %d seg</item>
+        <item quantity="one">Subukan muli sa 1 seg</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Sa loob ng %d (na) minuto</item>
+        <item quantity="one">Sa loob ng isang minuto</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Sa loob ng %d (na) oras</item>
+        <item quantity="one">Sa loob ng isang oras</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeviceDefault" parent="@style/Theme.Micro" />
+    <style name="Theme.DeviceDefault.NoActionBar" parent="@style/Theme.Micro" />
+    <style name="Theme.DeviceDefault.Light" parent="@style/Theme.Micro.Light" />
+    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@style/Theme.Micro.Light" />
+    <style name="Theme.DeviceDefault.Dialog" parent="@style/Theme.Micro.Dialog" />
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@style/Theme.Micro.Dialog" />
+    <style name="Theme.DeviceDefault.DialogWhenLarge" parent="@style/Theme.Micro.Dialog" />
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@style/Theme.Micro.Dialog" />
+    <style name="Theme.DeviceDefault.Wallpaper" parent="@style/Theme.Micro" />
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/Theme.Micro.Light" />
+    <style name="Theme.Dialog.Alert" parent="@style/Theme.Micro.Dialog.Alert" />
+    <style name="Theme.Dialog.AppError" parent="@style/Theme.Micro.Dialog.AppError" />
+    <style name="Theme.Holo.Dialog.Alert" parent="@style/Theme.Micro.Dialog.Alert" />
+    <style name="Theme.Holo.Light.Dialog.Alert" parent="@style/Theme.Micro.Dialog.Alert" />
+    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@style/Theme.Micro.Dialog.Alert" />
+    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@style/Theme.Micro.Dialog.Alert" />
+</resources>

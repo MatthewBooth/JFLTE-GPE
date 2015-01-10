@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Гэрийн</item>
+        <item>Ажлын</item>
+        <item>Бусад</item>
+        <item>Тусгай</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Ажлын</item>
+        <item>Бусад</item>
+        <item>Тусгай</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Гэрийн</item>
+        <item>Мобайл</item>
+        <item>Ажлын</item>
+        <item>Ажлын факс</item>
+        <item>Гэрийн Факс</item>
+        <item>Пэйжер</item>
+        <item>Бусад</item>
+        <item>Тусгай</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Гэрийн</item>
+        <item>Ажлын</item>
+        <item>Бусад</item>
+        <item>Тусгай</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Гэрийн</item>
+        <item>Ажлын</item>
+        <item>Бусад</item>
+        <item>Тусгай</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Nhà riêng</item>
+        <item>Cơ quan</item>
+        <item>Khác</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Cơ quan</item>
+        <item>Khác</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Nhà riêng</item>
+        <item>ĐT di động</item>
+        <item>Cơ quan</item>
+        <item>Số fax Cơ quan</item>
+        <item>Số fax Nhà riêng</item>
+        <item>Số máy nhắn tin</item>
+        <item>Khác</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Nhà riêng</item>
+        <item>Cơ quan</item>
+        <item>Khác</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Nhà riêng</item>
+        <item>Cơ quan</item>
+        <item>Khác</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+</resources>

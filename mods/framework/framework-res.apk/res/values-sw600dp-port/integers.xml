@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="kg_widget_region_weight">46</integer>
+    <integer name="kg_security_flipper_weight">54</integer>
+</resources>

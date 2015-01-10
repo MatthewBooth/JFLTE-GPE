@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_longPressOnHomeBehavior">0</integer>
+    <integer name="config_maxResolverActivityColumns">3</integer>
+    <integer name="max_action_buttons">5</integer>
+    <integer name="kg_carousel_angle">60</integer>
+</resources>

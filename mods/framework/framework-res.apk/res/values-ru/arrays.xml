@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Личный</item>
+        <item>Рабочий</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Рабочий</item>
+        <item>Другое</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Домашний</item>
+        <item>Мобильный</item>
+        <item>Рабочий</item>
+        <item>Рабочий факс</item>
+        <item>Домашний факс</item>
+        <item>Пейджер</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Домашний</item>
+        <item>Рабочий</item>
+        <item>Другой</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Домашний</item>
+        <item>Рабочий</item>
+        <item>Другое</item>
+        <item>Создать свой ярлык</item>
+    </string-array>
+</resources>

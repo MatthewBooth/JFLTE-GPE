@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ResolverDrawerLayout android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="@dimen/resolver_max_width" android:maxCollapsedHeight="144.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="8.0dip" android:layout_alwaysShow="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <ImageView android:layout_gravity="start|center|top" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" android:scaleType="fitCenter" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:gravity="start|center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="?listPreferredItemHeight" android:layout_weight="1.0" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/button_bar" android:background="@color/white" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:layoutDirection="locale" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:elevation="8.0dip" android:layout_alwaysShow="true" style="?android:attr/buttonBarStyle">
+            <Button android:enabled="false" android:layout_gravity="start" android:id="@id/button_once" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:text="@string/activity_resolver_use_once" android:maxLines="2" android:onClick="onButtonClick" style="?android:attr/buttonBarNegativeButtonStyle" />
+            <Button android:enabled="false" android:layout_gravity="end" android:id="@id/button_always" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:text="@string/activity_resolver_use_always" android:maxLines="2" android:onClick="onButtonClick" style="?android:attr/buttonBarPositiveButtonStyle" />
+        </LinearLayout>
+        <View android:background="?dividerVertical" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/resolver_list" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:nestedScrollingEnabled="true" android:elevation="8.0dip" />
+</com.android.internal.widget.ResolverDrawerLayout>

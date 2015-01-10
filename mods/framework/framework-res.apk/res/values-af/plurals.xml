@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Jy het %d oorblywende pogings voordat SIM gesluit word.</item>
+        <item quantity="one">Jy het %d oorblywende poging voordat SIM gesluit word.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d sekondes gelede</item>
+        <item quantity="one">1 sekonde gelede</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minute gelede</item>
+        <item quantity="one">1 minuut gelede</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d uur gelede</item>
+        <item quantity="one">1 uur gelede</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Afgelope %d dae</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d dae gelede</item>
+        <item quantity="one">gister</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">oor %d sekondes</item>
+        <item quantity="one">oor 1 sekonde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">oor %d minute</item>
+        <item quantity="one">oor 1 minuut</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">oor %d uur</item>
+        <item quantity="one">oor 1 uur</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">oor %d dae</item>
+        <item quantity="one">môre</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d sek. gelede</item>
+        <item quantity="one">1 sek. gelede</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min. gelede</item>
+        <item quantity="one">1 min. gelede</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d uur gelede</item>
+        <item quantity="one">1 uur gelede</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d dae gelede</item>
+        <item quantity="one">gister</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">oor %d sek.</item>
+        <item quantity="one">oor 1 sek.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">oor %d minute</item>
+        <item quantity="one">oor 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">oor %d uur</item>
+        <item quantity="one">oor 1 uur</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">oor %d dae</item>
+        <item quantity="one">môre</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">1 sekonde</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ure</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi-netwerke beskikbaar</item>
+        <item quantity="one">Wi-Fi-netwerk beskikbaar</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Oop Wi-Fi-netwerke beskikbaar</item>
+        <item quantity="one">Oop Wi-Fi-netwerke beskikbaar</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d van %2$d</item>
+        <item quantity="one">1 passing</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Probeer weer oor %d sekondes</item>
+        <item quantity="one">Probeer weer oor 1 sekonde</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d minute lank</item>
+        <item quantity="one">Een minuut lank</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d uur lank</item>
+        <item quantity="one">Een uur lank</item>
+    </plurals>
+</resources>

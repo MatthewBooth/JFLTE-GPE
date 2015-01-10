@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/timepicker_minimum_margin_sides" android:layout_marginTop="@dimen/timepicker_minimum_margin_top_bottom" android:layout_marginRight="@dimen/timepicker_minimum_margin_sides" android:layout_marginBottom="@dimen/timepicker_minimum_margin_top_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="@dimen/timepicker_left_side_width" android:layout_weight="1.0">
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/time_header_label" />
+    </FrameLayout>
+    <android.widget.RadialTimePickerView android:layout_gravity="center" android:id="@id/radial_picker" android:layout_width="@dimen/timepicker_radial_picker_dimen" android:layout_height="fill_parent" />
+</LinearLayout>

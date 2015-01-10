@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Masz jeszcze %d prób(y), zanim karta SIM zostanie zablokowana.</item>
+        <item quantity="one">Masz jeszcze %d próbę, zanim karta SIM zostanie zablokowana.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d sek. temu</item>
+        <item quantity="one">sekundę temu</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">1 minutę temu</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">godzinę temu</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ostatnie (%d) dni</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d dni temu</item>
+        <item quantity="one">wczoraj</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">za %d sek.</item>
+        <item quantity="one">za sekundę</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">za %d min.</item>
+        <item quantity="one">za minutę</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">za %d godzin</item>
+        <item quantity="one">za godzinę</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">za %d dni</item>
+        <item quantity="one">jutro</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d s temu</item>
+        <item quantity="one">sekundę temu</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">minutę temu</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">godzinę temu</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d dni temu</item>
+        <item quantity="one">wczoraj</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za sekundę</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za minutę</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">za %d godz.</item>
+        <item quantity="one">za godzinę</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">za %d dni</item>
+        <item quantity="one">jutro</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">1 godzina</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Dostępne sieci Wi-Fi</item>
+        <item quantity="one">Sieć Wi-Fi jest dostępna</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Otwórz dostępne sieci Wi-Fi</item>
+        <item quantity="one">Otwórz dostępne sieci Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d z %2$d</item>
+        <item quantity="one">1 wynik</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Spróbuj za %d s</item>
+        <item quantity="one">Spróbuj za sekundę</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Przez %d min</item>
+        <item quantity="one">Przez minutę</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Przez %d godz.</item>
+        <item quantity="one">Przez 1 godz.</item>
+    </plurals>
+</resources>

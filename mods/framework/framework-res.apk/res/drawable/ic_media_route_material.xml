@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/ic_media_route_connecting_material" />
+    <item android:state_enabled="true" android:state_activated="true">
+        <bitmap android:src="@drawable/ic_media_route_on_mtrl_alpha" android:tint="?colorControlNormal" />
+    </item>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/ic_media_route_off_mtrl_alpha" android:tint="?colorControlNormal" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_media_route_disabled_mtrl_alpha" android:tint="?colorControlNormal" />
+    </item>
+</selector>

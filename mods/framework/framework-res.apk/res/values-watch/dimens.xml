@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_viewConfigurationTouchSlop">4.0dip</dimen>
+    <dimen name="config_viewMinFlingVelocity">500.0dip</dimen>
+    <dimen name="config_viewMaxFlingVelocity">8000.0dip</dimen>
+</resources>

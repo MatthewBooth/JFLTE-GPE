@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/headers" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preferences_left_pane_weight" style="?attr/preferenceHeaderPanelStyle">
+            <ListView android:listPreferredItemHeight="48.0dip" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:layout_weight="1.0" style="?attr/preferenceListStyle" />
+            <FrameLayout android:id="@id/list_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/prefs_frame" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preferences_right_pane_weight" style="?attr/preferencePanelStyle">
+            <include layout="@layout/breadcrumbs_in_fragment" />
+            <android.preference.PreferenceFrameLayout android:id="@id/prefs" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/button_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:id="@id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/back_button_label" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/skip_button_label" />
+            <Button android:id="@id/next_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/next_button_label" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

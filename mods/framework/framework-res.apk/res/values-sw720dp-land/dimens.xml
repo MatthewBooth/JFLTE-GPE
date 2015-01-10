@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kg_status_line_font_right_margin">16.0dip</dimen>
+    <dimen name="kg_clock_top_margin">174.0dip</dimen>
+    <dimen name="kg_widget_pager_horizontal_padding">32.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_00a2">false</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="light_y">-400.0dip</dimen>
+    <item type="dimen" name="ambient_shadow_alpha">0.15</item>
+    <item type="dimen" name="spot_shadow_alpha">0.3</item>
+</resources>

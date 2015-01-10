@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Մնաց %d փորձ՝ մինչև SIM-ի արգելափակումը:</item>
+        <item quantity="one">Մնաց %d փորձ՝ մինչև SIM-ի արգելափակումը:</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d վայրկյան առաջ</item>
+        <item quantity="one">1 վայրկյան առաջ</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d րոպե առաջ</item>
+        <item quantity="one">1 րոպե առաջ</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ժամ առաջ</item>
+        <item quantity="one">1 ժամ առաջ</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Վերջին %d օրերին</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d օր առաջ</item>
+        <item quantity="one">երեկ</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d վայրկյանից</item>
+        <item quantity="one">1 վայրկյանից</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d րոպեից</item>
+        <item quantity="one">1 րոպեից</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d ժամից</item>
+        <item quantity="one">1 ժամից</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d օրից</item>
+        <item quantity="one">վաղը</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d վրկ. առաջ</item>
+        <item quantity="one">1 վրկ առաջ</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d րոպե առաջ</item>
+        <item quantity="one">1 րոպե առաջ</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ժամ առաջ</item>
+        <item quantity="one">1 ժամ առաջ</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d օր առաջ</item>
+        <item quantity="one">երեկ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d վրկ-ից</item>
+        <item quantity="one">1 վրկ-ից</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d րոպեից</item>
+        <item quantity="one">1 րոպեից</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d ժամից</item>
+        <item quantity="one">1 ժամից</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d օրից</item>
+        <item quantity="one">վաղը</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d վայրկյան</item>
+        <item quantity="one">1 վայրկյան</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">1 րոպե</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">1 ժամ</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">հասանելի են Wi-Fi ցանցեր</item>
+        <item quantity="one">Wi-Fi ցանցը հասանելի է</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Հասանելի են բաց Wi-Fi ցանցեր</item>
+        <item quantity="one">Բաց Wi-Fi ցանցը հասանելի է</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d-ից %2$d-ը</item>
+        <item quantity="one">1 համընկնում</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Կրկին փորձեք %d վայրկյանից</item>
+        <item quantity="one">Կրկին փորձեք 1 վայրկյանից</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">Մեկ րոպե</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">Մեկ ժամ</item>
+    </plurals>
+</resources>

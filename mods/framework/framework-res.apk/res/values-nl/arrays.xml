@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Thuis</item>
+        <item>Mobiel</item>
+        <item>Werk</item>
+        <item>Fax werk</item>
+        <item>Fax thuis</item>
+        <item>Semafoon</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
+    </string-array>
+</resources>

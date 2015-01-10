@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">"Et queden %d intents; si no l'encertes, la SIM es bloquejarà."</item>
+        <item quantity="one">"Et queda %d intent; si no l'encertes, la SIM es bloquejarà."</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Fa %d segons</item>
+        <item quantity="one">Fa 1 segon</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Fa %d minuts</item>
+        <item quantity="one">Fa 1 minut</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Fa %d hores</item>
+        <item quantity="one">Fa 1 hora</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Els darrers %d dies</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">Ahir</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">"d'aquí a %d segons"</item>
+        <item quantity="one">"d'aquí a 1 segon"</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">"d'aquí a %d minuts"</item>
+        <item quantity="one">"d'aquí a 1 minut"</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">"d'aquí a %d hores"</item>
+        <item quantity="one">"d'aquí a 1 hora"</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">"d'aquí a %d dies"</item>
+        <item quantity="one">demà</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Fa %d s</item>
+        <item quantity="one">Fa 1 s</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Fa %d min</item>
+        <item quantity="one">fa 1 min</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Fa %d hores</item>
+        <item quantity="one">Fa 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">ahir</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">"d'aquí a %d s"</item>
+        <item quantity="one">"d'aquí a 1 s"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">"d'aquí a %d minuts"</item>
+        <item quantity="one">"d'aquí a 1 min"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">"d'aquí a %d hores"</item>
+        <item quantity="one">"d'aquí a 1 hora"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">"d'aquí a %d dies"</item>
+        <item quantity="one">demà</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">1 segon</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Xarxes Wi-fi disponibles</item>
+        <item quantity="one">Xarxa Wi-fi disponible</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Xarxes Wi-fi obertes disponibles</item>
+        <item quantity="one">Xarxa Wi-fi oberta disponible</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d de %2$d</item>
+        <item quantity="one">1 coincidència</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">"Torna-ho a provar d'aquí a %d segons"</item>
+        <item quantity="one">"Torna-ho a provar d'aquí a 1 segon"</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Durant %d minuts</item>
+        <item quantity="one">Durant un minut</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Durant %d hores</item>
+        <item quantity="one">Durant una hora</item>
+    </plurals>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Még %d próbálkozása van, mielőtt zároljuk a SIM kártyát.</item>
+        <item quantity="one">Még %d próbálkozása van, mielőtt zároljuk a SIM kártyát.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d másodperce</item>
+        <item quantity="one">1 másodperce</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">1 órája</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Elmúlt %d napban</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">tegnap</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d másodperc múlva</item>
+        <item quantity="one">1 másodperc múlva</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d óra múlva</item>
+        <item quantity="one">1 óra múlva</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d nap múlva</item>
+        <item quantity="one">holnap</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d másodperce</item>
+        <item quantity="one">1 másodperce</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">1 órája</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">tegnap</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d másodperc múlva</item>
+        <item quantity="one">1 másodperc múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d óra múlva</item>
+        <item quantity="one">1 óra múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d nap múlva</item>
+        <item quantity="one">holnap</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">1 másodperc</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi hálózatok elérhetők</item>
+        <item quantity="one">Wi-Fi hálózat elérhető</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Nyílt Wi-Fi hálózatok elérhetők</item>
+        <item quantity="one">Nyílt Wi-Fi hálózat elérhető</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d/%2$d</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Próbálja újra %d másodperc múlva</item>
+        <item quantity="one">Próbálja újra 1 másodperc múlva</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d percen át</item>
+        <item quantity="one">Egy percen át</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d órán át</item>
+        <item quantity="one">Egy órán át</item>
+    </plurals>
+</resources>

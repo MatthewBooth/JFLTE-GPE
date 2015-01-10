@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE siop_document [
+<!ELEMENT siop_document (levels , default_scenario , extra_scenario?)>
+<!ELEMENT levels (level)+>
+<!ELEMENT level EMPTY>
+<!ATTLIST level
+          id CDATA #REQUIRED
+          temp CDATA #REQUIRED>
+<!ELEMENT default_scenario (limiter)+>
+<!ELEMENT limiter (sts_item* , table_item*)>
+<!ATTLIST limiter
+          name CDATA #REQUIRED
+          type (STS|number|bool) #REQUIRED>
+<!ELEMENT sts_item EMPTY>
+<!ATTLIST sts_item
+          pre CDATA #IMPLIED
+          perc CDATA #IMPLIED
+          trigger CDATA #REQUIRED
+          release CDATA #REQUIRED
+          min CDATA #IMPLIED
+          max CDATA #IMPLIED
+          duration CDATA #IMPLIED>
+<!ELEMENT table_item EMPTY>
+<!ATTLIST table_item
+          temp CDATA #REQUIRED
+          value CDATA #REQUIRED
+          low_temp CDATA #IMPLIED>
+<!ELEMENT extra_scenario (scenario)+>
+<!ELEMENT scenario (trigger_statuses? , trigger_packages? , limiter*)>
+<!ATTLIST scenario name CDATA #REQUIRED>
+<!ATTLIST scenario priority CDATA #IMPLIED>
+<!ELEMENT trigger_statuses (status)+>
+<!ELEMENT status EMPTY>
+<!ATTLIST status name CDATA #REQUIRED>
+<!ELEMENT trigger_packages (package)+>
+<!ELEMENT package EMPTY>
+<!ATTLIST package name CDATA #REQUIRED>
+] >
+
+<siop_document>
+
+    <levels>
+        <level id="0" temp="490" />
+        <level id="1" temp="510" />
+        <level id="2" temp="530" />
+        <level id="3" temp="550" />
+        <level id="4" temp="570" />
+        <level id="5" temp="590" />
+        <level id="6" temp="610" />
+        <level id="7" temp="680" />
+        <level id="8" temp="730" />
+    </levels>
+
+    <default_scenario>
+        <limiter name="CPUFreqMax" type="number">
+            <table_item temp="510" value="-1" />
+            <table_item temp="530" value="1458000" />
+            <table_item temp="550" value="1242000" />
+            <table_item temp="570" value="1026000" />
+        </limiter>
+        <limiter name="GPUFreqMax" type="number">
+            <table_item temp="550" value="-1" />
+            <table_item temp="570" value="320000000" />
+            </limiter>
+        <limiter name="PST" type="number">
+            <table_item temp="490" value="0" />
+        </limiter>
+        <limiter name="LCDBrightness" type="number">
+            <table_item temp="530" value="-1" />
+            <table_item temp="550" value="219" />
+        </limiter>
+        <limiter name="Charging" type="number">
+            <table_item temp="530" value="70" />
+            <table_item temp="550" value="50" />
+            <table_item temp="570" value="30" />
+            <table_item temp="590" value="30" />
+            <table_item temp="610" value="0" />
+        </limiter>
+        <limiter name="Flash" type="bool">
+            <table_item temp="610" value="0" />
+        </limiter>
+        <limiter name="Recording" type="bool">
+            <table_item temp="730" value="0" />
+        </limiter>
+    </default_scenario>
+
+    <extra_scenario>
+        <scenario name="ScreenOff">
+            <limiter name="Charging" type="number">
+                <table_item temp="490" value="100" />
+            </limiter>
+        </scenario>
+
+        <scenario name="AppStart">
+            <limiter name="CPUFreqMax" type="number">
+                <table_item temp="490" value="-1" />
+            </limiter>
+            <limiter name="GPUFreqMax" type="number">
+                <table_item temp="490" value="-1" />
+            </limiter>
+        </scenario>
+
+    </extra_scenario>
+
+</siop_document>

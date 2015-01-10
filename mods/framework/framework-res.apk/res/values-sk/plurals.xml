@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Počet zostávajúcich pokusov pred uzamknutím karty SIM: %d.</item>
+        <item quantity="one">Zostáva vám %d pokus, než sa vaša karta SIM uzamkne.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">pred %d s</item>
+        <item quantity="one">pred 1 sekundou</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">pred %d minútami</item>
+        <item quantity="one">Pred minútou</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Posledných %d dní</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">o %d s</item>
+        <item quantity="one">o 1 sekundu</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">o %d minút</item>
+        <item quantity="one">o 1 minútu</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">o %d hodín</item>
+        <item quantity="one">o 1 hodinu</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">o %d dní</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">pred %d s</item>
+        <item quantity="one">pred 1 s</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">o %d s</item>
+        <item quantity="one">o 1 s</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">o %d min.</item>
+        <item quantity="one">o 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">o %d hodín</item>
+        <item quantity="one">o 1 hodinu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">o %d dní</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">1 hod.</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">K dispozícii sú siete Wi-Fi.</item>
+        <item quantity="one">K dispozícii je sieť Wi-Fi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">K dispozícii sú verejné siete Wi-Fi</item>
+        <item quantity="one">K dispozícii je verejná sieť Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d z %2$d</item>
+        <item quantity="one">Počet zhôd: 1</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Skúste to zas o %d s</item>
+        <item quantity="one">Skúste to zas o 1 s</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Na %d min</item>
+        <item quantity="one">Na jednu minútu</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Na %d h</item>
+        <item quantity="one">Na 1 h</item>
+    </plurals>
+</resources>

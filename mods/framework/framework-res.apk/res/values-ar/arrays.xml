@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>المنزل</item>
+        <item>عمل</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>عمل</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>المنزل</item>
+        <item>الجوال</item>
+        <item>عمل</item>
+        <item>فاكس العمل</item>
+        <item>فاكس المنزل</item>
+        <item>جهاز النداء</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>المنزل</item>
+        <item>عمل</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>المنزل</item>
+        <item>عمل</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+</resources>

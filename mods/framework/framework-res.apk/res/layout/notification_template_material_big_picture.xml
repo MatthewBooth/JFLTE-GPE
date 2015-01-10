@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_bar_latest_event_content" android:layout_width="fill_parent" android:layout_height="fill_parent" internal:layout_maxHeight="unbounded" internal:layout_minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:layout_gravity="bottom" android:id="@id/big_picture" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_marginTop="64.0dip" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="64.0dip" android:src="@drawable/title_bar_shadow" android:scaleType="fitXY" />
+    <include android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/notification_template_material_base" />
+    <FrameLayout android:layout_gravity="bottom" android:background="#cceeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="208.0dip" android:paddingStart="@dimen/notification_large_icon_width">
+        <include android:layout_gravity="bottom" android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/notification_material_action_list" />
+    </FrameLayout>
+</FrameLayout>

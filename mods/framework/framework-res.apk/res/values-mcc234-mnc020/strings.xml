@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_tether_apndata">3hotspot,3hotspot,,,,,,,,,234,20,0,DUN</string>
+</resources>

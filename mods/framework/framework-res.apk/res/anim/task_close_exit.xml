@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@interpolator/accelerate_quad" android:duration="167" android:fillBefore="true" android:fillAfter="true" android:startOffset="250" android:fromAlpha="1.0" android:toAlpha="0.0" android:fillEnabled="true" />
+    <translate android:interpolator="@interpolator/accelerate_quint" android:duration="417" android:fillBefore="true" android:fillAfter="true" android:fromYDelta="0.0" android:toYDelta="109.99756%" android:fillEnabled="true" />
+    <alpha android:duration="700" android:fromAlpha="1.0" android:toAlpha="1.0" />
+</set>

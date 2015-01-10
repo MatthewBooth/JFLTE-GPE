@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" class="android.widget.AppSecurityPermissions$PermissionItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/perm_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+    <ImageView android:background="?dividerVertical" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+        <TextView android:textAppearance="?textAppearanceSmall" android:textSize="16.0sp" android:id="@id/perm_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/perm_money_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coins_s" android:scaleType="fitCenter" android:tint="@color/perms_costs_money" android:layout_alignBottom="@id/perm_money_label" android:layout_alignParentStart="true" android:tintMode="src_in" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:textSize="16.0sp" android:textColor="@color/perms_costs_money" android:id="@id/perm_money_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perm_costs_money" android:layout_below="@id/perm_name" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/perm_money_icon" />
+    </RelativeLayout>
+</view>

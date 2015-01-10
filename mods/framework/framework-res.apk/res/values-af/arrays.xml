@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Tuis</item>
+        <item>Werk</item>
+        <item>Ander</item>
+        <item>Gepasmaak</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Werk</item>
+        <item>Ander</item>
+        <item>Gepasmaak</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Tuis</item>
+        <item>Mobiel</item>
+        <item>Werk</item>
+        <item>Werkfaks</item>
+        <item>Tuisfaks</item>
+        <item>Roeper</item>
+        <item>Ander</item>
+        <item>Gepasmaak</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Tuis</item>
+        <item>Werk</item>
+        <item>Ander</item>
+        <item>Gepasmaak</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Tuis</item>
+        <item>Werk</item>
+        <item>Ander</item>
+        <item>Gepasmaak</item>
+    </string-array>
+</resources>

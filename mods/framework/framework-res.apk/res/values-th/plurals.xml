@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะถูกล็อก</item>
+        <item quantity="one">คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะถูกล็อก</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d วินาทีที่แล้ว</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d วินาทีที่ผ่านมา</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">1 วินาที</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">เครือข่าย WiFi ใช้งานได้</item>
+        <item quantity="one">เครือข่าย WiFi ที่ใช้งานได้</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">เปิดเครือข่าย WiFi ที่ใช้งานได้</item>
+        <item quantity="one">เปิดเครือข่าย WiFi ที่ใช้งานได้</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d จาก %2$d</item>
+        <item quantity="one">1 รายการที่ตรงกัน</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">ลองอีกใน %d วินาที</item>
+        <item quantity="one">ลองอีกใน 1 วิ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+</resources>

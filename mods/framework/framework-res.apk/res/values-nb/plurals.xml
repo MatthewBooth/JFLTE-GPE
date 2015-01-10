@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Du har %d forsøk igjen før SIM-kortet låses.</item>
+        <item quantity="one">Du har %d forsøk igjen før SIM-kortet låses.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">for %d sekunder siden</item>
+        <item quantity="one">for et sekund siden</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">for %d minutter siden</item>
+        <item quantity="one">for et minutt siden</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">for %d timer siden</item>
+        <item quantity="one">for en time siden</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Siste %d dager</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">for %d dager siden</item>
+        <item quantity="one">i går</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">om %d sekunder</item>
+        <item quantity="one">om et sekund</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om et minutt</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">om %d timer</item>
+        <item quantity="one">om et minutt</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">om %d dager</item>
+        <item quantity="one">i morgen</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d sek siden</item>
+        <item quantity="one">1 sek siden</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min siden</item>
+        <item quantity="one">1 min siden</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d t siden</item>
+        <item quantity="one">1 t siden</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d d siden</item>
+        <item quantity="one">i går</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">om %d sek</item>
+        <item quantity="one">om 1 sek</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">om %d t</item>
+        <item quantity="one">om 1 t</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">om %d d</item>
+        <item quantity="one">i morgen</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">Ett sekund</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">Ett minutt</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">Én time</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Trådløsnett i nærheten</item>
+        <item quantity="one">Trådløsnett i nærheten</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Åpne trådløsnett i nærheten</item>
+        <item quantity="one">Åpent trådløsnett i nærheten</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d av %2$d</item>
+        <item quantity="one">1 treff</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Prøv på nytt om %d sekunder</item>
+        <item quantity="one">Prøv på nytt om 1 sekund</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">I %d minutter</item>
+        <item quantity="one">I ett minutt</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">I %d timer</item>
+        <item quantity="one">I én time</item>
+    </plurals>
+</resources>

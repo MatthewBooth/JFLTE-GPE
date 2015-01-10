@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Residência</item>
+        <item>Emprego</item>
+        <item>Outro</item>
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Emprego</item>
+        <item>Outro</item>
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Residência</item>
+        <item>Móvel</item>
+        <item>Emprego</item>
+        <item>Fax do emprego</item>
+        <item>Fax da residência</item>
+        <item>Pager</item>
+        <item>Outro</item>
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Residência</item>
+        <item>Emprego</item>
+        <item>Outro</item>
+        <item>Personalizado</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>38707163</item>
+        <item>-9135517</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>Residência</item>
+        <item>Emprego</item>
+        <item>Outro</item>
+        <item>Personalizado</item>
+    </string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Umesalia na majaribio %d kabla ya SIM kufungwa.</item>
+        <item quantity="one">Umesalia na majaribio %d kabla ya SIM kufungwa.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">sekunde %d zilizopita</item>
+        <item quantity="one">Sekunde 1 iliopita</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika 1 iliyopita</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">Saa 1 iliyopita</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Siku %d zilizopita</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">siku %d zilizopita</item>
+        <item quantity="one">jana</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">kati ya sekunde %d</item>
+        <item quantity="one">kati ya sekunde 1</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">baada ya dakika %d</item>
+        <item quantity="one">"kati ya dakika  1"</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">kati ya saa %d</item>
+        <item quantity="one">kati ya saa 1</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">katika siku %d</item>
+        <item quantity="one">kesho</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Sekunde %d zilizopita</item>
+        <item quantity="one">Sekunde 1 iliyopita</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika 1 iliyopita</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">Saa 1 iliyopita</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">siku %d zilizopita</item>
+        <item quantity="one">jana</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">kati ya sekunde %d</item>
+        <item quantity="one">kati ya sekunde 1</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">kati ya dakika%d</item>
+        <item quantity="one">baada ya dakika 1</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">katika saa %d</item>
+        <item quantity="one">kati ya saa 1</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">kati ya siku %d</item>
+        <item quantity="one">kesho</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde 1</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika 1</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa 1</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Mitandao ya Wi-Fi inapatikana</item>
+        <item quantity="one">Mtandao wa Wi-Fi unapatikana</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Fungua mitandao ya Wi-Fi inayopatikana</item>
+        <item quantity="one">Fungua mtandao wa Wi-Fi unaopatikana</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ya %2$d</item>
+        <item quantity="one">Linganisho 1</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Jaribu tena baada ya sekunde %d</item>
+        <item quantity="one">Jaribu tena baada ya sekunde 1</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Kwa dakika %d</item>
+        <item quantity="one">Kwa dakika moja</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Kwa saa %d</item>
+        <item quantity="one">Kwa saa moja</item>
+    </plurals>
+</resources>

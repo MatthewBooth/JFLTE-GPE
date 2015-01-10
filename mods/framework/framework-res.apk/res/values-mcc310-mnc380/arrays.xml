@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_twoDigitNumberPattern">
+        <item>0</item>
+        <item>00</item>
+        <item>*0</item>
+        <item>*1</item>
+        <item>*2</item>
+        <item>*3</item>
+        <item>*4</item>
+        <item>*5</item>
+        <item>*6</item>
+        <item>*7</item>
+        <item>*8</item>
+        <item>*9</item>
+        <item>\#0</item>
+        <item>\#1</item>
+        <item>\#2</item>
+        <item>\#3</item>
+        <item>\#4</item>
+        <item>\#5</item>
+        <item>\#6</item>
+        <item>\#7</item>
+        <item>\#8</item>
+        <item>\#9</item>
+    </string-array>
+    <string-array name="config_operatorConsideredNonRoaming">
+        <item>310</item>
+        <item>311</item>
+        <item>312</item>
+        <item>313</item>
+        <item>314</item>
+        <item>315</item>
+        <item>316</item>
+    </string-array>
+    <string-array name="config_sameNamedOperatorConsideredRoaming">
+        <item>310110</item>
+        <item>310140</item>
+        <item>310400</item>
+        <item>310470</item>
+        <item>311170</item>
+    </string-array>
+</resources>

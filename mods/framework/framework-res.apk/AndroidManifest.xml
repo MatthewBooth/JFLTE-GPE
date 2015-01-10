@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:sharedUserLabel="@string/android_system_label" coreApp="true" package="android">
+    <eat-comment/>
+    <protected-broadcast android:name="android.intent.action.SCREEN_OFF"/>
+    <protected-broadcast android:name="android.intent.action.SCREEN_ON"/>
+    <protected-broadcast android:name="android.intent.action.USER_PRESENT"/>
+    <protected-broadcast android:name="android.intent.action.TIME_SET"/>
+    <protected-broadcast android:name="android.intent.action.TIME_TICK"/>
+    <protected-broadcast android:name="android.intent.action.TIMEZONE_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.DATE_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.BOOT_COMPLETED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_INSTALL"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_ADDED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_REPLACED"/>
+    <protected-broadcast android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_REMOVED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_RESTARTED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_FIRST_LAUNCH"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION"/>
+    <protected-broadcast android:name="android.intent.action.PACKAGE_VERIFIED"/>
+    <protected-broadcast android:name="android.intent.action.UID_REMOVED"/>
+    <protected-broadcast android:name="android.intent.action.QUERY_PACKAGE_RESTART"/>
+    <protected-broadcast android:name="android.intent.action.CONFIGURATION_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.LOCALE_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.BATTERY_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.BATTERY_LOW"/>
+    <protected-broadcast android:name="android.intent.action.BATTERY_OKAY"/>
+    <protected-broadcast android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+    <protected-broadcast android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+    <protected-broadcast android:name="android.intent.action.ACTION_SHUTDOWN"/>
+    <protected-broadcast android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+    <protected-broadcast android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+    <protected-broadcast android:name="android.intent.action.DEVICE_STORAGE_FULL"/>
+    <protected-broadcast android:name="android.intent.action.DEVICE_STORAGE_NOT_FULL"/>
+    <protected-broadcast android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+    <protected-broadcast android:name="android.intent.action.REBOOT"/>
+    <protected-broadcast android:name="android.intent.action.DOCK_EVENT"/>
+    <protected-broadcast android:name="android.intent.action.MASTER_CLEAR_NOTIFICATION"/>
+    <protected-broadcast android:name="android.intent.action.USER_ADDED"/>
+    <protected-broadcast android:name="android.intent.action.USER_REMOVED"/>
+    <protected-broadcast android:name="android.intent.action.USER_STARTING"/>
+    <protected-broadcast android:name="android.intent.action.USER_STARTED"/>
+    <protected-broadcast android:name="android.intent.action.USER_STOPPING"/>
+    <protected-broadcast android:name="android.intent.action.USER_STOPPED"/>
+    <protected-broadcast android:name="android.intent.action.USER_BACKGROUND"/>
+    <protected-broadcast android:name="android.intent.action.USER_FOREGROUND"/>
+    <protected-broadcast android:name="android.intent.action.USER_SWITCHED"/>
+    <protected-broadcast android:name="android.os.action.POWER_SAVE_MODE_CHANGED"/>
+    <protected-broadcast android:name="android.os.action.POWER_SAVE_MODE_CHANGING"/>
+    <protected-broadcast android:name="android.app.action.ENTER_CAR_MODE"/>
+    <protected-broadcast android:name="android.app.action.EXIT_CAR_MODE"/>
+    <protected-broadcast android:name="android.app.action.ENTER_DESK_MODE"/>
+    <protected-broadcast android:name="android.app.action.EXIT_DESK_MODE"/>
+    <protected-broadcast android:name="android.app.action.NEXT_ALARM_CLOCK_CHANGED"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED"/>
+    <protected-broadcast android:name="android.appwidget.action.APPWIDGET_RESTORED"/>
+    <protected-broadcast android:name="android.backup.intent.RUN"/>
+    <protected-broadcast android:name="android.backup.intent.CLEAR"/>
+    <protected-broadcast android:name="android.backup.intent.INIT"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.SCAN_MODE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.DISCOVERY_FINISHED"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.LOCAL_NAME_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.UUID"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.MAS_INSTANCE"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.ALIAS_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.FOUND"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.DISAPPEARED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.CLASS_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.NAME_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.NAME_FAILED"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.PAIRING_CANCEL"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REPLY"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL"/>
+    <protected-broadcast android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST"/>
+    <protected-broadcast android:name="android.bluetooth.devicepicker.action.LAUNCH"/>
+    <protected-broadcast android:name="android.bluetooth.devicepicker.action.DEVICE_SELECTED"/>
+    <protected-broadcast android:name="android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.headset.action.VENDOR_SPECIFIC_HEADSET_EVENT"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.AUDIO_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.AG_EVENT"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.AG_CALL_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.RESULT"/>
+    <protected-broadcast android:name="android.bluetooth.headsetclient.profile.action.LAST_VTAG"/>
+    <protected-broadcast android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.a2dp.profile.action.PLAYING_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.a2dp-sink.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.a2dp-sink.profile.action.PLAYING_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.a2dp-sink.profile.action.AUDIO_CONFIG_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.avrcp-controller.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.input.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.input.profile.action.PROTOCOL_MODE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.input.profile.action.VIRTUAL_UNPLUG_STATUS"/>
+    <protected-broadcast android:name="android.bluetooth.pan.profile.action.CONNECTION_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.bluetooth.pbap.intent.action.PBAP_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.btopp.intent.action.INCOMING_FILE_NOTIFICATION"/>
+    <protected-broadcast android:name="android.btopp.intent.action.USER_CONFIRMATION_TIMEOUT"/>
+    <protected-broadcast android:name="android.btopp.intent.action.LIST"/>
+    <protected-broadcast android:name="android.btopp.intent.action.OPEN_OUTBOUND"/>
+    <protected-broadcast android:name="android.btopp.intent.action.HIDE_COMPLETE"/>
+    <protected-broadcast android:name="android.btopp.intent.action.CONFIRM"/>
+    <protected-broadcast android:name="android.btopp.intent.action.HIDE"/>
+    <protected-broadcast android:name="android.btopp.intent.action.RETRY"/>
+    <protected-broadcast android:name="android.btopp.intent.action.OPEN"/>
+    <protected-broadcast android:name="android.btopp.intent.action.OPEN_INBOUND"/>
+    <protected-broadcast android:name="com.android.bluetooth.pbap.authchall"/>
+    <protected-broadcast android:name="com.android.bluetooth.pbap.userconfirmtimeout"/>
+    <protected-broadcast android:name="com.android.bluetooth.pbap.authresponse"/>
+    <protected-broadcast android:name="com.android.bluetooth.pbap.authcancelled"/>
+    <protected-broadcast android:name="android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED"/>
+    <protected-broadcast android:name="android.hardware.usb.action.USB_STATE"/>
+    <protected-broadcast android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+    <protected-broadcast android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+    <protected-broadcast android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+    <protected-broadcast android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+    <protected-broadcast android:name="android.intent.action.HEADSET_PLUG"/>
+    <protected-broadcast android:name="android.media.action.ANALOG_AUDIO_DOCK_PLUG"/>
+    <protected-broadcast android:name="android.media.action.DIGITAL_AUDIO_DOCK_PLUG"/>
+    <protected-broadcast android:name="android.media.action.HDMI_AUDIO_PLUG"/>
+    <protected-broadcast android:name="android.media.action.USB_AUDIO_ACCESSORY_PLUG"/>
+    <protected-broadcast android:name="android.media.action.USB_AUDIO_DEVICE_PLUG"/>
+    <protected-broadcast android:name="android.media.AUDIO_BECOMING_NOISY"/>
+    <protected-broadcast android:name="android.media.RINGER_MODE_CHANGED"/>
+    <protected-broadcast android:name="android.media.VIBRATE_SETTING_CHANGED"/>
+    <protected-broadcast android:name="android.media.VOLUME_CHANGED_ACTION"/>
+    <protected-broadcast android:name="android.media.MASTER_VOLUME_CHANGED_ACTION"/>
+    <protected-broadcast android:name="android.media.MASTER_MUTE_CHANGED_ACTION"/>
+    <protected-broadcast android:name="android.media.SCO_AUDIO_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.media.ACTION_SCO_AUDIO_STATE_UPDATED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_REMOVED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_CHECKING"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_NOFS"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_SHARED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_UNSHARED"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_BAD_REMOVAL"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_UNMOUNTABLE"/>
+    <protected-broadcast android:name="android.intent.action.MEDIA_EJECT"/>
+    <protected-broadcast android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+    <protected-broadcast android:name="android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE"/>
+    <protected-broadcast android:name="android.net.conn.DATA_ACTIVITY_CHANGE"/>
+    <protected-broadcast android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED"/>
+    <protected-broadcast android:name="android.net.conn.CAPTIVE_PORTAL_TEST_COMPLETED"/>
+    <protected-broadcast android:name="android.net.nsd.STATE_CHANGED"/>
+    <protected-broadcast android:name="android.nfc.action.LLCP_LINK_STATE_CHANGED"/>
+    <protected-broadcast android:name="com.android.nfc_extras.action.RF_FIELD_ON_DETECTED"/>
+    <protected-broadcast android:name="com.android.nfc_extras.action.RF_FIELD_OFF_DETECTED"/>
+    <protected-broadcast android:name="com.android.nfc_extras.action.AID_SELECTED"/>
+    <protected-broadcast android:name="android.nfc.action.TRANSACTION_DETECTED"/>
+    <protected-broadcast android:name="android.intent.action.CLEAR_DNS_CACHE"/>
+    <protected-broadcast android:name="android.intent.action.PROXY_CHANGE"/>
+    <protected-broadcast android:name="android.os.UpdateLock.UPDATE_LOCK_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.DREAMING_STARTED"/>
+    <protected-broadcast android:name="android.intent.action.DREAMING_STOPPED"/>
+    <protected-broadcast android:name="android.intent.action.ANY_DATA_STATE"/>
+    <protected-broadcast android:name="android.intent.action.DATA_CONNECTION_CONNECTED_TO_PROVISIONING_APN"/>
+    <protected-broadcast android:name="com.android.server.WifiManager.action.START_SCAN"/>
+    <protected-broadcast android:name="com.android.server.WifiManager.action.DELAYED_DRIVER_STOP"/>
+    <protected-broadcast android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.WIFI_AP_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.WIFI_SCAN_AVAILABLE"/>
+    <protected-broadcast android:name="android.net.wifi.SCAN_RESULTS"/>
+    <protected-broadcast android:name="android.net.wifi.RSSI_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.STATE_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.LINK_CONFIGURATION_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.CONFIGURED_NETWORKS_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.supplicant.CONNECTION_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.supplicant.STATE_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.STATE_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.DISCOVERY_STATE_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.THIS_DEVICE_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.PEERS_CHANGED"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE"/>
+    <protected-broadcast android:name="android.net.wifi.p2p.PERSISTENT_GROUPS_CHANGED"/>
+    <protected-broadcast android:name="android.net.conn.TETHER_STATE_CHANGED"/>
+    <protected-broadcast android:name="android.net.conn.INET_CONDITION_ACTION"/>
+    <protected-broadcast android:name="android.net.conn.NETWORK_CONDITIONS_MEASURED"/>
+    <protected-broadcast android:name="android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED"/>
+    <protected-broadcast android:name="android.net.scoring.SCORE_NETWORKS"/>
+    <protected-broadcast android:name="android.net.scoring.SCORER_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"/>
+    <protected-broadcast android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"/>
+    <protected-broadcast android:name="android.intent.action.AIRPLANE_MODE"/>
+    <protected-broadcast android:name="android.intent.action.ADVANCED_SETTINGS"/>
+    <protected-broadcast android:name="android.intent.action.APPLICATION_RESTRICTIONS_CHANGED"/>
+    <protected-broadcast android:name="android.intent.action.BUGREPORT_FINISHED"/>
+    <protected-broadcast android:name="android.intent.action.ACTION_IDLE_MAINTENANCE_START"/>
+    <protected-broadcast android:name="android.intent.action.ACTION_IDLE_MAINTENANCE_END"/>
+    <protected-broadcast android:name="android.intent.action.HDMI_PLUGGED"/>
+    <protected-broadcast android:name="android.intent.action.PHONE_STATE"/>
+    <protected-broadcast android:name="android.location.GPS_ENABLED_CHANGE"/>
+    <protected-broadcast android:name="android.location.PROVIDERS_CHANGED"/>
+    <protected-broadcast android:name="android.location.MODE_CHANGED"/>
+    <protected-broadcast android:name="android.location.GPS_FIX_CHANGE"/>
+    <protected-broadcast android:name="android.net.proxy.PAC_REFRESH"/>
+    <protected-broadcast android:name="com.android.server.connectivityservice.CONNECTED_TO_PROVISIONING_NETWORK_ACTION"/>
+    <protected-broadcast android:name="android.intent.action.PERMISSION_RESPONSE_RECEIVED"/>
+    <protected-broadcast android:name="android.intent.action.REQUEST_PERMISSION"/>
+    <protected-broadcast android:name="android.nfc.handover.intent.action.HANDOVER_STARTED"/>
+    <protected-broadcast android:name="android.nfc.handover.intent.action.TRANSFER_DONE"/>
+    <protected-broadcast android:name="android.nfc.handover.intent.action.TRANSFER_PROGRESS"/>
+    <protected-broadcast android:name="android.nfc.handover.intent.action.TRANSFER_DONE"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_costMoney" android:label="@string/permgrouplab_costMoney" android:name="android.permission-group.COST_MONEY"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_messages" android:icon="@drawable/perm_group_messages" android:label="@string/permgrouplab_messages" android:name="android.permission-group.MESSAGES" android:permissionGroupFlags="personalInfo" android:priority="360"/>
+    <permission android:description="@string/permdesc_sendSms" android:label="@string/permlab_sendSms" android:name="android.permission.SEND_SMS" android:permissionFlags="costsMoney" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_sendRespondViaMessageRequest" android:label="@string/permlab_sendRespondViaMessageRequest" android:name="android.permission.SEND_RESPOND_VIA_MESSAGE" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_receiveSms" android:label="@string/permlab_receiveSms" android:name="android.permission.RECEIVE_SMS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_receiveMms" android:label="@string/permlab_receiveMms" android:name="android.permission.RECEIVE_MMS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_receiveEmergencyBroadcast" android:label="@string/permlab_receiveEmergencyBroadcast" android:name="android.permission.RECEIVE_EMERGENCY_BROADCAST" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_readCellBroadcasts" android:label="@string/permlab_readCellBroadcasts" android:name="android.permission.READ_CELL_BROADCASTS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_readSms" android:label="@string/permlab_readSms" android:name="android.permission.READ_SMS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeSms" android:label="@string/permlab_writeSms" android:name="android.permission.WRITE_SMS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_receiveWapPush" android:label="@string/permlab_receiveWapPush" android:name="android.permission.RECEIVE_WAP_PUSH" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_receiveBluetoothMap" android:label="@string/permlab_receiveBluetoothMap" android:name="android.permission.RECEIVE_BLUETOOTH_MAP" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_socialInfo" android:icon="@drawable/perm_group_social_info" android:label="@string/permgrouplab_socialInfo" android:name="android.permission-group.SOCIAL_INFO" android:permissionGroupFlags="personalInfo" android:priority="320"/>
+    <permission android:description="@string/permdesc_readContacts" android:label="@string/permlab_readContacts" android:name="android.permission.READ_CONTACTS" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeContacts" android:label="@string/permlab_writeContacts" android:name="android.permission.WRITE_CONTACTS" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:name="android.permission.BIND_DIRECTORY_SEARCH" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_readCallLog" android:label="@string/permlab_readCallLog" android:name="android.permission.READ_CALL_LOG" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeCallLog" android:label="@string/permlab_writeCallLog" android:name="android.permission.WRITE_CALL_LOG" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_readSocialStream" android:label="@string/permlab_readSocialStream" android:name="android.permission.READ_SOCIAL_STREAM" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeSocialStream" android:label="@string/permlab_writeSocialStream" android:name="android.permission.WRITE_SOCIAL_STREAM" android:permissionGroup="android.permission-group.SOCIAL_INFO" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_personalInfo" android:icon="@drawable/perm_group_personal_info" android:label="@string/permgrouplab_personalInfo" android:name="android.permission-group.PERSONAL_INFO" android:permissionGroupFlags="personalInfo" android:priority="310"/>
+    <permission android:description="@string/permdesc_readProfile" android:label="@string/permlab_readProfile" android:name="android.permission.READ_PROFILE" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeProfile" android:label="@string/permlab_writeProfile" android:name="android.permission.WRITE_PROFILE" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_bodySensors" android:label="@string/permlab_bodySensors" android:name="android.permission.BODY_SENSORS" android:permissionGroup="android.permission-group.PERSONAL_INFO"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_calendar" android:icon="@drawable/perm_group_calendar" android:label="@string/permgrouplab_calendar" android:name="android.permission-group.CALENDAR" android:permissionGroupFlags="personalInfo" android:priority="290"/>
+    <permission android:description="@string/permdesc_readCalendar" android:label="@string/permlab_readCalendar" android:name="android.permission.READ_CALENDAR" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeCalendar" android:label="@string/permlab_writeCalendar" android:name="android.permission.WRITE_CALENDAR" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_dictionary" android:icon="@drawable/perm_group_user_dictionary" android:label="@string/permgrouplab_dictionary" android:name="android.permission-group.USER_DICTIONARY" android:permissionGroupFlags="personalInfo" android:priority="170"/>
+    <permission android:description="@string/permdesc_readDictionary" android:label="@string/permlab_readDictionary" android:name="android.permission.READ_USER_DICTIONARY" android:permissionGroup="android.permission-group.USER_DICTIONARY" android:protectionLevel="dangerous"/>
+    <permission-group android:description="@string/permgroupdesc_writeDictionary" android:icon="@drawable/perm_group_user_dictionary_write" android:label="@string/permgrouplab_writeDictionary" android:name="android.permission-group.WRITE_USER_DICTIONARY" android:priority="160"/>
+    <permission android:description="@string/permdesc_writeDictionary" android:label="@string/permlab_writeDictionary" android:name="android.permission.WRITE_USER_DICTIONARY" android:permissionGroup="android.permission-group.WRITE_USER_DICTIONARY" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_bookmarks" android:icon="@drawable/perm_group_bookmarks" android:label="@string/permgrouplab_bookmarks" android:name="android.permission-group.BOOKMARKS" android:permissionGroupFlags="personalInfo" android:priority="300"/>
+    <permission android:description="@string/permdesc_readHistoryBookmarks" android:label="@string/permlab_readHistoryBookmarks" android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" android:permissionGroup="android.permission-group.BOOKMARKS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeHistoryBookmarks" android:label="@string/permlab_writeHistoryBookmarks" android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" android:permissionGroup="android.permission-group.BOOKMARKS" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_deviceAlarms" android:icon="@drawable/perm_group_device_alarms" android:label="@string/permgrouplab_deviceAlarms" android:name="android.permission-group.DEVICE_ALARMS" android:permissionGroupFlags="personalInfo" android:priority="210"/>
+    <permission android:description="@string/permdesc_setAlarm" android:label="@string/permlab_setAlarm" android:name="com.android.alarm.permission.SET_ALARM" android:permissionGroup="android.permission-group.DEVICE_ALARMS" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_voicemail" android:icon="@drawable/perm_group_voicemail" android:label="@string/permgrouplab_voicemail" android:name="android.permission-group.VOICEMAIL" android:permissionGroupFlags="personalInfo" android:priority="280"/>
+    <permission android:description="@string/permdesc_addVoicemail" android:label="@string/permlab_addVoicemail" android:name="com.android.voicemail.permission.ADD_VOICEMAIL" android:permissionGroup="android.permission-group.VOICEMAIL" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_writeVoicemail" android:label="@string/permlab_writeVoicemail" android:name="com.android.voicemail.permission.WRITE_VOICEMAIL" android:permissionGroup="android.permission-group.VOICEMAIL" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_readVoicemail" android:label="@string/permlab_readVoicemail" android:name="com.android.voicemail.permission.READ_VOICEMAIL" android:permissionGroup="android.permission-group.VOICEMAIL" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_accessibilityFeatures" android:icon="@drawable/perm_group_accessibility_features" android:label="@string/permgrouplab_accessibilityFeatures" android:name="android.permission-group.ACCESSIBILITY_FEATURES" android:priority="380"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_location" android:icon="@drawable/perm_group_location" android:label="@string/permgrouplab_location" android:name="android.permission-group.LOCATION" android:permissionGroupFlags="personalInfo" android:priority="330"/>
+    <permission android:description="@string/permdesc_accessFineLocation" android:label="@string/permlab_accessFineLocation" android:name="android.permission.ACCESS_FINE_LOCATION" android:permissionGroup="android.permission-group.LOCATION" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_accessCoarseLocation" android:label="@string/permlab_accessCoarseLocation" android:name="android.permission.ACCESS_COARSE_LOCATION" android:permissionGroup="android.permission-group.LOCATION" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_accessMockLocation" android:label="@string/permlab_accessMockLocation" android:name="android.permission.ACCESS_MOCK_LOCATION" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_accessLocationExtraCommands" android:label="@string/permlab_accessLocationExtraCommands" android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_installLocationProvider" android:label="@string/permlab_installLocationProvider" android:name="android.permission.INSTALL_LOCATION_PROVIDER" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.HDMI_CEC" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="android.permission.LOCATION_HARDWARE" android:permissionGroup="android.permission-group.LOCATION" android:protectionLevel="system|signature"/>
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_network" android:icon="@drawable/perm_group_network" android:label="@string/permgrouplab_network" android:name="android.permission-group.NETWORK" android:priority="270"/>
+    <permission android:description="@string/permdesc_createNetworkSockets" android:label="@string/permlab_createNetworkSockets" android:name="android.permission.INTERNET" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_accessNetworkState" android:label="@string/permlab_accessNetworkState" android:name="android.permission.ACCESS_NETWORK_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_accessWifiState" android:label="@string/permlab_accessWifiState" android:name="android.permission.ACCESS_WIFI_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_changeWifiState" android:label="@string/permlab_changeWifiState" android:name="android.permission.CHANGE_WIFI_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:name="android.permission.READ_WIFI_CREDENTIAL" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessWimaxState" android:label="@string/permlab_accessWimaxState" android:name="android.permission.ACCESS_WIMAX_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_changeWimaxState" android:label="@string/permlab_changeWimaxState" android:name="android.permission.CHANGE_WIMAX_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_scoreNetworks" android:label="@string/permlab_scoreNetworks" android:name="android.permission.SCORE_NETWORKS" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_bluetoothNetwork" android:icon="@drawable/perm_group_bluetooth" android:label="@string/permgrouplab_bluetoothNetwork" android:name="android.permission-group.BLUETOOTH_NETWORK" android:priority="260"/>
+    <permission android:description="@string/permdesc_bluetooth" android:label="@string/permlab_bluetooth" android:name="android.permission.BLUETOOTH" android:permissionGroup="android.permission-group.BLUETOOTH_NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_bluetoothAdmin" android:label="@string/permlab_bluetoothAdmin" android:name="android.permission.BLUETOOTH_ADMIN" android:permissionGroup="android.permission-group.BLUETOOTH_NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_bluetoothPriv" android:label="@string/permlab_bluetoothPriv" android:name="android.permission.BLUETOOTH_PRIVILEGED" android:permissionGroup="android.permission-group.BLUETOOTH_NETWORK" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bluetoothMap" android:label="@string/permlab_bluetoothMap" android:name="android.permission.BLUETOOTH_MAP" android:permissionGroup="android.permission-group.BLUETOOTH_NETWORK" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.BLUETOOTH_STACK" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_nfc" android:label="@string/permlab_nfc" android:name="android.permission.NFC" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="dangerous"/>
+    <permission android:name="android.permission.CONNECTIVITY_INTERNAL" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.RECEIVE_DATA_ACTIVITY_CHANGE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.LOOP_RADIO" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_handoverStatus" android:label="@string/permlab_handoverStatus" android:name="android.permission.NFC_HANDOVER_STATUS" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_accounts" android:icon="@drawable/perm_group_accounts" android:label="@string/permgrouplab_accounts" android:name="android.permission-group.ACCOUNTS" android:permissionGroupFlags="personalInfo" android:priority="200"/>
+    <permission android:description="@string/permdesc_getAccounts" android:label="@string/permlab_getAccounts" android:name="android.permission.GET_ACCOUNTS" android:permissionGroup="android.permission-group.ACCOUNTS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_authenticateAccounts" android:label="@string/permlab_authenticateAccounts" android:name="android.permission.AUTHENTICATE_ACCOUNTS" android:permissionGroup="android.permission-group.ACCOUNTS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_useCredentials" android:label="@string/permlab_useCredentials" android:name="android.permission.USE_CREDENTIALS" android:permissionGroup="android.permission-group.ACCOUNTS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_manageAccounts" android:label="@string/permlab_manageAccounts" android:name="android.permission.MANAGE_ACCOUNTS" android:permissionGroup="android.permission-group.ACCOUNTS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_accountManagerService" android:label="@string/permlab_accountManagerService" android:name="android.permission.ACCOUNT_MANAGER" android:permissionGroup="android.permission-group.ACCOUNTS" android:protectionLevel="signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_affectsBattery" android:icon="@drawable/perm_group_affects_battery" android:label="@string/permgrouplab_affectsBattery" android:name="android.permission-group.AFFECTS_BATTERY" android:priority="180"/>
+    <permission android:description="@string/permdesc_changeWifiMulticastState" android:label="@string/permlab_changeWifiMulticastState" android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" android:permissionGroup="android.permission-group.AFFECTS_BATTERY" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_vibrate" android:label="@string/permlab_vibrate" android:name="android.permission.VIBRATE" android:permissionGroup="android.permission-group.AFFECTS_BATTERY" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_flashlight" android:label="@string/permlab_flashlight" android:name="android.permission.FLASHLIGHT" android:permissionGroup="android.permission-group.AFFECTS_BATTERY" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_wakeLock" android:label="@string/permlab_wakeLock" android:name="android.permission.WAKE_LOCK" android:permissionGroup="android.permission-group.AFFECTS_BATTERY" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_transmitIr" android:label="@string/permlab_transmitIr" android:name="android.permission.TRANSMIT_IR" android:permissionGroup="android.permission-group.AFFECTS_BATTERY" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_audioSettings" android:icon="@drawable/perm_group_audio_settings" android:label="@string/permgrouplab_audioSettings" android:name="android.permission-group.AUDIO_SETTINGS" android:priority="130"/>
+    <permission android:description="@string/permdesc_modifyAudioSettings" android:label="@string/permlab_modifyAudioSettings" android:name="android.permission.MODIFY_AUDIO_SETTINGS" android:permissionGroup="android.permission-group.AUDIO_SETTINGS" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_hardwareControls" android:label="@string/permgrouplab_hardwareControls" android:name="android.permission-group.HARDWARE_CONTROLS" android:priority="260"/>
+    <permission android:description="@string/permdesc_manageUsb" android:label="@string/permlab_manageUsb" android:name="android.permission.MANAGE_USB" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessMtp" android:label="@string/permlab_accessMtp" android:name="android.permission.ACCESS_MTP" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_hardware_test" android:label="@string/permlab_hardware_test" android:name="android.permission.HARDWARE_TEST" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.NET_ADMIN" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.REMOTE_AUDIO_PLAYBACK" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.TV_INPUT_HARDWARE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="android.permission.CAPTURE_TV_INPUT" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="android.permission.OEM_UNLOCK_STATE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_microphone" android:icon="@drawable/perm_group_microphone" android:label="@string/permgrouplab_microphone" android:name="android.permission-group.MICROPHONE" android:permissionGroupFlags="personalInfo" android:priority="340"/>
+    <permission android:description="@string/permdesc_recordAudio" android:label="@string/permlab_recordAudio" android:name="android.permission.RECORD_AUDIO" android:permissionGroup="android.permission-group.MICROPHONE" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_camera" android:icon="@drawable/perm_group_camera" android:label="@string/permgrouplab_camera" android:name="android.permission-group.CAMERA" android:permissionGroupFlags="personalInfo" android:priority="350"/>
+    <permission android:description="@string/permdesc_camera" android:label="@string/permlab_camera" android:name="android.permission.CAMERA" android:permissionGroup="android.permission-group.CAMERA" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_cameraDisableTransmitLed" android:label="@string/permlab_cameraDisableTransmitLed" android:name="android.permission.CAMERA_DISABLE_TRANSMIT_LED" android:permissionGroup="android.permission-group.CAMERA" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_phoneCalls" android:icon="@drawable/perm_group_phone_calls" android:label="@string/permgrouplab_phoneCalls" android:name="android.permission-group.PHONE_CALLS" android:permissionGroupFlags="personalInfo" android:priority="370"/>
+    <permission android:description="@string/permdesc_processOutgoingCalls" android:label="@string/permlab_processOutgoingCalls" android:name="android.permission.PROCESS_OUTGOING_CALLS" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_modifyPhoneState" android:label="@string/permlab_modifyPhoneState" android:name="android.permission.MODIFY_PHONE_STATE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_readPhoneState" android:label="@string/permlab_readPhoneState" android:name="android.permission.READ_PHONE_STATE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_readPrecisePhoneState" android:label="@string/permlab_readPrecisePhoneState" android:name="android.permission.READ_PRECISE_PHONE_STATE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_callPhone" android:label="@string/permlab_callPhone" android:name="android.permission.CALL_PHONE" android:permissionFlags="costsMoney" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_use_sip" android:label="@string/permlab_use_sip" android:name="android.permission.USE_SIP" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_bind_incall_service" android:label="@string/permlab_bind_incall_service" android:name="android.permission.BIND_INCALL_SERVICE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bind_connection_service" android:label="@string/permlab_bind_connection_service" android:name="android.permission.BIND_CONNECTION_SERVICE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_control_incall_experience" android:label="@string/permlab_control_incall_experience" android:name="android.permission.CONTROL_INCALL_EXPERIENCE" android:permissionGroup="android.permission-group.PHONE_CALLS" android:protectionLevel="system|signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_storage" android:icon="@drawable/perm_group_storage" android:label="@string/permgrouplab_storage" android:name="android.permission-group.STORAGE" android:permissionGroupFlags="personalInfo" android:priority="240"/>
+    <permission android:description="@string/permdesc_sdcardRead" android:label="@string/permlab_sdcardRead" android:name="android.permission.READ_EXTERNAL_STORAGE" android:permissionGroup="android.permission-group.STORAGE" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_sdcardWrite" android:label="@string/permlab_sdcardWrite" android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:permissionGroup="android.permission-group.STORAGE" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_mediaStorageWrite" android:label="@string/permlab_mediaStorageWrite" android:name="android.permission.WRITE_MEDIA_STORAGE" android:permissionGroup="android.permission-group.STORAGE" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_manageDocs" android:label="@string/permlab_manageDocs" android:name="android.permission.MANAGE_DOCUMENTS" android:permissionGroup="android.permission-group.STORAGE" android:protectionLevel="signature"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_screenlock" android:icon="@drawable/perm_group_screenlock" android:label="@string/permgrouplab_screenlock" android:name="android.permission-group.SCREENLOCK" android:permissionGroupFlags="personalInfo" android:priority="230"/>
+    <permission android:description="@string/permdesc_disableKeyguard" android:label="@string/permlab_disableKeyguard" android:name="android.permission.DISABLE_KEYGUARD" android:permissionGroup="android.permission-group.SCREENLOCK" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_appInfo" android:icon="@drawable/perm_group_app_info" android:label="@string/permgrouplab_appInfo" android:name="android.permission-group.APP_INFO" android:priority="220"/>
+    <permission android:description="@string/permdesc_getTasks" android:label="@string/permlab_getTasks" android:name="android.permission.GET_TASKS" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_getTasks" android:label="@string/permlab_getTasks" android:name="android.permission.REAL_GET_TASKS" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_startTasksFromRecents" android:label="@string/permlab_startTasksFromRecents" android:name="android.permission.START_TASKS_FROM_RECENTS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_interactAcrossUsers" android:label="@string/permlab_interactAcrossUsers" android:name="android.permission.INTERACT_ACROSS_USERS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_interactAcrossUsersFull" android:label="@string/permlab_interactAcrossUsersFull" android:name="android.permission.INTERACT_ACROSS_USERS_FULL" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_manageUsers" android:label="@string/permlab_manageUsers" android:name="android.permission.MANAGE_USERS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_getDetailedTasks" android:label="@string/permlab_getDetailedTasks" android:name="android.permission.GET_DETAILED_TASKS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_reorderTasks" android:label="@string/permlab_reorderTasks" android:name="android.permission.REORDER_TASKS" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_removeTasks" android:label="@string/permlab_removeTasks" android:name="android.permission.REMOVE_TASKS" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_manageActivityStacks" android:label="@string/permlab_manageActivityStacks" android:name="android.permission.MANAGE_ACTIVITY_STACKS" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_startAnyActivity" android:label="@string/permlab_startAnyActivity" android:name="android.permission.START_ANY_ACTIVITY" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_killBackgroundProcesses" android:label="@string/permlab_killBackgroundProcesses" android:name="android.permission.RESTART_PACKAGES" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_killBackgroundProcesses" android:label="@string/permlab_killBackgroundProcesses" android:name="android.permission.KILL_BACKGROUND_PROCESSES" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_display" android:icon="@drawable/perm_group_display" android:label="@string/permgrouplab_display" android:name="android.permission-group.DISPLAY" android:priority="190"/>
+    <permission android:description="@string/permdesc_systemAlertWindow" android:label="@string/permlab_systemAlertWindow" android:name="android.permission.SYSTEM_ALERT_WINDOW" android:permissionGroup="android.permission-group.DISPLAY" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_wallpaper" android:icon="@drawable/perm_group_wallpaper" android:label="@string/permgrouplab_wallpaper" android:name="android.permission-group.WALLPAPER" android:priority="150"/>
+    <permission android:description="@string/permdesc_setWallpaper" android:label="@string/permlab_setWallpaper" android:name="android.permission.SET_WALLPAPER" android:permissionGroup="android.permission-group.WALLPAPER" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_setWallpaperHints" android:label="@string/permlab_setWallpaperHints" android:name="android.permission.SET_WALLPAPER_HINTS" android:permissionGroup="android.permission-group.WALLPAPER" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_systemClock" android:icon="@drawable/perm_group_system_clock" android:label="@string/permgrouplab_systemClock" android:name="android.permission-group.SYSTEM_CLOCK" android:priority="140"/>
+    <permission android:description="@string/permdesc_setTime" android:label="@string/permlab_setTime" android:name="android.permission.SET_TIME" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_setTimeZone" android:label="@string/permlab_setTimeZone" android:name="android.permission.SET_TIME_ZONE" android:permissionGroup="android.permission-group.SYSTEM_CLOCK" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_statusBar" android:icon="@drawable/perm_group_status_bar" android:label="@string/permgrouplab_statusBar" android:name="android.permission-group.STATUS_BAR" android:priority="110"/>
+    <permission android:description="@string/permdesc_expandStatusBar" android:label="@string/permlab_expandStatusBar" android:name="android.permission.EXPAND_STATUS_BAR" android:permissionGroup="android.permission-group.STATUS_BAR" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission android:description="@string/permdesc_install_shortcut" android:label="@string/permlab_install_shortcut" android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_uninstall_shortcut" android:label="@string/permlab_uninstall_shortcut" android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_syncSettings" android:icon="@drawable/perm_group_sync_settings" android:label="@string/permgrouplab_syncSettings" android:name="android.permission-group.SYNC_SETTINGS" android:priority="120"/>
+    <permission android:description="@string/permdesc_readSyncSettings" android:label="@string/permlab_readSyncSettings" android:name="android.permission.READ_SYNC_SETTINGS" android:permissionGroup="android.permission-group.SYNC_SETTINGS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_writeSyncSettings" android:label="@string/permlab_writeSyncSettings" android:name="android.permission.WRITE_SYNC_SETTINGS" android:permissionGroup="android.permission-group.SYNC_SETTINGS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_readSyncStats" android:label="@string/permlab_readSyncStats" android:name="android.permission.READ_SYNC_STATS" android:permissionGroup="android.permission-group.SYNC_SETTINGS" android:protectionLevel="normal"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_systemTools" android:icon="@drawable/perm_group_system_tools" android:label="@string/permgrouplab_systemTools" android:name="android.permission-group.SYSTEM_TOOLS" android:priority="100"/>
+    <permission android:description="@string/permdesc_setScreenCompatibility" android:label="@string/permlab_setScreenCompatibility" android:name="android.permission.SET_SCREEN_COMPATIBILITY" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_sdcardAccessAll" android:label="@string/permlab_sdcardAccessAll" android:name="android.permission.ACCESS_ALL_EXTERNAL_STORAGE" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_changeConfiguration" android:label="@string/permlab_changeConfiguration" android:name="android.permission.CHANGE_CONFIGURATION" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_writeSettings" android:label="@string/permlab_writeSettings" android:name="android.permission.WRITE_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_writeGservices" android:label="@string/permlab_writeGservices" android:name="android.permission.WRITE_GSERVICES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_forceStopPackages" android:label="@string/permlab_forceStopPackages" android:name="android.permission.FORCE_STOP_PACKAGES" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_retrieve_window_content" android:label="@string/permlab_retrieve_window_content" android:name="android.permission.RETRIEVE_WINDOW_CONTENT" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_setAnimationScale" android:label="@string/permlab_setAnimationScale" android:name="android.permission.SET_ANIMATION_SCALE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_persistentActivity" android:label="@string/permlab_persistentActivity" android:name="android.permission.PERSISTENT_ACTIVITY" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_getPackageSize" android:label="@string/permlab_getPackageSize" android:name="android.permission.GET_PACKAGE_SIZE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_setPreferredApplications" android:label="@string/permlab_setPreferredApplications" android:name="android.permission.SET_PREFERRED_APPLICATIONS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_receiveBootCompleted" android:label="@string/permlab_receiveBootCompleted" android:name="android.permission.RECEIVE_BOOT_COMPLETED" android:permissionGroup="android.permission-group.APP_INFO" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_broadcastSticky" android:label="@string/permlab_broadcastSticky" android:name="android.permission.BROADCAST_STICKY" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_mount_unmount_filesystems" android:label="@string/permlab_mount_unmount_filesystems" android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_mount_format_filesystems" android:label="@string/permlab_mount_format_filesystems" android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_asec_access" android:label="@string/permlab_asec_access" android:name="android.permission.ASEC_ACCESS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_asec_create" android:label="@string/permlab_asec_create" android:name="android.permission.ASEC_CREATE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_asec_destroy" android:label="@string/permlab_asec_destroy" android:name="android.permission.ASEC_DESTROY" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_asec_mount_unmount" android:label="@string/permlab_asec_mount_unmount" android:name="android.permission.ASEC_MOUNT_UNMOUNT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_asec_rename" android:label="@string/permlab_asec_rename" android:name="android.permission.ASEC_RENAME" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_writeApnSettings" android:label="@string/permlab_writeApnSettings" android:name="android.permission.WRITE_APN_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_subscribedFeedsRead" android:label="@string/permlab_subscribedFeedsRead" android:name="android.permission.SUBSCRIBED_FEEDS_READ" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_subscribedFeedsWrite" android:label="@string/permlab_subscribedFeedsWrite" android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_changeNetworkState" android:label="@string/permlab_changeNetworkState" android:name="android.permission.CHANGE_NETWORK_STATE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_clearAppCache" android:label="@string/permlab_clearAppCache" android:name="android.permission.CLEAR_APP_CACHE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <permission android:description="@string/permdesc_anyCodecForPlayback" android:label="@string/permlab_anyCodecForPlayback" android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_manageCaCertificates" android:label="@string/permlab_manageCaCertificates" android:name="android.permission.MANAGE_CA_CERTIFICATES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_recovery" android:label="@string/permlab_recovery" android:name="android.permission.RECOVERY" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindJobService" android:label="@string/permlab_bindJobService" android:name="android.permission.BIND_JOB_SERVICE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.BIND_JOB_SERVICE"/>
+    <eat-comment/>
+    <permission-group android:description="@string/permgroupdesc_developmentTools" android:label="@string/permgrouplab_developmentTools" android:name="android.permission-group.DEVELOPMENT_TOOLS" android:priority="310"/>
+    <permission android:description="@string/permdesc_writeSecureSettings" android:label="@string/permlab_writeSecureSettings" android:name="android.permission.WRITE_SECURE_SETTINGS" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_dump" android:label="@string/permlab_dump" android:name="android.permission.DUMP" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_readLogs" android:label="@string/permlab_readLogs" android:name="android.permission.READ_LOGS" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_setDebugApp" android:label="@string/permlab_setDebugApp" android:name="android.permission.SET_DEBUG_APP" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_setProcessLimit" android:label="@string/permlab_setProcessLimit" android:name="android.permission.SET_PROCESS_LIMIT" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_setAlwaysFinish" android:label="@string/permlab_setAlwaysFinish" android:name="android.permission.SET_ALWAYS_FINISH" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_signalPersistentProcesses" android:label="@string/permlab_signalPersistentProcesses" android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES" android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS" android:protectionLevel="system|development|signature"/>
+    <eat-comment/>
+    <permission android:description="@string/permdesc_diagnostic" android:label="@string/permlab_diagnostic" android:name="android.permission.DIAGNOSTIC" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_statusBar" android:label="@string/permlab_statusBar" android:name="android.permission.STATUS_BAR" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_statusBarService" android:label="@string/permlab_statusBarService" android:name="android.permission.STATUS_BAR_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_forceBack" android:label="@string/permlab_forceBack" android:name="android.permission.FORCE_BACK" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_updateBatteryStats" android:label="@string/permlab_updateBatteryStats" android:name="android.permission.UPDATE_DEVICE_STATS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_getAppOpsStats" android:label="@string/permlab_getAppOpsStats" android:name="android.permission.GET_APP_OPS_STATS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_updateAppOpsStats" android:label="@string/permlab_updateAppOpsStats" android:name="android.permission.UPDATE_APP_OPS_STATS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_internalSystemWindow" android:label="@string/permlab_internalSystemWindow" android:name="android.permission.INTERNAL_SYSTEM_WINDOW" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_manageAppTokens" android:label="@string/permlab_manageAppTokens" android:name="android.permission.MANAGE_APP_TOKENS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_freezeScreen" android:label="@string/permlab_freezeScreen" android:name="android.permission.FREEZE_SCREEN" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_injectEvents" android:label="@string/permlab_injectEvents" android:name="android.permission.INJECT_EVENTS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_filter_events" android:label="@string/permlab_filter_events" android:name="android.permission.FILTER_EVENTS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_retrieveWindowToken" android:label="@string/permlab_retrieveWindowToken" android:name="android.permission.RETRIEVE_WINDOW_TOKEN" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_frameStats" android:label="@string/permlab_frameStats" android:name="android.permission.FRAME_STATS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_temporary_enable_accessibility" android:label="@string/permlab_temporary_enable_accessibility" android:name="android.permission.TEMPORARY_ENABLE_ACCESSIBILITY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_runSetActivityWatcher" android:label="@string/permlab_runSetActivityWatcher" android:name="android.permission.SET_ACTIVITY_WATCHER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_shutdown" android:label="@string/permlab_shutdown" android:name="android.permission.SHUTDOWN" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_stopAppSwitches" android:label="@string/permlab_stopAppSwitches" android:name="android.permission.STOP_APP_SWITCHES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_getTopActivityInfo" android:label="@string/permlab_getTopActivityInfo" android:name="android.permission.GET_TOP_ACTIVITY_INFO" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_readInputState" android:label="@string/permlab_readInputState" android:name="android.permission.READ_INPUT_STATE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindInputMethod" android:label="@string/permlab_bindInputMethod" android:name="android.permission.BIND_INPUT_METHOD" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindAccessibilityService" android:label="@string/permlab_bindAccessibilityService" android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindPrintService" android:label="@string/permlab_bindPrintService" android:name="android.permission.BIND_PRINT_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindNfcService" android:label="@string/permlab_bindNfcService" android:name="android.permission.BIND_NFC_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindPrintSpoolerService" android:label="@string/permlab_bindPrintSpoolerService" android:name="android.permission.BIND_PRINT_SPOOLER_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindTextService" android:label="@string/permlab_bindTextService" android:name="android.permission.BIND_TEXT_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindVpnService" android:label="@string/permlab_bindVpnService" android:name="android.permission.BIND_VPN_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindWallpaper" android:label="@string/permlab_bindWallpaper" android:name="android.permission.BIND_WALLPAPER" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindVoiceInteraction" android:label="@string/permlab_bindVoiceInteraction" android:name="android.permission.BIND_VOICE_INTERACTION" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_manageVoiceKeyphrases" android:label="@string/permlab_manageVoiceKeyphrases" android:name="android.permission.MANAGE_VOICE_KEYPHRASES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindRemoteDisplay" android:label="@string/permlab_bindRemoteDisplay" android:name="android.permission.BIND_REMOTE_DISPLAY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindTvInput" android:label="@string/permlab_bindTvInput" android:name="android.permission.BIND_TV_INPUT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_modifyParentalControls" android:label="@string/permlab_modifyParentalControls" android:name="android.permission.MODIFY_PARENTAL_CONTROLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindDeviceAdmin" android:label="@string/permlab_bindDeviceAdmin" android:name="android.permission.BIND_DEVICE_ADMIN" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_manageDeviceAdmins" android:label="@string/permlab_manageDeviceAdmins" android:name="android.permission.MANAGE_DEVICE_ADMINS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_setOrientation" android:label="@string/permlab_setOrientation" android:name="android.permission.SET_ORIENTATION" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_setPointerSpeed" android:label="@string/permlab_setPointerSpeed" android:name="android.permission.SET_POINTER_SPEED" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_setInputCalibration" android:label="@string/permlab_setInputCalibration" android:name="android.permission.SET_INPUT_CALIBRATION" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_setKeyboardLayout" android:label="@string/permlab_setKeyboardLayout" android:name="android.permission.SET_KEYBOARD_LAYOUT" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_installPackages" android:label="@string/permlab_installPackages" android:name="android.permission.INSTALL_PACKAGES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_clearAppUserData" android:label="@string/permlab_clearAppUserData" android:name="android.permission.CLEAR_APP_USER_DATA" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_deleteCacheFiles" android:label="@string/permlab_deleteCacheFiles" android:name="android.permission.DELETE_CACHE_FILES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_deletePackages" android:label="@string/permlab_deletePackages" android:name="android.permission.DELETE_PACKAGES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_movePackage" android:label="@string/permlab_movePackage" android:name="android.permission.MOVE_PACKAGE" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_changeComponentState" android:label="@string/permlab_changeComponentState" android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_grantRevokePermissions" android:label="@string/permlab_grantRevokePermissions" android:name="android.permission.GRANT_REVOKE_PERMISSIONS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_accessSurfaceFlinger" android:label="@string/permlab_accessSurfaceFlinger" android:name="android.permission.ACCESS_SURFACE_FLINGER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_readFrameBuffer" android:label="@string/permlab_readFrameBuffer" android:name="android.permission.READ_FRAME_BUFFER" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessInputFlinger" android:label="@string/permlab_accessInputFlinger" android:name="android.permission.ACCESS_INPUT_FLINGER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_configureWifiDisplay" android:label="@string/permlab_configureWifiDisplay" android:name="android.permission.CONFIGURE_WIFI_DISPLAY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_controlWifiDisplay" android:label="@string/permlab_controlWifiDisplay" android:name="android.permission.CONTROL_WIFI_DISPLAY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_captureAudioOutput" android:label="@string/permlab_captureAudioOutput" android:name="android.permission.CAPTURE_AUDIO_OUTPUT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_captureAudioHotword" android:label="@string/permlab_captureAudioHotword" android:name="android.permission.CAPTURE_AUDIO_HOTWORD" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_modifyAudioRouting" android:label="@string/permlab_modifyAudioRouting" android:name="android.permission.MODIFY_AUDIO_ROUTING" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_captureVideoOutput" android:label="@string/permlab_captureVideoOutput" android:name="android.permission.CAPTURE_VIDEO_OUTPUT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_captureSecureVideoOutput" android:label="@string/permlab_captureSecureVideoOutput" android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_mediaContentControl" android:label="@string/permlab_mediaContentControl" android:name="android.permission.MEDIA_CONTENT_CONTROL" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_brick" android:label="@string/permlab_brick" android:name="android.permission.BRICK" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_reboot" android:label="@string/permlab_reboot" android:name="android.permission.REBOOT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_devicePower" android:label="@string/permlab_devicePower" android:name="android.permission.DEVICE_POWER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_userActivity" android:label="@string/permlab_userActivity" android:name="android.permission.USER_ACTIVITY" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.NET_TUNNELING" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_factoryTest" android:label="@string/permlab_factoryTest" android:name="android.permission.FACTORY_TEST" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_broadcastPackageRemoved" android:label="@string/permlab_broadcastPackageRemoved" android:name="android.permission.BROADCAST_PACKAGE_REMOVED" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_broadcastSmsReceived" android:label="@string/permlab_broadcastSmsReceived" android:name="android.permission.BROADCAST_SMS" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_broadcastWapPush" android:label="@string/permlab_broadcastWapPush" android:name="android.permission.BROADCAST_WAP_PUSH" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_broadcastScoreNetworks" android:label="@string/permlab_broadcastScoreNetworks" android:name="android.permission.BROADCAST_SCORE_NETWORKS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_masterClear" android:label="@string/permlab_masterClear" android:name="android.permission.MASTER_CLEAR" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_callPrivileged" android:label="@string/permlab_callPrivileged" android:name="android.permission.CALL_PRIVILEGED" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_performCdmaProvisioning" android:label="@string/permlab_performCdmaProvisioning" android:name="android.permission.PERFORM_CDMA_PROVISIONING" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_locationUpdates" android:label="@string/permlab_locationUpdates" android:name="android.permission.CONTROL_LOCATION_UPDATES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_checkinProperties" android:label="@string/permlab_checkinProperties" android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_pkgUsageStats" android:label="@string/permlab_pkgUsageStats" android:name="android.permission.PACKAGE_USAGE_STATS" android:protectionLevel="appop|development|signature"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <permission android:description="@string/permdesc_batteryStats" android:label="@string/permlab_batteryStats" android:name="android.permission.BATTERY_STATS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|development|signature"/>
+    <permission android:description="@string/permdesc_backup" android:label="@string/permlab_backup" android:name="android.permission.BACKUP" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_confirm_full_backup" android:label="@string/permlab_confirm_full_backup" android:name="android.permission.CONFIRM_FULL_BACKUP" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindRemoteViews" android:label="@string/permlab_bindRemoteViews" android:name="android.permission.BIND_REMOTEVIEWS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindGadget" android:label="@string/permlab_bindGadget" android:name="android.permission.BIND_APPWIDGET" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.BIND_KEYGUARD_APPWIDGET" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.MODIFY_APPWIDGET_BIND_PERMISSIONS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_changeBackgroundDataSetting" android:label="@string/permlab_changeBackgroundDataSetting" android:name="android.permission.CHANGE_BACKGROUND_DATA_SETTING" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.GLOBAL_SEARCH" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.GLOBAL_SEARCH_CONTROL" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.READ_SEARCH_INDEXABLES" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.SET_WALLPAPER_COMPONENT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.READ_DREAM_STATE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:name="android.permission.WRITE_DREAM_STATE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_cache_filesystem" android:label="@string/permlab_cache_filesystem" android:name="android.permission.ACCESS_CACHE_FILESYSTEM" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permlab_copyProtectedData" android:label="@string/permlab_copyProtectedData" android:name="android.permission.COPY_PROTECTED_DATA" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.CRYPT_KEEPER" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_readNetworkUsageHistory" android:label="@string/permlab_readNetworkUsageHistory" android:name="android.permission.READ_NETWORK_USAGE_HISTORY" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_manageNetworkPolicy" android:label="@string/permlab_manageNetworkPolicy" android:name="android.permission.MANAGE_NETWORK_POLICY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_modifyNetworkAccounting" android:label="@string/permlab_modifyNetworkAccounting" android:name="android.permission.MODIFY_NETWORK_ACCOUNTING" android:protectionLevel="system|signature"/>
+    <permission android:name="android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE"/>
+    <permission android:description="@string/permdesc_packageVerificationAgent" android:label="@string/permlab_packageVerificationAgent" android:name="android.permission.PACKAGE_VERIFICATION_AGENT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bindPackageVerifier" android:label="@string/permlab_bindPackageVerifier" android:name="android.permission.BIND_PACKAGE_VERIFIER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_serialPort" android:label="@string/permlab_serialPort" android:name="android.permission.SERIAL_PORT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessContentProvidersExternally" android:label="@string/permlab_accessContentProvidersExternally" android:name="android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_updateLock" android:label="@string/permlab_updateLock" android:name="android.permission.UPDATE_LOCK" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permdesc_accessNotifications" android:label="@string/permlab_accessNotifications" android:name="android.permission.ACCESS_NOTIFICATIONS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_access_keyguard_secure_storage" android:label="@string/permlab_access_keyguard_secure_storage" android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_control_keyguard" android:label="@string/permlab_control_keyguard" android:name="android.permission.CONTROL_KEYGUARD" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_trust_listener" android:label="@string/permlab_trust_listener" android:name="android.permission.TRUST_LISTENER" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_provide_trust_agent" android:label="@string/permlab_provide_trust_agent" android:name="android.permission.PROVIDE_TRUST_AGENT" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permdesc_launch_trust_agent_settings" android:label="@string/permlab_launch_trust_agent_settings" android:name="android.permission.LAUNCH_TRUST_AGENT_SETTINGS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permdesc_bind_trust_agent_service" android:label="@string/permlab_bind_trust_agent_service" android:name="android.permission.BIND_TRUST_AGENT" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindNotificationListenerService" android:label="@string/permlab_bindNotificationListenerService" android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindConditionProviderService" android:label="@string/permlab_bindConditionProviderService" android:name="android.permission.BIND_CONDITION_PROVIDER_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_bindDreamService" android:label="@string/permlab_bindDreamService" android:name="android.permission.BIND_DREAM_SERVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_invokeCarrierSetup" android:label="@string/permlab_invokeCarrierSetup" android:name="android.permission.INVOKE_CARRIER_SETUP" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessNetworkConditions" android:label="@string/permlab_accessNetworkConditions" android:name="android.permission.ACCESS_NETWORK_CONDITIONS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_accessDrmCertificates" android:label="@string/permlab_accessDrmCertificates" android:name="android.permission.ACCESS_DRM_CERTIFICATES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_manageMediaProjection" android:label="@string/permlab_manageMediaProjection" android:name="android.permission.MANAGE_MEDIA_PROJECTION" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_readInstallSessions" android:label="@string/permlab_readInstallSessions" android:name="android.permission.READ_INSTALL_SESSIONS"/>
+    <permission android:description="@string/permdesc_removeDrmCertificates" android:label="@string/permlab_removeDrmCertificates" android:name="android.permission.REMOVE_DRM_CERTIFICATES" android:protectionLevel="system|signature"/>
+    <permission android:name="com.samsung.accessory.permission.TRANSPORTING_NOTIFICATION_ITEM" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.CONFIRM_FULL_BACKUP"/>
+    <permission android:name="com.sec.android.permission.SMART_UNLOCK" android:protectionLevel="signature"/>
+    <permission android:name="com.sec.android.permission.SMART_UNLOCK" android:protectionLevel="signature"/>
+    <application android:allowClearUserData="false" android:backupAgent="com.android.server.backup.SystemBackupAgent" android:hasCode="false" android:icon="@drawable/ic_launcher_android" android:killAfterRestore="false" android:label="@string/android_system_label" android:persistent="true" android:process="system" android:supportsRtl="true">
+        <activity android:documentLaunchMode="never" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.internal.app.ChooserActivity" android:process=":ui" android:relinquishTaskIdentity="true" android:theme="@style/Theme.DeviceDefault.Resolver">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:label="@string/user_owner_label" android:name="com.android.internal.app.IntentForwarderActivity" android:theme="@style/Theme.NoDisplay"/>
+        <activity-alias android:exported="true" android:label="@string/user_owner_label" android:name="com.android.internal.app.ForwardIntentToUserOwner" android:targetActivity="com.android.internal.app.IntentForwarderActivity"/>
+        <activity-alias android:exported="true" android:icon="@drawable/ic_corp_icon" android:label="@string/managed_profile_label" android:name="com.android.internal.app.ForwardIntentToManagedProfile" android:targetActivity="com.android.internal.app.IntentForwarderActivity"/>
+        <activity android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" android:label="@string/heavy_weight_switcher_title" android:name="com.android.internal.app.HeavyWeightSwitcherActivity" android:process=":ui" android:theme="@style/Theme.Material.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.internal.app.PlatLogoActivity" android:process=":ui" android:theme="@style/Theme.Wallpaper.NoTitleBar.Fullscreen"/>
+        <activity android:excludeFromRecents="true" android:name="com.android.internal.app.DisableCarModeActivity" android:process=":ui" android:theme="@style/Theme.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/choose_account_label" android:name="android.accounts.ChooseAccountActivity" android:process=":ui" android:theme="@style/Theme.Material.Dialog"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/choose_account_label" android:name="android.accounts.ChooseTypeAndAccountActivity" android:process=":ui" android:theme="@style/Theme.Material.Dialog"/>
+        <activity android:excludeFromRecents="true" android:label="@string/choose_account_label" android:name="android.accounts.ChooseAccountTypeActivity" android:process=":ui" android:theme="@style/Theme.Material.Dialog"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="android.accounts.CantAddAccountActivity" android:process=":ui" android:theme="@style/Theme.Material.Dialog.NoActionBar"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="android.accounts.GrantCredentialsPermissionActivity" android:process=":ui" android:theme="@style/Theme.Material.DialogWhenLarge"/>
+        <activity android:label="@string/sync_too_many_deletes" android:name="android.content.SyncActivityTooManyDeletes" android:process=":ui" android:theme="@style/Theme.Holo.Dialog"/>
+        <activity android:excludeFromRecents="true" android:name="com.android.server.ShutdownActivity" android:permission="android.permission.SHUTDOWN">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_REQUEST_SHUTDOWN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.REBOOT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.android.internal.app.NetInitiatedActivity" android:process=":ui" android:theme="@style/Theme.Holo.Dialog.Alert"/>
+        <activity android:excludeFromRecents="true" android:name="com.android.internal.app.RestrictionsPinActivity" android:process=":ui" android:theme="@style/Theme.Material.Light.Dialog.Alert" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.RESTRICTIONS_CHALLENGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.android.server.BootReceiver" android:primaryUserOnly="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.CertPinInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_PINS"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.IntentFirewallInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_INTENT_FIREWALL"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.SmsShortCodesInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_SMS_SHORT_CODES"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.CarrierProvisioningUrlsInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_CARRIER_PROVISIONING_URLS"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.TZInfoInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_TZINFO"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.updates.SELinuxPolicyInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.UPDATE_SEPOLICY"/>
+                <data android:host="*" android:mimeType="*/*" android:scheme="content"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.server.MasterClearReceiver" android:permission="android.permission.MASTER_CLEAR">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.MASTER_CLEAR"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="android.intent.category.MASTER_CLEAR"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.android.internal.os.storage.ExternalStorageFormatter" android:permission="android.permission.MASTER_CLEAR"/>
+        <service android:exported="false" android:name="android.hardware.location.GeofenceHardwareService" android:permission="android.permission.LOCATION_HARDWARE"/>
+        <service android:exported="false" android:name="com.android.internal.backup.LocalTransportService" android:permission="android.permission.CONFIRM_FULL_BACKUP">
+            <intent-filter>
+                <action android:name="android.backup.TRANSPORT_HOST"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.android.server.MountServiceIdler" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.android.server.backup.FullBackupJob" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.android.server.pm.BackgroundDexOptService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+    </application>
+</manifest>

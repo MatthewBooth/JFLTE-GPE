@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/keyguard_click_area" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0dip" android:ellipsize="marquee" android:layout_gravity="start" android:id="@id/keyguard_message_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+</LinearLayout>

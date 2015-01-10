@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbnail_height">360.0dip</dimen>
+    <dimen name="thumbnail_width">360.0dip</dimen>
+    <dimen name="config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="config_minScalingSpan">32.0mm</dimen>
+    <dimen name="keyguard_lockscreen_outerring_diameter">364.0dip</dimen>
+    <dimen name="preference_fragment_padding_side">24.0dip</dimen>
+    <item type="dimen" name="dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <dimen name="preference_screen_header_padding_side">24.0dip</dimen>
+    <dimen name="action_bar_default_height">56.0dip</dimen>
+    <dimen name="action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="action_bar_subtitle_bottom_margin">9.0dip</dimen>
+    <dimen name="face_unlock_height">430.0dip</dimen>
+    <dimen name="action_button_min_width">64.0dip</dimen>
+    <dimen name="kg_status_clock_font_size">141.0dip</dimen>
+    <dimen name="kg_status_date_font_size">25.5dip</dimen>
+    <dimen name="kg_status_line_font_size">16.0sp</dimen>
+    <dimen name="kg_status_line_font_right_margin">50.0dip</dimen>
+    <dimen name="kg_clock_top_margin">0.0dip</dimen>
+    <dimen name="kg_widget_pager_horizontal_padding">24.0dip</dimen>
+    <dimen name="kg_widget_pager_top_padding">0.0dip</dimen>
+    <dimen name="kg_widget_pager_bottom_padding">0.0dip</dimen>
+    <dimen name="kg_runway_lights_top_margin">-10.0dip</dimen>
+    <dimen name="keyguard_security_view_margin">12.0dip</dimen>
+    <dimen name="keyguard_muliuser_selector_margin">12.0dip</dimen>
+    <dimen name="immersive_mode_cling_width">380.0dip</dimen>
+    <dimen name="action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="action_bar_default_padding_material">4.0dip</dimen>
+    <dimen name="text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="keyguard_pattern_unlock_clock_font_size">112.0sp</dimen>
+    <dimen name="glowpadview_target_placement_radius">182.0dip</dimen>
+    <dimen name="keyguard_pattern_unlock_status_line_font_size">14.0sp</dimen>
+    <dimen name="navigation_bar_height_portrait">56.0dip</dimen>
+</resources>

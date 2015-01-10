@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_cdma_home_system">
+        <item>64</item>
+        <item>65</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+    </string-array>
+    <string-array name="config_gpsParameters">
+        <item>CAPABILITIES=0x31</item>
+        <item>LPP_PROFILE=3</item>
+        <item>GPS_LOCK=3</item>
+    </string-array>
+</resources>

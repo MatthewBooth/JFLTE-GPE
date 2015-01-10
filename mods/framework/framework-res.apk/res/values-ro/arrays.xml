@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Domiciliu</item>
+        <item>Serviciu</item>
+        <item>Altele</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Serviciu</item>
+        <item>Altele</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Domiciliu</item>
+        <item>Mobil</item>
+        <item>Serviciu</item>
+        <item>Fax serviciu</item>
+        <item>Fax domiciliu</item>
+        <item>Pager</item>
+        <item>Altele</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Domiciliu</item>
+        <item>Serviciu</item>
+        <item>Altele</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Domiciliu</item>
+        <item>Serviciu</item>
+        <item>Altele</item>
+        <item>Personalizat</item>
+    </string-array>
+</resources>
