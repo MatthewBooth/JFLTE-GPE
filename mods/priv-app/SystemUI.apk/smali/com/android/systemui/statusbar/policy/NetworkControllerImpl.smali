@@ -1619,11 +1619,7 @@
     goto :goto_2
 
     :pswitch_5
-    iget-boolean v6, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mShowAtLeastThreeGees:Z
-
-    if-nez v6, :cond_b
-
-    sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_1X:[[I
+    sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_H:[[I
 
     aget-object v4, v4, v0
 
@@ -1631,9 +1627,45 @@
 
     if-eqz v2, :cond_a
 
-    move v3, v5
+    const v3, 0x7f02012d
 
     :cond_a
+    iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
+
+    sget-object v3, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_H:[I
+
+    aget v3, v3, v0
+
+    iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mQSDataTypeIconId:I
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mContext:Landroid/content/Context;
+
+    const v4, 0x7f0b0079
+
+    invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    iput-object v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mContentDescriptionDataType:Ljava/lang/String;
+
+    goto/16 :goto_0
+
+    :pswitch_6
+    iget-boolean v6, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mShowAtLeastThreeGees:Z
+
+    if-nez v6, :cond_c
+
+    sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_1X:[[I
+
+    aget-object v4, v4, v0
+
+    iput-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
+
+    if-eqz v2, :cond_b
+
+    move v3, v5
+
+    :cond_b
     iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
 
     sget-object v3, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_1X:[I
@@ -1654,11 +1686,11 @@
 
     goto/16 :goto_0
 
-    :cond_b
-    :pswitch_6
+    :cond_c
+    :pswitch_7
     iget-boolean v6, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mShowAtLeastThreeGees:Z
 
-    if-nez v6, :cond_d
+    if-nez v6, :cond_e
 
     sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_1X:[[I
 
@@ -1666,7 +1698,7 @@
 
     iput-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_c
+    if-eqz v2, :cond_d
 
     :goto_3
     iput v5, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
@@ -1689,20 +1721,20 @@
 
     goto/16 :goto_0
 
-    :cond_c
+    :cond_d
     move v5, v3
 
     goto :goto_3
 
-    :cond_d
-    :pswitch_7
+    :cond_e
+    :pswitch_8
     sget-object v5, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_3G:[[I
 
     aget-object v5, v5, v0
 
     iput-object v5, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_e
+    if-eqz v2, :cond_f
 
     :goto_4
     iput v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
@@ -1723,12 +1755,12 @@
 
     goto/16 :goto_0
 
-    :cond_e
+    :cond_f
     move v4, v3
 
     goto :goto_4
 
-    :pswitch_8
+    :pswitch_9
     iget-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mContext:Landroid/content/Context;
 
     invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1741,7 +1773,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_10
+    if-eqz v1, :cond_11
 
     sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_4G:[[I
 
@@ -1749,11 +1781,11 @@
 
     iput-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_f
+    if-eqz v2, :cond_10
 
     move v3, v6
 
-    :cond_f
+    :cond_10
     iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
 
     sget-object v3, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_4G:[I
@@ -1774,18 +1806,18 @@
 
     goto/16 :goto_0
 
-    :cond_10
+    :cond_11
     sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_LTE:[[I
 
     aget-object v4, v4, v0
 
     iput-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_11
+    if-eqz v2, :cond_12
 
     const v3, 0x7f02012e
 
-    :cond_11
+    :cond_12
     iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
 
     sget-object v3, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_LTE:[I
@@ -1806,10 +1838,10 @@
 
     goto/16 :goto_0
 
-    :pswitch_9
+    :pswitch_a
     iget-boolean v5, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mShowAtLeastThreeGees:Z
 
-    if-nez v5, :cond_13
+    if-nez v5, :cond_14
 
     sget-object v4, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_G:[[I
 
@@ -1817,11 +1849,11 @@
 
     iput-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_12
+    if-eqz v2, :cond_13
 
     const v3, 0x7f02012b
 
-    :cond_12
+    :cond_13
     iput v3, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
 
     sget-object v3, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_G:[I
@@ -1842,14 +1874,14 @@
 
     goto/16 :goto_0
 
-    :cond_13
+    :cond_14
     sget-object v5, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_3G:[[I
 
     aget-object v5, v5, v0
 
     iput-object v5, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataIconList:[I
 
-    if-eqz v2, :cond_14
+    if-eqz v2, :cond_15
 
     :goto_5
     iput v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mDataTypeIconId:I
@@ -1870,7 +1902,7 @@
 
     goto/16 :goto_0
 
-    :cond_14
+    :cond_15
     move v4, v3
 
     goto :goto_5
@@ -1880,21 +1912,21 @@
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_1
-        :pswitch_9
+        :pswitch_a
         :pswitch_2
         :pswitch_3
-        :pswitch_5
-        :pswitch_7
-        :pswitch_7
         :pswitch_6
+        :pswitch_8
+        :pswitch_8
+        :pswitch_7
         :pswitch_4
         :pswitch_4
         :pswitch_4
         :pswitch_0
-        :pswitch_7
         :pswitch_8
-        :pswitch_7
-        :pswitch_4
+        :pswitch_9
+        :pswitch_8
+        :pswitch_5
         :pswitch_0
         :pswitch_3
     .end packed-switch

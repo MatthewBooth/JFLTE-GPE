@@ -16,6 +16,8 @@
 
 .field static final DATA_H:[[I
 
+.field static final DATA_HP:[[I
+
 .field static final DATA_LTE:[[I
 
 .field static final DATA_SIGNAL_STRENGTH:[[I
@@ -31,6 +33,8 @@
 .field static final QS_DATA_G:[I
 
 .field static final QS_DATA_H:[I
+
+.field static final QS_DATA_HP:[I
 
 .field static final QS_DATA_LTE:[I
 
@@ -269,7 +273,31 @@
 
     sput-object v0, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_LTE:[I
 
+    new-array v0, v2, [[I
+
+    new-array v1, v3, [I
+
+    fill-array-data v1, :array_1c
+
+    aput-object v1, v0, v4
+
+    new-array v1, v3, [I
+
+    fill-array-data v1, :array_1d
+
+    aput-object v1, v0, v5
+
+    sput-object v0, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->DATA_HP:[[I
+
+    new-array v0, v2, [I
+
+    fill-array-data v0, :array_1e
+
+    sput-object v0, Lcom/android/systemui/statusbar/policy/TelephonyIcons;->QS_DATA_HP:[I
+
     return-void
+
+    nop
 
     :array_0
     .array-data 4
@@ -483,5 +511,27 @@
     .array-data 4
         0x7f0200a2
         0x7f0200a2
+    .end array-data
+
+    :array_1c
+    .array-data 4
+        0x7f02012d
+        0x7f02012d
+        0x7f02012d
+        0x7f02012d
+    .end array-data
+
+    :array_1d
+    .array-data 4
+        0x7f02012d
+        0x7f02012d
+        0x7f02012d
+        0x7f02012d
+    .end array-data
+
+    :array_1e
+    .array-data 4
+        0x7f0202f8
+        0x7f0202f8
     .end array-data
 .end method
