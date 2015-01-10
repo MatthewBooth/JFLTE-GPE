@@ -11,5 +11,3 @@ dist/
 tmp/
 
 tools/bin/.JavaPATH
-*.JavaPATH
-tools/bin/.JavaPATH
