@@ -2,6 +2,9 @@
 .super Ljava/lang/Object;
 .source "BatteryMeterView.java"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
