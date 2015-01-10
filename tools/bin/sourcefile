@@ -10,6 +10,10 @@ if [ "$(ps -a -e | grep -c [b]ash)" -le 2 ]; then rm -rf /tmp/* &>/dev/null; fi
 set +H &>/dev/null; set +o histexpand &>/dev/null;
 
 JavaPATH="$(cat /bin/.JavaPATH 2>/dev/null | sed -ne 's#\"##g;s#\\$##;1p' 2>/dev/null)"
+if [ ! -f "$JavaPATH" ]; then
+	touch "$JavaPATH"
+fi
+
 if [ -z "$JavaPATH" ]; then
 	echo '[!] Java not configured!';
 	echo -n '[?] Search for Java? ';
