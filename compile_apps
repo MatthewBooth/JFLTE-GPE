@@ -1,0 +1,41 @@
+#!/bin/bash
+
+APKTOOL=../../tools/apktool
+SYSTEM=../../system
+
+cd mods
+
+if [ -d framework ]; then
+	cd framework
+	for f in *
+	do
+		"$APKTOOL" b -c "$f"
+		cp "$f"/dist/"$f" "$SYSTEM"/framework/"$f"
+		rm -rf "$f/dist" "$f/build"
+	done
+	cd ..
+fi
+
+if [ -d app ]; then
+	cd app
+	for f in *
+	do
+		"$APKTOOL" b -c "$f"
+		cp "$f"/dist/"$f" "$SYSTEM"/app/"$f"
+		rm -rf "$f/dist" "$f/build"
+	done
+	cd ..
+fi
+
+if [ -d priv-app ]; then
+	cd priv-app
+	for f in *
+	do
+		"$APKTOOL" b -c "$f"
+		cp "$f"/dist/"$f" "$SYSTEM"/priv-app/"$f"
+		rm -rf "$f/dist" "$f/build"
+	done
+	cd ..
+fi
+
+cd ..
