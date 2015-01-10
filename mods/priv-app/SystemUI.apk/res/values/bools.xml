@@ -24,7 +24,7 @@
     <bool name="doze_pulse_on_pick_up">false</bool>
     <bool name="doze_pulse_on_notifications">true</bool>
     <bool name="config_showTaskManagerSwitcher">false</bool>
-    <bool name="config_enableDataSwitch">false</bool>
+    <bool name="config_enableDataSwitch">true</bool>
     <item type="bool" name="config_enableLockScreenRotation">@android:bool/config_enableLockScreenRotation</item>
     <item type="bool" name="config_enableLockScreenTranslucentDecor">@android:bool/config_enableLockScreenTranslucentDecor</item>
     <bool name="kg_enable_camera_default_widget">true</bool>
