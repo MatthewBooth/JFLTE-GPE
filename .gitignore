@@ -9,3 +9,5 @@ system/priv-app/SystemUI/*
 build/
 dist/
 tmp/
+
+tools/bin/.JavaPATH
