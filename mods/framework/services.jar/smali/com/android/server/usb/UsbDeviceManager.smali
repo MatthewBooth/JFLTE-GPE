@@ -1407,85 +1407,100 @@
 .end method
 
 .method public systemReady()V
-    .locals 8
+    .locals 9
 
-    const/4 v4, 0x1
+    const/4 v5, 0x1
 
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    iget-object v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mContext:Landroid/content/Context;
+    iget-object v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mContext:Landroid/content/Context;
 
-    const-string v6, "notification"
+    const-string v7, "notification"
 
-    invoke-virtual {v3, v6}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v4, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Landroid/app/NotificationManager;
+
+    iput-object v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mNotificationManager:Landroid/app/NotificationManager;
+
+    const/4 v1, 0x0
+
+    iget-object v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mContext:Landroid/content/Context;
+
+    invoke-static {v4}, Landroid/os/storage/StorageManager;->from(Landroid/content/Context;)Landroid/os/storage/StorageManager;
 
     move-result-object v3
 
-    check-cast v3, Landroid/app/NotificationManager;
-
-    iput-object v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mNotificationManager:Landroid/app/NotificationManager;
-
-    const/4 v0, 0x0
-
-    iget-object v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mContext:Landroid/content/Context;
-
-    invoke-static {v3}, Landroid/os/storage/StorageManager;->from(Landroid/content/Context;)Landroid/os/storage/StorageManager;
+    invoke-virtual {v3}, Landroid/os/storage/StorageManager;->getPrimaryVolume()Landroid/os/storage/StorageVolume;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Landroid/os/storage/StorageManager;->getPrimaryVolume()Landroid/os/storage/StorageVolume;
+    if-eqz v2, :cond_0
 
-    move-result-object v1
+    invoke-virtual {v2}, Landroid/os/storage/StorageVolume;->allowMassStorage()Z
 
-    if-eqz v1, :cond_0
+    move-result v4
 
-    invoke-virtual {v1}, Landroid/os/storage/StorageVolume;->allowMassStorage()Z
+    if-eqz v4, :cond_0
 
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    move v0, v4
+    move v1, v5
 
     :goto_0
-    if-nez v0, :cond_1
+    if-nez v1, :cond_1
 
-    move v3, v4
+    move v4, v5
 
     :goto_1
-    iput-boolean v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mUseUsbNotification:Z
+    iput-boolean v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mUseUsbNotification:Z
 
-    iget-object v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mContentResolver:Landroid/content/ContentResolver;
+    :try_start_0
+    iget-object v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mContentResolver:Landroid/content/ContentResolver;
 
-    const-string v6, "adb_enabled"
+    const-string v7, "adb_enabled"
 
-    iget-boolean v7, p0, Lcom/android/server/usb/UsbDeviceManager;->mAdbEnabled:Z
+    iget-boolean v8, p0, Lcom/android/server/usb/UsbDeviceManager;->mAdbEnabled:Z
 
-    if-eqz v7, :cond_2
+    if-eqz v8, :cond_2
 
     :goto_2
-    invoke-static {v3, v6, v4}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+    invoke-static {v4, v7, v5}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+    :try_end_0
+    .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
 
-    iget-object v3, p0, Lcom/android/server/usb/UsbDeviceManager;->mHandler:Lcom/android/server/usb/UsbDeviceManager$UsbHandler;
+    :goto_3
+    iget-object v4, p0, Lcom/android/server/usb/UsbDeviceManager;->mHandler:Lcom/android/server/usb/UsbDeviceManager$UsbHandler;
 
-    const/4 v4, 0x3
+    const/4 v5, 0x3
 
-    invoke-virtual {v3, v4}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->sendEmptyMessage(I)Z
+    invoke-virtual {v4, v5}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->sendEmptyMessage(I)Z
 
     return-void
 
     :cond_0
-    move v0, v5
+    move v1, v6
 
     goto :goto_0
 
     :cond_1
-    move v3, v5
+    move v4, v6
 
     goto :goto_1
 
     :cond_2
-    move v4, v5
+    move v5, v6
 
     goto :goto_2
+
+    :catch_0
+    move-exception v0
+
+    sget-object v4, Lcom/android/server/usb/UsbDeviceManager;->TAG:Ljava/lang/String;
+
+    const-string v5, "ADB_ENABLED is restricted."
+
+    invoke-static {v4, v5}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_3
 .end method
