@@ -4,7 +4,7 @@
     <style name="RecentsStyle" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
         <item name="android:windowAnimationStyle">@style/Animation.RecentsActivity</item>
     </style>
-    <style name="RecentsTheme" parent="@android:style/Theme">
+    <style name="RecentsTheme" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowAnimationStyle">@style/Animation.RecentsActivity</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
