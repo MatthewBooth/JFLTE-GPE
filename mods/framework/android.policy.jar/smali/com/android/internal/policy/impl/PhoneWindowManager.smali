@@ -19303,9 +19303,11 @@
 
     iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarCanMove:Z
 
-    const v8, 0x112004f
+    move-object/from16 v0, p0
 
-    invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getBoolean(I)Z
+    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-static {v8}, Lcom/android/internal/policy/impl/RomUtils;->getHasNavigationBar(Landroid/content/Context;)Z
 
     move-result v8
 
