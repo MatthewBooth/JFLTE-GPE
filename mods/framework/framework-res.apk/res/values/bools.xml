@@ -45,7 +45,7 @@
     <bool name="config_batterySdCardAccessibility">false</bool>
     <bool name="config_use_strict_phone_number_comparation">false</bool>
     <bool name="config_intrusiveNotificationLed">false</bool>
-    <bool name="config_disableMenuKeyInLockScreen">false</bool>
+    <bool name="config_disableMenuKeyInLockScreen">true</bool>
     <bool name="config_enableLockBeforeUnlockScreen">false</bool>
     <bool name="config_enableLockScreenRotation">false</bool>
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
