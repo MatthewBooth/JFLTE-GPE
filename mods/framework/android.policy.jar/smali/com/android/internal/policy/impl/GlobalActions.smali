@@ -18,7 +18,12 @@
         Lcom/android/internal/policy/impl/GlobalActions$LongPressAction;,
         Lcom/android/internal/policy/impl/GlobalActions$Action;,
         Lcom/android/internal/policy/impl/GlobalActions$MyAdapter;,
-        Lcom/android/internal/policy/impl/GlobalActions$RebootAction;,
+        Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsReceiver;,
+        Lcom/android/internal/policy/impl/GlobalActions$PowerActionBootloader;,
+        Lcom/android/internal/policy/impl/GlobalActions$PowerActionHotReboot;,
+        Lcom/android/internal/policy/impl/GlobalActions$PowerActionReboot;,
+        Lcom/android/internal/policy/impl/GlobalActions$PowerActionRecovery;,
+        Lcom/android/internal/policy/impl/GlobalActions$PowerActionSafemode;,
         Lcom/android/internal/policy/impl/GlobalActions$PowerAction;
     }
 .end annotation
@@ -34,8 +39,6 @@
 .field private static final GLOBAL_ACTION_KEY_LOCKDOWN:Ljava/lang/String; = "lockdown"
 
 .field private static final GLOBAL_ACTION_KEY_POWER:Ljava/lang/String; = "power"
-
-.field private static final GLOBAL_ACTION_KEY_REBOOT:Ljava/lang/String; = "reboot"
 
 .field private static final GLOBAL_ACTION_KEY_SETTINGS:Ljava/lang/String; = "settings"
 
@@ -74,6 +77,8 @@
 .field private mDialog:Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
 
 .field private final mDreamManager:Landroid/service/dreams/IDreamManager;
+
+.field private mGlobalActionsReceiver:Landroid/content/BroadcastReceiver;
 
 .field private mHandler:Landroid/os/Handler;
 
@@ -134,6 +139,12 @@
     invoke-direct {v4, p0}, Lcom/android/internal/policy/impl/GlobalActions$7;-><init>(Lcom/android/internal/policy/impl/GlobalActions;)V
 
     iput-object v4, p0, Lcom/android/internal/policy/impl/GlobalActions;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
+
+    new-instance v4, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsReceiver;
+
+    invoke-direct {v4, p0}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsReceiver;-><init>(Lcom/android/internal/policy/impl/GlobalActions;)V
+
+    iput-object v4, p0, Lcom/android/internal/policy/impl/GlobalActions;->mGlobalActionsReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v4, Lcom/android/internal/policy/impl/GlobalActions$8;
 
@@ -208,6 +219,18 @@
     invoke-virtual {v1, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     iget-object v4, p0, Lcom/android/internal/policy/impl/GlobalActions;->mBroadcastReceiver:Landroid/content/BroadcastReceiver;
+
+    invoke-virtual {p1, v4, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+    new-instance v1, Landroid/content/IntentFilter;
+
+    invoke-direct {v1}, Landroid/content/IntentFilter;-><init>()V
+
+    const-string v4, "android.intent.action.GLOBAL_ACTION_DIALOG"
+
+    invoke-virtual {v1, v4}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+    iget-object v4, p0, Lcom/android/internal/policy/impl/GlobalActions;->mGlobalActionsReceiver:Landroid/content/BroadcastReceiver;
 
     invoke-virtual {p1, v4, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
@@ -860,6 +883,22 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/internal/policy/impl/GlobalActions;->getSysAPMTweak()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialogAdv;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialogAdv;-><init>(Lcom/android/internal/policy/impl/GlobalActions;Lcom/android/internal/policy/impl/GlobalActions$1;)V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
     :cond_2
     :goto_3
     invoke-virtual {v8, v7}, Landroid/util/ArraySet;->add(Ljava/lang/Object;)Z
@@ -867,6 +906,12 @@
     goto :goto_2
 
     :cond_3
+    invoke-virtual/range {p0 .. p0}, Lcom/android/internal/policy/impl/GlobalActions;->getSysAPMTweak()Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
     const-string v0, "reboot"
 
     invoke-virtual {v0, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1114,6 +1159,120 @@
     invoke-direct {v1, p0}, Lcom/android/internal/policy/impl/GlobalActions$2;-><init>(Lcom/android/internal/policy/impl/GlobalActions;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemLongClickListener(Landroid/widget/AdapterView$OnItemLongClickListener;)V
+
+    invoke-virtual {v10}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    const/16 v1, 0x7d9
+
+    invoke-virtual {v0, v1}, Landroid/view/Window;->setType(I)V
+
+    invoke-virtual {v10, p0}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+
+    return-object v10
+.end method
+
+.method private createDialogAdv()Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+    .locals 13
+
+    new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$1;
+
+    const v2, 0x108037c
+
+    const v3, 0x108037d
+
+    const v4, 0x1040105
+
+    const v5, 0x1040106
+
+    const v6, 0x1040107
+
+    move-object v1, p0
+
+    invoke-direct/range {v0 .. v6}, Lcom/android/internal/policy/impl/GlobalActions$1;-><init>(Lcom/android/internal/policy/impl/GlobalActions;IIIII)V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$PowerActionReboot;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2}, Lcom/android/internal/policy/impl/GlobalActions$PowerActionReboot;-><init>(Lcom/android/internal/policy/impl/GlobalActions;Lcom/android/internal/policy/impl/GlobalActions$1;)V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$PowerActionHotReboot;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2}, Lcom/android/internal/policy/impl/GlobalActions$PowerActionHotReboot;-><init>(Lcom/android/internal/policy/impl/GlobalActions;Lcom/android/internal/policy/impl/GlobalActions$1;)V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$PowerActionRecovery;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2}, Lcom/android/internal/policy/impl/GlobalActions$PowerActionRecovery;-><init>(Lcom/android/internal/policy/impl/GlobalActions;Lcom/android/internal/policy/impl/GlobalActions$1;)V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$MyAdapter;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lcom/android/internal/policy/impl/GlobalActions$MyAdapter;-><init>(Lcom/android/internal/policy/impl/GlobalActions;Lcom/android/internal/policy/impl/GlobalActions$1;)V
+
+    iput-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mAdapter:Lcom/android/internal/policy/impl/GlobalActions$MyAdapter;
+
+    new-instance v12, Lcom/android/internal/app/AlertController$AlertParams;
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
+
+    invoke-direct {v12, v0}, Lcom/android/internal/app/AlertController$AlertParams;-><init>(Landroid/content/Context;)V
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mAdapter:Lcom/android/internal/policy/impl/GlobalActions$MyAdapter;
+
+    iput-object v0, v12, Lcom/android/internal/app/AlertController$AlertParams;->mAdapter:Landroid/widget/ListAdapter;
+
+    iput-object p0, v12, Lcom/android/internal/app/AlertController$AlertParams;->mOnClickListener:Landroid/content/DialogInterface$OnClickListener;
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v12, Lcom/android/internal/app/AlertController$AlertParams;->mForceInverseBackground:Z
+
+    new-instance v10, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
+
+    invoke-direct {v10, v0, v12}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;-><init>(Landroid/content/Context;Lcom/android/internal/app/AlertController$AlertParams;)V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v10, v0}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->setCanceledOnTouchOutside(Z)V
+
+    invoke-virtual {v10}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->getListView()Landroid/widget/ListView;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Landroid/widget/ListView;->setItemsCanFocus(Z)V
+
+    invoke-virtual {v10}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->getListView()Landroid/widget/ListView;
+
+    move-result-object v0
 
     invoke-virtual {v10}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->getWindow()Landroid/view/Window;
 
@@ -1505,6 +1664,38 @@
 
 
 # virtual methods
+.method public getSysAPMTweak()Z
+    .locals 4
+
+    const/4 v0, 0x0
+
+    iget-object v1, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "system_pref_power_menu"
+
+    const/4 v3, -0x2
+
+    invoke-static {v1, v2, v0, v3}, Landroid/provider/Settings$System;->getIntForUser(Landroid/content/ContentResolver;Ljava/lang/String;II)I
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method
+
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 1
     .param p1    # Landroid/content/DialogInterface;
@@ -1599,4 +1790,36 @@
     invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->handleShow()V
 
     goto :goto_0
+.end method
+
+.method public showDialogAdv()V
+    .locals 2
+
+    invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->createDialogAdv()Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->prepareDialog()V
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    invoke-virtual {v0}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->show()V
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    invoke-virtual {v0}, Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;->getWindow()Landroid/view/Window;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+
+    move-result-object v0
+
+    const/high16 v1, 0x10000
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setSystemUiVisibility(I)V
+
+    return-void
 .end method
