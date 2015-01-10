@@ -97,7 +97,7 @@
     <bool name="config_send_sms1x_on_voice_call">true</bool>
     <bool name="config_enableWifiDisplay">false</bool>
     <bool name="config_useDevInputEventForAudioJack">false</bool>
-    <bool name="config_safe_media_volume_enabled">true</bool>
+    <bool name="config_safe_media_volume_enabled">false</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
     <bool name="config_camera_sound_forced">false</bool>
     <bool name="config_dontPreferApn">false</bool>
