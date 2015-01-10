@@ -4,3 +4,5 @@ temp/*
 
 system/framework/android.policy.jar
 system/framework/services.jar
+build/
+dist/
