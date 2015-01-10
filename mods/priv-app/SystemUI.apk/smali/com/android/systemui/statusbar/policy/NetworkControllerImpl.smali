@@ -1763,15 +1763,7 @@
     :pswitch_9
     iget-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v4}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v4
-
-    const-string v5, "showfourgeeforlte"
-
-    const/4 v9, 0x0
-
-    invoke-static {v4, v5, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+    invoke-static {v4}, Lcom/android/internal/policy/impl/RomUtils;->get4gOrLte(Landroid/content/Context;)Z
 
     move-result v1
 
