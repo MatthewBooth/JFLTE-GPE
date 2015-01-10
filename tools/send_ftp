@@ -1,10 +1,10 @@
 #! /bin/bash
-VERSION=$(cat version.txt)
-FILE=Danvdh-${VERSION}.zip
+VERSION=$(date +%Y%m%d)
+FILE=JFLTE-GPE-${VERSION}.zip
 
 ## Usage
 # Run "sh ftp.sh ftp.example.com/folder/to/your/save/location username password"
 
-curl -T ${FILE} ftp://$1 --user $2:$3
+curl -T ../${FILE} ftp://$1 --user $2:$3
 
 exit 0
