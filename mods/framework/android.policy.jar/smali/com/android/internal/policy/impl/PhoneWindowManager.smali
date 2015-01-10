@@ -18114,13 +18114,7 @@
 
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v3
-
-    const v6, 0x1120026
-
-    invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getBoolean(I)Z
+    invoke-static {v3}, Lcom/android/internal/policy/impl/RomUtils;->getAllowAllRotations(Landroid/content/Context;)Z
 
     move-result v3
 
