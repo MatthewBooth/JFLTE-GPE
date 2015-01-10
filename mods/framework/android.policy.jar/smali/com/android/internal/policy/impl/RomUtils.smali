@@ -94,7 +94,7 @@
 
     const-string v2, "system_pref_all_all_rotations"
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
