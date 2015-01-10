@@ -6730,7 +6730,9 @@
 
     const v1, 0x1120021
 
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
+    iget-object v1, p0, Lcom/android/server/power/PowerManagerService;->mContext:Landroid/content/Context;
+
+    invoke-static {v1}, Lcom/android/internal/policy/impl/RomUtils;->getWakeWhenUnplugged(Landroid/content/Context;)Z
 
     move-result v1
 
