@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=$(cat version.txt)
+VERSION=$(date +%Y%m%d)
 FILE=JFLTE-GPE-${VERSION}.zip
 ./compile_apps
 rm JFLTE-GPE-*.zip
