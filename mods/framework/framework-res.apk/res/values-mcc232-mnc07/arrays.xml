@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_operatorConsideredNonRoaming">
+        <item>23203</item>
+        <item>23204</item>
+        <item>23205</item>
+        <item>23207</item>
+        <item>23210</item>
+        <item>23214</item>
+        <item>23216</item>
+    </string-array>
+</resources>
