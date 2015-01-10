@@ -1338,7 +1338,7 @@
 .end method
 
 .method private final updateDataNetType()V
-    .locals 9
+    .locals 10
 
     const v6, 0x7f020129
 
@@ -1763,13 +1763,15 @@
     :pswitch_9
     iget-object v4, p0, Lcom/android/systemui/statusbar/policy/NetworkControllerImpl;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v4}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v4
 
-    const v5, 0x7f08000d
+    const-string v5, "showfourgeeforlte"
 
-    invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
+    const/4 v9, 0x0
+
+    invoke-static {v4, v5, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result v1
 
