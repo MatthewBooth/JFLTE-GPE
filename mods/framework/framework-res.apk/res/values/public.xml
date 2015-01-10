@@ -6059,6 +6059,7 @@
     <public type="array" name="common_nicknames" id="0x01070047" />
     <public type="array" name="imAddressTypes" id="0x01070048" />
     <public type="array" name="carrier_properties" id="0x01070049" />
+    <public type="array" name="config_sms_convert_destination_number_support" id="0x0107004a" />
     <public type="drawable" name="blank_tile" id="0x010800d5" />
     <public type="drawable" name="default_wallpaper" id="0x01080295" />
     <public type="drawable" name="loading_tile" id="0x010804d4" />

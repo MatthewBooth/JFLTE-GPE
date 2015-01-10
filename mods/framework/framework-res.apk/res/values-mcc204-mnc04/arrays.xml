@@ -4,4 +4,8 @@
         <item>*611:+19085594899,BAE0000000000000</item>
         <item>*86:+1MDN,BAE0000000000000</item>
     </string-array>
+    <string-array name="config_sms_convert_destination_number_support">
+        <item>true;BAE0000000000000</item>
+        <item>false</item>
+    </string-array>
 </resources>

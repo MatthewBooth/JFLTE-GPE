@@ -904,4 +904,7 @@
         <item>Custom</item>
     </string-array>
     <array name="carrier_properties" />
+    <string-array name="config_sms_convert_destination_number_support">
+        <item>false</item>
+    </string-array>
 </resources>
