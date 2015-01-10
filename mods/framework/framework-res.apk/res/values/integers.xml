@@ -73,8 +73,8 @@
     <integer name="config_notificationsBatteryLedOn">125</integer>
     <integer name="config_notificationsBatteryLedOff">2875</integer>
     <integer name="config_notificationServiceArchiveSize">100</integer>
-    <integer name="config_longPressOnHomeBehavior">2</integer>
-    <integer name="config_doubleTapOnHomeBehavior">1</integer>
+    <integer name="config_longPressOnHomeBehavior">1</integer>
+    <integer name="config_doubleTapOnHomeBehavior">0</integer>
     <integer name="config_screenBrightnessSettingMinimum">40</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingDefault">102</integer>
