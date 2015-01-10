@@ -21,6 +21,9 @@ if [ -d app ]; then
 	for f in *
 	do
 		"$APKTOOL" b -c "$f"
+		if [ ! -d "$SYSTEM"/app/"${f%%.*}" ]; then
+			mkdir -p "$SYSTEM"/app/"${f%%.*}"
+		fi
 		cp "$f"/dist/"$f" "$SYSTEM"/app/"${f%%.*}"/"$f"
 		rm -rf "$f/dist" "$f/build"
 	done
@@ -32,6 +35,9 @@ if [ -d priv-app ]; then
 	for f in *
 	do
 		"$APKTOOL" b -c "$f"
+		if [ ! -d "$SYSTEM"/priv-app/"${f%%.*}" ]; then
+			mkdir -p "$SYSTEM"/priv-app/"${f%%.*}"
+		fi
 		cp "$f"/dist/"$f" "$SYSTEM"/priv-app/"${f%%.*}"/"$f"
 		rm -rf "$f/dist" "$f/build"
 	done

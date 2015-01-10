@@ -1,6 +1,4 @@
-::UltimaROM build script
-compile_apps.bat
-set /p VERSION=<version.txt
-del JFLTE-GPE-%VERSION%.zip
-tools\7za.exe a -mx9 -xr@tools\exclusion.txt JFLTE-GPE-%VERSION%.zip META-INF aroma system Changelog.md
-cd ..
+@echo off
+TITLE MiniCygwin
+CD /D "%~dp0"
+.\tools\bin\bash --rcfile /bin/jflte -i

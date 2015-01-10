@@ -1,0 +1,68 @@
+export PATH=/bin
+export TMP=/tmp;
+export TEMP=/tmp;
+export tmp="$(cygpath -wal /tmp)";
+export temp="$(cygpath -wal /tmp)";
+
+if [ "$(ps -a -e | grep -c [b]ash)" -le 2 ]; then rm -rf /tmp/* &>/dev/null; fi
+
+# Exclamation mark (!) workaround
+set +H &>/dev/null; set +o histexpand &>/dev/null;
+
+JavaPATH="$(cat /bin/.JavaPATH 2>/dev/null | sed -ne 's#\"##g;s#\\$##;1p' 2>/dev/null)"
+if [ -z "$JavaPATH" ]; then
+	echo '[!] Java not configured!';
+	echo -n '[?] Search for Java? ';
+	read -n1 answer;
+	case $answer in
+		[nNxXlLbBeE]) echo;;
+		'') echo -n Y;;&
+		*) 
+			echo;
+			echo '[*] Probing for Java...'
+			JavaPATH="$(find /cygdrive -type f -maxdepth 10 -iname 'java.exe' -iregex '.*/jre.+/bin/java.exe$' -print -quit 2>/dev/null)";
+			if [ -n "$JavaPATH" ]; then
+				JavaPATH="$(cygpath -wal "$JavaPATH")"; JavaPATH="${JavaPATH%\\*}";
+				echo "[*] Java found in $JavaPATH";
+				echo "$JavaPATH" >/bin/.JavaPATH;
+			else
+				echo '[X] Java NOT found...'
+				JavaPATH='';
+			fi
+			echo;
+		;;
+	esac
+fi
+if [ -n "$JavaPATH" ]; then
+	JavaPATH="$(cygpath -ua "$JavaPATH" 2>/dev/null)"
+	if [ -d "$JavaPATH" ]; then
+		"$JavaPATH"/java -version > /dev/null 2>&1;
+		if [ ${?} -ne 0 ]; then
+			echo -e "\n[E] Java not properly configured\n";
+		else
+			if [ 170 -gt "$("$JavaPATH"/java -version 2>&1 | sed -ne 's#^java.*\([0-9]\.[0-9]\.[0-9]\).*#\1#Ip' | sed -ne 's#\.##gp' | sed -ne 1p)" ]; then
+				echo -e "\n[E] Java v1.7 or higher required\n";
+			else
+				export PATH="$PATH:$JavaPATH"
+			fi
+		fi
+	fi
+fi
+unset JavaPATH
+
+export TERMINFO=/bin/terminfo
+
+# If not running interactively, don't do anything
+[[ "$-" != *i* ]] && return
+
+# Set a default prompt of: user@host and current_directory
+PS1='\[\e]0;MiniCygwin \a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ '
+
+
+echo "Select to either BUILD the ROM, or just the modified apps/jars"
+select build in "build" "apps"; do
+    case $build in
+        build ) ./tools/build_cygwin; break;;
+        apps )  ./tools/compile_apps_cygwin; break;;
+    esac
+done
