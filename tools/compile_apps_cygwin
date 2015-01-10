@@ -5,8 +5,6 @@ SYSTEM=../../system
 
 cd mods
 
-../tools/apktool_cygwin if ../system/framework/framework-res.apk
-
 if [ -d framework ]; then
 	cd framework
 	for f in *
@@ -17,6 +15,8 @@ if [ -d framework ]; then
 	done
 	cd ..
 fi
+
+../tools/apktool_cygwin if ../system/framework/framework-res.apk
 
 if [ -d app ]; then
 	cd app
