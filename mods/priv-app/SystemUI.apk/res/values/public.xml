@@ -224,6 +224,7 @@
     <public type="drawable" name="stat_sys_data_fully_connected_e" id="0x7f02012a" />
     <public type="drawable" name="stat_sys_data_fully_connected_g" id="0x7f02012b" />
     <public type="drawable" name="stat_sys_data_fully_connected_h" id="0x7f02012c" />
+    <public type="drawable" name="stat_sys_data_fully_connected_hp" id="0x7f02012d" />
     <public type="drawable" name="stat_sys_data_fully_connected_lte" id="0x7f02012e" />
     <public type="drawable" name="stat_sys_data_fully_connected_roam" id="0x7f02012f" />
     <public type="drawable" name="stat_sys_location" id="0x7f020130" />

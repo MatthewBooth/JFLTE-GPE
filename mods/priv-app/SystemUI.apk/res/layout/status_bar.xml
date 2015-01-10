@@ -12,6 +12,7 @@
             </com.android.keyguard.AlphaOptimizedLinearLayout>
         </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
         <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.systemui.statusbar.policy.NetworkTraffic android:gravity="center|right" android:id="@id/networkTraffic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="false" />
             <include layout="@layout/system_icons" />
             <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="7.0dip" />
         </com.android.keyguard.AlphaOptimizedLinearLayout>
