@@ -10,6 +10,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/systemui/recents/views/RecentsView$DismissAll;,
         Lcom/android/systemui/recents/views/RecentsView$RecentsViewCallbacks;
     }
 .end annotation
@@ -23,6 +24,8 @@
 .field mConfig:Lcom/android/systemui/recents/RecentsConfiguration;
 
 .field mDebugOverlay:Lcom/android/systemui/recents/views/DebugOverlayView;
+
+.field mDismissAll:Landroid/view/View;
 
 .field mInflater:Landroid/view/LayoutInflater;
 
@@ -95,6 +98,14 @@
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mInflater:Landroid/view/LayoutInflater;
+
+    return-void
+.end method
+
+.method static synthetic dismissAll(Lcom/android/systemui/recents/views/RecentsView;)V
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/android/systemui/recents/views/RecentsView;->onDismissLongPressed()V
 
     return-void
 .end method
@@ -425,6 +436,39 @@
     return-void
 .end method
 
+.method public onDismissLongPressed()V
+    .locals 4
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0}, Lcom/android/systemui/recents/views/RecentsView;->getChildCount()I
+
+    move-result v1
+
+    :goto_0
+    if-ge v0, v1, :cond_1
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/recents/views/RecentsView;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/android/systemui/recents/views/RecentsView;->mSearchBar:Landroid/view/View;
+
+    if-eq v2, v3, :cond_0
+
+    check-cast v2, Lcom/android/systemui/recents/views/TaskStackView;
+
+    invoke-virtual {v2}, Lcom/android/systemui/recents/views/TaskStackView;->cleanTaskStack()V
+
+    :cond_0
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method
+
 .method protected onLayout(ZIIII)V
     .locals 9
     .param p1    # Z
@@ -517,6 +561,8 @@
     goto :goto_0
 
     :cond_2
+    invoke-virtual {p0}, Lcom/android/systemui/recents/views/RecentsView;->setDismissPadding()V
+
     return-void
 .end method
 
@@ -634,6 +680,8 @@
 
     :cond_2
     invoke-virtual {p0, v1, v2}, Lcom/android/systemui/recents/views/RecentsView;->setMeasuredDimension(II)V
+
+    invoke-virtual {p0}, Lcom/android/systemui/recents/views/RecentsView;->setDismissPadding()V
 
     return-void
 .end method
@@ -1175,6 +1223,64 @@
     return-void
 .end method
 
+.method public setDismissAll(Landroid/view/View;)V
+    .locals 3
+
+    move-object v0, p1
+
+    iput-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    const v1, 0x7f0e011e
+
+    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageButton;
+
+    new-instance v1, Lcom/android/systemui/recents/views/RecentsView$DismissAll;
+
+    invoke-direct {v1, p0}, Lcom/android/systemui/recents/views/RecentsView$DismissAll;-><init>(Lcom/android/systemui/recents/views/RecentsView;)V
+
+    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    return-void
+.end method
+
+.method public setDismissPadding()V
+    .locals 4
+
+    const/4 v1, 0x0
+
+    const/16 v2, 0x20
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mSearchBar:Landroid/view/View;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
+
+    move-result v3
+
+    add-int/2addr v3, v2
+
+    move v2, v3
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    invoke-virtual {v0, v1, v2, v1, v1}, Landroid/view/View;->setPadding(IIII)V
+
+    :cond_1
+    return-void
+.end method
+
 .method public setSearchBar(Landroid/view/View;)V
     .locals 2
     .param p1    # Landroid/view/View;
@@ -1227,6 +1333,19 @@
     invoke-virtual {v0}, Landroid/view/View;->bringToFront()V
 
     :cond_0
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/RecentsView;->mDismissAll:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->bringToFront()V
+
+    :cond_1
     return-void
 .end method
 

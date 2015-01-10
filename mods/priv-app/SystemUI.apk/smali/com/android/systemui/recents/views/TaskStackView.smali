@@ -456,6 +456,58 @@
 
 
 # virtual methods
+.method public cleanTaskStack()V
+    .locals 5
+
+    iget-object v4, p0, Lcom/android/systemui/recents/views/TaskStackView;->mStack:Lcom/android/systemui/recents/model/TaskStack;
+
+    invoke-virtual {v4}, Lcom/android/systemui/recents/model/TaskStack;->getTasks()Ljava/util/ArrayList;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+
+    move-result v4
+
+    add-int/lit8 v0, v4, -0x1
+
+    :goto_0
+    if-ltz v0, :cond_1
+
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/android/systemui/recents/model/Task;
+
+    invoke-virtual {p0, v1}, Lcom/android/systemui/recents/views/TaskStackView;->getChildViewForTask(Lcom/android/systemui/recents/model/Task;)Lcom/android/systemui/recents/views/TaskView;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_0
+
+    new-instance v4, Lcom/android/systemui/recents/views/TaskStackView$6;
+
+    invoke-direct {v4, p0, v1}, Lcom/android/systemui/recents/views/TaskStackView$6;-><init>(Lcom/android/systemui/recents/views/TaskStackView;Lcom/android/systemui/recents/model/Task;)V
+
+    invoke-virtual {v3, v4}, Lcom/android/systemui/recents/views/TaskView;->startDeleteTaskAnimation(Ljava/lang/Runnable;)V
+
+    :goto_1
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v4, p0, Lcom/android/systemui/recents/views/TaskStackView;->mStack:Lcom/android/systemui/recents/model/TaskStack;
+
+    invoke-virtual {v4, v1}, Lcom/android/systemui/recents/model/TaskStack;->removeTask(Lcom/android/systemui/recents/model/Task;)V
+
+    goto :goto_1
+
+    :cond_1
+    return-void
+.end method
+
 .method clipTaskViews()V
     .locals 12
 
@@ -1052,6 +1104,19 @@
     goto :goto_1
 
     :cond_2
+    return-void
+.end method
+
+.method public onDismissLongPressed()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/android/systemui/recents/views/TaskStackView;->mCb:Lcom/android/systemui/recents/views/TaskStackView$TaskStackViewCallbacks;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lcom/android/systemui/recents/views/TaskStackView$TaskStackViewCallbacks;->onDismissLongPressed()V
+
+    :cond_0
     return-void
 .end method
 
