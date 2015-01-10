@@ -155,7 +155,7 @@
     <dimen name="battery_level_padding_end">2.0dip</dimen>
     <dimen name="clear_all_padding_top">12.0dip</dimen>
     <dimen name="max_avatar_size">48.0dip</dimen>
-    <dimen name="keyguard_carrier_text_margin">16.0dip</dimen>
+    <dimen name="keyguard_carrier_text_margin">10.0dip</dimen>
     <dimen name="header_battery_margin_expanded">6.0dip</dimen>
     <dimen name="header_battery_margin_keyguard">6.0dip</dimen>
     <dimen name="system_icons_keyguard_padding_end">4.0dip</dimen>
