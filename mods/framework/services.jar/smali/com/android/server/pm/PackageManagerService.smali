@@ -6460,129 +6460,13 @@
 .end method
 
 .method static compareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
-    .locals 11
+    .locals 1
     .param p0    # [Landroid/content/pm/Signature;
     .param p1    # [Landroid/content/pm/Signature;
 
-    const/4 v6, 0x1
+    const/4 v0, 0x0
 
-    const/4 v8, -0x3
-
-    const/4 v7, 0x0
-
-    if-nez p0, :cond_1
-
-    if-nez p1, :cond_0
-
-    :goto_0
-    return v6
-
-    :cond_0
-    const/4 v6, -0x1
-
-    goto :goto_0
-
-    :cond_1
-    if-nez p1, :cond_2
-
-    const/4 v6, -0x2
-
-    goto :goto_0
-
-    :cond_2
-    array-length v9, p0
-
-    array-length v10, p1
-
-    if-eq v9, v10, :cond_3
-
-    move v6, v8
-
-    goto :goto_0
-
-    :cond_3
-    array-length v9, p0
-
-    if-ne v9, v6, :cond_5
-
-    aget-object v6, p0, v7
-
-    aget-object v9, p1, v7
-
-    invoke-virtual {v6, v9}, Landroid/content/pm/Signature;->equals(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_4
-
-    move v6, v7
-
-    goto :goto_0
-
-    :cond_4
-    move v6, v8
-
-    goto :goto_0
-
-    :cond_5
-    new-instance v3, Ljava/util/HashSet;
-
-    invoke-direct {v3}, Ljava/util/HashSet;-><init>()V
-
-    move-object v0, p0
-
-    array-length v2, v0
-
-    const/4 v1, 0x0
-
-    :goto_1
-    if-ge v1, v2, :cond_6
-
-    aget-object v5, v0, v1
-
-    invoke-virtual {v3, v5}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_1
-
-    :cond_6
-    new-instance v4, Ljava/util/HashSet;
-
-    invoke-direct {v4}, Ljava/util/HashSet;-><init>()V
-
-    move-object v0, p1
-
-    array-length v2, v0
-
-    const/4 v1, 0x0
-
-    :goto_2
-    if-ge v1, v2, :cond_7
-
-    aget-object v5, v0, v1
-
-    invoke-virtual {v4, v5}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_2
-
-    :cond_7
-    invoke-virtual {v3, v4}, Ljava/util/HashSet;->equals(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_8
-
-    move v6, v7
-
-    goto :goto_0
-
-    :cond_8
-    move v6, v8
-
-    goto :goto_0
+    return v0
 .end method
 
 .method private compareSignaturesCompat(Lcom/android/server/pm/PackageSignatures;Landroid/content/pm/PackageParser$Package;)I
