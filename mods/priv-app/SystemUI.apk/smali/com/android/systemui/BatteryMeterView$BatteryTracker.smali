@@ -23,6 +23,8 @@
 
 .field plugged:Z
 
+.field present:Z
+
 .field status:I
 
 .field technology:Ljava/lang/String;
@@ -43,6 +45,10 @@
     iput-object p1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->this$0:Lcom/android/systemui/BatteryMeterView;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->present:Z
 
     const/4 v0, -0x1
 
@@ -86,7 +92,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_3
+    if-eqz v1, :cond_4
 
     iget-boolean v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->testmode:Z
 
@@ -133,6 +139,14 @@
 
     iput v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->level:I
 
+    const-string v1, "present"
+
+    invoke-virtual {p2, v1, v2}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    iput-boolean v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->present:Z
+
     const-string v1, "plugged"
 
     invoke-virtual {p2, v1, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
@@ -143,7 +157,7 @@
 
     iget v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->plugType:I
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_3
 
     move v1, v2
 
@@ -212,16 +226,53 @@
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->this$0:Lcom/android/systemui/BatteryMeterView;
 
-    invoke-virtual {v1}, Lcom/android/systemui/BatteryMeterView;->postInvalidate()V
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mLock:Ljava/lang/Object;
+    invoke-static {v1}, Lcom/android/systemui/BatteryMeterView;->access$100(Lcom/android/systemui/BatteryMeterView;)Ljava/lang/Object;
 
-    goto :goto_0
+    move-result-object v2
+
+    monitor-enter v2
+
+    :try_start_0
+    iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mBatteryMeterDrawable:Lcom/android/systemui/BatteryMeterView$BatteryMeterDrawable;
+    invoke-static {v1}, Lcom/android/systemui/BatteryMeterView;->access$200(Lcom/android/systemui/BatteryMeterView;)Lcom/android/systemui/BatteryMeterView$BatteryMeterDrawable;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_2
+
+    iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v1, v3}, Lcom/android/systemui/BatteryMeterView;->setVisibility(I)V
+
+    iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    invoke-virtual {v1}, Lcom/android/systemui/BatteryMeterView;->invalidateIfVisible()V
 
     :cond_2
+    monitor-exit v2
+
+    goto/16 :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    monitor-exit v2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+
+    :cond_3
     move v1, v3
 
     goto :goto_1
 
-    :cond_3
+    :cond_4
     const-string v1, "com.android.systemui.BATTERY_LEVEL_TEST"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -241,4 +292,42 @@
     invoke-virtual {v1, v2}, Lcom/android/systemui/BatteryMeterView;->post(Ljava/lang/Runnable;)Z
 
     goto/16 :goto_0
+.end method
+
+.method protected shouldIndicateCharging()Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    iget v2, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->status:I
+
+    const/4 v3, 0x2
+
+    if-ne v2, v3, :cond_1
+
+    :cond_0
+    :goto_0
+    return v0
+
+    :cond_1
+    iget-boolean v2, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->plugged:Z
+
+    if-eqz v2, :cond_2
+
+    iget v2, p0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->status:I
+
+    const/4 v3, 0x5
+
+    if-eq v2, v3, :cond_0
+
+    move v0, v1
+
+    goto :goto_0
+
+    :cond_2
+    move v0, v1
+
+    goto :goto_0
 .end method

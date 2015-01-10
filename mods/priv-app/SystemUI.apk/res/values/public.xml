@@ -273,6 +273,7 @@
     <public type="drawable" name="ic_media_pause" id="0x7f0202f2" />
     <public type="drawable" name="ic_media_stop" id="0x7f0202f3" />
     <public type="drawable" name="ic_contact_picture" id="0x7f0202f4" />
+    <public type="drawable" name="ic_qs_signal_hp" id="0x7f0202f8" />
     <public type="drawable" name="btn_task_close_normal" id="0x7f020006" />
     <public type="drawable" name="ic_lockscreen_search_activated" id="0x7f020044" />
     <public type="drawable" name="ic_lockscreen_search_normal" id="0x7f020045" />
@@ -613,7 +614,6 @@
     <public type="drawable" name="stat_sys_data_connected_g" id="0x7f020124" />
     <public type="drawable" name="stat_sys_data_connected_h" id="0x7f020125" />
     <public type="drawable" name="stat_sys_data_connected_hp" id="0x7f020126" />
-    <public type="drawable" name="stat_sys_data_fully_connected_hp" id="0x7f02012d" />
     <public type="drawable" name="stat_sys_signal_0_3g" id="0x7f020193" />
     <public type="drawable" name="stat_sys_signal_0_3g_default" id="0x7f020194" />
     <public type="drawable" name="stat_sys_signal_0_3g_default_fully" id="0x7f020195" />
@@ -790,6 +790,9 @@
     <public type="drawable" name="status_background" id="0x7f0202dc" />
     <public type="drawable" name="status_bar_close_off" id="0x7f0202de" />
     <public type="drawable" name="status_bar_close_on" id="0x7f0202df" />
+    <public type="drawable" name="stat_sys_network_traffic_down" id="0x7f0202f5" />
+    <public type="drawable" name="stat_sys_network_traffic_up" id="0x7f0202f6" />
+    <public type="drawable" name="stat_sys_network_traffic_updown" id="0x7f0202f7" />
     <public type="drawable" name="ic_qs_default_user" id="0x7f020076" />
     <public type="drawable" name="APKTOOL_DUMMY_002f" id="0x7f02002f" />
     <public type="drawable" name="APKTOOL_DUMMY_0090" id="0x7f020090" />
@@ -939,6 +942,7 @@
     <public type="array" name="batterymeter_color_values" id="0x7f060001" />
     <public type="array" name="batterymeter_bolt_points" id="0x7f060002" />
     <public type="array" name="lockscreen_num_pad_klondike" id="0x7f060003" />
+    <public type="array" name="batterymeter_inverted_bolt_points" id="0x7f060004" />
     <public type="color" name="system_bar_background_opaque" id="0x7f070000" />
     <public type="color" name="system_bar_background_semi_transparent" id="0x7f070001" />
     <public type="color" name="system_bar_background_transparent" id="0x7f070002" />
@@ -1946,6 +1950,8 @@
     <public type="dimen" name="disappear_y_translation" id="0x7f0c010c" />
     <public type="dimen" name="sim_card_name_maxwidth" id="0x7f0c010d" />
     <public type="dimen" name="sim_card_name_padding" id="0x7f0c010e" />
+    <public type="dimen" name="net_traffic_single_text_size" id="0x7f0c0115" />
+    <public type="dimen" name="net_traffic_multi_text_size" id="0x7f0c0116" />
     <public type="dimen" name="peek_height" id="0x7f0c00ba" />
     <public type="dimen" name="keyguard_pattern_unlock_status_line_font_size" id="0x7f0c0114" />
     <public type="dimen" name="notification_panel_min_height" id="0x7f0c00bb" />
@@ -2300,6 +2306,8 @@
     <public type="id" name="zen_conditions" id="0x7f0e014f" />
     <public type="id" name="recent_remove_item" id="0x7f0e0150" />
     <public type="id" name="recent_inspect_item" id="0x7f0e0151" />
+    <public type="id" name="networkTraffic" id="0x7f0e0152" />
+    <public type="id" name="battery_level_text" id="0x7f0e0153" />
     <public type="plurals" name="status_bar_accessibility_recent_apps" id="0x7f0f0000" />
     <public type="plurals" name="kg_password_wrong_pin_code" id="0x7f0f0001" />
     <public type="plurals" name="kg_password_wrong_puk_code" id="0x7f0f0002" />

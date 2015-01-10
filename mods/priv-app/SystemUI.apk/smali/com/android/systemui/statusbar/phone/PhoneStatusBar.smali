@@ -61,6 +61,10 @@
 
 .field mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
 
+.field private mBatteryTextView:Lcom/android/systemui/BatteryLevelTextView;
+
+.field private mBatteryView:Lcom/android/systemui/BatteryMeterView;
+
 .field mBluetoothController:Lcom/android/systemui/statusbar/policy/BluetoothControllerImpl;
 
 .field mBrightnessMirrorController:Lcom/android/systemui/statusbar/policy/BrightnessMirrorController;
@@ -10149,9 +10153,43 @@
 
     move-object/from16 v0, p0
 
+    iput-object v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryView:Lcom/android/systemui/BatteryMeterView;
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryView:Lcom/android/systemui/BatteryMeterView;
+
+    move-object/from16 v0, p0
+
     iget-object v4, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
 
     invoke-virtual {v3, v4}, Lcom/android/systemui/BatteryMeterView;->setBatteryController(Lcom/android/systemui/statusbar/policy/BatteryController;)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mStatusBarView:Lcom/android/systemui/statusbar/phone/PhoneStatusBarView;
+
+    const v4, 0x7f0e0153
+
+    invoke-virtual {v3, v4}, Lcom/android/systemui/statusbar/phone/PhoneStatusBarView;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/android/systemui/BatteryLevelTextView;
+
+    move-object/from16 v0, p0
+
+    iput-object v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryTextView:Lcom/android/systemui/BatteryLevelTextView;
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryTextView:Lcom/android/systemui/BatteryLevelTextView;
+
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
+
+    invoke-virtual {v3, v4}, Lcom/android/systemui/BatteryLevelTextView;->setBatteryController(Lcom/android/systemui/statusbar/policy/BatteryController;)V
 
     move-object/from16 v0, p0
 

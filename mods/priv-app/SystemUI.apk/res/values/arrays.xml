@@ -36,4 +36,20 @@
         <item>TUV</item>
         <item>WXYZ</item>
     </string-array>
+    <integer-array name="batterymeter_inverted_bolt_points">
+        <item>743</item>
+        <item>73</item>
+        <item>743</item>
+        <item>292</item>
+        <item>442</item>
+        <item>201</item>
+        <item>442</item>
+        <item>400</item>
+        <item>0</item>
+        <item>20</item>
+        <item>369</item>
+        <item>157</item>
+        <item>369</item>
+        <item>0</item>
+    </integer-array>
 </resources>
