@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/stream_icon" android:background="@drawable/btn_borderless_rect" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:contentDescription="@null" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.QS.VolumeSuppressor" android:ellipsize="end" android:id="@id/suppressor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        <SeekBar android:id="@id/seekbar" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="16.0dip" />
+    </FrameLayout>
+</LinearLayout>

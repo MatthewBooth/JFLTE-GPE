@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.MSimSignalClusterView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <FrameLayout android:id="@id/mobile_combo_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_type_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/mobile_inout_sub3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/no_sim_slot3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <View android:id="@id/spacer" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <FrameLayout android:id="@id/mobile_combo_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_type_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/mobile_inout_sub2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/no_sim_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <View android:id="@id/spacer" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:visibility="invisible" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <FrameLayout android:id="@id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/no_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.MSimSignalClusterView>

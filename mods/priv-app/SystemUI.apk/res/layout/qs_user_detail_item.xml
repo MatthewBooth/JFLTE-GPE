@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.UserDetailItemView android:gravity="center|top" android:orientation="vertical" android:background="@drawable/ripple_drawable" android:paddingTop="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="112.0dip" systemui:activatedFontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.statusbar.phone.UserAvatarView android:id="@id/user_picture" android:layout_width="@dimen/max_avatar_size" android:layout_height="@dimen/max_avatar_size" android:layout_marginBottom="10.0dip" systemui:frameWidth="2.0dip" systemui:framePadding="6.0dip" systemui:activeFrameColor="@color/current_user_border_color" />
+    <TextView android:textSize="@dimen/qs_detail_item_secondary_text_size" android:textColor="@color/qs_user_detail_name" android:gravity="center_horizontal" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.systemui.qs.tiles.UserDetailItemView>

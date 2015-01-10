@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Sistemos NS</string>
+    <string name="status_bar_clear_all_button">Išvalyti</string>
+    <string name="status_bar_recent_remove_item_title">Pašalinti iš sąrašo</string>
+    <string name="status_bar_recent_inspect_item_title">Programos informacija</string>
+    <string name="status_bar_no_recent_apps">Čia rodomi naujausi ekranai</string>
+    <string name="status_bar_accessibility_dismiss_recents">Atsisakyti naujausių programų</string>
+    <string name="status_bar_no_notifications_title">Nėra įspėjimų</string>
+    <string name="status_bar_ongoing_events_title">Vykstantys</string>
+    <string name="status_bar_latest_events_title">Pranešimai</string>
+    <string name="battery_low_title">Akumuliatorius senka</string>
+    <string name="battery_low_percent_format">Liko %d%%</string>
+    <string name="battery_low_percent_format_saver_started">Liko %d%%. Akumuliatoriaus tausojimo priemonė įjungta.</string>
+    <string name="invalid_charger">"USB krovimas nepalaikomas.
+Naudokite tik pateiktą įkroviklį."</string>
+    <string name="invalid_charger_title">USB įkrovimas nepalaikomas.</string>
+    <string name="invalid_charger_text">Naudokite tik pateiktą kroviklį.</string>
+    <string name="battery_low_why">Nustatymai</string>
+    <string name="battery_saver_confirmation_title">Įjungti Akumuliatoriaus tausojimo priemonę?</string>
+    <string name="battery_saver_confirmation_ok">Įjungti</string>
+    <string name="battery_saver_start_action">Įj. Akum. tausojimo priemonę</string>
+    <string name="status_bar_settings_settings_button">Nustatymai</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Lėktuvo režimas</string>
+    <string name="status_bar_settings_auto_rotation">Automatiškai sukti ekraną</string>
+    <string name="status_bar_settings_mute_label">NUTILD.</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTOM.</string>
+    <string name="status_bar_settings_notifications">Pranešimai</string>
+    <string name="bluetooth_tethered">„Bluetooth“ susieta</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Nustatyti įvesties metodus</string>
+    <string name="status_bar_use_physical_keyboard">Fizinė klaviatūra</string>
+    <string name="usb_device_permission_prompt">Leisti programai „%1$s“ pasiekti USB įrenginį?</string>
+    <string name="usb_accessory_permission_prompt">Leisti programai „%1$s“ pasiekti USB priedą?</string>
+    <string name="usb_device_confirm_prompt">Atidaryti %1$s, kai prijungtas šis USB įrenginys?</string>
+    <string name="usb_accessory_confirm_prompt">Atidaryti %1$s, kai prijungtas šis USB priedas?</string>
+    <string name="usb_accessory_uri_prompt">Su šiuo USB priedu neveiks jokios įdieg. pr. Suž. daugiau apie šį priedą adresu %1$s</string>
+    <string name="title_usb_accessory">USB reikmuo</string>
+    <string name="label_view">Žiūrėti</string>
+    <string name="always_use_device">Šiam USB įreng. naudoti pagal numat. nustatymus</string>
+    <string name="always_use_accessory">Šiam USB priedui naudoti pagal numat. nustatymus</string>
+    <string name="usb_debugging_title">Leisti USB derinimą?</string>
+    <string name="usb_debugging_message">"Šio kompiuterio RSA rakto kontrolinis kodas yra:
+%1$s"</string>
+    <string name="usb_debugging_always">Visada leisti iš šio kompiuterio</string>
+    <string name="compat_mode_on">Keisti mast., kad atit. ekr.</string>
+    <string name="compat_mode_off">Ištempti, kad atit. ekr.</string>
+    <string name="screenshot_saving_ticker">Išsaugoma ekrano kopija...</string>
+    <string name="screenshot_saving_title">Išsaugoma ekrano kopija...</string>
+    <string name="screenshot_saving_text">Išsaugoma ekrano kopija.</string>
+    <string name="screenshot_saved_title">Ekrano kopija užfiksuota.</string>
+    <string name="screenshot_saved_text">Palieskite, kad peržiūrėtumėte ekrano kopiją.</string>
+    <string name="screenshot_failed_title">Nepavyko užfiksuoti ekrano kopijos.</string>
+    <string name="screenshot_failed_text">Neg. daryti ekr. kopijų dėl ribotos saugyklos vietos arba to atlikti neleidžia progr. ar organiz.</string>
+    <string name="usb_preference_title">USB failo perdavimo parinktys</string>
+    <string name="use_mtp_button_title">Įmontuoti kaip medijos leistuvę (MTP)</string>
+    <string name="use_ptp_button_title">Įmontuoti kaip fotoaparatą (PTP)</string>
+    <string name="installer_cd_button_title">Įdiegti „Mac“ skirtą „Android“ perkėl. priem. pr.</string>
+    <string name="accessibility_back">Atgal</string>
+    <string name="accessibility_home">Pagrindinis</string>
+    <string name="accessibility_menu">Meniu</string>
+    <string name="accessibility_recent">Apžvalga</string>
+    <string name="accessibility_search_light">Ieškoti</string>
+    <string name="accessibility_camera_button">Fotoaparatas</string>
+    <string name="accessibility_phone_button">Telefonas</string>
+    <string name="accessibility_unlock_button">Atrakinti</string>
+    <string name="unlock_label">atrakinti</string>
+    <string name="phone_label">atidaryti telefoną</string>
+    <string name="camera_label">atidaryti fotoaparatą</string>
+    <string name="accessibility_ime_switch_button">Perjungti įvesties metodo mygtuką.</string>
+    <string name="accessibility_compatibility_zoom_button">Suderinamumo priartinimo mygtukas.</string>
+    <string name="accessibility_compatibility_zoom_example">Padidinti ekraną.</string>
+    <string name="accessibility_bluetooth_connected">„Bluetooth“ prijungtas.</string>
+    <string name="accessibility_bluetooth_disconnected">„Bluetooth“ išjungtas.</string>
+    <string name="accessibility_no_battery">Nėra akumuliatoriaus.</string>
+    <string name="accessibility_battery_one_bar">Viena akumuliatoriaus juosta.</string>
+    <string name="accessibility_battery_two_bars">Dvi akumuliatoriaus juostos.</string>
+    <string name="accessibility_battery_three_bars">Trys akumuliatoriaus juostos.</string>
+    <string name="accessibility_battery_full">Akumuliatorius įkrautas.</string>
+    <string name="accessibility_no_phone">Nėra telefono.</string>
+    <string name="accessibility_phone_one_bar">Viena telefono juosta.</string>
+    <string name="accessibility_phone_two_bars">Dvi telefono juostos.</string>
+    <string name="accessibility_phone_three_bars">Trys telefono juostos.</string>
+    <string name="accessibility_phone_signal_full">Telefono signalas stiprus.</string>
+    <string name="accessibility_no_data">Duomenų nėra.</string>
+    <string name="accessibility_data_one_bar">Viena duomenų juosta.</string>
+    <string name="accessibility_data_two_bars">Dvi duomenų juostos.</string>
+    <string name="accessibility_data_three_bars">Trys duomenų juostos.</string>
+    <string name="accessibility_data_signal_full">Stiprus duomenų signalas.</string>
+    <string name="accessibility_wifi_off">„Wi-Fi“ išjungta.</string>
+    <string name="accessibility_no_wifi">„Wi-Fi“ atjungta.</string>
+    <string name="accessibility_wifi_one_bar">Viena „Wi-Fi“ juosta.</string>
+    <string name="accessibility_wifi_two_bars">Dvi „Wi-Fi“ juostos.</string>
+    <string name="accessibility_wifi_three_bars">Trys „Wi-Fi“ juostos.</string>
+    <string name="accessibility_wifi_signal_full">Stiprus „Wi-Fi“ signalas.</string>
+    <string name="accessibility_wifi_name">Prisijungta prie „%s“.</string>
+    <string name="accessibility_bluetooth_name">Prisijungta prie „%s“.</string>
+    <string name="accessibility_no_wimax">Nėra „WiMAX“ signalo.</string>
+    <string name="accessibility_wimax_one_bar">Viena „WiMAX“ signalo juosta.</string>
+    <string name="accessibility_wimax_two_bars">Dvi „WiMAX“ signalo juostos.</string>
+    <string name="accessibility_wimax_three_bars">Trys „WiMAX“ signalo juostos.</string>
+    <string name="accessibility_wimax_signal_full">„WiMAX“ signalas stiprus.</string>
+    <string name="accessibility_no_signal">Nėra signalo.</string>
+    <string name="accessibility_not_connected">Neprijungta.</string>
+    <string name="accessibility_zero_bars">Nė vienos juostos.</string>
+    <string name="accessibility_one_bar">Viena juosta.</string>
+    <string name="accessibility_two_bars">Dvi juostos.</string>
+    <string name="accessibility_three_bars">Trys juostos.</string>
+    <string name="accessibility_signal_full">Stiprus signalas.</string>
+    <string name="accessibility_desc_on">Įjungta.</string>
+    <string name="accessibility_desc_off">Išjungta.</string>
+    <string name="accessibility_desc_connected">Prijungta.</string>
+    <string name="accessibility_desc_connecting">Prisijungiama.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Tarptinklinis ryšys</string>
+    <string name="accessibility_data_connection_edge">Kraštas</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Nėra SIM kortelės.</string>
+    <string name="accessibility_bluetooth_tether">„Bluetooth“ įrenginio kaip modemo naudojimas.</string>
+    <string name="accessibility_airplane_mode">Lėktuvo režimas.</string>
+    <string name="accessibility_battery_level">Akumuliatorius: %d proc.</string>
+    <string name="accessibility_settings_button">Sistemos nustatymai</string>
+    <string name="accessibility_notifications_button">Pranešimai.</string>
+    <string name="accessibility_remove_notification">Išvalyti pranešimą.</string>
+    <string name="accessibility_gps_enabled">GPS įgalintas.</string>
+    <string name="accessibility_gps_acquiring">Gaunama GPS.</string>
+    <string name="accessibility_tty_enabled">„TeleTypewriter“ įgalinta.</string>
+    <string name="accessibility_ringer_vibrate">Vibracija skambinant.</string>
+    <string name="accessibility_ringer_silent">Skambutis tylus.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Atsisakyti %s.</string>
+    <string name="accessibility_recents_item_dismissed">Atsisakyta programos „%s“.</string>
+    <string name="accessibility_recents_item_launched">Paleidžiama %s.</string>
+    <string name="accessibility_notification_dismissed">Pranešimo atsisakyta.</string>
+    <string name="accessibility_desc_notification_shade">Pranešimų gaubtas.</string>
+    <string name="accessibility_desc_quick_settings">Spartieji nustatymai.</string>
+    <string name="accessibility_desc_lock_screen">Užrakinimo ekranas.</string>
+    <string name="accessibility_desc_settings">Nustatymai</string>
+    <string name="accessibility_desc_recent_apps">Apžvalga.</string>
+    <string name="accessibility_quick_settings_user">Naudotojas %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">„Wi-Fi“ ryšys išjungtas.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">„Wi-Fi“ ryšys įjungtas.</string>
+    <string name="accessibility_quick_settings_mobile">Mobilusis ryšys %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Akumuliatorius %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Lėktuvo režimas išjungtas.</string>
+    <string name="accessibility_quick_settings_airplane_on">Lėktuvo režimas įjungtas.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Lėktuvo režimas išjungtas.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Lėktuvo režimas įjungtas.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">„Bluetooth“ išjungtas.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">„Bluetooth“ įjungtas.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Prijungiamas „Bluetooth“.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">„Bluetooth“ prijungtas.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">„Bluetooth“ išjungtas.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">„Bluetooth“ įjungtas.</string>
+    <string name="accessibility_quick_settings_location_off">Vietovių ataskaitų teikimas išjungtas.</string>
+    <string name="accessibility_quick_settings_location_on">Vietovių ataskaitų teikimas įjungtas.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Vietovių ataskaitų teikimas išjungtas.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Vietovių ataskaitų teikimas įjungtas.</string>
+    <string name="accessibility_quick_settings_alarm">Signalas nustatytas %s.</string>
+    <string name="accessibility_quick_settings_close">Uždaryti skydelį.</string>
+    <string name="accessibility_quick_settings_more_time">Daugiau laiko.</string>
+    <string name="accessibility_quick_settings_less_time">Mažiau laiko.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Blykstė išjungta.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Blykstė įjungta.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Blykstė išjungta.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Blykstė įjungta.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Spalvų inversija išjungta.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Spalvų inversija įjungta.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Mobiliojo ryšio viešosios interneto prieigos taškas išjungtas.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Mobiliojo ryšio viešosios interneto prieigos taškas įjungtas.</string>
+    <string name="accessibility_casting_turned_off">Ekrano perdavimas sustabdytas.</string>
+    <string name="accessibility_brightness">Ekrano ryškumas</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G–3G duomenys išjungti</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G duomenys išjungti</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobiliojo ryšio duomenys išjungti</string>
+    <string name="data_usage_disabled_dialog_title">Duomenys išjungti</string>
+    <string name="data_usage_disabled_dialog">"Įrenginys išjungė duomenis, nes buvo pasiektas nustatytas limitas.
+
+Vėl juos įjungus gali būti taikomi operatoriaus mokesčiai."</string>
+    <string name="data_usage_disabled_dialog_enable">Įjungti duomenis</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nėra interneto ryš.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Prisij. prie „Wi-Fi“</string>
+    <string name="gps_notification_searching_text">Ieškoma GPS</string>
+    <string name="gps_notification_found_text">GPS nustatyta vieta</string>
+    <string name="accessibility_location_active">Vietovės užklausos aktyvios</string>
+    <string name="accessibility_clear_all">Išvalyti visus pranešimus.</string>
+    <string name="status_bar_notification_inspect_item_title">Pranešimų nustatymai</string>
+    <string name="status_bar_notification_app_settings_title">„%s“ nustatymai</string>
+    <string name="accessibility_rotation_lock_off">Ekranas bus sukamas automatiškai.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Užrakintas ekranas yra horizontalios orientacijos.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Užrakintas ekranas yra vertikalios orientacijos.</string>
+    <string name="accessibility_rotation_lock_off_changed">Dabar ekranas bus sukamas automatiškai.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Dabar ekranas užrakintas nustačius gulsčią orientaciją.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Dabar ekranas užrakintas nustačius stačią orientaciją.</string>
+    <string name="dessert_case">Desertų dėklas</string>
+    <string name="start_dreams">Svajonė</string>
+    <string name="ethernet_label">Eternetas</string>
+    <string name="quick_settings_airplane_mode_label">Lėktuvo režimas</string>
+    <string name="quick_settings_battery_charging_label">Įkraunama, %d %%</string>
+    <string name="quick_settings_battery_charged_label">Įkrauta</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">„Bluetooth“ (%d įreng.)</string>
+    <string name="quick_settings_bluetooth_off_label">„Bluetooth“ išjungta</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Nėra pasiekiamų susietų įrenginių</string>
+    <string name="quick_settings_brightness_label">Šviesumas</string>
+    <string name="quick_settings_rotation_unlocked_label">Automatinis kaitaliojimas</string>
+    <string name="quick_settings_rotation_locked_label">Kaitaliojimas užrakintas</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Stačias</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Gulsčias</string>
+    <string name="quick_settings_ime_label">Įvesties metodas</string>
+    <string name="quick_settings_location_label">Vietovė</string>
+    <string name="quick_settings_location_off_label">Vietovė išjungta</string>
+    <string name="quick_settings_media_device_label">Medijos įrenginys</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Tik skambučiai pagalbos numeriu</string>
+    <string name="quick_settings_settings_label">Nustatymai</string>
+    <string name="quick_settings_time_label">Laikas</string>
+    <string name="quick_settings_user_label">Aš</string>
+    <string name="quick_settings_user_title">Naudotojas</string>
+    <string name="quick_settings_user_new_user">Naujas naudotojas</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Neprisijungta</string>
+    <string name="quick_settings_wifi_no_network">Tinklo nėra</string>
+    <string name="quick_settings_wifi_off_label">„Wi-Fi“ išjungta</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nėra pasiekiamų išsaugotų tinklų</string>
+    <string name="quick_settings_cast_title">Perdavimo ekranas</string>
+    <string name="quick_settings_casting">Perduodama</string>
+    <string name="quick_settings_cast_device_default_name">Įrenginys be pavadinimo</string>
+    <string name="quick_settings_cast_device_default_description">Paruošta perduoti</string>
+    <string name="quick_settings_cast_detail_empty_text">Nėra pasiekiamų įrenginių</string>
+    <string name="quick_settings_brightness_dialog_title">Šviesumas</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTOMATINIS</string>
+    <string name="quick_settings_inversion_label">Pakeisti spalvas</string>
+    <string name="quick_settings_color_space_label">Spalvų taisymo režimas</string>
+    <string name="quick_settings_more_settings">Daugiau nustatymų</string>
+    <string name="quick_settings_done">Atlikta</string>
+    <string name="quick_settings_connected">Prijungtas</string>
+    <string name="quick_settings_connecting">Prisijungiama...</string>
+    <string name="quick_settings_tethering_label">Susiejimas</string>
+    <string name="quick_settings_hotspot_label">Viešosios interneto prieigos taškas</string>
+    <string name="quick_settings_notifications_label">Pranešimai</string>
+    <string name="quick_settings_flashlight_label">Flashlight</string>
+    <string name="quick_settings_cellular_detail_title">Mobiliojo ryšio duomenys</string>
+    <string name="quick_settings_cellular_detail_data_usage">Duomenų naudojimas</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Likę duomenys</string>
+    <string name="quick_settings_cellular_detail_over_limit">Pasiektas apribojimas – duomenų naudojimas pristabdytas</string>
+    <string name="quick_settings_cellular_detail_data_used">Išnaudota: %s</string>
+    <string name="quick_settings_cellular_detail_data_limit">Limitas: %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s įspėjimas</string>
+    <string name="recents_empty_message">Čia rodomi naujausi ekranai</string>
+    <string name="recents_app_info_button_label">Programos informacija</string>
+    <string name="recents_lock_to_app_button_label">Programos užrakinimo funkcija</string>
+    <string name="recents_search_bar_label">paieška</string>
+    <string name="recents_launch_error_message">Nepavyko paleisti %s.</string>
+    <string name="expanded_header_battery_charged">Įkrautas</string>
+    <string name="expanded_header_battery_charging">Kraunamas</string>
+    <string name="expanded_header_battery_charging_with_time">%s iki visiško įkrovimo</string>
+    <string name="expanded_header_battery_not_charging">Neįkraunamas</string>
+    <string name="ssl_ca_cert_warning">"Tinklas gali
+būti stebimas"</string>
+    <string name="description_target_search">Paieška</string>
+    <string name="description_direction_up">Slyskite aukštyn link %s.</string>
+    <string name="description_direction_left">Slyskite į kairę link %s.</string>
+    <string name="zen_no_interruptions_with_warning">Nėra trikdžių. Nėra net įspėjimų.</string>
+    <string name="zen_no_interruptions">Jokių pertraukčių</string>
+    <string name="zen_important_interruptions">Tik prioritetinės pertrauktys</string>
+    <string name="zen_alarm_information_time">Kito signalo laikas: %s</string>
+    <string name="zen_alarm_information_day_time">Kito signalo laikas: %s</string>
+    <string name="zen_alarm_warning">%s signalo negirdėsite</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Mažiau skubūs pranešimai toliau</string>
+    <string name="notification_tap_again">Palieskite dar kartą, kad atidarytumėte</string>
+    <string name="keyguard_unlock">Perbraukite aukštyn, kad atrakintumėte</string>
+    <string name="phone_hint">Perbraukite į dešinę, kad galėtumėte skambinti</string>
+    <string name="camera_hint">Perbraukite į kairę, kad būtų įjungtas fotoaparatas</string>
+    <string name="interruption_level_none">Nėra</string>
+    <string name="interruption_level_priority">Prioritetas</string>
+    <string name="interruption_level_all">Visi</string>
+    <string name="keyguard_indication_charging_time">Kraunama (%s iki visiško įkrovimo)</string>
+    <string name="accessibility_multi_user_switch_switcher">Perjungti naudotoją</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Perjungti naudotoją, dabartinis naudotojas %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Rodyti profilį</string>
+    <string name="user_add_user">Naudotojo pridėjimas</string>
+    <string name="user_new_user_name">Naujas naudotojas</string>
+    <string name="guest_nickname">Svečias</string>
+    <string name="guest_new_guest">Pridėti svečią</string>
+    <string name="guest_exit_guest">Pašalinti svečią</string>
+    <string name="guest_exit_guest_dialog_title">Pašalinti svečią?</string>
+    <string name="guest_exit_guest_dialog_message">Bus ištrintos visos šios sesijos programos ir duomenys.</string>
+    <string name="guest_exit_guest_dialog_remove">Pašalinti</string>
+    <string name="guest_wipe_session_title">Sveiki sugrįžę, svety!</string>
+    <string name="guest_wipe_session_message">Ar norite tęsti sesiją?</string>
+    <string name="guest_wipe_session_wipe">Pradėti iš naujo</string>
+    <string name="guest_wipe_session_dontwipe">Taip, tęsti</string>
+    <string name="user_add_user_title">Pridėti naują naudotoją?</string>
+    <string name="user_add_user_message_short">"Kai pridedate naują naudotoją, šis asmuo turi nustatyti savo erdvę.
+
+Bet kuris naudotojas gali atnaujinti visų kitų naudotojų programas."</string>
+    <string name="battery_saver_notification_title">Akumuliatoriaus tausojimo priemonė įjungta</string>
+    <string name="battery_saver_notification_text">Sumažinamas našumas ir foninių duomenų naudojimas</string>
+    <string name="battery_saver_notification_action_text">Išjungti Akumuliatoriaus tausojimo priemonę</string>
+    <string name="battery_level_template">%d %%</string>
+    <string name="notification_hidden_text">Turinys paslėptas</string>
+    <string name="media_projection_dialog_text">„%s“ pradės fiksuoti viską, kas rodoma jūsų ekrane.</string>
+    <string name="media_projection_remember_text">Daugiau neberodyti</string>
+    <string name="clear_all_notifications_text">Viską išvalyti</string>
+    <string name="media_projection_action_text">Pradėti dabar</string>
+    <string name="empty_shade_text">Nėra įspėjimų</string>
+    <string name="device_owned_footer">Įrenginys gali būti stebimas</string>
+    <string name="profile_owned_footer">Profilis gali būti stebimas</string>
+    <string name="vpn_footer">Tinklas gali būti stebimas</string>
+    <string name="monitoring_title_device_owned">Įrenginio stebėjimas</string>
+    <string name="monitoring_title_profile_owned">Profilio stebėjimas</string>
+    <string name="monitoring_title">Tinklo stebėjimas</string>
+    <string name="disable_vpn">Išjungti VPN</string>
+    <string name="disconnect_vpn">Atjungti VPN</string>
+    <string name="monitoring_description_device_owned">"Šį įrenginį tvarko
+„%1$s“
+
+Jūsų administratorius gali stebėti įrenginio ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.
+
+Jei reikia daugiau informacijos, susisiekite su administratoriumi."</string>
+    <string name="monitoring_description_vpn">"Suteikėte leidimą „%1$s“ užmegzti VPN ryšį.
+
+Ši programa gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines."</string>
+    <string name="monitoring_description_legacy_vpn">"Esate prisijungę prie VPN („%1$s“).
+
+VPN paslaugos teikėjas gali stebėti įrenginį ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines."</string>
+    <string name="monitoring_description_vpn_device_owned">"Šį įrenginį tvarko:
+„%1$s“
+
+Administratorius gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Kad gautumėte daugiau informacijos, susisiekite su administratoriumi.
+
+Suteikėte leidimą „%2$s“ užmegzti VPN ryšį. Ši programa taip pat gali stebėti tinklo veiklą."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Šį įrenginį tvarko:
+„%1$s“
+
+Administratorius gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Kad gautumėte daugiau informacijos, susisiekite su administratoriumi.
+
+Be to, esate prisijungę prie VPN („%2$s“). VPN paslaugos teikėjas taip pat gali stebėti tinklo veiklą."</string>
+    <string name="monitoring_description_profile_owned">"Šį profilį tvarko:
+„%1$s“
+
+Administratorius gali stebėti įrenginio ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.
+
+Jei reikia daugiau informacijos, susisiekite su administratoriumi."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Šį įrenginį tvarko:
+„%1$s“
+Jūsų profilį tvarko:
+„%2$s“
+
+Administratorius gali stebėti įrenginio ir tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.
+
+Jei reikia daugiau informacijos, susisiekite su administratoriumi."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Šį profilį tvarko:
+„%1$s“
+
+Administratorius gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Jei reikia daugiau informacijos, susisiekite su administratoriumi.
+
+Be to, „%2$s“ suteikėte leidimą nustatyti VPN ryšį. Ši programa taip pat gali stebėti tinklo veiklą."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Šį profilį tvarko:
+„%1$s“
+
+Administratorius gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Jei reikia daugiau informacijos, susisiekite su administratoriumi.
+
+Be to, esate prisijungę prie VPN („%2$s“). VPN paslaugos teikėjas taip pat gali stebėti tinklo veiklą."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Šį įrenginį tvarko:
+„%1$s“
+Jūsų profilį tvarko:
+„%2$s“
+
+Admin. gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Jei reikia daugiau informacijos, susisiekite su administratoriumi.
+
+Be to, „%3$s“ suteikėte leidimą nustatyti VPN ryšį. Ši programa taip pat gali stebėti tinklo veiklą."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Šį įrenginį tvarko:
+„%1$s“
+Jūsų profilį tvarko:
+„%2$s“
+
+Admin. gali stebėti tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines. Jei reikia daugiau informacijos, susisiekite su administratoriumi.
+
+Be to, esate prisijungę prie VPN („%3$s“). VPN paslaugos teikėjas taip pat gali stebėti tinklo veiklą."</string>
+    <string name="keyguard_indication_trust_disabled">Įrenginys liks užrakintas, kol neatrakinsite jo neautomatiniu būdu</string>
+    <string name="hidden_notifications_title">Greičiau gaukite pranešimus</string>
+    <string name="hidden_notifications_text">Peržiūrėti prieš atrakinant</string>
+    <string name="hidden_notifications_cancel">Ne, ačiū</string>
+    <string name="hidden_notifications_setup">Nustatyti</string>
+    <string name="muted_by">Nutildė %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Klaviatūros apsauga</string>
+    <string name="keyguard_password_enter_pin_code">Įveskite PIN kodą</string>
+    <string name="keyguard_password_enter_puk_code">Įveskite SIM kortelės PUK kodą ir naują PIN kodą</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM kortelės PUK kodas</string>
+    <string name="keyguard_password_enter_pin_prompt">Naujas SIM kortelės PIN kodas</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Palieskite, kad įves. slaptaž.</font></string>
+    <string name="keyguard_password_enter_password_code">Jei norite atrakinti, įveskite slaptažodį</string>
+    <string name="keyguard_password_enter_pin_password_code">Jei norite atrakinti, įveskite PIN kodą</string>
+    <string name="keyguard_password_wrong_pin_code">Neteisingas PIN kodas.</string>
+    <string name="keyguard_label_text">Jei norite atrakinti, paspauskite „Meniu“ ir 0.</string>
+    <string name="faceunlock_multiple_failures">Viršijote maksimalų atrakinimo pagal veidą bandymų skaičių</string>
+    <string name="keyguard_charged">Įkrauta</string>
+    <string name="keyguard_plugged_in">Kraunama</string>
+    <string name="keyguard_low_battery">Prijunkite įkroviklį.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Jei norite atrakinti, paspauskite „Meniu“.</string>
+    <string name="keyguard_network_locked_message">Tinklas užrakintas</string>
+    <string name="keyguard_missing_sim_message_short">Nėra SIM kortelės</string>
+    <string name="keyguard_missing_sim_message">Telefone nėra SIM kortelės.</string>
+    <string name="keyguard_missing_sim_instructions">Įdėkite SIM kortelę.</string>
+    <string name="keyguard_missing_sim_instructions_long">Trūksta SIM kortelės arba ji neskaitoma. Įdėkite SIM kortelę.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Negalima naudoti SIM kortelės.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM kortelė visam laikui neleidžiama.
+ Jei norite gauti kitą SIM kortelę, susisiekite su belaidžio ryšio paslaugos teikėju."</string>
+    <string name="keyguard_sim_locked_message">SIM kortelė užrakinta.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM kortelė užrakinta PUK kodu.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Atrakinama SIM kortelė…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %2$d valdiklis iš %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Pridėti valdiklį.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Tuščia</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Atrakinimo sritis išplėsta.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Atrakinimo sritis sutraukta.</string>
+    <string name="keyguard_accessibility_widget">Valdiklis %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Naudotojo pasirinkimo valdiklis</string>
+    <string name="keyguard_accessibility_camera">Fotoaparatas</string>
+    <string name="keygaurd_accessibility_media_controls">Medijos valdikliai</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Valdiklių pertvarkymas pradėtas.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Valdiklių pertvarkymas baigtas.</string>
+    <string name="keyguard_accessibility_widget_deleted">Valdiklis %1$s ištrintas.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Išplėsti atrakinimo sritį.</string>
+    <string name="keyguard_accessibility_slide_unlock">Atrakinimas slystant.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Atrakinimas pagal piešinį.</string>
+    <string name="keyguard_accessibility_face_unlock">Atrakinimas pagal veidą.</string>
+    <string name="keyguard_accessibility_pin_unlock">Atrakinimas įvedus PIN kodą.</string>
+    <string name="keyguard_accessibility_password_unlock">Atrakinimas įvedus slaptažodį.</string>
+    <string name="keyguard_accessibility_pattern_area">Atrakinimo pagal piešinį sritis.</string>
+    <string name="keyguard_accessibility_slide_area">Slydimo sritis.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Ankstesnio takelio mygtukas</string>
+    <string name="keyguard_accessibility_transport_next_description">Kito takelio mygtukas</string>
+    <string name="keyguard_accessibility_transport_pause_description">Pristabdymo mygtukas</string>
+    <string name="keyguard_accessibility_transport_play_description">Paleidimo mygtukas</string>
+    <string name="keyguard_accessibility_transport_stop_description">Sustabdymo mygtukas</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Patinka</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Nepatinka</string>
+    <string name="keyguard_accessibility_transport_heart_description">Širdis</string>
+    <string name="keyguard_accessibility_show_bouncer">Jei norite tęsti, atrakinkite</string>
+    <string name="keyguard_accessibility_hide_bouncer">Paleidimas atšauktas</string>
+    <string name="keyguard_accessibility_delete_widget_start">Paleiskite „%1$s“, kad jį ištrintumėte.</string>
+    <string name="keyguard_accessibility_delete_widget_end">„%1$s“ nebus ištrintas.</string>
+    <string name="keyguard_accessibility_next_alarm">Kitas nustatytas signalas: %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Atšaukti</string>
+    <string name="keyboardview_keycode_delete">Ištrinti</string>
+    <string name="keyboardview_keycode_done">Atlikta</string>
+    <string name="keyboardview_keycode_mode_change">Režimo keitimas</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Įvesti</string>
+    <string name="description_target_unlock">Atrakinti</string>
+    <string name="description_target_camera">Vaizdo kamera</string>
+    <string name="description_target_silent">Begarsis</string>
+    <string name="description_target_soundon">Garsas įjungtas</string>
+    <string name="description_direction_down">Slyskite žemyn link %s.</string>
+    <string name="description_direction_right">Slyskite į dešinę link %s.</string>
+    <string name="user_switched">Dabartinis naudotojas: %1$s.</string>
+    <string name="kg_emergency_call_label">Skambutis pagalbos numeriu</string>
+    <string name="kg_forgot_pattern_button_text">Pamiršau atrakinimo piešinį</string>
+    <string name="kg_wrong_pattern">Netinkamas atrakinimo piešinys</string>
+    <string name="kg_wrong_password">Netinkamas slaptažodis</string>
+    <string name="kg_wrong_pin">Netinkamas PIN kodas</string>
+    <string name="kg_too_many_failed_attempts_countdown">Bandyti dar kartą po %d sek.</string>
+    <string name="kg_pattern_instructions">Nupieškite atrakinimo piešinį</string>
+    <string name="kg_sim_pin_instructions">Įveskite SIM PIN kodą</string>
+    <string name="kg_pin_instructions">Įveskite PIN kodą</string>
+    <string name="kg_password_instructions">Įveskite slaptažodį</string>
+    <string name="kg_puk_enter_puk_hint">Dabar SIM neleidžiama. Jei norite tęsti, įveskite PUK kodą. Jei reikia išsamios informacijos, susisiekite su operatoriumi.</string>
+    <string name="kg_puk_enter_pin_hint">Įveskite pageidaujamą PIN kodą</string>
+    <string name="kg_enter_confirm_pin_hint">Patvirtinkite pageidaujamą PIN kodą</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Atrakinama SIM kortelė…</string>
+    <string name="kg_invalid_sim_pin_hint">Įveskite PIN kodą, sudarytą iš 4–8 skaičių.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK kodas turėtų būti mažiausiai 8 skaitmenų.</string>
+    <string name="kg_invalid_puk">Pakartotinai įveskite tinkamą PUK kodą. Pakartotinai bandant SIM bus neleidžiama visam laikui.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN kodai neatitinka</string>
+    <string name="kg_login_too_many_attempts">Per daug atrakinimo piešinių bandymų</string>
+    <string name="kg_login_instructions">Jei norite atrakinti, prisijunkite naudodami „Google“ paskyrą.</string>
+    <string name="kg_login_username_hint">Naudotojo vardas (el. paštas)</string>
+    <string name="kg_login_password_hint">Slaptažodis</string>
+    <string name="kg_login_submit_button">Prisijungti</string>
+    <string name="kg_login_invalid_input">Netinkamas naudotojo vardas ar slaptažodis.</string>
+    <string name="kg_login_account_recovery_hint">"Pamiršote naudotojo vardą ar slaptažodį?
+Apsilankykite šiuo adresu: "<b>google.com/accounts/recovery</b></string>
+    <string name="kg_login_checking_password">Tikrinama paskyra…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"PIN kodą netinkamai įvedėte %d k. 
+
+Bandykite dar kartą po %d sek."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Neteisingai įvedėte slaptažodį %d k. 
+
+Bandykite dar kartą po %d sek."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Netinkamai nupiešėte atrakinimo piešinį %d k. 
+
+Bandykite dar kartą po %d sek."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">%d k. bandėte netinkamai atrakinti telefoną. Po dar %d nesėkm. band. telefone bus iš naujo nustatyti numatytieji gamyklos nustatymai ir bus prarasti visi naudotojo duomenys.</string>
+    <string name="kg_failed_attempts_now_wiping">%d k. bandėte netinkamai atrakinti telefoną. Telefone bus iš naujo nustatyti numatytieji gamyklos nustatymai.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Netinkamai nupiešėte atrakinimo piešinį %d k. Po dar %d nesėkm. band. būsite paprašyti atrakinti telefoną naudodami „Google“ prisijungimo duomenis.
+
+ Bandykite dar kartą po %d sek."</string>
+    <string name="kg_text_message_separator">" – "</string>
+    <string name="kg_reordering_delete_drop_target_text">Pašalinti</string>
+    <string name="kg_password_wrong_pin_code_pukked">Netinkamas SIM kortelės PIN kodas. Reikės susisiekti su operatoriumi, kad atrakintų įrenginį.</string>
+    <string name="kg_password_wrong_puk_code_dead">Nebegalima naudoti SIM kortelės. Susisiekite su operatoriumi.</string>
+    <string name="kg_password_pin_failed">Nepavyko atlikti SIM kortelės PIN kodo operacijos.</string>
+    <string name="kg_password_puk_failed">Nepavyko atlikti SIM kortelės PUK kodo operacijos.</string>
+    <string name="kg_pin_accepted">Kodas priimtas.</string>
+    <string name="keyguard_transport_prev_description">Ankstesnio takelio mygtukas</string>
+    <string name="keyguard_transport_next_description">Kito takelio mygtukas</string>
+    <string name="keyguard_transport_pause_description">Pristabdymo mygtukas</string>
+    <string name="keyguard_transport_play_description">Paleidimo mygtukas</string>
+    <string name="keyguard_transport_stop_description">Sustabdymo mygtukas</string>
+    <string name="keyguard_carrier_default">Nėra paslaugos.</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+</resources>

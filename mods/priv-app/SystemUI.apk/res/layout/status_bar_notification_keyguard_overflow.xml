@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationOverflowContainer android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/notification_summary_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundNormal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundDimmed" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff686868" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/more_text" android:background="@drawable/keyguard_overflow_number_background" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" />
+        <com.android.systemui.statusbar.StatusBarIconView android:id="@id/more_icon_overflow" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/stat_notify_more" android:tint="@color/keyguard_overflow_content_color" />
+        <com.android.systemui.statusbar.NotificationOverflowIconsView android:layout_gravity="center_vertical" android:id="@id/overflow_icons_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</com.android.systemui.statusbar.NotificationOverflowContainer>

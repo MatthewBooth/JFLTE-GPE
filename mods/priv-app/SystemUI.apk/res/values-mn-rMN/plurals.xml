@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Тойм харагдац дотор %d дэлгэц</item>
+        <item quantity="one">Тойм харагдац дотор 1 дэлгэц</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">СИМ ПИН код буруу байна, танд %d оролдлого хийх боломж үлдлээ.</item>
+        <item quantity="one">СИМ ПИН код буруу байна, танд мобайл оператор компанитай холбогдохгүйгээр төхөөрөмжийн түгжээг тайлахад %d оролдлого хийх боломж үлдсэн байна.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">СИМ ПҮК код буруу, таны СИМ бүрмөсөн ашиглалтгүй болохоос өмнө %d оролдлого хийх боломж үлдлээ.</item>
+        <item quantity="one">СИМ ПҮК код буруу, таны СИМ бүрмөсөн ашиглалтгүй болохоос өмнө %d оролдлого хийх боломж үлдлээ.</item>
+    </plurals>
+</resources>

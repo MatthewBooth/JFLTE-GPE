@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d wezikrini eziku-Ukubuka konke</item>
+        <item quantity="one">1 isikrini esiku-Ukubuka konke</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Ikhodi yephinikhodi ye-SIM engalungile, unemizamo esele engu-%d.</item>
+        <item quantity="one">Ikhodi yephinikhodi ye-SIM engalungile, unemizamo engu-%d esele ngaphambi kokuba uxhumane nenkampini yenethiwekhi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Ikhodi ye-PUK ye-SIM engalungile, unemizamo engu-%d esele ngaphambi kokuba i-SIM iba engasebenziseki unaphakade.</item>
+        <item quantity="one">Ikhodi ye-PUK ye-SIM engalungile, unemizamo engu-%d esele ngaphambi kokuba i-SIM ibe engasebenziseki unaphakade.</item>
+    </plurals>
+</resources>

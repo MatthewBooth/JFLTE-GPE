@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Екранів на панелі огляду: %d</item>
+        <item quantity="one">На панелі огляду 1 екран</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неправильний PIN-код SIM-карти. У вас залишилося стільки спроб: %d.</item>
+        <item quantity="one">Неправильний PIN-код SIM-карти. У вас залишилась %d спроба. Після цього потрібно буде зв’язатися з оператором, щоб розблокувати пристрій.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неправильний PUK-код SIM-карти. У вас залишилося стільки спроб: %d. Після цього SIM-карту буде назавжди заблоковано.</item>
+        <item quantity="one">Неправильний PUK-код SIM-карти. У вас залишилась %d спроба. Після цього SIM-карту буде назавжди заблоковано.</item>
+    </plurals>
+</resources>

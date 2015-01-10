@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_recents_interface_for_tablets">true</bool>
+    <bool name="config_recents_thumbnail_image_fits_to_xy">true</bool>
+    <bool name="recents_has_transposed_search_bar">false</bool>
+    <bool name="recents_has_transposed_nav_bar">false</bool>
+    <bool name="recents_transpose_search_layout_with_orientation">false</bool>
+</resources>

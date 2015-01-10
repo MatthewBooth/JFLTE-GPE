@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ओवरव्यू में %d स्क्रीन</item>
+        <item quantity="one">ओवरव्यू मेें 1 स्क्रीन</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">गलत सिम PIN कोड, आपके पास %d प्रयास शेष हैं.</item>
+        <item quantity="one">गलत सिम PIN कोड, अपने डिवाइस को अनलॉक करने के लिए अपने वाहक से संपर्क करने से पहले आपके पास %d प्रयास शेष है.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">गलत सिम PUK कोड, सिम के स्थायी रूप से अनुपयोगी हो जाने से पहले आपके पास %d प्रयास शेष हैं.</item>
+        <item quantity="one">गलत सिम PUK कोड, सिम के स्थायी रूप से अनुपयोगी हो जाने से पहले आपके पास %d प्रयास शेष है.</item>
+    </plurals>
+</resources>

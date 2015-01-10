@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardSelectorView android:orientation="vertical" android:id="@id/keyguard_selector_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_slide_unlock" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+        <View android:id="@id/keyguard_selector_view_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+        <include layout="@layout/keyguard_glow_pad_container" />
+        <include android:layout_gravity="bottom|center" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/keyguard_eca" />
+    </FrameLayout>
+</com.android.keyguard.KeyguardSelectorView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="keyguard_clock_y_fraction_max">32.500004%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">19.799995%</fraction>
+    <fraction name="battery_button_height_fraction">10.500002%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">0.0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">0.0%</fraction>
+</resources>

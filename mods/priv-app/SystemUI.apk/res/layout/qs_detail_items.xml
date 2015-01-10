@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSDetailItems android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@android:id/icon" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailEmpty" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+</com.android.systemui.qs.QSDetailItems>

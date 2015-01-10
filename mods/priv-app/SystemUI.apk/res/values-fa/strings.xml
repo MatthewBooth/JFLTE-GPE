@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">رابط کاربر سیستم</string>
+    <string name="status_bar_clear_all_button">پاک کردن</string>
+    <string name="status_bar_recent_remove_item_title">حذف از لیست</string>
+    <string name="status_bar_recent_inspect_item_title">اطلاعات برنامه</string>
+    <string name="status_bar_no_recent_apps">صفحه‌های اخیر شما اینجا نمایان می‌شوند</string>
+    <string name="status_bar_accessibility_dismiss_recents">رد کردن برنامه‌های اخیر</string>
+    <string name="status_bar_no_notifications_title">اعلانی موجود نیست</string>
+    <string name="status_bar_ongoing_events_title">در حال انجام</string>
+    <string name="status_bar_latest_events_title">اعلان‌ها</string>
+    <string name="battery_low_title">شارژ باتری کم است</string>
+    <string name="battery_low_percent_format">%d%% باقیمانده است</string>
+    <string name="battery_low_percent_format_saver_started">%d%% باقی مانده است. ذخیره کننده باتری روشن است.</string>
+    <string name="invalid_charger">"‏شارژ USB پشتیبانی نمی‌شود.
+فقط از شارژر ارائه شده استفاده کنید."</string>
+    <string name="invalid_charger_title">‏شارژ با USB پشتیبانی نمی‌شود.</string>
+    <string name="invalid_charger_text">فقط از شارژر ارائه شده استفاده کنید.</string>
+    <string name="battery_low_why">تنظیمات</string>
+    <string name="battery_saver_confirmation_title">ذخیره‌کننده باتری روشن شود؟</string>
+    <string name="battery_saver_confirmation_ok">روشن کردن</string>
+    <string name="battery_saver_start_action">ذخیره‌کننده باتری را روشن کنید</string>
+    <string name="status_bar_settings_settings_button">تنظیمات</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">حالت هواپیما</string>
+    <string name="status_bar_settings_auto_rotation">چرخش خودکار صفحه</string>
+    <string name="status_bar_settings_mute_label">بی‌صدا</string>
+    <string name="status_bar_settings_auto_brightness_label">خودکار</string>
+    <string name="status_bar_settings_notifications">اعلان‌ها</string>
+    <string name="bluetooth_tethered">اتصال اینترنتی با بلوتوث تلفن همراه</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">تنظیم روش‌های ورودی</string>
+    <string name="status_bar_use_physical_keyboard">صفحه‌کلید فیزیکی</string>
+    <string name="usb_device_permission_prompt">‏به برنامه %1$s اجازه می‌دهید به دستگاه USB دسترسی داشته باشد؟</string>
+    <string name="usb_accessory_permission_prompt">‏به برنامه %1$s اجازه می‌دهد تا به وسیله جانبی USB دسترسی داشته باشد؟</string>
+    <string name="usb_device_confirm_prompt">‏وقتی این دستگاه USB وصل است، %1$s باز شود؟</string>
+    <string name="usb_accessory_confirm_prompt">‏وقتی این وسیله جانبی USB وصل است، %1$s باز شود؟</string>
+    <string name="usb_accessory_uri_prompt">‏هیچ برنامهٔ کاربردی نصب شده‌ای با این وسیله جانبی USB کار نمی‌کند. در %1$s دربارهٔ این وسیله جانبی اطلاعات بیشتری کسب کنید</string>
+    <string name="title_usb_accessory">‏لوازم جانبی USB</string>
+    <string name="label_view">مشاهده</string>
+    <string name="always_use_device">‏استفاده به صورت پیش‌فرض برای این دستگاه USB</string>
+    <string name="always_use_accessory">‏استفاده به صورت پیش‌فرض برای این دستگاه USB</string>
+    <string name="usb_debugging_title">‏اجازه به اشکال‌زدایی USB؟</string>
+    <string name="usb_debugging_message">"‏اثر انگشت کلید RSA رایانه: 
+%1$s"</string>
+    <string name="usb_debugging_always">همیشه از این رایانه انجام شود</string>
+    <string name="compat_mode_on">بزرگنمایی برای پر کردن صفحه</string>
+    <string name="compat_mode_off">گسترده کردن برای پر کردن صفحه</string>
+    <string name="screenshot_saving_ticker">در حال ذخیره تصویر صفحه...</string>
+    <string name="screenshot_saving_title">در حال ذخیره تصویر صفحه...</string>
+    <string name="screenshot_saving_text">تصویر صفحه ذخیره شد.</string>
+    <string name="screenshot_saved_title">تصویر صفحه گرفته شد.</string>
+    <string name="screenshot_saved_text">برای مشاهده عکس صفحه‌نمایشتان، لمس کنید.</string>
+    <string name="screenshot_failed_title">تصویر صفحه گرفته نشد.</string>
+    <string name="screenshot_failed_text">به دلیل فضای ذخیره‌سازی کم یا عدم اجازه برنامه یا سازمانتان، نمی‌توان از صفحه عکس گرفت.</string>
+    <string name="usb_preference_title">‏گزینه‌های انتقال فایل USB</string>
+    <string name="use_mtp_button_title">‏نصب به‌عنوان دستگاه پخش رسانه (MTP)</string>
+    <string name="use_ptp_button_title">‏تصب به‌عنوان دوربین (PTP)</string>
+    <string name="installer_cd_button_title">‏برنامه Android File Transfer را برای Mac نصب کنید</string>
+    <string name="accessibility_back">برگشت</string>
+    <string name="accessibility_home">صفحهٔ اصلی</string>
+    <string name="accessibility_menu">منو</string>
+    <string name="accessibility_recent">نمای کلی</string>
+    <string name="accessibility_search_light">جستجو</string>
+    <string name="accessibility_camera_button">دوربین</string>
+    <string name="accessibility_phone_button">تلفن</string>
+    <string name="accessibility_unlock_button">باز کردن قفل</string>
+    <string name="unlock_label">بازکردن قفل</string>
+    <string name="phone_label">باز کردن تلفن</string>
+    <string name="camera_label">باز کردن دوربین</string>
+    <string name="accessibility_ime_switch_button">کلید تغییر روش ورود متن.</string>
+    <string name="accessibility_compatibility_zoom_button">دکمه بزرگنمایی سازگار.</string>
+    <string name="accessibility_compatibility_zoom_example">بزرگنمایی از صفحه‌های کوچک تا بزرگ.</string>
+    <string name="accessibility_bluetooth_connected">بلوتوث متصل است.</string>
+    <string name="accessibility_bluetooth_disconnected">بلوتوث قطع شده است.</string>
+    <string name="accessibility_no_battery">باتری موجود نیست.</string>
+    <string name="accessibility_battery_one_bar">یک نوار برای باتری.</string>
+    <string name="accessibility_battery_two_bars">دو نوار برای باتری.</string>
+    <string name="accessibility_battery_three_bars">سه نوار برای باتری.</string>
+    <string name="accessibility_battery_full">باتری پر است.</string>
+    <string name="accessibility_no_phone">بدون تلفن.</string>
+    <string name="accessibility_phone_one_bar">یک نوار برای تلفن.</string>
+    <string name="accessibility_phone_two_bars">دو نوار برای تلفن.</string>
+    <string name="accessibility_phone_three_bars">سه نوار برای تلفن.</string>
+    <string name="accessibility_phone_signal_full">قدرت امواج تلفن همراه کامل است.</string>
+    <string name="accessibility_no_data">داده‌ای وجود ندارد.</string>
+    <string name="accessibility_data_one_bar">یک نوار برای داده.</string>
+    <string name="accessibility_data_two_bars">دو نوار برای داده.</string>
+    <string name="accessibility_data_three_bars">سه نوار برای داده.</string>
+    <string name="accessibility_data_signal_full">قدرت سیگنال داده کامل است.</string>
+    <string name="accessibility_wifi_off">‏Wi‑Fi خاموش.</string>
+    <string name="accessibility_no_wifi">‏Wi-Fi قطع‌شد.</string>
+    <string name="accessibility_wifi_one_bar">‏یک نوار برای Wi‑Fi.</string>
+    <string name="accessibility_wifi_two_bars">‏دو نوار برای Wi‑Fi.</string>
+    <string name="accessibility_wifi_three_bars">‏سه نوار برای Wi‑Fi.</string>
+    <string name="accessibility_wifi_signal_full">‏قدرت سیگنال Wi‑Fi کامل است.</string>
+    <string name="accessibility_wifi_name">به %s متصل شد.</string>
+    <string name="accessibility_bluetooth_name">به %s متصل شد.</string>
+    <string name="accessibility_no_wimax">‏WiMAX وجود ندارد.</string>
+    <string name="accessibility_wimax_one_bar">‏WiMAX دارای یک نوار است.</string>
+    <string name="accessibility_wimax_two_bars">‏WiMAX دارای دو نوار است.</string>
+    <string name="accessibility_wimax_three_bars">‏WiMAX دارای سه نوار است.</string>
+    <string name="accessibility_wimax_signal_full">‏قدرت سیگنال WiMAX کامل است.</string>
+    <string name="accessibility_no_signal">فاقد سیگنال.</string>
+    <string name="accessibility_not_connected">متصل نیست.</string>
+    <string name="accessibility_zero_bars">بدون میله.</string>
+    <string name="accessibility_one_bar">یک میله.</string>
+    <string name="accessibility_two_bars">دو میله.</string>
+    <string name="accessibility_three_bars">سه میله.</string>
+    <string name="accessibility_signal_full">سیگنال کامل.</string>
+    <string name="accessibility_desc_on">روشن.</string>
+    <string name="accessibility_desc_off">خاموش.</string>
+    <string name="accessibility_desc_connected">متصل.</string>
+    <string name="accessibility_desc_connecting">در حال مرتبط‌ شدن.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">رومینگ</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">بدون سیم کارت.</string>
+    <string name="accessibility_bluetooth_tether">اتصال اینترنت با بلوتوث تلفن همراه.</string>
+    <string name="accessibility_airplane_mode">حالت هواپیما.</string>
+    <string name="accessibility_battery_level">باتری %d درصد.</string>
+    <string name="accessibility_settings_button">تنظیمات سیستم.</string>
+    <string name="accessibility_notifications_button">اعلان‌ها.</string>
+    <string name="accessibility_remove_notification">پاک کردن اعلان</string>
+    <string name="accessibility_gps_enabled">‏GPS فعال شد.</string>
+    <string name="accessibility_gps_acquiring">‏دستیابی به GPS.</string>
+    <string name="accessibility_tty_enabled">‏TeleTypewriter فعال شد.</string>
+    <string name="accessibility_ringer_vibrate">زنگ لرزشی.</string>
+    <string name="accessibility_ringer_silent">زنگ بی‌صدا.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">رد کردن %s.</string>
+    <string name="accessibility_recents_item_dismissed">%s نادیده گرفته شد.</string>
+    <string name="accessibility_recents_item_launched">%s در حال شروع به کار است.</string>
+    <string name="accessibility_notification_dismissed">اعلان ردشد.</string>
+    <string name="accessibility_desc_notification_shade">مجموعه اعلان.</string>
+    <string name="accessibility_desc_quick_settings">تنظیمات سریع.</string>
+    <string name="accessibility_desc_lock_screen">صفحه در حالت قفل.</string>
+    <string name="accessibility_desc_settings">تنظیمات</string>
+    <string name="accessibility_desc_recent_apps">نمای کلی.</string>
+    <string name="accessibility_quick_settings_user">کاربر %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">‏Wi-Fi خاموش شد.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">‏Wi-Fi روشن شد.</string>
+    <string name="accessibility_quick_settings_mobile">تلفن همراه %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">باتری %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">حالت هواپیما خاموش است.</string>
+    <string name="accessibility_quick_settings_airplane_on">حالت هواپیما روشن است.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">حالت هواپیما خاموش شد.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">حالت هواپیما روشن شد.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">بلوتوث خاموش است.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">بلوتوث روشن است.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">بلوتوث در حال اتصال است.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">بلوتوث متصل است.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">بلوتوث خاموش شد.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">بلوتوث روشن شد.</string>
+    <string name="accessibility_quick_settings_location_off">گزارش موقعیت مکانی خاموش است.</string>
+    <string name="accessibility_quick_settings_location_on">گزارش موقعیت مکانی روشن است.</string>
+    <string name="accessibility_quick_settings_location_changed_off">گزارش موقعیت مکانی خاموش شد.</string>
+    <string name="accessibility_quick_settings_location_changed_on">گزارش موقعیت مکانی روشن شد.</string>
+    <string name="accessibility_quick_settings_alarm">هشدار برای %s تنظیم شد.</string>
+    <string name="accessibility_quick_settings_close">پانل را ببندید.</string>
+    <string name="accessibility_quick_settings_more_time">زمان بیشتر.</string>
+    <string name="accessibility_quick_settings_less_time">زمان کمتر.</string>
+    <string name="accessibility_quick_settings_flashlight_off">چراغ قوه خاموش است.</string>
+    <string name="accessibility_quick_settings_flashlight_on">چراغ قوه روشن است.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">چراغ قوه خاموش شد.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">چراغ قوه روشن شد.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">وارونگی رنگ خاموش شد.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">وارونگی رنگ روشن شد.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">نقطه اتصال دستگاه همراه خاموش شد.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">نقطه اتصال دستگاه همراه روشن شد.</string>
+    <string name="accessibility_casting_turned_off">فرستادن صفحه نمایش متوقف شد.</string>
+    <string name="accessibility_brightness">روشنایی نمایشگر</string>
+    <string name="data_usage_disabled_dialog_3g_title">‏داده 2G-3G خاموش است</string>
+    <string name="data_usage_disabled_dialog_4g_title">‏داده 4G خاموش است</string>
+    <string name="data_usage_disabled_dialog_mobile_title">داده شبکه سلولی خاموش است</string>
+    <string name="data_usage_disabled_dialog_title">داده خاموش است</string>
+    <string name="data_usage_disabled_dialog">"دستگاه شما خاموش شد زیرا به حد تنظیم شده توسط شما رسید.
+
+روشن کردن مجدد آن می‌تواند به هزینه‌هایی از طرف شرکت مخابراتی شما منجر شود."</string>
+    <string name="data_usage_disabled_dialog_enable">روشن کردن داده</string>
+    <string name="status_bar_settings_signal_meter_disconnected">اتصال اینترنتی وجود ندارد</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">‏Wi-Fi متصل شد</string>
+    <string name="gps_notification_searching_text">‏جستجو برای GPS</string>
+    <string name="gps_notification_found_text">‏مکان تنظیم شده توسط GPS</string>
+    <string name="accessibility_location_active">درخواست‌های موقعیت مکانی فعال است</string>
+    <string name="accessibility_clear_all">پاک کردن تمام اعلان‌ها</string>
+    <string name="status_bar_notification_inspect_item_title">تنظیمات اعلان</string>
+    <string name="status_bar_notification_app_settings_title">تنظیمات %s</string>
+    <string name="accessibility_rotation_lock_off">صفحه به صورت خودکار می‌چرخد.</string>
+    <string name="accessibility_rotation_lock_on_landscape">صفحه اکنون در جهت افقی قفل است.</string>
+    <string name="accessibility_rotation_lock_on_portrait">صفحه اکنون در جهت عمودی قفل است.</string>
+    <string name="accessibility_rotation_lock_off_changed">صفحه اکنون به صورت خودکار می‌چرخد.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">صفحه اکنون روی جهت افقی قفل شده است.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">صفحه اکنون روی جهت عمودی قفل شده است.</string>
+    <string name="dessert_case">ویترین دسر</string>
+    <string name="start_dreams">رویاپردازی</string>
+    <string name="ethernet_label">اترنت</string>
+    <string name="quick_settings_airplane_mode_label">حالت هواپیما</string>
+    <string name="quick_settings_battery_charging_label">در حال شارژ، %d%%</string>
+    <string name="quick_settings_battery_charged_label">شارژ شد</string>
+    <string name="quick_settings_bluetooth_label">بلوتوث</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">بلوتوث ( %d دستگاه)</string>
+    <string name="quick_settings_bluetooth_off_label">بلوتوث خاموش</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">هیچ دستگاه مرتبط شده‌ای موجود نیست</string>
+    <string name="quick_settings_brightness_label">روشنایی</string>
+    <string name="quick_settings_rotation_unlocked_label">چرخش خودکار</string>
+    <string name="quick_settings_rotation_locked_label">چرخش قفل شد</string>
+    <string name="quick_settings_rotation_locked_portrait_label">عمودی</string>
+    <string name="quick_settings_rotation_locked_landscape_label">افقی</string>
+    <string name="quick_settings_ime_label">روش ورودی</string>
+    <string name="quick_settings_location_label">مکان</string>
+    <string name="quick_settings_location_off_label">مکان خاموش</string>
+    <string name="quick_settings_media_device_label">دستگاه رسانه</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">فقط تماس‌های اضطراری</string>
+    <string name="quick_settings_settings_label">تنظیمات</string>
+    <string name="quick_settings_time_label">زمان</string>
+    <string name="quick_settings_user_label">من</string>
+    <string name="quick_settings_user_title">کاربر</string>
+    <string name="quick_settings_user_new_user">کاربر جدید</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">متصل نیست</string>
+    <string name="quick_settings_wifi_no_network">شبکه‌ای موجود نیست</string>
+    <string name="quick_settings_wifi_off_label">‏Wi-Fi خاموش است</string>
+    <string name="quick_settings_wifi_detail_empty_text">شبکه ذخیره شده‌ای در دسترس نیست</string>
+    <string name="quick_settings_cast_title">فرستادن صفحه‌نمایش</string>
+    <string name="quick_settings_casting">در حال فرستادن</string>
+    <string name="quick_settings_cast_device_default_name">دستگاه بدون نام</string>
+    <string name="quick_settings_cast_device_default_description">آماده برای فرستادن</string>
+    <string name="quick_settings_cast_detail_empty_text">دستگاهی موجود نیست</string>
+    <string name="quick_settings_brightness_dialog_title">روشنایی</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">خودکار</string>
+    <string name="quick_settings_inversion_label">برگردان رنگ‌ها</string>
+    <string name="quick_settings_color_space_label">حالت تصحیح رنگ</string>
+    <string name="quick_settings_more_settings">تنظیمات بیشتر</string>
+    <string name="quick_settings_done">انجام شد</string>
+    <string name="quick_settings_connected">متصل</string>
+    <string name="quick_settings_connecting">در حال اتصال...</string>
+    <string name="quick_settings_tethering_label">اتصال به اینترنت با تلفن همراه</string>
+    <string name="quick_settings_hotspot_label">نقطه اتصال</string>
+    <string name="quick_settings_notifications_label">اعلان‌ها</string>
+    <string name="quick_settings_flashlight_label">چراغ قوه</string>
+    <string name="quick_settings_cellular_detail_title">داده‌های شبکه تلفن همراه</string>
+    <string name="quick_settings_cellular_detail_data_usage">مصرف داده</string>
+    <string name="quick_settings_cellular_detail_remaining_data">داده‌های باقی‌مانده</string>
+    <string name="quick_settings_cellular_detail_over_limit">به حد مجاز رسیدید – استفاده از داده موقتاً متوقف شد</string>
+    <string name="quick_settings_cellular_detail_data_used">%s استفاده شده</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s محدودیت</string>
+    <string name="quick_settings_cellular_detail_data_warning">هشدار %s</string>
+    <string name="recents_empty_message">صفحه‌های اخیر شما اینجا نمایان می‌شوند</string>
+    <string name="recents_app_info_button_label">اطلاعات برنامه</string>
+    <string name="recents_lock_to_app_button_label">قفل به برنامه</string>
+    <string name="recents_search_bar_label">جستجو</string>
+    <string name="recents_launch_error_message">%s شروع نشد.</string>
+    <string name="expanded_header_battery_charged">شارژ کامل شد</string>
+    <string name="expanded_header_battery_charging">در حال شارژ شدن</string>
+    <string name="expanded_header_battery_charging_with_time">%s مانده تا شارژ کامل شود</string>
+    <string name="expanded_header_battery_not_charging">شارژ نمی‌شود</string>
+    <string name="ssl_ca_cert_warning">"ممکن است شبکه
+تحت نظارت باشد"</string>
+    <string name="description_target_search">جستجو</string>
+    <string name="description_direction_up">لغزاندن به بالا برای %s.</string>
+    <string name="description_direction_left">لغزاندن به چپ برای %s.</string>
+    <string name="zen_no_interruptions_with_warning">بدون قطعی. حتی هشدارها قطع نمی‌شوند.</string>
+    <string name="zen_no_interruptions">بدون وقفه</string>
+    <string name="zen_important_interruptions">فقط وقفه‌های اولویت‌دار</string>
+    <string name="zen_alarm_information_time">هشدار بعدی شما در ساعت %s است</string>
+    <string name="zen_alarm_information_day_time">هشدار بعدی شما %s است</string>
+    <string name="zen_alarm_warning">هشدارتان را در ساعت %s نخواهید شنید</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">اعلان‌های کمتر فوری در زیر</string>
+    <string name="notification_tap_again">برای باز کردن دوباره لمس کنید</string>
+    <string name="keyguard_unlock">برای باز کردن قفل سریع به بالا بکشید</string>
+    <string name="phone_hint">برای تلفن انگشت را تند به سمت چپ بکشید</string>
+    <string name="camera_hint">برای دوربین انگشت را تند به سمت راست بکشید</string>
+    <string name="interruption_level_none">هیچ‌کدام</string>
+    <string name="interruption_level_priority">اولویت</string>
+    <string name="interruption_level_all">همه</string>
+    <string name="keyguard_indication_charging_time">در حال شارژ (%s تا شارژ کامل)</string>
+    <string name="accessibility_multi_user_switch_switcher">تغییر کاربر</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">تعویض کاربر، کاربر کنونی %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">نمایش نمایه</string>
+    <string name="user_add_user">افزودن کاربر</string>
+    <string name="user_new_user_name">کاربر جدید</string>
+    <string name="guest_nickname">مهمان</string>
+    <string name="guest_new_guest">افزودن مهمان</string>
+    <string name="guest_exit_guest">حذف مهمان</string>
+    <string name="guest_exit_guest_dialog_title">مهمان حذف شود؟</string>
+    <string name="guest_exit_guest_dialog_message">همه برنامه‌ها و داده‌های این جلسه حذف خواهد شد.</string>
+    <string name="guest_exit_guest_dialog_remove">حذف</string>
+    <string name="guest_wipe_session_title">مهمان گرامی، بازگشتتان را خوش آمد می‌گوییم!</string>
+    <string name="guest_wipe_session_message">آیا می‌خواهید جلسه‌تان را ادامه دهید؟</string>
+    <string name="guest_wipe_session_wipe">شروع مجدد</string>
+    <string name="guest_wipe_session_dontwipe">بله، ادامه داده شود</string>
+    <string name="user_add_user_title">کاربر جدیدی اضافه می‌کنید؟</string>
+    <string name="user_add_user_message_short">"وقتی کاربر جدیدی را اضافه می‌کنید آن فرد باید فضای خودش را تنظیم کند.
+
+هر کاربری می‌تواند برنامه‌ها را برای همه کاربران دیگر به‌روزرسانی کند."</string>
+    <string name="battery_saver_notification_title">ذخیره کننده باتری روشن است.</string>
+    <string name="battery_saver_notification_text">عملکرد و اطلاعات پس‌زمینه را کاهش می‌دهد</string>
+    <string name="battery_saver_notification_action_text">خاموش کردن ذخیره‌کننده باتری</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">محتواها پنهان هستند</string>
+    <string name="media_projection_dialog_text">%s شروع به ضبط هر چیزی می‌کند که در صفحه‌نمایش شما نمایش داده می‌شود.</string>
+    <string name="media_projection_remember_text">دوباره نشان داده نشود</string>
+    <string name="clear_all_notifications_text">پاک کردن همه موارد</string>
+    <string name="media_projection_action_text">اکنون شروع شود</string>
+    <string name="empty_shade_text">اعلانی موجود نیست</string>
+    <string name="device_owned_footer">ممکن است دستگاه کنترل شود</string>
+    <string name="profile_owned_footer">شاید نمایه کنترل شود</string>
+    <string name="vpn_footer">ممکن است شبکه کنترل شود</string>
+    <string name="monitoring_title_device_owned">کنترل دستگاه</string>
+    <string name="monitoring_title_profile_owned">کنترل نمایه</string>
+    <string name="monitoring_title">کنترل شبکه</string>
+    <string name="disable_vpn">‏غیرفعال کردن VPN</string>
+    <string name="disconnect_vpn">‏قطع اتصال VPN</string>
+    <string name="monitoring_description_device_owned">"مدیریت این دستگاه توسط:
+%1$s
+
+سرپرستتان می‌تواند دستگاه‌ و فعالیت شبکه‌تان را کنترل کند، از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن.
+
+برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید."</string>
+    <string name="monitoring_description_vpn">"‏به \"%1$s\" اجازه دادید اتصال VPN را تنظیم کند.
+
+این برنامه می‌تواند دستگاه و فعالیت شبکه‌تان را کنترل کند، از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن."</string>
+    <string name="monitoring_description_legacy_vpn">"‏به VPN ‏(\"%1$s\") وصل هستید.
+
+ارائه‌دهنده سرویس VPN می‌تواند دستگاه‌ و فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن."</string>
+    <string name="monitoring_description_vpn_device_owned">"‏مدیریت این دستگاه توسط:
+%1$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند، از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید.
+
+همچنین، به \"%2$s\" اجازه دادید تا اتصال VPN را تنظیم کند. این برنامه می‌تواند فعالیت شبکه را نیز کنترل کند."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"‏مدیریت این دستگاه توسط:
+%1$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها، و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید.
+
+همچنین، به VPN‏ ‎‏(\"%2$s\") وصل هستید. ارائه‌دهنده سرویس VPN شما می‌تواند فعالیت شبکه را نیز کنترل کند."</string>
+    <string name="monitoring_description_profile_owned">"مدیریت این نمایه توسط:
+%1$s
+
+سرپرستتان می‌تواند فعالیت شبکه و دستگاهتان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن.
+
+برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید."</string>
+    <string name="monitoring_description_device_and_profile_owned">"مدیریت این دستگاه توسط:
+%1$s
+مدیریت نمایه‌تان توسط:
+%2$s
+
+سرپرستتان می‌تواند فعالیت شبکه و دستگاهتان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن.
+
+برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید."</string>
+    <string name="monitoring_description_vpn_profile_owned">"‏مدیریت این نمایه توسط:
+%1$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید.
+
+همچنین به «%2$s» اجازه دادید اتصال VPN را تنظیم کند. این برنامه می‌تواند فعالیت شبکه را نیز کنترل کند."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"‏مدیریت این نمایه توسط:
+%1$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر با سرپرستتان تماس بگیرید.
+
+همچنین به VPN ‏(«%2$s») وصل هستید. ارائه‌دهنده سرویس VPN شما می‌تواند فعالیت شبکه را نیز کنترل کند."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"‏مدیریت این دستگاه توسط:
+%1$s
+مدیریت نمایه‌تان توسط:
+%2$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید.
+
+همچنین، به «%3$s» اجازه دادید اتصال VPN را تنظیم کند. این برنامه می‌تواند فعالیت شبکه‌ را نیز کنترل کند."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"‏مدیریت این دستگاه توسط:
+%1$s
+مدیریت نمایه‌تان توسط:
+%2$s
+
+سرپرستتان می‌تواند فعالیت شبکه‌تان را کنترل کند از جمله ایمیل‌ها، برنامه‌ها و وب‌سایت‌های ایمن. برای کسب اطلاعات بیشتر، با سرپرستتان تماس بگیرید.
+
+همچنین، به VPN ‏(«%3$s») وصل هستید. ارائه‌دهنده سرویس VPN شما می‌تواند فعالیت شبکه را نیز کنترل کند."</string>
+    <string name="keyguard_indication_trust_disabled">دستگاه قفل باقی می‌ماند تا زمانی که قفل آن را به صورت دستی باز کنید</string>
+    <string name="hidden_notifications_title">دریافت سریع‌تر اعلان‌ها</string>
+    <string name="hidden_notifications_text">قبل از باز کردن قفل آنها را مشاهده کنید</string>
+    <string name="hidden_notifications_cancel">خیر، سپاسگزارم</string>
+    <string name="hidden_notifications_setup">راه‌اندازی</string>
+    <string name="muted_by">%1$s آن را بی‌صدا کرد</string>
+    <string name="zen_mode_and_condition">%1$s. ‏%2$s</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">پین کد را وارد کنید</string>
+    <string name="keyguard_password_enter_puk_code">‏PUK سیم کارت و کد پین جدید را تایپ کنید</string>
+    <string name="keyguard_password_enter_puk_prompt">‏کد PUK سیم کارت</string>
+    <string name="keyguard_password_enter_pin_prompt">کد پین جدید سیم کارت</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">برای تایپ گذرواژه لمس کنید</font></string>
+    <string name="keyguard_password_enter_password_code">برای بازکردن قفل، گذرواژه را وارد کنید</string>
+    <string name="keyguard_password_enter_pin_password_code">برای بازکردن قفل، پین را تایپ کنید</string>
+    <string name="keyguard_password_wrong_pin_code">پین کد اشتباه است.</string>
+    <string name="keyguard_label_text">برای بازگشایی قفل، منو را فشار دهید و سپس 0 را فشار دهید.</string>
+    <string name="faceunlock_multiple_failures">‏دفعات تلاش برای Face Unlock از حداکثر مجاز بیشتر شد</string>
+    <string name="keyguard_charged">شارژ شد</string>
+    <string name="keyguard_plugged_in">شارژ کردن</string>
+    <string name="keyguard_low_battery">شارژر خود را وصل کنید.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">برای بازگشایی قفل روی منو فشار دهید.</string>
+    <string name="keyguard_network_locked_message">شبکه قفل شد</string>
+    <string name="keyguard_missing_sim_message_short">سیم کارت موجود نیست</string>
+    <string name="keyguard_missing_sim_message">سیم کارت در تلفن نیست.</string>
+    <string name="keyguard_missing_sim_instructions">سیم کارت را وارد کنید.</string>
+    <string name="keyguard_missing_sim_instructions_long">سیم کارت موجود نیست یا قابل خواندن نیست. یک سیم کارت وارد کنید.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">سیم کارت غیرقابل استفاده است.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"‏سیم کارت شما به طور دائم غیر فعال شده است. 
+برای داشتن سیم کارت دیگر با ارائه‎دهنده سرویس بی‎سیم خود تماس بگیرید."</string>
+    <string name="keyguard_sim_locked_message">سیم کارت قفل شد.</string>
+    <string name="keyguard_sim_puk_locked_message">‏سیم کارت با PUK قفل شده است.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">درحال بازگشایی قفل سیم کارت...</string>
+    <string name="keyguard_accessibility_widget_changed">‏%1$s. ابزارک %2$d از %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">ابزارک اضافه کنید.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">خالی</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">منطقه بازگشایی گسترده شد.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">منطقه بازگشایی کوچک شد.</string>
+    <string name="keyguard_accessibility_widget">ابزارک %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">انتخابگر کاربر</string>
+    <string name="keyguard_accessibility_camera">دوربین</string>
+    <string name="keygaurd_accessibility_media_controls">کنترل‌های رسانه</string>
+    <string name="keyguard_accessibility_widget_reorder_start">مرتب سازی مجدد ابزارک آغاز شد.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">مرتب‌سازی مجدد ابزارک به پایان رسید.</string>
+    <string name="keyguard_accessibility_widget_deleted">ابزارک %1$s حذف شد.‍</string>
+    <string name="keyguard_accessibility_expand_lock_area">گسترده کردن منطقه بازگشایی شده.</string>
+    <string name="keyguard_accessibility_slide_unlock">باز کردن قفل با کشیدن انگشت روی صفحه.</string>
+    <string name="keyguard_accessibility_pattern_unlock">باز کردن قفل با الگو.</string>
+    <string name="keyguard_accessibility_face_unlock">باز کردن قفل با چهره.</string>
+    <string name="keyguard_accessibility_pin_unlock">باز کردن قفل با پین.</string>
+    <string name="keyguard_accessibility_password_unlock">باز کردن قفل با گذرواژه.</string>
+    <string name="keyguard_accessibility_pattern_area">ناحیه الگو.</string>
+    <string name="keyguard_accessibility_slide_area">ناحیه کشیدن انگشت روی صفحه.</string>
+    <string name="keyguard_accessibility_transport_prev_description">دکمه تراک قبلی</string>
+    <string name="keyguard_accessibility_transport_next_description">دکمه تراک بعدی</string>
+    <string name="keyguard_accessibility_transport_pause_description">دکمه توقف موقت</string>
+    <string name="keyguard_accessibility_transport_play_description">دکمه پخش</string>
+    <string name="keyguard_accessibility_transport_stop_description">دکمه توقف</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">رأی موافق</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">رأی مخالف</string>
+    <string name="keyguard_accessibility_transport_heart_description">قلب</string>
+    <string name="keyguard_accessibility_show_bouncer">برای ادامه قفل را باز کنید</string>
+    <string name="keyguard_accessibility_hide_bouncer">راه‌اندازی لغو شد</string>
+    <string name="keyguard_accessibility_delete_widget_start">جهت حذف، %1$s را بکشید.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s پاک نخواهد شد.</string>
+    <string name="keyguard_accessibility_next_alarm">زنگ هشدار بعدی برای %1$s تنظیم شد</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">لغو</string>
+    <string name="keyboardview_keycode_delete">Delete</string>
+    <string name="keyboardview_keycode_done">انجام شد</string>
+    <string name="keyboardview_keycode_mode_change">تغییر حالت</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">بازکردن قفل</string>
+    <string name="description_target_camera">دوربین</string>
+    <string name="description_target_silent">ساکت</string>
+    <string name="description_target_soundon">صدا روشن</string>
+    <string name="description_direction_down">لغزاندن به پایین برای %s.</string>
+    <string name="description_direction_right">لغزاندن به راست برای %s.</string>
+    <string name="user_switched">کاربر کنونی %1$s.</string>
+    <string name="kg_emergency_call_label">تماس اضطراری</string>
+    <string name="kg_forgot_pattern_button_text">الگو را فراموش کرده‌اید</string>
+    <string name="kg_wrong_pattern">الگوی اشتباه</string>
+    <string name="kg_wrong_password">گذرواژه اشتباه</string>
+    <string name="kg_wrong_pin">پین اشتباه</string>
+    <string name="kg_too_many_failed_attempts_countdown">پس از %d ثانیه دوباره امتحان کنید.</string>
+    <string name="kg_pattern_instructions">الگوی خود را رسم کنید</string>
+    <string name="kg_sim_pin_instructions">پین سیم کارت را وارد کنید</string>
+    <string name="kg_pin_instructions">پین را وارد کنید</string>
+    <string name="kg_password_instructions">گذرواژه را وارد کنید</string>
+    <string name="kg_puk_enter_puk_hint">اکنون سیم کارت غیرفعال است. پین کد را برای ادامه وارد کنید. برای جزئیات با شرکت مخابراتی خود تماس بگیرید.</string>
+    <string name="kg_puk_enter_pin_hint">پین کد دلخواه را وارد کنید</string>
+    <string name="kg_enter_confirm_pin_hint">تأیید پین کد دلخواه</string>
+    <string name="kg_sim_unlock_progress_dialog_message">بازگشایی قفل سیم کارت...</string>
+    <string name="kg_invalid_sim_pin_hint">یک پین ۴ تا ۸ رقمی را تایپ کنید.</string>
+    <string name="kg_invalid_sim_puk_hint">پین کد باید ۸ عدد یا بیشتر باشد.</string>
+    <string name="kg_invalid_puk">پین کد صحیح را دوباره وارد کنید. تلاش‌های مکرر به‌طور دائم سیم کارت را غیرفعال خواهد کرد.</string>
+    <string name="kg_invalid_confirm_pin_hint">پین کدها منطبق نیستند</string>
+    <string name="kg_login_too_many_attempts">‏تلاش‎های زیادی برای کشیدن الگو صورت گرفته است</string>
+    <string name="kg_login_instructions">‏برای بازگشایی قفل، با حساب Google خود وارد سیستم شوید.</string>
+    <string name="kg_login_username_hint">نام کاربری (ایمیل)</string>
+    <string name="kg_login_password_hint">گذرواژه</string>
+    <string name="kg_login_submit_button">ورود به سیستم</string>
+    <string name="kg_login_invalid_input">نام کاربری یا گذرواژه نامعتبر.</string>
+    <string name="kg_login_account_recovery_hint">"‏نام کاربری یا گذرواژه خود را فراموش کردید؟
+از "<b>google.com/accounts/recovery</b> بازدید کنید.</string>
+    <string name="kg_login_checking_password">درحال بررسی حساب...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"پین خود را %d بار اشتباه تایپ کردید. 
+
+پس از %d ثانیه دوباره امتحان کنید."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"گذرواژه خود را %d بار اشتباه تایپ کردید. 
+
+پس از %d ثانیه دوباره امتحان کنید."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"الگوی بازگشایی قفل خود را %d بار اشتباه کشیدید. 
+
+لطفاً پس از %d ثانیه دوباره امتحان کنید."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">شما به اشتباه %d بار اقدام به باز کردن قفل تلفن کرده‌اید. پس از %d تلاش ناموفق دیگر، تلفن به پیش‌فرض کارخانه بازنشانی می‌شود و تمام داده‌های کاربر از دست خواهد رفت.</string>
+    <string name="kg_failed_attempts_now_wiping">شما به اشتباه %d بار اقدام به باز کردن قفل تلفن کرده‌اید. این تلفن اکنون به پیش‌فرض کارخانه بازنشانی می‌شود.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"‏شما الگوی بازگشایی قفل خود را %d بار اشتباه کشیده‌اید. پس از %d تلاش ناموفق، از شما خواسته می‎شود که با استفاده از یک حساب ایمیل قفل تلفن خود را باز کنید.
+
+ لطفاً پس از %d ثانیه دوباره امتحان کنید."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">حذف</string>
+    <string name="kg_password_wrong_pin_code_pukked">کد پین سیم کارت اشتباه است، اکنون برای گشودن قفل دستگاهتان باید با شرکت مخابراتی تماس بگیرید.</string>
+    <string name="kg_password_wrong_puk_code_dead">سیم کارت غیر قابل استفاده است. با شرکت مخابراتی‌تان تماس بگیرید.</string>
+    <string name="kg_password_pin_failed">عملیات پین سیم کارت ناموفق بود!</string>
+    <string name="kg_password_puk_failed">‏عملیات PUK سیم کارت ناموفق بود!</string>
+    <string name="kg_pin_accepted">کد پذیرفته شد!</string>
+    <string name="keyguard_transport_prev_description">دکمه تراک قبلی</string>
+    <string name="keyguard_transport_next_description">دکمه تراک بعدی</string>
+    <string name="keyguard_transport_pause_description">دکمه توقف موقت</string>
+    <string name="keyguard_transport_play_description">دکمه پخش</string>
+    <string name="keyguard_transport_stop_description">دکمه توقف</string>
+    <string name="keyguard_carrier_default">خدماتی وجود ندارد.</string>
+</resources>

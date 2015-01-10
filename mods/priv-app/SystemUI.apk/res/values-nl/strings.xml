@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Systeem-UI</string>
+    <string name="status_bar_clear_all_button">Wissen</string>
+    <string name="status_bar_recent_remove_item_title">Verwijderen uit lijst</string>
+    <string name="status_bar_recent_inspect_item_title">App-info</string>
+    <string name="status_bar_no_recent_apps">Uw recente schermen worden hier weergegeven</string>
+    <string name="status_bar_accessibility_dismiss_recents">Recente apps negeren</string>
+    <string name="status_bar_no_notifications_title">Geen meldingen</string>
+    <string name="status_bar_ongoing_events_title">Actief</string>
+    <string name="status_bar_latest_events_title">Meldingen</string>
+    <string name="battery_low_title">Accu is bijna leeg</string>
+    <string name="battery_low_percent_format">%d%% resterend</string>
+    <string name="battery_low_percent_format_saver_started">%d%% resterend. Accubesparing is ingeschakeld.</string>
+    <string name="invalid_charger">"Opladen via USB niet ondersteund.
+Gebruik alleen de bijgeleverde oplader."</string>
+    <string name="invalid_charger_title">Opladen via USB wordt niet ondersteund.</string>
+    <string name="invalid_charger_text">Gebruik alleen de bijgeleverde oplader.</string>
+    <string name="battery_low_why">Instellingen</string>
+    <string name="battery_saver_confirmation_title">Accubesparing inschakelen?</string>
+    <string name="battery_saver_confirmation_ok">Inschakelen</string>
+    <string name="battery_saver_start_action">Accubesparing inschakelen</string>
+    <string name="status_bar_settings_settings_button">Instellingen</string>
+    <string name="status_bar_settings_wifi_button">Wifi</string>
+    <string name="status_bar_settings_airplane">Vliegmodus</string>
+    <string name="status_bar_settings_auto_rotation">Scherm automatisch draaien</string>
+    <string name="status_bar_settings_mute_label">DEMPEN</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Meldingen</string>
+    <string name="bluetooth_tethered">Bluetooth getetherd</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Invoermethoden instellen</string>
+    <string name="status_bar_use_physical_keyboard">Fysiek toetsenbord</string>
+    <string name="usb_device_permission_prompt">De app %1$s toegang geven tot het USB-apparaat?</string>
+    <string name="usb_accessory_permission_prompt">De app %1$s toegang geven tot het USB-accessoire?</string>
+    <string name="usb_device_confirm_prompt">%1$s openen wanneer dit USB-apparaat wordt aangesloten?</string>
+    <string name="usb_accessory_confirm_prompt">%1$s openen wanneer dit USB-accessoire wordt aangesloten?</string>
+    <string name="usb_accessory_uri_prompt">Er werken geen geïnstalleerde apps met dit USB-accessoire. Meer informatie op: %1$s</string>
+    <string name="title_usb_accessory">USB-accessoire</string>
+    <string name="label_view">Weergeven</string>
+    <string name="always_use_device">Standaard gebruiken voor dit USB-apparaat</string>
+    <string name="always_use_accessory">Standaard gebruiken voor dit USB-accessoire</string>
+    <string name="usb_debugging_title">USB-foutopsporing toestaan?</string>
+    <string name="usb_debugging_message">"De vingerafdruk voor de RSA-sleutel van de computer is:
+%1$s"</string>
+    <string name="usb_debugging_always">Altijd toestaan vanaf deze computer</string>
+    <string name="compat_mode_on">Zoom om scherm te vullen</string>
+    <string name="compat_mode_off">Rek uit v. schermvulling</string>
+    <string name="screenshot_saving_ticker">Screenshot opslaan...</string>
+    <string name="screenshot_saving_title">Screenshot opslaan...</string>
+    <string name="screenshot_saving_text">Screenshot wordt opgeslagen.</string>
+    <string name="screenshot_saved_title">Screenshot gemaakt.</string>
+    <string name="screenshot_saved_text">Raak aan om uw screenshot te bekijken.</string>
+    <string name="screenshot_failed_title">Screenshot is niet gemaakt.</string>
+    <string name="screenshot_failed_text">Kan geen screenshot maken wegens beperkte opslagruimte of omdat de app of uw organisatie dit niet toestaat.</string>
+    <string name="usb_preference_title">Opties voor USB-bestandsoverdracht</string>
+    <string name="use_mtp_button_title">Koppelen als mediaspeler (MTP)</string>
+    <string name="use_ptp_button_title">Koppelen als camera (PTP)</string>
+    <string name="installer_cd_button_title">AFT-app voor Mac installeren</string>
+    <string name="accessibility_back">Terug</string>
+    <string name="accessibility_home">Startpagina</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Overzicht</string>
+    <string name="accessibility_search_light">Zoeken</string>
+    <string name="accessibility_camera_button">Camera</string>
+    <string name="accessibility_phone_button">Telefoon</string>
+    <string name="accessibility_unlock_button">Ontgrendelen</string>
+    <string name="unlock_label">ontgrendelen</string>
+    <string name="phone_label">telefoon openen</string>
+    <string name="camera_label">camera openen</string>
+    <string name="accessibility_ime_switch_button">Knop voor wijzigen invoermethode.</string>
+    <string name="accessibility_compatibility_zoom_button">Knop voor compatibiliteitszoom.</string>
+    <string name="accessibility_compatibility_zoom_example">Kleiner scherm uitzoomen naar groter scherm.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth-verbinding ingesteld.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth-verbinding verbroken.</string>
+    <string name="accessibility_no_battery">Geen accu.</string>
+    <string name="accessibility_battery_one_bar">Accu: één streepje.</string>
+    <string name="accessibility_battery_two_bars">Accu: twee streepjes.</string>
+    <string name="accessibility_battery_three_bars">Accu: drie streepjes.</string>
+    <string name="accessibility_battery_full">Accu is vol.</string>
+    <string name="accessibility_no_phone">Geen telefoonsignaal.</string>
+    <string name="accessibility_phone_one_bar">Telefoon: één streepje.</string>
+    <string name="accessibility_phone_two_bars">Telefoon: twee streepjes.</string>
+    <string name="accessibility_phone_three_bars">Telefoon: drie streepjes.</string>
+    <string name="accessibility_phone_signal_full">Telefoonsignaal is op volle sterkte.</string>
+    <string name="accessibility_no_data">Geen gegevens.</string>
+    <string name="accessibility_data_one_bar">Gegevens: één streepje.</string>
+    <string name="accessibility_data_two_bars">Gegevens: twee streepjes.</string>
+    <string name="accessibility_data_three_bars">Gegevens: drie streepjes.</string>
+    <string name="accessibility_data_signal_full">Gegevenssignaal is op volle sterkte.</string>
+    <string name="accessibility_wifi_off">Wifi: uitgeschakeld.</string>
+    <string name="accessibility_no_wifi">Wifi-verbinding verbroken.</string>
+    <string name="accessibility_wifi_one_bar">Wifi: één streepje.</string>
+    <string name="accessibility_wifi_two_bars">Wifi: twee streepjes.</string>
+    <string name="accessibility_wifi_three_bars">Wifi: drie streepjes.</string>
+    <string name="accessibility_wifi_signal_full">Wifi-signaal is op volledige sterkte.</string>
+    <string name="accessibility_wifi_name">Verbonden met %s.</string>
+    <string name="accessibility_bluetooth_name">Verbonden met %s.</string>
+    <string name="accessibility_no_wimax">Geen WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX: één streepje.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX: twee streepjes.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX: drie streepjes.</string>
+    <string name="accessibility_wimax_signal_full">"WiMAX-signaal  is op volle sterkte."</string>
+    <string name="accessibility_no_signal">Geen signaal.</string>
+    <string name="accessibility_not_connected">Niet verbonden.</string>
+    <string name="accessibility_zero_bars">Geen streepjes.</string>
+    <string name="accessibility_one_bar">Eén streepje.</string>
+    <string name="accessibility_two_bars">Twee streepjes.</string>
+    <string name="accessibility_three_bars">Drie streepjes.</string>
+    <string name="accessibility_signal_full">Signaal is op volledige sterkte.</string>
+    <string name="accessibility_desc_on">Ingeschakeld.</string>
+    <string name="accessibility_desc_off">Uitgeschakeld.</string>
+    <string name="accessibility_desc_connected">Verbonden.</string>
+    <string name="accessibility_desc_connecting">Verbinden.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wifi</string>
+    <string name="accessibility_no_sim">Geen simkaart.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth-tethering.</string>
+    <string name="accessibility_airplane_mode">Vliegmodus.</string>
+    <string name="accessibility_battery_level">Accu: %d procent.</string>
+    <string name="accessibility_settings_button">Systeeminstellingen.</string>
+    <string name="accessibility_notifications_button">Meldingen.</string>
+    <string name="accessibility_remove_notification">Melding wissen</string>
+    <string name="accessibility_gps_enabled">GPS ingeschakeld.</string>
+    <string name="accessibility_gps_acquiring">Verbinding maken met GPS.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter ingeschakeld.</string>
+    <string name="accessibility_ringer_vibrate">Belsoftware trilt.</string>
+    <string name="accessibility_ringer_silent">Belsoftware stil.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s sluiten.</string>
+    <string name="accessibility_recents_item_dismissed">%s verwijderd.</string>
+    <string name="accessibility_recents_item_launched">%s starten.</string>
+    <string name="accessibility_notification_dismissed">Melding verwijderd.</string>
+    <string name="accessibility_desc_notification_shade">Meldingenpaneel.</string>
+    <string name="accessibility_desc_quick_settings">Snelle instellingen.</string>
+    <string name="accessibility_desc_lock_screen">Vergrendelingsscherm.</string>
+    <string name="accessibility_desc_settings">Instellingen</string>
+    <string name="accessibility_desc_recent_apps">Overzicht.</string>
+    <string name="accessibility_quick_settings_user">Gebruiker: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wifi uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wifi ingeschakeld.</string>
+    <string name="accessibility_quick_settings_mobile">Mobiel %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Accu: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Vliegmodus uit.</string>
+    <string name="accessibility_quick_settings_airplane_on">Vliegmodus aan.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Vliegmodus uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Vliegmodus ingeschakeld.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth uit.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth aan.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth-verbinding wordt gemaakt.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth-verbinding gemaakt.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth ingeschakeld.</string>
+    <string name="accessibility_quick_settings_location_off">Locatiemelding uit.</string>
+    <string name="accessibility_quick_settings_location_on">Locatiemelding aan.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Locatiemelding uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Locatiemelding ingeschakeld.</string>
+    <string name="accessibility_quick_settings_alarm">Alarm is ingesteld op %s.</string>
+    <string name="accessibility_quick_settings_close">Paneel sluiten.</string>
+    <string name="accessibility_quick_settings_more_time">Meer tijd.</string>
+    <string name="accessibility_quick_settings_less_time">Minder tijd.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Zaklamp uit.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Zaklamp aan.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Zaklamp uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Zaklamp ingeschakeld.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Kleurinversie uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Kleurinversie ingeschakeld.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Mobiele hotspot uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Mobiele hotspot ingeschakeld.</string>
+    <string name="accessibility_casting_turned_off">Casten van scherm gestopt.</string>
+    <string name="accessibility_brightness">Helderheid van het scherm</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G/3G-data zijn uitgeschakeld</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G-data zijn uitgeschakeld</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobiele data zijn uitgeschakeld</string>
+    <string name="data_usage_disabled_dialog_title">Gegevens zijn uitgeschakeld</string>
+    <string name="data_usage_disabled_dialog">"Uw apparaat heeft gegevens uitgeschakeld omdat de ingestelde limiet is bereikt.
+
+Als u gegevens weer inschakelt, kan uw provider kosten in rekening brengen."</string>
+    <string name="data_usage_disabled_dialog_enable">Gegevens inschakelen</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Geen internetverbinding</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Verbonden via wifi</string>
+    <string name="gps_notification_searching_text">Zoeken naar GPS</string>
+    <string name="gps_notification_found_text">Locatie bepaald met GPS</string>
+    <string name="accessibility_location_active">Locatieverzoeken actief</string>
+    <string name="accessibility_clear_all">Alle meldingen wissen.</string>
+    <string name="status_bar_notification_inspect_item_title">Instellingen voor meldingen</string>
+    <string name="status_bar_notification_app_settings_title">%s-instellingen</string>
+    <string name="accessibility_rotation_lock_off">Scherm wordt automatisch geroteerd.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Het scherm is nu vergrendeld in liggende stand.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Het scherm is nu vergrendeld in staande stand.</string>
+    <string name="accessibility_rotation_lock_off_changed">Het scherm wordt nu automatisch gedraaid.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Het scherm is nu vergrendeld in liggende stand.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Het scherm is nu vergrendeld in staande stand.</string>
+    <string name="dessert_case">Dessertshowcase</string>
+    <string name="start_dreams">Dagdroom</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Vliegmodus</string>
+    <string name="quick_settings_battery_charging_label">Opladen, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Opgeladen</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d apparaten)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth uit</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Geen gekoppelde apparaten beschikbaar</string>
+    <string name="quick_settings_brightness_label">Helderheid</string>
+    <string name="quick_settings_rotation_unlocked_label">Automatische rotatie</string>
+    <string name="quick_settings_rotation_locked_label">Rotatie vergrendeld</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Portret</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Landschap</string>
+    <string name="quick_settings_ime_label">Invoermethode</string>
+    <string name="quick_settings_location_label">Locatie</string>
+    <string name="quick_settings_location_off_label">Locatie uit</string>
+    <string name="quick_settings_media_device_label">Media-apparaat</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Alleen noodoproepen</string>
+    <string name="quick_settings_settings_label">Instellingen</string>
+    <string name="quick_settings_time_label">Tijd</string>
+    <string name="quick_settings_user_label">Ik</string>
+    <string name="quick_settings_user_title">Gebruiker</string>
+    <string name="quick_settings_user_new_user">Nieuwe gebruiker</string>
+    <string name="quick_settings_wifi_label">Wifi</string>
+    <string name="quick_settings_wifi_not_connected">Niet verbonden</string>
+    <string name="quick_settings_wifi_no_network">Geen netwerk</string>
+    <string name="quick_settings_wifi_off_label">Wifi uit</string>
+    <string name="quick_settings_wifi_detail_empty_text">Geen opgeslagen netwerken beschikbaar</string>
+    <string name="quick_settings_cast_title">Scherm casten</string>
+    <string name="quick_settings_casting">Casten</string>
+    <string name="quick_settings_cast_device_default_name">Naamloos apparaat</string>
+    <string name="quick_settings_cast_device_default_description">Klaar om te casten</string>
+    <string name="quick_settings_cast_detail_empty_text">Geen apparaten beschikbaar</string>
+    <string name="quick_settings_brightness_dialog_title">Helderheid</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTOMATISCH</string>
+    <string name="quick_settings_inversion_label">Kleuren omkeren</string>
+    <string name="quick_settings_color_space_label">Modus voor kleurcorrectie</string>
+    <string name="quick_settings_more_settings">Meer instellingen</string>
+    <string name="quick_settings_done">Gereed</string>
+    <string name="quick_settings_connected">Verbonden</string>
+    <string name="quick_settings_connecting">Verbinding maken…</string>
+    <string name="quick_settings_tethering_label">Tethering</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_notifications_label">Meldingen</string>
+    <string name="quick_settings_flashlight_label">Zaklamp</string>
+    <string name="quick_settings_cellular_detail_title">Mobiele gegevens</string>
+    <string name="quick_settings_cellular_detail_data_usage">Gegevensgebruik</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Resterende gegevens</string>
+    <string name="quick_settings_cellular_detail_over_limit">Limiet bereikt – gegevensgebruik onderbroken</string>
+    <string name="quick_settings_cellular_detail_data_used">%s gebruikt</string>
+    <string name="quick_settings_cellular_detail_data_limit">Limiet van %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">Waarschuwing voor %s</string>
+    <string name="recents_empty_message">Uw recente schermen worden hier weergegeven</string>
+    <string name="recents_app_info_button_label">App-informatie</string>
+    <string name="recents_lock_to_app_button_label">app-slot</string>
+    <string name="recents_search_bar_label">zoeken</string>
+    <string name="recents_launch_error_message">Kan %s niet starten.</string>
+    <string name="expanded_header_battery_charged">Opgeladen</string>
+    <string name="expanded_header_battery_charging">Opladen</string>
+    <string name="expanded_header_battery_charging_with_time">%s tot volledig opgeladen</string>
+    <string name="expanded_header_battery_not_charging">Wordt niet opgeladen</string>
+    <string name="ssl_ca_cert_warning">"Netwerk kan
+worden gecontroleerd"</string>
+    <string name="description_target_search">Zoeken</string>
+    <string name="description_direction_up">Veeg omhoog voor %s.</string>
+    <string name="description_direction_left">Veeg naar links voor %s.</string>
+    <string name="zen_no_interruptions_with_warning">Geen onderbrekingen. Zelfs geen alarm.</string>
+    <string name="zen_no_interruptions">Geen onderbrekingen</string>
+    <string name="zen_important_interruptions">Alleen prioriteitsonderbrekingen</string>
+    <string name="zen_alarm_information_time">Uw volgende alarm is om %s</string>
+    <string name="zen_alarm_information_day_time">Uw volgende alarm is %s</string>
+    <string name="zen_alarm_warning">U hoort uw alarm niet om %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Minder urgente meldingen onderaan</string>
+    <string name="notification_tap_again">Raak opnieuw aan om te openen</string>
+    <string name="keyguard_unlock">Veeg omhoog om te ontgrendelen</string>
+    <string name="phone_hint">Veeg naar rechts voor telefoon</string>
+    <string name="camera_hint">Veeg naar links voor camera</string>
+    <string name="interruption_level_none">Geen</string>
+    <string name="interruption_level_priority">Prioriteit</string>
+    <string name="interruption_level_all">Alle</string>
+    <string name="keyguard_indication_charging_time">Opladen (vol over %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">Gebruiker wijzigen</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Schakelen tussen gebruikers, huidige gebruiker %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Profiel weergeven</string>
+    <string name="user_add_user">Gebruiker toevoegen</string>
+    <string name="user_new_user_name">Nieuwe gebruiker</string>
+    <string name="guest_nickname">Gast</string>
+    <string name="guest_new_guest">Gast toevoegen</string>
+    <string name="guest_exit_guest">Gast verwijderen</string>
+    <string name="guest_exit_guest_dialog_title">Gast verwijderen?</string>
+    <string name="guest_exit_guest_dialog_message">Alle apps en gegevens in deze sessie worden verwijderd.</string>
+    <string name="guest_exit_guest_dialog_remove">Verwijderen</string>
+    <string name="guest_wipe_session_title">Welkom terug, gast!</string>
+    <string name="guest_wipe_session_message">Wilt u doorgaan met uw sessie?</string>
+    <string name="guest_wipe_session_wipe">Opnieuw starten</string>
+    <string name="guest_wipe_session_dontwipe">Ja, doorgaan</string>
+    <string name="user_add_user_title">Nieuwe gebruiker toevoegen?</string>
+    <string name="user_add_user_message_short">"Wanneer u een nieuwe gebruiker toevoegt, moet die persoon zijn eigen profiel instellen.
+
+1Elke gebruiker kan apps bijwerken voor alle andere gebruikers."</string>
+    <string name="battery_saver_notification_title">Accubesparing is ingeschakeld</string>
+    <string name="battery_saver_notification_text">Vermindert de prestaties en achtergrondgegevens</string>
+    <string name="battery_saver_notification_action_text">Accubesparing uitschakelen</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Inhoud verborgen</string>
+    <string name="media_projection_dialog_text">%s gaat alles vastleggen dat wordt weergegeven op uw scherm.</string>
+    <string name="media_projection_remember_text">Niet opnieuw weergeven</string>
+    <string name="clear_all_notifications_text">Alles wissen</string>
+    <string name="media_projection_action_text">Nu starten</string>
+    <string name="empty_shade_text">Geen meldingen</string>
+    <string name="device_owned_footer">Apparaat wordt mogelijk gecontroleerd</string>
+    <string name="profile_owned_footer">Profiel kan worden gecontroleerd</string>
+    <string name="vpn_footer">Netwerk kan worden gecontroleerd</string>
+    <string name="monitoring_title_device_owned">Apparaatcontrole</string>
+    <string name="monitoring_title_profile_owned">Profielcontrole</string>
+    <string name="monitoring_title">Netwerkcontrole</string>
+    <string name="disable_vpn">VPN uitschakelen</string>
+    <string name="disconnect_vpn">Verbinding met VPN verbreken</string>
+    <string name="monitoring_description_device_owned">"Dit apparaat wordt beheerd door:
+%1$s
+
+Uw beheerder kan uw apparaat- en netwerkactiviteit bijhouden, waaronder e-mails, apps en beveiligde websites.
+
+Neem voor meer informatie contact op met uw beheerder."</string>
+    <string name="monitoring_description_vpn">"U heeft '%1$s' toestemming gegeven een VPN-verbinding in te stellen.
+
+Deze app kan uw apparaat- en netwerkactiviteit bijhouden, waaronder e-mails, apps en beveiligde websites."</string>
+    <string name="monitoring_description_legacy_vpn">"U heeft verbinding met een VPN ('%1$s').
+
+Uw VPN-provider kan uw apparaat- en netwerkactiviteit bijhouden, waaronder e-mails, apps en beveiligde websites."</string>
+    <string name="monitoring_description_vpn_device_owned">"Dit apparaat wordt beheerd door:
+%1$s
+
+Uw beheerder kan uw netwerkactiviteit beheren, waaronder e-mails, apps en beveiligde websites. Neem voor meer informatie contact op met uw beheerder.
+
+Daarnaast heeft u '%2$s' toestemming gegeven een VPN-verbinding in te stellen. Deze app kan uw netwerkactiviteit ook controleren."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Dit apparaat wordt beheerd door:
+%1$s
+
+Uw beheerder kan uw netwerkactiviteit beheren, waaronder e-mails, apps en beveiligde websites. Neem voor meer informatie contact op met uw beheerder.
+
+Daarnaast bent u verbonden met een VPN ('%2$s'). Uw VPN-serviceprovider kan uw netwerkactiviteit ook controleren."</string>
+    <string name="monitoring_description_profile_owned">"Dit profiel wordt beheer door:
+%1$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites.
+
+Neem contact op met uw beheerder voor meer informatie."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Dit apparaat wordt beheerd door:
+%1$s
+Uw profiel wordt beheerd door:
+%2$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites.
+
+Neem contact op met uw beheerder voor meer informatie."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Dit profiel wordt beheerd door:
+%1$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites. Neem contact op met uw beheerder voor meer informatie.
+
+U heeft \"%2$s\" ook toestemming gegeven een VPN-verbinding in te stellen. Deze app kan ook netwerkactiviteit controleren."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Dit profiel wordt beheerd door:
+%1$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites. Neem contact op met uw beheerder voor meer informatie.
+
+Daarnaast bent u verbonden met een VPN (\"%2$s\"). Uw VPN-serviceprovider kan ook netwerkactiviteit controleren."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Dit apparaat wordt beheerd door:
+%1$s
+Uw profiel wordt beheerd door:
+%2$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites. Neem contact op met uw beheerder voor meer informatie.
+
+U heeft \"%3$s\" ook toestemming gegeven een VPN-verbinding in te stellen. Deze app kan ook netwerkactiviteit controleren."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Dit apparaat wordt beheerd door:
+%1$s
+Uw profiel wordt beheerd door:
+%2$s
+
+Uw beheerder kan uw apparaat en netwerkactiviteit controleren, inclusief e-mails, apps en veilige websites. Neem contact op met uw beheerder voor meer informatie.
+
+Daarnaast bent u verbonden met een VPN (\"%3$s\"). Uw VPN-serviceprovider kan ook netwerkactiviteit controleren."</string>
+    <string name="keyguard_indication_trust_disabled">Het apparaat blijft vergrendeld totdat u het handmatig ontgrendelt</string>
+    <string name="hidden_notifications_title">Sneller meldingen ontvangen</string>
+    <string name="hidden_notifications_text">Weergeven voordat u ontgrendelt</string>
+    <string name="hidden_notifications_cancel">Nee, bedankt</string>
+    <string name="hidden_notifications_setup">Configureren</string>
+    <string name="muted_by">Gedempt door %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Toetsblokkering</string>
+    <string name="keyguard_password_enter_pin_code">Pincode typen</string>
+    <string name="keyguard_password_enter_puk_code">Typ de pukcode voor de simkaart en de nieuwe pincode</string>
+    <string name="keyguard_password_enter_puk_prompt">Pukcode voor simkaart</string>
+    <string name="keyguard_password_enter_pin_prompt">Nieuwe pincode voor simkaart</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Raak aan om wachtwoord in te voeren</font></string>
+    <string name="keyguard_password_enter_password_code">Typ het wachtwoord om te ontgrendelen</string>
+    <string name="keyguard_password_enter_pin_password_code">Typ pincode om te ontgrendelen</string>
+    <string name="keyguard_password_wrong_pin_code">Onjuiste pincode.</string>
+    <string name="keyguard_label_text">"Druk op 'Menu' en vervolgens op 0 om te ontgrendelen."</string>
+    <string name="faceunlock_multiple_failures">Maximaal aantal pogingen voor Ontgrendelen via gezichtsherkenning overschreden</string>
+    <string name="keyguard_charged">Opgeladen</string>
+    <string name="keyguard_plugged_in">Opladen</string>
+    <string name="keyguard_low_battery">Sluit de oplader aan.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"Druk op 'Menu' om te ontgrendelen."</string>
+    <string name="keyguard_network_locked_message">Netwerk vergrendeld</string>
+    <string name="keyguard_missing_sim_message_short">Geen simkaart</string>
+    <string name="keyguard_missing_sim_message">Geen simkaart in telefoon.</string>
+    <string name="keyguard_missing_sim_instructions">Plaats een simkaart.</string>
+    <string name="keyguard_missing_sim_instructions_long">De simkaart ontbreekt of kan niet worden gelezen. Plaats een simkaart.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Onbruikbare simkaart.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Uw simkaart is permanent uitgeschakeld.
+ Neem contact op met uw mobiele serviceprovider voor een nieuwe simkaart."</string>
+    <string name="keyguard_sim_locked_message">Simkaart is vergrendeld.</string>
+    <string name="keyguard_sim_puk_locked_message">Simkaart is vergrendeld met PUK-code.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Simkaart ontgrendelen…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d van %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Widget toevoegen.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Leeg</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Ontgrendelingsgebied uitgevouwen.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Ontgrendelingsgebied samengevouwen.</string>
+    <string name="keyguard_accessibility_widget">Widget %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Gebruikersselectie</string>
+    <string name="keyguard_accessibility_camera">Camera</string>
+    <string name="keygaurd_accessibility_media_controls">Mediabediening</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Opnieuw indelen van widget gestart.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Opnieuw indelen van widget beëindigd.</string>
+    <string name="keyguard_accessibility_widget_deleted">Widget %1$s verwijderd.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Ontgrendelingsgebied uitvouwen.</string>
+    <string name="keyguard_accessibility_slide_unlock">Ontgrendeling via schuiven.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Ontgrendeling via patroon.</string>
+    <string name="keyguard_accessibility_face_unlock">Ontgrendelen via gezichtsherkenning</string>
+    <string name="keyguard_accessibility_pin_unlock">Ontgrendeling via pincode.</string>
+    <string name="keyguard_accessibility_password_unlock">Ontgrendeling via wachtwoord.</string>
+    <string name="keyguard_accessibility_pattern_area">Tekengebied voor patroon.</string>
+    <string name="keyguard_accessibility_slide_area">Schuifgebied.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Knop voor vorig nummer</string>
+    <string name="keyguard_accessibility_transport_next_description">Knop voor volgend nummer</string>
+    <string name="keyguard_accessibility_transport_pause_description">Knop voor onderbreken</string>
+    <string name="keyguard_accessibility_transport_play_description">Knop voor afspelen</string>
+    <string name="keyguard_accessibility_transport_stop_description">Knop voor stoppen</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Leuk</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Niet leuk</string>
+    <string name="keyguard_accessibility_transport_heart_description">Hart</string>
+    <string name="keyguard_accessibility_show_bouncer">Ontgrendel om door te gaan</string>
+    <string name="keyguard_accessibility_hide_bouncer">Start geannuleerd</string>
+    <string name="keyguard_accessibility_delete_widget_start">Zet %1$s neer om te verwijderen.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s wordt niet verwijderd.</string>
+    <string name="keyguard_accessibility_next_alarm">Volgende alarm ingesteld voor %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">Alt</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Annuleren</string>
+    <string name="keyboardview_keycode_delete">Delete</string>
+    <string name="keyboardview_keycode_done">Gereed</string>
+    <string name="keyboardview_keycode_mode_change">Modus wijzigen</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">Ontgrendelen</string>
+    <string name="description_target_camera">Camera</string>
+    <string name="description_target_silent">Stil</string>
+    <string name="description_target_soundon">Geluid aan</string>
+    <string name="description_direction_down">Veeg omlaag voor %s.</string>
+    <string name="description_direction_right">Veeg naar rechts voor %s.</string>
+    <string name="user_switched">Huidige gebruiker %1$s.</string>
+    <string name="kg_emergency_call_label">Noodoproep</string>
+    <string name="kg_forgot_pattern_button_text">Patroon vergeten</string>
+    <string name="kg_wrong_pattern">Onjuist patroon</string>
+    <string name="kg_wrong_password">Onjuist wachtwoord</string>
+    <string name="kg_wrong_pin">Onjuiste pincode</string>
+    <string name="kg_too_many_failed_attempts_countdown">Probeer het over %d seconden opnieuw.</string>
+    <string name="kg_pattern_instructions">Teken uw patroon</string>
+    <string name="kg_sim_pin_instructions">Geef de pincode van de simkaart op</string>
+    <string name="kg_pin_instructions">Pincode opgeven</string>
+    <string name="kg_password_instructions">Wachtwoord invoeren</string>
+    <string name="kg_puk_enter_puk_hint">De simkaart is nu uitgeschakeld. Geef de PUK-code op om door te gaan. Neem contact op met de provider voor informatie.</string>
+    <string name="kg_puk_enter_pin_hint">Gewenste pincode opgeven</string>
+    <string name="kg_enter_confirm_pin_hint">Gewenste pincode bevestigen</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Simkaart ontgrendelen...</string>
+    <string name="kg_invalid_sim_pin_hint">Voer een pincode van 4 tot 8 cijfers in.</string>
+    <string name="kg_invalid_sim_puk_hint">De PUK-code is minimaal acht nummers lang.</string>
+    <string name="kg_invalid_puk">Geef de juiste PUK-code opnieuw op. Bij herhaalde pogingen wordt de simkaart permanent uitgeschakeld.</string>
+    <string name="kg_invalid_confirm_pin_hint">Pincodes komen niet overeen</string>
+    <string name="kg_login_too_many_attempts">Te veel patroonpogingen</string>
+    <string name="kg_login_instructions">Als u wilt ontgrendelen, moet u inloggen op uw Google-account.</string>
+    <string name="kg_login_username_hint">Gebruikersnaam (e-mail)</string>
+    <string name="kg_login_password_hint">Wachtwoord</string>
+    <string name="kg_login_submit_button">Inloggen</string>
+    <string name="kg_login_invalid_input">Ongeldige gebruikersnaam of wachtwoord.</string>
+    <string name="kg_login_account_recovery_hint">"Bent u uw gebruikersnaam of wachtwoord vergeten?
+Ga naar "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Account controleren…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"U heeft uw pincode %d keer onjuist getypt. 
+
+Probeer het over %d seconden opnieuw."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"U heeft uw wachtwoord %d keer onjuist getypt. 
+
+Probeer het over %d seconden opnieuw."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"U heeft uw ontgrendelingspatroon %d keer onjuist getekend. 
+
+Probeer het over %d seconden opnieuw."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">U heeft nu %d keer geprobeerd de telefoon op een onjuiste manier te ontgrendelen. Na nog eens %d mislukte pogingen worden de fabrieksinstellingen hersteld op de telefoon en gaan alle gebruikersgegevens verloren.</string>
+    <string name="kg_failed_attempts_now_wiping">U heeft %d keer geprobeerd de telefoon op een onjuiste manier te ontgrendelen. De fabrieksinstellingen worden nu hersteld op de telefoon.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"U heeft uw ontgrendelingspatroon %d keer onjuist getekend. Na nog eens %d mislukte pogingen wordt u gevraagd uw telefoon te ontgrendelen via een e-mailaccount.
+
+ Probeer het over %d seconden opnieuw."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Verwijderen</string>
+    <string name="kg_password_wrong_pin_code_pukked">Onjuiste pincode voor simkaart. U moet nu contact opnemen met uw provider om uw apparaat te ontgrendelen.</string>
+    <string name="kg_password_wrong_puk_code_dead">Simkaart is onbruikbaar. Neem contact op met uw provider.</string>
+    <string name="kg_password_pin_failed">Bewerking met pincode voor simkaart mislukt.</string>
+    <string name="kg_password_puk_failed">Bewerking met pukcode voor simkaart is mislukt.</string>
+    <string name="kg_pin_accepted">Code geaccepteerd.</string>
+    <string name="keyguard_transport_prev_description">Knop voor vorig nummer</string>
+    <string name="keyguard_transport_next_description">Knop voor volgend nummer</string>
+    <string name="keyguard_transport_pause_description">Knop voor onderbreken</string>
+    <string name="keyguard_transport_play_description">Knop voor afspelen</string>
+    <string name="keyguard_transport_stop_description">Knop voor stoppen</string>
+    <string name="keyguard_carrier_default">Geen service</string>
+</resources>

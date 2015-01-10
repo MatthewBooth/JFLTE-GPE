@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_clock_notifications_margin_min">32.0dip</dimen>
+    <dimen name="keyguard_clock_notifications_margin_max">36.0dip</dimen>
+    <dimen name="widget_big_font_size">112.0dip</dimen>
+</resources>

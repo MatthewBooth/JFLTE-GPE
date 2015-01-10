@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.recents.views.TaskView android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/task_view_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.recents.views.TaskViewThumbnail android:id="@id/task_view_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/recents_task_view_header" />
+        <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/lock_to_app_fab" android:background="@drawable/recents_lock_to_task_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:contentDescription="@string/recents_lock_to_app_button_label" android:translationZ="2.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/recents_lock_to_app_pin" />
+        </FrameLayout>
+    </FrameLayout>
+</com.android.systemui.recents.views.TaskView>

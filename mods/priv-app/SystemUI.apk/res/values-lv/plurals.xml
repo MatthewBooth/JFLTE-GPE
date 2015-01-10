@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ekrāni sadaļā “Kopsavilkums”</item>
+        <item quantity="one">1 ekrāns sadaļā “Kopsavilkums”</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nepareizs SIM kartes PIN kods. Varat mēģināt vēl %d reizi(-es).</item>
+        <item quantity="one">Nepareizs SIM kartes PIN kods. Varat mēģināt vēl %d reizi. Kļūdas gadījumā būs jāsazinās ar mobilo sakaru operatoru, lai tas atbloķētu jūsu ierīci.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nepareizs SIM kartes PUK kods. Varat mēģināt vēl %d reizi(-es). Kļūdas gadījumā SIM karte kļūs neizmantojama.</item>
+        <item quantity="one">Nepareizs SIM kartes PUK kods. Varat mēģināt vēl %d reizi. Kļūdas gadījumā SIM karte kļūs neizmantojama.</item>
+    </plurals>
+</resources>

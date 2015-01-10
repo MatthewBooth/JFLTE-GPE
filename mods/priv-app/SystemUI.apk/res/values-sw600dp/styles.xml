@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrightnessDialogContainer" parent="@style/BaseBrightnessDialogContainer">
+        <item name="android:layout_width">480.0dip</item>
+    </style>
+    <style name="SearchPanelScrim">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/search_panel_scrim_height</item>
+    </style>
+    <style name="UserDetailView">
+        <item name="numColumns">4</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

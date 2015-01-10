@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/digit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.NumPadKey" />
+    <TextView android:id="@id/klondike_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.NumPadKey.Klondike" />
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d (na) screen sa Pangkalahatang-ideya</item>
+        <item quantity="one">1 screen sa Pangkalahatang-ideya</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Maling PIN code ng SIM, mayroon kang %d (na) natitirang pagsubok.</item>
+        <item quantity="one">Maling PIN code ng SIM, mayroon kang %d (na) natitirang pagsubok bago ka dapat makipag-ugnay sa iyong carrier upang i-unlock ang iyong device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Maling PUK code ng SIM, mayroon kang %d (na) natitirang pagsubok bago maging permanenteng hindi magagamit ang SIM.</item>
+        <item quantity="one">Maling PUK code ng SIM, mayroon kang %d (na) natitirang pagsubok bago maging permanenteng hindi magagamit ang SIM.</item>
+    </plurals>
+</resources>

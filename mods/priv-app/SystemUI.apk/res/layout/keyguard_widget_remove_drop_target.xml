@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:padding="30.0dip" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:visibility="gone" android:text="@string/kg_reordering_delete_drop_target_text" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" android:drawableLeft="@drawable/kg_widget_delete_drop_target" android:drawablePadding="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

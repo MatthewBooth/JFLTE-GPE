@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_rotation_locked">Het scherm is nu vergrendeld in liggende (landschap) stand.</string>
+</resources>

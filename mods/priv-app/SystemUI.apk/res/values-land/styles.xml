@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrightnessDialogContainer" parent="@style/BaseBrightnessDialogContainer">
+        <item name="android:layout_width">360.0dip</item>
+    </style>
+    <style name="SearchPanelScrim">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_width">@dimen/search_panel_scrim_height</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

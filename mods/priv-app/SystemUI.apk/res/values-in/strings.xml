@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Sistem UI</string>
+    <string name="status_bar_clear_all_button">Bersihkan</string>
+    <string name="status_bar_recent_remove_item_title">Hapus dari daftar</string>
+    <string name="status_bar_recent_inspect_item_title">Info apl</string>
+    <string name="status_bar_no_recent_apps">Layar terkini Anda muncul di sini</string>
+    <string name="status_bar_accessibility_dismiss_recents">Tutup aplikasi terbaru</string>
+    <string name="status_bar_no_notifications_title">Tidak ada pemberitahuan</string>
+    <string name="status_bar_ongoing_events_title">Berkelanjutan</string>
+    <string name="status_bar_latest_events_title">Pemberitahuan</string>
+    <string name="battery_low_title">Baterai lemah</string>
+    <string name="battery_low_percent_format">%d%% tersisa</string>
+    <string name="battery_low_percent_format_saver_started">Tersisa %d%%. Penghemat baterai aktif.</string>
+    <string name="invalid_charger">"Pengisian daya USB tidak didukung.
+Gunakan hanya pengisi daya yang disediakan."</string>
+    <string name="invalid_charger_title">Pengisian daya USB tidak didukung.</string>
+    <string name="invalid_charger_text">Hanya gunakan pengisi daya yang disediakan.</string>
+    <string name="battery_low_why">Setelan</string>
+    <string name="battery_saver_confirmation_title">Aktifkan penghemat baterai?</string>
+    <string name="battery_saver_confirmation_ok">Aktifkan</string>
+    <string name="battery_saver_start_action">Aktifkan penghemat baterai</string>
+    <string name="status_bar_settings_settings_button">Setelan</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mode pesawat</string>
+    <string name="status_bar_settings_auto_rotation">Rotasi layar otomatis</string>
+    <string name="status_bar_settings_mute_label">BUNGKAM</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Pemberitahuan</string>
+    <string name="bluetooth_tethered">Bluetooth tertambat</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Menyiapkan metode masukan</string>
+    <string name="status_bar_use_physical_keyboard">Keyboard fisik</string>
+    <string name="usb_device_permission_prompt">Izinkan apl %1$s mengakses perangkat USB?</string>
+    <string name="usb_accessory_permission_prompt">Izinkan apl %1$s mengakses aksesori USB?</string>
+    <string name="usb_device_confirm_prompt">Buka %1$s ketika perangkat USB ini tersambung?</string>
+    <string name="usb_accessory_confirm_prompt">Buka %1$s ketika aksesori USB ini tersambung?</string>
+    <string name="usb_accessory_uri_prompt">Tidak ada apl terpasang yang bekerja dengan aksesori USB ini. Pelajari lebih lanjut tentang aksesori ini di %1$s</string>
+    <string name="title_usb_accessory">Aksesori USB</string>
+    <string name="label_view">Lihat</string>
+    <string name="always_use_device">Gunakan secara default untuk perangkat USB ini</string>
+    <string name="always_use_accessory">Gunakan secara default untuk aksesori USB ini</string>
+    <string name="usb_debugging_title">Izinkan debugging USB?</string>
+    <string name="usb_debugging_message">"Sidik jari kunci RSA komputer adalah:
+%1$s"</string>
+    <string name="usb_debugging_always">Selalu izinkan dari komputer ini</string>
+    <string name="compat_mode_on">Perbesar utk mengisi layar</string>
+    <string name="compat_mode_off">Rentangkn utk mngisi layar</string>
+    <string name="screenshot_saving_ticker">Menyimpan tangkapan layar...</string>
+    <string name="screenshot_saving_title">Menyimpan tangkapan layar...</string>
+    <string name="screenshot_saving_text">Tangkapan layar sedang disimpan.</string>
+    <string name="screenshot_saved_title">Tangkapan layar diambil.</string>
+    <string name="screenshot_saved_text">Sentuh untuk melihat tangkapan layar Anda.</string>
+    <string name="screenshot_failed_title">Tidak dapat mengambil tangkapan layar.</string>
+    <string name="screenshot_failed_text">Tak bisa mengambil tangkapan layar karena ruang penyimpanan terbatas/tak diizinkan aplikasi/organisasi Anda.</string>
+    <string name="usb_preference_title">Opsi transfer file USB</string>
+    <string name="use_mtp_button_title">Pasang sebagai pemutar media (MTP)</string>
+    <string name="use_ptp_button_title">Pasang sebagai kamera (PTP)</string>
+    <string name="installer_cd_button_title">Pasang apl Transfer File Android untuk Mac</string>
+    <string name="accessibility_back">Kembali</string>
+    <string name="accessibility_home">Utama</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Ikhtisar</string>
+    <string name="accessibility_search_light">Telusuri</string>
+    <string name="accessibility_camera_button">Kamera</string>
+    <string name="accessibility_phone_button">Telepon</string>
+    <string name="accessibility_unlock_button">Buka kunci</string>
+    <string name="unlock_label">buka kunci</string>
+    <string name="phone_label">buka ponsel</string>
+    <string name="camera_label">buka kamera</string>
+    <string name="accessibility_ime_switch_button">Tombol beralih metode masukan.</string>
+    <string name="accessibility_compatibility_zoom_button">Tombol perbesar/perkecil kompatibilitas.</string>
+    <string name="accessibility_compatibility_zoom_example">Perbesar dari layar kecil ke besar.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth tersambung.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth terputus.</string>
+    <string name="accessibility_no_battery">Tidak ada baterai.</string>
+    <string name="accessibility_battery_one_bar">Baterai satu batang.</string>
+    <string name="accessibility_battery_two_bars">Baterai dua batang.</string>
+    <string name="accessibility_battery_three_bars">Baterai tiga batang.</string>
+    <string name="accessibility_battery_full">Baterai penuh.</string>
+    <string name="accessibility_no_phone">Tidak dapat melakukan panggilan.</string>
+    <string name="accessibility_phone_one_bar">Ponsel satu batang.</string>
+    <string name="accessibility_phone_two_bars">Ponsel dua batang.</string>
+    <string name="accessibility_phone_three_bars">Ponsel tiga batang.</string>
+    <string name="accessibility_phone_signal_full">Sinyal ponsel penuh.</string>
+    <string name="accessibility_no_data">Tidak ada data yang diterima.</string>
+    <string name="accessibility_data_one_bar">Data satu batang.</string>
+    <string name="accessibility_data_two_bars">Data dua batang.</string>
+    <string name="accessibility_data_three_bars">Data tiga batang.</string>
+    <string name="accessibility_data_signal_full">Sinyal data penuh.</string>
+    <string name="accessibility_wifi_off">Wi-Fi tidak aktif.</string>
+    <string name="accessibility_no_wifi">Wi-Fi tidak tersambung.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi satu baris.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi dua batang.aris</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi tiga baris.</string>
+    <string name="accessibility_wifi_signal_full">Sinyal Wi-Fi penuh.</string>
+    <string name="accessibility_wifi_name">Tersambung ke %s.</string>
+    <string name="accessibility_bluetooth_name">Tersambung ke %s.</string>
+    <string name="accessibility_no_wimax">Tidak ada WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX satu batang.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX dua batang.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX tiga batang.</string>
+    <string name="accessibility_wimax_signal_full">Sinyal WiMAX penuh.</string>
+    <string name="accessibility_no_signal">Tidak ada sinyal.</string>
+    <string name="accessibility_not_connected">Tidak tersambung.</string>
+    <string name="accessibility_zero_bars">0 baris.</string>
+    <string name="accessibility_one_bar">Satu garis.</string>
+    <string name="accessibility_two_bars">Dua baris.</string>
+    <string name="accessibility_three_bars">Tiga baris.</string>
+    <string name="accessibility_signal_full">Sinyal penuh.</string>
+    <string name="accessibility_desc_on">Aktif.</string>
+    <string name="accessibility_desc_off">Nonaktif.</string>
+    <string name="accessibility_desc_connected">Tersambung.</string>
+    <string name="accessibility_desc_connecting">Menyambung.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Tidak ada SIM.</string>
+    <string name="accessibility_bluetooth_tether">Penambatan bluetooth.</string>
+    <string name="accessibility_airplane_mode">Mode pesawat.</string>
+    <string name="accessibility_battery_level">Baterai %d persen.</string>
+    <string name="accessibility_settings_button">Setelan sistem.</string>
+    <string name="accessibility_notifications_button">Pemberitahuan.</string>
+    <string name="accessibility_remove_notification">Menghapus pemberitahuan.</string>
+    <string name="accessibility_gps_enabled">GPS diaktifkan.</string>
+    <string name="accessibility_gps_acquiring">Memperoleh GPS.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter diaktifkan.</string>
+    <string name="accessibility_ringer_vibrate">Pendering bergetar.</string>
+    <string name="accessibility_ringer_silent">Pendering senyap.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Menyingkirkan %s.</string>
+    <string name="accessibility_recents_item_dismissed">%s disingkirkan.</string>
+    <string name="accessibility_recents_item_launched">Memulai %s.</string>
+    <string name="accessibility_notification_dismissed">Pemberitahuan disingkirkan.</string>
+    <string name="accessibility_desc_notification_shade">Bayangan pemberitahuan.</string>
+    <string name="accessibility_desc_quick_settings">Setelan cepat.</string>
+    <string name="accessibility_desc_lock_screen">Layar kunci.</string>
+    <string name="accessibility_desc_settings">Setelan</string>
+    <string name="accessibility_desc_recent_apps">Ikhtisar.</string>
+    <string name="accessibility_quick_settings_user">Pengguna %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi diaktifkan.</string>
+    <string name="accessibility_quick_settings_mobile">Seluler %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Baterai %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Mode pesawat nonaktif.</string>
+    <string name="accessibility_quick_settings_airplane_on">Mode pesawat aktif.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Mode pesawat dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Mode pesawat diaktifkan.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth nonaktif.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth aktif.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth menyambung.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth tersambung.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth diaktifkan.</string>
+    <string name="accessibility_quick_settings_location_off">Pelaporan lokasi nonaktif.</string>
+    <string name="accessibility_quick_settings_location_on">Pelaporan lokasi aktif.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Pelaporan lokasi dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Pelaporan lokasi diaktifkan.</string>
+    <string name="accessibility_quick_settings_alarm">Alarm disetel ke %s.</string>
+    <string name="accessibility_quick_settings_close">Tutup panel.</string>
+    <string name="accessibility_quick_settings_more_time">Lebih lama.</string>
+    <string name="accessibility_quick_settings_less_time">Lebih cepat.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Senter nonaktif.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Senter aktif.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Senter dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Senter diaktifkan.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Inversi warna dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Inversi warna diaktifkan.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Hotspot seluler dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Hotspot seluler diaktifkan.</string>
+    <string name="accessibility_casting_turned_off">Transmisi layar berhenti.</string>
+    <string name="accessibility_brightness">Kecerahan tampilan</string>
+    <string name="data_usage_disabled_dialog_3g_title">Data 2G-3G nonaktif</string>
+    <string name="data_usage_disabled_dialog_4g_title">Data 4G nonaktif</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Data seluler nonaktif</string>
+    <string name="data_usage_disabled_dialog_title">Data nonaktif</string>
+    <string name="data_usage_disabled_dialog">"Perangkat Anda menonaktifkan data karena data mencapai batas yang Anda setel.
+
+Mengaktifkan kembali data dapat membuat Anda terkena biaya dari operator."</string>
+    <string name="data_usage_disabled_dialog_enable">Aktifkan data</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Tidak ada sambungan internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi tersambung</string>
+    <string name="gps_notification_searching_text">Menelusuri GPS</string>
+    <string name="gps_notification_found_text">Lokasi yang disetel oleh GPS</string>
+    <string name="accessibility_location_active">Permintaan lokasi aktif</string>
+    <string name="accessibility_clear_all">Menghapus semua pemberitahuan.</string>
+    <string name="status_bar_notification_inspect_item_title">Setelan pemberitahuan</string>
+    <string name="status_bar_notification_app_settings_title">%s setelan</string>
+    <string name="accessibility_rotation_lock_off">Layar akan diputar secara otomatis.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Layar dikunci dalam orientasi lanskap.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Layar dikunci dalam orientasi potret.</string>
+    <string name="accessibility_rotation_lock_off_changed">Sekarang layar akan berputar secara otomatis.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Sekarang layar dikunci dalam orientasi lanskap.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Sekarang layar dikunci dalam orientasi potret.</string>
+    <string name="dessert_case">Etalase Hidangan Penutup</string>
+    <string name="start_dreams">Lamunan</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Mode pesawat</string>
+    <string name="quick_settings_battery_charging_label">Mengisi baterai, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Terisi</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Perangkat)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth Mati</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Perangkat yang disandingkan tak tersedia</string>
+    <string name="quick_settings_brightness_label">Kecerahan</string>
+    <string name="quick_settings_rotation_unlocked_label">Rotasi otomatis</string>
+    <string name="quick_settings_rotation_locked_label">Rotasi terkunci</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Potret</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Lanskap</string>
+    <string name="quick_settings_ime_label">Metode Masukan</string>
+    <string name="quick_settings_location_label">Lokasi</string>
+    <string name="quick_settings_location_off_label">Lokasi Mati</string>
+    <string name="quick_settings_media_device_label">Perangkat media</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Panggilan Darurat Saja</string>
+    <string name="quick_settings_settings_label">Setelan</string>
+    <string name="quick_settings_time_label">Waktu</string>
+    <string name="quick_settings_user_label">Saya</string>
+    <string name="quick_settings_user_title">Pengguna</string>
+    <string name="quick_settings_user_new_user">Pengguna baru</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Tidak Tersambung</string>
+    <string name="quick_settings_wifi_no_network">Tidak Ada Jaringan</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Mati</string>
+    <string name="quick_settings_wifi_detail_empty_text">Jaringan yang tersimpan tak tersedia</string>
+    <string name="quick_settings_cast_title">Layar transmisi</string>
+    <string name="quick_settings_casting">Melakukan transmisi</string>
+    <string name="quick_settings_cast_device_default_name">Perangkat tanpa nama</string>
+    <string name="quick_settings_cast_device_default_description">Siap melakukan transmisi</string>
+    <string name="quick_settings_cast_detail_empty_text">Perangkat tak tersedia</string>
+    <string name="quick_settings_brightness_dialog_title">Kecerahan</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">OTOMATIS</string>
+    <string name="quick_settings_inversion_label">Inversi warna</string>
+    <string name="quick_settings_color_space_label">Mode koreksi warna</string>
+    <string name="quick_settings_more_settings">Setelan lainnya</string>
+    <string name="quick_settings_done">Selesai</string>
+    <string name="quick_settings_connected">Tersambung</string>
+    <string name="quick_settings_connecting">Menyambung...</string>
+    <string name="quick_settings_tethering_label">Menambatkan</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_notifications_label">Pemberitahuan</string>
+    <string name="quick_settings_flashlight_label">Lampu senter</string>
+    <string name="quick_settings_cellular_detail_title">Data seluler</string>
+    <string name="quick_settings_cellular_detail_data_usage">Penggunaan data</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Data tersisa</string>
+    <string name="quick_settings_cellular_detail_over_limit">Batas terlampaui – penggunaan data dijeda</string>
+    <string name="quick_settings_cellular_detail_data_used">%s digunakan</string>
+    <string name="quick_settings_cellular_detail_data_limit">Batas %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">Peringatan %s</string>
+    <string name="recents_empty_message">Layar terkini Anda muncul di sini</string>
+    <string name="recents_app_info_button_label">Info Aplikasi</string>
+    <string name="recents_lock_to_app_button_label">kunci ke aplikasi</string>
+    <string name="recents_search_bar_label">telusuri</string>
+    <string name="recents_launch_error_message">Tidak dapat memulai %s.</string>
+    <string name="expanded_header_battery_charged">Terisi</string>
+    <string name="expanded_header_battery_charging">Mengisi daya</string>
+    <string name="expanded_header_battery_charging_with_time">%s sampai penuh</string>
+    <string name="expanded_header_battery_not_charging">Tidak mengisi daya</string>
+    <string name="ssl_ca_cert_warning">"Jaringan bisa
+diawasi"</string>
+    <string name="description_target_search">Telusuri</string>
+    <string name="description_direction_up">Geser ke atas untuk %s.</string>
+    <string name="description_direction_left">Geser ke kiri untuk %s.</string>
+    <string name="zen_no_interruptions_with_warning">Tanpa gangguan, termasuk alarm.</string>
+    <string name="zen_no_interruptions">Tidak ada interupsi</string>
+    <string name="zen_important_interruptions">Hanya interupsi prioritas</string>
+    <string name="zen_alarm_information_time">Alarm Anda berikutnya pukul %s</string>
+    <string name="zen_alarm_information_day_time">Alarm Anda berikutnya hari %s</string>
+    <string name="zen_alarm_warning">Anda tidak akan mendengar alarm pukul %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Pemberitahuan kurang darurat di bawah</string>
+    <string name="notification_tap_again">Sentuh lagi untuk membuka</string>
+    <string name="keyguard_unlock">Gesek ke atas untuk membuka kunci</string>
+    <string name="phone_hint">Gesek ke kanan untuk menelepon</string>
+    <string name="camera_hint">Gesek ke kiri untuk kamera</string>
+    <string name="interruption_level_none">Tidak ada</string>
+    <string name="interruption_level_priority">Prioritas</string>
+    <string name="interruption_level_all">Semua</string>
+    <string name="keyguard_indication_charging_time">Mengisi daya (%s hingga penuh)</string>
+    <string name="accessibility_multi_user_switch_switcher">Beralih pengguna</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Ganti pengguna, pengguna saat ini %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Tampilkan profil</string>
+    <string name="user_add_user">Tambahkan pengguna</string>
+    <string name="user_new_user_name">Pengguna baru</string>
+    <string name="guest_nickname">Tamu</string>
+    <string name="guest_new_guest">Tambahkan tamu</string>
+    <string name="guest_exit_guest">Buang tamu</string>
+    <string name="guest_exit_guest_dialog_title">Hapus tamu?</string>
+    <string name="guest_exit_guest_dialog_message">Semua aplikasi dan data di sesi ini akan dihapus.</string>
+    <string name="guest_exit_guest_dialog_remove">Hapus</string>
+    <string name="guest_wipe_session_title">Selamat datang kembali, tamu!</string>
+    <string name="guest_wipe_session_message">Lanjutkan sesi Anda?</string>
+    <string name="guest_wipe_session_wipe">Mulai</string>
+    <string name="guest_wipe_session_dontwipe">Ya, lanjutkan</string>
+    <string name="user_add_user_title">Tambahkan pengguna baru?</string>
+    <string name="user_add_user_message_short">"Saat Anda menambahkan pengguna baru, orang tersebut perlu menyiapkan ruangnya sendiri.
+
+1Pengguna mana pun dapat memperbarui aplikasi untuk semua pengguna lain."</string>
+    <string name="battery_saver_notification_title">Penghemat baterai aktif</string>
+    <string name="battery_saver_notification_text">Mengurangi kinerja dan data latar belakang</string>
+    <string name="battery_saver_notification_action_text">Nonaktifkan penghemat baterai</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Konten tersembunyi</string>
+    <string name="media_projection_dialog_text">%s akan mulai menangkap apa saja yang ditampilkan pada layar Anda.</string>
+    <string name="media_projection_remember_text">Jangan tampilkan lagi</string>
+    <string name="clear_all_notifications_text">Hapus semua</string>
+    <string name="media_projection_action_text">Mulai sekarang</string>
+    <string name="empty_shade_text">Tidak ada pemberitahuan</string>
+    <string name="device_owned_footer">Perangkat mungkin dipantau</string>
+    <string name="profile_owned_footer">Profil dapat dipantau</string>
+    <string name="vpn_footer">Jaringan mungkin dipantau</string>
+    <string name="monitoring_title_device_owned">Pemantauan perangkat</string>
+    <string name="monitoring_title_profile_owned">Pemantauan profil</string>
+    <string name="monitoring_title">Pemantauan jaringan</string>
+    <string name="disable_vpn">Nonaktifkan VPN</string>
+    <string name="disconnect_vpn">Putuskan sambungan VPN</string>
+    <string name="monitoring_description_device_owned">"Perangkat ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau perangkat serta aktivitas jaringan, termasuk email, aplikasi, dan situs web aman.
+
+Untuk informasi selengkapnya, hubungi administrator Anda."</string>
+    <string name="monitoring_description_vpn">"Anda memberikan izin pada \"%1$s\" untuk menyiapkan sambungan VPN.
+
+Aplikasi ini dapat memantau perangkat dan aktivitas jaringan, termasuk email, aplikasi, dan situs web aman."</string>
+    <string name="monitoring_description_legacy_vpn">"Anda tersambung ke VPN (\"%1$s\").
+
+Penyedia layanan VPN dapat memantau perangkat dan aktivitas jaringan termasuk email, aplikasi, dan situs web aman."</string>
+    <string name="monitoring_description_vpn_device_owned">"Perangkat ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau aktivitas jaringan termasuk email, aplikasi, dan situs web aman. Untuk informasi selengkapnya, hubungi administrator Anda.
+
+Anda juga memberikan izin pada \"%2$s\" untuk menyiapkan sambungan VPN. Aplikasi ini juga memantau aktivitas jaringan."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Perangkat ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau aktivitas jaringan termasuk email, aplikasi, dan situs web aman. Untuk informasi selengkapnya, hubungi administrator Anda.
+
+Anda juga tersambung ke VPN (\"%2$s\"). Penyedia layanan VPN Anda dapat memantau aktivitas jaringan juga."</string>
+    <string name="monitoring_description_profile_owned">"Profil ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau aktivitas jaringan dan perangkat Anda, termasuk email, aplikasi, dan situs web aman.
+
+Untuk informasi selengkapnya, hubungi administrator Anda."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Perangkat ini dikelola oleh:
+%1$s
+Profil Anda dikelola oleh:
+%2$s
+
+Administrator Anda dapat memantau aktivitas jaringan dan perangkat, termasuk email, aplikasi, dan situs web yang aman.
+
+Untuk informasi selengkapnya, hubungi administrator Anda."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Profil ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau aktivitas jaringan termasuk email, aplikasi, dan situs web aman. Untuk informasi selengkapnya, hubungi administrator Anda.
+
+Selain itu, Anda mengizinkan \"%2$s\" menyiapkan sambungan VPN. Aplikasi juga dapat memantau aktivitas jaringan."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Profil ini dikelola oleh:
+%1$s
+
+Administrator Anda dapat memantau aktivitas jaringan termasuk email, aplikasi, dan situs web aman. Untuk informasi selengkapnya, hubungi administrator Anda.
+
+Selain itu, Anda tersambung ke VPN (\"%2$s\"). Penyedia layanan VPN Anda juga dapat memantau aktivitas jaringan."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Perangkat ini dikelola oleh:
+%1$s
+Profil Anda dikelola oleh:
+%2$s
+
+Administrator dapat memantau aktivitas jaringan termasuk email, aplikasi, dan situs web aman. Untuk informasi selengkapnya, hubungi administrator.
+
+Anda juga mengizinkan \"%3$s\" menyiapkan sambungan VPN. Aplikasi juga dapat memantau aktivitas jaringan."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Perangkat ini dikelola oleh:
+%1$s
+Profil Anda dikelola oleh:
+%2$s
+
+Administrator Anda dapat memantau aktivitas jaringan termasuk email, aplikasi &amp; situs web aman. Untuk info selengkapnya, hubungi administrator.
+
+Selain itu, Anda tersambung ke VPN (\"%3$s\"). Penyedia layanan VPN juga dapat memantau aktivitas jaringan."</string>
+    <string name="keyguard_indication_trust_disabled">Perangkat akan tetap terkunci hingga Anda membukanya secara manual</string>
+    <string name="hidden_notifications_title">Dapatkan pemberitahuan lebih cepat</string>
+    <string name="hidden_notifications_text">Lihat sebelum membuka kunci</string>
+    <string name="hidden_notifications_cancel">Tidak</string>
+    <string name="hidden_notifications_setup">Siapkan</string>
+    <string name="muted_by">Dinonaktifkan oleh %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Ketik kode PIN</string>
+    <string name="keyguard_password_enter_puk_code">Ketik kode PIN baru dan PUK SIM</string>
+    <string name="keyguard_password_enter_puk_prompt">Kode PUK SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">Kode PIN SIM baru</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Sentuh untuk mengetikkan sandi</font></string>
+    <string name="keyguard_password_enter_password_code">Ketik sandi untuk membuka kunci</string>
+    <string name="keyguard_password_enter_pin_password_code">Ketik PIN untuk membuka kunci</string>
+    <string name="keyguard_password_wrong_pin_code">Kode PIN salah.</string>
+    <string name="keyguard_label_text">Untuk membuka, tekan Menu lalu 0.</string>
+    <string name="faceunlock_multiple_failures">Percobaan Face Unlock melebihi batas maksimum</string>
+    <string name="keyguard_charged">Terisi</string>
+    <string name="keyguard_plugged_in">Mengisi daya</string>
+    <string name="keyguard_low_battery">Hubungkan pengisi daya.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Tekan Menu untuk membuka.</string>
+    <string name="keyguard_network_locked_message">Jaringan terkunci</string>
+    <string name="keyguard_missing_sim_message_short">Tidak ada kartu SIM</string>
+    <string name="keyguard_missing_sim_message">Tidak ada Kartu SIM di dalam ponsel.</string>
+    <string name="keyguard_missing_sim_instructions">Masukkan kartu SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">Kartu SIM tidak ada atau tidak dapat dibaca. Masukkan kartu SIM.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Kartu SIM tidak dapat digunakan.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Kartu SIM Anda telah dinonaktifkan secara permanen.
+ Hubungi penyedia layanan nirkabel Anda untuk kartu SIM lain."</string>
+    <string name="keyguard_sim_locked_message">Kartu SIM terkunci.</string>
+    <string name="keyguard_sim_puk_locked_message">Kartu SIM terkunci PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Membuka kartu SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d dari %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Tambahkan widget.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Kosong</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Area buka kunci diluaskan.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Area buka kunci diciutkan.</string>
+    <string name="keyguard_accessibility_widget">Widget %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Pemilih pengguna</string>
+    <string name="keyguard_accessibility_camera">Kamera</string>
+    <string name="keygaurd_accessibility_media_controls">Kontrol media</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Pengurutan ulang widget dimulai.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Pengurutan ulang widget berakhir.</string>
+    <string name="keyguard_accessibility_widget_deleted">Widget %1$s dihapus.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Luaskan area buka kunci.</string>
+    <string name="keyguard_accessibility_slide_unlock">Buka kunci dengan menggeser.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Buka kunci dengan pola.</string>
+    <string name="keyguard_accessibility_face_unlock">Buka kunci dengan face unlock.</string>
+    <string name="keyguard_accessibility_pin_unlock">Buka kunci dengan PIN.</string>
+    <string name="keyguard_accessibility_password_unlock">Buka kunci dengan sandi.</string>
+    <string name="keyguard_accessibility_pattern_area">Area pola.</string>
+    <string name="keyguard_accessibility_slide_area">Area geser.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Tombol lagu sebelumnya</string>
+    <string name="keyguard_accessibility_transport_next_description">Tombol lagu berikutnya</string>
+    <string name="keyguard_accessibility_transport_pause_description">Tombol jeda</string>
+    <string name="keyguard_accessibility_transport_play_description">Tombol putar</string>
+    <string name="keyguard_accessibility_transport_stop_description">Tombol hentikan</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Bagus</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Jelek</string>
+    <string name="keyguard_accessibility_transport_heart_description">Hati</string>
+    <string name="keyguard_accessibility_show_bouncer">Buka kunci untuk melanjutkan</string>
+    <string name="keyguard_accessibility_hide_bouncer">Peluncuran dibatalkan</string>
+    <string name="keyguard_accessibility_delete_widget_start">Jatuhkan %1$s untuk menghapus.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s tidak akan dihapus.</string>
+    <string name="keyguard_accessibility_next_alarm">Alarm berikutnya disetel untuk %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Batal</string>
+    <string name="keyboardview_keycode_delete">Hapus</string>
+    <string name="keyboardview_keycode_done">Selesai</string>
+    <string name="keyboardview_keycode_mode_change">Pengubahan mode</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">Membuka gembok</string>
+    <string name="description_target_camera">Kamera</string>
+    <string name="description_target_silent">Senyap</string>
+    <string name="description_target_soundon">Suara hidup</string>
+    <string name="description_direction_down">Geser ke bawah untuk %s.</string>
+    <string name="description_direction_right">Geser ke kanan untuk %s.</string>
+    <string name="user_switched">Pengguna saat ini %1$s.</string>
+    <string name="kg_emergency_call_label">Panggilan darurat</string>
+    <string name="kg_forgot_pattern_button_text">Lupa Pola?</string>
+    <string name="kg_wrong_pattern">Pola Salah</string>
+    <string name="kg_wrong_password">Sandi Salah</string>
+    <string name="kg_wrong_pin">PIN Salah</string>
+    <string name="kg_too_many_failed_attempts_countdown">Coba lagi dalam %d detik.</string>
+    <string name="kg_pattern_instructions">Gambar pola Anda</string>
+    <string name="kg_sim_pin_instructions">Masukkan PIN SIM</string>
+    <string name="kg_pin_instructions">Masukkan PIN</string>
+    <string name="kg_password_instructions">Masukkan Sandi</string>
+    <string name="kg_puk_enter_puk_hint">SIM telah dinonaktifkan. Masukkan kode PUK untuk melanjutkan. Hubungi operator untuk keterangan selengkapnya.</string>
+    <string name="kg_puk_enter_pin_hint">Masukkan kode PIN yang diinginkan</string>
+    <string name="kg_enter_confirm_pin_hint">Konfirmasi kode PIN yang diinginkan</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Membuka kunci kartu SIM…</string>
+    <string name="kg_invalid_sim_pin_hint">Ketik PIN yang terdiri dari 4 sampai 8 angka.</string>
+    <string name="kg_invalid_sim_puk_hint">Kode PUK harus terdiri dari 8 angka atau lebih.</string>
+    <string name="kg_invalid_puk">Masukkan kembali kode PUK yang benar. Jika berulang kali gagal, SIM akan dinonaktifkan secara permanen.</string>
+    <string name="kg_invalid_confirm_pin_hint">Kode PIN tidak cocok</string>
+    <string name="kg_login_too_many_attempts">Terlalu banyak upaya pola</string>
+    <string name="kg_login_instructions">Untuk membuka kunci, masuk dengan akun Google Anda.</string>
+    <string name="kg_login_username_hint">Nama pengguna (email)</string>
+    <string name="kg_login_password_hint">Sandi</string>
+    <string name="kg_login_submit_button">Masuk</string>
+    <string name="kg_login_invalid_input">Nama pengguna atau sandi tidak valid.</string>
+    <string name="kg_login_account_recovery_hint">"Lupa nama pengguna atau sandi Anda?
+Kunjungi "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Memeriksa akun…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Anda telah %d kali salah mengetik PIN. 
+
+Coba lagi dalam %d detik."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Anda telah %d kali salah mengetik sandi. 
+
+Coba lagi dalam %d detik."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Anda telah %d kali salah menggambar pola pembuka kunci. 
+
+Coba lagi dalam %d detik."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Anda telah %d kali gagal saat berusaha membuka kunci ponsel. Setelah %d lagi upaya gagal, ponsel akan disetel ulang ke setelan default pabrik dan semua data pengguna akan hilang.</string>
+    <string name="kg_failed_attempts_now_wiping">Anda telah %d kali gagal saat berusaha untuk membuka kunci ponsel. Kini ponsel akan disetel ulang ke setelan default pabrik.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Anda telah %d kali salah menggambar pola pembuka kunci. Setelah %d lagi upaya gagal, Anda akan diminta membuka kunci ponsel menggunakan akun email.
+
+Coba lagi dalam %d detik."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Hapus</string>
+    <string name="kg_password_wrong_pin_code_pukked">Kode PIN SIM salah. Hubungi operator untuk membuka kunci perangkat.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM tidak dapat digunakan. Hubungi operator Anda.</string>
+    <string name="kg_password_pin_failed">Operasi PIN SIM gagal!</string>
+    <string name="kg_password_puk_failed">Operasi PUK SIM gagal!</string>
+    <string name="kg_pin_accepted">Kode Diterima!</string>
+    <string name="keyguard_transport_prev_description">Tombol lagu sebelumnya</string>
+    <string name="keyguard_transport_next_description">Tombol lagu berikutnya</string>
+    <string name="keyguard_transport_pause_description">Tombol jeda</string>
+    <string name="keyguard_transport_play_description">Tombol putar</string>
+    <string name="keyguard_transport_stop_description">Tombol hentikan</string>
+    <string name="keyguard_carrier_default">Tidak ada layanan.</string>
+</resources>

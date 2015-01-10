@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_recents_interface_for_tablets">false</bool>
+    <bool name="config_recents_thumbnail_image_fits_to_xy">false</bool>
+    <bool name="config_recents_use_hardware_layers">false</bool>
+    <bool name="config_recents_fake_shadows">false</bool>
+    <bool name="config_hspa_data_distinguishable">false</bool>
+    <bool name="config_statusBarShowNumber">false</bool>
+    <bool name="config_showPhoneRSSIForData">false</bool>
+    <bool name="config_showMin3G">false</bool>
+    <bool name="config_showRotationLock">true</bool>
+    <bool name="config_keyguardShowCameraAffordance">true</bool>
+    <bool name="config_status_bar_scrim_behind_use_src">true</bool>
+    <bool name="config_dead_zone_flash">false</bool>
+    <bool name="quick_settings_rssi_tile_capitalization">true</bool>
+    <bool name="config_show4GForLTE">false</bool>
+    <bool name="recents_has_transposed_search_bar">true</bool>
+    <bool name="recents_has_transposed_nav_bar">true</bool>
+    <bool name="config_enableKeyguardService">true</bool>
+    <bool name="enable_ticker">false</bool>
+    <bool name="config_keyguardUserSwitcher">false</bool>
+    <bool name="doze_display_state_supported">false</bool>
+    <bool name="doze_pulse_on_significant_motion">false</bool>
+    <bool name="doze_pulse_on_pick_up">false</bool>
+    <bool name="doze_pulse_on_notifications">true</bool>
+    <bool name="config_showTaskManagerSwitcher">false</bool>
+    <bool name="config_enableDataSwitch">false</bool>
+    <item type="bool" name="config_enableLockScreenRotation">@android:bool/config_enableLockScreenRotation</item>
+    <item type="bool" name="config_enableLockScreenTranslucentDecor">@android:bool/config_enableLockScreenTranslucentDecor</item>
+    <bool name="kg_enable_camera_default_widget">true</bool>
+    <bool name="kg_center_small_widgets_vertically">false</bool>
+    <bool name="kg_top_align_page_shrink_on_bouncer_visible">true</bool>
+    <bool name="kg_show_ime_at_screen_on">true</bool>
+    <bool name="kg_use_all_caps">true</bool>
+    <bool name="config_disableMenuKeyInLockScreen">false</bool>
+</resources>

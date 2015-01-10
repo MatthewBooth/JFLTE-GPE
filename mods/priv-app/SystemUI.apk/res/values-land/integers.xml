@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="status_bar_recents_bg_gradient_degrees">90</integer>
+    <integer name="quick_settings_max_rows">2</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">2</integer>
+    <integer name="keyguard_max_notification_count">1</integer>
+    <item type="integer" name="notification_panel_layout_gravity">@integer/standard_notification_panel_layout_gravity</item>
+    <integer name="kg_glowpad_rotation_offset">-90</integer>
+    <integer name="kg_selector_gravity">0x13</integer>
+    <integer name="kg_widget_region_weight">45</integer>
+    <integer name="kg_security_flipper_weight">55</integer>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_thumbnail_width">200.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">177.0dip</dimen>
+    <dimen name="navigation_extra_key_width">48.0dip</dimen>
+    <dimen name="navbar_search_outerring_diameter">430.0dip</dimen>
+    <dimen name="navbar_search_outerring_radius">215.0dip</dimen>
+    <dimen name="navbar_search_panel_height">280.0dip</dimen>
+    <dimen name="status_bar_header_height_keyguard">60.0dip</dimen>
+    <item type="dimen" name="notification_panel_width">@dimen/standard_notification_panel_width</item>
+    <item type="dimen" name="notification_panel_min_height_frac">39.999996%</item>
+    <dimen name="recents_search_bar_space_height">72.0dip</dimen>
+    <item type="dimen" name="recents_stack_width_padding_percentage">0.075</item>
+    <dimen name="keyguard_clock_notifications_margin_min">44.0dip</dimen>
+    <dimen name="keyguard_clock_notifications_margin_max">44.0dip</dimen>
+    <dimen name="edge_tap_area_width">80.0dip</dimen>
+    <dimen name="multi_user_switch_keyguard_margin">6.0dip</dimen>
+    <dimen name="multi_user_switch_width_keyguard">48.0dip</dimen>
+    <dimen name="multi_user_avatar_keyguard_size">30.0dip</dimen>
+    <dimen name="keyguard_carrier_text_margin">24.0dip</dimen>
+    <dimen name="system_icons_keyguard_padding_end">2.0dip</dimen>
+    <dimen name="keyguard_affordance_height">80.0dip</dimen>
+    <dimen name="keyguard_affordance_width">120.0dip</dimen>
+    <dimen name="keyguard_indication_margin_bottom">90.0dip</dimen>
+    <dimen name="keyguard_lockscreen_outerring_diameter">364.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">182.0dip</dimen>
+    <dimen name="face_unlock_height">430.0dip</dimen>
+    <dimen name="kg_status_clock_font_size">120.0dip</dimen>
+    <dimen name="kg_status_line_font_size">16.0sp</dimen>
+    <dimen name="kg_status_line_font_right_margin">50.0dip</dimen>
+    <dimen name="kg_clock_top_margin">0.0dip</dimen>
+    <dimen name="kg_widget_pager_horizontal_padding">24.0dip</dimen>
+    <dimen name="kg_widget_pager_top_padding">0.0dip</dimen>
+    <dimen name="kg_widget_pager_bottom_padding">0.0dip</dimen>
+    <dimen name="kg_runway_lights_top_margin">-10.0dip</dimen>
+    <dimen name="keyguard_security_view_margin">12.0dip</dimen>
+    <dimen name="keyguard_muliuser_selector_margin">12.0dip</dimen>
+    <dimen name="eca_overlap">0.0dip</dimen>
+    <dimen name="bottom_text_spacing_digital">-16.0dip</dimen>
+    <dimen name="widget_label_font_size">16.0sp</dimen>
+    <dimen name="widget_big_font_size">140.0dip</dimen>
+    <item type="dimen" name="peek_height">@dimen/close_handle_height</item>
+    <dimen name="keyguard_pattern_unlock_status_line_font_size">14.0sp</dimen>
+</resources>

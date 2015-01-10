@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">[概要]に%d個の画面があります</item>
+        <item quantity="one">[概要]に1個の画面があります</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PINコードが無効です。入力できるのはあと%d回です。</item>
+        <item quantity="one">SIM PINコードが無効です。入力できるのはあと%d回です。この回数を超えると、お使いの端末をロック解除するのに携帯通信会社にお問い合わせいただく必要があります。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUKコードが無効です。入力できるのはあと%d回です。この回数を超えるとSIMは完全に使用できなくなります。</item>
+        <item quantity="one">SIM PUKコードが無効です。入力できるのはあと%d回です。この回数を超えるとSIMは完全に使用できなくなります。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardHostView android:orientation="horizontal" android:id="@id/keyguard_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.MultiPaneChallengeLayout android:orientation="horizontal" android:id="@id/multi_pane_challenge" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center|top" android:id="@id/keyguard_widget_pager_delete_target" android:layout_width="wrap_content" android:layout_height="wrap_content" androidprv:layout_childType="pageDeleteDropTarget" layout="@layout/keyguard_widget_remove_drop_target" />
+        <include android:id="@id/app_widget_container" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:layout_childType="widget" androidprv:layout_maxHeight="480.0dip" androidprv:layout_centerWithinArea="0.55" androidprv:layout_maxWidth="480.0dip" layout="@layout/keyguard_widget_pager" />
+        <include layout="@layout/keyguard_multi_user_selector" />
+        <View android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:layout_childType="scrim" />
+        <com.android.keyguard.KeyguardSecurityContainer android:id="@id/keyguard_security_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" androidprv:layout_childType="challenge" androidprv:layout_centerWithinArea="0.55">
+            <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center" android:id="@id/view_flipper" android:paddingLeft="@dimen/keyguard_security_view_margin" android:paddingTop="@dimen/keyguard_security_view_margin" android:paddingRight="@dimen/keyguard_security_view_margin" android:paddingBottom="@dimen/keyguard_security_view_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.android.keyguard.KeyguardSecurityContainer>
+    </com.android.keyguard.MultiPaneChallengeLayout>
+</com.android.keyguard.KeyguardHostView>

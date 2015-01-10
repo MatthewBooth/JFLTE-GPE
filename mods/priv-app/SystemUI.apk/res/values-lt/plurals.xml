@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Ekranų apžvalga: %d</item>
+        <item quantity="one">Ekranų apžvalga: 1</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Netinkamas SIM kortelės PIN kodas, liko %d band.</item>
+        <item quantity="one">Netinkamas SIM kortelės PIN kodas. Jums liko %d band. Paskui reikės susisiekti su operatoriumi, kad jis atrakintų įrenginį.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Netinkamas SIM kortelės PUK kodas. Liko %d band. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+        <item quantity="one">Netinkamas SIM kortelės PUK kodas. Liko %d band. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+    </plurals>
+</resources>

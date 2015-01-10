@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Aperçu de %d écrans</item>
+        <item quantity="one">"Aperçu d'1 écran"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">NIP de carte SIM incorrect. Il vous reste %d tentative(s).</item>
+        <item quantity="one">NIP de carte SIM incorrect. Il vous reste %d tentative. Après cela, vous devrez communiquer avec votre fournisseur de services pour déverrouiller votre appareil.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Code PUK de la carte SIM incorrect. Il vous reste %d tentative(s) avant que votre carte SIM devienne définitivement inutilisable.</item>
+        <item quantity="one">Code PUK de la carte SIM incorrect. Il vous reste %d tentative avant que votre carte SIM devienne définitivement inutilisable.</item>
+    </plurals>
+</resources>

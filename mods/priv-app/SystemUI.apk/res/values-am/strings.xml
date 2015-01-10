@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">የስርዓት UI</string>
+    <string name="status_bar_clear_all_button">አጽዳ</string>
+    <string name="status_bar_recent_remove_item_title">ከዝርዝር አስወግድ</string>
+    <string name="status_bar_recent_inspect_item_title">የትግበራ መረጃ</string>
+    <string name="status_bar_no_recent_apps">የቅርብ ጊዜ ማያ ገጾችዎ እዚህ ይታያሉ</string>
+    <string name="status_bar_accessibility_dismiss_recents">የቅርብ ጊዜ መተግበሪያዎችን ሰርዝ</string>
+    <string name="status_bar_no_notifications_title">ምንም ማሳወቂያዎች የሉም</string>
+    <string name="status_bar_ongoing_events_title">በመካሄድ ላይ ያለ</string>
+    <string name="status_bar_latest_events_title">ማሳወቂያዎች</string>
+    <string name="battery_low_title">የባትሪ ኃይል አነስተኛ ነው</string>
+    <string name="battery_low_percent_format">%d%% ቀሪ</string>
+    <string name="battery_low_percent_format_saver_started">%d%% ይቀራል። የባትሪ ኃይል ቆጣቢ በርቷል።</string>
+    <string name="invalid_charger">"USB ኃይል መሙያ አይታገዝም።
+ የቀረበውን ኃይል መሙያ ብቻ ተጠቀም።"</string>
+    <string name="invalid_charger_title">የUSB ኃይል መሙላት አይደገፍም።</string>
+    <string name="invalid_charger_text">የቀረበውን ኃይል መሙያ ብቻ ይጠቀሙ።</string>
+    <string name="battery_low_why">ቅንብሮች</string>
+    <string name="battery_saver_confirmation_title">ባትሪ ቆጣቢ ይብራ?</string>
+    <string name="battery_saver_confirmation_ok">አብራ</string>
+    <string name="battery_saver_start_action">ባትሪ ቆጣቢን አብራ</string>
+    <string name="status_bar_settings_settings_button">ቅንብሮች</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">የአውሮፕላን ሁነታ</string>
+    <string name="status_bar_settings_auto_rotation">ማያ በራስ ሰር አሽከርክር</string>
+    <string name="status_bar_settings_mute_label">ድምጽ አጥፋ</string>
+    <string name="status_bar_settings_auto_brightness_label">ራስ ሰር</string>
+    <string name="status_bar_settings_notifications">ማሳወቂያዎች</string>
+    <string name="bluetooth_tethered">ብሉቱዝ አያይዝ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">የግቤት ስልቶችን አዘጋጅ</string>
+    <string name="status_bar_use_physical_keyboard">የሚዳሰስ የቁልፍ ሰሌዳ</string>
+    <string name="usb_device_permission_prompt">መተግበሪያ %1$s የUSB መሣሪያን ለመድረስ ይፍቀድ?</string>
+    <string name="usb_accessory_permission_prompt">መተግበሪያ %1$s የUSB ተቀጥላ ላይ እንዲደርስ ፍቀድ?</string>
+    <string name="usb_device_confirm_prompt">የዚህ USB ተቀጥላ ሲያያዝ %1$sይከፈት?</string>
+    <string name="usb_accessory_confirm_prompt">የዚህ USB ተቀጥላ ሲያያዝ %1$s ይከፈት?</string>
+    <string name="usb_accessory_uri_prompt">ምንም የተጫኑ መተግበሪያዎች ከዚህ የUSB ተቀጥላ ጋር አይሰሩም። በ%1$s ስለዚህ ተቀጥላ የበለጠ ለመረዳት።</string>
+    <string name="title_usb_accessory">"የUSB  ተቀጥላ"</string>
+    <string name="label_view">ዕይታ</string>
+    <string name="always_use_device">"ለእዚህ USB  መሣሪያ በነባሪነት ተጠቀም"</string>
+    <string name="always_use_accessory">"ለእዚህ USB  ተቀጥላ በነባሪነት ተጠቀም"</string>
+    <string name="usb_debugging_title">የUSB ማረሚያ ይፈቀድ?</string>
+    <string name="usb_debugging_message">"የኮምፒውተሩ RSA ቁልፍ ጣት አሻራ ይሄ ነው፦
+%1$s"</string>
+    <string name="usb_debugging_always">ሁልጊዜ ከዚህ ኮምፒውተር ፍቀድ</string>
+    <string name="compat_mode_on">ማያ እንዲሞላ አጉላ</string>
+    <string name="compat_mode_off">ማያ ለመሙለት ሳብ</string>
+    <string name="screenshot_saving_ticker">ቅጽበታዊ ገጽ እይታ በማስቀመጥ ላይ...</string>
+    <string name="screenshot_saving_title">ቅጽበታዊ ገጽ እይታ በማስቀመጥ ላይ...</string>
+    <string name="screenshot_saving_text">ቅጽበታዊ ገጽ እይታ እየተቀመጠ ነው::</string>
+    <string name="screenshot_saved_title">ቅጽበታዊ ገጽ እይታ ተቀርጿል</string>
+    <string name="screenshot_saved_text">የእርስዎን ቅጽበታዊ ገጽ እይታ ለማየት ይንኩ</string>
+    <string name="screenshot_failed_title">ቅጽበታዊ ገጽ እይታ መቅረጽ አልተቻለም::</string>
+    <string name="screenshot_failed_text">በተገደበ የማከማቻ ቦታ ምክንያት ወይም በመተግበሪያው ወይም በድርጅትዎ ስለማይፈቀድ የማያ ገጽ ቅጽበታዊ እይታዎችን ማንሳት አይቻልም።</string>
+    <string name="usb_preference_title">የUSB ፋይል ሰደዳ አማራጮች</string>
+    <string name="use_mtp_button_title">እንደ ማህደረ አጫዋች (MTP) ሰካ</string>
+    <string name="use_ptp_button_title">እንደ ካሜራ (PTP) ሰካ</string>
+    <string name="installer_cd_button_title">ለMac የAndroid ፋይል ሰደዳ መተግበሪያ ጫን</string>
+    <string name="accessibility_back">ተመለስ</string>
+    <string name="accessibility_home">መነሻ</string>
+    <string name="accessibility_menu">ምናሌ</string>
+    <string name="accessibility_recent">አጠቃላይ ዕይታ</string>
+    <string name="accessibility_search_light">ፈልግ</string>
+    <string name="accessibility_camera_button">ካሜራ</string>
+    <string name="accessibility_phone_button">ስልክ</string>
+    <string name="accessibility_unlock_button">ክፈት</string>
+    <string name="unlock_label">ክፈት</string>
+    <string name="phone_label">ስልክ ክፈት</string>
+    <string name="camera_label">ካሜራ ክፈት</string>
+    <string name="accessibility_ime_switch_button">የግቤት ስልት አዝራር ቀይር</string>
+    <string name="accessibility_compatibility_zoom_button">የተኳኋኝአጉላ አዝራር።</string>
+    <string name="accessibility_compatibility_zoom_example">አነስተኛውን ማያ ወደ ትልቅ አጉላ።</string>
+    <string name="accessibility_bluetooth_connected">ብሉቱዝ ተያይዟል።</string>
+    <string name="accessibility_bluetooth_disconnected">ብሉቱዝ ተለያይቷል።</string>
+    <string name="accessibility_no_battery">ምንም ባትሪ የለም።</string>
+    <string name="accessibility_battery_one_bar">ባትሪ አንድ አሞሌ።</string>
+    <string name="accessibility_battery_two_bars">ባትሪ ሁለት አሞሌዎች።</string>
+    <string name="accessibility_battery_three_bars">ባትሪ ሦስት አሞሌዎች።</string>
+    <string name="accessibility_battery_full">ባትሪ ሙሉ ነው።</string>
+    <string name="accessibility_no_phone">ምንም ስልክ የለም።</string>
+    <string name="accessibility_phone_one_bar">የስልክ አንድ አሞሌ</string>
+    <string name="accessibility_phone_two_bars">የስልክ ሁለት አሞሌ</string>
+    <string name="accessibility_phone_three_bars">የስልክ ሦስት አሞሌ</string>
+    <string name="accessibility_phone_signal_full">የስልክ አመልካች ሙሉ ነው።</string>
+    <string name="accessibility_no_data">ምንም ውሂብ የለም።</string>
+    <string name="accessibility_data_one_bar">የውሂብ አንድ አሞሌ</string>
+    <string name="accessibility_data_two_bars">የውሂብ ሁለት አሞሌዎች።</string>
+    <string name="accessibility_data_three_bars">የውሂብ ሦስት አሞሌዎች።</string>
+    <string name="accessibility_data_signal_full">የውሂብ አመልካች ሙሉ ነው።</string>
+    <string name="accessibility_wifi_off">Wifi ጠፍቷል።</string>
+    <string name="accessibility_no_wifi">የWifi ግንኙነት ተቋርጧል።</string>
+    <string name="accessibility_wifi_one_bar">አንድ የWiFi አሞሌ።</string>
+    <string name="accessibility_wifi_two_bars">ሁለት የWiFi አሞሌዎች።</string>
+    <string name="accessibility_wifi_three_bars">ሦስት የWiFi አሞሌዎች።</string>
+    <string name="accessibility_wifi_signal_full">የWiFi ምልክት ሙሉ ነው።</string>
+    <string name="accessibility_wifi_name">ከ%s ጋር ተገናኝቷል።</string>
+    <string name="accessibility_bluetooth_name">ከ%s ጋር ተገናኝቷል።</string>
+    <string name="accessibility_no_wimax">ምንም WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX አንድ አሞሌ።</string>
+    <string name="accessibility_wimax_two_bars">WiMAX ሁለት አሞሌዎች።</string>
+    <string name="accessibility_wimax_three_bars">WiMAX ሦስት አሞሌዎች።</string>
+    <string name="accessibility_wimax_signal_full">WiMAX አመልካች ሙሉ ነው።</string>
+    <string name="accessibility_no_signal">ምንም ምልክት የለም።</string>
+    <string name="accessibility_not_connected">አልተገናኘም።</string>
+    <string name="accessibility_zero_bars">ዜሮ አሞሌዎች።</string>
+    <string name="accessibility_one_bar">አንድ አሞሌ።</string>
+    <string name="accessibility_two_bars">ሁለት አሞሌዎች።</string>
+    <string name="accessibility_three_bars">ሶስት አሞሌዎች።</string>
+    <string name="accessibility_signal_full">ምልክት ሙሉ ነው።</string>
+    <string name="accessibility_desc_on">በርቷል።</string>
+    <string name="accessibility_desc_off">ጠፍቷል።</string>
+    <string name="accessibility_desc_connected">ተገናኝቷል።</string>
+    <string name="accessibility_desc_connecting">በማገናኘት ላይ።</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">ኤል ቲ ኢ</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">ውሂብን በማዛወር ላይ</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">ምንም SIM የለም።</string>
+    <string name="accessibility_bluetooth_tether">ብሉቱዝ ማያያዝ።</string>
+    <string name="accessibility_airplane_mode">የአውሮፕላን ሁነታ።</string>
+    <string name="accessibility_battery_level">የባትሪ %d መቶኛ።</string>
+    <string name="accessibility_settings_button">የስርዓት ቅንብሮች</string>
+    <string name="accessibility_notifications_button">ማሳወቂያዎች</string>
+    <string name="accessibility_remove_notification">ማሳወቂያ አጽዳ</string>
+    <string name="accessibility_gps_enabled">GPS ነቅቷል።</string>
+    <string name="accessibility_gps_acquiring">GPS በማግኘት ላይ።</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter ነቅቷል።</string>
+    <string name="accessibility_ringer_vibrate">የስልክ ጥሪ ይንዘር።</string>
+    <string name="accessibility_ringer_silent">የስልክ ጥሪ ፀጥታ።</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s አስወግድ።</string>
+    <string name="accessibility_recents_item_dismissed">%s ተሰናብቷል::</string>
+    <string name="accessibility_recents_item_launched">%s በመጀመር ላይ።</string>
+    <string name="accessibility_notification_dismissed">ማሳወቂያ ተወግዷል።</string>
+    <string name="accessibility_desc_notification_shade">የማሳወቂያ ጥላ።</string>
+    <string name="accessibility_desc_quick_settings">ፈጣን ቅንብሮች።</string>
+    <string name="accessibility_desc_lock_screen">ማያ ገጽ ቆልፍ።</string>
+    <string name="accessibility_desc_settings">ቅንብሮች</string>
+    <string name="accessibility_desc_recent_apps">አጠቃላይ እይታ።</string>
+    <string name="accessibility_quick_settings_user">ተጠቃሚ %s።</string>
+    <string name="accessibility_quick_settings_wifi">%1$s።</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wifi ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wifi በርቷል።</string>
+    <string name="accessibility_quick_settings_mobile">ተንቀሳቃሽ ስልክ %1$s። %2$s። %3$s።</string>
+    <string name="accessibility_quick_settings_battery">ባትሪ %s።</string>
+    <string name="accessibility_quick_settings_airplane_off">የአውሮፕላን ሁነታ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_airplane_on">የአውሮፕላን ሁነታ በርቷል።</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">የአውሮፕላን ሁነታ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">የአውሮፕላን ሁነታ በርቷል።</string>
+    <string name="accessibility_quick_settings_bluetooth_off">ብሉቱዝ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_bluetooth_on">ብሉቱዝ በርቷል።</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">ብሉቱዝ በመገናኘት ላይ።</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">ብሉቱዝ ተገናኝቷል።</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ብሉቱዝ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">ብሉቱዝ በርቷል።</string>
+    <string name="accessibility_quick_settings_location_off">አካባቢን ሪፖርት ማድረግ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_location_on">አካባቢን ሪፖርት ማድረግ በርቷል።</string>
+    <string name="accessibility_quick_settings_location_changed_off">አካባቢን ሪፖርት ማድረግ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_location_changed_on">አካባቢን ሪፖርት ማድረግ በርቷል።</string>
+    <string name="accessibility_quick_settings_alarm">ማንቂያ ለ%s ተዋቅሯል።</string>
+    <string name="accessibility_quick_settings_close">ፓነል ዝጋ።</string>
+    <string name="accessibility_quick_settings_more_time">ተጨማሪ ጊዜ።</string>
+    <string name="accessibility_quick_settings_less_time">ያነሰ ጊዜ።</string>
+    <string name="accessibility_quick_settings_flashlight_off">የባትሪ ብርሃን ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_flashlight_on">የባትሪ ብርሃን በርቷል።</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">የባትሪ ብርሃን ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">የባትሪ ብርሃን በርቷል።</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">የቀለም ግልበጣ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">የቀለም ግልበጣ በርቷል።</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">የተንቀሳቃሽ ስልክ መገናኛ ነጥብ ጠፍቷል።</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">የተንቀሳቃሽ ስልክ መገናኛ ነጥብ በርቷል።</string>
+    <string name="accessibility_casting_turned_off">ማያ ገጽ መውሰድ ቆሟል።</string>
+    <string name="accessibility_brightness">ብሩህነት ያሳዩ</string>
+    <string name="data_usage_disabled_dialog_3g_title">2ጂ-3ጂ ውሂብ ጠፍቷል</string>
+    <string name="data_usage_disabled_dialog_4g_title">4ጂ ውሂብ ጠፍቷል</string>
+    <string name="data_usage_disabled_dialog_mobile_title">የተንቀሳቃሽ ስልክ ውሂብ ጠፍቷል</string>
+    <string name="data_usage_disabled_dialog_title">ውሂብ ጠፍቷል</string>
+    <string name="data_usage_disabled_dialog">"መሳሪያዎ እርስዎ ያዘጋጁት ገደብ ላይ ስለደረሰ ውሂብን አጥፍቷል።
+
+መልሰው ማብራት ከአገልግሎት አቅራቢዎ ክፍያዎችን ሊያስከትል ይችላል።"</string>
+    <string name="data_usage_disabled_dialog_enable">ውሂብ ያብሩ</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ምንም በይነመረብ ተያያዥ የለም።</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ተያይዟል</string>
+    <string name="gps_notification_searching_text">ለGPS በመፈለግ ላይ</string>
+    <string name="gps_notification_found_text">በ GPS የተዘጋጀ ሥፍራ</string>
+    <string name="accessibility_location_active">የአካባቢ ጥያቄዎች ነቅተዋል</string>
+    <string name="accessibility_clear_all">ሁሉንም ማሳወቂያዎች አጽዳ</string>
+    <string name="status_bar_notification_inspect_item_title">የማሳወቂያ ቅንብሮች</string>
+    <string name="status_bar_notification_app_settings_title">የ%s ቅንብሮች</string>
+    <string name="accessibility_rotation_lock_off">ማያ ገጽ በራስ ሰር ይዞራል።</string>
+    <string name="accessibility_rotation_lock_on_landscape">ማያ ገጽ በወርድ ገፅ አቀማመጥ ተቆልፏል።</string>
+    <string name="accessibility_rotation_lock_on_portrait">ማያ ገጽ በቁም ገፅ አቀማመጥ ተቆልፏል።</string>
+    <string name="accessibility_rotation_lock_off_changed">ማያ ገጽ አሁን በራስ-ሰር ይሽከረከራል።</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">ማያ ገጽ አሁን በወርድ አቀማመጠ-ገፅ ተቆልፏል።</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">ማያ ገጽ አሁን በቁም አቀማመጠ-ገፅ ተቆልፏል።</string>
+    <string name="dessert_case">የማወራረጃ ምግቦች መያዣ</string>
+    <string name="start_dreams">የቀን ህልም</string>
+    <string name="ethernet_label">ኤተርኔት</string>
+    <string name="quick_settings_airplane_mode_label">የአውሮፕላን ሁነታ</string>
+    <string name="quick_settings_battery_charging_label">ባትሪ በመሙላት ላይ፣ %d%%</string>
+    <string name="quick_settings_battery_charged_label">ባትሪ ሞልቷል።</string>
+    <string name="quick_settings_bluetooth_label">ብሉቱዝ</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">ብሉቱዝ (%d መሣሪያዎች)</string>
+    <string name="quick_settings_bluetooth_off_label">ብሉቱዝ ጠፍቷል</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">ምንም የተጣመሩ መሣሪያዎች አይገኝም</string>
+    <string name="quick_settings_brightness_label">ብሩህነት</string>
+    <string name="quick_settings_rotation_unlocked_label">በራስ ሰር አሽከርክር</string>
+    <string name="quick_settings_rotation_locked_label">አዙሪት ተቆልፏል</string>
+    <string name="quick_settings_rotation_locked_portrait_label">በቁመት</string>
+    <string name="quick_settings_rotation_locked_landscape_label">በወርድ</string>
+    <string name="quick_settings_ime_label">የግቤት ስልት</string>
+    <string name="quick_settings_location_label">አካባቢ</string>
+    <string name="quick_settings_location_off_label">አካባቢ ጠፍቷል</string>
+    <string name="quick_settings_media_device_label">የሚዲያ መሣሪያ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">የአደጋ ጊዜ ጥሪዎች ብቻ</string>
+    <string name="quick_settings_settings_label">ቅንብሮች</string>
+    <string name="quick_settings_time_label">ሰዓት</string>
+    <string name="quick_settings_user_label">እኔ</string>
+    <string name="quick_settings_user_title">ተጠቃሚ</string>
+    <string name="quick_settings_user_new_user">አዲስ ተጠቃሚ</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">አልተገናኘም</string>
+    <string name="quick_settings_wifi_no_network">ምንም አውታረ መረብ የለም</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi ጠፍቷል</string>
+    <string name="quick_settings_wifi_detail_empty_text">ምንም የተቀመጡ አውታረ መረቦች አይገኙም</string>
+    <string name="quick_settings_cast_title">ማያ ገጽ ውሰድ</string>
+    <string name="quick_settings_casting">በመውሰድ ላይ</string>
+    <string name="quick_settings_cast_device_default_name">ያልተሰየመ መሳሪያ</string>
+    <string name="quick_settings_cast_device_default_description">ለመውሰድ ዝግጁ</string>
+    <string name="quick_settings_cast_detail_empty_text">ምንም መሣሪያዎች አይገኙም</string>
+    <string name="quick_settings_brightness_dialog_title">ብሩህነት</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ራስ-ሰር</string>
+    <string name="quick_settings_inversion_label">ቀለማትን ግልብጥ</string>
+    <string name="quick_settings_color_space_label">የቀለም እርማት ሁነታ</string>
+    <string name="quick_settings_more_settings">ተጨማሪ ቅንብሮች</string>
+    <string name="quick_settings_done">ተከናውኗል</string>
+    <string name="quick_settings_connected">ተገናኝቷል</string>
+    <string name="quick_settings_connecting">በማገናኘት ላይ...</string>
+    <string name="quick_settings_tethering_label">በማገናኘት ላይ</string>
+    <string name="quick_settings_hotspot_label">መገናኛ ነጥብ</string>
+    <string name="quick_settings_notifications_label">ማሳወቂያዎች</string>
+    <string name="quick_settings_flashlight_label">የባትሪ ብርሃን</string>
+    <string name="quick_settings_cellular_detail_title">የተንቀሳቃሽ ስልክ ውሂብ</string>
+    <string name="quick_settings_cellular_detail_data_usage">የውሂብ አጠቃቀም</string>
+    <string name="quick_settings_cellular_detail_remaining_data">ቀሪ ውሂብ</string>
+    <string name="quick_settings_cellular_detail_over_limit">ገደብ ላይ ተደርሷል – የውሂብ አጠቃቀም ለአፍታ ቆሟል</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ጥቅም ላይ ውሏል</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s ገደብ</string>
+    <string name="quick_settings_cellular_detail_data_warning">የ%s ማስጠንቀቂያ</string>
+    <string name="recents_empty_message">የቅርብ ጊዜ ማያ ገጾችዎ እዚህ ይታያሉ</string>
+    <string name="recents_app_info_button_label">የመተግበሪያ መረጃ</string>
+    <string name="recents_lock_to_app_button_label">መተግበሪያ-ጋር-ቆልፍ</string>
+    <string name="recents_search_bar_label">ፈልግ</string>
+    <string name="recents_launch_error_message">%sን መጀመር አልተቻለም።</string>
+    <string name="expanded_header_battery_charged">ባትሪ ሞልቷል</string>
+    <string name="expanded_header_battery_charging">ኃይል በመሙላት ላይ</string>
+    <string name="expanded_header_battery_charging_with_time">%s እስኪሞላ ድረስ</string>
+    <string name="expanded_header_battery_not_charging">ባትሪ እየሞላ አይደለም</string>
+    <string name="ssl_ca_cert_warning">"አውታረ መረብ
+ክትትል ሊደረግበት ይችላል"</string>
+    <string name="description_target_search">ፍለጋ</string>
+    <string name="description_direction_up">ለ%s ወደ ላይ አንሸራትት።</string>
+    <string name="description_direction_left">ለ%s ወደ ግራ አንሸራትት።</string>
+    <string name="zen_no_interruptions_with_warning">ምንም ማቋረጦች የሉም። ማንቂያዎችም እንኳ።</string>
+    <string name="zen_no_interruptions">ምንም ማቋረጦች የሉም</string>
+    <string name="zen_important_interruptions">ቅድሚያ የሚሰጣቸው ማቋረጦች ብቻ</string>
+    <string name="zen_alarm_information_time">ቀጣዩ ማንቂያ ደውልዎ በ%s ነው</string>
+    <string name="zen_alarm_information_day_time">ቀጣዩ ማንቂያ ደውልዎ %s ነው</string>
+    <string name="zen_alarm_warning">በ%s ያለውን ማንቂያ ደውልዎን አይሰሙትም</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">በጣም አስቸካይ ያልሆኑ ማሳወቂያዎች ከታች</string>
+    <string name="notification_tap_again">ለመክፈት ዳግም ይንኩ</string>
+    <string name="keyguard_unlock">ለማስከፈት ወደ ላይ ያንሸራትቱ</string>
+    <string name="phone_hint">ለስልክ ወደቀኝ ያንሸራትቱ</string>
+    <string name="camera_hint">ለካሜራ ወደግራ ያንሸራትቱ</string>
+    <string name="interruption_level_none">ምንም</string>
+    <string name="interruption_level_priority">ቅድሚያ</string>
+    <string name="interruption_level_all">ሁሉም</string>
+    <string name="keyguard_indication_charging_time">ሃይል በመሙላት ላይ (%s እስከሚሞላ ድረስ)</string>
+    <string name="accessibility_multi_user_switch_switcher">ተጠቃሚ ቀይር</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">ተጠቃሚ ይለውጡ፣ የአሁን ተጠቃሚ %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">መገለጫ አሳይ</string>
+    <string name="user_add_user">ተጠቃሚ አክል</string>
+    <string name="user_new_user_name">አዲስ ተጠቃሚ</string>
+    <string name="guest_nickname">እንግዳ</string>
+    <string name="guest_new_guest">እንግዳ አክል</string>
+    <string name="guest_exit_guest">እንግዳ አስወግድ</string>
+    <string name="guest_exit_guest_dialog_title">እንግዳ ይወገድ?</string>
+    <string name="guest_exit_guest_dialog_message">በዚህ ክፍለ-ጊዜ ውስጥ ያሉ ሁሉም መተግበሪያዎች እና ውሂብ ይሰረዛሉ።</string>
+    <string name="guest_exit_guest_dialog_remove">አስወግድ</string>
+    <string name="guest_wipe_session_title">እንኳን በደህና ተመለሱ እንግዳ!</string>
+    <string name="guest_wipe_session_message">ክፍለ-ጊዜዎን መቀጠል ይፈልጋሉ?</string>
+    <string name="guest_wipe_session_wipe">እንደገና ጀምር</string>
+    <string name="guest_wipe_session_dontwipe">አዎ፣ ቀጥል</string>
+    <string name="user_add_user_title">አዲስ ተጠቃሚ ይታከል?</string>
+    <string name="user_add_user_message_short">"እርስዎ አንድ አዲስ ተጠቃሚ ሲያክሉ ያ ሰው የራሱ ቦታ ማዘጋጀት አለበት።
+
+ማንኛውም ተጠቃሚ መተግበሪያዎችን ለሌሎች ተጠቃሚዎች ሁሉ ሊያዘምን ይችላል።"</string>
+    <string name="battery_saver_notification_title">የባትሪ ኃይል ቆጣቢ በርቷል</string>
+    <string name="battery_saver_notification_text">አፈጻጸምን እና የጀርባ ውሂብ ይቀንሳል</string>
+    <string name="battery_saver_notification_action_text">ባትሪ ቆጣቢን አጥፋ</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">ይዘቶች ተደብቀዋል</string>
+    <string name="media_projection_dialog_text">%s በማያ ገጽዎ ላይ የታየውን ነገር በሙሉ ማንሳት ይጀምራል።</string>
+    <string name="media_projection_remember_text">ዳግመኛ አታሳይ</string>
+    <string name="clear_all_notifications_text">ሁሉንም አጽዳ</string>
+    <string name="media_projection_action_text">አሁን ጀምር</string>
+    <string name="empty_shade_text">ምንም ማሳወቂያ የለም</string>
+    <string name="device_owned_footer">መሣሪያው ክትትል የሚደረግበት ሊሆን ይችላል</string>
+    <string name="profile_owned_footer">መገለጫ ክትትል ሊደረግበት ይችላል</string>
+    <string name="vpn_footer">አውታረ መረብ በክትትል እየተደረገበት ሊሆን ይችላል</string>
+    <string name="monitoring_title_device_owned">የመሣሪያ ክትትል</string>
+    <string name="monitoring_title_profile_owned">መገለጫን መከታተል</string>
+    <string name="monitoring_title">የአውታረ መረብ ክትትል</string>
+    <string name="disable_vpn">VPN አሰናክል</string>
+    <string name="disconnect_vpn">የVPN ግንኙነት አቋርጥ</string>
+    <string name="monitoring_description_device_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን መከታተል ይችላል።
+
+ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።"</string>
+    <string name="monitoring_description_vpn">"«%1$s» አንድ የVPN ግንኙነት እንዲያዋቅር ፍቃድ ሰጥተዋቸዋል።
+
+ይህ መተግበሪያ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን መከታተል ይችላል።"</string>
+    <string name="monitoring_description_legacy_vpn">"ከአንድ VPN («%1$s») ጋር ተገናኝተዋል።
+
+የእርስዎ VPN አገልግሎት አቅራቢ መሣሪያዎን እና ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን መከታተል ይችላል።"</string>
+    <string name="monitoring_description_vpn_device_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን መከታተል ይችላል። ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም፣ «%2$s» አንድ የVPN ግንኙነት እንዲያዋቅር ፍቃድ ሰጥተዋቸዋል። ይህ መተግበሪያም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን መከታተል ይችላል። ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም ከአንድ VPN («%2$s») ጋር ተገናኝተዋል። የእርስዎ የVPN አገልግሎት አቅራቢዎም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="monitoring_description_profile_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የእርስዎን መሣሪያ እና የአውታረ መረብ እንቅስቃሴ የመከታተል ችሎታ አላቸው።
+
+ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።"</string>
+    <string name="monitoring_description_device_and_profile_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+የእርስዎ መገለጫ የሚተዳደረው በ፦
+%2$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የእርስዎን መሣሪያ እና የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።
+
+ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።"</string>
+    <string name="monitoring_description_vpn_profile_owned">"ይህ መገለጫ የሚቀናበረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን የመከታተል ችሎታ አላቸው። ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም «%2$s» የቪፒኤን ግንኙነት የማዋቀር ፍቃድ ሰጥተውታል። ይህ መተግበሪያ እንዲሁም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የእርስዎን መሣሪያ እና የአውታረ መረብ እንቅስቃሴ የመከታተል ችሎታ አላቸው።ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም ከአንድ ቪፒኤን («%2$s») ጋር ተገናኝተዋል። የእርስዎ የቪፒኤን አገልግሎት አቅራቢም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ይህ መሣሪያ የሚቀናበረው በ፦
+%1$s
+የእርስዎ መገለጫ የሚቀናበረው በ፦
+%2$s
+
+የእርስዎ አስተዳዳሪ ኢሜሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የአውታረ መረብ እንቅስቃሴዎን የመከታተል ችሎታ አላቸው። ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም «%3$s» የቪፒኤን ግንኙነት የማዋቀር ፍቃድ ሰጥተውታል። ይህ መተግበሪያ እንዲሁም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ይህ መሣሪያ የሚተዳደረው በ፦
+%1$s
+የእርስዎ መገለጫ የሚተዳደረው በ፦
+%2$s
+
+የእርስዎ አስተዳዳሪ ኢሜይሎችን፣ መተግበሪያዎችን እና ደህንነታቸው የተጠበቁ ድር ጣቢያዎችን ጨምሮ የእርስዎን መሣሪያ እና የአውታረ መረብ እንቅስቃሴ የመከታተል ችሎታ ይኖራቸዋል።ተጨማሪ መረጃ ለማግኘት አስተዳዳሪዎን ያነጋግሩ።
+
+እንዲሁም ከአንድ ቪፒኤን («%3$s») ጋር ተገናኝተዋል። የእርስዎ የቪፒኤን አገልግሎት አቅራቢም የአውታረ መረብ እንቅስቃሴ መከታተል ይችላል።"</string>
+    <string name="keyguard_indication_trust_disabled">እራስዎ እስኪከፍቱት ድረስ መሣሪያ እንደተቆለፈ ይቆያል</string>
+    <string name="hidden_notifications_title">ማሳወቂያዎችን ፈጥነው ያግኙ</string>
+    <string name="hidden_notifications_text">ከመክፈትዎ በፊት ይመልከቷቸው</string>
+    <string name="hidden_notifications_cancel">አይ፣ አመሰግናለሁ</string>
+    <string name="hidden_notifications_setup">አዋቅር</string>
+    <string name="muted_by">ድምጽ በ%1$s ተዘግቷል</string>
+    <string name="zen_mode_and_condition">%1$s። %2$s</string>
+    <string name="app_name">የቁልፍ ጥበቃ</string>
+    <string name="keyguard_password_enter_pin_code">ፒን ኮድ ተይብ</string>
+    <string name="keyguard_password_enter_puk_code">የሲም PUK እና አዲሱን ፒን ኮድ ይተይቡ</string>
+    <string name="keyguard_password_enter_puk_prompt">የሲም PUK ኮድ</string>
+    <string name="keyguard_password_enter_pin_prompt">አዲስ ሲም ፒን ኮድ</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">የይለፍ ቃል ለመተየብ ንካ</font></string>
+    <string name="keyguard_password_enter_password_code">ለመክፈት የይለፍ ቃል ተይብ</string>
+    <string name="keyguard_password_enter_pin_password_code">ለመክፈት ፒን ተይብ</string>
+    <string name="keyguard_password_wrong_pin_code">"ትክክል ያልሆነ ፒን  ኮድ።"</string>
+    <string name="keyguard_label_text">ለመክፈት፣ምናሌ ተጫን ከዛ 0</string>
+    <string name="faceunlock_multiple_failures">"የመጨረሻውን  የገጽ ክፈት ሙከራዎችን አልፏል"</string>
+    <string name="keyguard_charged">ባትሪ ሞልቷል</string>
+    <string name="keyguard_plugged_in">ኃይል በመሙላት ላይ</string>
+    <string name="keyguard_low_battery">የኃይል መሙያዎን ይሰኩ።</string>
+    <string name="keyguard_instructions_when_pattern_disabled">ለመክፈት ምናሌውን ይጫኑ።</string>
+    <string name="keyguard_network_locked_message">አውታረ መረብ ተቆልፏል</string>
+    <string name="keyguard_missing_sim_message_short">ምንም ሲም ካርድ የለም</string>
+    <string name="keyguard_missing_sim_message">በስልኩ ውስጥ ምንም ሲም ካርድ የለም።</string>
+    <string name="keyguard_missing_sim_instructions">ሲም ካርድ ያስገቡ።</string>
+    <string name="keyguard_missing_sim_instructions_long">ሲም ካርዱ ጠፍቷል ወይም መነበብ አይችልም። እባክዎ ሲም ሲም ካርድ ያስገቡ።</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">የማይሰራ ሲም ካርድ።</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"ሲም ካርድዎ እስከመጨረሻው ተሰናክሏል።
+ ሌላ ሲም ካርድ ለማግኘት ከገመድ አልባ አገልግሎት አቅራቢዎ ጋር ይገናኙ።"</string>
+    <string name="keyguard_sim_locked_message">ሲም ካርድ ተዘግቷል።</string>
+    <string name="keyguard_sim_puk_locked_message">ሲም ካርድ በፒዩኬ ተዘግቷል።</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">ሲም ካርዱን በመክፈት ላይ…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s። ምግብር %2$d ከ%3$d።</string>
+    <string name="keyguard_accessibility_add_widget">ንዑስ ፕሮግራም አክል</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ባዶ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">የመክፈቻ አካባቢ ተስፋፍቷል።</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">የመክፈቻ አካባቢ ተሰብስቧል።</string>
+    <string name="keyguard_accessibility_widget">የ%1$s ንዑስ ፕሮግራም።</string>
+    <string name="keyguard_accessibility_user_selector">ተጠቃሚ መራጭ</string>
+    <string name="keyguard_accessibility_camera">ካሜራ</string>
+    <string name="keygaurd_accessibility_media_controls">የሚዲያ መቆጣጠሪያዎች</string>
+    <string name="keyguard_accessibility_widget_reorder_start">የንዑስ ፕሮግራም ዳግም መደርደር ተጀምሯል።</string>
+    <string name="keyguard_accessibility_widget_reorder_end">የንዑስ ፕሮግራም ዳግም መደርደር አብቅቷል።</string>
+    <string name="keyguard_accessibility_widget_deleted">ንዑስ ፕሮግራም %1$s ተሰርዟል።</string>
+    <string name="keyguard_accessibility_expand_lock_area">የመክፈቻ አካባቢውን አስፋፋ።</string>
+    <string name="keyguard_accessibility_slide_unlock">በማንሸራተት ክፈት።</string>
+    <string name="keyguard_accessibility_pattern_unlock">በስርዓተ-ጥለት መክፈት።</string>
+    <string name="keyguard_accessibility_face_unlock">በፊት መክፈት።</string>
+    <string name="keyguard_accessibility_pin_unlock">በፒን መክፈት።</string>
+    <string name="keyguard_accessibility_password_unlock">በይለፍ ቃል መክፈት።</string>
+    <string name="keyguard_accessibility_pattern_area">የስርዓተ-ጥለት አካባቢ።</string>
+    <string name="keyguard_accessibility_slide_area">የማንሸራተቻ አካባቢ።</string>
+    <string name="keyguard_accessibility_transport_prev_description">የቀዳሚ ትራክ አዝራር</string>
+    <string name="keyguard_accessibility_transport_next_description">የቀጣይ ትራክ አዝራር</string>
+    <string name="keyguard_accessibility_transport_pause_description">ለአፍታ አቁም አዝራር</string>
+    <string name="keyguard_accessibility_transport_play_description">የአጫውት አዝራር</string>
+    <string name="keyguard_accessibility_transport_stop_description">አቁም አዝራር</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">አሪፍ</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">ደባሪ</string>
+    <string name="keyguard_accessibility_transport_heart_description">ልብ</string>
+    <string name="keyguard_accessibility_show_bouncer">ለመቀጠል ይክፈቱ</string>
+    <string name="keyguard_accessibility_hide_bouncer">ማስጀመር ተሰርዟል</string>
+    <string name="keyguard_accessibility_delete_widget_start">ለመሰረዝ %1$sን ጣል ያድርጉ።</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s አይሰርዝም።</string>
+    <string name="keyguard_accessibility_next_alarm">ቀጣዩ ማንቂያ ለ%1$s ተዘጋጅቷል</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">ይቅር</string>
+    <string name="keyboardview_keycode_delete">ሰርዝ</string>
+    <string name="keyboardview_keycode_done">ተከናውኗል</string>
+    <string name="keyboardview_keycode_mode_change">ሞድ ለውጥ</string>
+    <string name="keyboardview_keycode_shift">ቀይር</string>
+    <string name="keyboardview_keycode_enter">አስገባ</string>
+    <string name="description_target_unlock">ክፈት</string>
+    <string name="description_target_camera">ካሜራ</string>
+    <string name="description_target_silent">ፀጥታ</string>
+    <string name="description_target_soundon">ድምፅ አብራ</string>
+    <string name="description_direction_down">ለ%s ወደ ታች አንሸራትት።</string>
+    <string name="description_direction_right">ለ%s ወደ ቀኝ አንሸራትት።</string>
+    <string name="user_switched">የአሁኑ ተጠቃሚ %1$s።</string>
+    <string name="kg_emergency_call_label">የአደጋ ጊዜ ጥሪ</string>
+    <string name="kg_forgot_pattern_button_text">ስርዓተ ጥለቱን እርሳ</string>
+    <string name="kg_wrong_pattern">የተሳሳተ ስርዓተ ጥለት</string>
+    <string name="kg_wrong_password">የተሳሳተ ይለፍ ቃል</string>
+    <string name="kg_wrong_pin">የተሳሳተ ፒን</string>
+    <string name="kg_too_many_failed_attempts_countdown">በ%d ሰከንዶች ውስጥ እንደገና ይሞክሩ።</string>
+    <string name="kg_pattern_instructions">ስርዓተ ጥለትዎን ይሳሉ</string>
+    <string name="kg_sim_pin_instructions">የሲም ፒን ያስገቡ</string>
+    <string name="kg_pin_instructions">ፒን ያስገቡ</string>
+    <string name="kg_password_instructions">የይለፍ ቃል ያስገቡ</string>
+    <string name="kg_puk_enter_puk_hint">ሲም አሁን ተሰናክሏል። ለመቀጠል የPUK ኮድ ያስገቡ። ለዝርዝር ድምጸ ተያያዥ ሞደምን ያግኙ።</string>
+    <string name="kg_puk_enter_pin_hint">የተፈለገውን የፒን ኮድ ያስገቡ</string>
+    <string name="kg_enter_confirm_pin_hint">የተፈለገውን የፒን ኮድ ያረጋግጡ</string>
+    <string name="kg_sim_unlock_progress_dialog_message">ሲም ካርዱን በመክፈት ላይ…</string>
+    <string name="kg_invalid_sim_pin_hint">ከ4 እስከ 8 ቁጥሮች የያዘ ፒን ይተይቡ።</string>
+    <string name="kg_invalid_sim_puk_hint">የPUK ኮድ 8 ወይም ከዚያ በላይ ቁጥሮች ሊኖረው ይገባል።</string>
+    <string name="kg_invalid_puk">ትክክለኛውን የPUK ኮድ እንደገና ያስገቡ። ተደጋጋሚ ሙከራዎች ሲም ካርዱን እስከመጨረሻው ያሰናክሉታል።</string>
+    <string name="kg_invalid_confirm_pin_hint">ፒን ኮዶች አይገጣጠሙም</string>
+    <string name="kg_login_too_many_attempts">በጣም ብዙ የስርዓተ ጥለት ሙከራዎች</string>
+    <string name="kg_login_instructions">ለመክፈት በGoogle መለያዎ ይግቡ።</string>
+    <string name="kg_login_username_hint">የተጠቃሚ ስም (ኢሜይል)</string>
+    <string name="kg_login_password_hint">የይለፍ ቃል</string>
+    <string name="kg_login_submit_button">ግባ</string>
+    <string name="kg_login_invalid_input">ልክ ያልሆነ የተጠቃሚ ስም ወይም የይለፍ ቃል።</string>
+    <string name="kg_login_account_recovery_hint">"የተጠቃሚ ስምዎን ወይም የይለፍ ቃልዎን ረሱት?
+"<b>google.com/accounts/recovery</b>ይጎብኙ።</string>
+    <string name="kg_login_checking_password">መለያውን በማረጋገጥ ላይ…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"ፒንዎን %d ጊዜ በትክክል አልተየቡም። 
+
+በ%d ሰኮንዶች ውስጥ እንደገና ይሞክሩ።"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"የይለፍ ቃልዎን %d ጊዜ ትክክል ባልሆነ መንገድ ተይበዋል።
+
+በ%d ሰኮንዶች ውስጥ እንደገና ይሞክሩ።"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"የመክፈቻ ስርዓተ ጥለትዎን %d ጊዜ በትክክል አልሳሉትም። 
+
+ ከ%d ሰከንዶች በኋላ እንደገና ይሞክሩ።"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">ስልኩን %d ጊዜ ትክክል ባልሆነ መንገድ ለመክፈት ሞክረዋል። ከ%d ተጨማሪ ያልተሳኩ ሙከራዎች በኋላ ስልኩ በፋብሪካ ነባሪ ቅንብር ዳግም ይጀመርና ሁሉም የተጠቃሚ ውሂብ ይጠፋል።</string>
+    <string name="kg_failed_attempts_now_wiping">ስልኩን %d ጊዜ ትክክል ባልሆነ መንገድ ለመክፈት ሞክረዋል። ስልኩ አሁን በፋብሪካ ነባሪ ቅንብር ዳግም ይጀመራል።</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"የመክፈቻ ስርዓተ ጥለቱን %d ጊዜ በትክክል አልሳሉትም። ከ%d ተጨማሪ ያልተሳኩ ሙከራዎች በኋላ የኢሜይል መለያ ተጠቅመው ስልክዎን እንዲከፍቱ ይጠየቃሉ።
+
+እባክዎ ከ%d ሰከንዶች በኋላ እንደገና ይሞክሩ።"</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">አስወግድ</string>
+    <string name="kg_password_wrong_pin_code_pukked">ልክ ያልሆነ የሲም ኮድ። አሁን መሳሪያዎን ለማስከፈት ድምጸ ተያያዥ ሞደምዎን ማግኘት አለብዎ።</string>
+    <string name="kg_password_wrong_puk_code_dead">ሲሙ ጥቅም ላይ መዋል እይችልም። የእርስዎን ድምጸ ተያያዥ ሞደም ያግኙ።</string>
+    <string name="kg_password_pin_failed">የሲም ፒን ክወና አልተሳካም!</string>
+    <string name="kg_password_puk_failed">የሲም PUK ክወና አልተሳካም!</string>
+    <string name="kg_pin_accepted">ኮዱ ተቀባይነት አግኝቷል!</string>
+    <string name="keyguard_transport_prev_description">የቀዳሚ ትራክ አዝራር</string>
+    <string name="keyguard_transport_next_description">የቀጣይ ትራክ አዝራር</string>
+    <string name="keyguard_transport_pause_description">ለአፍታ አቁም አዝራር</string>
+    <string name="keyguard_transport_play_description">የአጫውት አዝራር</string>
+    <string name="keyguard_transport_stop_description">አቁም አዝራር</string>
+    <string name="keyguard_carrier_default">ከአገልግሎት መስጫ ክልል ውጪ።</string>
+</resources>

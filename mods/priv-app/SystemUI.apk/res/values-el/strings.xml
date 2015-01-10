@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">UI συστήματ.</string>
+    <string name="status_bar_clear_all_button">Εκκαθάριση</string>
+    <string name="status_bar_recent_remove_item_title">Κατάργηση από τη λίστα</string>
+    <string name="status_bar_recent_inspect_item_title">Πληροφορίες εφαρμογής</string>
+    <string name="status_bar_no_recent_apps">Οι πρόσφατες οθόνες σας εμφανίζονται εδώ</string>
+    <string name="status_bar_accessibility_dismiss_recents">Παράβλεψη πρόσφατων εφαρμογών</string>
+    <string name="status_bar_no_notifications_title">Δεν υπάρχουν ειδοποιήσεις</string>
+    <string name="status_bar_ongoing_events_title">Εν εξελίξει</string>
+    <string name="status_bar_latest_events_title">Ειδοποιήσεις</string>
+    <string name="battery_low_title">Χαμηλή στάθμη μπαταρίας</string>
+    <string name="battery_low_percent_format">Απομένει %d%%</string>
+    <string name="battery_low_percent_format_saver_started">Απομένει %d%%. Η Εξοικονόμηση μπαταρίας είναι ενεργή.</string>
+    <string name="invalid_charger">"Δεν υποστηρίζεται η φόρτιση USB.
+Χρησιμοποιείτε μόνο τον φορτιστή που παρέχεται."</string>
+    <string name="invalid_charger_title">Δεν υποστηρίζεται η φόρτιση μέσω USB.</string>
+    <string name="invalid_charger_text">Χρήση μόνο του παρεχόμενου φορτιστή.</string>
+    <string name="battery_low_why">Ρυθμίσεις</string>
+    <string name="battery_saver_confirmation_title">Να ενεργοποιηθεί η εξοικονόμηση μπαταρίας;</string>
+    <string name="battery_saver_confirmation_ok">Ενεργοποίηση</string>
+    <string name="battery_saver_start_action">Ενεργοποίηση της εξοικονόμησης μπαταρίας</string>
+    <string name="status_bar_settings_settings_button">Ρυθμίσεις</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Λειτουργία πτήσης</string>
+    <string name="status_bar_settings_auto_rotation">Αυτόματη περιστροφή οθόνης</string>
+    <string name="status_bar_settings_mute_label">ΣΙΓΑΣΗ</string>
+    <string name="status_bar_settings_auto_brightness_label">ΑΥΤΟΜ.</string>
+    <string name="status_bar_settings_notifications">Ειδοποιήσεις</string>
+    <string name="bluetooth_tethered">Έγινε σύνδεση μέσω Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Ρύθμιση μεθόδων εισαγωγής</string>
+    <string name="status_bar_use_physical_keyboard">Φυσικό πληκτρολόγιο</string>
+    <string name="usb_device_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση στη συσκευή USB;</string>
+    <string name="usb_accessory_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση στο αξεσουάρ USB;</string>
+    <string name="usb_device_confirm_prompt">Άνοιγμα του %1$s κατά τη σύνδεση αυτής της συσκευής USB;</string>
+    <string name="usb_accessory_confirm_prompt">Άνοιγμα του %1$s κατά τη σύνδεση αυτού του αξεσουάρ USB;</string>
+    <string name="usb_accessory_uri_prompt">Δεν έχετε εφαρμογή που να συνεργάζεται με το αξεσουάρ USB. Για περισσότερα: %1$s</string>
+    <string name="title_usb_accessory">Αξεσουάρ USB</string>
+    <string name="label_view">Προβολή</string>
+    <string name="always_use_device">Χρήση από προεπιλογή για αυτή τη συσκευή USB</string>
+    <string name="always_use_accessory">Χρήση από προεπιλογή για αυτό το εξάρτημα USB</string>
+    <string name="usb_debugging_title">Να επιτρέπεται ο εντοπισμός σφαλμάτων USB;</string>
+    <string name="usb_debugging_message">"Το μοναδικό χαρακτηριστικό του κλειδιού RSA είναι:
+%1$s"</string>
+    <string name="usb_debugging_always">Να επιτρέπεται πάντα από αυτόν τον υπολογιστή</string>
+    <string name="compat_mode_on">Ζουμ σε πλήρη οθόνη</string>
+    <string name="compat_mode_off">Προβoλή σε πλήρη οθ.</string>
+    <string name="screenshot_saving_ticker">Αποθήκ. στιγμιότυπου οθόνης...</string>
+    <string name="screenshot_saving_title">Αποθήκευση στιγμιότυπου οθόνης...</string>
+    <string name="screenshot_saving_text">Γίνεται αποθήκευση του στιγμιότυπου οθόνης.</string>
+    <string name="screenshot_saved_title">Λήφθηκε το στιγμιότυπο οθόνης .</string>
+    <string name="screenshot_saved_text">Αγγίξτε για να δείτε το στιγμιότυπο οθόνης σας</string>
+    <string name="screenshot_failed_title">Αδύνατη η αποθήκευση του στιγμιότυπου οθόνης.</string>
+    <string name="screenshot_failed_text">Αδύνατη λήψη στιγμ. οθόνης λόγω περιορισμένου αποθ.χώρου ή αποκλεισμού από εφαρμογή ή οργανισμό.</string>
+    <string name="usb_preference_title">Επιλογές μεταφοράς αρχείων μέσω USB</string>
+    <string name="use_mtp_button_title">Προσάρτηση ως μονάδας αναπαραγωγής μέσων (MTP)</string>
+    <string name="use_ptp_button_title">Προσάρτηση ως κάμερας (PTP)</string>
+    <string name="installer_cd_button_title">Εγκατάστ. της εφαρμ. μεταφ.αρχείων Android για Mac</string>
+    <string name="accessibility_back">Πίσω</string>
+    <string name="accessibility_home">Αρχική σελίδα</string>
+    <string name="accessibility_menu">Μενού</string>
+    <string name="accessibility_recent">Επισκόπηση</string>
+    <string name="accessibility_search_light">Αναζήτηση</string>
+    <string name="accessibility_camera_button">Φωτογραφική μηχανή</string>
+    <string name="accessibility_phone_button">Τηλέφωνο</string>
+    <string name="accessibility_unlock_button">Ξεκλείδωμα</string>
+    <string name="unlock_label">ξεκλείδωμα</string>
+    <string name="phone_label">άνοιγμα τηλεφώνου</string>
+    <string name="camera_label">άνοιγμα φωτογραφικής μηχανής</string>
+    <string name="accessibility_ime_switch_button">Κουμπί εναλλαγής μεθόδου εισόδου</string>
+    <string name="accessibility_compatibility_zoom_button">Κουμπί εστίασης συμβατότητας.</string>
+    <string name="accessibility_compatibility_zoom_example">Ζουμ από μικρότερη σε μεγαλύτερη οθόνη.</string>
+    <string name="accessibility_bluetooth_connected">Το Bluetooth είναι συνδεδεμένο.</string>
+    <string name="accessibility_bluetooth_disconnected">Το Bluetooth αποσυνδέθηκε.</string>
+    <string name="accessibility_no_battery">Δεν υπάρχει μπαταρία.</string>
+    <string name="accessibility_battery_one_bar">Μία γραμμή μπαταρίας.</string>
+    <string name="accessibility_battery_two_bars">Δύο γραμμές μπαταρίας.</string>
+    <string name="accessibility_battery_three_bars">Τρεις γραμμές μπαταρίας.</string>
+    <string name="accessibility_battery_full">Πλήρης μπαταρία.</string>
+    <string name="accessibility_no_phone">Δεν υπάρχει τηλέφωνο.</string>
+    <string name="accessibility_phone_one_bar">Μία γραμμή τηλεφώνου.</string>
+    <string name="accessibility_phone_two_bars">Δύο γραμμές τηλεφώνου.</string>
+    <string name="accessibility_phone_three_bars">Τρεις γραμμές μπαταρίας.</string>
+    <string name="accessibility_phone_signal_full">Πλήρες σήμα τηλεφώνου.</string>
+    <string name="accessibility_no_data">Δεν υπάρχουν δεδομένα.</string>
+    <string name="accessibility_data_one_bar">Μία γραμμή δεδομένων.</string>
+    <string name="accessibility_data_two_bars">Δύο γραμμές δεδομένων.</string>
+    <string name="accessibility_data_three_bars">Τρεις γραμμές δεδομένων.</string>
+    <string name="accessibility_data_signal_full">Πλήρες σήμα δεδομένων.</string>
+    <string name="accessibility_wifi_off">Wifi ανενεργό.</string>
+    <string name="accessibility_no_wifi">Το Wifi έχει αποσυνδεθεί.</string>
+    <string name="accessibility_wifi_one_bar">Μία γραμμή WiFi.</string>
+    <string name="accessibility_wifi_two_bars">Δύο γραμμές WiFi.</string>
+    <string name="accessibility_wifi_three_bars">Τρεις γραμμές WiFi.</string>
+    <string name="accessibility_wifi_signal_full">Πλήρες σήμα WiFi.</string>
+    <string name="accessibility_wifi_name">Συνδέθηκε στο %s.</string>
+    <string name="accessibility_bluetooth_name">Συνδέθηκε στο %s.</string>
+    <string name="accessibility_no_wimax">Δεν υπάρχει σήμα WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Σήμα WiMAX μία γραμμή.</string>
+    <string name="accessibility_wimax_two_bars">Σήμα WiMAX δύο γραμμές.</string>
+    <string name="accessibility_wimax_three_bars">Σήμα WiMAX τρεις γραμμές.</string>
+    <string name="accessibility_wimax_signal_full">Πλήρες σήμα WiMAX.</string>
+    <string name="accessibility_no_signal">Δεν υπάρχει σήμα.</string>
+    <string name="accessibility_not_connected">Δεν έχει συνδεθεί.</string>
+    <string name="accessibility_zero_bars">Μηδέν γραμμές.</string>
+    <string name="accessibility_one_bar">Μία γραμμή.</string>
+    <string name="accessibility_two_bars">Δύο γραμμές.</string>
+    <string name="accessibility_three_bars">Τρεις γραμμές.</string>
+    <string name="accessibility_signal_full">Πλήρες σήμα.</string>
+    <string name="accessibility_desc_on">Ενεργό.</string>
+    <string name="accessibility_desc_off">Ανενεργό.</string>
+    <string name="accessibility_desc_connected">Έχει συνδεθεί.</string>
+    <string name="accessibility_desc_connecting">Σύνδεση.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Περιαγωγή</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Δεν υπάρχει SIM.</string>
+    <string name="accessibility_bluetooth_tether">Πρόσδεση Bluetooth</string>
+    <string name="accessibility_airplane_mode">Λειτουργία πτήσης.</string>
+    <string name="accessibility_settings_button">Ρυθμίσεις συστήματος.</string>
+    <string name="accessibility_notifications_button">Ειδοποιήσεις.</string>
+    <string name="accessibility_remove_notification">Εκκαθάριση ειδοποίησης.</string>
+    <string name="accessibility_gps_enabled">Το GPS ενεργοποιήθηκε.</string>
+    <string name="accessibility_gps_acquiring">Προσδιορισμός GPS.</string>
+    <string name="accessibility_tty_enabled">Το TeleTypewriter ενεργοποιήθηκε.</string>
+    <string name="accessibility_ringer_vibrate">Δόνηση ειδοποίησης ήχου.</string>
+    <string name="accessibility_ringer_silent">Ειδοποίηση ήχου στο αθόρυβο.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Παράβλεψη %s.</string>
+    <string name="accessibility_recents_item_dismissed">Απορρίφθηκαν %s.</string>
+    <string name="accessibility_recents_item_launched">Έναρξη %s.</string>
+    <string name="accessibility_notification_dismissed">Η ειδοποίηση έχει απορριφθεί.</string>
+    <string name="accessibility_desc_notification_shade">Πλαίσιο σκίασης ειδοποιήσεων.</string>
+    <string name="accessibility_desc_quick_settings">Γρήγορες ρυθμίσεις.</string>
+    <string name="accessibility_desc_lock_screen">Κλείδωμα οθόνης.</string>
+    <string name="accessibility_desc_settings">Ρυθμίσεις</string>
+    <string name="accessibility_desc_recent_apps">Επισκόπηση.</string>
+    <string name="accessibility_quick_settings_user">Χρήστης %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Το Wi-fi απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">"Το  Wi-fi ενεργοποιήθηκε."</string>
+    <string name="accessibility_quick_settings_mobile">Κινητό %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Μπαταρία %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Ανενεργή λειτουργία πτήσης.</string>
+    <string name="accessibility_quick_settings_airplane_on">Ενεργή λειτουργία πτήσης.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Η λειτουργία πτήσης απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Ενεργή λειτουργία πτήσης.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Ανενεργό Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Ενεργό Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Σύνδεση Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Το Bluetooth είναι συνδεδεμένο.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Το Bluetooth απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Το Bluetooth ενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_location_off">Ανενεργή αναφορά τοποθεσίας.</string>
+    <string name="accessibility_quick_settings_location_on">Ενεργή αναφορά τοποθεσίας.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Η Αναφορά τοποθεσίας απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Η Αναφορά τοποθεσίας ενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_alarm">Το ξυπνητήρι έχει οριστεί στις %s.</string>
+    <string name="accessibility_quick_settings_close">Κλείσιμο παραθύρου.</string>
+    <string name="accessibility_quick_settings_more_time">Περισσότερη ώρα.</string>
+    <string name="accessibility_quick_settings_less_time">Λιγότερη ώρα.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Ανενεργός φακός.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Ενεργός φακός.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Ο φακός απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Ο φακός ενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Η αντιστροφή χρωμάτων απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Η αντιστροφή χρωμάτων ενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Το σημείο πρόσβασης κινητής συσκευής απενεργοποιήθηκε.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Το σημείο πρόσβασης κινητής συσκευής ενεργοποιήθηκε.</string>
+    <string name="accessibility_casting_turned_off">Η μετάδοση της οθόνης διακόπηκε.</string>
+    <string name="accessibility_brightness">Φωτεινότητα οθόνης</string>
+    <string name="data_usage_disabled_dialog_3g_title">Τα δεδομένα 2G-3G είναι ανενεργά</string>
+    <string name="data_usage_disabled_dialog_4g_title">Τα δεδομένα 4G είναι ανενεργά</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Τα δεδομένα κινητής τηλεφωνίας είναι ανενεργά</string>
+    <string name="data_usage_disabled_dialog_title">Τα δεδομένα είναι ανενεργά</string>
+    <string name="data_usage_disabled_dialog">"Τα δεδομένα απενεργοποιήθηκαν στη συσκευή σας, επειδή εξαντλήσατε το όριο που ορίσατε.
+
+Η επανενεργοποίησή τους ενδέχεται να επιφέρει χρεώσεις από την εταιρεία κινητής τηλεφωνίας σας."</string>
+    <string name="data_usage_disabled_dialog_enable">Ενεργοποίηση δεδομένων</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Χωρ. σύνδ. στο Διαδ.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi συνδεδεμένο</string>
+    <string name="gps_notification_searching_text">Αναζήτηση για GPS</string>
+    <string name="gps_notification_found_text">Ρύθμιση τοποθεσίας με GPS</string>
+    <string name="accessibility_location_active">Τα αιτήματα τοποθεσίας έχουν ενεργοποιηθεί</string>
+    <string name="accessibility_clear_all">Εκκαθάριση όλων των ειδοποιήσεων.</string>
+    <string name="status_bar_notification_inspect_item_title">Ρυθμίσεις ειδοποιήσεων</string>
+    <string name="status_bar_notification_app_settings_title">Ρυθμίσεις %s</string>
+    <string name="accessibility_rotation_lock_off">Θα γίνεται αυτόματη περιστροφή της οθόνης.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Η οθόνη έχει κλειδωθεί σε οριζόντιο προσανατολισμό.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Η οθόνη έχει κλειδωθεί σε κατακόρυφο προσανατολισμό.</string>
+    <string name="accessibility_rotation_lock_off_changed">Θα γίνεται πλέον αυτόματη περιστροφή της οθόνης.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Η οθόνη έχει κλειδωθεί σε οριζόντιο προσανατολισμό.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Η οθόνη έχει κλειδωθεί σε κατακόρυφο προσανατολισμό.</string>
+    <string name="dessert_case">Επιδόρπιο</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Λειτουργία πτήσης</string>
+    <string name="quick_settings_battery_charging_label">Φόρτιση, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Μπαταρία πλήρης</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d συσκευές)</string>
+    <string name="quick_settings_bluetooth_off_label">Απενεργοποιημένο Bluetooth</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Δεν υπάρχουν διαθέσιμες συσκευές σε σύζευξη</string>
+    <string name="quick_settings_brightness_label">Φωτεινότητα</string>
+    <string name="quick_settings_rotation_unlocked_label">Αυτόματη περιστροφή</string>
+    <string name="quick_settings_rotation_locked_label">Η περιστροφή είναι κλειδωμένη</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Κατακόρυφα</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Οριζόντια</string>
+    <string name="quick_settings_ime_label">Μέθοδος εισαγωγής</string>
+    <string name="quick_settings_location_label">Τοποθεσία</string>
+    <string name="quick_settings_location_off_label">Τοποθεσία απενεργοποιημένη</string>
+    <string name="quick_settings_media_device_label">Συσκευή μέσων</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Μόνο κλήσεις έκτακτης ανάγκης</string>
+    <string name="quick_settings_settings_label">Ρυθμίσεις</string>
+    <string name="quick_settings_time_label">Ώρα</string>
+    <string name="quick_settings_user_label">Εγώ</string>
+    <string name="quick_settings_user_title">Χρήστης</string>
+    <string name="quick_settings_user_new_user">Νέος χρήστης</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Μη συνδεδεμένο</string>
+    <string name="quick_settings_wifi_no_network">Κανένα δίκτυο</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi ανενεργό</string>
+    <string name="quick_settings_wifi_detail_empty_text">Δεν υπάρχουν διαθέσιμα αποθηκευμένα δίκτυα</string>
+    <string name="quick_settings_cast_title">Οθόνη μετάδοσης</string>
+    <string name="quick_settings_casting">Μετάδοση</string>
+    <string name="quick_settings_cast_device_default_name">Ανώνυμη συσκευή</string>
+    <string name="quick_settings_cast_device_default_description">Έτοιμο για μετάδοση</string>
+    <string name="quick_settings_cast_detail_empty_text">Δεν υπάρχουν διαθέσιμες συσκευές</string>
+    <string name="quick_settings_brightness_dialog_title">Φωτεινότητα</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ΑΥΤΟΜΑΤΗ</string>
+    <string name="quick_settings_inversion_label">Αντιστροφή χρωμάτων</string>
+    <string name="quick_settings_color_space_label">Λειτουργία διόρθωσης χρώματος</string>
+    <string name="quick_settings_more_settings">Περισσότερες ρυθμίσεις</string>
+    <string name="quick_settings_done">Τέλος</string>
+    <string name="quick_settings_connected">Συνδέθηκε</string>
+    <string name="quick_settings_connecting">Σύνδεση…</string>
+    <string name="quick_settings_tethering_label">Πρόσδεση</string>
+    <string name="quick_settings_hotspot_label">Σημείο πρόσβασης Wi-Fi</string>
+    <string name="quick_settings_notifications_label">Ειδοποιήσεις</string>
+    <string name="quick_settings_flashlight_label">Φακός</string>
+    <string name="quick_settings_cellular_detail_title">Δεδομένα κινητής τηλεφωνίας</string>
+    <string name="quick_settings_cellular_detail_data_usage">Χρήση δεδομένων</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Υπολειπόμενα δεδομένα</string>
+    <string name="quick_settings_cellular_detail_over_limit">Συμπλήρωση του ορίου – παύση χρήσης δεδομένων</string>
+    <string name="quick_settings_cellular_detail_data_used">Χρησιμοποιούνται %s</string>
+    <string name="quick_settings_cellular_detail_data_limit">Όριο %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">Προειδοποίηση για %s</string>
+    <string name="recents_empty_message">Οι πρόσφατες οθόνες σας εμφανίζονται εδώ</string>
+    <string name="recents_app_info_button_label">Πληροφορίες εφαρμογής</string>
+    <string name="recents_lock_to_app_button_label">lock to app</string>
+    <string name="recents_search_bar_label">αναζήτηση</string>
+    <string name="recents_launch_error_message">Δεν ήταν δυνατή η εκκίνηση της εφαρμογής %s.</string>
+    <string name="expanded_header_battery_charged">Φορτίστηκε</string>
+    <string name="expanded_header_battery_charging">Φόρτιση</string>
+    <string name="expanded_header_battery_charging_with_time">%s για πλήρη φόρτιση</string>
+    <string name="expanded_header_battery_not_charging">Δεν φορτίζει</string>
+    <string name="ssl_ca_cert_warning">"Το δίκτυο μπορεί
+να παρακολουθείται"</string>
+    <string name="description_target_search">Αναζήτηση</string>
+    <string name="description_direction_up">Κύλιση προς τα επάνω για %s.</string>
+    <string name="description_direction_left">Κύλιση προς τα αριστερά για %s.</string>
+    <string name="zen_no_interruptions_with_warning">Χωρίς διακοπές. Ούτε ειδοποιήσεις,</string>
+    <string name="zen_no_interruptions">Χωρίς διακοπές</string>
+    <string name="zen_important_interruptions">Μόνο διακοπές προτεραιότητας</string>
+    <string name="zen_alarm_information_time">Το επόμενο ξυπνητήρι είναι στις %s</string>
+    <string name="zen_alarm_information_day_time">Το επόμενο ξυπνητήρι είναι στις %s</string>
+    <string name="zen_alarm_warning">Δεν θα ακούτε το ξυπνητήρι σας στις %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Λιγότερο επείγουσες ειδοποιήσεις παρακάτω</string>
+    <string name="notification_tap_again">Αγγίξτε ξανά για άνοιγμα</string>
+    <string name="keyguard_unlock">Σύρετε για να ξεκλειδώσετε</string>
+    <string name="phone_hint">Σύρετε προς τα δεξιά για το τηλέφωνο</string>
+    <string name="camera_hint">Σύρετε αριστερά για τη φωτογραφική μηχανή</string>
+    <string name="interruption_level_none">Κανένα</string>
+    <string name="interruption_level_priority">Προτεραιότητα</string>
+    <string name="interruption_level_all">Όλα</string>
+    <string name="keyguard_indication_charging_time">Φόρτιση (%s για πλήρη φόρτιση)</string>
+    <string name="accessibility_multi_user_switch_switcher">Εναλλαγή χρήστη</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Εναλλαγή χρήστη, τρέχων χρήστης %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Εμφάνιση προφίλ</string>
+    <string name="user_add_user">Προσθήκη χρήστη</string>
+    <string name="user_new_user_name">Νέος χρήστης</string>
+    <string name="guest_nickname">Επισκέπτης</string>
+    <string name="guest_new_guest">Προσθήκη επισκέπτη</string>
+    <string name="guest_exit_guest">Κατάργηση επισκέπτη</string>
+    <string name="guest_exit_guest_dialog_title">Κατάργηση επισκέπτη;</string>
+    <string name="guest_exit_guest_dialog_message">Όλες οι εφαρμογές και τα δεδομένα αυτής της περιόδου σύνδεσης θα διαγραφούν.</string>
+    <string name="guest_exit_guest_dialog_remove">Κατάργηση</string>
+    <string name="guest_wipe_session_title">Επισκέπτη , καλώς όρισες ξανά!</string>
+    <string name="guest_wipe_session_message">Θέλετε να συνεχίσετε την περίοδο σύνδεσής σας;</string>
+    <string name="guest_wipe_session_wipe">Έναρξη από την αρχή</string>
+    <string name="guest_wipe_session_dontwipe">Ναι, συνέχεια</string>
+    <string name="user_add_user_title">Προσθήκη νέου χρήστη;</string>
+    <string name="user_add_user_message_short">"Κατά την προσθήκη ενός νέου χρήστη, αυτός θα πρέπει να ρυθμίσει το χώρο του.
+
+Οποιοσδήποτε χρήστης μπορεί να ενημερώσει τις εφαρμογές για όλους τους άλλους χρήστες."</string>
+    <string name="battery_saver_notification_title">Η Εξοικονόμηση μπαταρίας είναι ενεργή</string>
+    <string name="battery_saver_notification_text">Μειώνει την απόδοση και τα δεδομένα παρασκηνίου</string>
+    <string name="battery_saver_notification_action_text">Απενεργοποίηση εξοικονόμησης μπαταρίας</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Κρυφό περιεχόμενο</string>
+    <string name="media_projection_dialog_text">Θα ξεκινήσει η καταγραφή του περιεχομένου που εμφανίζεται στην οθόνη σας από την εφαρμογή %s.</string>
+    <string name="media_projection_remember_text">Να μην εμφανιστεί ξανά</string>
+    <string name="clear_all_notifications_text">Διαγραφή όλων</string>
+    <string name="media_projection_action_text">Έναρξη τώρα</string>
+    <string name="empty_shade_text">Δεν υπάρχουν ειδοποιήσεις</string>
+    <string name="device_owned_footer">Η συσκευή μπορεί να παρακολουθείται</string>
+    <string name="profile_owned_footer">Το προφίλ ενδέχεται να παρακολουθείται</string>
+    <string name="vpn_footer">Το δίκτυο ενδέχεται να παρακολουθείται</string>
+    <string name="monitoring_title_device_owned">Παρακολούθηση συσκευής</string>
+    <string name="monitoring_title_profile_owned">Παρακολούθηση προφίλ</string>
+    <string name="monitoring_title">Παρακολούθηση δικτύου</string>
+    <string name="disable_vpn">Απενεργοποίηση VPN</string>
+    <string name="disconnect_vpn">Αποσύνδεση VPN</string>
+    <string name="monitoring_description_device_owned">"Η διαχείριση αυτής της συσκευής πραγματοποιείται από:
+%1$s
+
+Ο διαχειριστής σας μπορεί να παρακολουθεί τη δραστηριότητα της συσκευής σας και του δικτύου, συμπεριλαμβανομένων των μηνυμάτων ηλεκτρονικού ταχυδρομείου, των εφαρμογών και των ασφαλών ιστότοπων.
+
+Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή σας."</string>
+    <string name="monitoring_description_vpn">"Παραχωρήσατε στην εφαρμογή \"%1$s\" άδεια για τη δημιουργία σύνδεσης VPN.
+
+Αυτή η εφαρμογή μπορεί να παρακολουθεί τη δραστηριότητα της συσκευής σας και του δικτύου, συμπεριλαμβανομένων των μηνυμάτων ηλεκτρονικού ταχυδρομείου, των εφαρμογών και των ασφαλών ιστότοπων."</string>
+    <string name="monitoring_description_legacy_vpn">"Είστε συνδεδεμένοι σε VPN (\"%1$s\").
+
+Ο πάροχος της υπηρεσίας VPN μπορεί να παρακολουθεί τη δραστηριότητα της συσκευής σας και του δικτύου, συμπεριλαμβανομένων των μηνυμάτων ηλεκτρονικού ταχυδρομείου, των εφαρμογών και των ασφαλών ιστότοπων."</string>
+    <string name="monitoring_description_vpn_device_owned">"Η διαχ. της συσκευής γίνεται από:
+%1$s
+
+Ο διαχειριστής μπορεί να παρακ. τη δραστ. του δικτύου, όπως τα μην. ηλ. ταχυδρ., τις εφαρ. και τους ασφ. ιστότ. Για περισ. πληροφορίες, επικοιν. με το διαχειριστή.
+
+Επίσης, επιτρέψατε στο \"%2$s\" να ρυθμίσει σύνδεση VPN. Αυτή η εφαρ. μπορεί να παρακ. τη δραστ. του δικτύου."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Η διαχείριση της συσκευής γίνεται από:
+%1$s
+
+Ο διαχειριστής μπορεί να παρακολ. τη δραστ. του δικτύου, όπως τα μην. ηλεκ. ταχυδρ., τις εφαρμογές και τους ασφαλείς ιστότοπους. Για περισ. πληροφορίες, επικοιν. με το διαχειριστή.
+
+Επίσης, είστε συνδεδ. σε VPN (\"%2$s\"). Ο παροχέας VPN μπορεί να παρακολ. τη δραστ. του δικτύου."</string>
+    <string name="monitoring_description_profile_owned">"Η διαχείριση του προφίλ γίνεται από:
+%1$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και δραστηριότητα δικτύου, email, εφαρμογές και ασφαλείς ιστότοπους.
+
+Για πληροφορίες, επικοινωνήστε με το διαχειριστή."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Η διαχείριση της συσκευής γίνεται από:
+%1$s
+Η διαχείριση του προφίλ σας γίνεται από:
+%2$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και τη δραστηριότητα δικτύου σας, τα μηνύματα ηλεκτρονικού ταχυδρομείου, τις εφαρμογές και τους ασφαλείς ιστότοπους.
+
+Για πληροφορίες, επικοινωνήστε με το διαχειριστή."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Η διαχείριση του προφίλ γίνεται από:
+%1$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και δραστηριότητα δικτύου, email, εφαρμογές και ασφαλείς ιστότοπους. Για πληροφορίες, επικοινωνήστε με το διαχειριστή.
+
+Παραχωρήσατε άδεια \"%2$s\" για ρύθμιση σύνδεσης VPN. Η εφαρμογή μπορεί να παρακολουθεί τη δραστηριότητα δικτύου."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Η διαχείριση του προφίλ γίνεται από:
+%1$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και δραστηριότητα δικτύου, email, εφαρμογές και ασφαλείς ιστότοπους. Για πληροφορίες, επικοινωνήστε με το διαχειριστή.
+
+Επίσης, συνδεθήκατε σε VPN (\"%2$s\"). Ο πάροχος VPN μπορεί να παρακολουθεί τη δραστηριότητα δικτύου."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Η διαχείριση της συσκευής γίνεται από:
+%1$s
+Η διαχείριση του προφίλ γίνεται από:
+%2$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και δραστηριότητα δικτύου, email, εφαρμογές και ασφαλείς ιστότοπους. Για πληροφορίες, επικοινωνήστε με το διαχειριστή.
+
+Παραχωρήσατε άδεια \"%3$s\" για ρύθμιση σύνδεσης VPN. Η εφαρμογή μπορεί να παρακολουθεί τη δραστηριότητα δικτύου."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Η διαχείριση της συσκευής γίνεται από:
+%1$s
+Η διαχείριση του προφίλ γίνεται από:
+%2$s
+
+Ο διαχειριστής μπορεί να παρακολουθεί τη συσκευή και τη δραστηριότητα δικτύου σας, τα email, εφαρμογές και ασφαλείς ιστότοπους.
+
+Επίσης, συνδεθήκατε σε VPN (\"%3$s\"). Ο πάροχος VPN μπορεί να παρακολουθεί τη δραστηριότητα δικτύου σας."</string>
+    <string name="keyguard_indication_trust_disabled">Η συσκευή θα παραμείνει κλειδωμένη έως ότου την ξεκλειδώσετε μη αυτόματα</string>
+    <string name="hidden_notifications_title">Λάβετε ειδοποιήσεις γρηγορότερα</string>
+    <string name="hidden_notifications_text">Εμφάνιση πριν το ξεκλείδωμα</string>
+    <string name="hidden_notifications_cancel">Όχι</string>
+    <string name="hidden_notifications_setup">Ρύθμιση</string>
+    <string name="muted_by">Σίγαση από %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Πληκτρολογήστε τον κωδικό αριθμό PIN</string>
+    <string name="keyguard_password_enter_puk_code">Πληκτρολογήστε τον κωδικό PUK της κάρτας SIM και τον νέο κωδικό PIN</string>
+    <string name="keyguard_password_enter_puk_prompt">Κωδικός PUK κάρτας SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">Νέος κώδικας αριθμού PIN της κάρτας SIM</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Αγγίξτε για εισαγ. κωδ. πρόσβ.</font></string>
+    <string name="keyguard_password_enter_password_code">Πληκτρολογήστε τον κωδικό πρόσβασης για ξεκλείδωμα</string>
+    <string name="keyguard_password_enter_pin_password_code">Πληκτρολογήστε τον αριθμό PIN για ξεκλείδωμα</string>
+    <string name="keyguard_password_wrong_pin_code">Εσφαλμένος κωδικός PIN.</string>
+    <string name="keyguard_label_text">Για ξεκλείδωμα, πατήστε το πλήκτρο Menu και, στη συνέχεια, το πλήκτρο 0.</string>
+    <string name="faceunlock_multiple_failures">Έγινε υπέρβαση του μέγιστου αριθμού προσπαθειών Face Unlock</string>
+    <string name="keyguard_charged">Φορτίστηκε</string>
+    <string name="keyguard_plugged_in">Φόρτιση</string>
+    <string name="keyguard_low_battery">Συνδέστε τον φορτιστή.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Πατήστε \"Μενού\" για ξεκλείδωμα.</string>
+    <string name="keyguard_network_locked_message">Το δίκτυο κλειδώθηκε</string>
+    <string name="keyguard_missing_sim_message_short">Δεν υπάρχει κάρτα SIM</string>
+    <string name="keyguard_missing_sim_message">Δεν υπάρχει κάρτα SIM στο τηλέφωνο.</string>
+    <string name="keyguard_missing_sim_instructions">Τοποθετήστε μια κάρτα SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">Η κάρτα SIM δεν υπάρχει ή δεν είναι δυνατή η ανάγνωσή της. Τοποθετήστε μια κάρτα SIM.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Η κάρτα SIM δεν μπορεί να χρησιμοποιηθεί.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Η κάρτα SIM έχει απενεργοποιηθεί οριστικά.
+ Επικοινωνήστε με τον παροχέα υπηρεσιών ασύρματου δικτύου για να λάβετε μια νέα κάρτα SIM."</string>
+    <string name="keyguard_sim_locked_message">Η κάρτα SIM είναι κλειδωμένη.</string>
+    <string name="keyguard_sim_puk_locked_message">Η κάρτα SIM είναι κλειδωμένη με κωδικό PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Ξεκλείδωμα κάρτας SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Γραφικό στοιχείο %2$d από %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Προσθήκη γραφικού στοιχείου</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Κενή</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Ανάπτυξη της περιοχής ξεκλειδώματος.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Σύμπτυξη της περιοχής ξεκλειδώματος.</string>
+    <string name="keyguard_accessibility_widget">Γραφικό στοιχείο %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Επιλογέας χρήστη</string>
+    <string name="keyguard_accessibility_camera">Φωτογραφική μηχανή</string>
+    <string name="keygaurd_accessibility_media_controls">Στοιχεία ελέγχου μέσων</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Έχει ξεκινήσει η αναδιάταξη των γραφικών στοιχείων.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Έχει ολοκληρωθεί η αναδιάταξη των γραφικών στοιχείων.</string>
+    <string name="keyguard_accessibility_widget_deleted">Το γραφικό στοιχείο %1$s έχει διαγραφεί.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Ανάπτυξη περιοχής ξεκλειδώματος.</string>
+    <string name="keyguard_accessibility_slide_unlock">Ξεκλείδωμα ολίσθησης.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Ξεκλείδωμα μοτίβου.</string>
+    <string name="keyguard_accessibility_face_unlock">Face unlock.</string>
+    <string name="keyguard_accessibility_pin_unlock">Ξεκλείδωμα κωδικού ασφαλείας</string>
+    <string name="keyguard_accessibility_password_unlock">Ξεκλείδωμα κωδικού πρόσβασης.</string>
+    <string name="keyguard_accessibility_pattern_area">Περιοχή μοτίβου.</string>
+    <string name="keyguard_accessibility_slide_area">Περιοχή ολίσθησης</string>
+    <string name="keyguard_accessibility_transport_prev_description">Κουμπί προηγούμενου κομματιού</string>
+    <string name="keyguard_accessibility_transport_next_description">Κουμπί επόμενου κομματιού</string>
+    <string name="keyguard_accessibility_transport_pause_description">Κουμπί παύσης</string>
+    <string name="keyguard_accessibility_transport_play_description">Κουμπί αναπαραγωγής</string>
+    <string name="keyguard_accessibility_transport_stop_description">Κουμπί διακοπής</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Επιδοκιμασία</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Αποδοκιμασία</string>
+    <string name="keyguard_accessibility_transport_heart_description">Καρδιά</string>
+    <string name="keyguard_accessibility_show_bouncer">Ξεκλειδώστε για να συνεχίσετε</string>
+    <string name="keyguard_accessibility_hide_bouncer">Η εκκίνηση ακυρώθηκε</string>
+    <string name="keyguard_accessibility_delete_widget_start">Αποθέστε %1$s για διαγραφή.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s δεν θα διαγραφεί.</string>
+    <string name="keyguard_accessibility_next_alarm">Το επόμενο ξυπνητήρι ορίστηκε στις %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ΑΒΓ</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Ακύρωση</string>
+    <string name="keyboardview_keycode_delete">Διαγραφή</string>
+    <string name="keyboardview_keycode_done">Τέλος</string>
+    <string name="keyboardview_keycode_mode_change">Αλλαγή τρόπου</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">Ξεκλείδωμα</string>
+    <string name="description_target_camera">Φωτογραφική μηχανή</string>
+    <string name="description_target_silent">Αθόρυβο</string>
+    <string name="description_target_soundon">Ενεργοποίηση ήχου</string>
+    <string name="description_direction_down">Κύλιση προς τα κάτω για %s.</string>
+    <string name="description_direction_right">Κύλιση προς τα δεξιά για %s.</string>
+    <string name="user_switched">Τρέχων χρήστης %1$s.</string>
+    <string name="kg_emergency_call_label">Κλήσεις επείγουσας ανάγκης</string>
+    <string name="kg_forgot_pattern_button_text">Ξεχάσατε το μοτίβο</string>
+    <string name="kg_wrong_pattern">Εσφαλμένο μοτίβο</string>
+    <string name="kg_wrong_password">Εσφαλμένος κωδικός πρόσβασης</string>
+    <string name="kg_wrong_pin">Εσφαλμένος κωδικός PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Δοκιμάστε ξανά σε %d δευτερόλεπτα.</string>
+    <string name="kg_pattern_instructions">Σχεδιάστε το μοτίβο σας</string>
+    <string name="kg_sim_pin_instructions">Εισαγωγή PIN SIM</string>
+    <string name="kg_pin_instructions">Πληκτρολογήστε το PIN</string>
+    <string name="kg_password_instructions">Εισαγάγετε κωδικό πρόσβασης</string>
+    <string name="kg_puk_enter_puk_hint">Η κάρτα SIM είναι απενεργοποιημένη αυτή τη στιγμή. Εισαγάγετε τον κωδικό PUK για να συνεχίσετε. Επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας σας για λεπτομέρειες.</string>
+    <string name="kg_puk_enter_pin_hint">Εισαγάγετε τον απαιτούμενο κωδικό PIN</string>
+    <string name="kg_enter_confirm_pin_hint">Επιβεβαιώστε τον απαιτούμενο κωδικό PIN</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Ξεκλείδωμα κάρτας SIM...</string>
+    <string name="kg_invalid_sim_pin_hint">Πληκτρολογήστε έναν αριθμό PIN που να αποτελείται από 4 έως 8 αριθμούς.</string>
+    <string name="kg_invalid_sim_puk_hint">Ο κωδικός PUK θα πρέπει να περιέχει τουλάχιστον 8 αριθμούς.</string>
+    <string name="kg_invalid_puk">Εισαγάγετε ξανά τον κωδικό PUK. Οι επαναλαμβανόμενες προσπάθειες θα απενεργοποιήσουν οριστικά την κάρτα SIM.</string>
+    <string name="kg_invalid_confirm_pin_hint">Δεν υπάρχει αντιστοιχία των κωδικών PIN</string>
+    <string name="kg_login_too_many_attempts">Πάρα πολλές προσπάθειες μοτίβου</string>
+    <string name="kg_login_instructions">Για ξεκλείδωμα, συνδεθείτε με τον λογαριασμό σας Google.</string>
+    <string name="kg_login_username_hint">Όνομα χρήστη (διεύθυνση ηλεκτρονικού ταχυδρομείου)</string>
+    <string name="kg_login_password_hint">Κωδικός πρόσβασης</string>
+    <string name="kg_login_submit_button">Σύνδεση</string>
+    <string name="kg_login_invalid_input">Μη έγκυρο όνομα χρήστη ή κωδικός πρόσβασης.</string>
+    <string name="kg_login_account_recovery_hint">"Ξεχάσατε το όνομα χρήστη ή τον κωδικό πρόσβασής σας;
+Επισκεφτείτε τη διεύθυνση "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Έλεγχος λογαριασμού…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Έχετε πληκτρολογήσει εσφαλμένα τον κωδικό σας PIN %d φορές. 
+
+Δοκιμάστε ξανά σε %d δευτερόλεπτα."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Έχετε πληκτρολογήσει τον κωδικό πρόσβασης εσφαλμένα %d φορές. 
+
+Δοκιμάστε ξανά σε %d δευτερόλεπτα."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Σχεδιάσατε εσφαλμένα το μοτίβο ξεκλειδώματος %d φορές. 
+
+Δοκιμάστε ξανά σε %d δευτερόλετπα."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το τηλέφωνο %d φορές. Μετά από %d προσπάθειες, το τηλέφωνο θα επαναφερθεί στις εργοστασιακές ρυθμίσεις και όλα τα δεδομένα χρήστη θα χαθούν.</string>
+    <string name="kg_failed_attempts_now_wiping">Προσπαθήσατε να ξεκλειδώσετε εσφαλμένα το τηλέφωνο %d φορές. Το τηλέφωνο θα επαναφερθεί στις εργοστασιακές ρυθμίσεις.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Σχεδιάσατε το μοτίβο ξεκλειδώματος εσφαλμένα %d φορές. Μετά από %d ανεπιτυχείς προσπάθειες ακόμη, θα σας ζητηθεί να ξεκλειδώσετε το τηλέφωνό σας με τη χρήση ενός λογαριασμού ηλεκτρονικού ταχυδρομείου.
+
+ Δοκιμάστε ξανά σε %d δευτερόλεπτα."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Κατάργηση</string>
+    <string name="kg_password_wrong_pin_code_pukked">Εσφαλμένος κωδικός PIN κάρτας SIM. Θα πρέπει να επικοινωνήσετε με τον πάροχο κινητής τηλεφωνίας σας για να ξεκλειδώσετε τη συσκευή σας.</string>
+    <string name="kg_password_wrong_puk_code_dead">Η κάρτα SIM δεν μπορεί να χρησιμοποιηθεί. Επικοινωνήστε με τον πάροχο κινητής τηλεφωνίας σας.</string>
+    <string name="kg_password_pin_failed">Αποτυχία λειτουργίας κωδικού PIN κάρτας SIM!</string>
+    <string name="kg_password_puk_failed">Αποτυχία λειτουργίας κωδικού PUK κάρτας SIM!</string>
+    <string name="kg_pin_accepted">Αποδεκτός κωδικός!</string>
+    <string name="keyguard_transport_prev_description">Κουμπί προηγούμενου κομματιού</string>
+    <string name="keyguard_transport_next_description">Κουμπί επόμενου κομματιού</string>
+    <string name="keyguard_transport_pause_description">Κουμπί παύσης</string>
+    <string name="keyguard_transport_play_description">Κουμπί αναπαραγωγής</string>
+    <string name="keyguard_transport_stop_description">Κουμπί διακοπής</string>
+    <string name="keyguard_carrier_default">Καμία υπηρεσία.</string>
+</resources>

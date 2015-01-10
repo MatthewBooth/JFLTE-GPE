@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">UI sistema</string>
+    <string name="status_bar_clear_all_button">Cancella</string>
+    <string name="status_bar_recent_remove_item_title">"Rimuovi dall'elenco"</string>
+    <string name="status_bar_recent_inspect_item_title">Informazioni applicazione</string>
+    <string name="status_bar_no_recent_apps">Le tue schermate recenti vengono visualizzate in questa sezione</string>
+    <string name="status_bar_accessibility_dismiss_recents">Ignora app recenti</string>
+    <string name="status_bar_no_notifications_title">Nessuna notifica</string>
+    <string name="status_bar_ongoing_events_title">In corso</string>
+    <string name="status_bar_latest_events_title">Notifiche</string>
+    <string name="battery_low_title">Batteria quasi scarica</string>
+    <string name="battery_low_percent_format">%d%% rimanente</string>
+    <string name="battery_low_percent_format_saver_started">%d%% rimanente. La funzione Risparmio batteria è attiva.</string>
+    <string name="invalid_charger">"Ricarica tramite USB non supportata.
+Utilizza solo il caricatore in dotazione."</string>
+    <string name="invalid_charger_title">Ricarica tramite USB non supportata.</string>
+    <string name="invalid_charger_text">Utilizza solo il caricabatterie fornito in dotazione.</string>
+    <string name="battery_low_why">Impostazioni</string>
+    <string name="battery_saver_confirmation_title">Attivare il risparmio energetico?</string>
+    <string name="battery_saver_confirmation_ok">Attiva</string>
+    <string name="battery_saver_start_action">Attiva risparmio energetico</string>
+    <string name="status_bar_settings_settings_button">Impostazioni</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Modalità aereo</string>
+    <string name="status_bar_settings_auto_rotation">Rotazione automatica schermo</string>
+    <string name="status_bar_settings_mute_label">MUTE</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Notifiche</string>
+    <string name="bluetooth_tethered">Bluetooth con tethering</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configura metodi di immissione</string>
+    <string name="status_bar_use_physical_keyboard">Tastiera fisica</string>
+    <string name="usb_device_permission_prompt">"Consentire all'applicazione %1$s di accedere al dispositivo USB?"</string>
+    <string name="usb_accessory_permission_prompt">"Consentire all'applicazione %1$s di accedere all'accessorio USB?"</string>
+    <string name="usb_device_confirm_prompt">Aprire %1$s quando questo dispositivo USB è collegato?</string>
+    <string name="usb_accessory_confirm_prompt">Aprire %1$s quando questo accessorio USB è collegato?</string>
+    <string name="usb_accessory_uri_prompt">Nessuna applicazione installata funziona con questo accessorio USB. Info su %1$s.</string>
+    <string name="title_usb_accessory">Accessorio USB</string>
+    <string name="label_view">Visualizza</string>
+    <string name="always_use_device">Usa per impostazione predef. per dispositivo USB</string>
+    <string name="always_use_accessory">Usa per impostazione predef. per accessorio USB</string>
+    <string name="usb_debugging_title">Consentire debug USB?</string>
+    <string name="usb_debugging_message">"Fingerprint della chiave RSA del computer: 
+%1$s"</string>
+    <string name="usb_debugging_always">Consenti sempre da questo computer</string>
+    <string name="compat_mode_on">Zoom per riempire schermo</string>
+    <string name="compat_mode_off">Estendi per riemp. schermo</string>
+    <string name="screenshot_saving_ticker">Salvataggio screenshot...</string>
+    <string name="screenshot_saving_title">Salvataggio screenshot...</string>
+    <string name="screenshot_saving_text">Screenshot in corso di salvataggio.</string>
+    <string name="screenshot_saved_title">Screenshot acquisito.</string>
+    <string name="screenshot_saved_text">Tocca per visualizzare il tuo screenshot.</string>
+    <string name="screenshot_failed_title">Impossibile acquisire lo screenshot.</string>
+    <string name="screenshot_failed_text">Imposs. acquisire screenshot per spazio archiviazione limitato o perché vietato da organizzazione o app.</string>
+    <string name="usb_preference_title">Opzioni trasferimento file USB</string>
+    <string name="use_mtp_button_title">Monta come lettore multimediale (MTP)</string>
+    <string name="use_ptp_button_title">Monta come videocamera (PTP)</string>
+    <string name="installer_cd_button_title">Installa applicazione Android File Transfer per Mac</string>
+    <string name="accessibility_back">Indietro</string>
+    <string name="accessibility_home">Home</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Panoramica</string>
+    <string name="accessibility_search_light">Cerca</string>
+    <string name="accessibility_camera_button">Fotocamera</string>
+    <string name="accessibility_phone_button">Telefono</string>
+    <string name="accessibility_unlock_button">Sblocca</string>
+    <string name="unlock_label">sblocca</string>
+    <string name="phone_label">apri telefono</string>
+    <string name="camera_label">apri fotocamera</string>
+    <string name="accessibility_ime_switch_button">Pulsante per cambiare metodo di immissione.</string>
+    <string name="accessibility_compatibility_zoom_button">Pulsante zoom compatibilità.</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom inferiore per schermo più grande.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth collegato.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth scollegato.</string>
+    <string name="accessibility_no_battery">Nessuna batteria.</string>
+    <string name="accessibility_battery_one_bar">Batteria: una barra.</string>
+    <string name="accessibility_battery_two_bars">Batteria: due barre.</string>
+    <string name="accessibility_battery_three_bars">Batteria: tre barre.</string>
+    <string name="accessibility_battery_full">Batteria carica.</string>
+    <string name="accessibility_no_phone">Nessun telefono.</string>
+    <string name="accessibility_phone_one_bar">Telefono: una barra.</string>
+    <string name="accessibility_phone_two_bars">Telefono: due barre.</string>
+    <string name="accessibility_phone_three_bars">Telefono: tre barre.</string>
+    <string name="accessibility_phone_signal_full">Massimo segnale telefonico.</string>
+    <string name="accessibility_no_data">Nessun dato.</string>
+    <string name="accessibility_data_one_bar">Dati: una barra.</string>
+    <string name="accessibility_data_two_bars">Dati: due barre.</string>
+    <string name="accessibility_data_three_bars">Dati: tre barre.</string>
+    <string name="accessibility_data_signal_full">Massimo segnale dati.</string>
+    <string name="accessibility_wifi_off">Wi-Fi non attivo.</string>
+    <string name="accessibility_no_wifi">Rete Wi-Fi scollegata.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi: una barra.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi: due barre.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi: tre barre.</string>
+    <string name="accessibility_wifi_signal_full">Massimo segnale Wi-Fi.</string>
+    <string name="accessibility_wifi_name">Connesso a %s.</string>
+    <string name="accessibility_bluetooth_name">Connesso a %s.</string>
+    <string name="accessibility_no_wimax">Nessun segnale WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX: una barra.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX: due barre.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX: tre barre.</string>
+    <string name="accessibility_wimax_signal_full">Massimo segnale WiMAX.</string>
+    <string name="accessibility_no_signal">Nessun segnale.</string>
+    <string name="accessibility_not_connected">Non connesso.</string>
+    <string name="accessibility_zero_bars">Nessuna barra.</string>
+    <string name="accessibility_one_bar">Una barra.</string>
+    <string name="accessibility_two_bars">Due barre.</string>
+    <string name="accessibility_three_bars">Tre barre.</string>
+    <string name="accessibility_signal_full">Massimo segnale.</string>
+    <string name="accessibility_desc_on">ON</string>
+    <string name="accessibility_desc_off">OFF</string>
+    <string name="accessibility_desc_connected">Connesso.</string>
+    <string name="accessibility_desc_connecting">Connessione in corso.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Nessuna SIM presente.</string>
+    <string name="accessibility_bluetooth_tether">Tethering Bluetooth.</string>
+    <string name="accessibility_airplane_mode">Modalità aereo.</string>
+    <string name="accessibility_settings_button">Impostazioni di sistema.</string>
+    <string name="accessibility_notifications_button">Notifiche.</string>
+    <string name="accessibility_remove_notification">Cancella notifica.</string>
+    <string name="accessibility_gps_enabled">GPS abilitato.</string>
+    <string name="accessibility_gps_acquiring">Acquisizione GPS.</string>
+    <string name="accessibility_tty_enabled">Telescrivente abilitata.</string>
+    <string name="accessibility_ringer_vibrate">Suoneria vibrazione.</string>
+    <string name="accessibility_ringer_silent">Suoneria silenziosa.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Elimina %s.</string>
+    <string name="accessibility_recents_item_dismissed">%s eliminata.</string>
+    <string name="accessibility_recents_item_launched">Avvio di %s.</string>
+    <string name="accessibility_notification_dismissed">Notifica eliminata.</string>
+    <string name="accessibility_desc_notification_shade">Area notifiche.</string>
+    <string name="accessibility_desc_quick_settings">Impostazioni rapide.</string>
+    <string name="accessibility_desc_lock_screen">Schermata di blocco.</string>
+    <string name="accessibility_desc_settings">Impostazioni</string>
+    <string name="accessibility_desc_recent_apps">Panoramica.</string>
+    <string name="accessibility_quick_settings_user">Utente %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi disattivato.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi attivato.</string>
+    <string name="accessibility_quick_settings_mobile">Cellulare: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Batteria: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Modalità aereo non attiva.</string>
+    <string name="accessibility_quick_settings_airplane_on">Modalità aereo attiva.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Modalità aereo disattivata.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Modalità aereo attivata.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth non attivo.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth attivo.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Collegamento Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth collegato.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth disattivato.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth attivato.</string>
+    <string name="accessibility_quick_settings_location_off">Segnalazione della posizione non attiva.</string>
+    <string name="accessibility_quick_settings_location_on">Segnalazione della posizione attiva.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Segnalazione della posizione disattivata.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Segnalazione della posizione attivata.</string>
+    <string name="accessibility_quick_settings_alarm">Sveglia impostata per le %s.</string>
+    <string name="accessibility_quick_settings_close">Chiudi il riquadro.</string>
+    <string name="accessibility_quick_settings_more_time">Più tempo.</string>
+    <string name="accessibility_quick_settings_less_time">Meno tempo.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Torcia spenta.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Torcia accesa.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Torcia disattivata.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Torcia attivata.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Inversione colori disattivata.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Inversione colori attivata.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Hotspot mobile disattivato.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Hotspot mobile attivato.</string>
+    <string name="accessibility_casting_turned_off">Trasmissione dello schermo interrotta.</string>
+    <string name="accessibility_brightness">Luminosità dello schermo</string>
+    <string name="data_usage_disabled_dialog_3g_title">Dati 2G-3G disattivati</string>
+    <string name="data_usage_disabled_dialog_4g_title">Dati 4G disattivati</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Rete dati disattivata</string>
+    <string name="data_usage_disabled_dialog_title">Dati disattivati</string>
+    <string name="data_usage_disabled_dialog">"Il tuo dispositivo ha disattivato il traffico dati perché hai raggiunto il limite prestabilito.
+
+La riattivazione potrebbe comportare l'applicazione di costi aggiuntivi da parte del tuo operatore."</string>
+    <string name="data_usage_disabled_dialog_enable">Attiva i dati</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nessuna connessione</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connesso</string>
+    <string name="gps_notification_searching_text">Ricerca del GPS</string>
+    <string name="gps_notification_found_text">Posizione stabilita dal GPS</string>
+    <string name="accessibility_location_active">Richieste di accesso alla posizione attive</string>
+    <string name="accessibility_clear_all">Cancella tutte le notifiche.</string>
+    <string name="status_bar_notification_inspect_item_title">Impostazioni di notifica</string>
+    <string name="status_bar_notification_app_settings_title">Impostazioni di %s</string>
+    <string name="accessibility_rotation_lock_off">Lo schermo ruoterà automaticamente.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Lo schermo è bloccato in orientamento orizzontale.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Lo schermo è bloccato in orientamento verticale.</string>
+    <string name="accessibility_rotation_lock_off_changed">Ora lo schermo ruoterà automaticamente.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">"Ora lo schermo è bloccato nell'orientamento orizzontale."</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">"Ora lo schermo è bloccato nell'orientamento verticale."</string>
+    <string name="dessert_case">Vetrina di dolci</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Modalità aereo</string>
+    <string name="quick_settings_battery_charging_label">In carica (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">Carica</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d dispositivi)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth spento</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Nessun dispositivo accoppiato disponibile</string>
+    <string name="quick_settings_brightness_label">Luminosità</string>
+    <string name="quick_settings_rotation_unlocked_label">Rotazione automatica</string>
+    <string name="quick_settings_rotation_locked_label">Rotazione bloccata</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Verticale</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Orizzontale</string>
+    <string name="quick_settings_ime_label">Metodo di immissione</string>
+    <string name="quick_settings_location_label">Geolocalizz.</string>
+    <string name="quick_settings_location_off_label">Geolocalizz. non attiva</string>
+    <string name="quick_settings_media_device_label">Dispositivo multimediale</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Solo chiamate di emergenza</string>
+    <string name="quick_settings_settings_label">Impostazioni</string>
+    <string name="quick_settings_time_label">Ora</string>
+    <string name="quick_settings_user_label">Io</string>
+    <string name="quick_settings_user_title">Utente</string>
+    <string name="quick_settings_user_new_user">Nuovo utente</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Non connesso</string>
+    <string name="quick_settings_wifi_no_network">Nessuna rete</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi disattivato</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nessuna rete salvata disponibile</string>
+    <string name="quick_settings_cast_title">Trasmetti schermo</string>
+    <string name="quick_settings_casting">In trasmissione</string>
+    <string name="quick_settings_cast_device_default_name">Dispositivo senza nome</string>
+    <string name="quick_settings_cast_device_default_description">Pronto a trasmettere</string>
+    <string name="quick_settings_cast_detail_empty_text">Nessun dispositivo disponibile</string>
+    <string name="quick_settings_brightness_dialog_title">Luminosità</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
+    <string name="quick_settings_inversion_label">Inverti colori</string>
+    <string name="quick_settings_color_space_label">Modalità di correzione del colore</string>
+    <string name="quick_settings_more_settings">Altre impostazioni</string>
+    <string name="quick_settings_done">Fine</string>
+    <string name="quick_settings_connected">Connesso</string>
+    <string name="quick_settings_connecting">Connessione...</string>
+    <string name="quick_settings_tethering_label">Tethering</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_notifications_label">Notifiche</string>
+    <string name="quick_settings_flashlight_label">Torcia</string>
+    <string name="quick_settings_cellular_detail_title">Rete dati</string>
+    <string name="quick_settings_cellular_detail_data_usage">Utilizzo dati</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Dati rimanenti</string>
+    <string name="quick_settings_cellular_detail_over_limit">Limite raggiunto: utilizzo dei dati sospeso</string>
+    <string name="quick_settings_cellular_detail_data_used">%s utilizzati</string>
+    <string name="quick_settings_cellular_detail_data_limit">Limite di %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">Avviso %s</string>
+    <string name="recents_empty_message">Le tue schermate recenti vengono visualizzate in questa sezione</string>
+    <string name="recents_app_info_button_label">"Informazioni sull'applicazione"</string>
+    <string name="recents_lock_to_app_button_label">blocca su app</string>
+    <string name="recents_search_bar_label">cerca</string>
+    <string name="recents_launch_error_message">Impossibile avviare %s.</string>
+    <string name="expanded_header_battery_charged">Carica</string>
+    <string name="expanded_header_battery_charging">In carica</string>
+    <string name="expanded_header_battery_charging_with_time">%s al termine della carica</string>
+    <string name="expanded_header_battery_not_charging">Non in carica</string>
+    <string name="ssl_ca_cert_warning">"La rete potrebbe
+essere monitorata"</string>
+    <string name="description_target_search">Ricerca</string>
+    <string name="description_direction_up">Su per %s.</string>
+    <string name="description_direction_left">A sinistra per %s.</string>
+    <string name="zen_no_interruptions_with_warning">Senza interruzioni. Neanche sveglie.</string>
+    <string name="zen_no_interruptions">Nessuna interruzione</string>
+    <string name="zen_important_interruptions">Solo interruzioni con priorità</string>
+    <string name="zen_alarm_information_time">Il tuo prossimo allarme è alle ore %s</string>
+    <string name="zen_alarm_information_day_time">Il tuo prossimo allarme è il giorno %s</string>
+    <string name="zen_alarm_warning">Il tuo allarme non suonerà alle %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Notifiche meno urgenti in basso</string>
+    <string name="notification_tap_again">Tocca di nuovo per aprire</string>
+    <string name="keyguard_unlock">"Scorri verso l'alto per sbloccare"</string>
+    <string name="phone_hint">Scorri verso destra per accedere al telefono</string>
+    <string name="camera_hint">Scorri verso sinistra per accedere alla fotocamera</string>
+    <string name="interruption_level_none">Nessuna</string>
+    <string name="interruption_level_priority">Priorità</string>
+    <string name="interruption_level_all">Tutte</string>
+    <string name="keyguard_indication_charging_time">In carica (%s al termine)</string>
+    <string name="accessibility_multi_user_switch_switcher">Cambio utente</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Cambia utente, utente corrente %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Mostra profilo</string>
+    <string name="user_add_user">Aggiungi utente</string>
+    <string name="user_new_user_name">Nuovo utente</string>
+    <string name="guest_nickname">Ospite</string>
+    <string name="guest_new_guest">Aggiungi ospite</string>
+    <string name="guest_exit_guest">Rimuovi ospite</string>
+    <string name="guest_exit_guest_dialog_title">"Rimuovere l'ospite?"</string>
+    <string name="guest_exit_guest_dialog_message">Tutte le app e i dati di questa sessione verranno eliminati.</string>
+    <string name="guest_exit_guest_dialog_remove">Rimuovi</string>
+    <string name="guest_wipe_session_title">Bentornato, ospite.</string>
+    <string name="guest_wipe_session_message">Vuoi continuare la sessione?</string>
+    <string name="guest_wipe_session_wipe">Ricomincia</string>
+    <string name="guest_wipe_session_dontwipe">Sì, continua</string>
+    <string name="user_add_user_title">Aggiungere un nuovo utente?</string>
+    <string name="user_add_user_message_short">"Il nuovo utente, una volta aggiunto, deve impostare il proprio spazio.
+
+Qualsiasi utente può aggiornare le app per tutti gli altri."</string>
+    <string name="battery_saver_notification_title">Risparmio batteria attivo</string>
+    <string name="battery_saver_notification_text">Riduce le prestazioni e i dati in background</string>
+    <string name="battery_saver_notification_action_text">Disattiva risparmio energetico</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Contenuti nascosti</string>
+    <string name="media_projection_dialog_text">%s inizierà ad acquisire tutto ciò che è visualizzato sul tuo schermo.</string>
+    <string name="media_projection_remember_text">Non mostrare più</string>
+    <string name="clear_all_notifications_text">Cancella tutto</string>
+    <string name="media_projection_action_text">Avvia adesso</string>
+    <string name="empty_shade_text">Nessuna notifica</string>
+    <string name="device_owned_footer">Il dispositivo potrebbe essere monitorato</string>
+    <string name="profile_owned_footer">Il profilo potrebbe essere monitorato</string>
+    <string name="vpn_footer">La rete potrebbe essere monitorata</string>
+    <string name="monitoring_title_device_owned">Monitoraggio del dispositivo</string>
+    <string name="monitoring_title_profile_owned">Monitoraggio del profilo</string>
+    <string name="monitoring_title">Monitoraggio rete</string>
+    <string name="disable_vpn">Disattiva VPN</string>
+    <string name="disconnect_vpn">Scollega VPN</string>
+    <string name="monitoring_description_device_owned">"Questo dispositivo è gestito da:
+%1$s
+
+Il tuo amministratore può monitorare la tua attività di rete e sul dispositivo, inclusi email, app e siti web protetti.
+
+Per ulteriori informazioni, contatta l'amministratore."</string>
+    <string name="monitoring_description_vpn">"Hai autorizzato \"%1$s\" a configurare una connessione VPN.
+
+Questa app può monitorare la tua attività di rete e sul dispositivo, inclusi email, app e siti web protetti."</string>
+    <string name="monitoring_description_legacy_vpn">"Sei collegato a una rete VPN (\"%1$s\").
+
+Il tuo provider di servizi VPN può monitorare la tua attività di rete e sul dispositivo, inclusi email, app e siti web protetti."</string>
+    <string name="monitoring_description_vpn_device_owned">"Il dispositivo è gestito da:
+%1$s
+
+Il tuo amministratore può monitorare la tua attività di rete, inclusi email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Inoltre, hai autorizzato \"%2$s\" a configurare una connessione VPN. Questa app può monitorare anche l'attività di rete."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Il dispositivo è gestito da:
+%1$s
+
+Il tuo amministratore può monitorare la tua attività di rete, inclusi email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Inoltre, sei collegato a una rete VPN (\"%2$s\"). Il tuo provider di servizi VPN può monitorare anche l'attività di rete."</string>
+    <string name="monitoring_description_profile_owned">"Questo profilo è gestito da:
+%1$s
+
+L'amministratore può monitorare il tuo dispositivo e l'attività di rete, incluse email, app e siti web protetti.
+
+Per ulteriori informazioni, contatta l'amministratore."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Questo dispositivo è gestito da:
+%1$s
+Il tuo profilo è gestito da:
+%2$s
+
+L'amministratore può monitorare il tuo dispositivo e l'attività di rete, incluse email, app e siti web protetti.
+
+Per ulteriori informazioni, contatta l'amministratore."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Questo profilo è gestito da:
+%1$s
+
+L'amministratore può monitorare la tua attività di rete, incluse email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Hai autorizzato \"%2$s\" a configurare una connessione VPN. Questa app può monitorare l'attività di rete."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Questo profilo è gestito da:
+%1$s
+
+L'amministratore può monitorare la tua attività di rete, incluse email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Sei collegato a una rete VPN (\"%2$s\"). Anche il fornitore del servizio VPN può monitorare l'attività di rete."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Il dispositivo è gestito da:
+%1$s
+Il tuo profilo è gestito da:
+%2$s
+
+L'amministratore può monitorare la tua attività di rete, incluse email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Hai autorizzato \"%3$s\" a configurare una connessione VPN. Questa app può monitorare l'attività di rete."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Il dispositivo è gestito da:
+%1$s
+Il tuo profilo è gestito da:
+%2$s
+
+L'amministratore può monitorare l'attività di rete, incluse email, app e siti web protetti. Per ulteriori informazioni, contatta l'amministratore.
+
+Sei collegato a una rete VPN (\"%3$s\"). Anche il fornitore del servizio VPN può monitorare l'attività di rete."</string>
+    <string name="keyguard_indication_trust_disabled">Il dispositivo resterà bloccato fino allo sblocco manuale</string>
+    <string name="hidden_notifications_title">Ricevi notifiche più velocemente</string>
+    <string name="hidden_notifications_text">Visualizza prima di sbloccare</string>
+    <string name="hidden_notifications_cancel">No, grazie</string>
+    <string name="hidden_notifications_setup">Configura</string>
+    <string name="muted_by">Audio disattivato da %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Inserisci il codice PIN</string>
+    <string name="keyguard_password_enter_puk_code">Digita il PUK della SIM e il nuovo codice PIN</string>
+    <string name="keyguard_password_enter_puk_prompt">Codice PUK della SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">Nuovo PIN della SIM</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Tocca per inserire la password</font></string>
+    <string name="keyguard_password_enter_password_code">Inserisci password per sbloccare</string>
+    <string name="keyguard_password_enter_pin_password_code">Inserisci PIN per sbloccare</string>
+    <string name="keyguard_password_wrong_pin_code">Codice PIN errato.</string>
+    <string name="keyguard_label_text">Per sbloccare, premi Menu, poi 0.</string>
+    <string name="faceunlock_multiple_failures">Numero massimo di tentativi di Sblocco col sorriso superato</string>
+    <string name="keyguard_charged">Carico</string>
+    <string name="keyguard_plugged_in">In carica</string>
+    <string name="keyguard_low_battery">Collega il caricabatterie.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Premi Menu per sbloccare.</string>
+    <string name="keyguard_network_locked_message">Rete bloccata</string>
+    <string name="keyguard_missing_sim_message_short">Nessuna scheda SIM</string>
+    <string name="keyguard_missing_sim_message">Nessuna scheda SIM presente nel telefono.</string>
+    <string name="keyguard_missing_sim_instructions">Inserisci una scheda SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">Scheda SIM mancante o non leggibile. Inserisci una scheda SIM.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Scheda SIM inutilizzabile.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"La scheda SIM è stata disattivata definitivamente.
+ Contatta il fornitore del tuo servizio wireless per ricevere un'altra scheda SIM."</string>
+    <string name="keyguard_sim_locked_message">La SIM è bloccata.</string>
+    <string name="keyguard_sim_puk_locked_message">La SIM è bloccata tramite PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Sblocco scheda SIM...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d di %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Aggiungi widget.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Vuoto</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Area di sblocco estesa.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Area di sblocco compressa.</string>
+    <string name="keyguard_accessibility_widget">%1$s widget.</string>
+    <string name="keyguard_accessibility_user_selector">Selettore utente</string>
+    <string name="keyguard_accessibility_camera">Fotocamera</string>
+    <string name="keygaurd_accessibility_media_controls">Controlli media</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Riordino dei widget iniziato.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Riordino dei widget terminato.</string>
+    <string name="keyguard_accessibility_widget_deleted">Widget %1$s eliminato.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Espandi area di sblocco.</string>
+    <string name="keyguard_accessibility_slide_unlock">Sblocco con scorrimento.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Sblocco con sequenza.</string>
+    <string name="keyguard_accessibility_face_unlock">Sblocco col sorriso.</string>
+    <string name="keyguard_accessibility_pin_unlock">Sblocco con PIN.</string>
+    <string name="keyguard_accessibility_password_unlock">Sblocco con password.</string>
+    <string name="keyguard_accessibility_pattern_area">Area sequenza.</string>
+    <string name="keyguard_accessibility_slide_area">Area di scorrimento.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Pulsante traccia precedente</string>
+    <string name="keyguard_accessibility_transport_next_description">Pulsante traccia successiva</string>
+    <string name="keyguard_accessibility_transport_pause_description">Pulsante Pausa</string>
+    <string name="keyguard_accessibility_transport_play_description">Pulsante Riproduci</string>
+    <string name="keyguard_accessibility_transport_stop_description">Pulsante di arresto</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Mi piace</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Pollice giù</string>
+    <string name="keyguard_accessibility_transport_heart_description">Cuore</string>
+    <string name="keyguard_accessibility_show_bouncer">Sblocca per continuare</string>
+    <string name="keyguard_accessibility_hide_bouncer">Avvio annullato</string>
+    <string name="keyguard_accessibility_delete_widget_start">Rilascia %1$s per eliminarlo.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s non sarà eliminato.</string>
+    <string name="keyguard_accessibility_next_alarm">Prossima sveglia impostata a: %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Annulla</string>
+    <string name="keyboardview_keycode_delete">Canc</string>
+    <string name="keyboardview_keycode_done">Fine</string>
+    <string name="keyboardview_keycode_mode_change">Cambio modalità</string>
+    <string name="keyboardview_keycode_shift">Maiuscolo</string>
+    <string name="keyboardview_keycode_enter">Invio</string>
+    <string name="description_target_unlock">Sblocca</string>
+    <string name="description_target_camera">Fotocamera</string>
+    <string name="description_target_silent">Silenzioso</string>
+    <string name="description_target_soundon">Audio attivato</string>
+    <string name="description_direction_down">Giù per %s.</string>
+    <string name="description_direction_right">A destra per %s.</string>
+    <string name="user_switched">Utente corrente %1$s.</string>
+    <string name="kg_emergency_call_label">Chiamata di emergenza</string>
+    <string name="kg_forgot_pattern_button_text">Sequenza dimenticata</string>
+    <string name="kg_wrong_pattern">Sequenza sbagliata</string>
+    <string name="kg_wrong_password">Password sbagliata</string>
+    <string name="kg_wrong_pin">PIN errato</string>
+    <string name="kg_too_many_failed_attempts_countdown">Riprova fra %d secondi.</string>
+    <string name="kg_pattern_instructions">Inserisci la sequenza</string>
+    <string name="kg_sim_pin_instructions">Inserisci il PIN della SIM</string>
+    <string name="kg_pin_instructions">Inserisci PIN</string>
+    <string name="kg_password_instructions">Inserisci la password</string>
+    <string name="kg_puk_enter_puk_hint">"La scheda SIM è disattivata. Inserisci il codice PUK per continuare. Contatta l'operatore per avere informazioni dettagliate."</string>
+    <string name="kg_puk_enter_pin_hint">Inserisci il codice PIN desiderato</string>
+    <string name="kg_enter_confirm_pin_hint">Conferma il codice PIN desiderato</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Sblocco scheda SIM...</string>
+    <string name="kg_invalid_sim_pin_hint">Il PIN deve essere di 4-8 numeri.</string>
+    <string name="kg_invalid_sim_puk_hint">Il codice PUK dovrebbe avere almeno otto numeri.</string>
+    <string name="kg_invalid_puk">Inserisci di nuovo il codice PUK corretto. Ripetuti tentativi comportano la disattivazione definitiva della scheda SIM.</string>
+    <string name="kg_invalid_confirm_pin_hint">I codici PIN non corrispondono</string>
+    <string name="kg_login_too_many_attempts">Troppi tentativi di inserimento della sequenza</string>
+    <string name="kg_login_instructions">Per sbloccare, accedi con il tuo account Google.</string>
+    <string name="kg_login_username_hint">Nome utente (email)</string>
+    <string name="kg_login_password_hint">Password</string>
+    <string name="kg_login_submit_button">Accedi</string>
+    <string name="kg_login_invalid_input">Nome utente o password non validi.</string>
+    <string name="kg_login_account_recovery_hint">"Hai dimenticato il nome utente o la password?
+Visita "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Controllo account…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Hai digitato il tuo PIN %d volte in modo errato. 
+
+Riprova tra %d secondi."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Hai digitato la tua password %d volte in modo errato. 
+
+Riprova tra %d secondi."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"%d tentativi errati di inserimento della sequenza di sblocco. 
+
+Riprova tra %d secondi."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">%d tentativi errati di sblocco del telefono. Dopo altri %d tentativi falliti, il telefono verrà sottoposto a un ripristino dei dati di fabbrica e tutti i dati utente andranno persi.</string>
+    <string name="kg_failed_attempts_now_wiping">%d tentativi errati di sblocco del telefono. Il telefono verrà sottoposto a un ripristino dei dati di fabbrica.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"%d tentativi errati di inserimento della sequenza di sblocco. Dopo altri %d tentativi falliti, ti verrà chiesto di sbloccare il telefono con un account email.
+
+ Riprova tra %d secondi."</string>
+    <string name="kg_text_message_separator">" – "</string>
+    <string name="kg_reordering_delete_drop_target_text">Rimuovi</string>
+    <string name="kg_password_wrong_pin_code_pukked">"Codice PIN della SIM errato. Devi contattare l'operatore per sbloccare il dispositivo."</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM inutilizzabile. Contatta il tuo operatore.</string>
+    <string name="kg_password_pin_failed">Operazione con PIN della SIM non riuscita.</string>
+    <string name="kg_password_puk_failed">Operazione con PUK della SIM non riuscita.</string>
+    <string name="kg_pin_accepted">Codice accettato.</string>
+    <string name="keyguard_transport_prev_description">Pulsante traccia precedente</string>
+    <string name="keyguard_transport_next_description">Pulsante traccia successiva</string>
+    <string name="keyguard_transport_pause_description">Pulsante Pausa</string>
+    <string name="keyguard_transport_play_description">Pulsante Riproduci</string>
+    <string name="keyguard_transport_stop_description">Pulsante di arresto</string>
+    <string name="keyguard_carrier_default">Nessun servizio.</string>
+</resources>

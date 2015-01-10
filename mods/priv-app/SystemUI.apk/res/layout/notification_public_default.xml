@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/status_bar_latest_event_content" android:layout_width="fill_parent" android:layout_height="64.0dip" internal:layout_maxHeight="64.0dip" internal:layout_minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:scaleType="centerInside" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <DateTimeView android:textAppearance="@android:style/TextAppearance.Material.Notification.Time" android:gravity="center" android:id="@id/time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/title" android:paddingStart="8.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Title" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toStartOf="@id/time" android:layout_toEndOf="@id/icon" />
+    <ImageView android:id="@id/profile_badge_line3" android:visibility="gone" android:layout_width="@android:dimen/notification_badge_size" android:layout_height="@android:dimen/notification_badge_size" android:scaleType="fitCenter" android:layout_below="@id/title" android:layout_marginStart="4.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification" android:ellipsize="marquee" android:id="@id/text" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/title" android:layout_toStartOf="@id/profile_badge_line3" android:layout_alignStart="@id/title" />
+</RelativeLayout>

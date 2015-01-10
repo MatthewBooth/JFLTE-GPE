@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ecrane în Vizualizare generală</item>
+        <item quantity="one">1 ecran în Vizualizare generală</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d încercări.</item>
+        <item quantity="one">Codul PIN pentru cardul SIM este incorect. V-a mai rămas %d încercare, după care va trebui să contactați operatorul pentru a vă debloca dispozitivul.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Codul PUK pentru cardul SIM este incorect. V-au mai rămas %d încercări până când cardul SIM va deveni inutilizabil definitiv.</item>
+        <item quantity="one">Codul PUK pentru cardul SIM este incorect. V-a mai rămas %d încercare până când cardul SIM va deveni inutilizabil definitiv.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Համատեսքում ցուցադրված է %d էկրան</item>
+        <item quantity="one">Համատեսքում ցուցադրված է 1 էկրան:</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN կոդը սխալ է: Մնաց %d փորձ:</item>
+        <item quantity="one">SIM PIN կոդը սխալ է: Մնաց %d փորձ, որից հետո պետք է դիմեք ձեր օպերատորին՝ սարքն արգելաբացելու համար:</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK կոդը սխալ է: Մնաց %d փորձ՝ մինչև SIM-ի ընդմիշտ արգելափակումը:</item>
+        <item quantity="one">SIM PUK կոդը սխալ է: Մնաց %d փորձ՝ մինչև SIM-ի ընդմիշտ արգելափակումը:</item>
+    </plurals>
+</resources>

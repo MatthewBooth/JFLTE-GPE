@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardAccountView android:orientation="vertical" android:id="@id/keyguard_account_view" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <EditText android:id="@id/login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/kg_login_username_hint" android:layout_alignParentTop="true" android:inputType="textEmailAddress" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <EditText android:id="@id/password" android:nextFocusRight="@id/ok" android:nextFocusDown="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:hint="@string/kg_login_password_hint" android:layout_toLeftOf="@id/ok" android:layout_below="@id/login" android:inputType="textPassword" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <Button android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="7.0dip" android:text="@string/kg_login_submit_button" android:layout_below="@id/login" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.android.keyguard.KeyguardAccountView>

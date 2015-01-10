@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.StatusBarWindowView android:focusable="true" android:fitsSystemWindows="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.BackDropView android:id="@id/backdrop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/backdrop_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/backdrop_front" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.android.systemui.statusbar.BackDropView>
+    <com.android.systemui.statusbar.ScrimView android:id="@id/scrim_behind" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_height" layout="@layout/status_bar" />
+    <FrameLayout android:layout_gravity="center|left|top" android:id="@id/brightness_mirror" android:paddingLeft="@dimen/notification_side_padding" android:paddingRight="@dimen/notification_side_padding" android:visibility="gone" android:layout_width="@dimen/notification_panel_width" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/brightness_mirror_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/quick_settings_brightness_dialog" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.android.systemui.statusbar.phone.PanelHolder android:id="@id/panel_holder" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/status_bar_expanded" />
+    </com.android.systemui.statusbar.phone.PanelHolder>
+    <com.android.systemui.statusbar.ScrimView android:id="@id/scrim_in_front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.systemui.statusbar.phone.StatusBarWindowView>

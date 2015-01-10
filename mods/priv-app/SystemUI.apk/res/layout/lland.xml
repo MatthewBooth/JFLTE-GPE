@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.egg.LLand android:id="@id/world" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="32.0sp" android:textColor="#ffaaaaaa" android:layout_gravity="center|left|top" android:id="@id/score" android:background="@drawable/scorecard" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" />
+    <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/welcome" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" />
+</FrameLayout>

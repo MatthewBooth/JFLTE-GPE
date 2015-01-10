@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">시스템 UI</string>
+    <string name="status_bar_clear_all_button">지우기</string>
+    <string name="status_bar_recent_remove_item_title">목록에서 삭제</string>
+    <string name="status_bar_recent_inspect_item_title">앱 정보</string>
+    <string name="status_bar_no_recent_apps">여기에 최근 화면이 표시됩니다.</string>
+    <string name="status_bar_accessibility_dismiss_recents">최근에 사용한 앱 숨기기</string>
+    <string name="status_bar_no_notifications_title">알림 없음</string>
+    <string name="status_bar_ongoing_events_title">진행 중</string>
+    <string name="status_bar_latest_events_title">알림</string>
+    <string name="battery_low_title">배터리 부족</string>
+    <string name="battery_low_percent_format">%d%% 남음</string>
+    <string name="invalid_charger">"USB 충전이 지원되지 않습니다.
+제공된 충전기만 사용하세요."</string>
+    <string name="invalid_charger_title">USB 충전은 지원되지 않습니다.</string>
+    <string name="invalid_charger_text">제공된 충전기만 사용하세요.</string>
+    <string name="battery_low_why">설정</string>
+    <string name="battery_saver_confirmation_title">배터리 절약 기능을 사용하시겠습니까?</string>
+    <string name="battery_saver_confirmation_ok">사용</string>
+    <string name="battery_saver_start_action">배터리 절약 기능 사용</string>
+    <string name="status_bar_settings_settings_button">설정</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">비행기 모드</string>
+    <string name="status_bar_settings_auto_rotation">자동 화면 회전</string>
+    <string name="status_bar_settings_mute_label">무시</string>
+    <string name="status_bar_settings_auto_brightness_label">자동</string>
+    <string name="status_bar_settings_notifications">알림</string>
+    <string name="bluetooth_tethered">블루투스 테더링됨</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">입력 방법 설정</string>
+    <string name="status_bar_use_physical_keyboard">물리적 키보드</string>
+    <string name="usb_device_permission_prompt">%1$s 앱이 USB 기기에 액세스하도록 허용하시겠습니까?</string>
+    <string name="usb_accessory_permission_prompt">%1$s 앱이 USB 액세서리에 액세스하도록 허용하시겠습니까?</string>
+    <string name="usb_device_confirm_prompt">USB 기기가 연결될 때 %1$s(을)를 여시겠습니까?</string>
+    <string name="usb_accessory_confirm_prompt">USB 액세서리가 연결될 때 %1$s(을)를 여시겠습니까?</string>
+    <string name="usb_accessory_uri_prompt">이 USB와 호환되는 설치 앱이 없습니다. %1$s에서 세부정보를 참조하세요.</string>
+    <string name="title_usb_accessory">USB 액세서리</string>
+    <string name="label_view">보기</string>
+    <string name="always_use_device">이 USB 기기에 기본값으로 사용</string>
+    <string name="always_use_accessory">이 USB 액세서리에 기본값으로 사용</string>
+    <string name="usb_debugging_title">USB 디버깅을 허용하시겠습니까?</string>
+    <string name="usb_debugging_message">"컴퓨터 RSA 키 지문:
+%1$s"</string>
+    <string name="usb_debugging_always">이 컴퓨터에서 항상 허용</string>
+    <string name="compat_mode_on">전체화면 모드로 확대</string>
+    <string name="compat_mode_off">전체화면 모드로 확대</string>
+    <string name="screenshot_saving_ticker">캡쳐화면 저장 중...</string>
+    <string name="screenshot_saving_title">캡쳐화면 저장 중...</string>
+    <string name="screenshot_saving_text">캡쳐화면을 저장하는 중입니다.</string>
+    <string name="screenshot_saved_title">캡쳐화면 저장됨</string>
+    <string name="screenshot_saved_text">캡쳐화면을 보려면 터치하세요.</string>
+    <string name="screenshot_failed_title">캡쳐화면을 캡쳐하지 못했습니다.</string>
+    <string name="screenshot_failed_text">저장 공간이 부족하거나 앱 또는 소속 조직에서 허용하지 않아 스크린샷을 찍을 수 없습니다.</string>
+    <string name="usb_preference_title">USB 파일 전송 옵션</string>
+    <string name="use_mtp_button_title">미디어 플레이어로 마운트(MTP)</string>
+    <string name="use_ptp_button_title">카메라로 마운트(PTP)</string>
+    <string name="installer_cd_button_title">Mac용 Android 파일 전송 앱 설치</string>
+    <string name="accessibility_back">뒤로</string>
+    <string name="accessibility_home">홈</string>
+    <string name="accessibility_menu">메뉴</string>
+    <string name="accessibility_recent">개요</string>
+    <string name="accessibility_search_light">검색</string>
+    <string name="accessibility_camera_button">카메라</string>
+    <string name="accessibility_phone_button">전화</string>
+    <string name="accessibility_unlock_button">잠금 해제</string>
+    <string name="unlock_label">잠금 해제</string>
+    <string name="phone_label">휴대전화 열기</string>
+    <string name="camera_label">카메라 열기</string>
+    <string name="accessibility_ime_switch_button">입력 방법 버튼을 전환합니다.</string>
+    <string name="accessibility_compatibility_zoom_button">호환성 확대/축소 버튼입니다.</string>
+    <string name="accessibility_compatibility_zoom_example">작은 화면을 큰 화면으로 확대합니다.</string>
+    <string name="accessibility_bluetooth_connected">블루투스가 연결되었습니다.</string>
+    <string name="accessibility_bluetooth_disconnected">블루투스 연결이 끊어졌습니다.</string>
+    <string name="accessibility_no_battery">배터리가 없습니다.</string>
+    <string name="accessibility_battery_one_bar">배터리 막대가 하나입니다.</string>
+    <string name="accessibility_battery_two_bars">배터리 막대가 두 개입니다.</string>
+    <string name="accessibility_battery_three_bars">배터리 막대가 세 개입니다.</string>
+    <string name="accessibility_battery_full">배터리 충전이 완료되었습니다.</string>
+    <string name="accessibility_no_phone">휴대전화의 신호가 없습니다.</string>
+    <string name="accessibility_phone_one_bar">휴대전화 신호 막대가 하나입니다.</string>
+    <string name="accessibility_phone_two_bars">휴대전화 신호 막대가 두 개입니다.</string>
+    <string name="accessibility_phone_three_bars">휴대전화 신호 막대가 세 개입니다.</string>
+    <string name="accessibility_phone_signal_full">휴대전화의 신호가 강합니다.</string>
+    <string name="accessibility_no_data">데이터가 없습니다.</string>
+    <string name="accessibility_data_one_bar">데이터 신호 막대가 하나입니다.</string>
+    <string name="accessibility_data_two_bars">데이터 신호 막대가 두 개입니다.</string>
+    <string name="accessibility_data_three_bars">데이터 신호 막대가 세 개입니다.</string>
+    <string name="accessibility_data_signal_full">데이터 신호가 강합니다.</string>
+    <string name="accessibility_wifi_off">Wi-Fi가 꺼져 있습니다.</string>
+    <string name="accessibility_no_wifi">Wi-Fi 연결이 끊어졌습니다.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi 신호 막대가 하나입니다.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi 신호 막대가 두 개입니다.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi 신호 막대가 세 개입니다.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi 신호가 강합니다.</string>
+    <string name="accessibility_wifi_name">%s에 연결되었습니다.</string>
+    <string name="accessibility_bluetooth_name">%s에 연결되었습니다.</string>
+    <string name="accessibility_no_wimax">WiMAX가 없습니다.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX 신호 막대가 하나입니다.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX 신호 막대가 두 개입니다.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX 신호 막대가 세 개입니다.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX 신호가 강합니다.</string>
+    <string name="accessibility_no_signal">신호가 없습니다.</string>
+    <string name="accessibility_not_connected">연결되지 않았습니다.</string>
+    <string name="accessibility_zero_bars">신호 막대가 없습니다.</string>
+    <string name="accessibility_one_bar">신호 막대가 하나입니다.</string>
+    <string name="accessibility_two_bars">신호 막대가 두 개입니다.</string>
+    <string name="accessibility_three_bars">신호 막대가 세 개입니다.</string>
+    <string name="accessibility_signal_full">신호가 강합니다.</string>
+    <string name="accessibility_desc_on">사용</string>
+    <string name="accessibility_desc_off">사용 안함</string>
+    <string name="accessibility_desc_connected">연결됨</string>
+    <string name="accessibility_desc_connecting">연결 중...</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">로밍</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM이 없습니다.</string>
+    <string name="accessibility_bluetooth_tether">블루투스 테더링입니다.</string>
+    <string name="accessibility_airplane_mode">비행기 모드입니다.</string>
+    <string name="accessibility_battery_level">배터리 %d퍼센트</string>
+    <string name="accessibility_settings_button">시스템 설정</string>
+    <string name="accessibility_notifications_button">알림</string>
+    <string name="accessibility_remove_notification">알림 지우기</string>
+    <string name="accessibility_gps_enabled">GPS가 사용 설정되었습니다.</string>
+    <string name="accessibility_gps_acquiring">GPS를 가져오는 중입니다.</string>
+    <string name="accessibility_tty_enabled">전신 타자기(TTY)가 사용 설정되었습니다.</string>
+    <string name="accessibility_ringer_vibrate">벨소리가 진동입니다.</string>
+    <string name="accessibility_ringer_silent">벨소리가 무음입니다.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s을(를) 숨깁니다.</string>
+    <string name="accessibility_recents_item_dismissed">%s이(가) 제거되었습니다.</string>
+    <string name="accessibility_recents_item_launched">%s을(를) 시작하는 중입니다.</string>
+    <string name="accessibility_notification_dismissed">알림이 제거되었습니다.</string>
+    <string name="accessibility_desc_notification_shade">알림 세부정보</string>
+    <string name="accessibility_desc_quick_settings">빠른 설정</string>
+    <string name="accessibility_desc_lock_screen">화면을 잠급니다.</string>
+    <string name="accessibility_desc_settings">설정</string>
+    <string name="accessibility_desc_recent_apps">개요</string>
+    <string name="accessibility_quick_settings_user">사용자 %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi가 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi를 사용합니다.</string>
+    <string name="accessibility_quick_settings_mobile">모바일 %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">배터리 %s</string>
+    <string name="accessibility_quick_settings_airplane_off">비행기 모드: 사용 안함</string>
+    <string name="accessibility_quick_settings_airplane_on">비행기 모드: 사용</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">비행기 모드가 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">비행기 모드를 사용합니다.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">블루투스: 사용 안함</string>
+    <string name="accessibility_quick_settings_bluetooth_on">블루투스: 사용</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">블루투스에 연결 중입니다.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">블루투스가 연결되었습니다.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">블루투스가 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">블루투스를 사용합니다.</string>
+    <string name="accessibility_quick_settings_location_off">위치 정보 전송: 사용 안함</string>
+    <string name="accessibility_quick_settings_location_on">위치 정보 전송: 사용</string>
+    <string name="accessibility_quick_settings_location_changed_off">위치 정보 전송이 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_location_changed_on">위치 정보 전송을 사용합니다.</string>
+    <string name="accessibility_quick_settings_alarm">알람이 %s(으)로 설정되었습니다.</string>
+    <string name="accessibility_quick_settings_close">패널을 닫습니다.</string>
+    <string name="accessibility_quick_settings_more_time">시간 늘리기</string>
+    <string name="accessibility_quick_settings_less_time">시간 줄이기</string>
+    <string name="accessibility_quick_settings_flashlight_off">손전등: 사용 중지</string>
+    <string name="accessibility_quick_settings_flashlight_on">손전등: 사용</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">손전등이 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">손전등을 사용합니다.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">색상 반전이 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">색상 반전을 사용합니다.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">모바일 핫스팟이 사용 중지되었습니다.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">모바일 핫스팟을 사용합니다.</string>
+    <string name="accessibility_casting_turned_off">화면 전송이 중지되었습니다.</string>
+    <string name="accessibility_brightness">디스플레이 밝기</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G 데이터 사용 중지됨</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G 데이터 사용 중지됨</string>
+    <string name="data_usage_disabled_dialog_mobile_title">이동통신 데이터 사용 중지됨</string>
+    <string name="data_usage_disabled_dialog_title">데이터 사용 중지됨</string>
+    <string name="data_usage_disabled_dialog">"데이터가 설정 한도에 도달하여 사용 중지되었습니다.
+
+데이터를 다시 사용 설정하면 이동통신사로부터 대금이 청구될 수 있습니다."</string>
+    <string name="data_usage_disabled_dialog_enable">데이터 사용 설정</string>
+    <string name="status_bar_settings_signal_meter_disconnected">인터넷에 연결되지 않음</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi 연결됨</string>
+    <string name="gps_notification_searching_text">GPS 검색 중</string>
+    <string name="gps_notification_found_text">GPS에서 위치 설정</string>
+    <string name="accessibility_location_active">위치 요청 있음</string>
+    <string name="accessibility_clear_all">모든 알림 지우기</string>
+    <string name="status_bar_notification_inspect_item_title">알림 설정</string>
+    <string name="status_bar_notification_app_settings_title">%s 설정</string>
+    <string name="accessibility_rotation_lock_off">화면이 자동으로 회전됩니다.</string>
+    <string name="accessibility_rotation_lock_on_landscape">화면이 가로 방향으로 잠겨 있습니다.</string>
+    <string name="accessibility_rotation_lock_on_portrait">화면이 세로 방향으로 잠겨 있습니다.</string>
+    <string name="accessibility_rotation_lock_off_changed">화면이 자동으로 회전합니다.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">화면이 가로 방향으로 잠깁니다.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">화면이 세로 방향으로 잠깁니다.</string>
+    <string name="dessert_case">디저트 케이스</string>
+    <string name="start_dreams">화면 보호기</string>
+    <string name="ethernet_label">이더넷</string>
+    <string name="quick_settings_airplane_mode_label">비행기 모드</string>
+    <string name="quick_settings_battery_charging_label">충전 중(%d%%)</string>
+    <string name="quick_settings_battery_charged_label">충전됨</string>
+    <string name="quick_settings_bluetooth_label">블루투스</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">블루투스(%d개의 기기)</string>
+    <string name="quick_settings_bluetooth_off_label">블루투스 사용 안함</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">페어링된 기기가 없습니다.</string>
+    <string name="quick_settings_brightness_label">밝기</string>
+    <string name="quick_settings_rotation_unlocked_label">자동 회전</string>
+    <string name="quick_settings_rotation_locked_label">방향 고정</string>
+    <string name="quick_settings_rotation_locked_portrait_label">세로</string>
+    <string name="quick_settings_rotation_locked_landscape_label">가로</string>
+    <string name="quick_settings_ime_label">입력 방법</string>
+    <string name="quick_settings_location_label">위치</string>
+    <string name="quick_settings_location_off_label">위치 사용 중지</string>
+    <string name="quick_settings_media_device_label">미디어 기기</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">긴급 통화만 허용</string>
+    <string name="quick_settings_settings_label">설정</string>
+    <string name="quick_settings_time_label">시간</string>
+    <string name="quick_settings_user_label">나</string>
+    <string name="quick_settings_user_title">사용자</string>
+    <string name="quick_settings_user_new_user">새 사용자</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">연결되어 있지 않음</string>
+    <string name="quick_settings_wifi_no_network">네트워크가 연결되지 않음</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi 꺼짐</string>
+    <string name="quick_settings_wifi_detail_empty_text">저장된 네트워크가 없습니다.</string>
+    <string name="quick_settings_cast_title">화면 전송</string>
+    <string name="quick_settings_casting">전송 중</string>
+    <string name="quick_settings_cast_device_default_name">이름이 없는 기기</string>
+    <string name="quick_settings_cast_device_default_description">전송 준비 완료</string>
+    <string name="quick_settings_cast_detail_empty_text">사용 가능한 기기가 없습니다.</string>
+    <string name="quick_settings_brightness_dialog_title">밝기</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">자동</string>
+    <string name="quick_settings_inversion_label">색상 반전</string>
+    <string name="quick_settings_color_space_label">색상 보정 모드</string>
+    <string name="quick_settings_more_settings">설정 더보기</string>
+    <string name="quick_settings_done">완료</string>
+    <string name="quick_settings_connected">연결됨</string>
+    <string name="quick_settings_connecting">연결 중...</string>
+    <string name="quick_settings_tethering_label">테더링</string>
+    <string name="quick_settings_hotspot_label">핫스팟</string>
+    <string name="quick_settings_notifications_label">알림</string>
+    <string name="quick_settings_flashlight_label">손전등</string>
+    <string name="quick_settings_cellular_detail_title">모바일 데이터</string>
+    <string name="quick_settings_cellular_detail_data_usage">데이터 사용</string>
+    <string name="quick_settings_cellular_detail_remaining_data">잔여 데이터</string>
+    <string name="quick_settings_cellular_detail_over_limit">한도에 도달 – 데이터 사용 일시중지됨</string>
+    <string name="quick_settings_cellular_detail_data_used">%s 사용됨</string>
+    <string name="quick_settings_cellular_detail_data_limit">한도: %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s 경고</string>
+    <string name="recents_empty_message">여기에 최근 화면이 표시됩니다.</string>
+    <string name="recents_app_info_button_label">애플리케이션 정보</string>
+    <string name="recents_lock_to_app_button_label">앱에 잠금</string>
+    <string name="recents_search_bar_label">검색</string>
+    <string name="recents_launch_error_message">%s을(를) 시작할 수 없습니다.</string>
+    <string name="expanded_header_battery_charged">충전됨</string>
+    <string name="expanded_header_battery_charging">충전 중</string>
+    <string name="expanded_header_battery_charging_with_time">완충까지 %s 남음</string>
+    <string name="expanded_header_battery_not_charging">충전 안함</string>
+    <string name="ssl_ca_cert_warning">"네트워크가
+모니터링될 수 있음"</string>
+    <string name="description_target_search">검색</string>
+    <string name="description_direction_up">%s하려면 위로 슬라이드</string>
+    <string name="description_direction_left">%s하려면 왼쪽으로 슬라이드</string>
+    <string name="zen_no_interruptions_with_warning">어떤 방해도 받지 않습니다. 알람도 울리지 않습니다.</string>
+    <string name="zen_no_interruptions">모든 알림 차단</string>
+    <string name="zen_important_interruptions">최우선 알림만 수신</string>
+    <string name="zen_alarm_information_time">다음 알람 시각: %s</string>
+    <string name="zen_alarm_information_day_time">다음 알람 일시: %s</string>
+    <string name="zen_alarm_warning">%s에 알람을 들을 수 없습니다.</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">아래에 덜 급한 알림 표시</string>
+    <string name="notification_tap_again">다시 터치하여 열기</string>
+    <string name="keyguard_unlock">위로 스와이프하여 잠금 해제</string>
+    <string name="phone_hint">전화 기능을 사용하려면 오른쪽으로 스와이프하세요.</string>
+    <string name="camera_hint">카메라를 사용하려면 왼쪽으로 스와이프하세요.</string>
+    <string name="interruption_level_none">수신 안함</string>
+    <string name="interruption_level_priority">최우선만 수신</string>
+    <string name="interruption_level_all">모두 수신</string>
+    <string name="keyguard_indication_charging_time">충전 중(%s 후 충전 완료)</string>
+    <string name="accessibility_multi_user_switch_switcher">사용자 전환</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">사용자 전환, 현재 사용자 %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">프로필 표시</string>
+    <string name="user_add_user">사용자 추가</string>
+    <string name="user_new_user_name">새 사용자</string>
+    <string name="guest_nickname">손님</string>
+    <string name="guest_new_guest">게스트 추가</string>
+    <string name="guest_exit_guest">손님 삭제</string>
+    <string name="guest_exit_guest_dialog_title">손님을 삭제하시겠습니까?</string>
+    <string name="guest_exit_guest_dialog_message">이 세션에 있는 모든 앱과 데이터가 삭제됩니다.</string>
+    <string name="guest_exit_guest_dialog_remove">삭제</string>
+    <string name="guest_wipe_session_title">손님 세션 다시 시작</string>
+    <string name="guest_wipe_session_message">세션을 계속 진행하시겠습니까?</string>
+    <string name="guest_wipe_session_wipe">다시 시작</string>
+    <string name="guest_wipe_session_dontwipe">예, 계속합니다.</string>
+    <string name="user_add_user_title">새 사용자를 추가할까요?</string>
+    <string name="user_add_user_message_short">"추가된 새로운 사용자는 자신의 공간을 설정해야 합니다.
+
+모든 사용자는 다른 사용자들을 위하여 앱을 업데이트할 수 있습니다."</string>
+    <string name="battery_saver_notification_title">배터리 세이버 사용 중</string>
+    <string name="battery_saver_notification_text">성능 및 백그라운드 데이터를 줄입니다.</string>
+    <string name="battery_saver_notification_action_text">배터리 절약 기능 사용 중지</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">숨겨진 콘텐츠</string>
+    <string name="media_projection_dialog_text">%s에서 화면에 표시된 모든 것을 캡처하기 시작합니다.</string>
+    <string name="media_projection_remember_text">다시 표시 안함</string>
+    <string name="clear_all_notifications_text">모두 지우기</string>
+    <string name="media_projection_action_text">시작하기</string>
+    <string name="empty_shade_text">알림 없음</string>
+    <string name="device_owned_footer">기기가 모니터링될 수 있음</string>
+    <string name="profile_owned_footer">프로필이 모니터링될 수 있음</string>
+    <string name="vpn_footer">네트워크가 모니터링될 수 있음</string>
+    <string name="monitoring_title_device_owned">기기 모니터링</string>
+    <string name="monitoring_title_profile_owned">프로필 모니터링</string>
+    <string name="monitoring_title">네트워크 모니터링</string>
+    <string name="disable_vpn">VPN 사용 중지</string>
+    <string name="disconnect_vpn">VPN 연결 해제</string>
+    <string name="monitoring_description_device_owned">"이 기기는 
+%1$s
+
+에서 관리합니다. 관리자가 이메일, 앱 및 보안 웹사이트 등의 네트워크 활동을 모니터링할 수 있습니다.
+
+자세한 내용은 관리자에게 문의하세요."</string>
+    <string name="monitoring_description_vpn">"'%1$s'에 VPN 연결을 설정할 수 있는 권한을 부여했습니다.
+
+이 앱에서 내 기기와 이메일과 앱, 보안 웹사이트 등의 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_legacy_vpn">"VPN('%1$s')에 연결되었습니다.
+
+VPN 서비스 제공업체에서 내 기기와 이메일, 앱, 보안 웹사이트 등의 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_vpn_device_owned">"이 기기는 
+%1$s에서 관리합니다.
+
+관리자가 이메일, 앱, 보안 웹사이트 등의 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 '%2$s'에 VPN 연결을 설정할 수 있는 권한을 부여했습니다. 이 앱에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"이 기기는 
+%1$s에서 관리합니다.
+
+관리자가 이메일, 앱, 보안 웹사이트 등의 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 VPN에도 연결되었습니다('%2$s'). VPN 서비스 제공업체에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_profile_owned">"프로필 관리자:
+%1$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 네트워크 활동과 내 기기를 모니터링할 수 있습니다.
+
+자세한 정보는 관리자에게 문의하세요."</string>
+    <string name="monitoring_description_device_and_profile_owned">"기기 관리자:
+%1$s
+프로필 관리자:
+%2$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 네트워크 활동과 내 기기를 모니터링할 수 있습니다.
+
+자세한 정보는 관리자에게 문의하세요."</string>
+    <string name="monitoring_description_vpn_profile_owned">"프로필 관리자:
+%1$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 내 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 '%2$s'에 VPN 연결을 설정할 수 있는 권한을 부여했습니다. 이 앱에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"프로필 관리자:
+%1$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 내 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 현재 VPN('%2$s')에 연결되어 있습니다. VPN 서비스 제공업체에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"기기 관리자:
+%1$s
+프로필 관리자:
+%2$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 내 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 '%3$s'에 VPN 연결을 설정할 수 있는 권한을 부여했습니다. 이 앱에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"기기 관리자:
+%1$s
+프로필 관리자:
+%2$s
+
+관리자는 이메일, 앱, 보안 웹사이트를 비롯한 내 네트워크 활동을 모니터링할 수 있습니다. 자세한 정보는 관리자에게 문의하세요.
+
+또한 현재 VPN('%3$s')에 연결되어 있습니다. VPN 서비스 제공업체에서도 네트워크 활동을 모니터링할 수 있습니다."</string>
+    <string name="keyguard_indication_trust_disabled">수동으로 잠금 해제할 때까지 기기가 잠금 상태로 유지됩니다.</string>
+    <string name="hidden_notifications_title">알림을 더욱 빠르게 받기</string>
+    <string name="hidden_notifications_text">잠금 해제하기 전에 알림을 봅니다.</string>
+    <string name="hidden_notifications_cancel">사용 안함</string>
+    <string name="hidden_notifications_setup">설정</string>
+    <string name="muted_by">%1$s에서 알림음 음소거</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">키가드</string>
+    <string name="keyguard_password_enter_pin_code">PIN 코드 입력</string>
+    <string name="keyguard_password_enter_puk_code">SIM PUK 및 새 PIN 코드 입력</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK 코드</string>
+    <string name="keyguard_password_enter_pin_prompt">새 SIM PIN 코드</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">비밀번호를 입력하려면 터치</font></string>
+    <string name="keyguard_password_enter_password_code">잠금 해제하려면 비밀번호 입력</string>
+    <string name="keyguard_password_enter_pin_password_code">잠금을 해제하려면 PIN 입력</string>
+    <string name="keyguard_password_wrong_pin_code">PIN 코드가 잘못되었습니다.</string>
+    <string name="keyguard_label_text">잠금해제하려면 메뉴를 누른 다음 0을 누릅니다.</string>
+    <string name="faceunlock_multiple_failures">얼굴 인식 잠금해제 최대 시도 횟수를 초과했습니다.</string>
+    <string name="keyguard_charged">충전됨</string>
+    <string name="keyguard_plugged_in">충전 중</string>
+    <string name="keyguard_low_battery">충전기를 연결하세요.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">잠금해제하려면 메뉴를 누르세요.</string>
+    <string name="keyguard_network_locked_message">네트워크 잠김</string>
+    <string name="keyguard_missing_sim_message_short">SIM 카드가 없습니다.</string>
+    <string name="keyguard_missing_sim_message">휴대전화에 SIM 카드가 없습니다.</string>
+    <string name="keyguard_missing_sim_instructions">SIM 카드를 삽입하세요.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM 카드가 없거나 읽을 수 없습니다. SIM 카드를 삽입하세요.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">사용할 수 없는 SIM 카드입니다.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM 카드를 완전히 사용할 수 없게 되었습니다.
+다른 SIM 카드를 사용하려면 무선 서비스 제공업체에 문의하시기 바랍니다."</string>
+    <string name="keyguard_sim_locked_message">SIM 카드가 잠겨 있습니다.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM 카드가 PUK 잠김 상태입니다.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM 카드 잠금해제 중...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d의 위젯 %2$d.</string>
+    <string name="keyguard_accessibility_add_widget">위젯 추가</string>
+    <string name="keyguard_accessibility_widget_empty_slot">비어 있음</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">잠금 해제 영역 확장됨</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">잠금 해제 영역 축소됨</string>
+    <string name="keyguard_accessibility_widget">%1$s 위젯</string>
+    <string name="keyguard_accessibility_user_selector">사용자 선택기</string>
+    <string name="keyguard_accessibility_camera">카메라</string>
+    <string name="keygaurd_accessibility_media_controls">미디어 조정</string>
+    <string name="keyguard_accessibility_widget_reorder_start">위젯 재정렬 시작됨</string>
+    <string name="keyguard_accessibility_widget_reorder_end">위젯 재정렬 완료됨</string>
+    <string name="keyguard_accessibility_widget_deleted">%1$s 위젯이 삭제됨</string>
+    <string name="keyguard_accessibility_expand_lock_area">잠금 해제 영역 확장</string>
+    <string name="keyguard_accessibility_slide_unlock">슬라이드하여 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_pattern_unlock">패턴을 사용하여 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_face_unlock">얼굴 인식을 사용하여 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_pin_unlock">핀을 사용하여 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_password_unlock">비밀번호를 사용하여 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_pattern_area">패턴을 그리는 부분입니다.</string>
+    <string name="keyguard_accessibility_slide_area">슬라이드하는 부분입니다.</string>
+    <string name="keyguard_accessibility_transport_prev_description">이전 트랙 버튼</string>
+    <string name="keyguard_accessibility_transport_next_description">다음 트랙 버튼</string>
+    <string name="keyguard_accessibility_transport_pause_description">일시중지 버튼</string>
+    <string name="keyguard_accessibility_transport_play_description">재생 버튼</string>
+    <string name="keyguard_accessibility_transport_stop_description">중지 버튼</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">좋아요</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">싫어요</string>
+    <string name="keyguard_accessibility_transport_heart_description">하트</string>
+    <string name="keyguard_accessibility_show_bouncer">계속하려면 잠금해제합니다.</string>
+    <string name="keyguard_accessibility_hide_bouncer">실행 취소됨</string>
+    <string name="keyguard_accessibility_delete_widget_start">삭제하려면 %1$s을(를) 드롭합니다.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s은(는) 삭제되지 않습니다.</string>
+    <string name="keyguard_accessibility_next_alarm">다음 알람이 %1$s(으)로 설정되었습니다.</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt 키</string>
+    <string name="keyboardview_keycode_cancel">취소</string>
+    <string name="keyboardview_keycode_delete">Delete 키</string>
+    <string name="keyboardview_keycode_done">완료</string>
+    <string name="keyboardview_keycode_mode_change">모드 변경</string>
+    <string name="keyboardview_keycode_shift">Shift 키</string>
+    <string name="keyboardview_keycode_enter">Enter 키</string>
+    <string name="description_target_unlock">잠금 해제</string>
+    <string name="description_target_camera">카메라</string>
+    <string name="description_target_silent">무음</string>
+    <string name="description_target_soundon">사운드 켜기</string>
+    <string name="description_direction_down">%s하려면 아래로 슬라이드</string>
+    <string name="description_direction_right">%s하려면 오른쪽으로 슬라이드</string>
+    <string name="user_switched">현재 사용자는 %1$s님입니다.</string>
+    <string name="kg_emergency_call_label">긴급 통화</string>
+    <string name="kg_forgot_pattern_button_text">패턴을 잊음</string>
+    <string name="kg_wrong_pattern">잘못된 패턴</string>
+    <string name="kg_wrong_password">잘못된 비밀번호</string>
+    <string name="kg_wrong_pin">잘못된 PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d초 후에 다시 시도해 주세요.</string>
+    <string name="kg_pattern_instructions">패턴 그리기</string>
+    <string name="kg_sim_pin_instructions">SIM PIN 입력</string>
+    <string name="kg_pin_instructions">PIN 입력</string>
+    <string name="kg_password_instructions">비밀번호 입력</string>
+    <string name="kg_puk_enter_puk_hint">이제 SIM을 사용할 수 없습니다. 계속하려면 PUK 코드를 입력합니다. 자세한 내용은 이동통신사에 문의하세요.</string>
+    <string name="kg_puk_enter_pin_hint">원하는 PIN 코드 입력</string>
+    <string name="kg_enter_confirm_pin_hint">원하는 PIN 코드 확인</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM 카드 잠금해제 중...</string>
+    <string name="kg_invalid_sim_pin_hint">4~8자리 숫자로 된 PIN을 입력하세요.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK 코드는 8자리 이상의 숫자여야 합니다.</string>
+    <string name="kg_invalid_puk">올바른 PUK 코드를 다시 입력하세요. 입력을 반복해서 시도하면 SIM을 영구적으로 사용할 수 없게 됩니다.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN 코드가 일치하지 않음</string>
+    <string name="kg_login_too_many_attempts">패턴 시도 횟수가 너무 많음</string>
+    <string name="kg_login_instructions">잠금해제하려면 Google 계정으로 로그인하세요.</string>
+    <string name="kg_login_username_hint">사용자 이름(이메일)</string>
+    <string name="kg_login_password_hint">비밀번호</string>
+    <string name="kg_login_submit_button">로그인</string>
+    <string name="kg_login_invalid_input">사용자 이름 또는 비밀번호가 잘못되었습니다.</string>
+    <string name="kg_login_account_recovery_hint">"사용자 이름이나 비밀번호를 잊어버렸습니까?
+"<b>google.com/accounts/recovery</b> 페이지를 방문하세요.</string>
+    <string name="kg_login_checking_password">계정 확인 중…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"PIN을 %d회 잘못 입력했습니다. 
+
+%d초 후에 다시 시도해 주세요."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"비밀번호를 %d회 잘못 입력했습니다. 
+
+%d초 후에 다시 시도해 주세요."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"잠금해제 패턴을 %d회 잘못 그렸습니다. 
+
+%d초 후에 다시 시도해 주세요."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">휴대전화를 잠금해제하려는 시도가 %d회 잘못되었습니다. %d회 더 실패하면 휴대전화가 초기화되고 사용자 데이터가 모두 사라집니다.</string>
+    <string name="kg_failed_attempts_now_wiping">휴대전화를 잠금해제하려는 시도가 %d회 잘못되었습니다. 휴대전화가 초기화됩니다.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"잠금해제 패턴을 %d회 잘못 그렸습니다. %d회 더 실패하면 이메일 계정을 사용하여 휴대전화를 잠금해제해야 합니다.
+
+ %d초 후에 다시 시도해 주세요."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">삭제</string>
+    <string name="kg_password_wrong_pin_code_pukked">SIM PIN 코드가 잘못되었습니다. 이동통신사에 문의하여 기기를 잠금 해제해야 합니다.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM을 사용할 수 없습니다. 이동통신사에 문의하세요.</string>
+    <string name="kg_password_pin_failed">SIM PIN 작업이 실패했습니다.</string>
+    <string name="kg_password_puk_failed">SIM PUK 작업이 실패했습니다.</string>
+    <string name="kg_pin_accepted">코드 승인 완료</string>
+    <string name="keyguard_transport_prev_description">이전 트랙 버튼</string>
+    <string name="keyguard_transport_next_description">다음 트랙 버튼</string>
+    <string name="keyguard_transport_pause_description">일시중지 버튼</string>
+    <string name="keyguard_transport_play_description">재생 버튼</string>
+    <string name="keyguard_transport_stop_description">중지 버튼</string>
+    <string name="keyguard_carrier_default">서비스 불가</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+</resources>

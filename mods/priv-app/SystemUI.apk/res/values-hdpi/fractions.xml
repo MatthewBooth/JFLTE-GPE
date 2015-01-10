@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="battery_button_height_fraction">10.500002%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">20.000004%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">12.0%</fraction>
+</resources>

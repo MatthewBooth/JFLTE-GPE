@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">‏%d صفحه در نمای کلی</item>
+        <item quantity="one">۱ صفحه در نمای کلی</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید.</item>
+        <item quantity="one">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن برای گشودن قفل دستگاهتان باید با شرکت مخابراتی تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏کد PUK سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت به طور دائم غیر قابل استفاده می‌شود.</item>
+        <item quantity="one">‏کد PUK سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت به صورت دائم غیر قابل استفاده می‌شود.</item>
+    </plurals>
+</resources>

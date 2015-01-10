@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d pantalles en la visió general</item>
+        <item quantity="one">1 pantalla en la visió general</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">El codi PIN de la SIM no és correcte. Et queden %d intents.</item>
+        <item quantity="one">"El codi PIN de la SIM no és correcte. Et queda %d intent; si no l'encertes, contacta amb l'operador de telefonia mòbil per desbloquejar el dispositiu."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">"El codi PUK de la SIM no és correcte. Et queden %d intents; si no l'encertes, la SIM no es podrà tornar a fer servir."</item>
+        <item quantity="one">"El codi PUK de la SIM no és correcte. Et queda %d intent; si no l'encertes, la SIM no es podrà tornar a fer servir."</item>
+    </plurals>
+</resources>

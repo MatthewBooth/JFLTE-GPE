@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item type="drawable" name="ticker_background_color">#ff1d1d1d</item>
+    <item type="drawable" name="system_bar_background">@color/system_bar_background_opaque</item>
+    <item type="drawable" name="status_bar_recents_app_thumbnail_background">#88000000</item>
+    <item type="drawable" name="status_bar_notification_row_background_color">#ff090909</item>
+    <item type="drawable" name="recents_callout_line">#99ffffff</item>
+    <item type="drawable" name="heads_up_notification_bg_pressed">#ff33b5e5</item>
+    <item type="drawable" name="stat_sys_warning">@android:drawable/stat_sys_warning</item>
+    <item type="drawable" name="ic_media_pause">@android:drawable/ic_media_pause</item>
+    <item type="drawable" name="ic_media_stop">@android:drawable/ic_media_stop</item>
+    <item type="drawable" name="ic_contact_picture">@android:drawable/ic_contact_picture</item>
+</resources>

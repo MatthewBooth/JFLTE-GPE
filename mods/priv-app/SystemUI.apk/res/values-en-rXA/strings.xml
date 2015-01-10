@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lland">[Ļ Ļåñð one two]</string>
+    <string name="app_label">[Šýšţéḿ ÛÎ one two]</string>
+    <string name="status_bar_clear_all_button">[Çļéåŕ one two]</string>
+    <string name="status_bar_recent_remove_item_title">[ŔéḿöVé ƒŕöḿ ļîšţ one two three]</string>
+    <string name="status_bar_recent_inspect_item_title">[Åþþ îñƒö one two]</string>
+    <string name="status_bar_no_recent_apps">[Ýöûŕ ŕéçéñţ šçŕééñš åþþéåŕ ĥéŕé one two three four five six seven]</string>
+    <string name="status_bar_accessibility_dismiss_recents">[Ðîšḿîšš ŕéçéñţ åþþš one two three]</string>
+    <string name="status_bar_no_notifications_title">[Ñö ñöţîƒîçåţîöñš one two three]</string>
+    <string name="status_bar_ongoing_events_title">[Öñĝöîñĝ one two]</string>
+    <string name="status_bar_latest_events_title">[Ñöţîƒîçåţîöñš one two three]</string>
+    <string name="battery_low_title">[βåţţéŕý îš ļöŵ one two three]</string>
+    <string name="battery_low_percent_format">[%d%% ŕéḿåîñîñĝ one two three]</string>
+    <string name="battery_low_percent_format_saver_started">[%d%% ŕéḿåîñîñĝ. βåţţéŕý šåVéŕ îš öñ. one two three four five six seven eight]</string>
+    <string name="invalid_charger">"[ÛŠβ çĥåŕĝîñĝ ñöţ šûþþöŕţéð.
+Ûšé öñļý ţĥé šûþþļîéð çĥåŕĝéŕ. one two three four five six seven eight nine ten eleven twelve]"</string>
+    <string name="invalid_charger_title">[ÛŠβ çĥåŕĝîñĝ ñöţ šûþþöŕţéð. one two three four]</string>
+    <string name="invalid_charger_text">[Ûšé öñļý ţĥé šûþþļîéð çĥåŕĝéŕ. one two three four five six seven]</string>
+    <string name="battery_low_why">[Šéţţîñĝš one two]</string>
+    <string name="battery_saver_confirmation_title">[Ţûŕñ öñ ɓåţţéŕý šåVéŕ¿ one two three]</string>
+    <string name="battery_saver_confirmation_ok">[Ţûŕñ öñ one two]</string>
+    <string name="battery_saver_start_action">[Ţûŕñ öñ ɓåţţéŕý šåVéŕ one two three]</string>
+    <string name="status_bar_settings_settings_button">[Šéţţîñĝš one two]</string>
+    <string name="status_bar_settings_wifi_button">[Ŵî-Fî one two]</string>
+    <string name="status_bar_settings_airplane">[Åîŕþļåñé ḿöðé one two three]</string>
+    <string name="status_bar_settings_auto_rotation">[Åûţö-ŕöţåţé šçŕééñ one two three]</string>
+    <string name="status_bar_settings_mute_label">[ḾÛŢÉ one]</string>
+    <string name="status_bar_settings_auto_brightness_label">[ÅÛŢÖ one]</string>
+    <string name="status_bar_settings_notifications">[Ñöţîƒîçåţîöñš one two three]</string>
+    <string name="bluetooth_tethered">[βļûéţööţĥ ţéţĥéŕéð one two three]</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">[Šéţ ûþ îñþûţ ḿéţĥöðš one two three]</string>
+    <string name="status_bar_use_physical_keyboard">[Þĥýšîçåļ ķéýɓöåŕð one two three]</string>
+    <string name="usb_device_permission_prompt">[Åļļöŵ ţĥé åþþ %1$s ţö åççéšš ţĥé ÛŠβ ðéVîçé¿ one two three four five six seven eight nine ten]</string>
+    <string name="usb_accessory_permission_prompt">[Åļļöŵ ţĥé åþþ %1$s ţö åççéšš ţĥé ÛŠβ åççéššöŕý¿ one two three four five six seven eight nine ten eleven]</string>
+    <string name="usb_device_confirm_prompt">[Öþéñ %1$s ŵĥéñ ţĥîš ÛŠβ ðéVîçé îš çöññéçţéð¿ one two three four five six seven eight nine ten]</string>
+    <string name="usb_accessory_confirm_prompt">[Öþéñ %1$s ŵĥéñ ţĥîš ÛŠβ åççéššöŕý îš çöññéçţéð¿ one two three four five six seven eight nine ten eleven]</string>
+    <string name="usb_accessory_uri_prompt">[Ñö îñšţåļļéð åþþš ŵöŕķ ŵîţĥ ţĥîš ÛŠβ åççéššöŕý. Ļéåŕñ ḿöŕé åɓöûţ ţĥîš åççéššöŕý åţ %1$s one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]</string>
+    <string name="title_usb_accessory">[ÛŠβ åççéššöŕý one two three]</string>
+    <string name="label_view">[νîéŵ one]</string>
+    <string name="always_use_device">[Ûšé ɓý ðéƒåûļţ ƒöŕ ţĥîš ÛŠβ ðéVîçé one two three four five six seven eight]</string>
+    <string name="always_use_accessory">[Ûšé ɓý ðéƒåûļţ ƒöŕ ţĥîš ÛŠβ åççéššöŕý one two three four five six seven eight]</string>
+    <string name="usb_debugging_title">[Åļļöŵ ÛŠβ ðéɓûĝĝîñĝ¿ one two three]</string>
+    <string name="usb_debugging_message">"[Ţĥé çöḿþûţéŕ'š ŔŠÅ ķéý ƒîñĝéŕþŕîñţ îš:
+%1$s one two three four five six seven eight nine ten]"</string>
+    <string name="usb_debugging_always">[Åļŵåýš åļļöŵ ƒŕöḿ ţĥîš çöḿþûţéŕ one two three four five six seven]</string>
+    <string name="compat_mode_on">[Žööḿ ţö ƒîļļ šçŕééñ one two three]</string>
+    <string name="compat_mode_off">[Šţŕéţçĥ ţö ƒîļļ šçŕééñ one two three]</string>
+    <string name="screenshot_saving_ticker">[ŠåVîñĝ šçŕééñšĥöţ… one two three]</string>
+    <string name="screenshot_saving_title">[ŠåVîñĝ šçŕééñšĥöţ… one two three]</string>
+    <string name="screenshot_saving_text">[Šçŕééñšĥöţ îš ɓéîñĝ šåVéð. one two three four]</string>
+    <string name="screenshot_saved_title">[Šçŕééñšĥöţ çåþţûŕéð. one two three]</string>
+    <string name="screenshot_saved_text">[Ţöûçĥ ţö Vîéŵ ýöûŕ šçŕééñšĥöţ. one two three four five six seven]</string>
+    <string name="screenshot_failed_title">"[Çöûļðñ'ţ çåþţûŕé šçŕééñšĥöţ. one two three four]"</string>
+    <string name="screenshot_failed_text">"[Çåñ'ţ ţåķé šçŕééñšĥöţ ðûé ţö ļîḿîţéð šţöŕåĝé šþåçé, öŕ îţ îšñ'ţ åļļöŵéð ɓý ţĥé åþþ öŕ ýöûŕ öŕĝåñîžåţîöñ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen]"</string>
+    <string name="usb_preference_title">[ÛŠβ ƒîļé ţŕåñšƒéŕ öþţîöñš one two three four]</string>
+    <string name="use_mtp_button_title">[Ḿöûñţ åš å ḿéðîå þļåýéŕ (ḾŢÞ) one two three four five six seven]</string>
+    <string name="use_ptp_button_title">[Ḿöûñţ åš å çåḿéŕå (ÞŢÞ) one two three four five six]</string>
+    <string name="installer_cd_button_title">[Îñšţåļļ Åñðŕöîð Fîļé Ţŕåñšƒéŕ åþþ ƒöŕ Ḿåç one two three four five six seven eight nine]</string>
+    <string name="accessibility_back">[βåçķ one]</string>
+    <string name="accessibility_home">[Ĥöḿé one]</string>
+    <string name="accessibility_menu">[Ḿéñû one]</string>
+    <string name="accessibility_recent">[ÖVéŕVîéŵ one two]</string>
+    <string name="accessibility_search_light">[Šéåŕçĥ one two]</string>
+    <string name="accessibility_camera_button">[Çåḿéŕå one two]</string>
+    <string name="accessibility_phone_button">[Þĥöñé one two]</string>
+    <string name="accessibility_unlock_button">[Ûñļöçķ one two]</string>
+    <string name="unlock_label">[ûñļöçķ one two]</string>
+    <string name="phone_label">[öþéñ þĥöñé one two]</string>
+    <string name="camera_label">[öþéñ çåḿéŕå one two]</string>
+    <string name="accessibility_ime_switch_button">[Šŵîţçĥ îñþûţ ḿéţĥöð ɓûţţöñ. one two three four]</string>
+    <string name="accessibility_compatibility_zoom_button">[Çöḿþåţîɓîļîţý žööḿ ɓûţţöñ. one two three four]</string>
+    <string name="accessibility_compatibility_zoom_example">[Žööḿ šḿåļļéŕ ţö ļåŕĝéŕ šçŕééñ. one two three four five six seven]</string>
+    <string name="accessibility_bluetooth_connected">[βļûéţööţĥ çöññéçţéð. one two three]</string>
+    <string name="accessibility_bluetooth_disconnected">[βļûéţööţĥ ðîšçöññéçţéð. one two three]</string>
+    <string name="accessibility_no_battery">[Ñö ɓåţţéŕý. one two]</string>
+    <string name="accessibility_battery_one_bar">[βåţţéŕý öñé ɓåŕ. one two three]</string>
+    <string name="accessibility_battery_two_bars">[βåţţéŕý ţŵö ɓåŕš. one two three]</string>
+    <string name="accessibility_battery_three_bars">[βåţţéŕý ţĥŕéé ɓåŕš. one two three]</string>
+    <string name="accessibility_battery_full">[βåţţéŕý ƒûļļ. one two three]</string>
+    <string name="accessibility_no_phone">[Ñö þĥöñé. one two]</string>
+    <string name="accessibility_phone_one_bar">[Þĥöñé öñé ɓåŕ. one two three]</string>
+    <string name="accessibility_phone_two_bars">[Þĥöñé ţŵö ɓåŕš. one two three]</string>
+    <string name="accessibility_phone_three_bars">[Þĥöñé ţĥŕéé ɓåŕš. one two three]</string>
+    <string name="accessibility_phone_signal_full">[Þĥöñé šîĝñåļ ƒûļļ. one two three]</string>
+    <string name="accessibility_no_data">[Ñö ðåţå. one two]</string>
+    <string name="accessibility_data_one_bar">[Ðåţå öñé ɓåŕ. one two three]</string>
+    <string name="accessibility_data_two_bars">[Ðåţå ţŵö ɓåŕš. one two three]</string>
+    <string name="accessibility_data_three_bars">[Ðåţå ţĥŕéé ɓåŕš. one two three]</string>
+    <string name="accessibility_data_signal_full">[Ðåţå šîĝñåļ ƒûļļ. one two three]</string>
+    <string name="accessibility_wifi_off">[Ŵîƒî öƒƒ. one two]</string>
+    <string name="accessibility_no_wifi">[Ŵîƒî ðîšçöññéçţéð. one two three]</string>
+    <string name="accessibility_wifi_one_bar">[Ŵîƒî öñé ɓåŕ. one two three]</string>
+    <string name="accessibility_wifi_two_bars">[Ŵîƒî ţŵö ɓåŕš. one two three]</string>
+    <string name="accessibility_wifi_three_bars">[Ŵîƒî ţĥŕéé ɓåŕš. one two three]</string>
+    <string name="accessibility_wifi_signal_full">[Ŵîƒî šîĝñåļ ƒûļļ. one two three]</string>
+    <string name="accessibility_wifi_name">[Çöññéçţéð ţö %s. one two three]</string>
+    <string name="accessibility_bluetooth_name">[Çöññéçţéð ţö %s. one two three]</string>
+    <string name="accessibility_no_wimax">[Ñö ŴîḾÅ×. one two]</string>
+    <string name="accessibility_wimax_one_bar">[ŴîḾÅ× öñé ɓåŕ. one two three]</string>
+    <string name="accessibility_wimax_two_bars">[ŴîḾÅ× ţŵö ɓåŕš. one two three]</string>
+    <string name="accessibility_wimax_three_bars">[ŴîḾÅ× ţĥŕéé ɓåŕš. one two three]</string>
+    <string name="accessibility_wimax_signal_full">[ŴîḾÅ× šîĝñåļ ƒûļļ. one two three]</string>
+    <string name="accessibility_no_signal">[Ñö šîĝñåļ. one two]</string>
+    <string name="accessibility_not_connected">[Ñöţ çöññéçţéð. one two three]</string>
+    <string name="accessibility_zero_bars">[Žéŕö ɓåŕš. one two]</string>
+    <string name="accessibility_one_bar">[Öñé ɓåŕ. one two]</string>
+    <string name="accessibility_two_bars">[Ţŵö ɓåŕš. one two]</string>
+    <string name="accessibility_three_bars">[Ţĥŕéé ɓåŕš. one two]</string>
+    <string name="accessibility_signal_full">[Šîĝñåļ ƒûļļ. one two]</string>
+    <string name="accessibility_desc_on">[Öñ. one]</string>
+    <string name="accessibility_desc_off">[Öƒƒ. one]</string>
+    <string name="accessibility_desc_connected">[Çöññéçţéð. one two]</string>
+    <string name="accessibility_desc_connecting">[Çöññéçţîñĝ. one two]</string>
+    <string name="accessibility_data_connection_gprs">[ĜÞŔŠ one]</string>
+    <string name="accessibility_data_connection_1x">[1 × one]</string>
+    <string name="accessibility_data_connection_hspa">[ĤŠÞÅ one]</string>
+    <string name="accessibility_data_connection_3g">[3Ĝ one]</string>
+    <string name="accessibility_data_connection_3.5g">[3.5Ĝ one]</string>
+    <string name="accessibility_data_connection_4g">[4Ĝ one]</string>
+    <string name="accessibility_data_connection_lte">[ĻŢÉ one]</string>
+    <string name="accessibility_data_connection_cdma">[ÇÐḾÅ one]</string>
+    <string name="accessibility_data_connection_roaming">[Ŕöåḿîñĝ one two]</string>
+    <string name="accessibility_data_connection_edge">[Éðĝé one]</string>
+    <string name="accessibility_data_connection_wifi">[Ŵî-Fî one two]</string>
+    <string name="accessibility_no_sim">[Ñö ŠÎḾ. one two]</string>
+    <string name="accessibility_bluetooth_tether">[βļûéţööţĥ ţéţĥéŕîñĝ. one two three]</string>
+    <string name="accessibility_airplane_mode">[Åîŕþļåñé ḿöðé. one two three]</string>
+    <string name="accessibility_battery_level">[βåţţéŕý %d þéŕçéñţ. one two three]</string>
+    <string name="accessibility_settings_button">[Šýšţéḿ šéţţîñĝš. one two three]</string>
+    <string name="accessibility_notifications_button">[Ñöţîƒîçåţîöñš. one two three]</string>
+    <string name="accessibility_remove_notification">[Çļéåŕ ñöţîƒîçåţîöñ. one two three]</string>
+    <string name="accessibility_gps_enabled">[ĜÞŠ éñåɓļéð. one two]</string>
+    <string name="accessibility_gps_acquiring">[ĜÞŠ åçQûîŕîñĝ. one two three]</string>
+    <string name="accessibility_tty_enabled">[ŢéļéŢýþéŵŕîţéŕ éñåɓļéð. one two three]</string>
+    <string name="accessibility_ringer_vibrate">[Ŕîñĝéŕ Vîɓŕåţé. one two three]</string>
+    <string name="accessibility_ringer_silent">[Ŕîñĝéŕ šîļéñţ. one two three]</string>
+    <string name="accessibility_casting">[@string/quick_settings_casting</string>
+    <string name="accessibility_recents_item_will_be_dismissed">[Ðîšḿîšš %s. one two]</string>
+    <string name="accessibility_recents_item_dismissed">[%s ðîšḿîššéð. one two three]</string>
+    <string name="accessibility_recents_item_launched">[Šţåŕţîñĝ %s. one two]</string>
+    <string name="accessibility_notification_dismissed">[Ñöţîƒîçåţîöñ ðîšḿîššéð. one two three]</string>
+    <string name="accessibility_desc_notification_shade">[Ñöţîƒîçåţîöñ šĥåðé. one two three]</string>
+    <string name="accessibility_desc_quick_settings">[qûîçķ šéţţîñĝš. one two three]</string>
+    <string name="accessibility_desc_lock_screen">[Ļöçķ šçŕééñ. one two]</string>
+    <string name="accessibility_desc_settings">[Šéţţîñĝš one two]</string>
+    <string name="accessibility_desc_recent_apps">[ÖVéŕVîéŵ. one two]</string>
+    <string name="accessibility_quick_settings_user">[Ûšéŕ %s. one two]</string>
+    <string name="accessibility_quick_settings_wifi">[%1$s. one two]</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">[Ŵîƒî ţûŕñéð öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">[Ŵîƒî ţûŕñéð öñ. one two three]</string>
+    <string name="accessibility_quick_settings_mobile">[Ḿöɓîļé %1$s. %2$s. %3$s. one two three]</string>
+    <string name="accessibility_quick_settings_battery">[βåţţéŕý %s. one two]</string>
+    <string name="accessibility_quick_settings_airplane_off">[Åîŕþļåñé ḿöðé öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_airplane_on">[Åîŕþļåñé ḿöðé öñ. one two three]</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">[Åîŕþļåñé ḿöðé ţûŕñéð öƒƒ. one two three four]</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">[Åîŕþļåñé ḿöðé ţûŕñéð öñ. one two three]</string>
+    <string name="accessibility_quick_settings_data_off">[Ḿöɓîļé ðåţå öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_data_on">[Ḿöɓîļé ðåţå öñ. one two three]</string>
+    <string name="accessibility_quick_settings_roaming_off">[Ŕöåḿîñĝ öƒƒ. one two]</string>
+    <string name="accessibility_quick_settings_roaming_on">[Ŕöåḿîñĝ öñ. one two]</string>
+    <string name="accessibility_quick_settings_bluetooth_off">[βļûéţööţĥ öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_bluetooth_on">[βļûéţööţĥ öñ. one two three]</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">[βļûéţööţĥ çöññéçţîñĝ. one two three]</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">[βļûéţööţĥ çöññéçţéð. one two three]</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">[βļûéţööţĥ ţûŕñéð öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">[βļûéţööţĥ ţûŕñéð öñ. one two three]</string>
+    <string name="accessibility_quick_settings_location_off">[Ļöçåţîöñ ŕéþöŕţîñĝ öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_location_on">[Ļöçåţîöñ ŕéþöŕţîñĝ öñ. one two three]</string>
+    <string name="accessibility_quick_settings_location_changed_off">[Ļöçåţîöñ ŕéþöŕţîñĝ ţûŕñéð öƒƒ. one two three four]</string>
+    <string name="accessibility_quick_settings_location_changed_on">[Ļöçåţîöñ ŕéþöŕţîñĝ ţûŕñéð öñ. one two three four]</string>
+    <string name="accessibility_quick_settings_alarm">[Åļåŕḿ šéţ ƒöŕ %s. one two three]</string>
+    <string name="accessibility_quick_settings_close">[Çļöšé þåñéļ. one two]</string>
+    <string name="accessibility_quick_settings_more_time">[Ḿöŕé ţîḿé. one two]</string>
+    <string name="accessibility_quick_settings_less_time">[Ļéšš ţîḿé. one two]</string>
+    <string name="accessibility_quick_settings_flashlight_off">[Fļåšĥļîĝĥţ öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_flashlight_on">[Fļåšĥļîĝĥţ öñ. one two three]</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">[Fļåšĥļîĝĥţ ţûŕñéð öƒƒ. one two three]</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">[Fļåšĥļîĝĥţ ţûŕñéð öñ. one two three]</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">[Çöļöŕ îñVéŕšîöñ ţûŕñéð öƒƒ. one two three four]</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">[Çöļöŕ îñVéŕšîöñ ţûŕñéð öñ. one two three four]</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">[Ḿöɓîļé ĥöţšþöţ ţûŕñéð öƒƒ. one two three four]</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">[Ḿöɓîļé ĥöţšþöţ ţûŕñéð öñ. one two three four]</string>
+    <string name="accessibility_casting_turned_off">[Šçŕééñ çåšţîñĝ šţöþþéð. one two three]</string>
+    <string name="accessibility_brightness">[Ðîšþļåý ɓŕîĝĥţñéšš one two three]</string>
+    <string name="data_usage_disabled_dialog_3g_title">[2Ĝ-3Ĝ ðåţå îš öƒƒ one two three]</string>
+    <string name="data_usage_disabled_dialog_4g_title">[4Ĝ ðåţå îš öƒƒ one two three]</string>
+    <string name="data_usage_disabled_dialog_mobile_title">[Çéļļûļåŕ ðåţå îš öƒƒ one two three]</string>
+    <string name="data_usage_disabled_dialog_title">[Ðåţå îš öƒƒ one two]</string>
+    <string name="data_usage_disabled_dialog">"[Ýöûŕ ðéVîçé ţûŕñéð öƒƒ ðåţå ɓéçåûšé îţ ŕéåçĥéð ţĥé ļîḿîţ ýöû šéţ.
+
+Ţûŕñîñĝ îţ ɓåçķ öñ ḿåý ļéåð ţö çĥåŕĝéš ƒŕöḿ ýöûŕ çåŕŕîéŕ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one]"</string>
+    <string name="data_usage_disabled_dialog_enable">[Ţûŕñ öñ ðåţå one two]</string>
+    <string name="status_bar_settings_signal_meter_disconnected">[ Ñö Îñţéŕñéţ çöññéçţîöñ one two three four five six]</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">[Ŵî-Fî çöññéçţéð one two three]</string>
+    <string name="gps_notification_searching_text">[Šéåŕçĥîñĝ ƒöŕ ĜÞŠ one two three]</string>
+    <string name="gps_notification_found_text">[Ļöçåţîöñ šéţ ɓý ĜÞŠ one two three]</string>
+    <string name="accessibility_location_active">[Ļöçåţîöñ ŕéQûéšţš åçţîVé one two three]</string>
+    <string name="accessibility_clear_all">[Çļéåŕ åļļ ñöţîƒîçåţîöñš. one two three]</string>
+    <string name="status_bar_notification_inspect_item_title">[Ñöţîƒîçåţîöñ šéţţîñĝš one two three]</string>
+    <string name="status_bar_notification_app_settings_title">[%s šéţţîñĝš one two]</string>
+    <string name="accessibility_rotation_lock_off">[Šçŕééñ ŵîļļ ŕöţåţé åûţöḿåţîçåļļý. one two three four]</string>
+    <string name="accessibility_rotation_lock_on_landscape">[Šçŕééñ îš ļöçķéð îñ ļåñðšçåþé öŕîéñţåţîöñ. one two three four five six seven eight nine]</string>
+    <string name="accessibility_rotation_lock_on_portrait">[Šçŕééñ îš ļöçķéð îñ þöŕţŕåîţ öŕîéñţåţîöñ. one two three four five six seven eight nine]</string>
+    <string name="accessibility_rotation_lock_off_changed">[Šçŕééñ ŵîļļ ñöŵ ŕöţåţé åûţöḿåţîçåļļý. one two three four five six seven eight]</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">[Šçŕééñ îš ñöŵ ļöçķéð îñ ļåñðšçåþé öŕîéñţåţîöñ. one two three four five six seven eight nine ten]</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">[Šçŕééñ îš ñöŵ ļöçķéð îñ þöŕţŕåîţ öŕîéñţåţîöñ. one two three four five six seven eight nine ten]</string>
+    <string name="dessert_case">[Ðéššéŕţ Çåšé one two]</string>
+    <string name="start_dreams">[Ðåýðŕéåḿ one two]</string>
+    <string name="ethernet_label">[Éţĥéŕñéţ one two]</string>
+    <string name="quick_settings_airplane_mode_label">[Åîŕþļåñé ḿöðé one two three]</string>
+    <string name="quick_settings_mobile_data_label">[Ḿöɓîļé ðåţå one two]</string>
+    <string name="quick_settings_roaming_label">[Ŕöåḿîñĝ one two]</string>
+    <string name="quick_settings_battery_charging_label">[Çĥåŕĝîñĝ, %d%% one two three]</string>
+    <string name="quick_settings_battery_charged_label">[Çĥåŕĝéð one two]</string>
+    <string name="quick_settings_bluetooth_label">[βļûéţööţĥ one two]</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">[βļûéţööţĥ (%d ÐéVîçéš) one two three]</string>
+    <string name="quick_settings_bluetooth_off_label">[βļûéţööţĥ Öƒƒ one two three]</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">[Ñö þåîŕéð ðéVîçéš åVåîļåɓļé one two three four]</string>
+    <string name="quick_settings_brightness_label">[βŕîĝĥţñéšš one two]</string>
+    <string name="quick_settings_rotation_unlocked_label">[Åûţö-ŕöţåţé one two]</string>
+    <string name="quick_settings_rotation_locked_label">[Ŕöţåţîöñ ļöçķéð one two three]</string>
+    <string name="quick_settings_rotation_locked_portrait_label">[Þöŕţŕåîţ one two]</string>
+    <string name="quick_settings_rotation_locked_landscape_label">[Ļåñðšçåþé one two]</string>
+    <string name="quick_settings_ime_label">[Îñþûţ Ḿéţĥöð one two]</string>
+    <string name="quick_settings_location_label">[Ļöçåţîöñ one two]</string>
+    <string name="quick_settings_location_off_label">[Ļöçåţîöñ Öƒƒ one two]</string>
+    <string name="quick_settings_media_device_label">[Ḿéðîå ðéVîçé one two]</string>
+    <string name="quick_settings_rssi_label">[ŔŠŠÎ one]</string>
+    <string name="quick_settings_rssi_emergency_only">[Éḿéŕĝéñçý Çåļļš Öñļý one two three]</string>
+    <string name="quick_settings_settings_label">[Šéţţîñĝš one two]</string>
+    <string name="quick_settings_time_label">[Ţîḿé one]</string>
+    <string name="quick_settings_user_label">[Ḿé one]</string>
+    <string name="quick_settings_user_title">[Ûšéŕ one]</string>
+    <string name="quick_settings_user_new_user">[Ñéŵ ûšéŕ one two]</string>
+    <string name="quick_settings_wifi_label">[Ŵî-Fî one two]</string>
+    <string name="quick_settings_wifi_not_connected">[Ñöţ Çöññéçţéð one two three]</string>
+    <string name="quick_settings_wifi_no_network">[Ñö Ñéţŵöŕķ one two]</string>
+    <string name="quick_settings_wifi_off_label">[Ŵî-Fî Öƒƒ one two]</string>
+    <string name="quick_settings_wifi_detail_empty_text">[Ñö šåVéð ñéţŵöŕķš åVåîļåɓļé one two three four]</string>
+    <string name="quick_settings_cast_title">[Çåšţ šçŕééñ one two]</string>
+    <string name="quick_settings_casting">[Çåšţîñĝ one two]</string>
+    <string name="quick_settings_cast_device_default_name">[Ûññåḿéð ðéVîçé one two three]</string>
+    <string name="quick_settings_cast_device_default_description">[Ŕéåðý ţö çåšţ one two three]</string>
+    <string name="quick_settings_cast_detail_empty_text">[Ñö ðéVîçéš åVåîļåɓļé one two three]</string>
+    <string name="quick_settings_brightness_dialog_title">[βŕîĝĥţñéšš one two]</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">[ÅÛŢÖ one]</string>
+    <string name="quick_settings_apn_switch_label">[ÅÞÑ šŵîţçĥ one two]</string>
+    <string name="quick_settings_inversion_label">[ÎñVéŕţ çöļöŕš one two three]</string>
+    <string name="quick_settings_color_space_label">[Çöļöŕ çöŕŕéçţîöñ ḿöðé one two three]</string>
+    <string name="quick_settings_more_settings">[Ḿöŕé šéţţîñĝš one two three]</string>
+    <string name="quick_settings_done">[Ðöñé one]</string>
+    <string name="quick_settings_connected">[Çöññéçţéð one two]</string>
+    <string name="quick_settings_connecting">[Çöññéçţîñĝ... one two three]</string>
+    <string name="quick_settings_tethering_label">[Ţéţĥéŕîñĝ one two]</string>
+    <string name="quick_settings_hotspot_label">[Ĥöţšþöţ one two]</string>
+    <string name="quick_settings_notifications_label">[Ñöţîƒîçåţîöñš one two three]</string>
+    <string name="quick_settings_flashlight_label">[Fļåšĥļîĝĥţ one two]</string>
+    <string name="quick_settings_cellular_detail_title">[Çéļļûļåŕ ðåţå one two three]</string>
+    <string name="quick_settings_cellular_detail_data_usage">[Ðåţå ûšåĝé one two]</string>
+    <string name="quick_settings_cellular_detail_remaining_data">[Ŕéḿåîñîñĝ ðåţå one two three]</string>
+    <string name="quick_settings_cellular_detail_over_limit">[Ļîḿîţ ŕéåçĥéð – ðåţå ûšåĝé þåûšéð one two three four five six seven eight]</string>
+    <string name="quick_settings_cellular_detail_data_used">[%s ûšéð one two]</string>
+    <string name="quick_settings_cellular_detail_data_limit">[%s ļîḿîţ one two]</string>
+    <string name="quick_settings_cellular_detail_data_warning">[%s ŵåŕñîñĝ one two]</string>
+    <string name="quick_settings_dds_sub">[Çåŕð %d ðåţå one two]</string>
+    <string name="quick_settings_data_off">[Ðåţå öƒƒ one two]</string>
+    <string name="recents_empty_message">[Ýöûŕ ŕéçéñţ šçŕééñš åþþéåŕ ĥéŕé one two three four five six seven]</string>
+    <string name="recents_app_info_button_label">[Åþþļîçåţîöñ Îñƒö one two three]</string>
+    <string name="recents_lock_to_app_button_label">[ļöçķ ţö åþþ one two]</string>
+    <string name="recents_search_bar_label">[šéåŕçĥ one two]</string>
+    <string name="recents_launch_error_message">[Çöûļð ñöţ šţåŕţ %s. one two three]</string>
+    <string name="expanded_header_battery_charged">[Çĥåŕĝéð one two]</string>
+    <string name="expanded_header_battery_charging">[Çĥåŕĝîñĝ one two]</string>
+    <string name="expanded_header_battery_charging_with_time">[%s ûñţîļ ƒûļļ one two three]</string>
+    <string name="expanded_header_battery_not_charging">[Ñöţ çĥåŕĝîñĝ one two]</string>
+    <string name="battery_meter_very_low_overlay_symbol">[¡ one]</string>
+    <string name="ssl_ca_cert_warning">"[Ñéţŵöŕķ ḿåý
+ɓé ḿöñîţöŕéð one two three]"</string>
+    <string name="description_target_search">[Šéåŕçĥ one two]</string>
+    <string name="description_direction_up">[Šļîðé ûþ ƒöŕ %s. one two three]</string>
+    <string name="description_direction_left">[Šļîðé ļéƒţ ƒöŕ %s. one two three]</string>
+    <string name="zen_no_interruptions_with_warning">[Ñö îñţéŕŕûþţîöñš. Ñöţ éVéñ åļåŕḿš. one two three four five six seven eight]</string>
+    <string name="zen_no_interruptions">[Ñö îñţéŕŕûþţîöñš one two three]</string>
+    <string name="zen_important_interruptions">[Þŕîöŕîţý îñţéŕŕûþţîöñš öñļý one two three four]</string>
+    <string name="zen_alarm_information_time">[Ýöûŕ ñéхţ åļåŕḿ îš åţ %s one two three four five six]</string>
+    <string name="zen_alarm_information_day_time">[Ýöûŕ ñéхţ åļåŕḿ îš %s one two three four five]</string>
+    <string name="zen_alarm_warning">"[Ýöû ŵöñ'ţ ĥéåŕ ýöûŕ åļåŕḿ åţ %s one two three four five six seven]"</string>
+    <string name="keyguard_more_overflow_text">[+%d one]</string>
+    <string name="speed_bump_explanation">[Ļéšš ûŕĝéñţ ñöţîƒîçåţîöñš ɓéļöŵ one two three four]</string>
+    <string name="notification_tap_again">[Ţöûçĥ åĝåîñ ţö öþéñ one two three]</string>
+    <string name="keyguard_unlock">[Šŵîþé ûþ ţö ûñļöçķ one two three]</string>
+    <string name="phone_hint">[Šŵîþé ŕîĝĥţ ƒöŕ þĥöñé one two three]</string>
+    <string name="camera_hint">[Šŵîþé ļéƒţ ƒöŕ çåḿéŕå one two three]</string>
+    <string name="interruption_level_none">[Ñöñé one]</string>
+    <string name="interruption_level_priority">[Þŕîöŕîţý one two]</string>
+    <string name="interruption_level_all">[Åļļ one]</string>
+    <string name="keyguard_indication_charging_time">[Çĥåŕĝîñĝ (%s ûñţîļ ƒûļļ) one two three]</string>
+    <string name="accessibility_multi_user_switch_switcher">[Šŵîţçĥ ûšéŕ one two]</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">[Šŵîţçĥ ûšéŕ, çûŕŕéñţ ûšéŕ %s one two three four five six seven]</string>
+    <string name="accessibility_multi_user_switch_quick_contact">[Šĥöŵ þŕöƒîļé one two]</string>
+    <string name="user_add_user">[Åðð ûšéŕ one two]</string>
+    <string name="user_new_user_name">[Ñéŵ ûšéŕ one two]</string>
+    <string name="guest_nickname">[Ĝûéšţ one two]</string>
+    <string name="guest_new_guest">[Åðð ĝûéšţ one two]</string>
+    <string name="guest_exit_guest">[ŔéḿöVé ĝûéšţ one two]</string>
+    <string name="guest_exit_guest_dialog_title">[ŔéḿöVé ĝûéšţ¿ one two three]</string>
+    <string name="guest_exit_guest_dialog_message">[Åļļ åþþš åñð ðåţå îñ ţĥîš šéššîöñ ŵîļļ ɓé ðéļéţéð. one two three four five six seven eight nine ten eleven]</string>
+    <string name="guest_exit_guest_dialog_remove">[ŔéḿöVé one two]</string>
+    <string name="guest_wipe_session_title">[Ŵéļçöḿé ɓåçķ, ĝûéšţ¡ one two three]</string>
+    <string name="guest_wipe_session_message">[Ðö ýöû ŵåñţ ţö çöñţîñûé ýöûŕ šéššîöñ¿ one two three four five six seven eight]</string>
+    <string name="guest_wipe_session_wipe">[Šţåŕţ öVéŕ one two]</string>
+    <string name="guest_wipe_session_dontwipe">[Ýéš, çöñţîñûé one two three]</string>
+    <string name="user_add_user_title">[Åðð ñéŵ ûšéŕ¿ one two three]</string>
+    <string name="user_add_user_message_short">"[Ŵĥéñ ýöû åðð å ñéŵ ûšéŕ, ţĥåţ þéŕšöñ ñééðš ţö šéţ ûþ ţĥéîŕ šþåçé.
+
+Åñý ûšéŕ çåñ ûþðåţé åþþš ƒöŕ åļļ öţĥéŕ ûšéŕš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]"</string>
+    <string name="battery_saver_notification_title">[βåţţéŕý šåVéŕ îš öñ one two three]</string>
+    <string name="battery_saver_notification_text">[Ŕéðûçéš þéŕƒöŕḿåñçé åñð ɓåçķĝŕöûñð ðåţå one two three four five six seven eight nine]</string>
+    <string name="battery_saver_notification_action_text">[Ţûŕñ öƒƒ ɓåţţéŕý šåVéŕ one two three]</string>
+    <string name="battery_level_template">[%d»%%« one two]</string>
+    <string name="notification_hidden_text">[Çöñţéñţš ĥîððéñ one two three]</string>
+    <string name="media_projection_dialog_text">"[%s ŵîļļ šţåŕţ çåþţûŕîñĝ éVéŕýţĥîñĝ ţĥåţ'š ðîšþļåýéð öñ ýöûŕ šçŕééñ. one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="media_projection_remember_text">"[Ðöñ'ţ šĥöŵ åĝåîñ one two three]"</string>
+    <string name="clear_all_notifications_text">[Çļéåŕ åļļ one two]</string>
+    <string name="media_projection_action_text">[Šţåŕţ ñöŵ one two]</string>
+    <string name="empty_shade_text">[Ñö ñöţîƒîçåţîöñš one two three]</string>
+    <string name="task_manager_title">[Ţåšķ Ḿåñåĝéŕ one two]</string>
+    <string name="message_switch_fail">[Çåñ ñöţ šŵîţçĥ ţö ţĥîš ţåšķ, ɓéçåûšé îţ ĥåš ñö îñţéŕƒåçé. one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="tasklist_killall">[Ķîļļ Åļļ one two]</string>
+    <string name="tasklist_memory_usage" formatted="false">[Fŕéé/Ţöţåļ Ḿéḿöŕý: [%s] / [%s] one two three four five six seven]</string>
+    <string name="message_keep_one_launcher">[Šĥöûļð ķééþ åţ ļéåšé öñé ĥöḿé åçţîVîţý¡ one two three four five six seven eight nine]</string>
+    <string name="device_owned_footer">[ÐéVîçé ḿåý ɓé ḿöñîţöŕéð one two three]</string>
+    <string name="profile_owned_footer">[Þŕöƒîļé ḿåý ɓé ḿöñîţöŕéð one two three]</string>
+    <string name="vpn_footer">[Ñéţŵöŕķ ḿåý ɓé ḿöñîţöŕéð one two three]</string>
+    <string name="monitoring_title_device_owned">[ÐéVîçé ḿöñîţöŕîñĝ one two three]</string>
+    <string name="monitoring_title_profile_owned">[Þŕöƒîļé ḿöñîţöŕîñĝ one two three]</string>
+    <string name="monitoring_title">[Ñéţŵöŕķ ḿöñîţöŕîñĝ one two three]</string>
+    <string name="disable_vpn">[Ðîšåɓļé νÞÑ one two]</string>
+    <string name="disconnect_vpn">[Ðîšçöññéçţ νÞÑ one two three]</string>
+    <string name="monitoring_description_device_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ çåñ ḿöñîţöŕ ýöûŕ ðéVîçé åñð ñéţŵöŕķ åçţîVîţý, îñçļûðîñĝ éḿåîļš, åþþš åñð šéçûŕé ŵéɓšîţéš.
+
+Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="monitoring_description_vpn">"[Ýöû ĝåVé \"%1$s\" þéŕḿîššîöñ ţö šéţ ûþ å νÞÑ çöññéçţîöñ.
+
+Ţĥîš åþþ çåñ ḿöñîţöŕ ýöûŕ ðéVîçé åñð ñéţŵöŕķ åçţîVîţý, îñçļûðîñĝ éḿåîļš, åþþš åñð šéçûŕé ŵéɓšîţéš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven]"</string>
+    <string name="monitoring_description_legacy_vpn">"[Ýöû'ŕé çöññéçţéð ţö å νÞÑ (\"%1$s\").
+
+Ýöûŕ νÞÑ šéŕVîçé þŕöVîðéŕ çåñ ḿöñîţöŕ ýöûŕ ðéVîçé åñð ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven]"</string>
+    <string name="monitoring_description_vpn_device_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû ĝåVé \"%2$s\" þéŕḿîššîöñ ţö šéţ ûþ å νÞÑ çöññéçţîöñ. Ţĥîš åþþ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven]"</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû'ŕé çöññéçţéð ţö å νÞÑ (\"%2$s\"). Ýöûŕ νÞÑ šéŕVîçé þŕöVîðéŕ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven]"</string>
+    <string name="monitoring_description_profile_owned">"[Ţĥîš þŕöƒîļé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ çåñ ḿöñîţöŕ ýöûŕ ðéVîçé åñð ñéţŵöŕķ åçţîVîţý, îñçļûðîñĝ éḿåîļš, åþþš åñð šéçûŕé ŵéɓšîţéš.
+
+Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="monitoring_description_device_and_profile_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+Ýöûŕ þŕöƒîļé îš ḿåñåĝéð ɓý:
+%2$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ çåñ ḿöñîţöŕ ýöûŕ ðéVîçé åñð ñéţŵöŕķ åçţîVîţý, îñçļûðîñĝ éḿåîļš, åþþš åñð šéçûŕé ŵéɓšîţéš.
+
+Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen]"</string>
+    <string name="monitoring_description_vpn_profile_owned">"[Ţĥîš þŕöƒîļé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû ĝåVé \"%2$s\" þéŕḿîššîöñ ţö šéţ ûþ å νÞÑ çöññéçţîöñ. Ţĥîš åþþ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven]"</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"[Ţĥîš þŕöƒîļé îš ḿåñåĝéð ɓý:
+%1$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû'ŕé çöññéçţéð ţö å νÞÑ (\"%2$s\"). Ýöûŕ νÞÑ šéŕVîçé þŕöVîðéŕ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven]"</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+Ýöûŕ þŕöƒîļé îš ḿåñåĝéð ɓý:
+%2$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû ĝåVé \"%3$s\" þéŕḿîššîöñ ţö šéţ ûþ å νÞÑ çöññéçţîöñ. Ţĥîš åþþ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]"</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"[Ţĥîš ðéVîçé îš ḿåñåĝéð ɓý:
+%1$s
+Ýöûŕ þŕöƒîļé îš ḿåñåĝéð ɓý:
+%2$s
+
+Ýöûŕ åðḿîñîšţŕåţöŕ îš çåþåɓļé öƒ ḿöñîţöŕîñĝ ýöûŕ ñéţŵöŕķ åçţîVîţý îñçļûðîñĝ éḿåîļš, åþþš, åñð šéçûŕé ŵéɓšîţéš. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ åðḿîñîšţŕåţöŕ.
+
+Åļšö, ýöû'ŕé çöññéçţéð ţö å νÞÑ (\"%3$s\"). Ýöûŕ νÞÑ šéŕVîçé þŕöVîðéŕ çåñ ḿöñîţöŕ ñéţŵöŕķ åçţîVîţý ţöö. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]"</string>
+    <string name="keyguard_indication_trust_disabled">[ÐéVîçé ŵîļļ šţåý ļöçķéð ûñţîļ ýöû ḿåñûåļļý ûñļöçķ one two three four five six seven eight nine ten eleven]</string>
+    <string name="hidden_notifications_title">[Ĝéţ ñöţîƒîçåţîöñš ƒåšţéŕ one two three]</string>
+    <string name="hidden_notifications_text">[Šéé ţĥéḿ ɓéƒöŕé ýöû ûñļöçķ one two three four five six seven]</string>
+    <string name="hidden_notifications_cancel">[Ñö ţĥåñķš one two]</string>
+    <string name="hidden_notifications_setup">[Šéţ ûþ one two]</string>
+    <string name="muted_by">[Ḿûţéð ɓý %1$s one two three]</string>
+    <string name="zen_mode_and_condition">[%1$s. %2$s one two]</string>
+    <string name="widget_default_package_name">[ one]</string>
+    <string name="widget_default_class_name">[ one]</string>
+    <string name="app_name">[Ķéýĝûåŕð one two]</string>
+    <string name="keyguard_password_enter_pin_code">[Ţýþé ÞÎÑ çöðé one two three]</string>
+    <string name="keyguard_password_enter_puk_code">[Ţýþé ŠÎḾ ÞÛĶ åñð ñéŵ ÞÎÑ çöðé one two three four five six seven]</string>
+    <string name="keyguard_password_enter_puk_prompt">[ŠÎḾ ÞÛĶ çöðé one two]</string>
+    <string name="keyguard_password_enter_pin_prompt">[Ñéŵ ŠÎḾ ÞÎÑ çöðé one two three]</string>
+    <string name="keyguard_password_entry_touch_hint">[<font size="17">Ţöûçĥ ţö ţýþé þåššŵöŕð</font> one two three]</string>
+    <string name="keyguard_password_enter_password_code">[Ţýþé þåššŵöŕð ţö ûñļöçķ one two three]</string>
+    <string name="keyguard_password_enter_pin_password_code">[Ţýþé ÞÎÑ ţö ûñļöçķ one two three]</string>
+    <string name="keyguard_password_wrong_pin_code">[Îñçöŕŕéçţ ÞÎÑ çöðé. one two three]</string>
+    <string name="keyguard_password_wrong_puk_code">[Îñçöŕŕéçţ ÞÛĶ çöðé¡ one two three]</string>
+    <string name="keyguard_password_pin_failed">[ÞÎÑ öþéŕåţîöñ ƒåîļéð¡ one two three]</string>
+    <string name="keyguard_password_puk_failed">[ÞÛĶ öþéŕåţîöñ ƒåîļéð¡ one two three]</string>
+    <string name="keyguard_pin_accepted">[Çöðé Åççéþţéð¡ one two three]</string>
+    <string name="pinpuk_attempts">"[
+Åţţéḿþţš Ŕéḿåîñîñĝ : one two three]"</string>
+    <string name="lockscreen_sim_error_message_short">[ÎñVåļîð Çåŕð. one two three]</string>
+    <string name="keyguard_label_text">[Ţö ûñļöçķ, þŕéšš Ḿéñû ţĥéñ 0. one two three four five six seven]</string>
+    <string name="faceunlock_multiple_failures">[Ḿåхîḿûḿ Fåçé Ûñļöçķ åţţéḿþţš éхçééðéð one two three four five six seven eight]</string>
+    <string name="keyguard_charged">[Çĥåŕĝéð one two]</string>
+    <string name="keyguard_plugged_in">[Çĥåŕĝîñĝ one two]</string>
+    <string name="keyguard_low_battery">[Çöññéçţ ýöûŕ çĥåŕĝéŕ. one two three]</string>
+    <string name="keyguard_instructions_when_pattern_disabled">[Þŕéšš Ḿéñû ţö ûñļöçķ. one two three]</string>
+    <string name="keyguard_network_locked_message">[Ñéţŵöŕķ ļöçķéð one two three]</string>
+    <string name="keyguard_perso_locked_message">[ŠÎḾ/ŔÛÎḾ îš Þéŕšö ļöçķéð one two three]</string>
+    <string name="keyguard_missing_sim_message_short">[Ñö ŠÎḾ çåŕð one two]</string>
+    <string name="keyguard_missing_sim_message">[Ñö ŠÎḾ çåŕð îñ þĥöñé. one two three four five]</string>
+    <string name="keyguard_missing_sim_instructions">[Îñšéŕţ å ŠÎḾ çåŕð. one two three]</string>
+    <string name="keyguard_missing_sim_instructions_long">[Ţĥé ŠÎḾ çåŕð îš ḿîššîñĝ öŕ ñöţ ŕéåðåɓļé. Îñšéŕţ å ŠÎḾ çåŕð. one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">[Ûñûšåɓļé ŠÎḾ çåŕð. one two three]</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"[Ýöûŕ ŠÎḾ çåŕð ĥåš ɓééñ þéŕḿåñéñţļý ðîšåɓļéð.
+ Çöñţåçţ ýöûŕ ŵîŕéļéšš šéŕVîçé þŕöVîðéŕ ƒöŕ åñöţĥéŕ ŠÎḾ çåŕð. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]"</string>
+    <string name="keyguard_sim_locked_message">[ŠÎḾ çåŕð îš ļöçķéð. one two three]</string>
+    <string name="keyguard_sim_puk_locked_message">[ŠÎḾ çåŕð îš ÞÛĶ-ļöçķéð. one two three]</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">[Ûñļöçķîñĝ ŠÎḾ çåŕð… one two three]</string>
+    <string name="keyguard_accessibility_widget_changed">[»%1$s«. Ŵîðĝéţ »%2$d« öƒ »%3$d«. one two three four five six seven eight]</string>
+    <string name="keyguard_accessibility_add_widget">[Åðð ŵîðĝéţ. one two]</string>
+    <string name="keyguard_accessibility_widget_empty_slot">[Éḿþţý one two]</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">[Ûñļöçķ åŕéå éхþåñðéð. one two three]</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">[Ûñļöçķ åŕéå çöļļåþšéð. one two three]</string>
+    <string name="keyguard_accessibility_widget">[%1$s ŵîðĝéţ. one two]</string>
+    <string name="keyguard_accessibility_user_selector">[Ûšéŕ šéļéçţöŕ one two three]</string>
+    <string name="keyguard_accessibility_camera">[Çåḿéŕå one two]</string>
+    <string name="keygaurd_accessibility_media_controls">[Ḿéðîå çöñţŕöļš one two three]</string>
+    <string name="keyguard_accessibility_widget_reorder_start">[Ŵîðĝéţ ŕéöŕðéŕîñĝ šţåŕţéð. one two three four]</string>
+    <string name="keyguard_accessibility_widget_reorder_end">[Ŵîðĝéţ ŕéöŕðéŕîñĝ éñðéð. one two three]</string>
+    <string name="keyguard_accessibility_widget_deleted">[Ŵîðĝéţ %1$s ðéļéţéð. one two three]</string>
+    <string name="keyguard_accessibility_expand_lock_area">[Éхþåñð ûñļöçķ åŕéå. one two three]</string>
+    <string name="keyguard_accessibility_slide_unlock">[Šļîðé ûñļöçķ. one two three]</string>
+    <string name="keyguard_accessibility_pattern_unlock">[Þåţţéŕñ ûñļöçķ. one two three]</string>
+    <string name="keyguard_accessibility_face_unlock">[Fåçé ûñļöçķ. one two]</string>
+    <string name="keyguard_accessibility_pin_unlock">[Þîñ ûñļöçķ. one two]</string>
+    <string name="keyguard_accessibility_password_unlock">[Þåššŵöŕð ûñļöçķ. one two three]</string>
+    <string name="keyguard_accessibility_pattern_area">[Þåţţéŕñ åŕéå. one two three]</string>
+    <string name="keyguard_accessibility_slide_area">[Šļîðé åŕéå. one two]</string>
+    <string name="keyguard_accessibility_transport_prev_description">[ÞŕéVîöûš ţŕåçķ ɓûţţöñ one two three]</string>
+    <string name="keyguard_accessibility_transport_next_description">[Ñéхţ ţŕåçķ ɓûţţöñ one two three]</string>
+    <string name="keyguard_accessibility_transport_pause_description">[Þåûšé ɓûţţöñ one two]</string>
+    <string name="keyguard_accessibility_transport_play_description">[Þļåý ɓûţţöñ one two]</string>
+    <string name="keyguard_accessibility_transport_stop_description">[Šţöþ ɓûţţöñ one two]</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">[Ţĥûḿɓš ûþ one two]</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">[Ţĥûḿɓš ðöŵñ one two]</string>
+    <string name="keyguard_accessibility_transport_heart_description">[Ĥéåŕţ one two]</string>
+    <string name="keyguard_accessibility_show_bouncer">[Ûñļöçķ ţö çöñţîñûé one two three]</string>
+    <string name="keyguard_accessibility_hide_bouncer">[Ļåûñçĥ çåñçéļéð one two three]</string>
+    <string name="keyguard_accessibility_delete_widget_start">[Ðŕöþ %1$s ţö ðéļéţé. one two three]</string>
+    <string name="keyguard_accessibility_delete_widget_end">[%1$s ŵîļļ ñöţ ɓé ðéļéţéð. one two three four five six]</string>
+    <string name="keyguard_accessibility_next_alarm">[Ñéхţ åļåŕḿ šéţ ƒöŕ %1$s one two three four five six]</string>
+    <string name="password_keyboard_label_symbol_key">[?123 one]</string>
+    <string name="password_keyboard_label_alpha_key">[ÅβÇ one]</string>
+    <string name="password_keyboard_label_alt_key">[ÅĻŢ one]</string>
+    <string name="keyboardview_keycode_alt">[Åļţ one]</string>
+    <string name="keyboardview_keycode_cancel">[Çåñçéļ one two]</string>
+    <string name="keyboardview_keycode_delete">[Ðéļéţé one two]</string>
+    <string name="keyboardview_keycode_done">[Ðöñé one]</string>
+    <string name="keyboardview_keycode_mode_change">[Ḿöðé çĥåñĝé one two]</string>
+    <string name="keyboardview_keycode_shift">[Šĥîƒţ one two]</string>
+    <string name="keyboardview_keycode_enter">[Éñţéŕ one two]</string>
+    <string name="description_target_unlock">[Ûñļöçķ one two]</string>
+    <string name="description_target_camera">[Çåḿéŕå one two]</string>
+    <string name="description_target_silent">[Šîļéñţ one two]</string>
+    <string name="description_target_soundon">[Šöûñð öñ one two]</string>
+    <string name="description_direction_down">[Šļîðé ðöŵñ ƒöŕ %s. one two three]</string>
+    <string name="description_direction_right">[Šļîðé ŕîĝĥţ ƒöŕ %s. one two three]</string>
+    <string name="user_switched">[Çûŕŕéñţ ûšéŕ %1$s. one two three]</string>
+    <string name="kg_emergency_call_label">[Éḿéŕĝéñçý çåļļ one two three]</string>
+    <string name="kg_forgot_pattern_button_text">[Föŕĝöţ Þåţţéŕñ one two three]</string>
+    <string name="kg_wrong_pattern">[Ŵŕöñĝ Þåţţéŕñ one two three]</string>
+    <string name="kg_wrong_password">[Ŵŕöñĝ Þåššŵöŕð one two three]</string>
+    <string name="kg_wrong_pin">[Ŵŕöñĝ ÞÎÑ one two]</string>
+    <string name="kg_too_many_failed_attempts_countdown">[Ţŕý åĝåîñ îñ %d šéçöñðš. one two three four five six]</string>
+    <string name="kg_pattern_instructions">[Ðŕåŵ ýöûŕ þåţţéŕñ one two three]</string>
+    <string name="kg_sim_pin_instructions">[Éñţéŕ ŠÎḾ ÞÎÑ one two three]</string>
+    <string name="kg_pin_instructions">[Éñţéŕ ÞÎÑ one two]</string>
+    <string name="kg_password_instructions">[Éñţéŕ Þåššŵöŕð one two three]</string>
+    <string name="kg_puk_enter_puk_hint">[ŠÎḾ îš ñöŵ ðîšåɓļéð. Éñţéŕ ÞÛĶ çöðé ţö çöñţîñûé. Çöñţåçţ çåŕŕîéŕ ƒöŕ ðéţåîļš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen]</string>
+    <string name="kg_puk_enter_pin_hint">[Éñţéŕ ðéšîŕéð ÞÎÑ çöðé one two three]</string>
+    <string name="kg_enter_confirm_pin_hint">[Çöñƒîŕḿ ðéšîŕéð ÞÎÑ çöðé one two three]</string>
+    <string name="kg_sim_unlock_progress_dialog_message">[Ûñļöçķîñĝ ŠÎḾ çåŕð… one two three]</string>
+    <string name="kg_invalid_sim_pin_hint">[Ţýþé å ÞÎÑ ţĥåţ îš 4 ţö 8 ñûḿɓéŕš. one two three four five six seven eight]</string>
+    <string name="kg_invalid_sim_puk_hint">[ÞÛĶ çöðé šĥöûļð ɓé 8 ñûḿɓéŕš öŕ ḿöŕé. one two three four five six seven eight]</string>
+    <string name="kg_invalid_puk">[Ŕé-éñţéŕ ţĥé çöŕŕéçţ ÞÛĶ çöðé. Ŕéþéåţéð åţţéḿþţš ŵîļļ þéŕḿåñéñţļý ðîšåɓļé ţĥé ŠÎḾ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]</string>
+    <string name="kg_invalid_confirm_pin_hint">[ÞÎÑ çöðéš ðöéš ñöţ ḿåţçĥ one two three four five six]</string>
+    <string name="kg_login_too_many_attempts">[Ţöö ḿåñý þåţţéŕñ åţţéḿþţš one two three four]</string>
+    <string name="kg_login_instructions">[Ţö ûñļöçķ, šîĝñ îñ ŵîţĥ ýöûŕ Ĝööĝļé åççöûñţ. one two three four five six seven eight nine ten]</string>
+    <string name="kg_login_username_hint">[Ûšéŕñåḿé (éḿåîļ) one two three]</string>
+    <string name="kg_login_password_hint">[Þåššŵöŕð one two]</string>
+    <string name="kg_login_submit_button">[Šîĝñ îñ one two]</string>
+    <string name="kg_login_invalid_input">[ÎñVåļîð ûšéŕñåḿé öŕ þåššŵöŕð. one two three four]</string>
+    <string name="kg_login_account_recovery_hint">"[Föŕĝöţ ýöûŕ ûšéŕñåḿé öŕ þåššŵöŕð?
+νîšîţ "<b>ĝööĝļé.çöḿ/åççöûñţš/ŕéçöVéŕý</b>. one two three four five six seven eight nine ten eleven twelve thirteen]</string>
+    <string name="kg_login_checking_password">[Çĥéçķîñĝ åççöûñţ… one two three]</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"[ Ýöû ĥåVé îñçöŕŕéçţļý ţýþéð ýöûŕ ÞÎÑ %d ţîḿéš. 
+
+Ţŕý åĝåîñ îñ %d šéçöñðš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen]"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"[ Ýöû ĥåVé îñçöŕŕéçţļý ţýþéð ýöûŕ þåššŵöŕð %d ţîḿéš. 
+
+Ţŕý åĝåîñ îñ %d šéçöñðš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"[ Ýöû ĥåVé îñçöŕŕéçţļý ðŕåŵñ ýöûŕ ûñļöçķ þåţţéŕñ %d ţîḿéš. 
+
+Ţŕý åĝåîñ îñ %d šéçöñðš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">[ Ýöû ĥåVé îñçöŕŕéçţļý åţţéḿþţéð ţö ûñļöçķ ţĥé þĥöñé %d ţîḿéš. Åƒţéŕ %d ḿöŕé ûñšûççéššƒûļ åţţéḿþţš, ţĥé þĥöñé ŵîļļ ɓé ŕéšéţ ţö ƒåçţöŕý ðéƒåûļţ åñð åļļ ûšéŕ ðåţå ŵîļļ ɓé ļöšţ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven]</string>
+    <string name="kg_failed_attempts_now_wiping">[ Ýöû ĥåVé îñçöŕŕéçţļý åţţéḿþţéð ţö ûñļöçķ ţĥé þĥöñé %d ţîḿéš. Ţĥé þĥöñé ŵîļļ ñöŵ ɓé ŕéšéţ ţö ƒåçţöŕý ðéƒåûļţ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"[ Ýöû ĥåVé îñçöŕŕéçţļý ðŕåŵñ ýöûŕ ûñļöçķ þåţţéŕñ %d ţîḿéš. Åƒţéŕ %d ḿöŕé ûñšûççéššƒûļ åţţéḿþţš, ýöû ŵîļļ ɓé åšķéð ţö ûñļöçķ ýöûŕ þĥöñé ûšîñĝ åñ éḿåîļ åççöûñţ.
+
+ Ţŕý åĝåîñ îñ %d šéçöñðš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="kg_text_message_separator">"[ —  one]"</string>
+    <string name="kg_reordering_delete_drop_target_text">[ŔéḿöVé one two]</string>
+    <string name="kg_password_wrong_pin_code_pukked">[Îñçöŕŕéçţ ŠÎḾ ÞÎÑ çöðé ýöû ḿûšţ ñöŵ çöñţåçţ ýöûŕ çåŕŕîéŕ ţö ûñļöçķ ýöûŕ ðéVîçé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen]</string>
+    <string name="kg_password_wrong_puk_code_dead">[ŠÎḾ îš ûñûšåɓļé. Çöñţåçţ ýöûŕ çåŕŕîéŕ. one two three four five six seven eight nine]</string>
+    <string name="kg_password_pin_failed">[ŠÎḾ ÞÎÑ öþéŕåţîöñ ƒåîļéð¡ one two three four]</string>
+    <string name="kg_password_puk_failed">[ŠÎḾ ÞÛĶ öþéŕåţîöñ ƒåîļéð¡ one two three four]</string>
+    <string name="kg_pin_accepted">[Çöðé Åççéþţéð¡ one two three]</string>
+    <string name="keyguard_transport_prev_description">[ÞŕéVîöûš ţŕåçķ ɓûţţöñ one two three]</string>
+    <string name="keyguard_transport_next_description">[Ñéхţ ţŕåçķ ɓûţţöñ one two three]</string>
+    <string name="keyguard_transport_pause_description">[Þåûšé ɓûţţöñ one two]</string>
+    <string name="keyguard_transport_play_description">[Þļåý ɓûţţöñ one two]</string>
+    <string name="keyguard_transport_stop_description">[Šţöþ ɓûţţöñ one two]</string>
+    <string name="keyguard_carrier_default">[Ñö šéŕVîçé. one two]</string>
+    <string name="kg_dismiss">[Ðîšḿîšš one two]</string>
+    <string name="kg_slot_name">"[Šļöţ %d: Ñéŵ Šîḿ Çåŕð  one two three four five six]"</string>
+    <string name="msim_kg_sim_pin_msg_format" formatted="false">[ŠÛβ:%d : %s. one two]</string>
+    <string name="msim_carrier_text_format" formatted="false">[%s, %s one two]</string>
+</resources>

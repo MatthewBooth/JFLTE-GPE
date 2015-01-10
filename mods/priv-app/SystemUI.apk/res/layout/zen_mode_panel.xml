@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenModePanel android:orientation="vertical" android:id="@id/zen_mode_panel" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/qs_background_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="12.0dip" android:elevation="4.0dip">
+        <com.android.systemui.volume.SegmentedButtons android:id="@id/zen_buttons" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qs_panel_padding" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/qs_panel_padding" android:layout_marginBottom="8.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/zen_subhead" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="62.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.QS.Subhead" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/zen_subhead_collapsed" android:background="@drawable/btn_borderless_rect" android:paddingLeft="8.0dip" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:drawableEnd="@drawable/qs_subhead_caret" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.Subhead" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/zen_subhead_expanded" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/zen_more_settings" android:background="@drawable/btn_borderless_rect" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_settings" android:scaleType="center" android:contentDescription="@string/accessibility_desc_settings" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/zen_conditions" android:paddingBottom="@dimen/qs_panel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.systemui.volume.ZenModePanel>

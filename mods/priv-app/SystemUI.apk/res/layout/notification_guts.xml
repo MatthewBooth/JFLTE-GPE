@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationGuts android:gravity="start|center|top" android:id="@id/notification_guts" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@android:dimen/notification_large_icon_height">
+        <ImageView android:id="@android:id/icon" android:padding="8.0dip" android:layout_width="@android:dimen/notification_large_icon_width" android:layout_height="@android:dimen/notification_large_icon_height" android:scaleType="centerInside" android:layout_weight="0.0" />
+        <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Title" android:textColor="@color/notification_guts_title_color" android:layout_gravity="start|center" android:id="@id/pkgname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <DateTimeView android:textAppearance="@android:style/TextAppearance.Material.Notification.Time" android:textColor="@color/notification_guts_text_color" android:layout_gravity="start|center" android:id="@id/timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Time" android:textColor="@color/notification_guts_text_color" android:layout_gravity="start|bottom|center" android:id="@id/debug_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        </LinearLayout>
+        <ImageButton android:gravity="center" android:id="@id/notification_inspect_app_provided_settings" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_settings" android:layout_weight="0.0" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+        <ImageButton android:gravity="center" android:id="@id/notification_inspect_item" android:layout_width="52.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_info" android:layout_weight="0.0" android:contentDescription="@string/status_bar_notification_inspect_item_title" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+    </LinearLayout>
+</com.android.systemui.statusbar.NotificationGuts>

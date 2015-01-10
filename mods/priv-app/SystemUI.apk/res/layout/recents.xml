@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/status_bar_scrim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/recents_status_gradient" android:scaleType="fitXY" />
+    <com.android.systemui.recents.views.RecentsView android:id="@id/recents_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/recents_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/debug_overlay_stub" android:layout="@layout/recents_debug_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/nav_bar_scrim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/recents_lower_gradient" android:scaleType="fitXY" />
+</FrameLayout>

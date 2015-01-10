@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ekraani jaotises Ülevaade</item>
+        <item quantity="one">1 ekraan jaotises Ülevaade</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Vale SIM-i PIN-kood, teil on jäänud veel %d katset.</item>
+        <item quantity="one">Vale SIM-i PIN-kood, teil on jäänud veel %d katse, enne kui peate seadme avamiseks operaatoriga ühendust võtma.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Vale SIM-i PUK-kood, teil on jäänud veel %d katset, enne kui SIM püsivalt lukustatakse.</item>
+        <item quantity="one">Vale SIM-i PUK-kood, teil on jäänud veel %d katse, enne kui SIM püsivalt lukustatakse.</item>
+    </plurals>
+</resources>

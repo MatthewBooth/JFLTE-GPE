@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="keyguard_eca">@layout/keyguard_emergency_carrier_area</item>
+</resources>

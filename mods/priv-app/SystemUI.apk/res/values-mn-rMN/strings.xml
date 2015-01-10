@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Систем UI</string>
+    <string name="status_bar_clear_all_button">Цэвэрлэх</string>
+    <string name="status_bar_recent_remove_item_title">Жагсаалтаас устгах</string>
+    <string name="status_bar_recent_inspect_item_title">Апп мэдээлэл</string>
+    <string name="status_bar_no_recent_apps">Таны саяхны дэлгэц энд харагдах болно</string>
+    <string name="status_bar_accessibility_dismiss_recents">Сүүлийн апп-уудыг хаах</string>
+    <string name="status_bar_no_notifications_title">Мэдэгдэл байхгүй</string>
+    <string name="status_bar_ongoing_events_title">Гарсан</string>
+    <string name="status_bar_latest_events_title">Мэдэгдэл</string>
+    <string name="battery_low_title">Батерей дуусаж байна</string>
+    <string name="battery_low_percent_format">%d%% үлдсэн</string>
+    <string name="battery_low_percent_format_saver_started">%d%% үлдсэн. Батерей хэмнэгч асаалттай.</string>
+    <string name="invalid_charger">"USB цэнэглэлт дэмжигдэхгүй байна.
+Зөвхөн нийлүүлэгдсэн цэнэглэгчийг ашиглана уу."</string>
+    <string name="invalid_charger_title">USB-р цэнэглэх дэмжигддэггүй.</string>
+    <string name="invalid_charger_text">Зөвхөн зориулалтын ирсэн цэнэглэгч ашиглана уу.</string>
+    <string name="battery_low_why">Тохиргоо</string>
+    <string name="battery_saver_confirmation_title">Батерей хэмнэгчийг асаах уу?</string>
+    <string name="battery_saver_confirmation_ok">Асаах</string>
+    <string name="battery_saver_start_action">Батерей хэмнэгчийг асаах</string>
+    <string name="status_bar_settings_settings_button">Тохиргоо</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Нислэгийн горим</string>
+    <string name="status_bar_settings_auto_rotation">Дэлгэцийг автоматаар эргүүлэх</string>
+    <string name="status_bar_settings_mute_label">ХААХ</string>
+    <string name="status_bar_settings_auto_brightness_label">АВТОМАТ</string>
+    <string name="status_bar_settings_notifications">Мэдэгдэл</string>
+    <string name="bluetooth_tethered">Блютүүтыг модем болгож байна</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Оруулах аргыг тохируулах</string>
+    <string name="status_bar_use_physical_keyboard">Бодит гар</string>
+    <string name="usb_device_permission_prompt">%1$s апп-г USB төхөөрөмжид хандахыг зөвшөөрөх үү?</string>
+    <string name="usb_accessory_permission_prompt">%1$s апп-г USB төхөөрөмжид хандахыг зөвшөөрөх үү?</string>
+    <string name="usb_device_confirm_prompt">Энэ USB төхөөрөмж холбогдох үед %1$s-г нээх үү?</string>
+    <string name="usb_accessory_confirm_prompt">Энэ USB төхөөрөмж холбогдох үед %1$s-г нээх үү?</string>
+    <string name="usb_accessory_uri_prompt">Энэ USB хэрэгсэл дээр суулгасан апп ажиллаагүй байна. Энэ хэрэгслийн талаар %1$s-с дэлгэрэнгүй үзнэ үү.</string>
+    <string name="title_usb_accessory">USB төхөөрөмж</string>
+    <string name="label_view">Үзэх</string>
+    <string name="always_use_device">Энэ USB төхөөрөмжийг үндсэн болгон ашиглах</string>
+    <string name="always_use_accessory">Энэ USB төхөөрөмжийг үндсэн болгон ашиглах</string>
+    <string name="usb_debugging_title">USB дебаг хийхийг зөвшөөрөх үү?</string>
+    <string name="usb_debugging_message">"Компьютерийн RSA түлхүүрийн хурууны хээ :
+%1$s"</string>
+    <string name="usb_debugging_always">Энэ компьютерээс орохыг байнга зөвшөөрөх</string>
+    <string name="compat_mode_on">Дэлгэц дүүргэх бол өсгөнө үү</string>
+    <string name="compat_mode_off">Дэлгэц дүүргэх бол татна уу</string>
+    <string name="screenshot_saving_ticker">Дэлгэцийн агшинг хадгалж байна…</string>
+    <string name="screenshot_saving_title">Дэлгэцийн агшинг хадгалж байна…</string>
+    <string name="screenshot_saving_text">Дэлгэцийн агшин хадгалагдав.</string>
+    <string name="screenshot_saved_title">Дэлгэцийн агшинг авсан.</string>
+    <string name="screenshot_saved_text">Дэлгэцийн агшныг харах бол хүрнэ үү.</string>
+    <string name="screenshot_failed_title">Дэлгэцийн агшинг авч чадсангүй.</string>
+    <string name="screenshot_failed_text">Хадгалах сан хязгаартай эсхүл таны байгууллага буюу апп-с зөвшөөрөөгүй учир дэлгэцийн зургийг авах боломжгүй.</string>
+    <string name="usb_preference_title">USB файл шилжүүлэх сонголт</string>
+    <string name="use_mtp_button_title">Медиа тоглуулагч(MTP) болгон залгах</string>
+    <string name="use_ptp_button_title">Камер болгон(PTP) залгах</string>
+    <string name="installer_cd_button_title">"Мас-д зориулсан  Андройд Файл Шилжүүлэх апп-г суулгана уу"</string>
+    <string name="accessibility_back">Буцах</string>
+    <string name="accessibility_home">Гэрийн</string>
+    <string name="accessibility_menu">Цэс</string>
+    <string name="accessibility_recent">Тойм харагдац</string>
+    <string name="accessibility_search_light">Хайх</string>
+    <string name="accessibility_camera_button">Камер</string>
+    <string name="accessibility_phone_button">Утас</string>
+    <string name="accessibility_unlock_button">Тайлах</string>
+    <string name="unlock_label">тайлах</string>
+    <string name="phone_label">утас нээх</string>
+    <string name="camera_label">камер нээх</string>
+    <string name="accessibility_ime_switch_button">Оруулах аргыг сэлгэх товч.</string>
+    <string name="accessibility_compatibility_zoom_button">Тохиромжтой өсгөх товч.</string>
+    <string name="accessibility_compatibility_zoom_example">Жижгээс том дэлгэцрүү өсгөх.</string>
+    <string name="accessibility_bluetooth_connected">Блютүүт холбогдсон.</string>
+    <string name="accessibility_bluetooth_disconnected">Блютүүт тасрав.</string>
+    <string name="accessibility_no_battery">Батерей байхгүй.</string>
+    <string name="accessibility_battery_one_bar">Батерей нэг баганатай.</string>
+    <string name="accessibility_battery_two_bars">Батерей хоёр баганатай.</string>
+    <string name="accessibility_battery_three_bars">Батерей гурван баганатай.</string>
+    <string name="accessibility_battery_full">Батерей дүүрэн.</string>
+    <string name="accessibility_no_phone">Утас байхгүй.</string>
+    <string name="accessibility_phone_one_bar">Утас нэг баганатай.</string>
+    <string name="accessibility_phone_two_bars">Утас хоёр баганатай.</string>
+    <string name="accessibility_phone_three_bars">Утас гурван баганатай.</string>
+    <string name="accessibility_phone_signal_full">Утасны дохио дүүрэн.</string>
+    <string name="accessibility_no_data">Дата байхгүй.</string>
+    <string name="accessibility_data_one_bar">Дата нэг баганатай.</string>
+    <string name="accessibility_data_two_bars">Дата хоёр баганатай.</string>
+    <string name="accessibility_data_three_bars">Дата гурван баганатай.</string>
+    <string name="accessibility_data_signal_full">Дата дохио дүүрэн.</string>
+    <string name="accessibility_wifi_off">Wifi унтарсан.</string>
+    <string name="accessibility_no_wifi">Wifi салав.</string>
+    <string name="accessibility_wifi_one_bar">Wifi нэг баганатай.</string>
+    <string name="accessibility_wifi_two_bars">Wifi хоёр баганатай.</string>
+    <string name="accessibility_wifi_three_bars">Wifi гурван баганатай.</string>
+    <string name="accessibility_wifi_signal_full">Wifi дохио дүүрэн.</string>
+    <string name="accessibility_wifi_name">%s-тай холбогдсон.</string>
+    <string name="accessibility_bluetooth_name">%s-тай холбогдсон.</string>
+    <string name="accessibility_no_wimax">WiMAX байхгүй.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX нэг багана.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX хоёр баганатай.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX гурван баганатай.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX дохио дүүрэн.</string>
+    <string name="accessibility_no_signal">Дохио байхгүй.</string>
+    <string name="accessibility_not_connected">Холбогдоогүй.</string>
+    <string name="accessibility_zero_bars">Тэг баганатай.</string>
+    <string name="accessibility_one_bar">Нэг баганатай.</string>
+    <string name="accessibility_two_bars">Хоёр багана.</string>
+    <string name="accessibility_three_bars">Гурван баганатай.</string>
+    <string name="accessibility_signal_full">Дохио дүүрэн.</string>
+    <string name="accessibility_desc_on">Идэвхижсэн.</string>
+    <string name="accessibility_desc_off">Унтраах</string>
+    <string name="accessibility_desc_connected">Холбогдсон.</string>
+    <string name="accessibility_desc_connecting">Холбож байна.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Рүүминг</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM байхгүй.</string>
+    <string name="accessibility_bluetooth_tether">Блютүүт модем болж байна.</string>
+    <string name="accessibility_airplane_mode">Нислэгийн горим</string>
+    <string name="accessibility_battery_level">Батерей %d хувьтай.</string>
+    <string name="accessibility_settings_button">Системийн тохиргоо.</string>
+    <string name="accessibility_notifications_button">Мэдэгдэл.</string>
+    <string name="accessibility_remove_notification">Мэдэгдлийг цэвэрлэх.</string>
+    <string name="accessibility_gps_enabled">GPS идэвхтэй.</string>
+    <string name="accessibility_gps_acquiring">GPS хайж байна.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter идэвхтэй болов.</string>
+    <string name="accessibility_ringer_vibrate">Хонхны чичиргээ.</string>
+    <string name="accessibility_ringer_silent">Хонхыг хаах.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s-г хаах.</string>
+    <string name="accessibility_recents_item_dismissed">%s байхгүй.</string>
+    <string name="accessibility_recents_item_launched">%s-г эхлүүлж байна.</string>
+    <string name="accessibility_notification_dismissed">Мэдэгдэл хаагдсан.</string>
+    <string name="accessibility_desc_notification_shade">Мэдэгдлийн хураангуй самбар</string>
+    <string name="accessibility_desc_quick_settings">Шуурхай тохиргоо.</string>
+    <string name="accessibility_desc_lock_screen">Дэлгэц түгжих.</string>
+    <string name="accessibility_desc_settings">Тохиргоо</string>
+    <string name="accessibility_desc_recent_apps">Тойм харагдац.</string>
+    <string name="accessibility_quick_settings_user">Хэрэглэгч %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wifi унтраасан.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wifi асаасан.</string>
+    <string name="accessibility_quick_settings_mobile">Мобайл %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Батерей %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Нислэгийн горим идэвхгүй.</string>
+    <string name="accessibility_quick_settings_airplane_on">Нислэгийн горим идэвхтэй.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Нислэгийн горимыг унтраасан.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Нислэгийн горимыг асаасан.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Блютүүт идэвхгүй.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Блютүүт идэвхтэй.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Блютүүтийг холбож байна.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Блютүүт холбогдсон.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Блютүүтийг унтраасан.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Блютүүтийг асаасан.</string>
+    <string name="accessibility_quick_settings_location_off">Байршил мэдээлэлт идэвхгүй.</string>
+    <string name="accessibility_quick_settings_location_on">Байршил мэдээлэлт идэвхтэй.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Байршил мэдээлэлтийг унтраасан.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Байршил мэдээлэлтийг асаасан.</string>
+    <string name="accessibility_quick_settings_alarm">Сэрүүлгийг %s-д тохируулсан.</string>
+    <string name="accessibility_quick_settings_close">Самбарыг хаах.</string>
+    <string name="accessibility_quick_settings_more_time">Хугацаа нэмэх.</string>
+    <string name="accessibility_quick_settings_less_time">Хугацаа хасах.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Флаш гэрэл унтарсан.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Флаш гэрэл ассан.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Флаш гэрлийг унтраасан.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Флаш гэрлийг асаасан.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Өнгө урвуулагчийг унтраасан.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Өнгө урвуулагчийг асаасан.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Мобайл хотспотыг унтраасан.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Мобайл хотспотыг асаасан.</string>
+    <string name="accessibility_casting_turned_off">Дэлгэц дамжуулалт зогссон.</string>
+    <string name="accessibility_brightness">Дэлгэцийн гэрэлтэлт</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G дата идэвхгүй</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G дата идэвхгүй</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Үүрэн дата идэвхгүй</string>
+    <string name="data_usage_disabled_dialog_title">Дата идэвхгүй</string>
+    <string name="data_usage_disabled_dialog">"Таны тогтоосон хязгаарт хүрсэн учир төхөөрөмж датаг унтраасан.
+
+Үүнийг асааснаар таны төлбөр нэмэгдэхэд хүргэж болзошгүй."</string>
+    <string name="data_usage_disabled_dialog_enable">Датаг асаах</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Интернет холболт байхгүй</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi холбогдсон</string>
+    <string name="gps_notification_searching_text">GPS хайж байна</string>
+    <string name="gps_notification_found_text">GPS байршил</string>
+    <string name="accessibility_location_active">Байршлын хүсэлтүүд идэвхтэй</string>
+    <string name="accessibility_clear_all">Бүх мэдэгдлийг цэвэрлэх.</string>
+    <string name="status_bar_notification_inspect_item_title">Мэдэгдлийн тохиргоо</string>
+    <string name="status_bar_notification_app_settings_title">%s тохиргоо</string>
+    <string name="accessibility_rotation_lock_off">Дэлгэц автоматаар эргэнэ.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Дэлгэц хэвтээ чиглэлд түгжигдсэн.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Дэлгэц босоо чиглэлээр түгжигдсэн.</string>
+    <string name="accessibility_rotation_lock_off_changed">Дэлгэц автоматаар эргэнэ.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Дэлгэц хэвтээ чиглэлд түгжигдсэн.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Дэлгэц босоо чиглэлд түгжигдсэн.</string>
+    <string name="dessert_case">Амттаны хайрцаг</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Этернет</string>
+    <string name="quick_settings_airplane_mode_label">Нислэгийн горим</string>
+    <string name="quick_settings_battery_charging_label">Цэнэглэж байна, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Цэнэглэгдсэн</string>
+    <string name="quick_settings_bluetooth_label">Блютүүт</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Блютүүт (%d төхөөрөмж)</string>
+    <string name="quick_settings_bluetooth_off_label">Блютүүт унтраалттай</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Хослуулсан төхөөрөмж байхгүй</string>
+    <string name="quick_settings_brightness_label">Тодрол</string>
+    <string name="quick_settings_rotation_unlocked_label">Автоматаар эргэх</string>
+    <string name="quick_settings_rotation_locked_label">Эргэлтийг түгжсэн</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Босоо</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Хэвтээ</string>
+    <string name="quick_settings_ime_label">Оруулах арга</string>
+    <string name="quick_settings_location_label">Байршил</string>
+    <string name="quick_settings_location_off_label">Байршил идэвхгүй</string>
+    <string name="quick_settings_media_device_label">Медиа төхөөрөмж</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Зөвхөн яаралтай дуудлага</string>
+    <string name="quick_settings_settings_label">Тохиргоо</string>
+    <string name="quick_settings_time_label">Цаг</string>
+    <string name="quick_settings_user_label">Би</string>
+    <string name="quick_settings_user_title">Хэрэглэгч</string>
+    <string name="quick_settings_user_new_user">Шинэ хэрэглэгч</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Холбогдоогүй</string>
+    <string name="quick_settings_wifi_no_network">Сүлжээгүй</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi унтарсан</string>
+    <string name="quick_settings_wifi_detail_empty_text">Хадгалагдсан сүлжээ байхгүй</string>
+    <string name="quick_settings_cast_title">Дамжуулах дэлгэц</string>
+    <string name="quick_settings_casting">Дамжуулж байна</string>
+    <string name="quick_settings_cast_device_default_name">Нэргүй төхөөрөмж</string>
+    <string name="quick_settings_cast_device_default_description">Дамжуулахад бэлэн</string>
+    <string name="quick_settings_cast_detail_empty_text">Төхөөрөмж байхгүй</string>
+    <string name="quick_settings_brightness_dialog_title">Тодрол</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">АВТОМАТ</string>
+    <string name="quick_settings_inversion_label">Өнгийг урвуулах</string>
+    <string name="quick_settings_color_space_label">Өнгө залруулах горим</string>
+    <string name="quick_settings_more_settings">Өөр тохиргоо</string>
+    <string name="quick_settings_done">Дууссан</string>
+    <string name="quick_settings_connected">Холбогдсон</string>
+    <string name="quick_settings_connecting">Холбогдож байна...</string>
+    <string name="quick_settings_tethering_label">Модем болгох</string>
+    <string name="quick_settings_hotspot_label">Сүлжээний цэг</string>
+    <string name="quick_settings_notifications_label">Мэдэгдэл</string>
+    <string name="quick_settings_flashlight_label">Гар чийдэн</string>
+    <string name="quick_settings_cellular_detail_title">Үүрэн дата</string>
+    <string name="quick_settings_cellular_detail_data_usage">Дата ашиглалт</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Үлдсэн дата</string>
+    <string name="quick_settings_cellular_detail_over_limit">Хязгаарт хүрсэн – дата ашиглалтыг түр зогсоосон</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ашигласан</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s хязгаар</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s анхааруулга</string>
+    <string name="recents_empty_message">Таны саяхны дэлгэц энд харагдах болно</string>
+    <string name="recents_app_info_button_label">Аппликешны мэдээлэл</string>
+    <string name="recents_lock_to_app_button_label">Апп-дотор-түгжих</string>
+    <string name="recents_search_bar_label">хайх</string>
+    <string name="recents_launch_error_message">%s-г эхлүүлж чадсангүй.</string>
+    <string name="expanded_header_battery_charged">Цэнэглэгдсэн</string>
+    <string name="expanded_header_battery_charging">Цэнэглэж байна</string>
+    <string name="expanded_header_battery_charging_with_time">дүүргэхэд %s</string>
+    <string name="expanded_header_battery_not_charging">Цэнэглэхгүй байна</string>
+    <string name="ssl_ca_cert_warning">"Сүлжээ хянагдаж
+байж болзошгүй"</string>
+    <string name="description_target_search">Хайх</string>
+    <string name="description_direction_up">%s-г гулсуулах.</string>
+    <string name="description_direction_left">%s хийх зүүнлүү гулсуулах.</string>
+    <string name="zen_no_interruptions_with_warning">Тасалдал байхгүй. Сэрүүлэг ч байхгүй.</string>
+    <string name="zen_no_interruptions">Ямар ч тасалдалгүй</string>
+    <string name="zen_important_interruptions">Зөвхөн нэн тэргүүний тасалдалд</string>
+    <string name="zen_alarm_information_time">Таны дараагийн сэрүүлгийн цаг %s</string>
+    <string name="zen_alarm_information_day_time">Таны дараагийн сэрүүлгийн цаг %s</string>
+    <string name="zen_alarm_warning">Та %s-д өөрийн сэрүүлгээ сонсохгүй</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Яаралтай биш мэдэгдлүүдийг доор</string>
+    <string name="notification_tap_again">Нээхийн тулд дахин хүрнэ үү</string>
+    <string name="keyguard_unlock">Түгжээг тайлах бол шудрана уу</string>
+    <string name="phone_hint">Утас гаргахын тулд баруун шударна уу</string>
+    <string name="camera_hint">Камер гаргахын тулд зүүн шударна уу</string>
+    <string name="interruption_level_none">Хоосон</string>
+    <string name="interruption_level_priority">Нэн тэргүүний</string>
+    <string name="interruption_level_all">Бүгд</string>
+    <string name="keyguard_indication_charging_time">Цэнэглэж байна (дүүргэхэд %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">Хэрэглэгчийг сэлгэх</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Хэрэглэгчийг сэлгэх, одоогийн хэрэглэгч %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Профайлыг харуулах</string>
+    <string name="user_add_user">Хэрэглэгч нэмэх</string>
+    <string name="user_new_user_name">Шинэ хэрэглэгч</string>
+    <string name="guest_nickname">Зочин</string>
+    <string name="guest_new_guest">Зочин нэмэх</string>
+    <string name="guest_exit_guest">Зочныг хасах</string>
+    <string name="guest_exit_guest_dialog_title">Зочныг хасах уу?</string>
+    <string name="guest_exit_guest_dialog_message">Энэ сешний бүх апп болон дата устах болно.</string>
+    <string name="guest_exit_guest_dialog_remove">Хасах</string>
+    <string name="guest_wipe_session_title">Тавтай морилно уу!</string>
+    <string name="guest_wipe_session_message">Та үргэлжлүүлэхийг хүсэж байна уу?</string>
+    <string name="guest_wipe_session_wipe">Дахин эхлүүлэх</string>
+    <string name="guest_wipe_session_dontwipe">Тийм, үргэлжлүүлэх</string>
+    <string name="user_add_user_title">Шинэ хэрэглэгч нэмэх үү?</string>
+    <string name="user_add_user_message_short">"Та шинэ хэрэглэгч нэмбэл, тухайн хүн өөрийн профайлыг тохируулах шаардлагатай.
+
+Аль ч хэрэглэгч бүх хэрэглэгчийн апп-уудыг шинэчлэх боломжтой."</string>
+    <string name="battery_saver_notification_title">Батерей хэмнэгч асаалттай</string>
+    <string name="battery_saver_notification_text">Ажиллагаа болон далд датаг бууруулна</string>
+    <string name="battery_saver_notification_action_text">Батерей хэмнэгчийг унтраах</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Контентыг нуусан</string>
+    <string name="media_projection_dialog_text">%s таны дэлгэц дээр гаргасан бүх зүйлийн зургийг авч эхэлнэ.</string>
+    <string name="media_projection_remember_text">Дахиж үл харуулах</string>
+    <string name="clear_all_notifications_text">Бүгдийг арилгах</string>
+    <string name="media_projection_action_text">Одоо эхлүүлэх</string>
+    <string name="empty_shade_text">Мэдэгдэл байхгүй</string>
+    <string name="device_owned_footer">Төхөөрөмжийг хянах боломжтой</string>
+    <string name="profile_owned_footer">Профайлыг хянаж байж болзошгүй</string>
+    <string name="vpn_footer">Сүлжээ хянагдаж байж болзошгүй</string>
+    <string name="monitoring_title_device_owned">Төхөөрөмжийн хяналт</string>
+    <string name="monitoring_title_profile_owned">Профайл хяналт</string>
+    <string name="monitoring_title">Сүлжээний хяналт</string>
+    <string name="disable_vpn">VPN идэвхгүйжүүлэх</string>
+    <string name="disconnect_vpn">VPN таслах</string>
+    <string name="monitoring_description_device_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирдаж байна.
+Таны админ таны төхөөрөмж болон имэйл, апп-ууд болон аюулгүй вебсайтууд зэрэг таны сүлжээний үйл ажиллагааг хянах боломжтой.
+
+Дэлгэрэнгүй мэдээллийг админаас авна уу."</string>
+    <string name="monitoring_description_vpn">"Та \"%1$s\"-д VPN холболт үүсгэх зөвшөөрөл өгсөн.
+
+Энэ апп таны төхөөрөмж болон имэйл, апп-ууд болон аюулгүй вэбсайтууд зэрэг сүлжээний үйл ажиллагааг хянах боломжтой."</string>
+    <string name="monitoring_description_legacy_vpn">"Та VPN (\"%1$s\") холбогдсон байна.
+
+Таны VPN үйлчилгээ үзүүлэгч нь таны төхөөрөмж болон имэйл, апп-ууд болон аюулгүй вэбсайтууд зэрэг таны сүлжээний үйл ажиллагааг хянах боломжтой."</string>
+    <string name="monitoring_description_vpn_device_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирдаж байна 
+ Танай админ имэйл, апп-ууд, аюулгүй вэбсайтууд зэргийг оруулан таны сүлжээний үйл ажиллагааг хянах боломжтой. Дэлгэрэнгүй мэдээллийг админаас авна уу.
+
+Мөн та %2$s-д VPN холболт үүсгэх зөвшөөрөл өгсөн байна. Энэ апп мөн сүлжээний үйл ажиллагааг хянах боломжтой."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирдаж байна 
+Танай админ имэйл, апп-ууд, аюулгүй вэбсайтууд зэргийг оруулан таны сүлжээний үйл ажиллагааг хянах боломжтой. Дэлгэрэнгүй мэдээллийг админаас авна уу.
+
+Мөн та VPN (\"%2$s\")-д холбогдсон байна. VPN үйлчилгээ үзүүлэгч таны сүлжээний үйл ажиллагааг мөн хянах боломжтой."</string>
+    <string name="monitoring_description_profile_owned">"Энэ профайлыг 
+%1$s
+удирдаж байна
+Таны админ таны төхөөрөмж, сүлжээний идэвхжилт, имэйл, апп-ууд болон аюулгүй вебсайтуудыг хянах боломжтой.
+
+Дэлгэрэнгүй мэдээллийг админаасаа авна уу."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирддаг. Таны профайлыг 
+%2$s
+ удирддаг
+Таны админ таны төхөөрөмж, сүлжээний идэвхжилт, имэйл, апп-ууд болон аюулгүй вебсайтуудыг хянах боломжтой.
+
+Дэлгэрэнгүй мэдээллийг админаасаа авна уу."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Энэ профайлыг 
+%1$s
+удирдаж байна
+Таны админ сүлжээний идэвхжилт, имэйл, апп-ууд болон аюулгүй вебсайтуудыг хянах боломжтой. Дэлгэрэнгүй мэдээллийг админаасаа авна уу.
+
+Мөн та \"%2$s\"-д VPN холболт үүсгэх зөвшөөрөл өгсөн. Энэ апп сүлжээний идэвхжилтийг хянах боломжтой."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Энэ профайлыг 
+%1$s
+удирдаж байна
+Таны админ таны сүлжээний үйл ажиллагаа, имэйл, апп-ууд, аюулгүй вебсайтуудыг хянах боломжтой. Дэлгэрэнгүй мэдээллийг админаасаа авна уу.
+
+Мөн та VPN (\"%2$s\")-д холбогдсон байна. Таны VPN үйлчилгээ үзүүлэгч таны сүлжээний идэвхжилтийг хянах боломжтой."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирдаж байна. Таны профайлыг 
+%2$s
+удирдаж байна
+Таны админ таны сүлжээний идэвхжилт, имэйл, апп-ууд, аюулгүй вэбсайтуудыг хянах боломжтой. Дэлгэрэнгүй мэдээллийг админаасаа авна уу.
+
+Мөн та \"%3$s\"-д VPN холболт үүсгэх зөвшөөрөл өгсөн. Энэ апп нь таны сүлжээний идэвхжилтийг хянах боломжтой."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Энэ төхөөрөмжийг 
+%1$s
+ удирддаг. Таны профайлыг 
+%2$s
+ удирддаг
+Таны админ таны төхөөрөмж, сүлжээний идэвхжилт, имэйл, апп-ууд болон аюулгүй вебсайтуудыг хянах боломжтой.Дэлгэрэнгүй мэдээллийг админаасаа авна уу.
+
+Мөн та VPN (\"%3$s\")-д холбогдсон байна. Таны VPN үйлчилгээ үзүүлэгч таны сүлжээний идэвхжилтийг хянах боломжтой."</string>
+    <string name="keyguard_indication_trust_disabled">Таныг гараар онгойлгох хүртэл төхөөрөмж түгжээтэй байх болно</string>
+    <string name="hidden_notifications_title">Мэдэгдлийг хурдан авах</string>
+    <string name="hidden_notifications_text">Түгжээг тайлахын өмнө үзнэ үү</string>
+    <string name="hidden_notifications_cancel">Үгүй</string>
+    <string name="hidden_notifications_setup">Тохируулах</string>
+    <string name="muted_by">%1$s-с хаасан</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">PIN кодыг бичнэ үү</string>
+    <string name="keyguard_password_enter_puk_code">СИМ ПҮК-г бичээд шинэ ПИН код оруулна уу</string>
+    <string name="keyguard_password_enter_puk_prompt">СИМ ПҮК код</string>
+    <string name="keyguard_password_enter_pin_prompt">Шинэ СИМ ПИН код</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Нууц үг бичих бол хүрнэ үү</font></string>
+    <string name="keyguard_password_enter_password_code">Тайлах нууц үгийг бичнэ үү</string>
+    <string name="keyguard_password_enter_pin_password_code">Тайлах PIN-г оруулна уу</string>
+    <string name="keyguard_password_wrong_pin_code">Буруу PIN код.</string>
+    <string name="keyguard_label_text">Тайлах бол Цэсийг дараад 0.</string>
+    <string name="faceunlock_multiple_failures">Нүүрээр түгжээ тайлах оролдлогын тоо дээд хэмжээнээс хэтэрсэн</string>
+    <string name="keyguard_charged">Цэнэглэгдэв</string>
+    <string name="keyguard_plugged_in">Цэнэглэж байна</string>
+    <string name="keyguard_low_battery">Цэнэглэгчээ холбоно уу.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Тайлх бол цэсийг дарна уу.</string>
+    <string name="keyguard_network_locked_message">Сүлжээ түгжигдсэн</string>
+    <string name="keyguard_missing_sim_message_short">SIM карт байхгүй</string>
+    <string name="keyguard_missing_sim_message">Утсанд SIM карт байхгүй.</string>
+    <string name="keyguard_missing_sim_instructions">SIM картыг оруулна уу.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM карт байхгүй эсвэл унших боломжгүй. SIM карт оруулна уу.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Ашиглаж болохгүй SIM карт.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Таны SIM карт бүрмөсөн идэвхгүй болов.
+ Өөр SIM карт авах бол өөрийн утасгүй үйлчилгээний нийлүүлэгчтэй холбогдоно уу."</string>
+    <string name="keyguard_sim_locked_message">SIM карт түгжигдсэн.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM картны PUK-түгжигдсэн.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM картны түгжээг гаргаж байна…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d. -н %2$d виджет</string>
+    <string name="keyguard_accessibility_add_widget">Виджет нэмэх.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Хоосон</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Тайлах хэсэг нээгдсэн.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Тайлах хэсэг хаагдсан.</string>
+    <string name="keyguard_accessibility_widget">%1$s виджет.</string>
+    <string name="keyguard_accessibility_user_selector">Хэрэглэгч сонгоч</string>
+    <string name="keyguard_accessibility_camera">Камер</string>
+    <string name="keygaurd_accessibility_media_controls">Медиа контрол</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Виджет дахин эрэмбэлж эхлэв.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Виджетийг дахин эрэмбэлж дуусав.</string>
+    <string name="keyguard_accessibility_widget_deleted">%1$s виджет устсан.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Түгжээгүй хэсгийг өргөсгөх.</string>
+    <string name="keyguard_accessibility_slide_unlock">Тайлах гулсуулалт.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Тайлах хээ.</string>
+    <string name="keyguard_accessibility_face_unlock">Нүүрээр тайлах</string>
+    <string name="keyguard_accessibility_pin_unlock">Тайлах пин.</string>
+    <string name="keyguard_accessibility_password_unlock">Тайлах нууц үг.</string>
+    <string name="keyguard_accessibility_pattern_area">Хээний хэсэг.</string>
+    <string name="keyguard_accessibility_slide_area">Гулсуулах хэсэг.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Өмнөх бичлэг товч</string>
+    <string name="keyguard_accessibility_transport_next_description">Дараагийн бичлэг товч</string>
+    <string name="keyguard_accessibility_transport_pause_description">Түр зогсоох товч</string>
+    <string name="keyguard_accessibility_transport_play_description">Тоглуулах товч</string>
+    <string name="keyguard_accessibility_transport_stop_description">Зогсоох товч</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Сайн</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Онцгүй</string>
+    <string name="keyguard_accessibility_transport_heart_description">Зүрх</string>
+    <string name="keyguard_accessibility_show_bouncer">Үргэлжлүүлэхийн тулд түгжээг тайлна уу</string>
+    <string name="keyguard_accessibility_hide_bouncer">Эхлүүлэхийг цуцалсан</string>
+    <string name="keyguard_accessibility_delete_widget_start">Устгахын тулд %1$s-г тавина уу.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s устахгүй.</string>
+    <string name="keyguard_accessibility_next_alarm">Дараагийн сэрүүлгийг %1$s-д тохируулсан</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">АБВ</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Цуцлах</string>
+    <string name="keyboardview_keycode_delete">Устгах</string>
+    <string name="keyboardview_keycode_done">Дуусгах</string>
+    <string name="keyboardview_keycode_mode_change">Горим өөрчлөх</string>
+    <string name="keyboardview_keycode_shift">Шифт</string>
+    <string name="keyboardview_keycode_enter">Оруулах</string>
+    <string name="description_target_unlock">Тайлах</string>
+    <string name="description_target_camera">Камер</string>
+    <string name="description_target_silent">Чимээгүй</string>
+    <string name="description_target_soundon">Дуунууд идэвхтэй</string>
+    <string name="description_direction_down">%s хийх бол доош гулсуулах.</string>
+    <string name="description_direction_right">%s хийх бол баруунлуу гулсуулах.</string>
+    <string name="user_switched">Одоогийн хэрэглэгч %1$s.</string>
+    <string name="kg_emergency_call_label">Яаралтай дуудлага</string>
+    <string name="kg_forgot_pattern_button_text">Хээг мартсан</string>
+    <string name="kg_wrong_pattern">Буруу хээ</string>
+    <string name="kg_wrong_password">Нууц үг буруу</string>
+    <string name="kg_wrong_pin">PIN буруу</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d секундын дараа дахин оролдоно уу.</string>
+    <string name="kg_pattern_instructions">Хээг зурах</string>
+    <string name="kg_sim_pin_instructions">SIM PIN оруулна уу</string>
+    <string name="kg_pin_instructions">PIN оруулна уу</string>
+    <string name="kg_password_instructions">Нууц үгээ оруулна уу</string>
+    <string name="kg_puk_enter_puk_hint">SIM идэвхгүй байна. Үргэлжлүүлэх бол PUK кодыг оруулна уу. Дэлгэрэнгүй мэдээллийг оператороос асууна ууу</string>
+    <string name="kg_puk_enter_pin_hint">Хүссэн PIN кодоо оруулна уу</string>
+    <string name="kg_enter_confirm_pin_hint">Хүссэн PIN кодоо дахин оруулна уу</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM картны түгжээг гаргаж байна…</string>
+    <string name="kg_invalid_sim_pin_hint">4-8 тооноос бүтэх PIN-г бичнэ үү.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK код 8-с цөөнгүй тооноос бүтнэ.</string>
+    <string name="kg_invalid_puk">Зөв PUK кодыг дахин оруулна уу. Давтан оролдвол SIM нь бүрмөсөн идэвхгүй болгоно.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN кодууд таарахгүй байна</string>
+    <string name="kg_login_too_many_attempts">Хээ оруулах оролдлого хэт олон</string>
+    <string name="kg_login_instructions">Түгжээг тайлах бол Google акаунтаараа нэвтэрнэ үү.</string>
+    <string name="kg_login_username_hint">Хэрэглэгчийн нэр (имэйл)</string>
+    <string name="kg_login_password_hint">Нууц үг</string>
+    <string name="kg_login_submit_button">Нэвтрэх</string>
+    <string name="kg_login_invalid_input">Хэрэглэгчийн нэр эсвэл нууц үг буруу.</string>
+    <string name="kg_login_account_recovery_hint">"Хэрэглэгчийн нэр нууц үгээ мартсан уу?
+"<b>google.com/accounts/recovery</b>-д зочилно уу.</string>
+    <string name="kg_login_checking_password">Акаунт шалгаж байна…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Та PIN кодоо %d удаа буруу бичив. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Та PIN кодоо %d удаа буруу бичив. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Та тайлах хээг %d удаа буруу зурлаа. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Та утсыг тайлах гэж %d удаа буруу оролдлоо. %d удаа дахин буруу оролдвол утас үйлдвэрийн үндсэн утгаараа тохируулагдах ба хэрэглэгчийн дата бүхэлдээ устана.</string>
+    <string name="kg_failed_attempts_now_wiping">Та утсыг тайлах гэж %d удаа буруу оролдлоо. Утас одоо үйлдвэрийн үндсэн утгаараа тохируулагдах болно.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Та тайлах хээг %d удаа буруу зурлаа. %d удаа дахин буруу оруулбал, та утсаа тайлахын тулд имэйл акаунтаа ашиглах шаардлагатай болно.
+
+ %d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Устгах</string>
+    <string name="kg_password_wrong_pin_code_pukked">СИМ ПИН код буруу, та төхөөрөмжийн түгжээг тайлахын тулд оператор компанитай холбоо барих шаардлагатай.</string>
+    <string name="kg_password_wrong_puk_code_dead">СИМ ашиглах боломжгүй. Өөрийн оператор компанитай холбоо барина уу.</string>
+    <string name="kg_password_pin_failed">СИМ ПИН ажиллуулах амжилтгүй боллоо!</string>
+    <string name="kg_password_puk_failed">СИМ ПҮК ажиллуулах амжилтгүй боллоо!</string>
+    <string name="kg_pin_accepted">Код зөвшөөрөгдлөө!</string>
+    <string name="keyguard_transport_prev_description">Өмнөх дуу товч</string>
+    <string name="keyguard_transport_next_description">Дараагийн дуу товч</string>
+    <string name="keyguard_transport_pause_description">Түр зогсох товч</string>
+    <string name="keyguard_transport_play_description">Тоглуулах товч</string>
+    <string name="keyguard_transport_stop_description">Зогсоох товч</string>
+    <string name="keyguard_carrier_default">Үйлчилгээ байхгүй.</string>
+</resources>

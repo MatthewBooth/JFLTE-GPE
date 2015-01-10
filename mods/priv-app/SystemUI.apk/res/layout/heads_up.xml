@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.HeadsUpNotificationView android:background="@drawable/heads_up_scrim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/headsup_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center|left|top" android:id="@id/content_holder" android:layout_width="@dimen/notification_panel_width" android:layout_height="wrap_content" android:paddingStart="@dimen/notification_side_padding" android:paddingEnd="@dimen/notification_side_padding" android:elevation="8.0dip" />
+    </FrameLayout>
+</com.android.systemui.statusbar.policy.HeadsUpNotificationView>

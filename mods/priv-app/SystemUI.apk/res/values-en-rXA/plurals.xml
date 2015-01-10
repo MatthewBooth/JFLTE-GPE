@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">[»%d« šçŕééñš îñ ÖVéŕVîéŵ one two three]</item>
+        <item quantity="one">[1 šçŕééñ îñ ÖVéŕVîéŵ one two three]</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">[Îñçöŕŕéçţ ŠÎḾ ÞÎÑ çöðé, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţš. one two three four five six seven eight nine ten eleven twelve]</item>
+        <item quantity="one">[Îñçöŕŕéçţ ŠÎḾ ÞÎÑ çöðé, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţ ɓéƒöŕé ýöû ḿûšţ çöñţåçţ ýöûŕ çåŕŕîéŕ ţö ûñļöçķ ýöûŕ ðéVîçé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">[Îñçöŕŕéçţ ŠÎḾ ÞÛĶ çöðé, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţš ɓéƒöŕé ŠÎḾ ɓéçöḿéš þéŕḿåñéñţļý ûñûšåɓļé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen]</item>
+        <item quantity="one">[Îñçöŕŕéçţ ŠÎḾ ÞÛĶ çöðé, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţ ɓéƒöŕé ŠÎḾ ɓéçöḿéš þéŕḿåñéñţļý ûñûšåɓļé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen]</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">[Éñţéŕ ŠÎḾ ÞÎÑ, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţš. one two three four five six seven eight nine ten]</item>
+        <item quantity="one">[Éñţéŕ ŠÎḾ ÞÎÑ, ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţ ɓéƒöŕé ýöû ḿûšţ çöñţåçţ ýöûŕ çåŕŕîéŕ ţö ûñļöçķ ýöûŕ ðéVîçé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen]</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">[ŠÎḾ îš ñöŵ ðîšåɓļéð. Éñţéŕ ÞÛĶ çöðé ţö çöñţîñûé. Ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţš ɓéƒöŕé ŠÎḾ ɓéçöḿéš þéŕḿåñéñţļý ûñûšåɓļé. Çöñţåçţ çåŕŕîéŕ ƒöŕ ðéţåîļš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six]</item>
+        <item quantity="one">[ŠÎḾ îš ñöŵ ðîšåɓļéð. Éñţéŕ ÞÛĶ çöðé ţö çöñţîñûé. Ýöû ĥåVé %d ŕéḿåîñîñĝ åţţéḿþţ ɓéƒöŕé ŠÎḾ ɓéçöḿéš þéŕḿåñéñţļý ûñûšåɓļé. Çöñţåçţ çåŕŕîéŕ ƒöŕ ðéţåîļš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six]</item>
+    </plurals>
+</resources>

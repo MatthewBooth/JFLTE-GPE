@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ნაჩვენებია %d ეკრანი</item>
+        <item quantity="one">ნაჩვენებია 1 ეკრანი</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM-ის არასწორი PIN კოდი. თქვენ დაგრჩათ %d მცდელობა.</item>
+        <item quantity="one">SIM-ის არასწორი PIN კოდი. თქვენ დაგრჩათ %d მცდელობა, სანამ მოგიწევთ თქვენი მოწყობილობის განსაბლოკად ოპერატორთან დაკავშირება.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">არასწორი SIM PUK კოდი. თქვენ დაგრჩათ %d მცდელობა, სანამ SIM სამუდამოდ გამოუსადეგარი გახდებოდეს.</item>
+        <item quantity="one">არასწორი SIM PUK კოდი. თქვენ დაგრჩათ %d მცდელობა, სანამ SIM სამუდამოდ გამოუსადეგარი გახდებოდეს.</item>
+    </plurals>
+</resources>

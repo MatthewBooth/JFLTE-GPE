@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">អេក្រង់ %d ក្នុង​ទិដ្ឋភាព</item>
+        <item quantity="one">អេក្រង់​ 1 ក្នុង​ទិដ្ឋភាព</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">លេខ​កូដ​ PIN ស៊ីម​មិន​ត្រឹមត្រូវ​, អ្នក​មាន %d ការ​ព្យាយាម​ដែល​នៅ​​សល់​។</item>
+        <item quantity="one">លេខ​កូដ PIN ស៊ីម​មិន​​ត្រឹមត្រូវ​, អ្នក​មាន %d ការ​ព្យាយាម​ដែល​នៅសល់​មុន​ពេល​អ្នក​ត្រូវ​​ទាក់ទង​ក្រុម​ហ៊ុន​​​បញ្ជូន​របស់​អ្នក​​ ដើម្បី​​​ដោះ​សោ​ឧបករណ៍​របស់​អ្នក​។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">លេខ​កូដ PUK ស៊ីម​មិន​ត្រឹមត្រូវ, អ្នក​មាន %d ការ​ព្យាយាម​ដែល​នៅ​សល់ មុន​ពេល​ស៊ីម​​ក្លាយ​ជា​មិន​អាច​ប្រើ​បាន​ជា​អចិន្ត្រៃយ៍​។</item>
+        <item quantity="one">លេខ​កូដ PUK ស៊ីម​មិន​ត្រឹមត្រូវ, អ្នក​មាន %d ការ​ព្យាយាម​ដែល​នៅ​សល់ មុន​ពេល​ស៊ីម​​ក្លាយ​ជា​មិន​អាច​ប្រើ​បាន​ជា​អចិន្ត្រៃយ៍​។</item>
+    </plurals>
+</resources>

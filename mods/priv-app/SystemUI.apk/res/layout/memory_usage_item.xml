@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/task_manager_title" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:text="@string/task_manager_title" android:maxLines="1" android:layout_alignParentLeft="true" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:id="@id/kill_all_button" android:background="@drawable/btn_tasklist_killall" android:focusable="false" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/tasklist_killall" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/memory_usage_text" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentLeft="true" />
+    <ProgressBar android:id="@id/memory_usage_Bar" android:paddingLeft="40.0dip" android:layout_width="240.0dip" android:layout_height="20.0dip" android:layout_alignParentLeft="true" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

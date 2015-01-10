@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d οθόνες στην Επισκόπηση</item>
+        <item quantity="one">1 οθόνη στην Επισκόπηση</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Εσφαλμένος κωδικός PIN κάρτας SIM. Απομένουν %d προσπάθειες.</item>
+        <item quantity="one">Εσφαλμένος κωδικός PIN κάρτας SIM. Απομένει άλλη %d προσπάθεια. Στη συνέχεια, θα πρέπει να επικοινωνήσετε με τον πάροχο κινητής τηλεφωνίας σας για να ξεκλειδώσετε τη συσκευή σας.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Εσφαλμένος κωδικός PUK κάρτας SIM. Απομένουν %d προσπάθειες προτού δεν είναι πλέον δυνατή η χρήση της κάρτας SIM.</item>
+        <item quantity="one">Εσφαλμένος κωδικός PUK κάρτας SIM. Απομένει άλλη %d προσπάθεια προτού δεν είναι πλέον δυνατή η χρήση της κάρτας SIM.</item>
+    </plurals>
+</resources>

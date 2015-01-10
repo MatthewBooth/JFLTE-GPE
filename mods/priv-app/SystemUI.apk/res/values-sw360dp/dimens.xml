@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glowpadcontainer_bottom_margin">-48.0dip</dimen>
+    <dimen name="keyguard_security_height">400.0dip</dimen>
+</resources>

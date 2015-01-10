@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NotificationPanelView android:id="@id/notification_panel" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/carrier_label_height" android:layout_marginBottom="@dimen/close_handle_height" layout="@layout/carrier_label" />
+    <include android:visibility="gone" android:layout_height="wrap_content" layout="@layout/keyguard_status_view" />
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network.EmergencyOnly" android:gravity="center" android:id="@id/emergency_calls_only" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer android:layout_gravity="center|left|top" android:id="@id/notification_container_parent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.phone.ObservableScrollView android:layout_gravity="center|left|top" android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="@dimen/notification_panel_width" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/notification_side_padding" android:layout_marginTop="@dimen/status_bar_header_height_expanded" android:layout_marginRight="@dimen/notification_side_padding" layout="@layout/qs_panel" />
+                <View android:id="@id/reserve_notification_space" android:layout_width="fill_parent" android:layout_height="@dimen/min_stack_height" android:layout_marginTop="@dimen/notifications_top_padding" />
+                <View android:layout_width="fill_parent" android:layout_height="@dimen/notification_side_padding" />
+            </LinearLayout>
+        </com.android.systemui.statusbar.phone.ObservableScrollView>
+        <com.android.systemui.statusbar.stack.NotificationStackScrollLayout android:layout_gravity="center|left|top" android:id="@id/notification_stack_scroller" android:layout_width="@dimen/notification_panel_width" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/close_handle_underlap" />
+        <ViewStub android:layout_gravity="end" android:id="@id/keyguard_user_switcher" android:layout="@layout/keyguard_user_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/status_bar_header_height_keyguard" />
+        <include android:visibility="invisible" layout="@layout/keyguard_status_bar" />
+    </com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer>
+    <include android:visibility="gone" layout="@layout/keyguard_bottom_area" />
+    <include layout="@layout/status_bar_expanded_header" />
+    <com.android.systemui.statusbar.AlphaOptimizedView android:layout_gravity="bottom" android:id="@id/qs_navbar_scrim" android:background="@drawable/qs_navbar_scrim" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+</com.android.systemui.statusbar.phone.NotificationPanelView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@android:interpolator/accelerate_quint" android:duration="300" android:fillBefore="true" android:fillAfter="true" android:fromYDelta="0.0%" android:toYDelta="109.99756%" android:fillEnabled="true" />
+</set>

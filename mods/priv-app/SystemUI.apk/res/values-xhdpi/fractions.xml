@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="battery_subpixel_smoothing_left">25.0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">12.5%</fraction>
+</resources>

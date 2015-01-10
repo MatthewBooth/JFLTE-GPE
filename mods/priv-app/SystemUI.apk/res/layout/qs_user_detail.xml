@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.UserDetailView android:layout_width="fill_parent" android:layout_height="fill_parent" sysui:verticalSpacing="4.0dip" sysui:horizontalSpacing="4.0dip" style="@style/UserDetailView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto" />

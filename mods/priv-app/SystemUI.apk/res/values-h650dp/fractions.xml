@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="keyguard_clock_y_fraction_max">32.500004%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">18.500006%</fraction>
+</resources>

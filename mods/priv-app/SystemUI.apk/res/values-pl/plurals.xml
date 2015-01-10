@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Ekrany w widoku przeglądu: %d</item>
+        <item quantity="one">1 ekran w widoku przeglądu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d prób(y).</item>
+        <item quantity="one">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próbę, zanim będziesz musiał skontaktować się z operatorem, by odblokował Twoje urządzenie.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d prób(y), zanim karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="one">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d próbę, zanim karta SIM zostanie trwale zablokowana.</item>
+    </plurals>
+</resources>

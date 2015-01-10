@@ -1,0 +1,15 @@
+version: 2.0.0-RC3
+apkFileName: SystemUI.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0-I9505GUEUDNL3
+compressionType: false

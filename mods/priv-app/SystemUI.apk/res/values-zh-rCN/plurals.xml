@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">概览中有 %d 个屏幕</item>
+        <item quantity="one">概览中有 1 个屏幕</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM卡PIN码不正确，您还有%d次尝试机会。</item>
+        <item quantity="one">SIM卡PIN码不正确，您还有%d次尝试机会。如果仍然失败，则必须联系运营商帮您解锁设备。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM卡PUK码不正确，您还有%d次尝试机会。如果仍然失败，SIM卡将永远无法使用。</item>
+        <item quantity="one">SIM卡PUK码不正确，您还有%d次尝试机会。如果仍然失败，SIM卡将永远无法使用。</item>
+    </plurals>
+</resources>

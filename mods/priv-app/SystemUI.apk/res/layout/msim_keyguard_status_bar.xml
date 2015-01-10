@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.KeyguardStatusBarView android:id="@id/keyguard_header" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_header_height_keyguard" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.statusbar.phone.MultiUserSwitch android:id="@id/multi_user_switch" android:background="@drawable/ripple_drawable" android:layout_width="@dimen/multi_user_switch_width_keyguard" android:layout_height="@dimen/status_bar_header_height_keyguard" android:layout_marginEnd="@dimen/multi_user_switch_keyguard_margin" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@id/multi_user_avatar" android:layout_width="@dimen/multi_user_avatar_keyguard_size" android:layout_height="@dimen/multi_user_avatar_keyguard_size" android:scaleType="centerInside" />
+    </com.android.systemui.statusbar.phone.MultiUserSwitch>
+    <LinearLayout android:id="@id/system_icons_super_container" android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_header_height" android:layout_alignWithParentIfMissing="true" android:paddingEnd="2.0dip" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/multi_user_switch">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/system_icons_container" android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_height">
+            <include layout="@layout/msim_system_icons" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/battery_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/battery_level_padding_end" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
+    </LinearLayout>
+    <com.android.keyguard.CarrierText android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/keyguard_carrier_text" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_header_height_keyguard" android:singleLine="true" android:layout_marginStart="@dimen/keyguard_carrier_text_margin" android:layout_toStartOf="@id/system_icons_super_container" />
+</com.android.systemui.statusbar.phone.KeyguardStatusBarView>

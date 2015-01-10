@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_recent_item_min_alpha">0</integer>
+    <integer name="keyguard_max_notification_count">5</integer>
+    <integer name="status_bar_config_maxNotificationIcons">5</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="quick_settings_max_rows">4</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">1</integer>
+    <integer name="keyguard_max_notification_count">5</integer>
+    <item type="integer" name="notification_panel_layout_gravity">@integer/standard_notification_panel_layout_gravity</item>
+    <integer name="kg_carousel_angle">60</integer>
+</resources>

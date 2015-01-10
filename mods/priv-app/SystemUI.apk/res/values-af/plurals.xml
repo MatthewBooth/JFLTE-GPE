@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skerms in Oorsig</item>
+        <item quantity="one">1 skerm in Oorsig</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Verkeerde SIM PIN-kode, jy het %d oorblywende pogings.</item>
+        <item quantity="one">Verkeerde SIM PIN-kode, jy het %d oorblywende poging voordat jy jou diensverskaffer sal moet kontak om jou toestel te ontsluit.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Verkeerde SIM PUK-kode, jy het %d oorblywende pogings voordat SIM permanent onbruikbaar word.</item>
+        <item quantity="one">Verkeerde SIM PUK-kode, jy het %d oorblywende poging voordat SIM permanent onbruikbaar word.</item>
+    </plurals>
+</resources>

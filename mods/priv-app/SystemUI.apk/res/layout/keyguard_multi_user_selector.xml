@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardMultiUserSelectorView android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/keyguard_user_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/keyguard_accessibility_user_selector" androidprv:layout_childType="userSwitcher" xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.KeyguardLinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/keyguard_users_grid" android:layout_width="wrap_content" android:layout_height="@dimen/keyguard_avatar_size" android:layout_marginBottom="@dimen/keyguard_muliuser_selector_margin" />
+</com.android.keyguard.KeyguardMultiUserSelectorView>

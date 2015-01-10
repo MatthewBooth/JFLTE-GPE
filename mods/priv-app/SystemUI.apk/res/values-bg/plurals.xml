@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d екрана в панела за общ преглед</item>
+        <item quantity="one">1 екран в панела за общ преглед</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неправилен ПИН код за SIM картата – остават ви %d опита.</item>
+        <item quantity="one">Неправилен ПИН код за SIM картата – остава ви %d опит, преди да трябва да се свържете с оператора си, за да отключите устройството.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неправилен PUK код за SIM картата – остават ви %d опита, преди SIM картата да стане неизползваема завинаги.</item>
+        <item quantity="one">Неправилен PUK код за SIM картата – остава ви %d опит, преди SIM картата да стане неизползваема завинаги.</item>
+    </plurals>
+</resources>

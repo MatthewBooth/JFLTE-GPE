@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="quick_settings_rssi_tile_capitalization">false</bool>
+    <bool name="kg_use_all_caps">false</bool>
+</resources>
