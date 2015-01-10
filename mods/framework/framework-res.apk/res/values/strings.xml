@@ -1754,4 +1754,14 @@ Battery saver turns off automatically when your device is charging."</string>
     <string name="clearcover_n_missed_calls">You have %1$d missed calls</string>
     <string name="clearcover_n_unread_messages">You have %1$d unread messages</string>
     <string name="clearcover_calls_and_messages">You have %1$d missed calls and %2$d unread messages</string>
+    <string name="apm_reboot">Reboot</string>
+    <string name="apm_reboot_summary">Close all apps and restart device</string>
+    <string name="apm_hotreboot">Hot reboot</string>
+    <string name="apm_hotreboot_summary">Restart the shell</string>
+    <string name="apm_recovery">Recovery</string>
+    <string name="apm_recovery_summary">Reboot directly to recovery</string>
+    <string name="apm_bootloader">Bootloader</string>
+    <string name="apm_bootloader_summary">Reboot directly to bootloader</string>
+    <string name="apm_safemode">Safe mode</string>
+    <string name="apm_safemode_summary">Reboot and disable third party apps</string>
 </resources>
