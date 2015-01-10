@@ -1,7 +1,9 @@
 #!/bin/bash
-VERSION=$(date +%Y%m%d)
-FILE=JFLTE-GPE-${VERSION}.zip
-./compile_apps
-rm -rf JFLTE-GPE-*.zip
-7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF aroma system Changelog.md
-cd ..
+
+echo "Select to either BUILD the ROM, or just the modified apps/jars"
+select build in "build" "apps"; do
+    case $build in
+        build ) ./tools/build_linux; break;;
+        apps )  ./tools/compile_apps_linux; break;;
+    esac
+done
