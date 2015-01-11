@@ -109,8 +109,8 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 
 # Gallery
     if file_getprop("/tmp/aroma-data/install.prop","gallery") == "yes" then
-        ui_print("Installing AOSP Gallery");
-        package_extract_dir("aroma/apps/gallery/aosp", "/system");
+        ui_print("Installing Gallery");
+        package_extract_dir("aroma/apps/gallery/moto", "/system");
     endif;
 	
 # Messenger

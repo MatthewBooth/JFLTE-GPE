@@ -134,7 +134,7 @@ textbox(
 			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
-			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
+			"yes",					"Yes", 					"Install a gallery",											                    "select.selected",
 			"no",					"No", 					"Do not install a gallery",															"select",
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
