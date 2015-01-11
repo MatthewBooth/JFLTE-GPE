@@ -367,6 +367,8 @@
 
     move-result-object v2
 
+    if-nez v4, :cond_0
+
     if-eqz v2, :cond_0
 
     const/4 v1, 0x1
