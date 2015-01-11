@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150111</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150112</#></b>
 <*>Rebuilt from scratch to log our changes in GIT, results in cleaner work</*>
 <*>Enabled national roaming on most European virtual networks</*>
 <*>Dirty flashers should no longer need to clear interface app and data</*>

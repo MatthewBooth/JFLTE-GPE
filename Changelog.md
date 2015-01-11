@@ -5,7 +5,7 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 Visit http://ultimarom.com for downloads
 
 
-### Changelog 20150111
+### Changelog 20150112
 * Rebuilt from scratch to log our changes in GIT, results in cleaner work
 * Enabled national roaming on most European virtual networks
 * Dirty flashers should no longer need to clear interface app and data
