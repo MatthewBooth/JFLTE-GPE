@@ -134,8 +134,9 @@ textbox(
 			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
-			"yes",					"Yes", 					"Install a gallery",											                    "select.selected",
-			"no",					"No", 					"Do not install a gallery",															"select",
+			"aosp",					"AOSP", 				"Install the AOSP Gallery",											                "select.selected",
+			"moto",					"Motorola", 			"Install the Motorola Gallery",											            "select",
+			"no",					"No", 					"Do not install a Gallery",															"select",
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
