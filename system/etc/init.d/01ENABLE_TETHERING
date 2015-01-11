@@ -17,14 +17,25 @@
 
 # Some people have an issue with tethering. 
 # Running this code on the first boot means after their first reboot, everything should be fine
-CHECKPART=/data/tethering_check
-DB="/data/data/com.android.providers.settings/databases/settings.db"
 
-if [ ! -e "$CHECKPART" ]; then
-	sqlite3 "$DB" "INSERT INTO global VALUES (null, 'tether_dun_required','0');"
-	touch "$CHECKPART"
-	echo "This file is here to ensure the tethering script doesn't run on every boot. Please leave alone." >> "$CHECKPART"
-	echo " " >> "$CHECKPART"
-	sqlite3 "DB" "SELECT * FROM global WHERE name='tether_dun_required';" >> "$CHECKPART"
+CHECKPART=/system/jflte-gpe/tethering_check
+CHECK=$(cat /system/jflte-gpe/tethering_check)
+
+if [ ! -f "$CHECKPART" ]; then
+	echo "$CHECKPART does not exist. Creating and setting tethering_dun_required to 0"
+	settings put global tether_dun_required 0
+	sysrw
+	echo "Creating CHECKPART"
+	settings get global tether_dun_required &> "$CHECKPART"
+	sysro
+else
+	if [[ "$CHECK" != 0 || "$CHECK" == "null" ]]; then
+		echo "$CHECKPART exists, but result is not 0, or is null. Creating and setting tethering_dun_required to 0"
+		settings put global tether_dun_required 0
+		sysrw
+		echo "Creating CHECKPART"
+		settings get global tether_dun_required &> "$CHECKPART"
+		sysro
+	fi 
 fi
 exit 0
