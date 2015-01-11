@@ -145,7 +145,8 @@ textbox(
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
-			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",
+			"invertedstock",		"Inverted Stock", 		"Dark themed Google Contacts and Dialer",											"select",
+			"invertedteal",		    "Inverted Teal", 		"Material dark with teal themed Google Contacts and Dialer",						"select",
 
 			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
 			"stock",				"Stock", 				"Stock Settings app",																"select.selected",
