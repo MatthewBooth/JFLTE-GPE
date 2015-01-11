@@ -4,6 +4,24 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
+
+### Changelog 20150111
+* Rebuilt from scratch to log our changes in GIT, results in cleaner work
+* Enabled national roaming on most European virtual networks
+* Dirty flashers should no longer need to clear interface app and data
+* Fixed roaming for Videotron users in Quebec, Canada
+* App ops accessible in security settings
+* Custom DPI options in AROMA
+* Device walpapers included in tiny .apk from source
+* Toggle to disable and enable IME notification added to Interface
+* Toggle for enable all rotations added to Interface
+* Toggle for wake on unplug added to Interface
+* Improved show 4g for LTE toggle
+* hide alarm clock toggle code simplified 
+* Disabled safe media nag
+* Removed a duplicate ringtone
+* Updated OTA app
+
 ### Changelog 20150105
 * Even with 5.0.1 LRX22C - Unofficial 5.0.1
 * Deodexed framework
