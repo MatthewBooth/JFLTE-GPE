@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150105");
+ini_set("rom_version",          "20150111");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150105");
+ini_set("rom_date",             "20150111");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -134,8 +134,9 @@ textbox(
 			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
-			"yes",					"Yes", 					"Install AOSP Gallery from CyanogenMod 12",											"select.selected",
-			"no",					"No", 					"Do not install a gallery",															"select",
+			"aosp",					"AOSP", 				"Install the AOSP Gallery",											                "select.selected",
+			"moto",					"Motorola", 			"Install the Motorola Gallery",											            "select",
+			"no",					"No", 					"Do not install a Gallery",															"select",
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
@@ -144,7 +145,8 @@ textbox(
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
-			"dark",					"Dark", 				"Dark themed Google Contacts and Dialer",											"select",
+			"invertedstock",		"Inverted Stock", 		"Dark themed Google Contacts and Dialer",											"select",
+			"invertedteal",		    "Inverted Teal", 		"Material dark with teal themed Google Contacts and Dialer",						"select",
 
 			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
 			"stock",				"Stock", 				"Stock Settings app",																"select.selected",

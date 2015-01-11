@@ -108,9 +108,13 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	endif;
 
 # Gallery
-    if file_getprop("/tmp/aroma-data/install.prop","gallery") == "yes" then
+    if file_getprop("/tmp/aroma-data/install.prop","gallery") == "aosp" then
         ui_print("Installing AOSP Gallery");
         package_extract_dir("aroma/apps/gallery/aosp", "/system");
+    endif;
+	if file_getprop("/tmp/aroma-data/install.prop","gallery") == "moto" then
+        ui_print("Installing Moto Gallery");
+        package_extract_dir("aroma/apps/gallery/moto", "/system");
     endif;
 	
 # Messenger
@@ -128,9 +132,13 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Stock Contacts and Dialer");
         package_extract_dir("aroma/apps/contacts_dialer/stock", "/system/priv-app");
     endif;
-    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "dark" then
+    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "invertedstock" then
         ui_print("Installing Dark Contacts and Dialer");
-        package_extract_dir("aroma/apps/contacts_dialer/dark", "/system/priv-app");
+        package_extract_dir("aroma/apps/contacts_dialer/invertedstock", "/system/priv-app");
+    endif;
+	if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "invertedteal" then
+        ui_print("Installing Dark Contacts and Dialer");
+        package_extract_dir("aroma/apps/contacts_dialer/invertedteal", "/system/priv-app");
     endif;
 
 # Settings

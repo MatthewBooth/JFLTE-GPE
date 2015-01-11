@@ -1,15 +1,17 @@
-<b><#selectbg_g>JFLTE-GPE-20150105</#></b>
-<*>Even with 5.0.1 LRX22C - Unofficial 5.0.1</*>
-<*>Deodexed framework</*>
-<*>Fixed SMS for vodafone NL</*>
-<*>Increased the falsing threshold - merged from 5.0.1</*>
-<*>Voicemail now can be accessed by holding 1 for most carriers</*>
-<*>Some ADB fail safe fixes that were merged into 5.0.1</*>
-<*>Fixed SystemUI heads up notification spacing</*>
-<*>Ported CM Battery icons to the ROM</*>
-<*>Clear all in recents</*>
-<*>Extended power menu</*>
-<*>Toggle advanced power menu option in interface</*>
-<*>Updated OTA app - fixed open recovery script installation. Using markdown for changelog rendering</*>
-<*>Updated AdAway (fixes for 5.0)</*>
+<b><#selectbg_g>JFLTE-GPE-20150111</#></b>
+<*>Rebuilt from scratch to log our changes in GIT, results in cleaner work</*>
+<*>Enabled national roaming on most European virtual networks</*>
+<*>Dirty flashers should no longer need to clear interface app and data</*>
+<*>Fixed roaming for Videotron users in Quebec, Canada</*>
+<*>App ops accessible in security settings</*>
+<*>Custom DPI options in AROMA</*>
+<*>Device walpapers included in tiny .apk from source</*>
+<*>Toggle to disable and enable IME notification added to Interface</*>
+<*>Toggle for enable all rotations added to Interface</*>
+<*>Toggle for wake on unplug added to Interface</*>
+<*>Improved show 4g for LTE toggle</*>
+<*>Hide alarm clock toggle code simplified</*>
+<*>Disabled safe media nag</*>
+<*>Removed a duplicate ringtone</*>
+<*>Updated OTA app</*>
 
