@@ -142,17 +142,17 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ff737373</item>
     </style>
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
     </style>
-    <style name="ContactListFilterTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="ContactListFilterTheme" parent="@android:style/Theme.Holo">
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
     <style name="CustomContactListFilterView" parent="@style/ContactListFilterTheme">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
-    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -203,7 +203,7 @@
         <item name="android:taskToFrontEnterAnimation">@anim/activity_open_enter</item>
         <item name="android:taskToFrontExitAnimation">@anim/activity_open_exit</item>
     </style>
-    <style name="Theme.InCallScreen" parent="@android:style/Theme.Material.Light">
+    <style name="Theme.InCallScreen" parent="@android:style/Theme.Material">
         <item name="android:textColorPrimary">@color/incall_call_banner_text_color</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -214,14 +214,14 @@
         <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
         <item name="dialpad_key_button_touch_tint">@color/incall_dialpad_touch_tint</item>
     </style>
-    <style name="InCallPopupMenuStyle" parent="@android:style/Theme.Material.Light">
+    <style name="InCallPopupMenuStyle" parent="@android:style/Theme.Material">
         <item name="android:textColorPrimary">@color/popup_menu_color</item>
     </style>
-    <style name="InCallActionBarStyle" parent="@android:style/Widget.Material.Light.ActionBar">
+    <style name="InCallActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:textColor">@color/incall_action_bar_text_color</item>
         <item name="android:background">@color/incall_action_bar_background_color</item>
     </style>
-    <style name="DialtactsTheme" parent="@android:style/Theme.Material.Light">
+    <style name="DialtactsTheme" parent="@android:style/Theme.Material">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -269,17 +269,17 @@
         <item name="call_log_primary_text_color">@color/dialtacts_primary_text_color</item>
         <item name="call_log_primary_background_color">#ff000000</item>
         <item name="call_log_secondary_text_color">@color/dialtacts_secondary_text_color</item>
-        <item name="call_log_secondary_background_color">#ff333333</item>
+        <item name="call_log_secondary_background_color">#ff222222</item>
         <item name="call_log_header_color">#ff33b5e5</item>
         <item name="call_log_voicemail_status_height">48.0dip</item>
-        <item name="call_log_voicemail_status_background_color">#ff262626</item>
+        <item name="call_log_voicemail_status_background_color">#ff202020</item>
         <item name="call_log_voicemail_status_text_color">#ff888888</item>
         <item name="call_log_voicemail_status_action_text_color">#ff33b5e5</item>
     </style>
-    <style name="DialtactsActionBarOverflow" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+    <style name="DialtactsActionBarOverflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_overflow_menu</item>
     </style>
-    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/overflow_menu</item>
     </style>
     <style name="DialpadTheme" parent="@style/DialtactsTheme">
@@ -296,11 +296,11 @@
     <style name="CallDetailActivityTheme" parent="@style/DialtactsThemeWithoutActionBarOverlay">
         <item name="android:windowBackground">@color/background_dialer_results</item>
         <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
-        <item name="call_log_primary_background_color">#ffffffff</item>
-        <item name="call_log_secondary_background_color">#ffffffff</item>
+        <item name="call_log_primary_background_color">#ff222222</item>
+        <item name="call_log_secondary_background_color">#ff212121</item>
         <item name="call_log_header_color">#ffffffff</item>
         <item name="call_log_voicemail_status_height">48.0dip</item>
-        <item name="call_log_voicemail_status_background_color">#ff262626</item>
+        <item name="call_log_voicemail_status_background_color">#ff202020</item>
         <item name="call_log_voicemail_status_text_color">#ff888888</item>
         <item name="call_log_voicemail_status_action_text_color">#ff33b5e5</item>
     </style>
@@ -320,7 +320,7 @@
     <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
         <item name="android:textColor">@color/actionbar_text_color</item>
     </style>
-    <style name="DialtactsActionBarTabTextStyle" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+    <style name="DialtactsActionBarTabTextStyle" parent="@android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textSize">@dimen/tab_text_size</item>
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:fontFamily">sans-serif-medium</item>
@@ -336,7 +336,7 @@
         <item name="android:textColorLink">@color/dialtacts_theme_color</item>
         <item name="android:colorAccent">@color/dialtacts_theme_color</item>
     </style>
-    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">@color/dialtacts_theme_color</item>
     </style>
 </resources>
