@@ -170,7 +170,7 @@
 .end method
 
 .method private renewColor(I)V
-    .locals 3
+    .locals 4
     .param p1    # I
 
     sget-boolean v0, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$HorizontalLineDrawable;->DBG_HL:Z
@@ -204,7 +204,9 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
+    const/4 v3, -0x1
+
+    invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setColor(I)V
 
     return-void
 .end method

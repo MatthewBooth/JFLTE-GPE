@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CardView">
-        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
         <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
         <item name="cardElevation">@dimen/cardview_default_elevation</item>
         <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
@@ -110,13 +110,13 @@
     </style>
     <style name="TextAppearanceMedium" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="TextAppearanceSmall" parent="@android:style/TextAppearance.Small">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#ff737373</item>
+        <item name="android:textColor">#ffcccccc</item>
     </style>
-    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
     </style>
     <style name="ContactListFilterTheme" parent="@style/PeopleTheme">
@@ -126,7 +126,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
-    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -134,7 +134,7 @@
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowNoDisplay">true</item>
     </style>
-    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo">
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
@@ -161,7 +161,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
     </style>
-    <style name="PeopleTheme" parent="@android:style/Theme.Material.Light">
+    <style name="PeopleTheme" parent="@android:style/Theme.Material">
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
@@ -235,23 +235,23 @@
     <style name="ContactsActionBarTabBarStyle" parent="@android:style/Widget.Material.ActionBar.TabBar">
         <item name="android:showDividers">none</item>
     </style>
-    <style name="ContactsActionBarTabTextStyle" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+    <style name="ContactsActionBarTabTextStyle" parent="@android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textSize">@dimen/tab_text_size</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:fontFamily">@string/tab_font_family</item>
     </style>
-    <style name="ContactsActionBarOverflowQP" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+    <style name="ContactsActionBarOverflowQP" parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_menu_overflow_lt</item>
     </style>
-    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Holo.Spinner">
         <item name="android:background">@drawable/ab_dropdown_navigation_item_background</item>
     </style>
-    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo">
         <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorHint">#ffcccccc</item>
-        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.PopupMenu</item>
     </style>
     <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
         <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
@@ -267,18 +267,18 @@
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
     <style name="NonPhoneActivityTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
-    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Material.Light.Dialog" />
-    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.MinWidth">
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
-    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Light.Dialog.NoActionBar.MinWidth">
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
     <style name="SectionDivider">
-        <item name="android:background">#ff7e7e87</item>
+        <item name="android:background">#ff333333</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1.0dip</item>
     </style>
@@ -290,7 +290,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">150.0dip</item>
     </style>
-    <style name="SelectableItem" parent="@android:style/Theme.Material.Light">
+    <style name="SelectableItem" parent="@android:style/Theme.Material">
         <item name="android:background">?android:selectableItemBackground</item>
     </style>
     <style name="QuickContactListItemTextWrapperStyle">
@@ -304,7 +304,7 @@
         <item name="android:paddingStart">16.0dip</item>
         <item name="android:paddingEnd">16.0dip</item>
     </style>
-    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Holo.Light">
+    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
@@ -331,6 +331,7 @@
         <item name="android:layout_marginStart">@dimen/expanding_entry_card_marginStartEnd</item>
         <item name="android:layout_marginEnd">@dimen/expanding_entry_card_marginStartEnd</item>
         <item name="android:elevation">@dimen/expanding_entry_card_elevation</item>
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
     </style>
     <style name="SpinnerButtonStyle" parent="@android:style/Widget.Material.Spinner">
         <item name="android:stateListAnimator">@null</item>
@@ -341,11 +342,11 @@
     <style name="EditKindTextAppearanceStyle" parent="@android:style/TextAppearance.Small">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff363636</item>
+        <item name="android:textColor">#ffffffff</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">@color/primary_color</item>
     </style>
 </resources>

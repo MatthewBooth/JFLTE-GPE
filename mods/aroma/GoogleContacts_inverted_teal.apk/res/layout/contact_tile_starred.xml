@@ -5,6 +5,6 @@
         <view android:id="@id/contact_tile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" ex:direction="widthToHeight" ex:ratio="1.0" class="com.android.contacts.common.widget.ProportionalLayout">
             <ImageView android:id="@id/contact_tile_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         </view>
-        <TextView android:textSize="@dimen/contact_browser_list_item_text_size" android:textColor="#ff202020" android:ellipsize="marquee" android:id="@id/contact_tile_name" android:paddingTop="7.0dip" android:fadingEdge="horizontal" android:fadingEdgeLength="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" />
+        <TextView android:textSize="@dimen/contact_browser_list_item_text_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/contact_tile_name" android:paddingTop="7.0dip" android:fadingEdge="horizontal" android:fadingEdgeLength="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" />
     </LinearLayout>
 </view>

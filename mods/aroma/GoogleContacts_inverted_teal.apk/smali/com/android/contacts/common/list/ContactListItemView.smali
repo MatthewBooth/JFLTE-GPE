@@ -205,7 +205,7 @@
 
     iput-boolean v5, p0, Lcom/android/contacts/common/list/ContactListItemView;->mPhotoViewWidthAndHeightAreReady:Z
 
-    const/high16 v1, -0x1000000
+    const v1, -0x1
 
     iput v1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mNameTextViewTextColor:I
 
