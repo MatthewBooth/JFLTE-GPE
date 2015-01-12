@@ -867,7 +867,7 @@
 
     invoke-virtual {v10, v0, v1, v2, v3}, Landroid/widget/EditText;->setPadding(IIII)V
 
-    const v18, 0x7f070012
+    const v18, 0x1777777
 
     move/from16 v0, v18
 
