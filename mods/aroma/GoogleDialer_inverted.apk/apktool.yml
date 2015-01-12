@@ -1,5 +1,5 @@
 version: 2.0.0-RC3
-apkFileName: GoogleDialer.apk
+apkFileName: GoogleDialer_inverted.apk
 isFrameworkApk: false
 usesFramework:
   ids:
