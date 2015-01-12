@@ -46,4 +46,17 @@ if [ -d priv-app ]; then
 	cd ..
 fi
 
+if [ -d aroma ]; then
+	cd aroma
+	for f in *
+	do
+		"$APKTOOL" b -c "$f"
+		INSTALL_LOC=$(cat "$f"/install_loc)
+		DEST=../../"$INSTALL_LOC"
+		cp "$f"/dist/"$f" "$DEST"
+		rm -rf "$f/dist" "$f/build"
+	done
+	cd ..
+fi
+
 cd ..
