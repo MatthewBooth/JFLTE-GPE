@@ -7,9 +7,11 @@ system/framework/services.jar
 system/framework/framework-res.apk
 system/priv-app/SystemUI/*
 
-aroma/apps/contacts_dialer/invertedstock/*
-aroma/apps/contacts_dialer/invertedteal/*
+aroma/apps/contacts_dialer/invertedstock/GoogleDialer/GoogleDialer.apk
+aroma/apps/contacts_dialer/invertedstock/GoogleContacts/GoogleContacts.apk
 
+aroma/apps/contacts_dialer/invertedteal/GoogleDialer/GoogleDialer.apk
+aroma/apps/contacts_dialer/invertedteal/GoogleContacts/GoogleContacts.apk
 
 build/
 dist/
