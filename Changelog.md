@@ -15,9 +15,11 @@ Visit http://ultimarom.com for downloads
 * Updated Interface app
 * Toggle for enable all rotations added to Interface
 * Toggle for wake on unplug added to Interface
+* Disabling battery icon in Interface will now stick after reboot
 * Improved show 4g for LTE toggle
 * AROMA improvements
 * Motorola Gallery now optional in aroma, it goes amazing with Moto camera
+* Oneplus Camera optional in AROMA, HDR and saving to SD card supported
 * Inverted teal theme for dialer in contacts added to AROMA
 * Custom DPI options in AROMA
 * Improvements to the tethering script for some carriers
