@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_section_divider_holo_custom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?list_item_padding_left" android:layout_marginRight="?list_item_padding_right" android:layout_marginStart="?list_item_padding_left" android:layout_marginEnd="?list_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/DirectoryHeaderStyle" android:layout_gravity="center_vertical" android:id="@id/account_type" android:paddingLeft="?list_item_header_text_indent" android:layout_width="0.0px" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="?list_item_header_text_indent" />
+    <TextView android:textAppearance="@style/DirectoryHeaderStyle" android:textSize="12.0sp" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:textDirection="ltr" />
+</LinearLayout>

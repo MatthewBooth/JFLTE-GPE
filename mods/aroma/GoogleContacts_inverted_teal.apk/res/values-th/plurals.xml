@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d รายชื่อติดต่อที่มีหมายเลขโทรศัพท์</item>
+        <item quantity="one">1 รายชื่อติดต่อที่มีหมายเลขโทรศัพท์</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">รวมจากแหล่งที่มา %0$d แหล่ง</item>
+        <item quantity="one">ไม่รวม</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d กลุ่ม</item>
+        <item quantity="one">1 กลุ่ม</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d คนจาก %2$s</item>
+        <item quantity="one">%1$d คนจาก %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d คน</item>
+        <item quantity="one">%1$d คน</item>
+    </plurals>
+</resources>

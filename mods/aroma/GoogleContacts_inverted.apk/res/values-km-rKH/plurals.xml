@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">បាន​រក​ឃើញ %d</item>
+        <item quantity="one">បាន​រក​ឃើញ ១</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ទំនាក់ទំនង %d ដែល​មាន​លេខ​ទូរស័ព្ទ</item>
+        <item quantity="one">ទំនាក់ទំនង ១ ដែល​មាន​លេខ​ទូរស័ព្ទ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">បាន​រក​ឃើញ %d</item>
+        <item quantity="one">បាន​រក​ឃើញ ១</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">បាន​បញ្ចូល​គ្នា​​មក​ពី​ប្រភព %0$d</item>
+        <item quantity="one">មិន​បាន​បញ្ចូល​ចូល​គ្នា</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ក្រុម</item>
+        <item quantity="one">១ ក្រុម</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d នាក់​ពី %2$s</item>
+        <item quantity="one">%1$d នាក់​ពី %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d នាក់</item>
+        <item quantity="one">%1$d នាក់</item>
+    </plurals>
+</resources>

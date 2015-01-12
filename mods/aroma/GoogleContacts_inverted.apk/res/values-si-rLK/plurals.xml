@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ක් සොයාගන්නා ලදී</item>
+        <item quantity="one">1 ක් සොයාගන්නා ලදී</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">දුරකථන අංක සහිත සම්බන්ධතා %d</item>
+        <item quantity="one">දුරකථන අංක සහිත සම්බන්ධතා 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ක් සොයාගන්නා ලදී</item>
+        <item quantity="one">1 ක් සොයාගන්නා ලදී</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">මූලාශ්‍ර %0$d කින් ඒකාබද්ධ කර ඇත</item>
+        <item quantity="one">ඒකාබද්ධ කර නැත</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">කණ්ඩායම් %0$d</item>
+        <item quantity="one">කණ්ඩායම් 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s වෙතින් පුද්ගලයින් %1$d</item>
+        <item quantity="one">%2$s වෙතින් පුද්ගලයින් %1$d</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">පුද්ගලයින් %1$d</item>
+        <item quantity="one">පුද්ගලයින් %1$d</item>
+    </plurals>
+</resources>

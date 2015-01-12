@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">[%d ƒöûñð one two]</item>
+        <item quantity="one">[1 ƒöûñð one two]</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">[%d çöñţåçţš ŵîţĥ þĥöñé ñûḿɓéŕš one two three four five six seven]</item>
+        <item quantity="one">[1 çöñţåçţ ŵîţĥ þĥöñé ñûḿɓéŕ one two three four five six seven]</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">[%d ƒöûñð one two]</item>
+        <item quantity="one">[1 ƒöûñð one two]</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">[ḿéŕĝéð ƒŕöḿ %0$d šöûŕçéš one two three]</item>
+        <item quantity="one">[ñöţ ḿéŕĝéð one two]</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">[%0$d ĝŕöûþš one two]</item>
+        <item quantity="one">[1 ĝŕöûþ one two]</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">[%1$d þéöþļé ƒŕöḿ %2$s one two three]</item>
+        <item quantity="one">[%1$d þéŕšöñ ƒŕöḿ %2$s one two three]</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">[%1$d þéöþļé one two]</item>
+        <item quantity="one">[%1$d þéŕšöñ one two]</item>
+    </plurals>
+</resources>

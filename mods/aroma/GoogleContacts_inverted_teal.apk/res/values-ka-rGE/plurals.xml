@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">მოიძებნა %d</item>
+        <item quantity="one">მოიძებნა 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ტელეფონის ნომრიანი %d კონტაქტი</item>
+        <item quantity="one">ტელეფონის ნომრიანი 1 კონტაქტი</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">მოიძებნა %d</item>
+        <item quantity="one">მოიძებნა 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">გაერთიანდა %0$d წყაროდან</item>
+        <item quantity="one">გასაერთიანებელი</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ჯგუფი</item>
+        <item quantity="one">1 ჯგუფი</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ადამიანი %2$s-დან</item>
+        <item quantity="one">%1$d ადამიანი %2$s-დან</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d ადამიანი</item>
+        <item quantity="one">%1$d ადამიანი</item>
+    </plurals>
+</resources>

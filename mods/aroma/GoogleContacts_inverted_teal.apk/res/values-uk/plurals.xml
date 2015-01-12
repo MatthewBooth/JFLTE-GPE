@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Знайдено %d</item>
+        <item quantity="one">Знайдено 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Контактів із номерами тел.: %d</item>
+        <item quantity="one">1 контакт із номером телефону</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Знайдено %d</item>
+        <item quantity="one">Знайдено 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">"об'єднано з джерел: %0$d"</item>
+        <item quantity="one">"не об'єднано"</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Груп: %0$d</item>
+        <item quantity="one">1 група</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">У групі %2$s %1$d чол.</item>
+        <item quantity="one">%1$d особа з %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Людей: %1$d</item>
+        <item quantity="one">%1$d особа</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%dটি খুঁজে পাওয়া গেছে</item>
+        <item quantity="one">১টি খুঁজে পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ফোন নম্বর সহ %dটি পরিচিতি</item>
+        <item quantity="one">ফোন নম্বর সহ ১টি পরিচিতি</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%dটি খুঁজে পাওয়া গেছে</item>
+        <item quantity="one">১টি খুঁজে পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$dটি উৎস থেকে মার্জ করা হয়েছে</item>
+        <item quantity="one">মার্জ করা হয়নি</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$dটি গোষ্ঠী</item>
+        <item quantity="one">১টি গোষ্ঠী</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s থেকে %1$d জন</item>
+        <item quantity="one">%2$s থেকে %1$d জন</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d জন</item>
+        <item quantity="one">%1$d জন</item>
+    </plurals>
+</resources>

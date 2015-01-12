@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d leitud</item>
+        <item quantity="one">1 leitud</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d telefoninumbriga kontakti</item>
+        <item quantity="one">1 telefoninumbriga kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d leitud</item>
+        <item quantity="one">1 leitud</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">ühendati %0$d allikast</item>
+        <item quantity="one">pole liidetud</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d rühma</item>
+        <item quantity="one">1 grupp</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d inimest rühmas %2$s</item>
+        <item quantity="one">%1$d isik(ut) rühmas %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d inimest</item>
+        <item quantity="one">%1$d isik</item>
+    </plurals>
+</resources>

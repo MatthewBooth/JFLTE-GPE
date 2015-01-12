@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Телефон нөмірі бар %d контактілер</item>
+        <item quantity="one">Телефон нөмірі бар 1 контакт</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d дереккөздерден біріктірілген</item>
+        <item quantity="one">біріктірілмеген</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d топ</item>
+        <item quantity="one">1 топ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d, барлығы %2$s адамнан</item>
+        <item quantity="one">%1$d, барлығы %2$s адамнан</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d адам</item>
+        <item quantity="one">%1$d адам</item>
+    </plurals>
+</resources>

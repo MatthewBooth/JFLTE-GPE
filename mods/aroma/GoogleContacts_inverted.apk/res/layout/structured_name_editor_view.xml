@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.StructuredNameEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/spinner" android:visibility="gone" layout="@layout/edit_spinner" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/edit_field_list_with_anchor_view" />
+        <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/name_edit_expansion_view" />
+        <include android:id="@id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+    </LinearLayout>
+</com.android.contacts.editor.StructuredNameEditorView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d олдсон</item>
+        <item quantity="one">1 олдсон</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Утасны дугаартай %d харилцагч</item>
+        <item quantity="one">Утасны дугаартай 1 харилцагч</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d олдсон</item>
+        <item quantity="one">1 олдсон</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d эх үүсвэрээс нийлүүлсэн</item>
+        <item quantity="one">нэгтгэгдээгүй</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d бүлгэм</item>
+        <item quantity="one">1 бүлгэм</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s-с %1$d хүн</item>
+        <item quantity="one">%2$s-с %1$d хүн</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d хүн</item>
+        <item quantity="one">%1$d хүн</item>
+    </plurals>
+</resources>

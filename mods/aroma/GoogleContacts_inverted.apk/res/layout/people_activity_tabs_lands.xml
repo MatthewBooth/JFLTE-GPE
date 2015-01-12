@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.common.list.ViewPagerTabs android:textSize="@dimen/people_activity_landscape_tabs_text_size" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/lists_pager_header" android:layout_width="@dimen/people_activity_landscape_tabs_width" android:layout_height="fill_parent" android:layout_weight="0.0" android:textAllCaps="true" style="@style/ContactsActionBarTabTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

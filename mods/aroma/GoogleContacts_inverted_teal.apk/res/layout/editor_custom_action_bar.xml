@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/save_menu_item" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_done_wht_24dp" android:contentDescription="@string/menu_done" android:layout_marginEnd="8.0dip" style="?android:attr/actionButtonStyle" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/actionbar_text_color" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_done" style="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+</LinearLayout>

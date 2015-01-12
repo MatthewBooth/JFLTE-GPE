@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ang nakita</item>
+        <item quantity="one">1 ang nakita</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d (na) contact na may mga numero ng telepono</item>
+        <item quantity="one">1 contact na may numero ng telepono</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ang nakita</item>
+        <item quantity="one">1 ang nakita</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">pinagsama mula sa %0$d (na) pinagmumulan</item>
+        <item quantity="one">hindi pinagsama</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d (na) pangkat</item>
+        <item quantity="one">1 pangkat</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d (na) tao mula sa %2$s</item>
+        <item quantity="one">%1$d (na) tao mula sa %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d (na) tao</item>
+        <item quantity="one">%1$d (na) tao</item>
+    </plurals>
+</resources>

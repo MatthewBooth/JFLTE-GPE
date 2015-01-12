@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/toolbar_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/tab_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/toolbar" android:background="@color/actionbar_background_color" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" style="@style/ContactsToolbarStyle" />
+    <com.android.contacts.common.list.ViewPagerTabs android:layout_gravity="top" android:orientation="horizontal" android:id="@id/lists_pager_header" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_weight="0.0" android:layout_below="@id/toolbar" android:textAllCaps="true" style="@style/ContactsActionBarTabTextStyle" />
+</LinearLayout>

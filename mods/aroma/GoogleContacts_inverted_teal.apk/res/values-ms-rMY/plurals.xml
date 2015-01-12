@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ditemui</item>
+        <item quantity="one">1 ditemui</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kenalan dengan nombor telefon</item>
+        <item quantity="one">1 kenalan dengan nombor telefon</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ditemui</item>
+        <item quantity="one">1 ditemui</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">digabungkan daripada %0$d sumber</item>
+        <item quantity="one">tidak digabungkan</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d kumpulan</item>
+        <item quantity="one">1 kumpulan</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d orang daripada %2$s</item>
+        <item quantity="one">%1$d orang daripada %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d orang</item>
+        <item quantity="one">%1$d orang</item>
+    </plurals>
+</resources>

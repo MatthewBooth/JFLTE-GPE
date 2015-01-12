@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.widget.QuickContactImageView android:id="@id/photo" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/photo_touch_intercept_overlay" android:background="@drawable/item_background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/title_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="top" android:id="@id/action_bar_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Toolbar android:id="@id/toolbar" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+</merge>

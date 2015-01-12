@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="floating_action_button_animation_duration">250</integer>
+    <integer name="dialpad_slide_in_duration">400</integer>
+    <integer name="dialpad_slide_out_duration">400</integer>
+    <integer name="config_export_file_min_index">1</integer>
+    <integer name="config_export_file_max_index">99999</integer>
+    <integer name="contact_tile_column_count_in_favorites">3</integer>
+    <integer name="contact_tile_column_count_in_favorites_new">3</integer>
+    <integer name="snippet_length_before_tokenize">30</integer>
+    <integer name="contact_list_space_layout_weight">0</integer>
+    <integer name="contact_list_card_layout_weight">0</integer>
+    <integer name="contact_tile_column_count">2</integer>
+    <integer name="quickcontact_title_lines">1</integer>
+</resources>

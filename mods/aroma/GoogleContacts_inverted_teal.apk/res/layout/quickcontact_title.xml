@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/quickcontact_maximum_title_size" android:textColor="@color/actionbar_text_color" android:ellipsize="end" android:layout_gravity="start|center|top" android:id="@id/large_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quickcontact_title_initial_margin" android:maxLines="@integer/quickcontact_title_lines" android:importantForAccessibility="no" android:textAlignment="viewStart" android:layout_marginStart="@dimen/quickcontact_title_initial_margin" android:layout_marginEnd="@dimen/quickcontact_title_initial_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

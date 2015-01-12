@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d개를 찾았습니다.</item>
+        <item quantity="one">1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">전화번호가 포함된 연락처 %d개</item>
+        <item quantity="one">전화번호가 포함된 연락처 1개</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d개를 찾았습니다.</item>
+        <item quantity="one">1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d개 출처에서 병합했습니다.</item>
+        <item quantity="one">병합되지 않았습니다.</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">그룹 %0$d개</item>
+        <item quantity="one">그룹 1개</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s 소속(%1$d명)</item>
+        <item quantity="one">%2$s 소속(%1$d명)</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d명</item>
+        <item quantity="one">%1$d명</item>
+    </plurals>
+</resources>

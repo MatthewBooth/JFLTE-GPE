@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="floating_action_button_margin_right">32.0dip</dimen>
+    <dimen name="floating_action_button_margin_bottom">32.0dip</dimen>
+    <item type="dimen" name="list_header_extra_top_padding">@dimen/contact_browser_list_top_margin</item>
+    <dimen name="detail_item_side_margin">0.0dip</dimen>
+    <dimen name="contact_tile_list_padding_top">18.0dip</dimen>
+    <dimen name="list_visible_scrollbar_padding">32.0dip</dimen>
+    <item type="dimen" name="contact_browser_list_header_left_margin">@dimen/list_visible_scrollbar_padding</item>
+    <dimen name="contact_browser_list_header_right_margin">24.0dip</dimen>
+    <dimen name="shortcut_icon_size">64.0dip</dimen>
+    <dimen name="contact_browser_list_item_text_size">18.0sp</dimen>
+    <dimen name="contact_browser_list_item_photo_size">50.0dip</dimen>
+    <dimen name="contact_browser_list_item_gap_between_image_and_text">25.0dip</dimen>
+    <dimen name="contact_browser_list_top_margin">18.0dip</dimen>
+    <dimen name="tab_selected_underline_height">3.0dip</dimen>
+    <dimen name="tab_text_size">16.0sp</dimen>
+    <dimen name="frequently_contacted_title_text_size">24.0sp</dimen>
+    <dimen name="editor_padding_top">32.0dip</dimen>
+    <dimen name="editor_round_button_padding_left">16.0dip</dimen>
+    <dimen name="editor_round_button_padding_right">16.0dip</dimen>
+    <dimen name="editor_type_label_width">122.0dip</dimen>
+    <dimen name="editor_add_field_label_left_padding">16.0dip</dimen>
+    <dimen name="detail_item_vertical_margin">16.0dip</dimen>
+    <dimen name="list_section_height">37.0dip</dimen>
+    <dimen name="account_container_left_padding">16.0dip</dimen>
+    <dimen name="group_member_item_left_padding">12.0dip</dimen>
+    <dimen name="group_editor_member_list_left_margin">4.0dip</dimen>
+    <dimen name="group_editor_member_list_right_margin">4.0dip</dimen>
+    <dimen name="group_editor_autocomplete_left_padding">16.0dip</dimen>
+    <dimen name="group_detail_border_padding">16.0dip</dimen>
+    <dimen name="quick_contact_photo_container_height">360.0dip</dimen>
+    <dimen name="search_view_width">400.0dip</dimen>
+    <dimen name="join_header_left_margin">24.0dip</dimen>
+    <item type="dimen" name="join_header_right_margin">@dimen/list_visible_scrollbar_padding</item>
+    <dimen name="join_header_top_margin">16.0dip</dimen>
+    <dimen name="join_header_bottom_margin">16.0dip</dimen>
+    <dimen name="detail_item_icon_margin">8.0dip</dimen>
+    <dimen name="contact_detail_list_top_padding">8.0dip</dimen>
+</resources>

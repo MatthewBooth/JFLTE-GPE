@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d یافت شد</item>
+        <item quantity="one">1 مورد پیدا شد</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d مخاطب دارای شماره تلفن</item>
+        <item quantity="one">۱ مخاطب با شماره تلفن</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d یافت شد</item>
+        <item quantity="one">1 مورد پیدا شد</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">ادغام شده از منابع %0$d</item>
+        <item quantity="one">ادغام نشد</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d گروه</item>
+        <item quantity="one">1 گروه</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d نفر از %2$s</item>
+        <item quantity="one">%1$d نفر از %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d نفر</item>
+        <item quantity="one">%1$d نفر</item>
+    </plurals>
+</resources>

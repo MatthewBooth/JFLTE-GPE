@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.widget.TouchlessScrollView android:id="@id/content_scroller" android:background="@color/card_margin_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_container" android:paddingTop="@dimen/first_card_marginTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.contacts.quickcontact.ExpandingEntryCardView android:id="@id/no_contact_data_card" android:visibility="gone" cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" style="@style/ExpandingEntryCardStyle" />
+        <com.android.contacts.quickcontact.ExpandingEntryCardView android:id="@id/communication_card" android:visibility="gone" cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" style="@style/ExpandingEntryCardStyle" />
+        <com.android.contacts.quickcontact.ExpandingEntryCardView android:id="@id/recent_card" android:visibility="gone" cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" style="@style/ExpandingEntryCardStyle" />
+        <com.android.contacts.quickcontact.ExpandingEntryCardView android:id="@id/about_card" android:visibility="gone" cardview:cardCornerRadius="@dimen/expanding_entry_card_card_corner_radius" style="@style/ExpandingEntryCardStyle" />
+    </LinearLayout>
+</com.android.contacts.widget.TouchlessScrollView>

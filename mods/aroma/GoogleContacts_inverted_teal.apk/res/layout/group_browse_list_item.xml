@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="?list_item_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height" android:paddingStart="?list_item_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/secondary_header_separator_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="?list_item_padding_right" android:layout_marginEnd="?list_item_padding_right" />
+    <include android:id="@id/group_list_header" android:visibility="gone" layout="@layout/group_browse_list_account_header" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/group_list_item_background" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

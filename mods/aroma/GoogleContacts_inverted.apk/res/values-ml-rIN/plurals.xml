@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d കോൺടാക്റ്റുകൾ കണ്ടെത്തി</item>
+        <item quantity="one">ഒരു കോൺടാക്റ്റ് കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ഫോൺ നമ്പറുള്ള %d കോൺടാക്റ്റുകൾ</item>
+        <item quantity="one">ഫോൺ നമ്പറുള്ള ഒരു കോൺടാക്റ്റ്</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d കോൺടാക്റ്റുകൾ കണ്ടെത്തി</item>
+        <item quantity="one">ഒരു കോൺടാക്റ്റ് കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d ഉറവിടങ്ങളിൽ നിന്നും ലയിപ്പിച്ചവ</item>
+        <item quantity="one">ലയിപ്പിക്കാത്തവ</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ഗ്രൂപ്പുകൾ</item>
+        <item quantity="one">ഒരു ഗ്രൂപ്പ്</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s എന്നതിൽ നിന്നുള്ള %1$d പേർ</item>
+        <item quantity="one">%2$s എന്നതിൽ നിന്നുള്ള %1$d ആൾ</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d പേർ</item>
+        <item quantity="one">%1$d ആൾ</item>
+    </plurals>
+</resources>

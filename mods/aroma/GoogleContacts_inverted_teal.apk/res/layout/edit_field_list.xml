@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/editors" android:paddingLeft="@dimen/editor_field_left_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/editor_field_left_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

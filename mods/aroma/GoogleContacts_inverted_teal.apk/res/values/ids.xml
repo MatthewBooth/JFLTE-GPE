@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dialog_searching_vcard" />
+    <item type="id" name="dialog_sdcard_not_found" />
+    <item type="id" name="dialog_vcard_not_found" />
+    <item type="id" name="dialog_select_import_type" />
+    <item type="id" name="dialog_select_one_vcard" />
+    <item type="id" name="dialog_select_multiple_vcard" />
+    <item type="id" name="dialog_cache_vcard" />
+    <item type="id" name="dialog_io_exception" />
+    <item type="id" name="dialog_error_with_message" />
+    <item type="id" name="dialog_cancel_confirmation" />
+    <item type="id" name="dialog_cancel_failed" />
+    <item type="id" name="dialog_export_confirmation" />
+    <item type="id" name="dialog_exporting_vcard" />
+    <item type="id" name="dialog_fail_to_export_with_reason" />
+    <item type="id" name="cliv_name_textview" />
+    <item type="id" name="cliv_phoneticname_textview" />
+    <item type="id" name="cliv_label_textview" />
+    <item type="id" name="cliv_data_view" />
+    <item type="id" name="tag_display_name" />
+    <item type="id" name="tag_identifier" />
+    <item type="id" name="tag_contact_type" />
+    <item type="id" name="data" />
+    <item type="id" name="header_phones" />
+    <item type="id" name="dialog_sync_add" />
+    <item type="id" name="dialog_delete_contact_confirmation" />
+    <item type="id" name="dialog_delete_contact_loader_id" />
+    <item type="id" name="dialog_phone_number_call_disambiguation" />
+    <item type="id" name="dialog_phone_number_message_disambiguation" />
+    <item type="id" name="dialog_manager_id_1" />
+    <item type="id" name="dialog_manager_id_2" />
+    <item type="id" name="contact_list_filter_loader" />
+    <item type="id" name="dialog_event_date_picker" />
+    <item type="id" name="custom_dialog_content" />
+    <item type="id" name="account_filter_header_container">false</item>
+    <item type="id" name="account_filter_header">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="aggregation_suggestions">false</item>
+    <item type="id" name="aggregation_suggestion_name">false</item>
+    <item type="id" name="aggregation_suggestion_data">false</item>
+    <item type="id" name="aggregation_suggestion_photo">false</item>
+    <item type="id" name="root_view">false</item>
+    <item type="id" name="photo">false</item>
+    <item type="id" name="photo_text_bar">false</item>
+    <item type="id" name="open_details_button">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="extra_info">false</item>
+    <item type="id" name="open_details_push_layer">false</item>
+    <item type="id" name="read_only_warning">false</item>
+    <item type="id" name="editor_container">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="btn_done">false</item>
+    <item type="id" name="primary_action_view">false</item>
+    <item type="id" name="add_connection_icon">false</item>
+    <item type="id" name="add_connection_label">false</item>
+    <item type="id" name="contact_detail_list_padding">false</item>
+    <item type="id" name="network_icon">false</item>
+    <item type="id" name="network_title">false</item>
+    <item type="id" name="updates_fragment_container">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="account_list">false</item>
+    <item type="id" name="add_account_button">false</item>
+    <item type="id" name="left_button">false</item>
+    <item type="id" name="right_button">false</item>
+    <item type="id" name="contact_editor_fragment">false</item>
+    <item type="id" name="editors">false</item>
+    <item type="id" name="list_card">false</item>
+    <item type="id" name="pinned_header_list_layout">false</item>
+    <item type="id" name="search_progress">false</item>
+    <item type="id" name="btn_discard">false</item>
+    <item type="id" name="accountType">false</item>
+    <item type="id" name="accountUserName">false</item>
+    <item type="id" name="radioButton">false</item>
+    <item type="id" name="list_container">false</item>
+    <item type="id" name="contact_tile_image">false</item>
+    <item type="id" name="contact_tile_name">false</item>
+    <item type="id" name="contact_tile_frequent_phone">false</item>
+    <item type="id" name="contact_tile_quick">false</item>
+    <item type="id" name="contact_tile_phone_number">false</item>
+    <item type="id" name="contact_tile_phone_type">false</item>
+    <item type="id" name="contact_tile_horizontal_divider">false</item>
+    <item type="id" name="contact_tile_list">false</item>
+    <item type="id" name="contact_tile_list_empty">false</item>
+    <item type="id" name="header_container">false</item>
+    <item type="id" name="contact_tile_push_state">false</item>
+    <item type="id" name="contact_tile_container">false</item>
+    <item type="id" name="contact_tile_status">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="secondary_message">false</item>
+    <item type="id" name="create_contact_button">false</item>
+    <item type="id" name="import_contacts_button">false</item>
+    <item type="id" name="import_failure_uninstall_button">false</item>
+    <item type="id" name="import_failure_retry_button">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="addicon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="search_view">false</item>
+    <item type="id" name="yearToggle">false</item>
+    <item type="id" name="parent">false</item>
+    <item type="id" name="month">false</item>
+    <item type="id" name="day">false</item>
+    <item type="id" name="year">false</item>
+    <item type="id" name="datePicker">false</item>
+    <item type="id" name="dialpad">false</item>
+    <item type="id" name="two">false</item>
+    <item type="id" name="three">false</item>
+    <item type="id" name="four">false</item>
+    <item type="id" name="five">false</item>
+    <item type="id" name="six">false</item>
+    <item type="id" name="seven">false</item>
+    <item type="id" name="eight">false</item>
+    <item type="id" name="nine">false</item>
+    <item type="id" name="dialpad_key_number">false</item>
+    <item type="id" name="dialpad_key_letters">false</item>
+    <item type="id" name="one">false</item>
+    <item type="id" name="dialpad_key_voicemail">false</item>
+    <item type="id" name="pound">false</item>
+    <item type="id" name="star">false</item>
+    <item type="id" name="zero">false</item>
+    <item type="id" name="dialpad_view">false</item>
+    <item type="id" name="digits_container">false</item>
+    <item type="id" name="dialpad_overflow">false</item>
+    <item type="id" name="digits">false</item>
+    <item type="id" name="deleteButton">false</item>
+    <item type="id" name="directory_header">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="display_name">false</item>
+    <item type="id" name="count">false</item>
+    <item type="id" name="add_text">false</item>
+    <item type="id" name="date_view">false</item>
+    <item type="id" name="delete_button">false</item>
+    <item type="id" name="expansion_view">false</item>
+    <item type="id" name="anchor_view">false</item>
+    <item type="id" name="kind_title">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="account_container">false</item>
+    <item type="id" name="account">false</item>
+    <item type="id" name="account_type">false</item>
+    <item type="id" name="account_name">false</item>
+    <item type="id" name="account_icon">false</item>
+    <item type="id" name="save_menu_item">false</item>
+    <item type="id" name="delete_button_container">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="icon_alternate">false</item>
+    <item type="id" name="sub_header">false</item>
+    <item type="id" name="icon_sub_header">false</item>
+    <item type="id" name="icon_text">false</item>
+    <item type="id" name="third_icon">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="title_separator">false</item>
+    <item type="id" name="content_area_linear_layout">false</item>
+    <item type="id" name="account_header">false</item>
+    <item type="id" name="group_name">false</item>
+    <item type="id" name="badge">false</item>
+    <item type="id" name="floating_action_button_container">false</item>
+    <item type="id" name="floating_action_button">false</item>
+    <item type="id" name="fragment">false</item>
+    <item type="id" name="header_extra_top_padding">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="add_accounts">false</item>
+    <item type="id" name="group_list_header">false</item>
+    <item type="id" name="group_detail_fragment">false</item>
+    <item type="id" name="group_detail">false</item>
+    <item type="id" name="group_source_view_container">false</item>
+    <item type="id" name="group_title">false</item>
+    <item type="id" name="group_size">false</item>
+    <item type="id" name="group_editor_fragment">false</item>
+    <item type="id" name="add_member_field">false</item>
+    <item type="id" name="group_members">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="text1">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="group_label">false</item>
+    <item type="id" name="group_source">false</item>
+    <item type="id" name="group_membership_view">false</item>
+    <item type="id" name="group_list">false</item>
+    <item type="id" name="kind_title_layout">false</item>
+    <item type="id" name="kind_editors">false</item>
+    <item type="id" name="add_field_footer">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="photo_triangle_affordance">false</item>
+    <item type="id" name="type">false</item>
+    <item type="id" name="join_contact_blurb">false</item>
+    <item type="id" name="header_text">false</item>
+    <item type="id" name="add_organization_button">false</item>
+    <item type="id" name="toolbar_parent">false</item>
+    <item type="id" name="tab_pager">false</item>
+    <item type="id" name="contacts_unavailable_view">false</item>
+    <item type="id" name="contacts_unavailable_container">false</item>
+    <item type="id" name="lists_pager_header">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="expansion_view_container">false</item>
+    <item type="id" name="backdrop">false</item>
+    <item type="id" name="multiscroller">false</item>
+    <item type="id" name="transparent_view">false</item>
+    <item type="id" name="empty_start_column">false</item>
+    <item type="id" name="empty_end_column">false</item>
+    <item type="id" name="content_scroller">false</item>
+    <item type="id" name="card_container">false</item>
+    <item type="id" name="no_contact_data_card">false</item>
+    <item type="id" name="communication_card">false</item>
+    <item type="id" name="recent_card">false</item>
+    <item type="id" name="about_card">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="badge_container">false</item>
+    <item type="id" name="photo_touch_intercept_overlay">false</item>
+    <item type="id" name="title_gradient">false</item>
+    <item type="id" name="action_bar_gradient">false</item>
+    <item type="id" name="large_title">false</item>
+    <item type="id" name="placeholder_textview">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="edit_name">false</item>
+    <item type="id" name="edit_phonetic_name">false</item>
+    <item type="id" name="edit_photo">false</item>
+    <item type="id" name="sect_fields">false</item>
+    <item type="id" name="button_add_field">false</item>
+    <item type="id" name="read_only_name">false</item>
+    <item type="id" name="button_edit_externally">false</item>
+    <item type="id" name="sect_general">false</item>
+    <item type="id" name="search_box_expanded">false</item>
+    <item type="id" name="search_back_button">false</item>
+    <item type="id" name="search_close_button">false</item>
+    <item type="id" name="totalContactsText">false</item>
+    <item type="id" name="sourceIcon">false</item>
+    <item type="id" name="additionalData">false</item>
+    <item type="id" name="user_profile_header">false</item>
+    <item type="id" name="profile_title">false</item>
+    <item type="id" name="user_profile_button">false</item>
+    <item type="id" name="menu_done">false</item>
+    <item type="id" name="menu_split">false</item>
+    <item type="id" name="menu_join">false</item>
+    <item type="id" name="menu_discard">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="menu_set_ringtone">false</item>
+    <item type="id" name="menu_send_to_voicemail">false</item>
+    <item type="id" name="menu_help">false</item>
+    <item type="id" name="menu_group_source">false</item>
+    <item type="id" name="menu_search">false</item>
+    <item type="id" name="menu_contacts_filter">false</item>
+    <item type="id" name="menu_import_export">false</item>
+    <item type="id" name="menu_clear_frequents">false</item>
+    <item type="id" name="menu_accounts">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="export_database">false</item>
+    <item type="id" name="menu_star">false</item>
+    <item type="id" name="menu_edit">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_create_contact_shortcut">false</item>
+    <item type="id" name="menu_edit_group">false</item>
+    <item type="id" name="menu_delete_group">false</item>
+</resources>

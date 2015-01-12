@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Rasta %d</item>
+        <item quantity="one">rastas 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Kontaktai (-ų) su telefonų numeriais: %d</item>
+        <item quantity="one">1 kontaktas su telefono numeriu</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Rasta %d</item>
+        <item quantity="one">rastas 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">sujungta iš %0$d šaltinių (-io)</item>
+        <item quantity="one">nesujungta</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Grupių: %0$d</item>
+        <item quantity="one">1 grupė</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d žm. iš %2$s</item>
+        <item quantity="one">%1$d žm. iš %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d žm.</item>
+        <item quantity="one">%1$d žm.</item>
+    </plurals>
+</resources>

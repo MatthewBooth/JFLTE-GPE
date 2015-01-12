@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">تم العثور على %d</item>
+        <item quantity="one">تم العثور على جهة اتصال واحدة</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d من جهات الاتصال التي تشتمل على أرقام هواتف</item>
+        <item quantity="one">جهة اتصال واحدة بها رقم هاتف</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">تم العثور على %d</item>
+        <item quantity="one">تم العثور على جهة اتصال واحدة</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">تم دمجها من %0$d من المصادر</item>
+        <item quantity="one">لم يتم دمجها</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d من المجموعات</item>
+        <item quantity="one">مجموعة واحدة</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d من الأشخاص من %2$s</item>
+        <item quantity="one">%1$d من الأشخاص من %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d من الأشخاص</item>
+        <item quantity="one">%1$d من الأشخاص</item>
+    </plurals>
+</resources>

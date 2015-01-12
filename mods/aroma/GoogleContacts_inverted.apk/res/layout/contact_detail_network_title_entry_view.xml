@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/detail_item_side_margin" android:paddingRight="@dimen/detail_item_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/detail_item_side_margin" android:paddingEnd="@dimen/detail_item_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/detail_item_vertical_margin" android:paddingBottom="@dimen/detail_item_vertical_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/network_icon" android:layout_width="@dimen/detail_network_icon_size" android:layout_height="@dimen/detail_network_icon_size" android:layout_marginLeft="@dimen/detail_item_icon_margin" android:layout_marginRight="@dimen/detail_item_icon_margin" android:scaleType="centerInside" android:layout_marginStart="@dimen/detail_item_icon_margin" android:layout_marginEnd="@dimen/detail_item_icon_margin" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/network_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

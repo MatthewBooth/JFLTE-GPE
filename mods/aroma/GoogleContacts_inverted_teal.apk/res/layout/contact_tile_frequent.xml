@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="?android:selectableItemBackground" android:focusable="true" class="com.android.contacts.common.list.ContactTileFrequentView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="?list_item_padding_top" android:paddingBottom="?list_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.contacts.common.widget.LayoutSuppressingImageView android:id="@id/contact_tile_image" android:layout_width="?list_item_photo_size" android:layout_height="?list_item_photo_size" android:scaleType="centerCrop" android:layout_marginEnd="?list_item_gap_between_image_and_text" />
+        <TextView android:textSize="@dimen/contact_browser_list_item_text_size" android:textColor="@android:color/black" android:ellipsize="marquee" android:id="@id/contact_tile_name" android:fadingEdge="horizontal" android:fadingEdgeLength="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+    </LinearLayout>
+</view>

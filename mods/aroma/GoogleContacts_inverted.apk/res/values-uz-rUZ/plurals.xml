@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ta topildi</item>
+        <item quantity="one">1 ta topildi</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d ta kontakt telefon raqamlari bilan</item>
+        <item quantity="one">1 ta kontakt telefon raqami bilan</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ta topildi</item>
+        <item quantity="one">1 ta topildi</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d ta manbadan birlashtirilgan</item>
+        <item quantity="one">birlashtirilmagan</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ta guruh</item>
+        <item quantity="one">1 ta guruh</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$sdan %1$d ta odam</item>
+        <item quantity="one">%2$sdan %1$d ta odam</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d ta odam</item>
+        <item quantity="one">%1$d ta odam</item>
+    </plurals>
+</resources>

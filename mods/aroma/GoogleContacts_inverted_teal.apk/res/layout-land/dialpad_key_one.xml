@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/one" style="@style/DialpadKeyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|right" android:orientation="horizontal" android:baselineAligned="false" style="@style/DialpadKeyInternalLayoutStyle">
+        <com.android.phone.common.dialpad.DialpadTextView android:layout_gravity="right" android:id="@id/dialpad_key_number" android:layout_marginRight="@dimen/dialpad_key_one_margin_right" android:layout_marginBottom="0.0dip" style="@style/DialpadKeyNumberStyle" />
+        <FrameLayout android:layout_gravity="bottom|center|left" android:layout_width="@dimen/dialpad_key_text_width" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dialpad_key_voicemail" android:paddingTop="@dimen/dialpad_voicemail_icon_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialpad_voicemail" android:scaleType="fitCenter" android:tint="@color/dialpad_voicemail_tint" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.phone.common.dialpad.DialpadKeyButton>

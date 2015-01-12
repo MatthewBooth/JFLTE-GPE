@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Atrastas %d</item>
+        <item quantity="one">Atrasta 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontaktpersonas ar tālruņa numuriem</item>
+        <item quantity="one">1 kontaktpersona ar tālruņa numuru</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Atrastas %d</item>
+        <item quantity="one">Atrasta 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">sapludināts no %0$d avotiem</item>
+        <item quantity="one">nav sapludinātas</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d grupas</item>
+        <item quantity="one">1 grupa</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d persona(-as) grupā %2$s</item>
+        <item quantity="one">%1$d persona(-as) grupā %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d persona(-as)</item>
+        <item quantity="one">%1$d persona(-as)</item>
+    </plurals>
+</resources>

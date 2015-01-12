@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_symbol_margin_bottom">0.0dip</dimen>
+    <dimen name="dialpad_digits_text_size">28.0sp</dimen>
+    <dimen name="dialpad_digits_height">66.0dip</dimen>
+    <dimen name="editor_type_label_width">120.0dip</dimen>
+    <dimen name="dialpad_key_margin_right">5.0dip</dimen>
+    <dimen name="dialpad_key_one_margin_right">3.0dip</dimen>
+    <dimen name="dialpad_key_text_width">35.0dip</dimen>
+    <dimen name="dialpad_key_number_width">20.0sp</dimen>
+    <dimen name="dialpad_digits_margin_bottom">50.0dip</dimen>
+</resources>

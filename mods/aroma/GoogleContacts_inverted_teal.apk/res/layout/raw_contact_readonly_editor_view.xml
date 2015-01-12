@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactReadOnlyEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/read_only_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        <include android:id="@id/edit_photo" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" layout="@layout/item_photo_editor" />
+    </LinearLayout>
+    <Button android:id="@id/button_edit_externally" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:text="@string/edit_contact" android:layout_marginStart="13.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.contacts.editor.RawContactReadOnlyEditorView>

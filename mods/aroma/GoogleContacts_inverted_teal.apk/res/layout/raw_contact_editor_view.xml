@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+                <include android:id="@id/edit_phonetic_name" layout="@layout/phonetic_name_editor_view" />
+            </LinearLayout>
+            <include android:id="@id/edit_photo" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" layout="@layout/item_photo_editor" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/button_add_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="@string/add_field" />
+    </LinearLayout>
+</com.android.contacts.editor.RawContactEditorView>

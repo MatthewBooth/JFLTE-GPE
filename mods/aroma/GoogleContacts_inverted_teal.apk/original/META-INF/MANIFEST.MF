@@ -1,0 +1,4491 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: res/drawable-hdpi-v4/ic_google_plus_24dp.png
+SHA1-Digest: /uGWrwDXRD7Dgu3PuL9H5i4Xpuk=
+
+Name: res/drawable-xxhdpi-v4/sym_action_audiochat_holo_light.png
+SHA1-Digest: wFdVqcqlFVOvBNQ3TvR0iAjLDik=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZA
+SHA1-Digest: O/3iDLWPPvW2HI1gEX7lRiOIRco=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/213_en
+SHA1-Digest: 2lzAd+Eb4i8ceH/J5/wIc5PYUFU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1314_en
+SHA1-Digest: MQO0oceWbxGecmlj/59exeG0Uw8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1260_en
+SHA1-Digest: YwctN4W7y3U/2V4nLX7a2CJ+fn4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1401_en
+SHA1-Digest: uZle8Fb9Nb8Ea2/tBpyOM8j6UQg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1484_en
+SHA1-Digest: FtHGWG3924NV1RKvEUpWME0lRCQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/98_fa
+SHA1-Digest: R8qPkl9PMtQHCtpnnsOVMArFgT8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YE
+SHA1-Digest: uTpmi/ET3QJvZyW1bX1KTGol+c8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1730_en
+SHA1-Digest: qXE8sicY4sJ88Udg6/Gw8tx/Yrc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1773_en
+SHA1-Digest: uI2FqA46SUlc7BTIOGbReoDHwIQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1848_en
+SHA1-Digest: XOeGt+vq5ZZyWiDAbBV2VjrB/Yo=
+
+Name: res/drawable/ic_scroll_handle_pressed.xml
+SHA1-Digest: t4ttr0Ry4HDOkbve43Mmrssd7Rk=
+
+Name: res/drawable/group_list_item_background.xml
+SHA1-Digest: sZz9Bkd0AE8mAptXwMBXM4Fz6Ak=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZW
+SHA1-Digest: 51aBF8wKvdCTFZ2SFN4UtA2DJCA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_800
+SHA1-Digest: Q+v2QtFpRmcNgV/ghp33lLyeLIY=
+
+Name: res/layout/group_account_header_horizontal.xml
+SHA1-Digest: ZqHxGMyqC9mb2LQMhgb9k9Q1rwY=
+
+Name: res/drawable-xxhdpi-v4/list_focused_holo.9.png
+SHA1-Digest: TQGGsHeNu1TzHnnYwAVn4yGczq4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/98_en
+SHA1-Digest: qhENcM6Ieiv0F5fMr85nW2JJn68=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1520_en
+SHA1-Digest: O5mmls3hfAriqjwWPha3hRNBLaU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1814_en
+SHA1-Digest: 3jO81xOtkNP6U4zCcVCux9W75GA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1602_en
+SHA1-Digest: iwWSw3WzmtvITDDiow6IhxO9p/A=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1405_en
+SHA1-Digest: rDexl7dKzd2r1x9fXXxCXMuK4Cw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/351_pt
+SHA1-Digest: trW+7LoDKY987Yxdyh5dASpcNfU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/40_en
+SHA1-Digest: wcWpiXSJBXJmaA/G8GgJsS/MB90=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZM
+SHA1-Digest: zOM17qIZ4CY3WaAzXaMZtlanFgI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_808
+SHA1-Digest: LR5DzJ+FtlDUO7u4/hR2FS3DAv0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1321_en
+SHA1-Digest: PXoDwdLwXxxxZtN/gESXbNLJ1Q0=
+
+Name: res/layout/contact_detail_updates_fragment_container.xml
+SHA1-Digest: F8GOHoMXacZlCp/FDlV3PCu1fds=
+
+Name: res/drawable-xxhdpi-v4/ic_scroll_handle.png
+SHA1-Digest: H4KAPIIkYesJUa4mSDY6Ayt5IqM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1478_en
+SHA1-Digest: zbI57jD7KiiharF8+ceKUJvtQu8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1608_en
+SHA1-Digest: DWbgk57RFihA709UosI+R3UQIBg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1701_en
+SHA1-Digest: LbjUwp83ZsZPHyDBT5rh124/6vw=
+
+Name: res/layout/expanding_entry_card_view.xml
+SHA1-Digest: At7DipuNcRgAQMEX6Synl9SKCaA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/84_vi
+SHA1-Digest: V13gwVf29c5NWH9Sbbndlw6u6VE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1870_en
+SHA1-Digest: +h2IcjB8dQO2wkCGS9ZX5R0eA+E=
+
+Name: res/layout/group_member_item.xml
+SHA1-Digest: OIgRvGtF25X4bHJEa8rA8LJENwU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/243_en
+SHA1-Digest: smm26w9swyXFvBsc7z3QOnryvGg=
+
+Name: res/layout/people_navigation_item.xml
+SHA1-Digest: s+5A9x/IumXJQEJ1y+J7aRxpEoY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WS
+SHA1-Digest: WEt+4epzNo4d8ROnBGfRpvsLQHA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_995
+SHA1-Digest: qCXtFZpw6cj0RMgs3HecypVQnr4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/81_en
+SHA1-Digest: M+Y1Mx326/qyQeP632pNxgQg9Uk=
+
+Name: res/drawable-hdpi-v4/btn_star_on_normal_holo_light.png
+SHA1-Digest: dF4/N3IVmKRQ8uGuX9LnnLEVnsU=
+
+Name: res/drawable-hdpi-v4/ic_star_24dp.png
+SHA1-Digest: Dpn7FQ/zB8LH0m9AtHebtZSEJNI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1438_en
+SHA1-Digest: 3/klHfuwoCxpYiyx0c6GWAx/ZRc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WF
+SHA1-Digest: KiLYxnJzp+EeAhl5k+uMqNG6DRs=
+
+Name: res/drawable/ic_scroll_handle_default.xml
+SHA1-Digest: H2LTG43C7QN0Vh+wXezet/ihW8U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1907_en
+SHA1-Digest: xhDStloxHGep8HVd8twpB3PBLTw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1512_en
+SHA1-Digest: d3I1TrJ+kmrN8sTTkw7sukxHSMY=
+
+Name: res/layout/add_group_menu_item.xml
+SHA1-Digest: 5+KQBy0U7ocfhyDiFJqZrWlXmG8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/212_en
+SHA1-Digest: yXQKR3TMrCIeI7W/I8D6NtqtpPQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1424_en
+SHA1-Digest: HKS2Yjz4keuWOWByiUTENMdABkc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1437_en
+SHA1-Digest: oBvPzdQsn0G0kgdyXJMAwk2aNoo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/32_nl
+SHA1-Digest: 2ElYGeLbpNDjA4rN789ysUnJJKQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VI
+SHA1-Digest: 1LjKCQQJgyuMAMO1iYig3jWtPSs=
+
+Name: res/drawable-hdpi-v4/ab_solid_custom_blue_inverse_holo.9.png
+SHA1-Digest: rum+Dd7BOMIRKQlKDffJxo9UUP4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VG
+SHA1-Digest: +vAhsOiiHugHwBSbJI4edUWsDr0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1770_en
+SHA1-Digest: iglK4qQMappphquaQKTyXKn8oDg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VU
+SHA1-Digest: 2l35bRpp9XiNPbbb+0pHyvOO21Y=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VN
+SHA1-Digest: GrWHYUO3Cev7KpuTRQB5z8HW1f4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1217_en
+SHA1-Digest: iRKu5JKISHXrOTgvgpkDG4kv2Qo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UZ
+SHA1-Digest: NkYYZfkGo/K8LO99CQgOlCszblk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/243_fr
+SHA1-Digest: r3HnSlXcqTEVIwfbIbBTLmmOldo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UY
+SHA1-Digest: ONUgqpO4eHKCbc4I9lt0hnXcTZ0=
+
+Name: res/layout-sw600dp-land-v13/contact_detail_updates_fragment.xml
+SHA1-Digest: gOKbvqlIWgvhEbCQcLwh/KBGTLc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1325_en
+SHA1-Digest: tW+Sp1t54/hqMjJ3T7Nk6Zr7E6I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1985_en
+SHA1-Digest: XkuvETIuR9gVvqriQEXg8rtbu0w=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1281_en
+SHA1-Digest: ZaqiIom/r0FQkjOPsXen6b6zGV4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1570_en
+SHA1-Digest: jHBNhkODUCB+UzYmPx2w9RjZy5g=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VC
+SHA1-Digest: OXIzY/KjvYdZT/LXQBAoqp7pamY=
+
+Name: res/drawable-xxhdpi-v4/ic_message_24dp.png
+SHA1-Digest: 0B/cBi9QXDctcEawmpa3AqJjDKs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VE
+SHA1-Digest: oG66iy9xkV2aj1MY/szR3pj8zE0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VA
+SHA1-Digest: gvuxOs/muxRZu5a4PRHrPdz7+Wk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/212_fr
+SHA1-Digest: cvMau8oJ3q0z/Tv3Ys74kKGIEEk=
+
+Name: res/layout/contact_list_card.xml
+SHA1-Digest: QQATSoRc8sfLOedSdFV8ljJxv6I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1219_en
+SHA1-Digest: ee+3qldWcAmrCVGB3QyNKX2mFF0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UG
+SHA1-Digest: ammP0D/tLcrgu7hqA70yejT+V0Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1253_en
+SHA1-Digest: 6w1olzeatd/2NXI93P0Vg9C13PI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1669_en
+SHA1-Digest: Z9Ydpp9ESsac3TeXtNMLtEkXyrI=
+
+Name: res/drawable-xhdpi-v4/ic_menu_overflow_lt.png
+SHA1-Digest: NqwU7fw58wW7dkQvG5os8lWarJM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_US
+SHA1-Digest: 9a5KLsjRGUlGTQV/GR9+OuV2o0M=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1613_en
+SHA1-Digest: j01V15fUictT9sINauFfaXrgn+Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/374_en
+SHA1-Digest: LLDRUjl87YWAxJQPWnMa2OBBXDY=
+
+Name: res/layout/contact_list_filter.xml
+SHA1-Digest: CwfoYYVmoF1uxbFDfJe4Fiv46ds=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_US
+SHA1-Digest: eX8zXZLcpGnHR0gVu1f3uqFjDnw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1412_en
+SHA1-Digest: 1VgXTGJ/oZ95s/CydPbQTWBS5HU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UY
+SHA1-Digest: OHJSVIjgb3PkN3QctmplPc8uJ9w=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UZ
+SHA1-Digest: 0s3VgLWiElGLZPndvLU2QydhMxI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UA
+SHA1-Digest: mCqgyKIiKl2VZcjZsBnWTjipBEc=
+
+Name: res/drawable-xhdpi-v4/btn_star_on_normal_holo_light.png
+SHA1-Digest: L0Y0IQ3e9oxTLxgbhf6P51Q2C4g=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TV
+SHA1-Digest: 2nS3XZ4w3DR065o1M/M/JsUM7ok=
+
+Name: res/layout-sw720dp-land-v13/quickcontact_activity.xml
+SHA1-Digest: PNBgNv6LXJcgWtKAqKhm7f0TQ/k=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TW
+SHA1-Digest: GVxJianmDusEC/HGf+VGoksOHP0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TT
+SHA1-Digest: OX+mha4+0Q+/ayJpV68aaht5DJ0=
+
+Name: res/drawable-ldrtl-hdpi-v4/list_background_holo.9.png
+SHA1-Digest: WYHA9/SzlI3lANkahnXVyl1KQwY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TZ
+SHA1-Digest: T30rgRQOY5w9wvhUTHpOSdju6Yg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VC
+SHA1-Digest: 0FQA2XuDN5Xp9xp2ulaenWGj0Fk=
+
+Name: res/drawable-ldrtl-xhdpi-v4/quickcontact_badge_overlay_pressed_l
+ ight.9.png
+SHA1-Digest: TPwlB43chIpbdpfI4ffdu7QtKpU=
+
+Name: res/drawable-hdpi-v4/ic_arrow_back_24dp.png
+SHA1-Digest: yjxsG5cNKKVTtJq4CTsnGUO3Jbc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VA
+SHA1-Digest: DCliaiG70xS+qmn7uMrM1mj24J0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VG
+SHA1-Digest: jMJ1+TYrOk+FIDOyezSCgEBBlAA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TO
+SHA1-Digest: 8C2NrVJjiJ2VIe6e2SG9HRbUpeY=
+
+Name: res/drawable/searchedittext_custom_cursor.xml
+SHA1-Digest: YRRu5hnJ3Quyg7oXU8uH0ajEuT0=
+
+Name: res/drawable-hdpi-v4/fab_green.png
+SHA1-Digest: FiIonE9RGqRddZebU2nM22xviTI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TN
+SHA1-Digest: FED4CTFMsRktTSDFVozGKFfgHC8=
+
+Name: res/layout-sw600dp-v13/group_detail_fragment.xml
+SHA1-Digest: wxjtckwUKIQJAzFY+ePu+bc/amQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VE
+SHA1-Digest: YRMBRAOz+UrjXKnZn89Vv2xzlOg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TM
+SHA1-Digest: wRKs89xVZ3eszAjOGyW6biIB59k=
+
+Name: res/layout/raw_contact_readonly_editor_view.xml
+SHA1-Digest: 0drS7POqBhUTTR29C2wnbjvkchU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TL
+SHA1-Digest: 02qXcniA01s8q0mCsBvCAV66nBo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1709_en
+SHA1-Digest: hdRJNhAXuwoBFQZdXjiBZJmZwRE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TR
+SHA1-Digest: It6YpUXvKTZrvmvKnlrtkaH94lQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VI
+SHA1-Digest: dEAv1JqGBywQZK/75nPL+Kso3zE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TG
+SHA1-Digest: OOqLD1pizqDxzLCgvpj7hP/B3Ls=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VN
+SHA1-Digest: BGrGk+xkmzXMOUHG2ROAbBMZ6Yc=
+
+Name: res/menu/search_menu.xml
+SHA1-Digest: 0S2xIWBSYo+74wdTSNHrkJ7sgSk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TD
+SHA1-Digest: fXGWbLcwO2uUDV3/v65+7z+ydSI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1236_en
+SHA1-Digest: PLze/xHAQpkqiMTKeoxXBWjZu9o=
+
+Name: res/layout/group_name_dialog.xml
+SHA1-Digest: mxjfkz7q8pH+S1fnRCQ1H2DikL0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TJ
+SHA1-Digest: sVzKUygsCtLduYavdSUOyP+Jafw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TH
+SHA1-Digest: to5ZNkVbbaTn9dWFGsdYNwYZUsk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VU
+SHA1-Digest: n7eVbCGe6nsx78NKZUpuCUuEQlk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1765_en
+SHA1-Digest: 8b86W8lmx6N/w75OAODBPTi8pRs=
+
+Name: res/color/popup_menu_color.xml
+SHA1-Digest: qpKGd3xcF/lm4LDSIqcTCOmvhLE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TC
+SHA1-Digest: h+VNblfdfvL08K4jtRyzB1SniKE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1210_en
+SHA1-Digest: EfIiFXNRQNqYNfdnKtW+ET3FAa0=
+
+Name: res/layout/list_separator.xml
+SHA1-Digest: wJfAUAGz6yz3esq/xUJ8dc1agM4=
+
+Name: res/drawable-hdpi-v4/ic_menu_overflow_lt.png
+SHA1-Digest: wMOAlbLsvGW0wSqE0liDLHxy6ys=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ST
+SHA1-Digest: Fh2rqEApU4sgPD+1dLHzfQW0Jlo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SV
+SHA1-Digest: NW7eQYaa6OCN5JxFIIcMXiUCkfg=
+
+Name: res/layout-land/group_source_button.xml
+SHA1-Digest: XscF7bzjCnbR0NpzqAGcQXxxrdg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SX
+SHA1-Digest: qPJl1K9ZBaGHWAbdxiA1XFP1nhQ=
+
+Name: res/layout/phonetic_name_editor_view.xml
+SHA1-Digest: fTqyessueewShTpn3yEsKTK8tyE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SY
+SHA1-Digest: pxJxXcMSf7F47SEwPXqXfT7Of9g=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SZ
+SHA1-Digest: HXFHOSrj8KkBc9h+CUe97BcSQL8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WF
+SHA1-Digest: YH2qvLQxCEFNdK3scMbqJ1rLPPE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SL
+SHA1-Digest: P/qdv4quNvaRviFdLBcbuaqT7H0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SK
+SHA1-Digest: sfxakNdqV0E1+2FJQAaJVY7qBaM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SN
+SHA1-Digest: S1dW2CSdGrAqy9X2PaSCEadYfV4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SM
+SHA1-Digest: 9LpXm9Hhi0DHNDXZxoZmtMiZXZo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SR
+SHA1-Digest: CgemZGqbkZ1IkPlJdSZuOB5vs4k=
+
+Name: res/drawable-ldrtl-hdpi-v4/account_spinner_icon.png
+SHA1-Digest: /1XDdsZwjlN3C27iRv2tmzW6Obs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SD
+SHA1-Digest: FMCY1LyqhOjb1Ji7UBJiSFhW9b8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SC
+SHA1-Digest: 4A+CKfsEVbCeov+6aFk2zY9twcY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1204_en
+SHA1-Digest: hv9M8Eqd97BMkYS/wU41lgj6aKI=
+
+Name: res/drawable-xhdpi-v4/ic_arrow_back_24dp.png
+SHA1-Digest: fib30hvY1A+s5G5/YG1FDOgU5dA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SE
+SHA1-Digest: uafcIzQdY3gb3eq5lMhvKBc4krw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SH
+SHA1-Digest: qwfHH84D0ixUkP6FbEog8mNRe50=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SG
+SHA1-Digest: dqZElj+XoAesFoVwrH5/RGTNpfM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SJ
+SHA1-Digest: Dy5q310EumwWHG7yi/9247XEwlA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/886_zh
+SHA1-Digest: 18w7f8oLx09Tt0gJ9SIelL39EEw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WS
+SHA1-Digest: 4P3wZNi8j16M3gveIq6tBVjqSM0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SI
+SHA1-Digest: XZCXpndTs5uKYlFqYZNUWvJ/9V4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1352_en
+SHA1-Digest: 7w5L8NCHH103gJfK1NMuCJopbGw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SA
+SHA1-Digest: zoDNln75fh0N0Ttw6vg2HgSRXhM=
+
+Name: res/layout-land/group_editor_view.xml
+SHA1-Digest: If9Ld7BPGiGhQQ8+2ocJwOy3bvM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/34_es
+SHA1-Digest: V9g5DJO2pHbQ9PwR2ppAoFNb+dc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SB
+SHA1-Digest: G5enlJKOGZ6RLc3mjmZs+0Vwfl4=
+
+Name: res/drawable-xxhdpi-v4/ic_event_24dp.png
+SHA1-Digest: Avb+gF31H71hsPo5Aakst/W5JgY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/34_en
+SHA1-Digest: CAoC4MvZD9chVooO1vDbJNONm/s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1561_en
+SHA1-Digest: 1FLfl0jWaX5sLyQbHRomZ2Xgp1w=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RW
+SHA1-Digest: 9v2nu80N7tOJxq51ZS9SUMzXyy0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/94_en
+SHA1-Digest: UxbJMCaGF1PzpWUZxJd2KV8O9B4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RU
+SHA1-Digest: KLS5yyTbZVBMs07/kzbMl9FDcy0=
+
+Name: res/drawable/search_shortcut_background.xml
+SHA1-Digest: PgoiR2IgrHtnrZT26FCSZSDfJ7Y=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RS
+SHA1-Digest: Gp5fY4V+3mepr0fZAycPZAv5kI4=
+
+Name: res/drawable-xxhdpi-v4/ic_person_white_120dp.png
+SHA1-Digest: qHVhf+Ii0YzKD6A9IlRsvfvkAzI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RO
+SHA1-Digest: 7pkIrynGenMlOimp1uNOzx4a9ME=
+
+Name: res/drawable-xxhdpi-v4/ic_star_outline_24dp.png
+SHA1-Digest: /GLTAwgIWYBV3ByPUEuQNTg3WHc=
+
+Name: res/drawable-xhdpi-v4/list_longpressed_holo_light.9.png
+SHA1-Digest: DbbsJ/A8Zk/Z2Q8z6jeVTrNtcKw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/229_en
+SHA1-Digest: XjZGZFDm58sLNxgwEwbrt9+8X5g=
+
+Name: res/drawable-hdpi-v4/generic_business_white_540dp.png
+SHA1-Digest: nh4bep6idb007rVjngMHCugDrO8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RE
+SHA1-Digest: 8BDvFUhSb3GswgQiUCYWtWx3CEU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1678_en
+SHA1-Digest: +PXObRrer3zgnUO4GybKgDxnKkk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_870
+SHA1-Digest: wrVTblBRAtogCy0iVfpXEH6KlBQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1305_en
+SHA1-Digest: bpiYm4G1DrvfzaIBVIBW+sJNTX0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1616_en
+SHA1-Digest: FlomLP4LRUaEQF4zUEINozPTzE0=
+
+Name: res/drawable-xxhdpi-v4/badge_action_sms.png
+SHA1-Digest: m9oz9OmtvM6qu875+fRIg2N2xiI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1727_en
+SHA1-Digest: rG6kY5beO377QU7AAgtOFdvKwjc=
+
+Name: res/drawable-xhdpi-v4/list_activated_holo.9.png
+SHA1-Digest: C4a5xmVEzcIJxede0Urh0qZwCmg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1810_en
+SHA1-Digest: eww4wdaTT1H8ibz7w0SEQqlJbbM=
+
+Name: res/layout/group_editor_autocomplete_view.xml
+SHA1-Digest: qlpj4zdFNyLQJmIL/rJZLYssQtw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YE
+SHA1-Digest: iWn4VA5oTnB/1SJio1WmtTzxIVA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1440_en
+SHA1-Digest: WtdGrhsI56JS49NRONaqo5Zfm4M=
+
+Name: res/layout/search_bar_expanded.xml
+SHA1-Digest: e5LUHCbzAKrSVtJujQ308CFNdLU=
+
+Name: res/layout/organization_editor_view_switcher.xml
+SHA1-Digest: svbmuzWpUlbQAwaz3mXk3Db+HUE=
+
+Name: res/drawable-hdpi-v4/spinner_default_holo_dark.9.png
+SHA1-Digest: J0fMFQWqDRAjcuk6U/GDtla1Z5s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1928_en
+SHA1-Digest: PGBSfQ4O409j3K7H2sDakl5I3UE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1360_en
+SHA1-Digest: kWM9HZ5l0damDJlaZ6IJ9Ji+J9c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1707_en
+SHA1-Digest: rdcj2Mde9IyGfP1nWlEkKceY7C8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YT
+SHA1-Digest: L93A4qSkK3d2UejCwMBxcHWx60w=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_878
+SHA1-Digest: ru2D0tMTr43HNk9n8YNkwk5hGmc=
+
+Name: res/mipmap-mdpi-v4/ic_contacts_clr_48cv_44dp.png
+SHA1-Digest: fftgm8ZemwTRu61zGTV7hrx7Pc8=
+
+Name: res/layout-sw600dp-v13/favorites_star.xml
+SHA1-Digest: fJ7AcrBqo2kgbAZxpXdVooiYsE0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_506
+SHA1-Digest: fSwyg4KxEaIctkOMUXXbP0UnACc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_QA
+SHA1-Digest: slbTHMPLw/mmyQ2E0xEPrlrO4/4=
+
+Name: res/layout/contact_tile_list_frequent.xml
+SHA1-Digest: vX2abKmym9EeETQhkLQXJLa/4pg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_505
+SHA1-Digest: dkhqE6jk0X2rJBCd5h+xJ2vZwls=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PA
+SHA1-Digest: fCZKN8Ehp845RUn/9sjnTx4rhxw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_883
+SHA1-Digest: X2TcGpqy0IDrFCgWXalvi/FxY4w=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_expander_minimized_holo_light.png
+SHA1-Digest: BCiLjiYqloOzhpAk/9bYMYUn7Os=
+
+Name: res/drawable-xhdpi-v4/ic_event_24dp.png
+SHA1-Digest: 7YIcAx1IW4POb4wyhx+cP+/0VAA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_zh
+SHA1-Digest: CyWe1eN9fd9bD59IaemCYKYmFok=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_882
+SHA1-Digest: 3fDO2V9ovqhY9kDKG5wczXGwaks=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1604_en
+SHA1-Digest: q69UhqxNwrAOaYw5Z2u0mZzYKUc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_888
+SHA1-Digest: +nKjS9d1/WYwuDLO7dQS2W5u25Y=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PE
+SHA1-Digest: tvR2SBCPV/svYtRXJcjnaVOw4Qs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PF
+SHA1-Digest: /tlLAeslldW1EMfh0/r0nmtik2o=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RO
+SHA1-Digest: RKVvpWkqsWZnnvq+KvHaMp4hrcY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PG
+SHA1-Digest: PqaHYtXnRREfBVJdJtQGthBM6Mk=
+
+Name: res/drawable-xhdpi-v4/ic_hangout_24dp.png
+SHA1-Digest: nRT0slPZjASJBXWlGFCNywrVelQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PH
+SHA1-Digest: //vvt5FSIATQwkpUj8jsLjb4k5Q=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1863_en
+SHA1-Digest: 5uu9QSjtZg0qNf9BWRiTWcGVTtk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PK
+SHA1-Digest: 6PpXjrxYrpwZm86B4lrad9K0Tjk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PL
+SHA1-Digest: 9C3SaoX/Y6RhlzaZ3vZUrlZYvao=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RE
+SHA1-Digest: lN4hO/zfjPGWlxlXPt1nQG4QJZ0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PM
+SHA1-Digest: CwesdCPcB4nCSn+T+YSoOMSlyME=
+
+Name: res/layout/quickcontact_activity.xml
+SHA1-Digest: yV99lJxMk+RKYzfAvC+LUDFPRfY=
+
+Name: res/layout/name_edit_expansion_view.xml
+SHA1-Digest: DuONK8sm9ibO3FO8/jTjzVH1yrE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PR
+SHA1-Digest: ff7WU4GqkjoPRUAuysmgqkwvTfA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/49_de
+SHA1-Digest: MvZVPqMeXS0/bVVfV3Z0faduChY=
+
+Name: res/drawable-xhdpi-v4/ic_star_outline_24dp.png
+SHA1-Digest: 64Z9QuQSURwzeRdfDyOQe1mk23I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/220_en
+SHA1-Digest: ngJOrsAsCF++o3mSlHQxIq+H2Nw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PT
+SHA1-Digest: Lt4R4QRcTtlckYh283xZd0nKxQE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PW
+SHA1-Digest: czrqNkXCl59UCFT6eIBMD5X4yB8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PY
+SHA1-Digest: HBYBVp4jk/ST4eBs8jk7XDqpUoM=
+
+Name: res/drawable-xhdpi-v4/list_title_holo.9.png
+SHA1-Digest: Mq4TeSfdH23z2nCntr/v0oEZJss=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/86_zh
+SHA1-Digest: OV+xoPYVYoIOgE3DFzrGpvBt7UA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_881
+SHA1-Digest: adrqPFT39BGEc9L6ihSloFCvqrU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1704_en
+SHA1-Digest: 81Db8Jr25bVJGQrD/nEaiydR8nI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SK
+SHA1-Digest: OpWPnEd6/Jmlmpv8WaU3DT4LItA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SL
+SHA1-Digest: mfwHttga09EbnrVckK6RjU0Abl8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SI
+SHA1-Digest: GVkOdITub41bNG8Fig/9vPSNo2k=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SJ
+SHA1-Digest: Qh2tQvrXM3wEadaOQ7twcRlMF74=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SO
+SHA1-Digest: EBlXHf1Dehuo/JIdgSP11oxmOQ0=
+
+Name: res/drawable-xhdpi-v4/ic_scroll_handle.png
+SHA1-Digest: 8bScCN9/QiAUohZrocw/BQ/LXb0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SM
+SHA1-Digest: Sy0eWRdE16v7G2ETphVPHohO/Dc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SN
+SHA1-Digest: bEEdW5dCSXOMv/PdnHjy5XOj1e8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SC
+SHA1-Digest: A3O092fMr5aqFg4CrSO9+TR0T9U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1330_en
+SHA1-Digest: RD3VkG9ABUerZuASulGRp6ZcnXA=
+
+Name: res/drawable-xxhdpi-v4/ic_overflow_menu.png
+SHA1-Digest: 8keyD4ERKwm6B1vC83tJxL/VwuA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SD
+SHA1-Digest: F+7kbj3xh2R6db73eE+7LtK0aww=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SA
+SHA1-Digest: Z2oth1mcA7uvcWAeMCQDjONEK/I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/375_ru
+SHA1-Digest: KdTEbP/LIfq2YfkdfU2j1Q0PZqA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SB
+SHA1-Digest: 3f6+jb85bLdbrXcxPXSAMziTfrk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SG
+SHA1-Digest: g+1FWXWYwNTgqkXk5QHlCVlWV9M=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_OM
+SHA1-Digest: Qqh5G0srcW9p2rsj7xSDXf2geNc=
+
+Name: res/layout-sw720dp-land-v13/contact_detail_updates_fragment.xml
+SHA1-Digest: gOKbvqlIWgvhEbCQcLwh/KBGTLc=
+
+Name: res/drawable-xhdpi-v4/ic_place_24dp.png
+SHA1-Digest: +yBnNi8HBT1sc3UNTBLfboL0IOc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/886_zh_Hant
+SHA1-Digest: tUQs/n9VAVkMH5JvhTouSda+fO4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/254_en
+SHA1-Digest: vZ2YV45Ld2ODAfmvJJG3LVERsdc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SH
+SHA1-Digest: NOGNm7HKX9BLBst0265EWL4N+xg=
+
+Name: res/layout/item_read_only_field.xml
+SHA1-Digest: 2YWkSivyNwe9bY/wJsQge9YfMBQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SE
+SHA1-Digest: QqHkLRiaSLu3NucAuEVUw5mtXCU=
+
+Name: res/anim/dialpad_slide_in_left.xml
+SHA1-Digest: F+x8jUCaHpqt9xpVZ+pE8cLZLBU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RS
+SHA1-Digest: fceCOonAoNK2vZg1X3HFpazjNwQ=
+
+Name: res/layout-sw600dp-v13/contact_editor_fragment.xml
+SHA1-Digest: v/E9u6pKedXXd1HoEUTtFzXCn9g=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_groups_holo_dark.png
+SHA1-Digest: 62JCVLamU9BwPTqz2FVe69kHTcY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RW
+SHA1-Digest: diwT4/eaFAC0RrngvvaAorhEyRk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/49_en
+SHA1-Digest: eTtKIZuwkXUg1CxM5vfbCCMthP8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RU
+SHA1-Digest: SjLiYb5elyZp4CxuG/jPZiGkAvU=
+
+Name: res/drawable-xxhdpi-v4/person_white_540dp.png
+SHA1-Digest: BSjjr8TvpJwbWeSEwaX4bVhIB6o=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TN
+SHA1-Digest: IsQ1ztNhGkhdDLxYBaRRxgkT0uM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TO
+SHA1-Digest: dLfbnVy/BpOAEcKPar4yvXN+ies=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NC
+SHA1-Digest: 3Ha+QOSOso/ZuUnEndSttTCui2I=
+
+Name: res/drawable-xhdpi-v4/ic_menu_star_lt.png
+SHA1-Digest: eugGzSJ6XpaEO2aWmJbEGmtfKy8=
+
+Name: res/drawable-xhdpi-v4/ic_menu_back.png
+SHA1-Digest: gvZVKdT9Y6VConnawPGRxg1ka3E=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TJ
+SHA1-Digest: ZOQnTHUv/tXZE748rt+rQapWdL8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TK
+SHA1-Digest: Depjsuzhk7mtPoM47CDzUSt6AHE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1215_en
+SHA1-Digest: MfNY3EPpz8nqvpK813CekYTuU6Y=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TL
+SHA1-Digest: E1XJpx2P54sMuwGSGIjqbyqPB9s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TM
+SHA1-Digest: iCo6uSisEgP8as6Jv80cIk8G54k=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NA
+SHA1-Digest: 9G6kvgsYzJojWoiCuKs4LFfCQbA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TG
+SHA1-Digest: regEplvadQHOk1bP4gLhxUzDBu0=
+
+Name: res/drawable-hdpi-v4/sym_action_audiochat_holo_light.png
+SHA1-Digest: 6Dy+z6MOiFo6f/PY/bpsbVtCqA8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TH
+SHA1-Digest: lWGc5/NP2AhmlQh6aQDhwDKdbQo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NL
+SHA1-Digest: L481Tp19PmS40cOvmGOKjpiEZVs=
+
+Name: res/drawable-xhdpi-v4/ic_group_white_24dp.png
+SHA1-Digest: 6iDGAdp5t8eTrAkC4C6cMBqneuI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NF
+SHA1-Digest: IdRiuvAntLUe8r8EQiIk2dtb7bo=
+
+Name: res/drawable-xhdpi-v4/aggregation_suggestions_bg_light_holo.9.pn
+ g
+SHA1-Digest: D1kAbTuPW1CrJuBCXNH/y7Nspic=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TC
+SHA1-Digest: GxO1H9LUjukADYAq3al7uBln2WQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NG
+SHA1-Digest: 2nRUBrCNwLf9EEuCsttbqsVYO5Y=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TD
+SHA1-Digest: Hui74+vNtPoED/IYAYHokvuJzDM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/260_en
+SHA1-Digest: NVAZxVNncdXZgXfyw2JWb0o5GiE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NI
+SHA1-Digest: rKpi204I76lvISSARcMzH0LUASI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1205_en
+SHA1-Digest: UpRkOCRD7jWVGPYD3xDy92sw1SQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/351_en
+SHA1-Digest: wFxGNLEQjoFEXjn7G6steBULDZw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NR
+SHA1-Digest: tmbcQ1088LZxiFMYWOqzJ7JECIE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TA
+SHA1-Digest: zxdsRgGax6ubk8hnD3UU1Ruk808=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NU
+SHA1-Digest: Krbxcr6/EQRZATYij5QxbMA0M00=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1336_en
+SHA1-Digest: wiOn7uqQ+dgj51aVqVkZ/6VYbB0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/32_en
+SHA1-Digest: RB41eCkqk4mSk7IIdW7tre/lS+0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1319_en
+SHA1-Digest: 5rbuKFtXHYTdfS4y0w2qSdnelLk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SZ
+SHA1-Digest: 6bZcMsQI0ndWWBpttvjSacGaqck=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NO
+SHA1-Digest: 4pXt4EiTPr+hwwPOVd0QWX6XN3g=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SY
+SHA1-Digest: 51xhmb8BiQjfjHf6fUfxEy6ARiA=
+
+Name: res/drawable-xhdpi-v4/list_background_holo.9.png
+SHA1-Digest: 5AqTdHburEQ5QkNLOLd4GQkII6Y=
+
+Name: res/drawable-xhdpi-v4/logo_quick_contacts_dialer_color_44in48dp.
+ png
+SHA1-Digest: bCdxUb7rL10U9Vbdr+ttFyAafcg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NP
+SHA1-Digest: 0eDpSvIShOUr9yJLkxJBQ3zhJrk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SV
+SHA1-Digest: APTfTay2dBhczPvWxHVungEgdsI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NZ
+SHA1-Digest: cqczT+ATmJlNQNnCYDCwcK7Bz6A=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/41_fr
+SHA1-Digest: bL5BEQ4AC2q4EIVBLZNDQWdYJlY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1956_en
+SHA1-Digest: Ov82Y9zjmuxrCxOKzgaeb6XCkyI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SX
+SHA1-Digest: u6hdteFIcfA4Qh6VU1ZTlOmM8Gc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SR
+SHA1-Digest: E30FnzVf4oVmhs41dZmWGLEUqss=
+
+Name: res/layout/edit_delete_button.xml
+SHA1-Digest: XpgLo8mnfqc/VkaHRLxzEONMPNI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/222_fr
+SHA1-Digest: s9UlNcEs49UpokM9k4clls5eO+k=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ST
+SHA1-Digest: 9TPYmFCP1xZdNwCaqgOHfcS9Xms=
+
+Name: res/drawable-hdpi-v4/ic_event_24dp.png
+SHA1-Digest: SpI4fYYkbb24KimyU1B8eqPmPOo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SS
+SHA1-Digest: qDHuPDISr9FHIMONMSIrxIlL0xQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MC
+SHA1-Digest: +OMwEROIupWwIJIshwWIrp+rDdM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MD
+SHA1-Digest: xPoHwRDHL6SrjfKT6+g3sNDP1L8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MA
+SHA1-Digest: sP8aiUoFfUnDvMa4cZ+KjOpWvJY=
+
+Name: res/drawable-xhdpi-v4/ic_videocam.png
+SHA1-Digest: diXNCiNNvW2ib6sFnSXDYCv6Rko=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MK
+SHA1-Digest: TgHeYY6bKAkWQ84KO/nME5j9nvk=
+
+Name: res/layout/contact_editor_fragment.xml
+SHA1-Digest: w131Q+SzODPYosvU+W0jPgjJB3Q=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ML
+SHA1-Digest: +YIOrG20mY4pRKZoLogFQUq6H0k=
+
+Name: res/layout/item_photo_editor.xml
+SHA1-Digest: VKEofF8kVlJDnrd/QycuJFq8ogA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UG
+SHA1-Digest: Tt02M7oBF8WlqiFD0pC/ZT5K/iY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MG
+SHA1-Digest: 9xXZ4pv619b38rhecTjCvpGsRgY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/241_en
+SHA1-Digest: i/c6W4nC6iDgKpHFMjV9dWVHl6A=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MH
+SHA1-Digest: ksr60vxlNQ+S2vGB4wQjQ035rzk=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_group_dk.png
+SHA1-Digest: 9c1+Xbd4LiMaju7FTiiaouT/UJQ=
+
+Name: res/drawable-ldrtl-xhdpi-v4/list_background_holo.9.png
+SHA1-Digest: 2f/1j2cazecpgpbHS25ftV+eEE0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ME
+SHA1-Digest: C9XunjvBRg674eV5hJicqisH1dA=
+
+Name: res/layout/edit_add_field.xml
+SHA1-Digest: CiJTXHW9k74DXBxEF+OcJXjMwcE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MF
+SHA1-Digest: yHAVCZYdYpFSGFHYZKmru+Lz1Vg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MT
+SHA1-Digest: ZzGfRKQsOkLMM4rNVZQNdlkhKUw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1916_en
+SHA1-Digest: rAAUOPr7jzdSh43d2en6xvBCZF0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UA
+SHA1-Digest: BfWiqGThR14RyWwLAul9+wwqSYw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MS
+SHA1-Digest: 53kFgC2lWvkg0RQdoSOeZDHGWqI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MR
+SHA1-Digest: BzTGjjro6Xd4KK/3Nd9HDm6Uy9g=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MQ
+SHA1-Digest: WV7Wb4F0J6tSNdwwkzDdM6iowqw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MP
+SHA1-Digest: 8JJXIP2nBNzz7H5t4EVdX6K6h58=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MO
+SHA1-Digest: 7ygX4YP5g568rrukemALUJsQWQ4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MN
+SHA1-Digest: 2OQsgx6XE9s+gZaHd5es6PyizR0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TZ
+SHA1-Digest: u1jN+MseQBQR9hUc/H7ASPyb3kc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MM
+SHA1-Digest: CgbvC0cEQfEags/cuKxFG+4qQ7I=
+
+Name: res/drawable-xxhdpi-v4/list_pressed_holo_light.9.png
+SHA1-Digest: I2JJHnuKjt9jtF8C76fBatEScaE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/374_ru
+SHA1-Digest: rFVQIgfEZBJc1WXArel+yjWpIQc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/226_en
+SHA1-Digest: VXrqSWZ/gstuIYqhAympbkEraPI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TW
+SHA1-Digest: NfD+3Fztm7C3XxQbq2pBOGqKeJ4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MZ
+SHA1-Digest: JaxxJGL+HEM7oBQ1R88V+uJhSS0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/41_en
+SHA1-Digest: sqVhrOKu7EJwidCQHyLsIpU/msg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TV
+SHA1-Digest: Ris17D+/QUvHhHkNr4mTv2xEAGU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MY
+SHA1-Digest: A61ZRtmC1TVH1R/EQS/6YoBFKLI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MX
+SHA1-Digest: hMogFt6VbRmePLCrfBKsVe0IzgM=
+
+Name: res/drawable/btn_dialpad_key.xml
+SHA1-Digest: VikGrClarpkvTVwTS9DEpzyZFsI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TT
+SHA1-Digest: 4s4vwT/Bfu6gUtllSmZMYbxntMY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MW
+SHA1-Digest: eFP6Uqji/vptrfcrmraniTYNVdU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1651_en
+SHA1-Digest: QIxpt2ZJe8h7QNpl8DXuBYkz9zc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MV
+SHA1-Digest: ugqf4ZviM65EcJuzO/E8sIeATLk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TR
+SHA1-Digest: 72/i0hSlhQT+73c2QiQD7/gVc8k=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MU
+SHA1-Digest: NyvG1+2xAYXpmxUrZaoP7/4ynOo=
+
+Name: res/drawable-xxhdpi-v4/ic_person_add_24dp.png
+SHA1-Digest: 5D1+Ceji+rnJur7OEoIKc3r1MFE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1905_en
+SHA1-Digest: VzLjqhYKVrR83wEPqwQxPmnQ1mU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NA
+SHA1-Digest: ksP1xoD4l0e5tfRUCRGKbZTe20w=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LI
+SHA1-Digest: o7Pig66wbYKpkCp+CB2IUavF2sM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NC
+SHA1-Digest: dFhp4MlENpx/8otef5KGD9JQIw8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LK
+SHA1-Digest: pDTco4adQ7wN+APo7X+8lL8fNGE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NE
+SHA1-Digest: BrbvGnP0WnyauBA26f9niIrowWM=
+
+Name: res/drawable-xhdpi-v4/ic_add_group_holo_dark.png
+SHA1-Digest: wMNf5VHzaIJLGAzmsAmarsgLSrA=
+
+Name: res/drawable-hdpi-v4/ic_call_arrow.png
+SHA1-Digest: rbuqKyJQarYKVEMlYfv+dQRCrAg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NG
+SHA1-Digest: PFuzoSQO+Fl4O6WZ6fNLv47Z04M=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NF
+SHA1-Digest: f4oA/7+uxYiLhe2a6OXzs1SOn64=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/222_en
+SHA1-Digest: CoNKFBca8og/9xm+Cl0AZrnSKcw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NI
+SHA1-Digest: bYlQgoxwZz0tFhwGq6acE0LOdZ0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LA
+SHA1-Digest: py3X9u/lE6xMR6fi8lzV86sO1hM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1973_en
+SHA1-Digest: XI85g+mtRXIh2doayNbCyg8g7ZA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LC
+SHA1-Digest: 00HknFCmZjohOMWi6P6q1g1nDfs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LB
+SHA1-Digest: K1FxC84R/q8VHjnvJmF8YpJuWhQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MK
+SHA1-Digest: 2NXj053RfuUBxSIFat1D5IYDyjk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LT
+SHA1-Digest: fb/ckx5EjSMVyJ4Bdr7L762q5Hs=
+
+Name: res/drawable-xxhdpi-v4/ic_google_plus_24dp.png
+SHA1-Digest: RuEWq6fT3kmFKGEuY52/IkqhzMM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ML
+SHA1-Digest: TmBs7z4K7qZfn3YuuMPnlQo9Wrk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LU
+SHA1-Digest: ob0QLVUzjPJBuULFaESbiAvv4H0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MM
+SHA1-Digest: 34mgdvaG7rTWSSLlTbF4mhWzVe0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LV
+SHA1-Digest: otR531NPPcrIotMjlVeaYW+GOZU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1306_en
+SHA1-Digest: 1nFeqGPGPGQ2Q2JAZ6+qk2vaMxQ=
+
+Name: res/layout-sw600dp-land-v13/contact_editor_activity.xml
+SHA1-Digest: +QiG6MsawKHLy2BJzyNg0QiEZ0A=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MN
+SHA1-Digest: GNXzGRQfYkVKISQtnQcXCpz+mQM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MO
+SHA1-Digest: aQSCgNvOHl4+xuMdKH41mYE8ryg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MP
+SHA1-Digest: osX2XD0hfucZvxJH1g5j6P2+1FU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LY
+SHA1-Digest: /By5pIbDyT8f6wuNJjPX+TySrpI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MQ
+SHA1-Digest: uRO4iP2NyZsAxClqG5n7A6fBGc4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MR
+SHA1-Digest: pQ9eP9dSaXrLlhK0BAkqzplun8k=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MS
+SHA1-Digest: m15+ICDC8TN6qGgyxI9fGIq1r0Q=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MT
+SHA1-Digest: II8edaEOsL/kdVLxs1neIm2RZrU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MU
+SHA1-Digest: SJ6dbQjLYRfemLlZh8pmaCme6Yo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1262_en
+SHA1-Digest: AJPQefAGGFWJegz39FjUaLrFsVo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MV
+SHA1-Digest: uiYzssrp1ofRHbtMbQJa1G+z2+E=
+
+Name: res/layout/dialpad_key_zero.xml
+SHA1-Digest: mO09SJVTy1ZDDXD+GN+0wTnkIlc=
+
+Name: res/drawable-ldrtl-hdpi-v4/badge_action_call.png
+SHA1-Digest: rb0yfFBMGqNk4hckYjzHu63JLQ4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MW
+SHA1-Digest: GJDPn4E5DbpCYuQruKsoe+52ZRQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1309_en
+SHA1-Digest: W+q9gbFTMDn7hx5idMBRv0HfoVs=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MX
+SHA1-Digest: XfLYAwznLEsJ1QiQrg1+lHrmSh8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MY
+SHA1-Digest: zWdEl7YxDLjgNQvw/Sp2wd9e/Lw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LR
+SHA1-Digest: osiKYK17TsMEMpxwUSdWIH0VNtc=
+
+Name: res/drawable-hdpi-v4/list_title_holo.9.png
+SHA1-Digest: 8Cm+c7wMiASJ7lNIy9qSuo2tfqU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MZ
+SHA1-Digest: rKcRh8hcFnOXhYfgSvawBWQxcSQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LS
+SHA1-Digest: w64d6l2qMRu/hc1FezgCU60XUaY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_27
+SHA1-Digest: nEYbSuXRF/uctKuasoKct6HqEFw=
+
+Name: res/layout/editor_account_header.xml
+SHA1-Digest: AjN/Ivmha/gWVBl3KCSgZZNNxrI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KE
+SHA1-Digest: 7Eb+9olO5an4TwFHi55sQfOqZsY=
+
+Name: res/drawable-xhdpi-v4/ic_menu_star_dk.png
+SHA1-Digest: /ho63Ii8IQlFF2+GPlEQv6czDCY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1860_en
+SHA1-Digest: jji3EPe4Qkw5zWXLrYXtApUcfqw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KI
+SHA1-Digest: VgndwACstWBLpIyzd00I3DsAgzY=
+
+Name: res/drawable-hdpi-v4/ic_overflow_menu.png
+SHA1-Digest: 1KMP0zAdBS4Y4TxJHbnoErGKgOY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KH
+SHA1-Digest: WwDjEfSaYYvxvjzp9kuZw0wKTz8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1801_en
+SHA1-Digest: 2+vn3gnbnoYnc/UGqWuXK+j0Hyw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KG
+SHA1-Digest: jSk/TwIasSlFmnZhTWrCWwmOPmU=
+
+Name: res/drawable-hdpi-v4/ic_close_dk.png
+SHA1-Digest: u1/PrJ4DXuN+2pvwW/je/IKzeUc=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_star_dk.png
+SHA1-Digest: UNnqbYjJQ4aWR0BHG+/kvhxG34Q=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/41_de
+SHA1-Digest: MBO7PwuzYU3s6yr3d+FhUCC6muk=
+
+Name: res/drawable-xxhdpi-v4/ic_hangout_video_24dp.png
+SHA1-Digest: cR/NdBI/79lILp+iGryZms1VXlo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NO
+SHA1-Digest: 5b1IEoiWmWxePgsxMoTrE3pOFNM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NL
+SHA1-Digest: +/Y4Of7cCkZTB8fn4MrZSKPN7go=
+
+Name: res/layout/quickcontact_title_placeholder.xml
+SHA1-Digest: TmvdDSXtuU111ZLluFQqijHXjBY=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_contacts_holo_dark.png
+SHA1-Digest: TfBSlAINZNIna9JQ0OR9//iD2XY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NR
+SHA1-Digest: SiNwROtI47UYTzWL8hqcJ11u8Dw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KY
+SHA1-Digest: jWCt/+g+/sNLdENqqAtaUlvbqmY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KZ
+SHA1-Digest: DxmO0yjUvvuXGC4nK8NuAZrOW4w=
+
+Name: res/drawable-hdpi-v4/quickcontact_badge_overlay_pressed_light.9.
+ png
+SHA1-Digest: Y8NQTsxXx/lFW2Ml243E2sUftEM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NP
+SHA1-Digest: uzTAz6SzpOMByrINcXFL65gUVQQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KW
+SHA1-Digest: cEw4Jm39ArCO3iOm52+C9sLdDZM=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: t5/Moii2QEgUBBntpt3sBsMf2uc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KM
+SHA1-Digest: riY4/v0MIgCE8l9iMpTLN8m5tOs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KN
+SHA1-Digest: 3O4gZzoMqkKgHs7s1u3KCL+PR+8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1415_en
+SHA1-Digest: Se/TXWQd3n7C8oRj2aQRG7MNEzQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/32_fr
+SHA1-Digest: rsrh6YOCmH+9DmRDk/cBuZRiYhw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NU
+SHA1-Digest: gTUt0Nzsr87sGj6sgNtddpWwhAw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NZ
+SHA1-Digest: oQyEzCuGHF6PGPE09JvKx1IXrvA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KR
+SHA1-Digest: 7Xw2DPzjR6WqvdvkRpx/IH5cYUs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/252_en
+SHA1-Digest: aOYosvWmPD3bWe9rtK74uPkiawc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PE
+SHA1-Digest: 2/wViBuGamXrqaTPx4xhDh/kR6s=
+
+Name: res/drawable/ic_tab_starred.xml
+SHA1-Digest: C0u8R7YLz3Cv9YwLqZl+fx4TsGk=
+
+Name: res/drawable-hdpi-v4/ic_menu_star_dk.png
+SHA1-Digest: +qvrmt8QeEdY1DpkSmEB9lIxPKU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PA
+SHA1-Digest: 8hQhJmJInyWZN5aj8yfboos4u3c=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JE
+SHA1-Digest: pdeQRQM5r+R2TwhSD3dAlw9Ii6w=
+
+Name: res/layout/search_header.xml
+SHA1-Digest: 7lz3HbBrG0h49qLPEoWmyekNjxI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PK
+SHA1-Digest: EqclcGKUyiFNOza8voFlG0QGi+U=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PM
+SHA1-Digest: 1eKd1jGumli5KScCSRe7W8FtzPg=
+
+Name: res/layout/external_group_editor_view.xml
+SHA1-Digest: FAlzAksJtU5vTS/rcj7IYcQj8ZI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PL
+SHA1-Digest: CDgYOP6KyULX/NVw5Xu+zvaqarE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PG
+SHA1-Digest: O/wvabhcicXGnHyFO5zY9nBEMzw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PF
+SHA1-Digest: 4CFpTGns6Corja5UMvB7dsW8BJw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PH
+SHA1-Digest: DYmDVv6rk+K4vLX4n19FrKPfBqc=
+
+Name: res/mipmap-xhdpi-v4/ic_contacts_clr_48cv_44dp.png
+SHA1-Digest: diTtHwMq+X0tk/k+tdENvaWT1sc=
+
+Name: res/drawable-xxhdpi-v4/btn_star_off_normal_holo_light.png
+SHA1-Digest: wriHjH+IbGkJqqTo82xGbRSb/lA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_OM
+SHA1-Digest: iPQ/4sahDPUNj7CLb4X+eEMNY2s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/46_sv
+SHA1-Digest: a5sFpLqwJ0GOKlqizcVhm+dMDec=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JO
+SHA1-Digest: KTnuJeszCYuiahu4zflNUDJa9yg=
+
+Name: res/anim/dialpad_slide_in_right.xml
+SHA1-Digest: 1rp+otxwFQgTafotSt/yUNnkEig=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JP
+SHA1-Digest: QpQOc4vADA1q7EahWr87MV5uWDg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1909_en
+SHA1-Digest: qqsr4+rEqnHCVOp21hJbt50gEj4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JM
+SHA1-Digest: OTB7tR826TJrULJiPuDXwX36dZc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1913_en
+SHA1-Digest: dz27vQ7TOY/TjuTpyYwI/MSP4+s=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IE
+SHA1-Digest: mcKFsH0GatsbmdTjQdRh0jztICI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ID
+SHA1-Digest: BkBerSKlrQMQY3/KH5RNV+n5huU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_QA
+SHA1-Digest: WICjeFr27fN7anVdxio0RVkYeGg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1716_en
+SHA1-Digest: NFDGfr2NeRirDLltHJf4zSw7pvY=
+
+Name: res/drawable-xxhdpi-v4/fab_blue.png
+SHA1-Digest: Tetw6ci5sQWKhkhhLvjtrJ7zsOI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1718_en
+SHA1-Digest: EXt3ABi5k593EkoOIxinmVW5Rv0=
+
+Name: res/drawable-xhdpi-v4/ic_menu_group_dk.png
+SHA1-Digest: gseZdPDSLOK6zItHnHws5HP/XYc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1407_en
+SHA1-Digest: l9jwb0ER9Sb1/bXaiCINrmQo73c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1615_en
+SHA1-Digest: VwbATINf/jPmsspx3JLBSIwgTVo=
+
+Name: res/menu/edit_contact.xml
+SHA1-Digest: usvm+ReQapMss5h8sMHiovvyrww=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PT
+SHA1-Digest: idBrYquBKHA1Y36f72VMzGRgifY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1657_en
+SHA1-Digest: papfkGR3YH5tUbzRSabOHrtpK64=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PR
+SHA1-Digest: W7pvgFF3VzVSM9IGog1S1WZP4mw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PS
+SHA1-Digest: IGHtSws25qiaMxsqlBXqtxSsvMA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1979_en
+SHA1-Digest: x+Gyj2NpIO4xNgbiVC3MvPZ5kLQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IS
+SHA1-Digest: JvYMu8OKrL9lcqfrYDV9I4ltcFs=
+
+Name: res/layout/quickcontact_expanding_entry_card_button.xml
+SHA1-Digest: onn3djcUCBFbBEtwrqVudS8/XOg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IT
+SHA1-Digest: CatC4fTYOKpgZJbH2mM3f/nSBU0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IQ
+SHA1-Digest: VFc4xI5nUj1n8/U6qztKBLpJp48=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IR
+SHA1-Digest: 6nXRpbNbAuqDvlBHdtG30O0CRG4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/421_en
+SHA1-Digest: ouqGZjoc3jpwxurAuhzeoj9Zmto=
+
+Name: res/mipmap-xxhdpi-v4/ic_contacts_clr_48cv_44dp.png
+SHA1-Digest: uNZ69hkvqH2UE1E8LkpymoCwZIo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IM
+SHA1-Digest: TaW3gRKjop4Pi5G+R3Dk6vm0V+U=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IN
+SHA1-Digest: BYe7nV7/sNQ9Pohqd3g8yQY2qgU=
+
+Name: res/layout/dialpad_key_star.xml
+SHA1-Digest: o6kZFzpJ84smnxSeAO/gNIfLFOQ=
+
+Name: res/drawable-xhdpi-v4/ic_voicemail_avatar.png
+SHA1-Digest: /zl7i8WJ0xBr6NwDf7P4MqDH/eM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PY
+SHA1-Digest: 0YjHGDh9jac/0gpxStTX8wtMr78=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IL
+SHA1-Digest: noPCK0eckpRYQhQWHyZztIoLLvo=
+
+Name: res/drawable-ldrtl-hdpi-v4/list_section_divider_holo_custom.9.pn
+ g
+SHA1-Digest: oQuXSvHnkKeENam8j8lqJYq9g1M=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PW
+SHA1-Digest: phVp2GMskybPur1giJmEDXf4+mk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1705_en
+SHA1-Digest: w4Uhgh377MX+YEDbDjC6Bac+1H8=
+
+Name: res/drawable-xhdpi-v4/unknown_source.png
+SHA1-Digest: h0eYU1n8BSdE4+9RqlEjDP140AQ=
+
+Name: res/layout/contact_editor_label_name_dialog.xml
+SHA1-Digest: OPQO/t04Kk2FDXSN6HUqRH88qMs=
+
+Name: res/drawable-hdpi-v4/ic_menu_star_holo_light.png
+SHA1-Digest: A2bZ3iMSpHbaQwC2O407fzuME/E=
+
+Name: res/layout/editor_account_header_with_dropdown.xml
+SHA1-Digest: zM+RWyQaxAAzhjCU4JtEeqhH0EA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1647_en
+SHA1-Digest: s5xC5tbgFQQ9co+DLYaDXpeb5Yo=
+
+Name: res/layout/directory_header.xml
+SHA1-Digest: rDhf1N0lPLvwmuWDiQ0IN8oP5HE=
+
+Name: res/layout/contacts_unavailable_fragment.xml
+SHA1-Digest: F+OwPTM+2hVweqMdcw1f5EbZCBI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/48_pl
+SHA1-Digest: K2OXzD+7ArLaaCBFnGO0lf6x1hU=
+
+Name: res/menu/group_source.xml
+SHA1-Digest: Q98uCm2cMFrS1eHNV4J58YsR11E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1269_en
+SHA1-Digest: 4M6+sN4rLpwagYaLFc9pP7h8v5s=
+
+Name: res/drawable-xxhdpi-v4/quickcontact_badge_overlay_pressed_light.
+ 9.png
+SHA1-Digest: SHBy12PX/xp3uhf+ReK/OmgXq4k=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1256_en
+SHA1-Digest: aKbj7KIFrbM3foWHyW9LL7ZOgfU=
+
+Name: res/drawable-ldrtl-sw600dp-hdpi-v13/list_activated_holo.9.png
+SHA1-Digest: rubbDGYAKo0BkAr4JVLvv80eoBA=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_add_group_holo_dark.png
+SHA1-Digest: 3xC/d2m7eNRag2/q48fNvoroyXQ=
+
+Name: res/drawable-xhdpi-v4/ic_overflow_menu.png
+SHA1-Digest: zeH+G79PhotggndAQN/0qY8OyS8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1406_en
+SHA1-Digest: 0hl765b0dNTj3+yvvHXJrhMXDiI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1575_en
+SHA1-Digest: ndyUJVnjFDzJU9X9MiOMnQUuozE=
+
+Name: res/drawable-hdpi-v4/list_pressed_holo_light.9.png
+SHA1-Digest: 8fFdZoyOA0FyEP0K/a0QnLk0bbE=
+
+Name: res/layout/group_account_header_vertical.xml
+SHA1-Digest: 5850IQchb6JIWeaZFLPgWt9yhpw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1506_en
+SHA1-Digest: fQ6c9Gn1w+5pzFer/9qlrI3ALVs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1708_en
+SHA1-Digest: 9u4elvTikluP8kp44ff5R7ghH4Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1276_en
+SHA1-Digest: RO4Px7RKYMbzsGKEeIA0DlcN/EQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1510_en
+SHA1-Digest: DfaTG7ucYN+bvNu3JioHkcGJe5k=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1904_en
+SHA1-Digest: tcigsSWZNwbLTLclLqTL/oOamss=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1660_en
+SHA1-Digest: qpiVfrsesSvAboePtcy9NtsGdtE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1207_en
+SHA1-Digest: cqXWTMUJ+aSbngO4PQhIzI0M+fA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1940_en
+SHA1-Digest: nZboa2PKIgLWQjVychTciR5rXMQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1818_en
+SHA1-Digest: tY4ZB1yxoYOABsDbN+dU/6jCgTs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1580_en
+SHA1-Digest: X8Q+K5yK2GORSHu8ByvRN9go/FQ=
+
+Name: res/drawable/list_selector_background_transition_holo_light.xml
+SHA1-Digest: z75rpCGpsP9+m96BWrYnwVi94cU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1224_en
+SHA1-Digest: ImdOOx0WTULAmsqR+WfDrPKeG+4=
+
+Name: res/drawable-hdpi-v4/ic_ab_search.png
+SHA1-Digest: CFcOQXSpTjRMtzjmQzg7uumkmqQ=
+
+Name: res/drawable-hdpi-v4/aggregation_suggestions_bg.9.png
+SHA1-Digest: oQyftgZ72DJ8Xt+JygmJecAjtJ0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1906_en
+SHA1-Digest: mEGW9QDdJYKRgc3389ofRucA04c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/232_en
+SHA1-Digest: 4E+hEOvwoIqf5T8lf5K8WkTXBDg=
+
+Name: res/drawable-xhdpi-v4/ic_directions_24dp.png
+SHA1-Digest: k3xDqSXaHG4+1JX1LNPDKDUnGPg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1443_en
+SHA1-Digest: gFNFtvV9vX21nxfBJxCm9iUgQas=
+
+Name: res/layout/contact_editor_accounts_changed_activity_with_text.xm
+ l
+SHA1-Digest: /BZwgnXa06FmlcdvY9zOKmKOod8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1402_en
+SHA1-Digest: P8mBRJxM+74mpP3aY7Pmryn/cHQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1912_en
+SHA1-Digest: e1Xqa/RQ35Ciolj58TVNr1pNq+I=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_7
+SHA1-Digest: ++F/BtCrUwz7P52Agrem1zBo7MI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1479_en
+SHA1-Digest: TUQv94rps2KK/AbKirsqFwrwXF8=
+
+Name: res/layout/contact_picker_content.xml
+SHA1-Digest: KtykRqQ9X8AEPQCcL3kp1nElB5o=
+
+Name: res/drawable-hdpi-v4/quickcontact_badge_overlay_normal_light.9.p
+ ng
+SHA1-Digest: UA8vCsBwBtWPBD74hMjApy7Fouc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_350
+SHA1-Digest: 1dsh1jmlpctbk3mLLs20rDvMeHw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1267_en
+SHA1-Digest: fy2x4d8NTQ5Ue7Tv9GKT2Q3SD6Q=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_352
+SHA1-Digest: wG8Amf2IUehX/g5l0F2/BDWC8XM=
+
+Name: res/drawable-xhdpi-v4/list_section_divider_holo_custom.9.png
+SHA1-Digest: 4prFh0Z3SsfRrk7djyz6AWPkbLI=
+
+Name: res/anim/dialpad_slide_out_left.xml
+SHA1-Digest: VqFRkyvSHbpJhean/EeC48Uu2zY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_351
+SHA1-Digest: Mms7D5naQaHUlKhoBn+xBnme4nc=
+
+Name: res/layout/split_aggregate_list_item.xml
+SHA1-Digest: yr+zKuPCsx0bwApb8RFtw5NykiI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/266_en
+SHA1-Digest: QoLuaOsNSOFpIi8EigLrXruGPI4=
+
+Name: res/layout-land/quickcontact_activity.xml
+SHA1-Digest: PNBgNv6LXJcgWtKAqKhm7f0TQ/k=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/244_pt
+SHA1-Digest: OJmGae1oGXD41JEEez+67wYRRQg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1662_en
+SHA1-Digest: LvK3ZsT4pzXdvR4DA61khPr8TPE=
+
+Name: res/layout-sw720dp-v13/quickcontact_activity.xml
+SHA1-Digest: H6r79tTvFg/cq65yWtKOZ7RLmwU=
+
+Name: res/drawable-xhdpi-v4/ic_ab_search.png
+SHA1-Digest: F3iOLvoFahtcoiNT7y3X9GxprBg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1809_en
+SHA1-Digest: r/8coiuFTWroLBQW3OWXPHCIeCU=
+
+Name: res/layout-sw600dp-land-v13/group_browse_list_account_header.xml
+SHA1-Digest: WIZbUSUdGQTbagOzYXEjH9NmMm0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/245_en
+SHA1-Digest: 20oENANixtqo9MmgibhN9KQoNAs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1702_en
+SHA1-Digest: 7OgDnVAaODvEUp5DBMNVOlrPEuQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1201_en
+SHA1-Digest: b56wu334wUkMu8YzPoo0mFEyFy4=
+
+Name: res/drawable-xhdpi-v4/spinner_default_holo_dark.9.png
+SHA1-Digest: NZunsRQfkWEB2L9VgvXapji55+g=
+
+Name: res/drawable-xhdpi-v4/badge_action_sms.png
+SHA1-Digest: qGFIJlzCaNeVIQD4T2UVXKy7NdA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1902_en
+SHA1-Digest: g8bc0nP0vW8LAqycjc5vkvXgY1s=
+
+Name: res/xml/preference_display_options.xml
+SHA1-Digest: v3lSldBlUxWNs89VRR9SARw9cqM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1951_en
+SHA1-Digest: WsU2ufYbd4TgvNyrc0OxJpQpP+c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1409_en
+SHA1-Digest: ZmsxvDAnZtnl+p3N6uSEbRmcl7o=
+
+Name: res/menu/star.xml
+SHA1-Digest: jlupt06u+JT8DFVusnylhKG/0as=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/370_en
+SHA1-Digest: 47PfKirpE0VUvp0fq99jtoPK7Hs=
+
+Name: res/drawable-xhdpi-v4/list_pressed_holo_light.9.png
+SHA1-Digest: 5rSZbdJDOTdM5kJhhIdl8m8briI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1610_en
+SHA1-Digest: y+odxYcnPUa3gILSszqRKig9u9I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1831_en
+SHA1-Digest: 6EHuqMDo04TrwdQCBD3kyEr+2VY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/251_en
+SHA1-Digest: hg1+2mV7yjw6nKiIujSdOjQkK8A=
+
+Name: res/layout/account_selector_list_item.xml
+SHA1-Digest: ln+EMBReiZhAMaLub0FvUYc5iVA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/31_en
+SHA1-Digest: fFEiYxUyEPwK8sRFj3G8b8kCuQ4=
+
+Name: res/drawable-xxhdpi-v4/ab_solid_custom_blue_inverse_holo.9.png
+SHA1-Digest: D9xEMqpP4G6MkeEgKDwQAl83kYU=
+
+Name: res/drawable-ldrtl-xhdpi-v4/quickcontact_badge_overlay_normal_li
+ ght.9.png
+SHA1-Digest: OfWsDNA3XSHSUX9QKpYK7i0D1xo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/badge_action_call.png
+SHA1-Digest: AAtGTUjfOLg3Tt7ntaTwep61CS4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1780_en
+SHA1-Digest: hTcswNXmVL6tsLzvTsLe0znNe8o=
+
+Name: res/layout/text_fields_editor_view.xml
+SHA1-Digest: v2Y9sjzHUFdwk+ANdGqnvm8WGdc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1559_en
+SHA1-Digest: brOIHBgKf41hCOKRgYwmTDBsQYI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1947_en
+SHA1-Digest: DTfFYiVpjde3MKAFm7PqOAVWeQE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1339_en
+SHA1-Digest: 6Yx/7TaoV3I+Z5Z795kTTO+HZZM=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_star_lt.png
+SHA1-Digest: 2FV8ckJNXVt5A2AISq1ABCYJxcM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1724_en
+SHA1-Digest: T6lRhFYWZxFvT22wyYxV4PQ//eo=
+
+Name: res/menu/quickcontact.xml
+SHA1-Digest: QEBMs8UJwEA1Cje7rN5XmMoQ5X8=
+
+Name: res/layout/contact_tile_starred_quick_contact.xml
+SHA1-Digest: nr1GMiTj7w9GXVE2E7AmY48p0BY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1337_en
+SHA1-Digest: GOG0LKqyQbS4PkkKhxAVIkL+m0Q=
+
+Name: res/drawable/item_background_material_borderless_dark.xml
+SHA1-Digest: 80uWi3z6eNVPOYfV+giu02RbOps=
+
+Name: res/drawable-xxhdpi-v4/ic_contacts_holo_dark.png
+SHA1-Digest: tyAzZsI0aN9eH5teAmsLgWJkKOU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/359_bg
+SHA1-Digest: f3i2ll4RcRV5FqLaV25egobiviE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1413_en
+SHA1-Digest: qlRZraeszE71Y0XRCA/x6QohhpI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/245_pt
+SHA1-Digest: 9yPZ/2JeGWK5lleN3LtAd3QxJBQ=
+
+Name: res/drawable-hdpi-v4/account_spinner_icon.png
+SHA1-Digest: 6lXcjxW2uHtkpmLZiVBNCWaGRN4=
+
+Name: res/drawable/action_bar_item_focused.xml
+SHA1-Digest: sm3VcVAVCAQrJGNUtt+Xb9uTZFM=
+
+Name: res/drawable-xhdpi-v4/ic_business_white_120dp.png
+SHA1-Digest: UfuPD9rrCUql7WQ3l+kX9f93QfU=
+
+Name: res/layout/editor_custom_action_bar.xml
+SHA1-Digest: GETJMlSa4i2Ujf4Aaz/pP9ShnkM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1872_en
+SHA1-Digest: NPXidO7QZ8pNqzphynk6eB9xOQw=
+
+Name: res/layout/people_activity_tabs_lands.xml
+SHA1-Digest: Bvb9mRAL7Up5+dX/DUVXOm+QrME=
+
+Name: res/drawable-hdpi-v4/ic_message_24dp.png
+SHA1-Digest: vZ+HcNVhj1u2I4uSi2UQ5SXWdPs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/57_en
+SHA1-Digest: WbC90vxaqk6OOaXL0D+CEc23OrA=
+
+Name: res/drawable-xxhdpi-v4/ic_dialpad_delete.png
+SHA1-Digest: Y0SA8rcTNdHcmcM/LyJuY3QSXb0=
+
+Name: res/drawable-xhdpi-v4/ic_call_arrow.png
+SHA1-Digest: q1ckXszY7Owc2oK5lWkoRIeNaRI=
+
+Name: res/xml/file_paths.xml
+SHA1-Digest: ZvqOx0OnSiDUhL0EeiPpVf5rl6o=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1316_en
+SHA1-Digest: PfpB3npu+EvVuFWVRXpRE//nKms=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1732_en
+SHA1-Digest: lXXIY0SB/cjJviMKKxx6HxxmDhY=
+
+Name: res/layout/user_profile_header.xml
+SHA1-Digest: lrYsTA9tcSEKkO2KeHozbDVzIKU=
+
+Name: res/layout/people_activity.xml
+SHA1-Digest: u/Npk4wbDMRqtaqWDO4KHb8ebQ8=
+
+Name: res/layout/contact_detail_separator_entry_view.xml
+SHA1-Digest: cbpaEAapbxQQSnvnxRDmJySw+8E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1312_en
+SHA1-Digest: sNT9o7jo7YRAnS4FCoGY1Ef3Nds=
+
+Name: res/layout/group_member_suggestion.xml
+SHA1-Digest: +9Gyy1UuOz+wx0pxjqQPM6cOTmA=
+
+Name: res/layout/aggregation_suggestions.xml
+SHA1-Digest: AAz37JJ0GelFAsbrivVAN8ZjsbM=
+
+Name: res/drawable/frame_thumbnail_contact_widget_holo.xml
+SHA1-Digest: wsr7hYQQhEqf3K5PdEq9MKY0dao=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1323_en
+SHA1-Digest: UCgwhdVi+iGf34D4A63K5d044Z0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/229_fr
+SHA1-Digest: mkJ8Dl01fA1OLceaRLgn54fL60c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1251_en
+SHA1-Digest: sPvR3dbPf45EOM8h7PYJziMh4BU=
+
+Name: res/layout/edit_date_picker.xml
+SHA1-Digest: IraU/Gn1qQXVKwos5IRE+bW3/Ss=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_add_contact_holo_light.png
+SHA1-Digest: BaZ3UROjraAZ3Q7k9noxj2Iu1zc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1585_en
+SHA1-Digest: ZLiaKCjzpiHgbWDNri7XYG9Mcco=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/233_en
+SHA1-Digest: 1047fXIsCJ301eZh8FG01SHy/KU=
+
+Name: res/layout/group_editor_fragment.xml
+SHA1-Digest: lhhJhWdRpqmOMw3zDzgy2o4r7mE=
+
+Name: res/layout/contact_picker.xml
+SHA1-Digest: jkdw7uL3WRnPCU7UPFKXIXv9dVo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/spinner_default_holo_dark.9.png
+SHA1-Digest: gm2DQ+IfAn5U3N79tocw1aKZcFs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1941_en
+SHA1-Digest: q2d/q43Y2ySjLQaSgn/dpNIsjPE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1857_en
+SHA1-Digest: ikazgmGF3QeNZ4KbMDRu4eGXhQM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1228_en
+SHA1-Digest: +Q2UWMesKmyxEy3OWKBrmtcp3yQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/355_en
+SHA1-Digest: CZF6zW/bgGZbRIQIbOlyE8O3IAY=
+
+Name: res/layout-sw600dp-v13/external_group_editor_view.xml
+SHA1-Digest: HPsMdCOioRFBj2+LjvHNufFBZrc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1213_en
+SHA1-Digest: uAS+hb8XcuTNgeT9HHqVWhgAPC8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1772_en
+SHA1-Digest: NjFxTbhFga9K6zs66m2zSiV8o6E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1601_en
+SHA1-Digest: tn82anluwt6hfhkePOkFRdtScDk=
+
+Name: res/drawable-xhdpi-v4/ic_text_holo_light.png
+SHA1-Digest: KebH+HNMedXSOg5nhjjq4qWHwCQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1504_en
+SHA1-Digest: E294Ka0F5GZ8GJz97hYuQtqhOy0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1682_en
+SHA1-Digest: rhOJDIs5rkNRh1mb06l30n272N0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1240_en
+SHA1-Digest: UspLSvwglcbS4WooDfvooo4Ph7Y=
+
+Name: res/layout/group_editor_view.xml
+SHA1-Digest: 5DXLF3IpsWMZfE1mtf51oy6ahuU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1636_en
+SHA1-Digest: TDFQ4j0u3TvVazQMx+1c6vWlrI4=
+
+Name: res/drawable-xxhdpi-v4/ic_add_to_circles_black_24.png
+SHA1-Digest: nJ7IzB6UXC6uwDoxgNrMI9551y8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/374_am
+SHA1-Digest: HXg2a9jHpQs1lT7RYjeJ+Yw27do=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1754_en
+SHA1-Digest: wFlQ8/9k0epWCEG++xq/4HbzVRU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/91_en
+SHA1-Digest: 4I29pLlfjrKxRwr2xHEAZtxxpzw=
+
+Name: res/drawable-xxhdpi-v4/expanding_entry_card_expand_white_24.png
+SHA1-Digest: siUzKa5Px5KvWXJ83+vt7LUF90c=
+
+Name: res/layout-sw600dp-v13/group_browse_list_account_header.xml
+SHA1-Digest: 3orEN6YRUxZCo4etqKgq9zX2SBY=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_text_holo_light.png
+SHA1-Digest: /dwBne4mpHFdTnMy6s8tbOCbp8E=
+
+Name: res/drawable-hdpi-v4/list_section_divider_holo_custom.9.png
+SHA1-Digest: 09G1KAMv0K3DbgP/vjbF+ji+5PA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1252_en
+SHA1-Digest: S/Lq8PumJ+L4qBCqZks3+mdLkZk=
+
+Name: res/drawable-xhdpi-v4/ic_menu_star_holo_light.png
+SHA1-Digest: gJYwk2Lz3yO6I3J6j10BXlmspf4=
+
+Name: res/layout/contact_tile_starred.xml
+SHA1-Digest: h4RtbQsVOEor91P3JE9wGTb2rMQ=
+
+Name: res/layout/group_detail_fragment_empty_view.xml
+SHA1-Digest: p/lj9Aj7vvgoELLAGGiVIbAxnfg=
+
+Name: res/drawable-xhdpi-v4/expanding_entry_card_expand_white_24.png
+SHA1-Digest: erKwFG/yGChfsySKpr1rSiJYiU8=
+
+Name: res/drawable/action_bar_item_pressed.xml
+SHA1-Digest: sm3VcVAVCAQrJGNUtt+Xb9uTZFM=
+
+Name: res/drawable-hdpi-v4/ic_phone_24dp.png
+SHA1-Digest: NLzDPxtuOHHx0sRfMVpIiBoEkAY=
+
+Name: res/drawable-hdpi-v4/ic_dialpad_voicemail.png
+SHA1-Digest: 35Z0YAnAtZzL2z8GtQFrFfyLhts=
+
+Name: res/layout/contact_detail_updates_fragment.xml
+SHA1-Digest: vvvB/bXZX3GHqCBnzMDyCpdtnjI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1937_en
+SHA1-Digest: MAvmEUBNKFgAA29enhKxpRAkJhE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/359_en
+SHA1-Digest: nCjt2x86YyN018HKMKc/IB0tPNc=
+
+Name: res/drawable-xxhdpi-v4/fab_green.png
+SHA1-Digest: ctlJKrU11RjnGaopxjRUL5RY6VA=
+
+Name: res/drawable-xxhdpi-v4/ic_group_white_24dp.png
+SHA1-Digest: 3gPqGpjA5/oOLAGBnuSc3g7c+Jg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1619_en
+SHA1-Digest: WwG3kBgxjHVx9IUTOnjE3gNjfqo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/48_en
+SHA1-Digest: NKmK3gYM3Dbb2FDqIDjSoMnsQ+8=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_add_contact_holo_dark.png
+SHA1-Digest: 6ROu5kdNiRLdHRC4a1MdsAh2cF8=
+
+Name: res/drawable-hdpi-v4/person_white_540dp.png
+SHA1-Digest: Bmi9zzLX03XsgFUnmull1ccSPFE=
+
+Name: res/drawable-xhdpi-v4/logo_quick_contacts_mail_color_44in48dp.pn
+ g
+SHA1-Digest: 43L5UZI1zNIe/Sm3GH8wyHpmpfs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/249_en
+SHA1-Digest: u4jQECYtRfao4uSVyydTlpG8AmU=
+
+Name: res/drawable-xxhdpi-v4/sym_action_videochat_holo_light.png
+SHA1-Digest: hqQmTwJIxEGbJEYLZIQlXNsrWHU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1517_en
+SHA1-Digest: ac+6qT3iyGj3HA+6Qzf5kUpGbEs=
+
+Name: res/drawable-xhdpi-v4/quickcontact_badge_overlay_normal_light.9.
+ png
+SHA1-Digest: WStXpFKjhTKbXzAs6+uBtCzeKt4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_358
+SHA1-Digest: BdiB3G40E33JhpAaQnPmGM6npwk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1573_en
+SHA1-Digest: 7fl/RijAjSbVc/m/xjv32SOUvMg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_359
+SHA1-Digest: OH/iiqVq50dBV79hJSr2rKoXM5E=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_person_lt.png
+SHA1-Digest: M8IAFiGZTYbmJuYSEGQyZkikB5U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1501_en
+SHA1-Digest: 18Y5ny6oafKcPYWLMIxzGR2i0ro=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1650_en
+SHA1-Digest: d8SeXFRd0hDrR68WC80uD8OfUaI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/290_en
+SHA1-Digest: niq51HLbyM8OkXCURWjX9wxRSWs=
+
+Name: res/drawable-hdpi-v4/ic_group_white_24dp.png
+SHA1-Digest: b6+UHKX8vYMKthrfWnKEkYSPym0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1385_en
+SHA1-Digest: us62TlYdn/WQWP+nX1LXMropvKI=
+
+Name: res/drawable-hdpi-v4/ic_text_holo_light.png
+SHA1-Digest: mCRn43z7p2wN4KygN082g5dClwY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1805_en
+SHA1-Digest: BqiLBk5aUTtkjdiAMUb1iFylTjY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/31_nl
+SHA1-Digest: 1HJAHOayMB2pVTgz+p1I/nq5XCE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1229_en
+SHA1-Digest: DOO7VDvjj3B4N3OGC5p9ks83hbo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1514_en
+SHA1-Digest: /VAk0cpOp5SnpMGSM2tCnwWibW0=
+
+Name: res/layout/structured_name_editor_view.xml
+SHA1-Digest: sMOOxm+0K7ybYlTVAepCs/s+DLY=
+
+Name: res/layout/edit_kind_title.xml
+SHA1-Digest: h6qXDpoh9PVJhdxmBOvjeMaKW4Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1425_en
+SHA1-Digest: KslA0NOgbVhxWbzN6up4vJst8dU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1949_en
+SHA1-Digest: cQV52IYOamRRw6FSTMStWkmbesE=
+
+Name: res/layout-sw600dp-v13/group_editor_view.xml
+SHA1-Digest: 2YI3rJZMPDj5EhpfgRPM6PXXXZ8=
+
+Name: res/drawable/ic_back_arrow.xml
+SHA1-Digest: 3UIg0AhI3dATU5SHiyQE+7EDgk8=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_groups_holo_dark.png
+SHA1-Digest: OZT3zuuVHXSPBvhEqDu0wBpL0WM=
+
+Name: res/drawable-hdpi-v4/ic_menu_group_dk.png
+SHA1-Digest: 4GCcEAnMhD0BpSdLVb5Z6PJ+yMA=
+
+Name: res/drawable/ic_tab_all.xml
+SHA1-Digest: z5G17EyaGvVT0M85iAQcqOJZpdM=
+
+Name: res/drawable-xxhdpi-v4/ic_text_holo_light.png
+SHA1-Digest: dlkkPYG0byvIRG7BePTql/ka6G4=
+
+Name: res/layout/external_group_member_item.xml
+SHA1-Digest: Pl3C7Gvp93a7xSZ4cxADPb72xQA=
+
+Name: res/layout/aggregation_suggestions_item.xml
+SHA1-Digest: lgOfKj5TQHlYDw7fcJ1WqN4Dmw8=
+
+Name: res/drawable-xhdpi-v4/aggregation_suggestions_bg.9.png
+SHA1-Digest: WSqGBpDLoana89cPf185Ojupn/A=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_back.png
+SHA1-Digest: S8vBJinko2EF+Zq/IezHcx+Lw5c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1254_en
+SHA1-Digest: UUSMUc1iU5RFEOpwz9VhAx6F/HE=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_text_holo_light.png
+SHA1-Digest: 5IqGXeLiJNikjHdi7Y2MlA5EcRI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1719_en
+SHA1-Digest: wtNik+sYBlNYeJyV2Xbyv0zYC28=
+
+Name: res/drawable-xxhdpi-v4/logo_quick_contacts_mail_color_44in48dp.p
+ ng
+SHA1-Digest: JzW245e97mzeZp0OSAmNmRIiDEQ=
+
+Name: res/layout-sw600dp-v13/aggregation_suggestions.xml
+SHA1-Digest: tz/MApOz7f8di/NsjXKFajbR3SU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/420_en
+SHA1-Digest: 7ahg/zp4tK8/Aw+82a2Ui944+TE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_373
+SHA1-Digest: cSjMHtHIeYx8NPtkRndSSBuoZ98=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1786_en
+SHA1-Digest: OpCT/VcIb8C2HKXWuP0UQDrwnp0=
+
+Name: res/drawable-xhdpi-v4/ic_add_to_circles_black_24.png
+SHA1-Digest: oefcZ/4Gyz2JqfSC0Ewr6dBOMrA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_372
+SHA1-Digest: JZwfMXoGUZqHYvczzIvFBYzPVG8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/46_en
+SHA1-Digest: tysIryPwFq7UAk2CDAlsFAJj3Gg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_375
+SHA1-Digest: 4gnH58JyJO9ZBj8MNMws2LGhIEM=
+
+Name: res/drawable-ldrtl-hdpi-v4/spinner_default_holo_dark.9.png
+SHA1-Digest: +wDg0lFt5wKrAxcAOzdNntWN3rs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YT
+SHA1-Digest: cXbMKe6pREwZBzSVUa1rEcqWfyI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_972
+SHA1-Digest: Tl50phuH8I0GxBh/Drf9vHens0Q=
+
+Name: res/drawable-ldrtl-xhdpi-v4/list_title_holo.9.png
+SHA1-Digest: 9zW7gzTxkCChFLY7YQzNxicVYmA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_971
+SHA1-Digest: US/xxHef76UTD882Ez5EnNvcaws=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1518_en
+SHA1-Digest: rGfeizNgPJO8SlcfHSfsLdtiboE=
+
+Name: res/drawable-hdpi-v4/ic_videocam.png
+SHA1-Digest: o2tC+TYweKQnfT0kS4e4j+C+03U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1225_en
+SHA1-Digest: JkIdzkJQdM0GIGnCijOL3lvKrfI=
+
+Name: res/drawable-hdpi-v4/ic_scroll_handle.png
+SHA1-Digest: IIzpXptlTBbuUC5Jstiaatm982s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_595
+SHA1-Digest: Rdp/JhmBpcj6Pr5wipf91JAKESY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_380
+SHA1-Digest: ooR6xh/a/iu1b6CXk+RjF7LeHoc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1417_en
+SHA1-Digest: pVa6U9etNC+Xwt+5NedJGRkDwWk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_381
+SHA1-Digest: 2JnA+oMJ+vJKy4hQpTtSxQVpZ5Q=
+
+Name: res/layout/join_contact_picker_list_content.xml
+SHA1-Digest: Fq/xhwmXX7SBGJ5M3TB2nlZSXv0=
+
+Name: res/layout/event_field_editor_view.xml
+SHA1-Digest: axEpTVAH+v1NdAn8F+HecOx/9/M=
+
+Name: res/drawable-xxhdpi-v4/ic_create_24dp.png
+SHA1-Digest: DyzhD9rdEILjAwela1uQtIpvVNQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZA
+SHA1-Digest: I29bUQkgyXligJyPjjZSktYPO2E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1712_en
+SHA1-Digest: e38lXC16keMjybVKWa3tWdQYSRg=
+
+Name: res/drawable-xxhdpi-v4/logo_quick_contacts_color_44in48dp.png
+SHA1-Digest: ZSo6/0UNUiEFsz35t1hZyAb+JBo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_385
+SHA1-Digest: yPAb2zGtOtW4C/VTuGdD9hVTPww=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/290_fr
+SHA1-Digest: ruvYTGUi8d+XC1MFi5fqjN/YV0U=
+
+Name: res/color/tab_text_color.xml
+SHA1-Digest: U3rpBI2fs6+LcHsVu7neCeoTwLs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1301_en
+SHA1-Digest: ndj/jIe0u1TvKe0KXrxsdjbPjfk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/81_ja
+SHA1-Digest: 3XzTNwU9F8jvWqDHq6fGVu/PX9Y=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZW
+SHA1-Digest: 63J/kvJcNxrvcgAPaL9Ue+FH41o=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1209_en
+SHA1-Digest: bSJSdG4A5ITiTuYCG+4gP5i+OXI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1304_en
+SHA1-Digest: xdtDpevxRx06Yjq0wmw4c8Zsctc=
+
+Name: res/drawable-xhdpi-v4/account_spinner_icon.png
+SHA1-Digest: OocdRD/qOfLqTU3ICOTBnfKgFhM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1936_en
+SHA1-Digest: V6io4gClwYiywV8xOfFy0wqM0vA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZM
+SHA1-Digest: DXJorIOTg3+wqBCneGeb+yEd0qk=
+
+Name: res/drawable-xhdpi-v4/ic_menu_remove_field_holo_light.png
+SHA1-Digest: acH0X6FrO9DwREx55Bd9nvdTiRM=
+
+Name: res/layout/raw_contact_editor_view.xml
+SHA1-Digest: sarWj+VKZ4jo5p/DTv2MytzBLCg=
+
+Name: res/drawable-hdpi-v4/ic_add_to_circles_black_24.png
+SHA1-Digest: ln7hyzmtn7nLP+dx0LOJQwH4xNI=
+
+Name: res/drawable-xxhdpi-v4/ic_business_white_120dp.png
+SHA1-Digest: Ux0Vehwlg5FjcfrEuzKIa7WhkZ8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1971_en
+SHA1-Digest: 2KBzSMmX9/SlxDosTFR6Ca6sgwY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1850_en
+SHA1-Digest: SmiPKBbwLi12lvMaPQlSvqFLPps=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/268_en
+SHA1-Digest: /ylkFJjVV3YJJKynG5YEGuVcNRY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_855
+SHA1-Digest: COUdI62w67El5HnnJocGdX/mrQU=
+
+Name: res/drawable-xxhdpi-v4/list_activated_holo.9.png
+SHA1-Digest: DE2YGdaq8AELvz7KYKb94gCRldg=
+
+Name: res/layout/people_activity_toolbar.xml
+SHA1-Digest: Z426SUwWWBEewDoTR7kIlzyZKng=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1606_en
+SHA1-Digest: C/Fx6VZi/e/cStoTj6oteBY/jCs=
+
+Name: res/layout/dialpad_view.xml
+SHA1-Digest: cN8rj6YDcpzEnvIu60CnQtT3YRU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/352_fr
+SHA1-Digest: 7K4mSM9PgzlBiOJqIlrX9fPCfUs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1216_en
+SHA1-Digest: 0+neAfdhM0WJgInyJ7F8VSb+VaM=
+
+Name: res/layout/floating_action_button.xml
+SHA1-Digest: llkpB6+GFGfYug9iACE+LaZNWMs=
+
+Name: res/drawable/gray_action_bar_background.xml
+SHA1-Digest: JBOiGnWEvIdcBa6LdomXfmTfKDg=
+
+Name: res/layout/item_kind_section.xml
+SHA1-Digest: qKeQnM6nzX7ACRIS3FiDsFleiU4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/256_en
+SHA1-Digest: Hq7QEwoTpK0Cwik4RNtYQULKXIs=
+
+Name: res/drawable-xhdpi-v4/ic_menu_person_lt.png
+SHA1-Digest: myS2qFxQndZZbYxPs43VyPqC2AE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/55_en
+SHA1-Digest: Sa61crPAZZLD2puoqL0ntTIw/R4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1418_en
+SHA1-Digest: 6c3dyk5lM+brd2NhwhotDhGcJTY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/375_en
+SHA1-Digest: obqHeIAfWfTMoA6pFCIvs7ttZo0=
+
+Name: res/drawable-hdpi-v4/ic_contacts_holo_dark.png
+SHA1-Digest: Y/sxVArBFvIKQ1QYSaAv4KqHwME=
+
+Name: res/drawable-ldrtl-xhdpi-v4/list_focused_holo.9.png
+SHA1-Digest: zeOpPZulJWZhxdQlv2TcHkJ00Cw=
+
+Name: res/drawable-xxhdpi-v4/account_spinner_icon.png
+SHA1-Digest: /KvAfn4foBpD6hlkshlO2odrW6s=
+
+Name: res/drawable-xxhdpi-v4/ic_email_24dp.png
+SHA1-Digest: djpMiKqRqsmCU8QtwBmhejGULdw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1563_en
+SHA1-Digest: hL/daIpZAxYR+r8RFxfktSkTpLs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1318_en
+SHA1-Digest: Hnle+1cQsi2pX1ioBQhMlnuTqA8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1206_en
+SHA1-Digest: r4vviFjY5NIJ2ryFR/CTFeNWiFk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1202_en
+SHA1-Digest: I5semUbtZQQP++FyEnG5RGVsS5s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1605_en
+SHA1-Digest: BeggmgTptS+0Nu9ifVAin4mCBGQ=
+
+Name: res/layout/contact_detail_network_title_entry_view.xml
+SHA1-Digest: 5ubz8jMDnG31nXy4BdQcvA4+8zM=
+
+Name: res/drawable-hdpi-v4/logo_quick_contacts_dialer_color_44in48dp.p
+ ng
+SHA1-Digest: +4rkgdp8SPtVtkj+RJc3+E/2msI=
+
+Name: res/drawable-hdpi-v4/ic_menu_star_lt.png
+SHA1-Digest: wDGswpZSzhk6WKIoGXUjoas+1zM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/242_fr
+SHA1-Digest: Ugv7hXPpK7T1l15HAQJUSvhYbcE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1804_en
+SHA1-Digest: Cd9n4Q7j2gkZ1QhXeaDLoxdaxAo=
+
+Name: res/drawable-xxhdpi-v4/ic_voicemail_avatar.png
+SHA1-Digest: 5EKZ1Q3ZfW+DRQI5NYjt8sX73N4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1351_en
+SHA1-Digest: SY/csV4P947YrMV2iCFTXQ6eooE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1925_en
+SHA1-Digest: HG+BgcGSAZGch4WKv+boTr2d+Zk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/36_hu
+SHA1-Digest: nAUfSQpybuXG8ir+rHgL6pkfiCk=
+
+Name: res/drawable-hdpi-v4/expanding_entry_card_expand_white_24.png
+SHA1-Digest: zttO3GX/AkUXJZI/la3QxtXNaMw=
+
+Name: res/drawable/item_background_material_dark.xml
+SHA1-Digest: jDuA49X4yaJEhnnWt8mJTrzklAA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1972_en
+SHA1-Digest: oFDTVSNvlQRve0hHyOM5QPEBClg=
+
+Name: res/drawable-sw600dp-hdpi-v13/list_activated_holo.9.png
+SHA1-Digest: FHKlgkFJWeaabfXVms9MunqfRrA=
+
+Name: res/drawable-xhdpi-v4/person_white_540dp.png
+SHA1-Digest: tonBV/Xgmof/4QfOWywuBCgQ34M=
+
+Name: res/layout-sw720dp-v13/group_browse_list_account_header.xml
+SHA1-Digest: WIZbUSUdGQTbagOzYXEjH9NmMm0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_ar
+SHA1-Digest: tXfEPvGkTulSAR3ed5yustkbP7E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/372_en
+SHA1-Digest: AggzEO4rOpSLRrYc+ex3yn6QNxk=
+
+Name: res/drawable-hdpi-v4/ic_menu_remove_field_holo_light.png
+SHA1-Digest: tvZsHfUC7e0vNCBxwdx4FngPosM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1808_en
+SHA1-Digest: Pa3pYV4P52saZPrzf1WB36xaP5o=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/62_en
+SHA1-Digest: wZLUuRWE33dHlO1kLJVP/nI01Co=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_white_24dp.png
+SHA1-Digest: dL8hRdBbmsaUX3SVR8B3YW3oYDk=
+
+Name: res/drawable-xxhdpi-v4/ic_hangout_24dp.png
+SHA1-Digest: /uoErEroYI0BiaOYbGiZKxdNo+c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/90_tr
+SHA1-Digest: 2eqUpB6l9u6jB8mUN1dxNFbQMgs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1667_en
+SHA1-Digest: y2eMOc9Pe7b7y15TexBeIB3P2rc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1867_en
+SHA1-Digest: JcKdttT/SYjyaUqn2hV8DFL3O5Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1320_en
+SHA1-Digest: ZpPZDFw8AnwUOvfBJuH76BJJp0I=
+
+Name: res/drawable-hdpi-v4/ic_hangout_video_24dp.png
+SHA1-Digest: rX6sKq++cvoEU/R9luUaEeMTAnU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1530_en
+SHA1-Digest: sFXQmXdUoC7FDtnDKHX/dHvVjOo=
+
+Name: res/layout/date_picker.xml
+SHA1-Digest: jZ+u0T32dJlhIIfSqkp0B8VWCyc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/216_en
+SHA1-Digest: zpHC1mbDZkd8lKHFPoPg7IoRxKc=
+
+Name: res/layout-sw600dp-v13/text_fields_editor_view.xml
+SHA1-Digest: J5q3bsRO+O9TUp6BWjVjEk5G72w=
+
+Name: res/drawable-hdpi-v4/ic_dialer_sip_black_24dp.png
+SHA1-Digest: 4C4Pd7hyEzO8bRb4w5KH5sxHQmM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1978_en
+SHA1-Digest: c/z0yZaFLIhUe88MMBMN0LxDr6U=
+
+Name: res/drawable-hdpi-v4/ic_person_add_24dp.png
+SHA1-Digest: iQfVG97sExm10FrMmMtJfVkg7Z4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1574_en
+SHA1-Digest: Pf4B1Dc27h7sHGqapr2K2CMUGws=
+
+Name: res/drawable-hdpi-v4/ic_person_white_120dp.png
+SHA1-Digest: i3rCY5v60cc0LrfqDpBuvXKFkxI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1816_en
+SHA1-Digest: Z28Bh1VU8nig6xMTllrGLwLXuvI=
+
+Name: res/drawable-xxhdpi-v4/ic_star_24dp.png
+SHA1-Digest: /qD+T/796sWX0VEG6elkGFaKFm0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_cs
+SHA1-Digest: 6h9DmnJDEH4Yh//e24y7ARP4AdE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/239_en
+SHA1-Digest: j3tHTkniT2yU2fVPGjJa2ZehNik=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1431_en
+SHA1-Digest: KpFY9A0JzrgBSPD699MX3lx2Voc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1774_en
+SHA1-Digest: uvnPeEHn0fVt9pK8nDASvrWcbEo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/238_pt
+SHA1-Digest: tgUdkBpz50wZK9gii2TJXM68e5U=
+
+Name: res/drawable-xhdpi-v4/sym_action_audiochat_holo_light.png
+SHA1-Digest: kwt+VGJ+ACYJHOE9K6IHEjI4poY=
+
+Name: res/layout/dialpad_key_pound.xml
+SHA1-Digest: dTx+Ut7bnzkvyw/chVZq65NWFq0=
+
+Name: res/drawable-xhdpi-v4/btn_star_off_normal_holo_light.png
+SHA1-Digest: iK1chrqlmd6WvUv99cXhyfm5l/U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/54_es
+SHA1-Digest: 98Rcs0ZqUXfUY1AInhgqTmNdM/k=
+
+Name: res/drawable-xhdpi-v4/panel_content.9.png
+SHA1-Digest: 7YVFAXvizMBRDTrEzjBEobds20M=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/54_en
+SHA1-Digest: 4WTT2EStv4WlyReAiMs4WuLRqwY=
+
+Name: res/drawable-ldrtl-sw600dp-xhdpi-v13/list_activated_holo.9.png
+SHA1-Digest: Tu7TnVrg+JvCfsA6mIjRJ3RAXdw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1984_en
+SHA1-Digest: sQBDpxC8SEoxp0Su/2EGBWpfvno=
+
+Name: res/drawable-xhdpi-v4/ic_star_24dp.png
+SHA1-Digest: +IUkbynqrYuuAiTzb4ku50HamfM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1781_en
+SHA1-Digest: uAgDDConEGGBt32/3nM/wkmVCN8=
+
+Name: res/layout-sw600dp-v13/group_source_button.xml
+SHA1-Digest: YL2QDCHr41NOSoloyUzOOTav4KM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/375_be
+SHA1-Digest: 6cKeETW/vKWyWz0V9s7F73P5vys=
+
+Name: res/drawable-xhdpi-v4/logo_quick_contacts_color_44in48dp.png
+SHA1-Digest: zzwlXnNXOAiSVLMqdx4NDLUxkQs=
+
+Name: res/drawable-xhdpi-v4/ic_hangout_video_24dp.png
+SHA1-Digest: FLODhP/7KAK2zmbbIgAAqwDS6us=
+
+Name: res/layout/contacts_unavailable_fragment_content.xml
+SHA1-Digest: JtmJK7WVB6HWw/EVDGjn5XeWpgU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1726_en
+SHA1-Digest: FtYgcj3DGSqIFdPH/8HStaCgr9M=
+
+Name: res/drawable-xhdpi-v4/ic_person_add_24dp.png
+SHA1-Digest: R6eC7VRDgG8Kz+MJupWNSc8k6NY=
+
+Name: res/drawable-xxhdpi-v4/list_longpressed_holo_light.9.png
+SHA1-Digest: I+5+I8Glvy2IsIw0hQ/hFirU8cE=
+
+Name: res/layout/contact_detail_list_padding.xml
+SHA1-Digest: qYSVrnV4A4/qFvrMXxOVoL1fnaQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1720_en
+SHA1-Digest: 1DHQyCGbd6S708vttVGY2g8943k=
+
+Name: res/drawable-xxhdpi-v4/list_title_holo.9.png
+SHA1-Digest: RnhmM9cm3dfd2xtNDl5UDY08Z5E=
+
+Name: res/layout/confirm_add_detail_activity.xml
+SHA1-Digest: hDesewHKxj8veRxQ79o14KVnKaA=
+
+Name: res/drawable-hdpi-v4/ic_email_24dp.png
+SHA1-Digest: Mh3z/vkWWY/n2GDhHKbLfO7tyIA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1571_en
+SHA1-Digest: C4fAL3ADshC5hxEt1e3cOZ4e+Ew=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_zh_Hant
+SHA1-Digest: jNcW2La3Oqt9ym2ncIhULR/znEE=
+
+Name: res/layout-land/dialpad_key_pound.xml
+SHA1-Digest: MdLnCN4S/DvY75yKELVvDG1WeR0=
+
+Name: res/drawable/action_bar_item_background.xml
+SHA1-Digest: fZ4kO9bYBTXQYbAXKLA+ijCK0aE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1308_en
+SHA1-Digest: TUSOt8YQbo/4GqbkGjSRfSphuIc=
+
+Name: res/drawable/list_item_activated_background.xml
+SHA1-Digest: RYKw8V7sXLjruliP75XlKVvtAHE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_en
+SHA1-Digest: gZeNSglZSOj61Edrfbu2l019TJM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/352_en
+SHA1-Digest: xn6N9SGLJ7eQuEcoZbfkhE9X67U=
+
+Name: res/drawable-xhdpi-v4/fab_blue.png
+SHA1-Digest: HqNYVR6PCUanbOQpOmCrC1FSJtM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1203_en
+SHA1-Digest: IkSYfK7XMWyX+5jXgslzNUbdyFU=
+
+Name: res/menu/edit_group.xml
+SHA1-Digest: Vw0Q9g9+t34VOBq/cNQa8zon32Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/242_en
+SHA1-Digest: Ugv7hXPpK7T1l15HAQJUSvhYbcE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1307_en
+SHA1-Digest: UbgS7eh/5LAovWaEUfLsc5VYcqM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1410_en
+SHA1-Digest: C2s7aw3/YciJOa/uNLQ2C1VQDr0=
+
+Name: res/anim/dialpad_slide_out_right.xml
+SHA1-Digest: JBBfk4QksARengSh06F9KW3LZIY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/39_it
+SHA1-Digest: I0HjTX1rRuSyBJq/xrHSScw6SWw=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_menu_settings_holo_light.png
+SHA1-Digest: 6pOzKvUFlDEBT4RZUVitIHsoS/k=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/352_de
+SHA1-Digest: CAdnUDhVz4GMgbZloZeiBrvXIUE=
+
+Name: res/drawable/ab_dropdown_navigation_item_background_pressed.xml
+SHA1-Digest: pPVXR5MIPHk6bX1mxqRhz7s4TKQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1734_en
+SHA1-Digest: ALOsAWbWkIgHD+YeJf9mje4CCBM=
+
+Name: res/xml/preference_headers.xml
+SHA1-Digest: jIKP1utNGD9Ez/WWRVI7M+E4gl0=
+
+Name: res/layout-land/people_activity_toolbar.xml
+SHA1-Digest: M1nuQoXaIYv3HvjLNOYH1mazbJw=
+
+Name: res/layout/date_picker_dialog.xml
+SHA1-Digest: fb0fbAXHH7Q/MEZB9yFzV89Cdio=
+
+Name: res/drawable-xhdpi-v4/ic_menu_expander_maximized_holo_light.png
+SHA1-Digest: WriZulQB1PaIVEzdkJZyIgPNzRg=
+
+Name: res/drawable-xhdpi-v4/list_focused_holo.9.png
+SHA1-Digest: gaifYo4GDQTn1ernGyqbKWQBXOA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_979
+SHA1-Digest: MRnTvzcPicoarmNssXPD0gjcHTs=
+
+Name: res/layout/account_filter_header.xml
+SHA1-Digest: 5QhumyHbOvoOqA1MSoMsWwjArlI=
+
+Name: res/layout/fragment_test.xml
+SHA1-Digest: DS1q6QGO5uQrmlI/YDqPWEt4Lo4=
+
+Name: res/drawable-xxhdpi-v4/ic_phone_24dp.png
+SHA1-Digest: 2isIy3OyxjPNTh3FO2UtebFOpys=
+
+Name: res/drawable-hdpi-v4/list_background_holo.9.png
+SHA1-Digest: Fr56bAF6sAvEHFiualfkMcuZ5Vw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1970_en
+SHA1-Digest: rhqf12Ax2Ob7RX80/lY0oDJH858=
+
+Name: res/drawable-xhdpi-v4/ic_google_plus_24dp.png
+SHA1-Digest: cwtCViG4p3ZEKsnjbpUQpVEVan8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1502_en
+SHA1-Digest: RIVosSoBYVyYnsDIWpPqRQFFrXg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/381_sr
+SHA1-Digest: /xuek3QSy5McrV8dw4CYz+6ISQc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/33_en
+SHA1-Digest: SLAaDl1xTkussc9ZjfqQV1TH5/4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1980_en
+SHA1-Digest: sQcEYlwPU2Rlr/dtEoMrUOTbfoI=
+
+Name: res/layout/contact_tile_frequent.xml
+SHA1-Digest: aVP35C/6TE25rxJ0bDxJL3fELN0=
+
+Name: res/layout/group_editor_activity.xml
+SHA1-Digest: 1dX22hKOX76ku6DYRrqRNvGZmIs=
+
+Name: res/layout-land/dialpad_key.xml
+SHA1-Digest: mBCml0JPVWT4yAxxBNDFxtafbjQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1703_en
+SHA1-Digest: 28YnqUHUltRldiCF8AF5bHvusb4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1423_en
+SHA1-Digest: cAcSYZcNu/oV7hDjI9GHcRUNfW4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/358_en
+SHA1-Digest: DgcBeOrZkWj91hLx/u6KDG1rPGk=
+
+Name: res/layout/group_browse_list_account_header.xml
+SHA1-Digest: WIZbUSUdGQTbagOzYXEjH9NmMm0=
+
+Name: res/layout/contact_editor_activity.xml
+SHA1-Digest: 1lty5SbY5O47KLQaxVS8hpUhVnc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1212_en
+SHA1-Digest: +XKh98VAHqmZcqd9JZ1B6a4fpYM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/373_ru
+SHA1-Digest: TLRW1fo9etxLttmtpK6ITUltcO8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1952_en
+SHA1-Digest: 12ExG40rVkC2j1oqPbeTkTuXH94=
+
+Name: res/drawable-hdpi-v4/ic_menu_group_lt.png
+SHA1-Digest: wn2/bbQS2Y21+V2+ooGPE1Qu+8s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1218_en
+SHA1-Digest: CwTw5m/CiENH4RHhC6wXJ/DL4y8=
+
+Name: res/drawable-xxhdpi-v4/ic_dialer_sip_black_24dp.png
+SHA1-Digest: K98zgH5tcxwTY9ISXOvrpsynu/4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/373_ro
+SHA1-Digest: JKtE0QKAA6f1gNbV7lnXN0wrFGY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/33_fr
+SHA1-Digest: isY9dWewWQ+Ax5HMDGI5NrvF6ZA=
+
+Name: res/drawable-xhdpi-v4/ic_dialpad_delete.png
+SHA1-Digest: qHX/vlDm2eP4+Ok3cEkdITpEMDM=
+
+Name: res/drawable/background_holo_light.xml
+SHA1-Digest: U+ikFobyd3YW1Q0Eqb2Bb1pYY7Q=
+
+Name: res/drawable-xhdpi-v4/ab_solid_custom_blue_inverse_holo.9.png
+SHA1-Digest: vKZx92QrlZ+aIxHrirE1nPgZexI=
+
+Name: res/drawable-ldrtl-hdpi-v4/list_focused_holo.9.png
+SHA1-Digest: zeOpPZulJWZhxdQlv2TcHkJ00Cw=
+
+Name: res/layout/pinned_header_list_demo.xml
+SHA1-Digest: TnSxM9xMEZwsn+1Emrxd+u33rCM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/228_fr
+SHA1-Digest: az+ee7k3OTh39hbQoUTBAaawLMk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1361_en
+SHA1-Digest: fxWZcp3xRTw5MfiW65/NpKjXfpw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1757_en
+SHA1-Digest: WoVvUaglElOWaQsd+zXGhvC9kkE=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_contacts_holo_dark.png
+SHA1-Digest: FyKMu170kzw0zkAl4yj5d55Lg+g=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1509_en
+SHA1-Digest: 38RHa1B16fqdkEsMl4sI6l+3W+I=
+
+Name: res/drawable-hdpi-v4/aggregation_suggestions_bg_light_holo.9.png
+SHA1-Digest: mGj7z1ZLHnbuv6pNvFQ/qmZ6spU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1630_en
+SHA1-Digest: CvNGoWNxile2iS2PQbxhM96nNbM=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_menu_settings_holo_light.png
+SHA1-Digest: 7HBalWP4y6VYPEjTHxiAQQnsmSI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1920_en
+SHA1-Digest: j78vM3NJrEaZETLdn8YufZs9z/Y=
+
+Name: res/layout-land/dialpad_key_one.xml
+SHA1-Digest: ijnTT0kbgziXqBaNyYB3roSQWnk=
+
+Name: res/layout/quickcontact_activity_landscape.xml
+SHA1-Digest: stcldUdZriY98Qf78HqZlC0kBHg=
+
+Name: AndroidManifest.xml
+SHA1-Digest: uXlL/qTOLwz3O6frCRClm+UIOeM=
+
+Name: res/layout-land/dialpad_key_star.xml
+SHA1-Digest: 7TS04MFM9nKqHOpF5rHYSvCehPg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1617_en
+SHA1-Digest: lqT7V1OElaGnchAC99AVAjGXySw=
+
+Name: res/layout/quickcontact_content.xml
+SHA1-Digest: 7Xn+uB8Cftp7Nppl6E9HZv/A7GQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/299_en
+SHA1-Digest: 2gYYq7L4bm2eIfRC0aotYZfSSzQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/225_fr
+SHA1-Digest: p0MZDyBwACge22VYdBhRKZCX074=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1714_en
+SHA1-Digest: aoVxHd3xwhQCCiwb1wdHhQLhClQ=
+
+Name: res/drawable-xxhdpi-v4/ic_call_voicemail_holo_dark.png
+SHA1-Digest: PUQOIDgAl6OU+xjuhKTJj/+WSvc=
+
+Name: res/drawable-hdpi-v4/ic_business_white_120dp.png
+SHA1-Digest: IG1xDV3wBRaqmaoUByB2KtC51Sw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/55_pt
+SHA1-Digest: Sa61crPAZZLD2puoqL0ntTIw/R4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1910_en
+SHA1-Digest: hWJZWWlSY+ObbLCiHqwfDCjUkjw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/264_en
+SHA1-Digest: 7igYdWMgZXi9afamWPv2ln4gun4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1618_en
+SHA1-Digest: PqdpadzqVdvO0hf9RNwumCvOA1M=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/228_es
+SHA1-Digest: Z0D3NmYVGomDhpmnwNEDoluYN3c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1914_en
+SHA1-Digest: wU1cxne2E98QmCRvvzfa8Sy6dKY=
+
+Name: classes.dex
+SHA1-Digest: NcOCgii1C8BI0EGINew5veV5dS0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/228_en
+SHA1-Digest: kV7BUlOReKYXG5bwBowCCDRc97A=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_add_group_holo_dark.png
+SHA1-Digest: 4OWrfx/dzCF0XrlapGJbD9T7jGM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/358_fi
+SHA1-Digest: jW0AqCpeD/vijIfi6cAhjBuTbaI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/244_en
+SHA1-Digest: LdeyIumpdhMJPE2HH5OsI+LdVr0=
+
+Name: res/drawable-xhdpi-v4/ic_create_24dp.png
+SHA1-Digest: fvoJXa5/mG84PV47FutU1gLVkMw=
+
+Name: res/drawable-hdpi-v4/ic_voicemail_avatar.png
+SHA1-Digest: PwxZUCN86WPvfGagErJKImLVyjA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/39_en
+SHA1-Digest: d3WWpRsCsBVuuwUueMXGsgbMF28=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1214_en
+SHA1-Digest: pxZKAjLGvSnRh86nWiV1GJ7s7gw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1918_en
+SHA1-Digest: B1vTQ0kRnEcG3BNS4VJBesseQGA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1832_en
+SHA1-Digest: EOjaOiK51wSBmw6GA8ieQ75KWf0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1347_en
+SHA1-Digest: QzacR2+KvEP26S55MZU7iJQ6N58=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1865_en
+SHA1-Digest: u6T6p//rC1Oip/2Gk4dcPMzvbFk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1519_en
+SHA1-Digest: rsg2NLRQk5LEq9+0H6CHeG2bK9o=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1778_en
+SHA1-Digest: 6sT3NZtZTe8ZtxLhHxWA1K0LEVo=
+
+Name: res/drawable-ldrtl-hdpi-v4/list_title_holo.9.png
+SHA1-Digest: 2nN75nELQ3ykXrYkYDR+ot7ml4w=
+
+Name: res/layout/edit_expansion_view.xml
+SHA1-Digest: +QzMnoCb5LX1qazLZqEyrt6x/Jg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1641_en
+SHA1-Digest: LVYF52FyTTr6n1rybIf+HSbpQ7Y=
+
+Name: res/drawable-xxhdpi-v4/ic_videocam.png
+SHA1-Digest: c4YtydJZmiEyN+nIsmiV9qSVThA=
+
+Name: res/drawable-hdpi-v4/list_focused_holo.9.png
+SHA1-Digest: gaifYo4GDQTn1ernGyqbKWQBXOA=
+
+Name: res/anim/dialpad_slide_out_bottom.xml
+SHA1-Digest: 8nZkWBNV+/p+O5jCdHp9y8Nv9rA=
+
+Name: res/drawable-xhdpi-v4/sym_action_videochat_holo_light.png
+SHA1-Digest: 6vt4mjP9JIDnwLC/avbShljXyHs=
+
+Name: res/drawable-hdpi-v4/list_activated_holo.9.png
+SHA1-Digest: KQunCQh0E4bP0utgN0cHdQr9OwA=
+
+Name: res/drawable-hdpi-v4/ic_star_outline_24dp.png
+SHA1-Digest: YBRy0EsQEG7e/NSDuS0tbMFymxc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/7_ru
+SHA1-Digest: 8imvSFCOfU0y6jnbIjCf6x77Cz8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/43_de
+SHA1-Digest: zMaGV0cd1szvnmn1NCdw8nLyFbg=
+
+Name: res/layout/dialpad_key.xml
+SHA1-Digest: KFYM/h9PALgSkOu72oOQt8sYwkw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1404_en
+SHA1-Digest: kA43QvUKr0FwVdURyZMdKVglIZo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1813_en
+SHA1-Digest: PZatlFhIA1F2GmEpFI3i9XUcs+0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/225_en
+SHA1-Digest: p0MZDyBwACge22VYdBhRKZCX074=
+
+Name: res/drawable-xxhdpi-v4/ic_ab_search.png
+SHA1-Digest: vYMtYEsF55+T0olZvsxdy5Nno/8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/263_en
+SHA1-Digest: AdXeBeXfY33omTQMd9gQn6RZNOc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1414_en
+SHA1-Digest: 2HHHZclowZvsDN2z1GDTv8rt9FU=
+
+Name: res/drawable-xhdpi-v4/ic_add_contact_holo_light.png
+SHA1-Digest: QU9VfJ/qGChcM568gyTM5e/OxsE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1851_en
+SHA1-Digest: IAEKVlWFlLGezmMTYGkxLR6cGhg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1302_en
+SHA1-Digest: linqCOfKXGLy77K5zr7Ghl7iHrM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1931_en
+SHA1-Digest: 3iRN2s35YSSUCe7tm3zm9ttzDfs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/66_en
+SHA1-Digest: AsaW41/nx0nY16EXeRRpFK+x/KE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1289_en
+SHA1-Digest: k+Bq/jVxrVHf0qwrksp7NSktRxk=
+
+Name: res/drawable/ic_search_add_contact.xml
+SHA1-Digest: lNoWJO/tRkWBL/jEirkUDum/LUQ=
+
+Name: res/layout/contact_list_filter_custom.xml
+SHA1-Digest: HTLGTnXxtJmqLyJxIADifq4VgoM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1612_en
+SHA1-Digest: Hgk4yLnv3GwWVHEGvjsfy+c3kGw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/62_id
+SHA1-Digest: q7x/eh9sNSvExtfMbydVCGtuYLI=
+
+Name: res/layout/contact_list_content.xml
+SHA1-Digest: VY99qBQ3UM33vDkyG5/jp2u7+Og=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1731_en
+SHA1-Digest: K38Zv61gSsaxmLjMhca05Iv3YXc=
+
+Name: res/drawable-xhdpi-v4/ic_contacts_holo_dark.png
+SHA1-Digest: beTqPCdLV+AsL3P9xbSPCuKNDvo=
+
+Name: res/drawable-hdpi-v4/logo_quick_contacts_mail_color_44in48dp.png
+SHA1-Digest: K+0MsTJG+X6VPzRvIISq8IFpGuQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/221_en
+SHA1-Digest: vdjzs0xhqAiToM7FduRiNUMb9/4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/354_en
+SHA1-Digest: a1KB9H6ROsmQdKt42tC9t91TCYg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1903_en
+SHA1-Digest: +AqlSYngKIJ8bfj51Rg/C8NQtsQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1310_en
+SHA1-Digest: GjO4PVDHbK/g30TDYSJz7YDrn8s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1717_en
+SHA1-Digest: jZEE71uSz7Fv9uIz+yFygpjm7Jc=
+
+Name: res/drawable-xxhdpi-v4/ic_place_24dp.png
+SHA1-Digest: x3m3Ib8nKhqTCcbIS9hNnP/ZOXE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/config
+SHA1-Digest: HxZxwjNHymL+RDiyegqPvgtbS9c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1365_en
+SHA1-Digest: F0OwnXobs2SOyAZa4Gosrn80noA=
+
+Name: res/layout/join_contact_picker_section_header.xml
+SHA1-Digest: lEJr5O7vjjGGwZmm7wgIL37e4TQ=
+
+Name: res/drawable-hdpi-v4/ic_menu_expander_maximized_holo_light.png
+SHA1-Digest: uBN3GPAWIm63YHxKJu8W7AsR/V8=
+
+Name: res/drawable-hdpi-v4/badge_action_call.png
+SHA1-Digest: AgoWgMMQFTaaEvagN6dIdnV9V8Y=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/886_en
+SHA1-Digest: BXpSBOMfWG1f+tvg14FwHNtfwhM=
+
+Name: res/layout/edit_spinner.xml
+SHA1-Digest: cYRfWTdkL9X8dPsaOZ+5q5hpC+w=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/43_en
+SHA1-Digest: r6z3RqeZ2nak9ydN1x9IaxVWEx0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1858_en
+SHA1-Digest: Glr+amtUR+qn0+8tIi3kLrJV0/g=
+
+Name: res/layout/contact_tile_frequent_phone.xml
+SHA1-Digest: PAxljtzh2flTAT4bBL0YL9jK4rE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1586_en
+SHA1-Digest: dV1OlPzi8YZ10M6cpIJ+XzB1U9s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LK
+SHA1-Digest: pIZV3VaOphnBiM2vV3dabRVCD9E=
+
+Name: res/layout/quickcontact_title.xml
+SHA1-Digest: +OMrWLV0hV3BQERQEYdOP+p9oMY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_84
+SHA1-Digest: cM9Igo/aYhfEFUXrYtfhy+rGfTA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1769_en
+SHA1-Digest: x8xT4C6LrKyaudPgOBCwIg8Rru4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ET
+SHA1-Digest: oG3J7YbEOKhS6dN6m3XElR76Uqw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ES
+SHA1-Digest: P8KZt3DVwQNU9U3dDlFGFurQorE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LS
+SHA1-Digest: 3eHHAZpI08lTuNESlnVb1GPdI9A=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EE
+SHA1-Digest: GenDAfyKn99KSYfib/3FBalvi28=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LR
+SHA1-Digest: oUQ93DS0JA1LmPRVVTKu1u3mg4w=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EH
+SHA1-Digest: +KAelbDxTopdKY8tZcrGeGOy6/E=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LU
+SHA1-Digest: WFq9zutsNtVHaP/xUYzu7lSoeMM=
+
+Name: res/layout/group_browse_list_item.xml
+SHA1-Digest: TENi1I383PBW3o+6PEccXHV+dHY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EG
+SHA1-Digest: NOmrr8EO8An5VQB/Ewan7/3BILs=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LT
+SHA1-Digest: 9zEJajp/2WPawy2bxkvAbcMAcGY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1631_en
+SHA1-Digest: PDFmGRv8mQJnGwJ1T83mb00Wi+s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LV
+SHA1-Digest: Rf7pQcatiPUybVQYtoNWVkQF2N0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LY
+SHA1-Digest: FRsttQtKnO+HTkhZ8nNthNU8Q1c=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1317_en
+SHA1-Digest: hpkK73weaMofjBS+FDqX+m3RCvg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1609_en
+SHA1-Digest: o2PLdmSfHIZsdB1bQMX4Fd7kNR4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EC
+SHA1-Digest: HOPN0fJQ2e8M9uI+aAM8pAMDKVI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MA
+SHA1-Digest: +VamTHNauzrxiG+bKkcO1B6V8jA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MC
+SHA1-Digest: tbRkilfAa8ADrX6j0PVilrop6eo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1450_en
+SHA1-Digest: +ni6KQN4XdO6Q6h/1hlgrqkIqQE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MD
+SHA1-Digest: fO2Wp1e0/2wSpkNTV/fM/2TTKwI=
+
+Name: res/layout/group_browse_list_fragment.xml
+SHA1-Digest: ek748ATCQ1l/HS35/YeSJuWhKXA=
+
+Name: res/drawable-ldrtl-hdpi-v4/quickcontact_badge_overlay_normal_lig
+ ht.9.png
+SHA1-Digest: nJumVlLaKTq9gmzpu12RrT9LmaU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ME
+SHA1-Digest: aOWsoDcoyDDDX+X1onEXT9zYH1M=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MF
+SHA1-Digest: XbV+szql0zBvzg+l2YNVpZk59cs=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MG
+SHA1-Digest: TqdHY+Aneh9NS3ecdbhZff6WRIc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MH
+SHA1-Digest: eBu/3cUGVq/NDguCg8djRra8Vi4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/41_it
+SHA1-Digest: MMbYLvVulIz6qqbcdORA29ayJkM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DZ
+SHA1-Digest: 26RxyOaL6MJyB7ZDvc/iWY2kIlk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_81
+SHA1-Digest: daBwnRVtz216PB28MApBfpfM6OY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FO
+SHA1-Digest: nRQLplgu/j5xCs6/Xs6iIcgTKJY=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1567_en
+SHA1-Digest: 2B5eVecqGK57sjglQTtGoKOUBj8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/353_en
+SHA1-Digest: PhrAWmpH5tVTEmofwl3LBojqxPU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KI
+SHA1-Digest: UvEWzbq1iY+eYvwm6FrE2jkONw8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KP
+SHA1-Digest: vFoLsjHOWFHvSfUiE1X2la4Cnao=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KN
+SHA1-Digest: McwX1/3qNv2fWPXVHVDT9rWPOzU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FR
+SHA1-Digest: +agbpXQCgQhJYmA0UGBYyu0pquw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KM
+SHA1-Digest: fVwGfcTe+ypNcEutqQVh4hZ+WhQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FI
+SHA1-Digest: Gq5V4OY0faJ1vzbpXJe2eeX2LTM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KR
+SHA1-Digest: stnFcIvJLHOVfQWqIF3v2J5TBlU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1434_en
+SHA1-Digest: oa6hEi+lYGAEsYBXCR6KWipsKAI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FM
+SHA1-Digest: FRwN00RDtX/xywLB27kNRjXaddo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KW
+SHA1-Digest: yHiTEcIn7DLJW0pRPqFilZY/vJk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FK
+SHA1-Digest: usWIisE23KlcNfPSmc+1c9tyJKM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FJ
+SHA1-Digest: ++PSC+2VIAd/orrJf/FYj9tbSZU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KY
+SHA1-Digest: Ld1Tse7VwUtQ0PW792w9LgIHoww=
+
+Name: res/drawable/ab_dropdown_navigation_item_background_focused.xml
+SHA1-Digest: HLHPfPB0/9//YcG63xHOnJ3GOqQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KZ
+SHA1-Digest: doqC2qKSf+VJpzW64nGgoLkK2Yc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LA
+SHA1-Digest: RvYzhTG17Uv9+CDiqVkldN5VfAk=
+
+Name: res/drawable-hdpi-v4/badge_action_sms.png
+SHA1-Digest: di78EU2kL334scQKAjiVVbmL1Ik=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LB
+SHA1-Digest: aSyUWvjcB/MfNdnzRhKW6k8rdsg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1516_en
+SHA1-Digest: 4UtNiuKAETqptox99+Ukt0M2B20=
+
+Name: res/drawable-xxhdpi-v4/ic_add_contact_holo_light.png
+SHA1-Digest: HqZPUUZF8xHUIHWfU28pci+tyhM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LC
+SHA1-Digest: U2v7sNQUX871iIgs0rB0Omj6/Lc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1803_en
+SHA1-Digest: 6Ht60O08/Szfe+DlKL7kCyrmmIo=
+
+Name: res/mipmap-xxxhdpi-v4/ic_contacts_clr_48cv_44dp.png
+SHA1-Digest: ZT3i5nLpmC5IVK8D1p1f+N7l264=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LI
+SHA1-Digest: CF7qd5J3s70KskvkEks3JloCTOQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GT
+SHA1-Digest: dvrpscpscAUgxE4hiom8hsER1/o=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JM
+SHA1-Digest: rZy9je0zw4FKphQtoEq7RCZZeiA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JO
+SHA1-Digest: B6xsND27/5mg897KcF7pROGcsio=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GU
+SHA1-Digest: 818Cc0DjonRGxvR1hmDeLr33fd8=
+
+Name: res/drawable-xxhdpi-v4/ic_done_wht_24dp.png
+SHA1-Digest: Su3Hd6LVyrm9sDDwqpTomrYKGaI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GP
+SHA1-Digest: +UQmfbXc0KRcxLLkqK5LUVN9cVw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1419_en
+SHA1-Digest: lV5/3ioDH6un0djj40BdEjr3Cyk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1908_en
+SHA1-Digest: FW40VtaXHgOzKg2l/OFeZpytKWs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GR
+SHA1-Digest: MyEGCggYEB0nER9VELLNbVM4nPM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GL
+SHA1-Digest: /IqyEOK/kj1QOxvYC7Z8yHkuds4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/84_en
+SHA1-Digest: Jz4B6SR99tAoXoSo7UHBxNFrJFU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/58_es
+SHA1-Digest: lIz+R121LyusiRQVEqyTWe8rZTE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GN
+SHA1-Digest: +OCSKP9M7LZN2mc4egttWfQbspc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/258_en
+SHA1-Digest: eIO8zs3KHYe2VnvrnH1d445QvZ4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GM
+SHA1-Digest: yvPOdH0m/84dAXizn6oP3tr2Qyw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1806_en
+SHA1-Digest: U9mvd0Na+UG3OIpFsx/MOi+hSbk=
+
+Name: res/drawable/ic_person_add_tinted_24dp.xml
+SHA1-Digest: x/2JAuEA4tyCgyC2iKq9rj+4xss=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GH
+SHA1-Digest: 7tyVPL7CR8hqZrZL8J42Zb4f9Vs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GG
+SHA1-Digest: w9mwhy8uAaRZYw9eKYx4vOH5jY0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JP
+SHA1-Digest: 5/7NCOY3UtgQlRvayyiDCPSsAD8=
+
+Name: res/drawable-xhdpi-v4/ic_email_24dp.png
+SHA1-Digest: Q0BeZn1UNNuEa1of56YONQw3MRc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1828_en
+SHA1-Digest: Hj/1g0JhMwx5OBbwEmkDg4JRtAg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GI
+SHA1-Digest: cVLCl6ZK6aazb8dfbTLDEmDbt3I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1873_en
+SHA1-Digest: wLBBRL4ZOGd1tw0mPHltwkTFRGw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GD
+SHA1-Digest: 23f1WPq1tadou7YxZCenIiHx5Sw=
+
+Name: res/layout/contact_tile_list.xml
+SHA1-Digest: AFJGFpbpHrYhNAWFNa/fuAjl86A=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GE
+SHA1-Digest: ewLccLbCd3W7UTEMs3WH3wFSwJE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GF
+SHA1-Digest: kDeHudl55sl+4Fmq9m9oiCDt2ko=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1303_en
+SHA1-Digest: cBzDxNSij5O6gml7kfAFZ1v4x0E=
+
+Name: res/layout/group_editor_existing_member_list.xml
+SHA1-Digest: uTH420CkC2xmFwuNr1PHAVth6G4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GA
+SHA1-Digest: KGZCYMIxAAyrB4sT17e9MxpYhts=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1231_en
+SHA1-Digest: 07jorC+eUWEhuWCSfyxNasKJeS8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GB
+SHA1-Digest: c2SE5JUFbRwtVCGW3D53NJuPjIk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1838_en
+SHA1-Digest: dq2YPm97yUFEe7Qd9VjYPT3w2aI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KE
+SHA1-Digest: GAuTfevY6meHtxSXsQIrpsQBZ5Y=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_expander_maximized_holo_light.png
+SHA1-Digest: XOljk+X0izAz/s4aLOmrv/ySBGo=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1626_en
+SHA1-Digest: UzBWwbCv50+KR3i5H9dvoiArq10=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KG
+SHA1-Digest: gtqR6K//aPYG32NSAU8kVcV+ltU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KH
+SHA1-Digest: 4SbYrWvWU4sJ4q77mRf0/Cto0eM=
+
+Name: res/drawable-hdpi-v4/sym_action_videochat_holo_light.png
+SHA1-Digest: heXqps0pH3Uu2kwbehkOYdvxgtc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1435_en
+SHA1-Digest: m6Xttys7eEuBVlqqc0LOa5HtJpE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1715_en
+SHA1-Digest: 3/NFcquAYtOAndaOpzHrAkgEz/M=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1878_en
+SHA1-Digest: tG99Mo5hESltpoiP5deE9ESZWdU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/234_en
+SHA1-Digest: LPRQl+J8Px49L1gzw84PnMccUtc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IN
+SHA1-Digest: s+hEQPw6j4uTWEqVSpaRFJKJHIk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IM
+SHA1-Digest: rzZujVGPgGiwBibfVR3e97DmYhY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IL
+SHA1-Digest: utnR/hv7O4eIPbA17MhHF/pCKdM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HU
+SHA1-Digest: cNe4OzWlBFBSMv+CcO+AE7m1Jt4=
+
+Name: res/drawable-hdpi-v4/ab_stacked_solid_inverse_holo.9.png
+SHA1-Digest: ZrBaUxRlinsaT56L2xpJOppWNW8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HT
+SHA1-Digest: qAHFHFiqfqrSRBndW5w98Lkfmrw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HR
+SHA1-Digest: ELWg5jeMZkfd+A2yhA1/9KUHK/0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_94
+SHA1-Digest: iFng5Rg8uXcO1Wad8WzQjXXbaSA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1807_en
+SHA1-Digest: FKFaVLIJiqJYxQfqoV6AYRQ17tg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_95
+SHA1-Digest: 6+a5S3YBqGkTp77eRI98wZppshU=
+
+Name: res/anim/dialpad_slide_in_bottom.xml
+SHA1-Digest: bqetEGEakH/ovbkXiOScPUC6PTk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HN
+SHA1-Digest: jFRQ55QAcI37lIk+q2SlTR3XQWA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IT
+SHA1-Digest: +1F97kRb/ta9zwIfEApHTeTuURE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1812_en
+SHA1-Digest: 67O8tDj0ks5M/sPS1CmxNQ2sfek=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IS
+SHA1-Digest: JxTfmQc5VgEvxfogvUyxfYi0YrQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IR
+SHA1-Digest: FfBP6E110BglBYSLQmU2imR/3fU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HK
+SHA1-Digest: P4HWGI2SyQc2YIqsNzppgRCE1es=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IQ
+SHA1-Digest: bSeQ7rQuW3w1sp6XJ9w3BjUAc4A=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IO
+SHA1-Digest: LCU2bG18IExWKOFnWvywd+yyXN8=
+
+Name: res/drawable-hdpi-v4/ic_add_group_holo_dark.png
+SHA1-Digest: EhO6ksNIDsISKfdpNrAicWlJPOA=
+
+Name: res/layout/quickcontact_header.xml
+SHA1-Digest: g8I2RbPhCVCzpfG9Tfn/YRAybRw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/224_en
+SHA1-Digest: fFQA6RCpmnlyMr0eS8a6E2FVH3M=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/58_en
+SHA1-Digest: 0azCmZ7Nr2ryA3V2bMJPCiAlbAE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1505_en
+SHA1-Digest: X8pC9oh7CcnQuOo7CK0eIXM7LuQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/247_en
+SHA1-Digest: HaT7y3qyFFYmH5R1YP1GXjLrwlA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1919_en
+SHA1-Digest: EdLmFhg5dfOhAeJg+OP1Nf8vG08=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_90
+SHA1-Digest: 7WrMiEDONSaE+X9BTfPKgXzIz+g=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JE
+SHA1-Digest: HYBvWI2Z0tlb1LIu2hHO9zr5s80=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GY
+SHA1-Digest: ElvuLe7U7rKINqSfLY8NLZuKcYQ=
+
+Name: res/drawable-hdpi-v4/panel_message.9.png
+SHA1-Digest: cOi9TMlPXhsNCailNE95h92HacQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GW
+SHA1-Digest: RQiV1VkMzFqN9303Z4US/5oq7UQ=
+
+Name: res/drawable-xxhdpi-v4/ic_add_group_holo_dark.png
+SHA1-Digest: Y/MSf+WaHwbFb5FWMcauysjDKsw=
+
+Name: res/drawable-xhdpi-v4/fab_green.png
+SHA1-Digest: xJzlZ15VM0iAJ0626NiD85BrO6I=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/47_en
+SHA1-Digest: gGjDL0EJ4E/0YxzyjGBbH3pRHXc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HN
+SHA1-Digest: dF4BU+j41k1bZRS24y2FDD1dZMU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1646_en
+SHA1-Digest: aUG4z/kEgSeR7JeAnkAWl2WR4Ok=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AC
+SHA1-Digest: GSmldQS0V0LF8rbhzh3xXNxJoQU=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_settings_holo_light.png
+SHA1-Digest: yVr/F7qq/vvHurftV1eyIH0RSOk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AD
+SHA1-Digest: ar9/1nU9D5hgsnOcx5u0PZwJ/9c=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_49
+SHA1-Digest: lJyFdjLImuA15HlomNveCTDcnAc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AE
+SHA1-Digest: lqJvEENSJdhMOioyyZbiJZOjwI8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HR
+SHA1-Digest: mYkXs72FdWg6iaGjEGbSdDr3Kqg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1819_en
+SHA1-Digest: mF7xauu1TNPRkGy0nUHm8wbRiKM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AF
+SHA1-Digest: sSPsntPXIT4zP2TQYmy3KUo2TBM=
+
+Name: res/layout/dialpad.xml
+SHA1-Digest: CKOonZKtRRFf4u1bbkvEIGiNiO8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AG
+SHA1-Digest: P7W5c/VJCbLW7GK6jxGqHH5W5Gw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HT
+SHA1-Digest: mSH2/VCVHWRQyoGO0DRKB7btmBk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HU
+SHA1-Digest: YJettoieguYp7wAATQcKZniwN38=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1901_en
+SHA1-Digest: jiAsXI64Ii2LH3qcOLGmYKbp4q0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AI
+SHA1-Digest: 27Y8YvEVm8dFdgLgQmCAkFcqBPM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AL
+SHA1-Digest: 79eU7sRCV2FUU4rHUeTSjB+TPmE=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AM
+SHA1-Digest: jRQ4Uqvixmh7O4V+pQJ7zA3LEXk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_44
+SHA1-Digest: N1nuhYaREi9z6iAeXxLcra4rL5s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1817_en
+SHA1-Digest: SDbaE+iDn0cHkmKzA9VVC5flX5s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_43
+SHA1-Digest: mIFkru/j+coHhbRh6/nN2br+Xak=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HK
+SHA1-Digest: Q5BQXXudkV/AkfNXNdGvxNUCGg8=
+
+Name: res/drawable-xhdpi-v4/ic_menu_expander_minimized_holo_light.png
+SHA1-Digest: oCNBWlBPtogvlLy+xtzOH/lDiXs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AO
+SHA1-Digest: 2p80j0O5NxrtyBlDTtd4AZMnXuE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1706_en
+SHA1-Digest: q+uutWxXLh1vx+HXMd6oUAy1oA4=
+
+Name: res/layout/list_section.xml
+SHA1-Digest: UQhuh+uRsOxpDtVmwUPslkaE0Q4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1830_en
+SHA1-Digest: PtGhhhjE4K6u4Y9DbuTjhwmnWTo=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_remove_field_holo_light.png
+SHA1-Digest: WYPaywMcDKi6Vh9c9zh0oPauGfw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/90_en
+SHA1-Digest: 6gkAPGB81OMINq29NWW5cuCNxuc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ID
+SHA1-Digest: FiXDsnt0yAdUFhwyba5fPtssxYc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1713_en
+SHA1-Digest: ON8iSNsUBCRSgcyw3sqsevSXb6I=
+
+Name: res/layout/group_membership_list_item.xml
+SHA1-Digest: mQCtpbk4eCN6Jsh+rkktP2amHMw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IE
+SHA1-Digest: XYmcF2wTQfoGYFukTxsGG60BQ64=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1239_en
+SHA1-Digest: h/qAcPTN5824Vl8KA+WIIddwJ9U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1815_en
+SHA1-Digest: hdvc8Pt4dDM5pxyboQiuMVN95u0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BD
+SHA1-Digest: FMKTkoiTZVY6rZ8nrm4weFu/Zjs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1607_en
+SHA1-Digest: j2HpEAJ47j0Ald7yJdvP6vMLlUc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BE
+SHA1-Digest: DLoS1FEKNeGfi7+SKYGSaDaGMDM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GP
+SHA1-Digest: Ry+gEADWJc5F0hk/fPoOgFU6Zi4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BB
+SHA1-Digest: 76fqxVMoyy5WsRrZ5YUJP7z/qzk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GM
+SHA1-Digest: +Ea0U4Y1zXwD/iNz00D2jjWBiuI=
+
+Name: res/drawable-xhdpi-v4/ab_stacked_solid_inverse_holo.9.png
+SHA1-Digest: A5fPZfGHJ2YlHPmgReCP4zpwzXE=
+
+Name: res/drawable-hdpi-v4/logo_quick_contacts_color_44in48dp.png
+SHA1-Digest: rSjEjrsj9KjjC8rvqJPMbyuNM28=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_36
+SHA1-Digest: hWS0Op4dc6LF44g9BIFft/f3QH0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GN
+SHA1-Digest: JV96ZaK8wwScichqahTFuYVo+Tg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1614_en
+SHA1-Digest: S5G08HcMfeYxbxk01ujyGGM0jjg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BH
+SHA1-Digest: qXk6y18VjNtehZAEohPg+PCWfTg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BI
+SHA1-Digest: m1+HPzL/9ckBz8cWfcTnsr9JY3g=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GT
+SHA1-Digest: Vk1e7Ww3lQq9Nupht0/l1aj0Zy4=
+
+Name: res/drawable-hdpi-v4/fab_blue.png
+SHA1-Digest: lSFfJcmloL5Qv2AN7F9wm7W8Gak=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1859_en
+SHA1-Digest: q/tozynH4zPS/70MGb6IOv10uio=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BF
+SHA1-Digest: 6qcmbL8lS/pCTJZTRpOBUoGqRoM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GQ
+SHA1-Digest: JgkggPpwcMssM4KZKyh07cO/d+M=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BG
+SHA1-Digest: 3xp8HkBNTYnuCpHGqhpSYsMgvIY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GR
+SHA1-Digest: 1PL0qWwecYHiBYKr42CyQBe4CKI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BL
+SHA1-Digest: ZibVzjuWtBO/2c4mChDoqtZ+qdM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_31
+SHA1-Digest: KuLNytr4ZRl4fcSWuquXOt81/60=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GG
+SHA1-Digest: G2VhFcm6X+dFHZpUQ4lW9xXyTag=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BM
+SHA1-Digest: zrSOwjYO7AtSm3hj60CgJ2/xDK8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_30
+SHA1-Digest: Bh8tv057544lV4r7kRT1zzTlaA8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GH
+SHA1-Digest: ia7yAOLsVJnftvfyPFfgBQOY3VE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/30_en
+SHA1-Digest: RjzVAcBY+zP0X/XSff182lPBDRI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BJ
+SHA1-Digest: D7lSdeZxzBNos8ni5lDZSFv6Tss=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GE
+SHA1-Digest: h5JogMDM41xhSu1CUMqPgGiiQsA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GF
+SHA1-Digest: iC1HFHkrIMJDXC9hMk91NTcdNg0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/30_el
+SHA1-Digest: TJUcfDAugEpt/H/f/5EicFdhGCk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BQ
+SHA1-Digest: 8l6KqnSUMnvDnudq+9jkpx4KEKk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_34
+SHA1-Digest: O3GRzsWEr1+UF6z/veTcYUIikdU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GL
+SHA1-Digest: 43id6HucRFVSRKQaZ1ZB9yr6cuA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BN
+SHA1-Digest: 0bTllnIWPvsvqBDNC4yJLPEZZKI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GI
+SHA1-Digest: EVrXphk2FtWJnoFlU5SDxNqpH7c=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BO
+SHA1-Digest: BDVs7zW3rHow3lXcsgH04Lv4QXY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AT
+SHA1-Digest: 3YZ3jvwarlFuCBRiPDHchuW4pdM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1843_en
+SHA1-Digest: IUuBjFBMgT+/I8rx1lnHrUo+A/4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AS
+SHA1-Digest: y+wkj2RLzvL3te7HqxfRdRNDFlw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AR
+SHA1-Digest: mliNA/kZeJg2zEWHmdCzRxPXgRQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AX
+SHA1-Digest: upADZFWuDDzOFyOXZACn3y1YpKc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1888_en
+SHA1-Digest: h363p3lGGKpghuY6saZaRmvU35Q=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AW
+SHA1-Digest: 0h40YMhR4HoZ59JDI9dW+he7AIk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1226_en
+SHA1-Digest: a0hRJBFM6cy3uGa7EBVC0Qo1rJA=
+
+Name: res/layout/create_new_contact.xml
+SHA1-Digest: D8Bk94YMSwrcErVSec15PuXDwFM=
+
+Name: res/drawable-xxhdpi-v4/ic_call_arrow.png
+SHA1-Digest: TuBYE3xVimO2vXsLRugrOhQEVro=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AU
+SHA1-Digest: EilomLb4KFVrkUSLAF8j40YiZ7E=
+
+Name: res/drawable-xxhdpi-v4/ic_directions_24dp.png
+SHA1-Digest: ER0jqi+Qgxvs2fy8ggD1ZxHBh+0=
+
+Name: res/layout-sw600dp-v13/contact_editor_activity.xml
+SHA1-Digest: mj65cAB8eItHz4UZgn0e7zGRLzs=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GW
+SHA1-Digest: UqW5JGp5uQlbQLl0uV7uc5sdVbc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1760_en
+SHA1-Digest: IoRq5c+4tEuxxuLOJ4xRL/SuAUo=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AZ
+SHA1-Digest: yDTx//QhJ6De8XRzJaEzny+z158=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GU
+SHA1-Digest: patID8hn7rFEAwM5FSvMAG+gDsg=
+
+Name: res/drawable-hdpi-v4/ic_menu_expander_minimized_holo_light.png
+SHA1-Digest: mFtpf9Ayqd4KoVFC0Nn/NwhVsAY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BA
+SHA1-Digest: QfHbCGXOy0A65DpYF1RDwxSSnZg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/44_en
+SHA1-Digest: UBzs2tj5ov/L7WzIIzc7Hrt2uAc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GY
+SHA1-Digest: tkL4Idg3qX8PFTAiGgoILpOQw74=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_star_holo_light.png
+SHA1-Digest: LF9c6q4mqYrMwvJMu64tWDDswYc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CH
+SHA1-Digest: nH20B0lZhunuR+ZoqsjyWIPFOZI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1513_en
+SHA1-Digest: irJ73tCJQc2iTnSfV5gSUiOxseQ=
+
+Name: res/mipmap-hdpi-v4/ic_contacts_clr_48cv_44dp.png
+SHA1-Digest: 91YEgRX2pSypgdqNJ5cpUj/AuC8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CI
+SHA1-Digest: JLyrJK5dx5XHcE5eGorZLdanoms=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FR
+SHA1-Digest: QMHDCGIE2MfBCQQdYsK8EUh3G9g=
+
+Name: res/drawable-hdpi-v4/list_longpressed_holo_light.9.png
+SHA1-Digest: Z4PVOSb1g76KGgPowAmxzmTa6VA=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CC
+SHA1-Digest: ft6e6WMLpBd45l3R1ppgxx0vyaY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CD
+SHA1-Digest: F7eEtY17UVo8ffM5eF67ws/pptk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FM
+SHA1-Digest: sVD3Buz/PGDNLNJbfPgAEaWN2BE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FO
+SHA1-Digest: Eed6XquaU8clgiXBCRkU2qqxVRQ=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CO
+SHA1-Digest: xp4Dv0QXpTvjgDGF55mKnqL6bVw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_66
+SHA1-Digest: ZFpoKe4t4pLWyhWH1RNMJcPf+fE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FI
+SHA1-Digest: TREZSxewZ4tpAJu6YGW9GTCDVQM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FJ
+SHA1-Digest: Jq2zK1ZUyYzPXjezFUC5l4BAZrk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CR
+SHA1-Digest: LFdreuK3YdvlQYXnhkvoG6VonpA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FK
+SHA1-Digest: +/BGHWPyWHdcoXh0rd6ESfKQbtc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CK
+SHA1-Digest: 3e0jDTESc2z0h053k1NFfL00sDk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_62
+SHA1-Digest: Ic1OQ0X5xM4WirGTkp+cG+BXfuU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1603_en
+SHA1-Digest: pMqVbHOSdEvls9JUUDTLMquDISI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CL
+SHA1-Digest: aqK/v7h1wAl6Q7b8PgVR1kL0TeA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_61
+SHA1-Digest: 7c51UKlqpVDI3o2A/s0k4nNgKCA=
+
+Name: res/drawable-xhdpi-v4/ic_dialer_sip_black_24dp.png
+SHA1-Digest: iAE7Z6xr+5XesHPcPFylhhqRniM=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CM
+SHA1-Digest: MUw7u/ISsywyLZocUXooE6+UHek=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CN
+SHA1-Digest: /ncr74UKT07ZCifM5WB+L2zm9QM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_63
+SHA1-Digest: a7U/pmtZHFBo5obxPjewjKWkGa8=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BW
+SHA1-Digest: y3Q+s4TM2YndHpz03AEkShZskt8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GB
+SHA1-Digest: bQ2vlkEAjXxrWJpjbwBWUAk87Ms=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GA
+SHA1-Digest: k2Jen0TsqWGNKWRD2IT05C0QNXg=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_group_lt.png
+SHA1-Digest: QD5osT5G6vIoQW5wu2vrYuW94Rs=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BY
+SHA1-Digest: ONYixx4PDDMAl3N3TQrV7RHbqow=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GD
+SHA1-Digest: YnAZm8K6O+IRkrRbCm9BqT+cZtI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/261_en
+SHA1-Digest: oCK1Nn5qmmqQ6lOkY9Yyb2prSmY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BS
+SHA1-Digest: kPjgljRRGXH5y9mvVxSgb77zZN8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1208_en
+SHA1-Digest: JoXfQznO1K/D/aHVOO+C4jiksxc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BR
+SHA1-Digest: oD01nNi1cJYUxq6Zau3rnjD4OwU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1345_en
+SHA1-Digest: l5XJ+JNZ4LfGgBGIBoLVCAmS/ws=
+
+Name: res/drawable-xxhdpi-v4/logo_quick_contacts_dialer_color_44in48dp
+ .png
+SHA1-Digest: LtgsArCVTaUsfLFxdCwHdGN5X6U=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_add_contact_holo_light.png
+SHA1-Digest: oGcoP31n6YdEJBun9tctdfg8qoI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1862_en
+SHA1-Digest: fQyPBGI2Bb3YS4RqYU3Cy4itRBY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BT
+SHA1-Digest: XT7RRQoPXAkuG12nePHULTWbMNQ=
+
+Name: res/drawable/quickcontact_card_border.xml
+SHA1-Digest: SFFfl2i8Ow1jTiyE2fOGpzj3yPg=
+
+Name: res/drawable-hdpi-v4/unknown_source.png
+SHA1-Digest: saDp3oK74rkRCXhf203fSQZ0rD0=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CA
+SHA1-Digest: k5baZNgjeWiIpVlJiSZjCdt1dQw=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BZ
+SHA1-Digest: 3UbcDoFyPHe8PwYlureTP8zD4b4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1386_en
+SHA1-Digest: prUdH4wDCdLzZw7k23nrqDydoy4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1508_en
+SHA1-Digest: ddIjZ58yRvHstaVgWns4Wz1kGWw=
+
+Name: res/drawable-hdpi-v4/ic_menu_settings_holo_light.png
+SHA1-Digest: 5HgLy++c1wWvuiySW70XQ3YyUsM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1313_en
+SHA1-Digest: 34hP/eoatzioLEHtspjrpd89WF0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1403_en
+SHA1-Digest: iRC3Kd8si9Yh70xlCcfqbG9OVCg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DJ
+SHA1-Digest: OCxhQq7DILLkBHn8R16qpX3ARWI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DK
+SHA1-Digest: j4XiHePQQtda/JK+77klvy3Ghic=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ER
+SHA1-Digest: P0uJuBjfKLpEp3lG9coxQLxx3Vo=
+
+Name: res/layout/contact_editor_accounts_changed_activity_with_picker.
+ xml
+SHA1-Digest: SAFCtE6NnwXOvTtTE51p4EUalz4=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DE
+SHA1-Digest: Xs2mYBUnwBta5Nws962+jlJfbTY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_58
+SHA1-Digest: LqgBINJBQXrfS7qSEUdO2YKapSc=
+
+Name: res/drawable-ldrtl-hdpi-v4/quickcontact_badge_overlay_pressed_li
+ ght.9.png
+SHA1-Digest: Yn49CsXv3ucNvTmpKVVlj/iq/Ds=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_55
+SHA1-Digest: aHXhcJ44Nq+1uITpH9udVnAuQjI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EG
+SHA1-Digest: WJQxoN3AarAunmow6xGyBuTGCUQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EH
+SHA1-Digest: fLrJqlw7TqZqJM1dgs/Vp1yNghI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1515_en
+SHA1-Digest: NYVj9804pTfCo8SZkDnpo5D4TGg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EE
+SHA1-Digest: EcZk1MlQdM5489VWPaY/vAFSaWk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1416_en
+SHA1-Digest: bq3ZxIN6bwyWwIOgi8VJGhvEFVk=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DO
+SHA1-Digest: yCZJ1mOSxKKKE4nA7LCejMRJ3Ak=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1270_en
+SHA1-Digest: +xZhtzqP4fvAfQ6/m6qGBfTAGWU=
+
+Name: res/layout/dialpad_key_one.xml
+SHA1-Digest: 7lhOEiDJ+hY9R4vdqpPqY0Z6dkU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EC
+SHA1-Digest: 6ZuNJ8mGXy7wh3bVWp23t42Z8sE=
+
+Name: res/layout/edit_field_list.xml
+SHA1-Digest: El03xvFtfHCNB0fFB5TchC/+mek=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/51_en
+SHA1-Digest: VdpmnPoD+1j+Vy7QGtzqqH2cUfY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DM
+SHA1-Digest: lCxy6fdz9COgrWQOljkNmlZuuHg=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CZ
+SHA1-Digest: UIj6c1xplrAfRxxnH+WRoGi8Ldc=
+
+Name: res/layout/custom_contact_list_filter_account.xml
+SHA1-Digest: Bykgt18McSU+V5HkuvwUrMa7sDU=
+
+Name: res/drawable-ldrtl-xhdpi-v4/panel_content.9.png
+SHA1-Digest: qbR02q1mIriLoJaS5Vp9q08vqYc=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CY
+SHA1-Digest: mzylAzyX7YTSC1/mBd4Xu0XbJho=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CX
+SHA1-Digest: N7O+pAZHYKuo//s7uat1CPoD0RU=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CW
+SHA1-Digest: 93FSBejkt7reOcHSWaXM88FuODY=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CV
+SHA1-Digest: XDId5wsWqiw49DKaJV9OTbZRhdI=
+
+Name: com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CU
+SHA1-Digest: n7qaE3KPafkJF6Dbmnr5XmhTt4E=
+
+Name: res/drawable/ab_dropdown_navigation_item_background.xml
+SHA1-Digest: za9G8JH40p64j0pRrPptkmUdx4M=
+
+Name: res/layout/select_dialog_item.xml
+SHA1-Digest: G8BE/bKIrKtjuFo0bW89hhAYS8w=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1954_en
+SHA1-Digest: K5T7JZwNOU0Lg5BnFfyYy9qTpmE=
+
+Name: res/drawable-hdpi-v4/ic_dialpad_delete.png
+SHA1-Digest: jQZTeAh/4J2T4dXrVM23hywZPK4=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_overflow_lt.png
+SHA1-Digest: x1plt8/R13/hH5a9WVUZihXLsMA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1432_en
+SHA1-Digest: y+Uhsq4rHlx400wgrhzianY8Gok=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1763_en
+SHA1-Digest: QOPcqABTljRl4JER43+336ZDfWU=
+
+Name: res/layout/expanding_entry_card_item.xml
+SHA1-Digest: gR1TM1LmzF+0uKgIFNkbRvH1YAQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ET
+SHA1-Digest: ZgHaxsiotkHOcLboOBdAmEcPbSU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ES
+SHA1-Digest: DeIiXcl5kPgvx+WDzqjxlLuhdHs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1503_en
+SHA1-Digest: 8MPnlzPzkfyNPjq54eai0ApSd1M=
+
+Name: res/drawable-xhdpi-v4/ic_menu_group_lt.png
+SHA1-Digest: GyfPbRPSlkhNFeXREoS1Lmft5uM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1856_en
+SHA1-Digest: jW7NLQzYIL4kQtZs8vOhnhMhv00=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1587_en
+SHA1-Digest: 7V3T6yasNB/TVTvBW+/u0bOWZt8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/269_en
+SHA1-Digest: BrkU7kgXEukzu5XG3ZW02cFmloA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DZ
+SHA1-Digest: QUAnAQ1NT1fUCE4RWwEaZY8y00g=
+
+Name: res/drawable-xxhdpi-v4/ic_dialpad_voicemail.png
+SHA1-Digest: OH8phBEgV/4YrtX0h/8TiwDUibU=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/239_pt
+SHA1-Digest: QN7gxuO+2ZELorrtB6P5hn0Gexc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_fr
+SHA1-Digest: IQ6Em+0W1U9VKv9px9TSWdiQo/g=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DE
+SHA1-Digest: IrQ17DBtpjsdH6hr07ZNNMWTQjY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_675
+SHA1-Digest: yhEc8jlPKXbvDhLFNca0Uc/VhxE=
+
+Name: res/layout/group_detail_fragment.xml
+SHA1-Digest: TCkkPNj3dGXo0Qj6ncYaNFvfSTY=
+
+Name: res/drawable-hdpi-v4/panel_content.9.png
+SHA1-Digest: IhKb92Ei/FMv701NqFzMfJUVbLs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/371_en
+SHA1-Digest: WBvskG8UwsxG/l3KV4n/4SgGvlY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DM
+SHA1-Digest: oYpfMM+VLHotoNXuW6U6yMp75BQ=
+
+Name: res/drawable-xhdpi-v4/ic_message_24dp.png
+SHA1-Digest: giDTQ4lNlcY90PbrBpT5v2ycR7Q=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DK
+SHA1-Digest: ajNvU4lrcutboQve9MjXoCt0mEI=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DJ
+SHA1-Digest: OeJYJhL1wPAee7j/UM285LVtMs4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DO
+SHA1-Digest: uRNgcVKJn/gRsZVHGsxP6QiO3Pg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CR
+SHA1-Digest: TJM9G7LvAg4dQ+1UEJybvkchU/E=
+
+Name: res/drawable-ldrtl-hdpi-v4/panel_content.9.png
+SHA1-Digest: Ik6xvlcARKRFtQ099GvqGli4yNg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CU
+SHA1-Digest: mRNK7K4HUg/JaI/rNhJxzMzQ1Cg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CV
+SHA1-Digest: RVIN2mYGimgGwrX5Vtj0T3GtE8c=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CW
+SHA1-Digest: F59PQe3PRWWiEpDzRg1cIssLgvg=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CX
+SHA1-Digest: SwABWhArz0GmNrESVXjS3NHCpu8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CY
+SHA1-Digest: jDnqEUSgx6Werj9xL6K7MNfZGZU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CZ
+SHA1-Digest: xx5oz1l40WoFgtXw5Zv13SzDDXU=
+
+Name: res/drawable-xhdpi-v4/ic_call_voicemail_holo_dark.png
+SHA1-Digest: U/n/FWxmYf2bllc4d/f+KdcaDlI=
+
+Name: res/layout/contact_list_filter_item.xml
+SHA1-Digest: NaGIwb194XLFrbvKZ4NXG8d9Y98=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1802_en
+SHA1-Digest: 0+VyrY1YPXbl3LvvLkuTQJR7A/E=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/258_pt
+SHA1-Digest: hlMX2ypx3KO67hGp7ohZlNgD4pA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CA
+SHA1-Digest: FjPkydPxg5wCVn10sQCKqDgH6ec=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CD
+SHA1-Digest: 9+I21RpqnaRIC6/Xr/CImt36Pn8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CC
+SHA1-Digest: lnwmVO9iYjuUKJtc4mVjck9XjQg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1248_en
+SHA1-Digest: C8d73gqf4eHEzj8eEHZxl0L4HQM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CF
+SHA1-Digest: Zb150rGevGBapWuqzyutTvSGC60=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1915_en
+SHA1-Digest: 9NI01eFQ+zJwMxE9/KuhX3sFUwQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CH
+SHA1-Digest: eH3zu6OTr8s9tl+AreAyQGP1GZ4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1408_en
+SHA1-Digest: qpatXWvkYqgZGcYIDxznror+tFE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1480_en
+SHA1-Digest: iR96ZypAJg79jhryuRGo0UqfiFE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CG
+SHA1-Digest: +OEg9gclfpM8TEMjpwZw66996ZU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CI
+SHA1-Digest: nxsWkqBPCFssw4zI95PNSwFUpPE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CL
+SHA1-Digest: HaDoq4hilxgRhmrVejM5RFakHn4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CK
+SHA1-Digest: EwIARx8u+BnBm/OxE5+eF7icSZU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CN
+SHA1-Digest: 1/tc3jTCwfoPPAgUyec92RqCCGQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1917_en
+SHA1-Digest: SM0wo8ncp2yAAhhqlrLrjN9Ni78=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CM
+SHA1-Digest: lacrRPMVPQcFYuLIAhVVOry5Fw0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1331_en
+SHA1-Digest: e/8EKRancQQwSuhW3tCz/eqxem0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CO
+SHA1-Digest: g9wwJ58gwpo7lQcA7gXsCvEO3dk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1864_en
+SHA1-Digest: ih3UkZLuOcSr/2Nt40V5qmZMPuk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BW
+SHA1-Digest: /lHiEDyArDlkrht2jepil/lL/r8=
+
+Name: res/layout/custom_action_bar.xml
+SHA1-Digest: VHdDHZqUVfi0o44jnRqjt/WlZ+4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BT
+SHA1-Digest: oWKvwYKJy2599iCVKzxxe1kx/WA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1469_en
+SHA1-Digest: 0I2IJWEAD8+KCGHevtEd3DVnCrU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BR
+SHA1-Digest: yvfrw7c6vjWSj9ll+uINmoEZuWc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1334_en
+SHA1-Digest: BsXajnord4VufefrMpsgCh6lx8A=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BS
+SHA1-Digest: zvzXlkcMf53H7MT8Sc2Y6IDGL/s=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BQ
+SHA1-Digest: l/O/YwXNQfrAK+3iAFAuunSAKBE=
+
+Name: res/drawable/ic_tab_groups.xml
+SHA1-Digest: DH57OS1xJqPFu5IMPH0Db5c/VJE=
+
+Name: resources.arsc
+SHA1-Digest: W7qi/fOBHtewoLMQYCyM0EapUsw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BZ
+SHA1-Digest: bZ0DVTWtAaor7LTbuyteUblHZqE=
+
+Name: res/drawable-hdpi-v4/btn_star_off_normal_holo_light.png
+SHA1-Digest: MyLsI376sZT0ijGeHs+WRyq19NE=
+
+Name: res/drawable/view_pager_tab_background.xml
+SHA1-Digest: YL48ZYCSwoiI0MEaqvB6TkrfOTs=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BY
+SHA1-Digest: uWxEpkJdvT8zc71Q+aJna6JdX6c=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BG
+SHA1-Digest: MnK2B1JZt/JT7PiHgyXcexTBxtk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BF
+SHA1-Digest: MU47rZutXukdgGyeO8JdHESechQ=
+
+Name: res/drawable-xhdpi-v4/ic_person_white_120dp.png
+SHA1-Digest: j198GWikNStiKCrdRwQxGQX5w8c=
+
+Name: res/drawable-hdpi-v4/ic_hangout_24dp.png
+SHA1-Digest: AY1upKlfhP+vok6Odz513Jkpj2I=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BE
+SHA1-Digest: kCElNlKmpedUE1stGlpRILZ/7q4=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BD
+SHA1-Digest: iwJxUqftwPkFVu3CMDT4/at62ao=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1661_en
+SHA1-Digest: ma0/2Rr9yMINcseIFzgNfpqAwhk=
+
+Name: res/layout/photoselection_activity.xml
+SHA1-Digest: dOl4Erig25dxRD/ieZgx7wvnelQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BB
+SHA1-Digest: qJRmlz37y+9xSkQCgqBCzEIt2gs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1507_en
+SHA1-Digest: 9iYPwv7nJOxE0GWIIjHxkbnmyE0=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BA
+SHA1-Digest: ikwEIIEnzXMPWnRGDVHU3KORNCc=
+
+Name: res/drawable-hdpi-v4/ic_settings_white_24dp.png
+SHA1-Digest: cQ/9EykJZLdtJIWxtanmCf9dg4Y=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BO
+SHA1-Digest: lXEPfhd8iCjSHfu3grvFp/fSMdM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BN
+SHA1-Digest: 73oRQKlv+XXdgg0dwxoF64srMTY=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BM
+SHA1-Digest: DeS+/JuqN2wJgvboIyl7VLpVuT8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BL
+SHA1-Digest: T5HDy99O+ftVavMq1U6gd3Ajrzc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BJ
+SHA1-Digest: EQX7sTl6NxbTJhLLvCTpK6MZKpE=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BI
+SHA1-Digest: Tidgdr3kTXL1NgQdM/eQgueMwwc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BH
+SHA1-Digest: VhKqIcygxibaZS9dLbjKIFwJF/o=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/7_en
+SHA1-Digest: lTq36v8IAo2WBSkSitsj/slgovo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AS
+SHA1-Digest: TvOYLXpV+ayXN0lPbQYAK5wHXhc=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AT
+SHA1-Digest: hqGb37qZDfDlQmLhc2O5J4E0Oxo=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AU
+SHA1-Digest: 9JTXJO1ND9LASjXcqyQutb8kGa8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1551_en
+SHA1-Digest: N7R6YW04rMjpoA7w/msoYC/R+gU=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AO
+SHA1-Digest: rSWdt7x0gLvGsQEg/RNjE2uaOH8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1250_en
+SHA1-Digest: ekqmlnPQIpmROUAkvNDp7s1XV/g=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1740_en
+SHA1-Digest: ush04lzqwF7+NhOWemsQmwOnq1A=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AR
+SHA1-Digest: fhGirZ3qYT00t5EKKWi1avuvhko=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_255
+SHA1-Digest: T8Y8UPJDNNY3gi+RvAerX30aAJ4=
+
+Name: res/drawable-xhdpi-v4/ic_settings_white_24dp.png
+SHA1-Digest: zu6Yf0NxMjwV1fWzBtgiVA9iXik=
+
+Name: res/drawable-hdpi-v4/ic_done_wht_24dp.png
+SHA1-Digest: nMUYoqg1ZY+DUxcHr3tAS4bpp3E=
+
+Name: res/drawable-xhdpi-v4/ic_phone_24dp.png
+SHA1-Digest: VUw28M3Gbi6cmI7FZ6V9oTlhE10=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AW
+SHA1-Digest: forQYq6WWbzM8JB5icXx3pqJh1g=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AX
+SHA1-Digest: xXXhU0wibZJgRbagTefH5FsETL8=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AZ
+SHA1-Digest: CJrPQMosQCfPKIYPRW1Dd8pUTj8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1639_en
+SHA1-Digest: 0100OcD9qxrFTut0qtinkgxqDyw=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AD
+SHA1-Digest: gfIYvmYpbQKJZ55/DXhtY+TJO7o=
+
+Name: res/layout-land/dialpad_key_zero.xml
+SHA1-Digest: uUw6U8VLOvL68Jl9mr0+oah2kY8=
+
+Name: res/drawable/fastscroll_thumb.xml
+SHA1-Digest: opGsM8Otv8WECl1vw/F/ze5NL7I=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AC
+SHA1-Digest: TdR9LPZbTbkOroc20SB3FcNMQMk=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AF
+SHA1-Digest: DfgeaD7ugrM8JMU/OaAyprjM+KA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AE
+SHA1-Digest: 2pmWArmMF8XPBhUHB1BDUk6sU48=
+
+Name: res/drawable-ldrtl-hdpi-v4/badge_action_sms.png
+SHA1-Digest: k9qhl7OICxt8jK429kRZY20l474=
+
+Name: res/drawable-hdpi-v4/ic_menu_back.png
+SHA1-Digest: 8+D6XJuryoTxnKhWFn7ejhDI3SQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AL
+SHA1-Digest: wHqLey8AvcafXdaSY+why0BZAKo=
+
+Name: res/drawable-hdpi-v4/ic_directions_24dp.png
+SHA1-Digest: JRdziTcxVuVrOSlw7Q5UkzIRPLM=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AM
+SHA1-Digest: 7HL3A0vn0mQhqrrNlP0XbVGC6dA=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AG
+SHA1-Digest: IREC7VmaNyp2z6TlD/gOqjKgru8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1623_en
+SHA1-Digest: hOZdyAQRfNr3+nYccku38j15cIU=
+
+Name: res/drawable-xhdpi-v4/panel_message.9.png
+SHA1-Digest: LYddjFNhZ1BJhxfXHLrfI77Nr6E=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AI
+SHA1-Digest: +2+HU3m74y5TWONWX3hrGSVnPic=
+
+Name: res/layout-sw600dp-v13/group_editor_activity.xml
+SHA1-Digest: F1Ti7AbqEbvKWYK38TZlFXr/oHU=
+
+Name: res/drawable-ldrtl-xhdpi-v4/list_section_divider_holo_custom.9.p
+ ng
+SHA1-Digest: 6Uw6O1OsJXYaABhjW2dMs70tscw=
+
+Name: res/drawable-sw600dp-xhdpi-v13/list_activated_holo.9.png
+SHA1-Digest: B40fAwMdXzITT3+u4vDGeoov+TE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1541_en
+SHA1-Digest: pIX1KTtPzu+hpXXAKDtiBs5mIwQ=
+
+Name: res/drawable-hdpi-v4/ic_menu_person_lt.png
+SHA1-Digest: jI2hu9WzXwP57ByqTxveB8Vjyk0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1779_en
+SHA1-Digest: KSrIP2ay0Io6lkyWPYGKUnAQEkM=
+
+Name: res/drawable-xhdpi-v4/quickcontact_badge_overlay_pressed_light.9
+ .png
+SHA1-Digest: sqZF/OjMb3Al5RJW8P8OMWpwCsM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1989_en
+SHA1-Digest: rdYFRgCtkuGKZJ5CAC3Z1HIOTX0=
+
+Name: res/layout/custom_contact_list_filter_group.xml
+SHA1-Digest: +9PutSScfTtHxDAW7xTGV6krA/k=
+
+Name: res/drawable-xxhdpi-v4/badge_action_call.png
+SHA1-Digest: /alq+0Np7qFFKz3/OXYvNE/+5LM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/373_en
+SHA1-Digest: Wvrjqst3tHLy/2FsJoifzJph12s=
+
+Name: res/layout/item_group_membership.xml
+SHA1-Digest: A0P0AQTxADlGGoUpBQnQk4JYNvM=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/230_es
+SHA1-Digest: 7YF8C2Fe/VpWi2CLBjEzc2nRA+8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1845_en
+SHA1-Digest: 5IVD1fa43IiBJtDcIKP1yxYhEoM=
+
+Name: res/drawable-hdpi-v4/ic_create_24dp.png
+SHA1-Digest: WRUaAw5sLJd58wCC0cxEjcJIY70=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/230_en
+SHA1-Digest: w9IPNFv59g6XPUgPMZ6P09hw9lg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1775_en
+SHA1-Digest: 53Yq0YveVtBDcsZ83ZALSlqpGvk=
+
+Name: res/drawable/floating_action_button.xml
+SHA1-Digest: Gr2be9z0ATRzPevsd5enk06zPxo=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_text_holo_dark.png
+SHA1-Digest: GKe+hLrwaxnGiBgejAPNXIpUnhw=
+
+Name: res/drawable-hdpi-v4/ic_place_24dp.png
+SHA1-Digest: fSXPLwNoyTYkrx1/xI57aEmYtFA=
+
+Name: res/layout/group_source_button.xml
+SHA1-Digest: UQaQxn5opp6D17+ptVwtV7kn0pg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/267_en
+SHA1-Digest: JgtotQoOc5QMKeaJ060dcRDO0DI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1785_en
+SHA1-Digest: ZWUauZQdzGdhiF5hhKX+mDicAz4=
+
+Name: res/drawable-xhdpi-v4/ic_done_wht_24dp.png
+SHA1-Digest: zdHFh8esecMHVpRVCNyGT74hjF8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/66_th
+SHA1-Digest: /EVAkyxyxphq8M3yHDOH9dFUCSI=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/82_ko
+SHA1-Digest: 0JuOfMESGM4cjx9ETi1isPBbmQ4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1620_en
+SHA1-Digest: Ca9MTVd9UZddU7Stc5L/XYgaXS0=
+
+Name: res/drawable-xxhdpi-v4/ic_close_dk.png
+SHA1-Digest: eObayPYLiAVcMtBHnqvjeX7Ci7g=
+
+Name: res/drawable-xhdpi-v4/ic_dialpad_voicemail.png
+SHA1-Digest: OI/Ml3DYc7R0ovXLd0bR9yTWivE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1430_en
+SHA1-Digest: vnplIcXxEnvSoZ4skQZfxLWZ4os=
+
+Name: res/drawable-ldrtl-xhdpi-v4/account_spinner_icon.png
+SHA1-Digest: 4/pR//MJ3foYVU+v998tdh1wzjE=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/20_en
+SHA1-Digest: nGv60V5vNElKZEt9DYFR4ZNeh44=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/27_en
+SHA1-Digest: kSmLWLPmDiI3vJ4Qs+EaktqPGe0=
+
+Name: res/menu/view_contact.xml
+SHA1-Digest: ZkqHBtA/Esa1xVifm59/nsQjaKg=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/238_en
+SHA1-Digest: tgUdkBpz50wZK9gii2TJXM68e5U=
+
+Name: res/layout/edit_field_list_with_anchor_view.xml
+SHA1-Digest: HvDJqS+z2OdNvqWEsqIlQA4mCrc=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1315_en
+SHA1-Digest: SUf2F2N4sOGJiUNn0zBjphpUXyk=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/53_en
+SHA1-Digest: tIsFm+Jf0+aJvXd3MFA2/O+l9VQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1234_en
+SHA1-Digest: UZB9wLA/Tdy8reLrLokp9BdKKVg=
+
+Name: res/layout/contact_detail_add_connection_entry_view.xml
+SHA1-Digest: WxXeu9+wDzrSQVxRUijg0uc1YVg=
+
+Name: res/menu/people_options.xml
+SHA1-Digest: gZUjkSHziaC/Fq7YRC87CuiYXm0=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1562_en
+SHA1-Digest: TFdDSflcJlyIKHFki4GRXW2Tzco=
+
+Name: res/drawable-hdpi-v4/ic_call_voicemail_holo_dark.png
+SHA1-Digest: s/7VSZKnFk9E+SYMqa0iUJ2XZr8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1540_en
+SHA1-Digest: t3YHLVsiHOx8Rm2RVtW+kK7QCSY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/badge_action_sms.png
+SHA1-Digest: 6dFpGffM4L4U6PiP1HBOciBuxBw=
+
+Name: res/drawable-xhdpi-v4/ic_menu_settings_holo_light.png
+SHA1-Digest: SKcUKZ83nYtBgO0Og3sijmYRysc=
+
+Name: res/drawable-hdpi-v4/ic_menu_person_dk.png
+SHA1-Digest: Ui58sVmBDnaGusQFf+WiSKUpVA4=
+
+Name: res/drawable-xxhdpi-v4/btn_star_on_normal_holo_light.png
+SHA1-Digest: E730xxUKo2/PllnSrIe2f5WvNYQ=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/56_es
+SHA1-Digest: hHennwndgpJREDPVvN7MQudCin4=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/381_en
+SHA1-Digest: L92lN40rR4wNndiNNGebIPGviDE=
+
+Name: res/layout/group_detail_activity.xml
+SHA1-Digest: GStOZQcw+R1gxs/UbwVECagnAew=
+
+Name: res/drawable-xxhdpi-v4/generic_business_white_540dp.png
+SHA1-Digest: N1i4eEybFlM8knKGsLNa5stuK7s=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/56_en
+SHA1-Digest: YVwzEDAFJD8NNCeQwD20pBec9jQ=
+
+Name: com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsPro
+ to_679
+SHA1-Digest: 6/VdOl5YznGBEI9ms/gjN2EAmLM=
+
+Name: res/menu/view_group.xml
+SHA1-Digest: UZ6JDpW4MfYQ5Qf0WZR3sPNznc8=
+
+Name: res/drawable-xhdpi-v4/ic_close_dk.png
+SHA1-Digest: /yvsWO2LIIW3i/De0wccZkRDxXU=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_add_contact_holo_dark.png
+SHA1-Digest: xU1bUHjzpwdjVIZD0hcUFsG8XH8=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/269_fr
+SHA1-Digest: BrkU7kgXEukzu5XG3ZW02cFmloA=
+
+Name: res/drawable-ldrtl-hdpi-v4/ic_text_holo_dark.png
+SHA1-Digest: e/wZARuW4ZhHFOVmXMRoamPWncM=
+
+Name: res/drawable-xxhdpi-v4/ic_arrow_back_24dp.png
+SHA1-Digest: PKTy/w9tW/X7yp00dxnFshZNQYA=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/1847_en
+SHA1-Digest: zZTgj/BnF9rT5+gVIkfItCnEHII=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/358_se
+SHA1-Digest: Od4vOiqc76fGuovnmrwGd7G1B6U=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/36_en
+SHA1-Digest: SG8qx13L8kDQxWAPAnc7fuK4Bz8=
+
+Name: res/drawable-xhdpi-v4/badge_action_call.png
+SHA1-Digest: LhyrhJ8LtzkyWFNPshgVd/C5GK4=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_person_dk.png
+SHA1-Digest: AtHXbzhpcoAQ+nS3/ldKmhwxTrw=
+
+Name: res/drawable-xhdpi-v4/generic_business_white_540dp.png
+SHA1-Digest: nA5CVilANACF6YiadY1BuNmFjEs=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/86_en
+SHA1-Digest: lX0xPxbFs6egEnyuEDKYXbkG2ck=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/40_ro
+SHA1-Digest: frySldXiYe2KdpbZCX+PLnXbs4E=
+
+Name: res/drawable-hdpi-v4/ic_add_contact_holo_light.png
+SHA1-Digest: cHL4Xlji55QlVeDFnpMOA8O/euw=
+
+Name: com/google/i18n/phonenumbers/geocoding/data/230_fr
+SHA1-Digest: 8/bvG+vGG5qIxnKhuiERtkuqAwg=
+
+Name: res/drawable-xhdpi-v4/ic_menu_person_dk.png
+SHA1-Digest: PtVDEhvegkTGknuKQzCieSMvgM8=
+

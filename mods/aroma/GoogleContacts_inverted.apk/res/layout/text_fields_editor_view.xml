@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.TextFieldsEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include layout="@layout/edit_field_list_with_anchor_view" />
+        <include android:id="@id/expansion_view_container" android:visibility="gone" layout="@layout/edit_expansion_view" />
+        <include android:id="@id/spinner" android:visibility="gone" layout="@layout/edit_spinner" />
+        <include android:id="@id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+    </LinearLayout>
+</com.android.contacts.editor.TextFieldsEditorView>

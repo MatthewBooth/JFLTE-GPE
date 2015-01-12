@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">ພົບ %d</item>
+        <item quantity="one">ພົບ 1 ລາຍຊື່</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d ລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ມີເບີໂທລະສັບ</item>
+        <item quantity="one">1 ລາຍຊື່ຜູ່ຕິດຕໍ່ທີ່ມີເບີໂທລະສັບ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">ພົບ %d</item>
+        <item quantity="one">ພົບ 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">ຮວມມາຈາກ %0$d ແຫລ່ງຂໍ້ມູນ</item>
+        <item quantity="one">ຍັງບໍ່ຮວມເທື່ອ</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ກຸ່ມ</item>
+        <item quantity="one">1 ກຸ່ມ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ຄົນຈາກ %2$s</item>
+        <item quantity="one">%1$d ຄົນຈາກ %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d ຄົນ</item>
+        <item quantity="one">%1$d ຄົນ</item>
+    </plurals>
+</resources>

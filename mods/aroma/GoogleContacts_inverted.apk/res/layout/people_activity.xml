@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_parent" layout="@layout/people_activity_toolbar" />
+    <android.support.v4.view.ViewPager android:id="@id/tab_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_parent" />
+    <FrameLayout android:id="@id/contacts_unavailable_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_parent">
+        <FrameLayout android:id="@id/contacts_unavailable_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/floating_action_button" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.common.dialpad.DialpadKeyButton android:id="@id/zero" style="@style/DialpadKeyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/DialpadKeyInternalLayoutStyle">
+        <com.android.phone.common.dialpad.DialpadTextView android:id="@id/dialpad_key_number" style="@style/DialpadBottomKeyNumberStyle" />
+        <TextView android:id="@id/dialpad_key_letters" style="@style/DialpadKeyLettersStyle" />
+    </LinearLayout>
+</com.android.phone.common.dialpad.DialpadKeyButton>

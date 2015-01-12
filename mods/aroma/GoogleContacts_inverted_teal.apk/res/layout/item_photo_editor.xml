@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.android.contacts.editor.PhotoEditorView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="48.0dip" android:layout_height="48.0dip">
+        <ImageView android:gravity="start" android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:cropToPadding="true" />
+        <View android:id="@id/frame" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/description_contact_photo" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/photo_triangle_affordance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/account_spinner_icon" />
+</view>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ex="http://schemas.android.com/apk/res-auto">
+    <com.android.contacts.widget.InterpolatingLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/group_editor_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" ex:layout_narrowParentWidth="800.0dip" ex:layout_narrowMarginLeft="0.0dip" ex:layout_narrowMarginRight="0.0dip" ex:layout_wideParentWidth="1280.0dip" ex:layout_wideMarginLeft="160.0dip" ex:layout_wideMarginRight="160.0dip" class="com.android.contacts.group.GroupEditorFragment" />
+    </com.android.contacts.widget.InterpolatingLayout>
+</FrameLayout>

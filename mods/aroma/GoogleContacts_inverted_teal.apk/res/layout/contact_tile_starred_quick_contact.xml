@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="@null" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:paddingEnd="1.0dip" class="com.android.contacts.common.list.ContactTileStarredView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.contacts.common.widget.LayoutSuppressingImageView android:id="@id/contact_tile_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/contact_tile_shadow_box_color" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/contact_tile_shadowbox_height" android:layout_alignParentBottom="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:id="@id/contact_tile_name" android:fadingEdge="horizontal" android:fadingEdgeLength="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/people_contact_tile_status_color" android:ellipsize="marquee" android:id="@id/contact_tile_status" android:fadingEdge="horizontal" android:fadingEdgeLength="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:singleLine="true" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <QuickContactBadge android:id="@id/contact_tile_quick" android:background="@null" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</view>

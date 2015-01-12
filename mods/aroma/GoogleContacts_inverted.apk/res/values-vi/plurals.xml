@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Đã tìm thấy %d</item>
+        <item quantity="one">Đã tìm thấy 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d liên hệ có số điện thoại</item>
+        <item quantity="one">1 liên hệ có số điện thoại</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Đã tìm thấy %d</item>
+        <item quantity="one">Đã tìm thấy 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">được hợp nhất từ %0$d nguồn</item>
+        <item quantity="one">chưa được hợp nhất</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d nhóm</item>
+        <item quantity="one">1 nhóm</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d người từ %2$s</item>
+        <item quantity="one">%1$d người từ %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d người</item>
+        <item quantity="one">%1$d người</item>
+    </plurals>
+</resources>

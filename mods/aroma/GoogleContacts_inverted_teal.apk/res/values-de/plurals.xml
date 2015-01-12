@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gefunden</item>
+        <item quantity="one">1 gefunden</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d Kontakte mit Telefonnummern</item>
+        <item quantity="one">1 Kontakt mit Telefonnummer</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d gefunden</item>
+        <item quantity="one">1 gefunden</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">aus %0$d Quellen zusammengeführt</item>
+        <item quantity="one">nicht zusammengeführt</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d Gruppen</item>
+        <item quantity="one">1 Gruppe</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d Personen von %2$s</item>
+        <item quantity="one">%1$d Person von %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d Personen</item>
+        <item quantity="one">%1$d Person</item>
+    </plurals>
+</resources>

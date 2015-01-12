@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gevind</item>
+        <item quantity="one">1 gevind</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontakte met foonnommers</item>
+        <item quantity="one">1 kontak met foonnommer</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d gevind</item>
+        <item quantity="one">1 gevind</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">saamgevoeg uit %0$d bronne</item>
+        <item quantity="one">nie saamgevoeg nie</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d groepe</item>
+        <item quantity="one">1 groep</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d persone uit %2$s</item>
+        <item quantity="one">%1$d persoon van %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d mense</item>
+        <item quantity="one">%1$d persoon</item>
+    </plurals>
+</resources>

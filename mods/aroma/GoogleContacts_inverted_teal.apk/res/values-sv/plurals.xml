@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d hittades</item>
+        <item quantity="one">1 hittades</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontakter med telefonnummer</item>
+        <item quantity="one">en kontakt med telefonnummer</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d hittades</item>
+        <item quantity="one">1 hittades</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">kombinerade från %0$d källor</item>
+        <item quantity="one">inte kombinerade</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d grupper</item>
+        <item quantity="one">1 grupp</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d personer från %2$s</item>
+        <item quantity="one">%1$d person från %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:id="@id/add_organization_button" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/editor_add_field_label_left_padding" android:paddingRight="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/add_organization" android:paddingStart="@dimen/editor_add_field_label_left_padding" android:paddingEnd="16.0dip" />
+    <FrameLayout android:id="@id/container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

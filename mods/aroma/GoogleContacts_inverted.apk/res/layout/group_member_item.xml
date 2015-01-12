@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/name" android:paddingLeft="@dimen/group_member_item_left_padding" android:paddingRight="3.0dip" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/group_member_item_left_padding" android:paddingEnd="3.0dip" />
+    <QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/badge" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" style="?android:attr/quickContactBadgeStyleWindowMedium" />
+    <include android:gravity="center_vertical" android:id="@id/delete_button_container" layout="@layout/edit_delete_button" />
+</LinearLayout>

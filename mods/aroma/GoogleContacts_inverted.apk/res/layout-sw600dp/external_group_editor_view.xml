@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/background_primary" android:paddingLeft="50.0dip" android:paddingTop="50.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="50.0dip" android:paddingEnd="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="30.0dip" android:layout_weight="3.0" android:layout_marginEnd="30.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorTertiary" android:id="@id/read_only_warning" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/group_read_only" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+        <include android:id="@id/account_header" layout="@layout/editor_account_header" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="?android:textColorTertiary" android:id="@id/group_name" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@android:id/list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" layout="@layout/group_editor_existing_member_list" />
+</LinearLayout>

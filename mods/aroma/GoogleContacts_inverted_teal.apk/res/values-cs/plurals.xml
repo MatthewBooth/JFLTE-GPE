@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Nalezeno: %d</item>
+        <item quantity="one">Nalezeno: 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Kontakty s telefonními čísly: %d</item>
+        <item quantity="one">1 kontakt s telefonním číslem</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Nalezeno: %d</item>
+        <item quantity="one">Nalezeno: 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">sloučeno ze %0$d zdrojů</item>
+        <item quantity="one">sloučení se nezdařilo</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Skupiny: %0$d</item>
+        <item quantity="one">1 skupina</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Počet lidí ze skupiny %2$s: %1$d</item>
+        <item quantity="one">Počet lidí ze skupiny %2$s: %1$d</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Počet lidí: %1$d</item>
+        <item quantity="one">%1$d uživatel</item>
+    </plurals>
+</resources>

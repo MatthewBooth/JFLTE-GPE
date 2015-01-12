@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Löytyi %d</item>
+        <item quantity="one">Löytyi 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d yhteystietoa, joissa puhelinnumero</item>
+        <item quantity="one">1 yhteystieto, jossa puhelinnumero</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Löytyi %d</item>
+        <item quantity="one">Löytyi 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">yhdistetty %0$d lähteestä</item>
+        <item quantity="one">ei yhdistetty</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ryhmää</item>
+        <item quantity="one">1 ryhmä</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d henkilöä tilistä %2$s</item>
+        <item quantity="one">%1$d henkilö tilistä %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d henkilöä</item>
+        <item quantity="one">%1$d henkilö</item>
+    </plurals>
+</resources>

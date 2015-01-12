@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/kind_title" android:paddingStart="0.0dip" android:paddingEnd="8.0dip" style="@style/EditKindSeparatorTextViewStyle" />
+</FrameLayout>

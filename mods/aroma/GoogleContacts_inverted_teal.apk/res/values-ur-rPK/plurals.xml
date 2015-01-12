@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ملے</item>
+        <item quantity="one">1 ملا</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">فون نمبروں کے ساتھ %d رابطے</item>
+        <item quantity="one">فون نمبر کے ساتھ 1 رابطہ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ملے</item>
+        <item quantity="one">1 ملا</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d مآخذ سے ضم کیا گیا</item>
+        <item quantity="one">ضم نہیں ہے</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d گروپس</item>
+        <item quantity="one">1 گروپ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s سے %1$d لوگ</item>
+        <item quantity="one">%2$s سے %1$d شخص</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d لوگ</item>
+        <item quantity="one">%1$d شخص</item>
+    </plurals>
+</resources>

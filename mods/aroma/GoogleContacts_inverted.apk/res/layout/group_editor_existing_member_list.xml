@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/group_editor_member_list_left_margin" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/group_editor_member_list_right_margin" android:cacheColorHint="@android:color/transparent" android:layout_marginStart="@dimen/group_editor_member_list_left_margin" android:layout_marginEnd="@dimen/group_editor_member_list_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

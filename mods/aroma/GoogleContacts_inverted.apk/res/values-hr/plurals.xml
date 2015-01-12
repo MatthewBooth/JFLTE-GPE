@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Pronađeno kontakata: %d</item>
+        <item quantity="one">1 pronađen</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Kontakata s tel. brojevima: %d</item>
+        <item quantity="one">1 kontakt s tel. brojem</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Pronađeno kontakata: %d</item>
+        <item quantity="one">1 pronađen</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">spojen s %0$d izvora</item>
+        <item quantity="one">nije spojen</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Br. grupa: %0$d</item>
+        <item quantity="one">1 grupa</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Broj ljudi: %1$d iz grupe %2$s</item>
+        <item quantity="one">%1$d osoba iz grupe %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Broj osoba: %1$d</item>
+        <item quantity="one">Broj osoba: %1$d</item>
+    </plurals>
+</resources>

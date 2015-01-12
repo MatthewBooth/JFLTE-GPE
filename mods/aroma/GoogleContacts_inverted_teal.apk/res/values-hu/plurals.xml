@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d találat</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d névjegy telefonszámmal</item>
+        <item quantity="one">1 névjegy telefonszámmal</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d találat</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">egyesítve %0$d forrásból</item>
+        <item quantity="one">nincs egyesítve</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d csoport</item>
+        <item quantity="one">1 csoport</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d személy ebben: %2$s</item>
+        <item quantity="one">%1$d személy ebben: %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d személy</item>
+        <item quantity="one">%1$d személy</item>
+    </plurals>
+</resources>

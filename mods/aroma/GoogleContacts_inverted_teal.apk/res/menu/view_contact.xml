@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_edit" android:title="@string/menu_editContact" android:alphabeticShortcut="e" />
+    <item android:id="@id/menu_share" android:title="@string/menu_share" android:alphabeticShortcut="s" />
+    <item android:id="@id/menu_delete" android:title="@string/menu_deleteContact" />
+    <item android:id="@id/menu_set_ringtone" android:title="@string/menu_set_ring_tone" />
+    <item android:id="@id/menu_send_to_voicemail" android:title="@string/menu_redirect_calls_to_vm" android:checkable="true" />
+    <item android:id="@id/menu_create_contact_shortcut" android:title="@string/menu_create_contact_shortcut" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/user_profile_header" android:paddingLeft="?list_item_padding_left" android:paddingTop="4.0dip" android:paddingRight="?list_item_padding_right" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="?list_item_header_height" android:paddingStart="?list_item_padding_left" android:paddingEnd="?list_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SectionHeaderStyle" android:ellipsize="end" android:gravity="start|center" android:id="@id/profile_title" android:layout_width="@dimen/contact_list_section_header_width" android:layout_height="?android:listPreferredItemHeight" android:text="@string/user_profile_contacts_list_header" android:singleLine="true" />
+    <Button android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="start|center" android:id="@id/user_profile_button" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:text="@string/profile_display_name" android:singleLine="true" android:paddingStart="?list_item_padding_left" android:paddingEnd="?list_item_padding_right"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

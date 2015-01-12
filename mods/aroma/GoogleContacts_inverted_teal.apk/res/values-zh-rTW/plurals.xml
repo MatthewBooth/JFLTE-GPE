@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 位聯絡人</item>
+        <item quantity="one">找到 1 位聯絡人</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d 位有電話號碼的聯絡人</item>
+        <item quantity="one">1 位有電話號碼的聯絡人</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">找到 %d 位聯絡人</item>
+        <item quantity="one">找到 1 位聯絡人</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">從 %0$d 個來源合併</item>
+        <item quantity="one">未合併</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d 個群組</item>
+        <item quantity="one">1 個群組</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s 中有 %1$d 人</item>
+        <item quantity="one">%2$s 中有 %1$d 人</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d 人</item>
+        <item quantity="one">%1$d 人</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.KindSectionView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/kind_title_layout" layout="@layout/edit_kind_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/kind_editors" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/add_field_footer" layout="@layout/edit_add_field" />
+</com.android.contacts.editor.KindSectionView>

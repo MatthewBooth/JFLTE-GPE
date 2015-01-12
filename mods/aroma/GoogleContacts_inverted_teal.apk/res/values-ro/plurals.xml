@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Au fost găsite %d (de) persoane din agendă</item>
+        <item quantity="one">A fost găsită 1 persoană din agendă</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d (de) persoane din agendă cu numere de telefon</item>
+        <item quantity="one">1 persoană din agendă cu număr de telefon</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Au fost găsite %d (de) persoane din agendă</item>
+        <item quantity="one">A fost găsită 1 persoană din agendă</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">au fost îmbinate din %0$d surse</item>
+        <item quantity="one">nu au fost îmbinate</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d (de) grupuri</item>
+        <item quantity="one">1 grup</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d (de) persoane din %2$s</item>
+        <item quantity="one">%1$d persoană din %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d (de) persoane</item>
+        <item quantity="one">%1$d persoană</item>
+    </plurals>
+</resources>

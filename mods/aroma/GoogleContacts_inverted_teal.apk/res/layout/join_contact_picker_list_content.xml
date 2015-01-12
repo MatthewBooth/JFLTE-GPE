@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/join_contact_blurb" android:paddingLeft="?list_item_header_text_indent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/join_header_left_margin" android:layout_marginTop="@dimen/join_header_top_margin" android:layout_marginRight="@dimen/join_header_right_margin" android:layout_marginBottom="@dimen/join_header_bottom_margin" android:maxLines="2" android:paddingStart="?list_item_header_text_indent" android:layout_marginStart="@dimen/join_header_left_margin" android:layout_marginEnd="@dimen/join_header_right_margin" />
+    <FrameLayout android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/contact_list_card" />
+        <view android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="?contact_browser_list_padding_right" android:fastScrollEnabled="true" android:layout_marginStart="?contact_browser_list_padding_left" android:layout_marginEnd="?contact_browser_list_padding_right" class="com.android.contacts.common.list.PinnedHeaderListView" />
+    </FrameLayout>
+</LinearLayout>

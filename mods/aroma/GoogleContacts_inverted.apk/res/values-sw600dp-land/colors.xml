@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_pinned_header_color">@color/contact_all_list_background_color</color>
+</resources>

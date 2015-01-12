@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="otherLabels">
+        <item>Szervezet</item>
+        <item>Jegyzet</item>
+    </string-array>
+</resources>

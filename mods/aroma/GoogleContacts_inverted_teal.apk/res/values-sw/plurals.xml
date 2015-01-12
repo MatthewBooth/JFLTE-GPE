@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d zimepatikana</item>
+        <item quantity="one">Patikana 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Anwani %d zilizo na nambari ya simu</item>
+        <item quantity="one">Anwani 1 yenye namba ya simu</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Patikana %d</item>
+        <item quantity="one">Imepatikana 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">Zimeunganishwa kutoka kwa nyenzo %0$d</item>
+        <item quantity="one">haijaunganishwa</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Vikundi %0$d</item>
+        <item quantity="one">Kikundi 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Watu %1$d kutoka%2$s</item>
+        <item quantity="one">Mtu%1$d kutoka %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Watu %1$d</item>
+        <item quantity="one">Mtu %1$d</item>
+    </plurals>
+</resources>
