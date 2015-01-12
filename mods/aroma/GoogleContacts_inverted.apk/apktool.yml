@@ -1,5 +1,5 @@
 version: 2.0.0-RC3
-apkFileName: GoogleContacts.apk
+apkFileName: GoogleContacts_inverted.apk
 isFrameworkApk: false
 usesFramework:
   ids:
