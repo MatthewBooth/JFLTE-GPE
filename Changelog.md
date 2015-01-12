@@ -5,22 +5,27 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 Visit http://ultimarom.com for downloads
 
 
-### Changelog 20150111
+### Changelog 20150112
 * Rebuilt from scratch to log our changes in GIT, results in cleaner work
 * Enabled national roaming on most European virtual networks
 * Dirty flashers should no longer need to clear interface app and data
 * Fixed roaming for Videotron users in Quebec, Canada
-* App ops accessible in security settings
-* Custom DPI options in AROMA
+* App ops added to security settings
 * Device walpapers included in tiny .apk from source
-* Toggle to disable and enable IME notification added to Interface
+* Updated Interface app
 * Toggle for enable all rotations added to Interface
 * Toggle for wake on unplug added to Interface
 * Improved show 4g for LTE toggle
-* hide alarm clock toggle code simplified 
+* AROMA improvements
+* Motorola Gallery now optional in aroma, it goes amazing with Moto camera
+* Inverted teal theme for dialer in contacts added to AROMA
+* Custom DPI options in AROMA
+* Improvements to the tethering script for some carriers
+* Hide alarm clock toggle code simplified 
 * Disabled safe media nag
 * Removed a duplicate ringtone
 * Updated OTA app
+* Updated build.prop
 
 ### Changelog 20150105
 * Even with 5.0.1 LRX22C - Unofficial 5.0.1
