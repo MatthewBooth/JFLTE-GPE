@@ -106,6 +106,10 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 		ui_print("Installing Motorola Camera");
 		package_extract_dir("aroma/apps/cameras/moto", "/system/priv-app");
 	endif;
+	if file_getprop("/tmp/aroma-data/install.prop","camera") == "camera_opo" then
+		ui_print("Installing OnePlus One Camera");
+		package_extract_dir("aroma/apps/cameras/opo", "/system/app");
+	endif;
 
 # Gallery
     if file_getprop("/tmp/aroma-data/install.prop","gallery") == "aosp" then

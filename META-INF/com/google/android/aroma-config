@@ -130,7 +130,8 @@ textbox(
 			
 			"camera",				"<#selectbg_g>Camera</#>","",																				"group",
 			"camera_google",		"Google", 				"Stock camera. HDR available, no saving to SDcard",								    "select.selected",
-			"camera_moto",			"Motorola", 			"Motorola Camera. saving to SD card supported, no HDR",							    "select",
+			"camera_moto",			"Motorola", 			"Motorola Camera. Saving to SD card supported, no HDR",							    "select",
+			"camera_opo",			"OnePlus One", 			"OnePlus One Cyanogen Camera. SDCard and HDR supported. Burst mode and power button shutter are not",  "select",
 			"no",					"No", 					"Do not install a camera",															"select",
 
 			"gallery",				"<#selectbg_g>Gallery</#>","",																				"group",
