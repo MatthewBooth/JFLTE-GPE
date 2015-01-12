@@ -56,9 +56,11 @@
     .param p6    # I
     .param p7    # Z
 
-    const/4 v1, 0x0
+    const/4 v1, 0x4
 
-    invoke-direct {p0, p1, p2}, Landroid/app/AlertDialog;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, v1}, Landroid/app/AlertDialog;-><init>(Landroid/content/Context;I)V
+
+    const/4 v1, 0x0
 
     iput-object p3, p0, Lcom/android/contacts/datepicker/DatePickerDialog;->mCallBack:Lcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;
 

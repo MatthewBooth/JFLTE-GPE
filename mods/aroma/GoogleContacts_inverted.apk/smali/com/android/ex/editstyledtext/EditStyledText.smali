@@ -219,7 +219,7 @@
     .locals 4
     .param p1    # I
 
-    const/high16 v1, -0x1000000
+    const v1, -0x1
 
     if-ltz p1, :cond_0
 
