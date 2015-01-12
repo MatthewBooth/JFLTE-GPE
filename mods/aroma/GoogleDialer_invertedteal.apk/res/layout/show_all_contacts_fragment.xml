@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/account_filter_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <view android:id="@android:id/list" android:paddingTop="18.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="true" android:layout_marginStart="?contact_browser_list_padding_left" android:layout_marginEnd="?contact_browser_list_padding_right" android:nestedScrollingEnabled="true" class="com.android.contacts.common.list.PinnedHeaderListView" style="@style/DialtactsTheme" />
+    </FrameLayout>
+    <include android:id="@id/empty_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/empty_list_view" />
+</LinearLayout>

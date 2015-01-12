@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/primary_call_info_container" android:background="@color/incall_call_banner_background_color" android:paddingTop="@dimen/call_banner_primary_call_container_top_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:elevation="@dimen/primary_call_elevation">
+        <include layout="@layout/primary_call_info" />
+        <fragment android:name="com.android.incallui.CallButtonFragment" android:id="@id/callButtonFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/connectionServiceMessage" android:background="@android:color/white" android:padding="@dimen/call_banner_side_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:gravity="center|top" android:layout_gravity="center_vertical" android:id="@id/photo" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_no_image_automirrored" android:scaleType="centerCrop" android:layout_below="@id/primary_call_info_container" android:contentDescription="@string/contactPhoto" />
+    <fragment android:name="com.android.incallui.VideoCallFragment" android:layout_gravity="center|top" android:id="@id/videoCallFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/progressSpinner" android:background="#63000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/primary_call_info_container" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="@android:style/Widget.Material.ProgressBar" />
+    </FrameLayout>
+    <include layout="@layout/secondary_call_info" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/photo" layout="@layout/manage_conference_call_button" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/dialpadFragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/primary_call_info_container" android:layout_alignParentBottom="true" android:elevation="@dimen/dialpad_elevation" />
+    <fragment android:name="com.android.incallui.AnswerFragment" android:layout_gravity="bottom|center" android:id="@id/answerFragment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/glowpadview_margin_bottom" android:layout_below="@id/primary_call_info_container" />
+    <FrameLayout android:id="@id/floating_end_call_action_button_container" android:background="@drawable/fab_red" android:layout_width="@dimen/end_call_floating_action_button_diameter" android:layout_height="@dimen/end_call_floating_action_button_diameter" android:layout_marginBottom="@dimen/end_call_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/floating_end_call_action_button" android:background="@drawable/end_call_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fab_ic_end_call" android:scaleType="center" android:contentDescription="@string/onscreenEndCallText" />
+    </FrameLayout>
+</RelativeLayout>

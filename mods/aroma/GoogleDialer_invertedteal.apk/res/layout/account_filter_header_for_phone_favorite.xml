@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_filter_header_container" android:background="?android:selectableItemBackground" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contact_browser_list_header_left_margin" android:layout_marginEnd="@dimen/contact_browser_list_header_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/account_filter_header" android:paddingStart="@dimen/contact_browser_list_item_text_indent" style="@style/ContactListSeparatorTextViewStyle" />
+    <TextView android:textSize="@dimen/contact_phone_list_empty_description_size" android:textColor="?android:textColorSecondary" android:id="@id/contact_list_all_empty" android:paddingTop="@dimen/contact_phone_list_empty_description_padding" android:paddingBottom="@dimen/contact_phone_list_empty_description_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/listFoundAllContactsZero" android:paddingStart="8.0dip" />
+</LinearLayout>

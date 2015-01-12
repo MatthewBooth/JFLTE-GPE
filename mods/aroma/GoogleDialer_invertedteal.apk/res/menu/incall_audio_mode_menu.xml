@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_toolbar_speaker_on" android:id="@id/audio_mode_speaker" android:title="@string/audio_mode_speaker" />
+    <item android:icon="@drawable/ic_toolbar_audio_phone" android:id="@id/audio_mode_earpiece" android:title="@string/audio_mode_earpiece" />
+    <item android:icon="@drawable/ic_toolbar_audio_headphones" android:id="@id/audio_mode_wired_headset" android:title="@string/audio_mode_wired_headset" />
+    <item android:icon="@drawable/ic_toolbar_audio_bluetooth" android:id="@id/audio_mode_bluetooth" android:title="@string/audio_mode_bluetooth" />
+</menu>

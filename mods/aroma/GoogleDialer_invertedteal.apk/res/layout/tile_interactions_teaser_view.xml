@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.list.TileInteractionTeaserView android:background="@color/background_dialer_list_items" android:paddingTop="@dimen/favorites_row_top_padding" android:paddingBottom="@dimen/favorites_row_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/swipeable_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/arrow" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_arrow" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/undo_dialogue_text_color" android:layout_gravity="center_vertical" android:id="@id/text" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/contact_tooltip" android:layout_weight="1.0" android:fontFamily="sans-serif-light" />
+        <View android:id="@id/dismiss_separator" android:background="@color/undo_dialogue_text_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" />
+        <ImageButton android:id="@id/dismiss_button" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_cancel_holo_light" android:scaleType="center" android:contentDescription="@string/description_dismiss" style="@style/DismissButtonStyle" />
+    </LinearLayout>
+</com.android.dialer.list.TileInteractionTeaserView>

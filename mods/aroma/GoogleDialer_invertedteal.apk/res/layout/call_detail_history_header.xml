@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/call_log_secondary_text_size" android:textColor="?call_log_secondary_text_color" android:paddingTop="@dimen/call_detail_header_top_margin" android:paddingBottom="@dimen/call_detail_header_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_detail_list_header" android:singleLine="true" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/call_detail_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ex="http://schemas.android.com/apk/res-auto" />

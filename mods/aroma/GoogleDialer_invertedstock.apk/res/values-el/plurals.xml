@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Βρέθηκαν %d</item>
+        <item quantity="one">Βρέθηκε 1</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d μηνύμ. αυτόμ. τηλεφωνητή</item>
+        <item quantity="one">Αυτόματος τηλεφωνητής</item>
+    </plurals>
+</resources>

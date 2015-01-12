@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">S-au găsit %d (de) persoane de contact</item>
+        <item quantity="one">S-a găsit o persoană de contact</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d (de) mesaje vocale</item>
+        <item quantity="one">Mesaj vocal</item>
+    </plurals>
+</resources>

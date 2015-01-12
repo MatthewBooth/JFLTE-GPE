@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/advanced_settings_label" android:key="advanced_settings_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/google_caller_id_setting_title" android:key="caller_id_preference_screen" android:fragment="com.google.android.dialer.settings.GoogleCallerIdSettingsFragment" />
+    <PreferenceScreen android:title="@string/local_search_setting_title" android:key="nearby_places_preference_screen" android:fragment="com.google.android.dialer.settings.LocalSearchSettingsFragment" />
+</PreferenceScreen>

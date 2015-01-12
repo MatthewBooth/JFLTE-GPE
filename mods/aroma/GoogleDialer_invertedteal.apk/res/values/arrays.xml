@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="letter_tile_colors">
+        <item>#ffdb4437</item>
+        <item>#ffe91e63</item>
+        <item>#ff9c27b0</item>
+        <item>#ff673ab7</item>
+        <item>#ff3f51b5</item>
+        <item>#ff4285f4</item>
+        <item>#ff039be5</item>
+        <item>#ff0097a7</item>
+        <item>#ff009688</item>
+        <item>#ff0f9d58</item>
+        <item>#ff689f38</item>
+        <item>#ffef6c00</item>
+        <item>#ffff5722</item>
+        <item>#ff757575</item>
+    </array>
+    <array name="letter_tile_colors_dark">
+        <item>#ffc53929</item>
+        <item>#ffc2185b</item>
+        <item>#ff7b1fa2</item>
+        <item>#ff512da8</item>
+        <item>#ff303f9f</item>
+        <item>#ff3367d6</item>
+        <item>#ff0277bd</item>
+        <item>#ff006064</item>
+        <item>#ff00796b</item>
+        <item>#ff0b8043</item>
+        <item>#ff33691e</item>
+        <item>#ffe65100</item>
+        <item>#ffe64a19</item>
+        <item>#ff424242</item>
+    </array>
+    <array name="incoming_call_widget_audio_without_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_audio_without_sms_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_audio_without_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_audio_with_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_audio_with_sms_target_descriptions">
+        <item>@string/description_target_answer</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_audio_with_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="incoming_call_widget_video_without_sms_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_answer_video</item>
+    </array>
+    <string-array name="incoming_call_widget_video_without_sms_target_descriptions">
+        <item>@string/description_target_answer_video_call</item>
+        <item>@null</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/description_target_answer_audio_call</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_without_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@string/description_direction_down</item>
+    </string-array>
+    <array name="incoming_call_widget_video_with_sms_targets">
+        <item>@drawable/ic_lockscreen_answer_video</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_answer</item>
+    </array>
+    <string-array name="incoming_call_widget_video_with_sms_target_descriptions">
+        <item>@string/description_target_answer_video_call</item>
+        <item>@string/description_target_send_sms</item>
+        <item>@string/description_target_decline</item>
+        <item>@string/description_target_answer_audio_call</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_with_sms_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@string/description_direction_down</item>
+    </string-array>
+    <array name="incoming_call_widget_video_upgrade_request_targets">
+        <item>@drawable/ic_lockscreen_answer_video</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="incoming_call_widget_video_upgrade_request_target_descriptions">
+        <item>@string/description_target_accept_upgrade_to_video_request</item>
+        <item>@null</item>
+        <item>@string/description_target_decline_upgrade_to_video_request</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="incoming_call_widget_video_upgrade_request_target_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="absent_num">
+        <item>ABSENT NUMBER</item>
+        <item>ABSENTNUMBER</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

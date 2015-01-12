@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/actionbar_and_tab_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:gravity="center_horizontal" android:id="@id/emptyListViewImage" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/empty_list_message_text_size" android:textColor="@color/empty_list_text_color" android:gravity="center|top" android:id="@id/emptyListViewMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="84.0dip" />
+    </LinearLayout>
+</RelativeLayout>

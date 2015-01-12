@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 位聯絡人</item>
+        <item quantity="one">找到 1 位聯絡人</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d 則語音留言</item>
+        <item quantity="one">語音留言</item>
+    </plurals>
+</resources>

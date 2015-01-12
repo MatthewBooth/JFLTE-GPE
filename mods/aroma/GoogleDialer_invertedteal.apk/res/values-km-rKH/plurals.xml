@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">បាន​រក​ឃើញ %d</item>
+        <item quantity="one">បាន​រក​ឃើញ ១</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">សារ​ជា​សំឡេង %1$d</item>
+        <item quantity="one">សារ​ជា​សំឡេង</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d पाइयो</item>
+        <item quantity="one">१ भेट्टाइयो</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d भ्वाइसमेलहरू</item>
+        <item quantity="one">भ्वाइसमेल</item>
+    </plurals>
+</resources>

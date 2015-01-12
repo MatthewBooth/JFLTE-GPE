@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gevonden</item>
+        <item quantity="one">1 gevonden</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d voicemails</item>
+        <item quantity="one">Voicemail</item>
+    </plurals>
+</resources>

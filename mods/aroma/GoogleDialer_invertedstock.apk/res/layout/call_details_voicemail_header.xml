@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/voicemail_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/call_log_voicemail_status" />
+    </FrameLayout>
+    <TextView android:id="@id/voicemail_transcription" android:paddingTop="@dimen/transcription_top_margin" android:paddingBottom="@dimen/transcription_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/call_detail_horizontal_margin" android:paddingEnd="@dimen/call_detail_horizontal_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/voicemail_container" android:paddingBottom="@dimen/call_detail_button_spacing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

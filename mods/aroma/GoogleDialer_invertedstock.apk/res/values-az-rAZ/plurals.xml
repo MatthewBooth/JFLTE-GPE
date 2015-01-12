@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d tapıldı</item>
+        <item quantity="one">1 tapıldı</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Səsli məktub</item>
+        <item quantity="one">Səsli məktub</item>
+    </plurals>
+</resources>

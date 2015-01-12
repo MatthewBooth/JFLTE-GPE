@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContactListFilterTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="CustomContactListFilterView" parent="@style/ContactListFilterTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">400.0dip</item>
+    </style>
+</resources>

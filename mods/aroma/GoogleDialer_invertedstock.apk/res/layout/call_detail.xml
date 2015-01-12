@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/call_detail" android:background="@color/background_dialer_details_list_items" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/caller_information" android:background="@color/background_dialer_white" android:paddingTop="@dimen/call_detail_top_margin" android:paddingBottom="@dimen/call_detail_bottom_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/call_detail_horizontal_margin" android:translationZ="@dimen/call_detail_translation_z">
+            <QuickContactBadge android:layout_gravity="top" android:id="@id/quick_contact_photo" android:focusable="true" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_marginTop="3.0dip" android:layout_alignParentStart="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/call_detail_horizontal_margin">
+                <TextView android:textSize="@dimen/call_log_primary_text_size" android:textColor="?call_log_primary_text_color" android:id="@id/caller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/call_log_secondary_text_size" android:textColor="?call_log_secondary_text_color" android:id="@id/caller_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/call_log_secondary_text_size" android:textColor="?call_log_secondary_text_color" android:id="@id/phone_account_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ListView android:id="@id/history" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/blank" android:background="@android:color/black" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

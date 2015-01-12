@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#00000000" />
+            <size android:height="@dimen/incoming_call_widget_circle_size" android:width="@dimen/incoming_call_widget_circle_size" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/fab_ic_message" android:tint="@color/glowpad_text_widget_normal_tint" android:autoMirrored="true" />
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="?call_log_voicemail_status_background_color" android:layout_width="fill_parent" android:layout_height="?call_log_voicemail_status_height">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?call_log_voicemail_status_text_color" android:layout_gravity="center_vertical" android:id="@id/voicemail_status_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/call_log_outer_margin" android:paddingEnd="@dimen/call_log_inner_margin" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?call_log_voicemail_status_action_text_color" android:gravity="center_vertical" android:id="@id/voicemail_status_action" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/call_log_inner_margin" android:paddingEnd="@dimen/call_log_outer_margin" />
+    </LinearLayout>
+</merge>

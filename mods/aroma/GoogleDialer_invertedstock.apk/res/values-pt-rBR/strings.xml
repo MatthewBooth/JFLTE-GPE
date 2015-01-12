@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Erro do Google Play Services</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Um app requer a instalação do Google Play Services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Um app requer a atualização do Google Play Services.</string>
+    <string name="common_android_wear_notification_needs_update_text">Um app exige uma atualização do app Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Um app requer a ativação do Google Play Services.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Solicitado por %1$s</string>
+    <string name="common_google_play_services_install_title">Instale o Google Play Services</string>
+    <string name="common_google_play_services_install_text_phone">Este app não funciona sem o Google Play Services, que não está instalado em seu telefone.</string>
+    <string name="common_google_play_services_install_text_tablet">Este app não funciona sem o Google Play Services, que não está instalado em seu tablet.</string>
+    <string name="common_google_play_services_install_button">Instalar o Google Play Services</string>
+    <string name="common_google_play_services_enable_title">Ative o Google Play Services</string>
+    <string name="common_google_play_services_enable_text">Este app só funciona com o Google Play Services ativado.</string>
+    <string name="common_google_play_services_enable_button">Ativar o Google Play Services</string>
+    <string name="common_google_play_services_update_title">Atualize o Google Play Services</string>
+    <string name="common_android_wear_update_title">Atualizar o Android Wear</string>
+    <string name="common_google_play_services_update_text">Este app só funciona com uma versão atualizada do Google Play Services.</string>
+    <string name="common_android_wear_update_text">Este app só funciona com uma versão atualizada do app Android Wear.</string>
+    <string name="common_google_play_services_network_error_title">Erro na rede</string>
+    <string name="common_google_play_services_network_error_text">É necessária uma conexão de dados para conectar ao Google Play Services.</string>
+    <string name="common_google_play_services_invalid_account_title">Conta inválida</string>
+    <string name="common_google_play_services_invalid_account_text">A conta especificada não existe no dispositivo. Escolha outra conta.</string>
+    <string name="common_google_play_services_unknown_issue">Problema desconhecido com o Google Play Services.</string>
+    <string name="common_google_play_services_unsupported_title">Play Services</string>
+    <string name="common_google_play_services_unsupported_text">O Google Play Services, necessário para alguns dos apps, não é compatível com seu dispositivo. Entre em contato com o fabricante para obter assistência.</string>
+    <string name="common_google_play_services_update_button">Atualizar</string>
+    <string name="common_signin_button_text">Login</string>
+    <string name="common_signin_button_text_long">Fazer login com o Google</string>
+    <string name="common_open_on_phone">Abrir no smartphone</string>
+</resources>

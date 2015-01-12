@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.dialer.dialpad.DialpadFragment$DialpadSlidingRelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/spacer" android:background="#00000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@drawable/shadow_fade_left" android:layout_width="@dimen/shadow_length" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/dialpad_view" />
+            <ListView android:id="@id/dialpadChooser" android:background="@color/background_dialer_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Space android:id="@id/dialpad_floating_action_button_margin_bottom" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+            <FrameLayout android:id="@id/dialpad_floating_action_button_container" android:background="@drawable/fab_green" android:layout_width="@dimen/floating_action_button_width" android:layout_height="@dimen/floating_action_button_height" android:layout_above="@id/dialpad_floating_action_button_margin_bottom" android:layout_centerHorizontal="true">
+                <ImageButton android:id="@id/dialpad_floating_action_button" android:background="@drawable/floating_action_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fab_ic_call" android:contentDescription="@string/description_dial_button" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</view>

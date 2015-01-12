@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d је пронађено</item>
+        <item quantity="one">1 је пронађен</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Говорних порука: %1$d</item>
+        <item quantity="one">Говорна пошта</item>
+    </plurals>
+</resources>

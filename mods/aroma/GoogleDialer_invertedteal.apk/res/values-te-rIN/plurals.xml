@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d మంది కనుగొనబడ్డారు</item>
+        <item quantity="one">1 కనుగొనబడ్డారు</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d వాయిస్ మెయిల్‌లు</item>
+        <item quantity="one">వాయిస్ మెయిల్</item>
+    </plurals>
+</resources>

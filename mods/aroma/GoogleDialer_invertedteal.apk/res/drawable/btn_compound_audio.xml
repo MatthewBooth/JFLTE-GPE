@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/compoundBackgroundItem" android:drawable="@drawable/btn_compound_background" />
+    <item android:id="@id/moreIndicatorItem">
+        <bitmap android:gravity="center" android:src="@drawable/ic_toolbar_arrow_whitespace" android:tint="@color/selectable_icon_tint" />
+    </item>
+    <item android:id="@id/bluetoothItem">
+        <bitmap android:gravity="center" android:src="@drawable/ic_toolbar_audio_bluetooth" android:tint="@color/selectable_icon_tint" />
+    </item>
+    <item android:id="@id/handsetItem">
+        <bitmap android:gravity="center" android:src="@drawable/ic_toolbar_audio_phone" android:tint="@color/selectable_icon_tint" />
+    </item>
+    <item android:id="@id/speakerphoneItem">
+        <bitmap android:gravity="center" android:src="@drawable/ic_toolbar_speaker_on" android:tint="@color/selectable_icon_tint" />
+    </item>
+</layer-list>

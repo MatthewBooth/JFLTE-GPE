@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/primary_call_info_container" android:background="@color/incall_call_banner_background_color" android:paddingTop="@dimen/call_banner_primary_call_container_top_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentStart="true" android:elevation="@dimen/primary_call_elevation">
+        <include layout="@layout/primary_call_info" />
+        <fragment android:name="com.android.incallui.CallButtonFragment" android:id="@id/callButtonFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/secondary_call_info" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/photo" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_no_image_automirrored" android:scaleType="centerCrop" android:contentDescription="@string/contactPhoto" android:layout_toEndOf="@id/primary_call_info_container" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/photo" layout="@layout/manage_conference_call_button" />
+    <fragment android:name="com.android.incallui.VideoCallFragment" android:layout_gravity="start|center" android:id="@id/videoCallFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/progressSpinner" android:background="#63000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/primary_call_info_container">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="@android:style/Widget.Material.ProgressBar" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end|center" android:id="@id/dialpadFragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/primary_call_info_container" android:layout_alignParentEnd="true" />
+    <fragment android:name="com.android.incallui.AnswerFragment" android:gravity="start" android:layout_gravity="end|center" android:id="@id/answerFragment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/glowpadview_margin_bottom" android:layout_toEndOf="@id/primary_call_info_container" />
+    <FrameLayout android:id="@id/floating_end_call_action_button_container" android:background="@drawable/fab_red" android:layout_width="@dimen/end_call_floating_action_button_diameter" android:layout_height="@dimen/end_call_floating_action_button_diameter" android:layout_marginBottom="@dimen/end_call_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/floating_end_call_action_button" android:background="@drawable/end_call_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fab_ic_end_call" android:scaleType="center" android:contentDescription="@string/onscreenEndCallText" />
+    </FrameLayout>
+</RelativeLayout>

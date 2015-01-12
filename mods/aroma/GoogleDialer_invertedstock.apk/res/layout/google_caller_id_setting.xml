@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:textSize="@dimen/setting_text_size" android:textColor="@color/setting_primary_color" android:id="@id/google_caller_id_setting_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_vertical_margin" android:layout_marginBottom="@dimen/setting_vertical_margin" android:text="@string/google_caller_id_setting_title" android:fontFamily="sans-serif" android:paddingStart="@dimen/setting_padding" android:paddingEnd="@dimen/setting_padding" />
+    <View android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/setting_secondary_text_size" android:textColor="@color/setting_secondary_color" android:linksClickable="true" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_vertical_margin" android:singleLine="false" android:fontFamily="sans-serif" android:paddingStart="@dimen/setting_padding" android:paddingEnd="@dimen/setting_padding" />
+</LinearLayout>

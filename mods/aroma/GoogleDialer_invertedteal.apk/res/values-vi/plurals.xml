@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Đã tìm thấy %d người liên hệ</item>
+        <item quantity="one">Đã tìm thấy 1 người liên hệ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Thư thoại</item>
+        <item quantity="one">Thư thoại</item>
+    </plurals>
+</resources>

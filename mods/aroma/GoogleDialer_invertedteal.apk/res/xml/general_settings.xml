@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/contact_display_options_category_title" android:key="dialer_contact_display_options_category_key">
+        <com.android.contacts.common.preference.SortOrderPreference android:title="@string/display_options_sort_list_by" android:key="sortOrder" android:dialogTitle="@string/display_options_sort_list_by" />
+        <com.android.contacts.common.preference.DisplayOrderPreference android:title="@string/display_options_view_names_as" android:key="displayOrder" android:dialogTitle="@string/display_options_view_names_as" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/sounds_and_vibrate_category_title" android:key="dialer_general_sounds_category_key">
+        <com.android.dialer.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="button_ringtone_key" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/dtmf_tone_enable_title" android:key="button_play_dtmf_tone" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/vibrate_on_ring_title" android:key="button_vibrate_on_ring" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_settings_title" android:key="dialer_general_other_settings_category_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/respond_via_sms_setting_title" android:key="button_respond_via_sms_key">
+            <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.RespondViaSmsSettings$Settings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

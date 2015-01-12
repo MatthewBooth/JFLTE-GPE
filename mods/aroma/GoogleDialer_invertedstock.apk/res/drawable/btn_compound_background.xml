@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/incall_accent_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true" android:state_selected="true" android:drawable="@drawable/btn_selected_focused" />
+            <item android:state_focused="true" android:drawable="@drawable/btn_unselected_focused" />cd
+<item android:state_selected="true" android:drawable="@drawable/btn_selected" />
+            <item android:drawable="@drawable/btn_unselected" />
+        </selector>
+    </item>
+</ripple>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ข้อความเสียง</item>
+        <item quantity="one">ข้อความเสียง</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/dialtacts_mainlayout" android:background="@color/background_dialer_light" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dialtacts_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/dialtacts_frame" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/floating_action_button_container" android:background="@drawable/fab_blue" android:layout_width="@dimen/floating_action_button_width" android:layout_height="@dimen/floating_action_button_height" android:layout_marginBottom="@dimen/floating_action_button_margin_bottom">
+        <ImageButton android:id="@id/floating_action_button" android:background="@drawable/floating_action_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fab_ic_dial" android:contentDescription="@string/action_menu_dialpad_button" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/activity_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/contact_tile_drag_shadow_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </FrameLayout>
+</FrameLayout>

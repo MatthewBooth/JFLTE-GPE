@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dialog_searching_vcard" />
+    <item type="id" name="dialog_sdcard_not_found" />
+    <item type="id" name="dialog_vcard_not_found" />
+    <item type="id" name="dialog_select_import_type" />
+    <item type="id" name="dialog_select_one_vcard" />
+    <item type="id" name="dialog_select_multiple_vcard" />
+    <item type="id" name="dialog_cache_vcard" />
+    <item type="id" name="dialog_io_exception" />
+    <item type="id" name="dialog_error_with_message" />
+    <item type="id" name="dialog_cancel_confirmation" />
+    <item type="id" name="dialog_cancel_failed" />
+    <item type="id" name="dialog_export_confirmation" />
+    <item type="id" name="dialog_exporting_vcard" />
+    <item type="id" name="dialog_fail_to_export_with_reason" />
+    <item type="id" name="cliv_name_textview" />
+    <item type="id" name="cliv_phoneticname_textview" />
+    <item type="id" name="cliv_label_textview" />
+    <item type="id" name="cliv_data_view" />
+    <item type="id" name="tag_display_name" />
+    <item type="id" name="tag_identifier" />
+    <item type="id" name="tag_contact_type" />
+    <item type="id" name="fadeState" />
+    <item type="id" name="is_swipeable_tag" />
+    <item type="id" name="contact_entry_index_tag" />
+    <item type="id" name="account_filter_header_container">false</item>
+    <item type="id" name="account_filter_header">false</item>
+    <item type="id" name="contact_list_all_empty">false</item>
+    <item type="id" name="all_contacts_frame">false</item>
+    <item type="id" name="all_contacts_fragment">false</item>
+    <item type="id" name="glow_pad_view">false</item>
+    <item type="id" name="bottomButtons">false</item>
+    <item type="id" name="audioButton">false</item>
+    <item type="id" name="changeToVoiceButton">false</item>
+    <item type="id" name="muteButton">false</item>
+    <item type="id" name="dialpadButton">false</item>
+    <item type="id" name="holdButton">false</item>
+    <item type="id" name="swapButton">false</item>
+    <item type="id" name="changeToVideoButton">false</item>
+    <item type="id" name="switchCameraButton">false</item>
+    <item type="id" name="addButton">false</item>
+    <item type="id" name="mergeButton">false</item>
+    <item type="id" name="pauseVideoButton">false</item>
+    <item type="id" name="overflowButton">false</item>
+    <item type="id" name="primary_call_info_container">false</item>
+    <item type="id" name="callButtonFragment">false</item>
+    <item type="id" name="connectionServiceMessage">false</item>
+    <item type="id" name="photo">false</item>
+    <item type="id" name="videoCallFragment">false</item>
+    <item type="id" name="progressSpinner">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="dialpadFragmentContainer">false</item>
+    <item type="id" name="answerFragment">false</item>
+    <item type="id" name="floating_end_call_action_button_container">false</item>
+    <item type="id" name="floating_end_call_action_button">false</item>
+    <item type="id" name="call_detail">false</item>
+    <item type="id" name="caller_information">false</item>
+    <item type="id" name="quick_contact_photo">false</item>
+    <item type="id" name="caller_name">false</item>
+    <item type="id" name="caller_number">false</item>
+    <item type="id" name="phone_account_label">false</item>
+    <item type="id" name="history">false</item>
+    <item type="id" name="blank">false</item>
+    <item type="id" name="call_type_icon">false</item>
+    <item type="id" name="call_type_text">false</item>
+    <item type="id" name="date">false</item>
+    <item type="id" name="duration">false</item>
+    <item type="id" name="voicemail_status">false</item>
+    <item type="id" name="voicemail_transcription">false</item>
+    <item type="id" name="voicemail_container">false</item>
+    <item type="id" name="calllog_frame">false</item>
+    <item type="id" name="viewpager_header">false</item>
+    <item type="id" name="call_log_pager">false</item>
+    <item type="id" name="filter_status">false</item>
+    <item type="id" name="call_log_divider">false</item>
+    <item type="id" name="empty_list_view">false</item>
+    <item type="id" name="call_log_list_item">false</item>
+    <item type="id" name="call_log_day_group_label">false</item>
+    <item type="id" name="call_log_row">false</item>
+    <item type="id" name="primary_action_view">false</item>
+    <item type="id" name="call_back_action">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="call_type">false</item>
+    <item type="id" name="call_type_icons">false</item>
+    <item type="id" name="call_account_icon">false</item>
+    <item type="id" name="call_location_and_date">false</item>
+    <item type="id" name="call_indicator_icon">false</item>
+    <item type="id" name="call_log_entry_actions_stub">false</item>
+    <item type="id" name="call_log_entry_actions">false</item>
+    <item type="id" name="link_stub">false</item>
+    <item type="id" name="call_log_action_container">false</item>
+    <item type="id" name="call_log_entry_actions_ll">false</item>
+    <item type="id" name="video_call_action">false</item>
+    <item type="id" name="voicemail_action">false</item>
+    <item type="id" name="details_action">false</item>
+    <item type="id" name="report_action">false</item>
+    <item type="id" name="badge_container">false</item>
+    <item type="id" name="badge_link_container">false</item>
+    <item type="id" name="badge_image">false</item>
+    <item type="id" name="badge_text">false</item>
+    <item type="id" name="dismiss_button">false</item>
+    <item type="id" name="voicemail_status_message">false</item>
+    <item type="id" name="voicemail_status_action">false</item>
+    <item type="id" name="callerPhoto">false</item>
+    <item type="id" name="conferenceCallerName">false</item>
+    <item type="id" name="conferenceCallerNumber">false</item>
+    <item type="id" name="conferenceCallerNumberType">false</item>
+    <item type="id" name="conferenceCallerSeparate">false</item>
+    <item type="id" name="conferenceCallerDisconnect">false</item>
+    <item type="id" name="manageConferencePanel">false</item>
+    <item type="id" name="conferenceList">false</item>
+    <item type="id" name="caller0">false</item>
+    <item type="id" name="caller1">false</item>
+    <item type="id" name="caller2">false</item>
+    <item type="id" name="caller3">false</item>
+    <item type="id" name="caller4">false</item>
+    <item type="id" name="contact_detail_list_padding">false</item>
+    <item type="id" name="list_card">false</item>
+    <item type="id" name="pinned_header_list_layout">false</item>
+    <item type="id" name="search_progress">false</item>
+    <item type="id" name="btn_discard">false</item>
+    <item type="id" name="btn_done">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="accountType">false</item>
+    <item type="id" name="accountUserName">false</item>
+    <item type="id" name="radioButton">false</item>
+    <item type="id" name="contact_tile_image">false</item>
+    <item type="id" name="contact_tile_name">false</item>
+    <item type="id" name="contact_tile_frequent_phone">false</item>
+    <item type="id" name="contact_tile_quick">false</item>
+    <item type="id" name="contact_tile_phone_number">false</item>
+    <item type="id" name="contact_tile_phone_type">false</item>
+    <item type="id" name="contact_tile_horizontal_divider">false</item>
+    <item type="id" name="contact_tile_push_state">false</item>
+    <item type="id" name="contact_tile_container">false</item>
+    <item type="id" name="contact_tile_status">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="summary">false</item>
+    <item type="id" name="dialpad">false</item>
+    <item type="id" name="two">false</item>
+    <item type="id" name="three">false</item>
+    <item type="id" name="four">false</item>
+    <item type="id" name="five">false</item>
+    <item type="id" name="six">false</item>
+    <item type="id" name="seven">false</item>
+    <item type="id" name="eight">false</item>
+    <item type="id" name="nine">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="dialpadChooser">false</item>
+    <item type="id" name="dialpad_floating_action_button_margin_bottom">false</item>
+    <item type="id" name="dialpad_floating_action_button_container">false</item>
+    <item type="id" name="dialpad_floating_action_button">false</item>
+    <item type="id" name="dialpad_key_number">false</item>
+    <item type="id" name="dialpad_key_letters">false</item>
+    <item type="id" name="one">false</item>
+    <item type="id" name="dialpad_key_voicemail">false</item>
+    <item type="id" name="pound">false</item>
+    <item type="id" name="star">false</item>
+    <item type="id" name="zero">false</item>
+    <item type="id" name="dialpad_view">false</item>
+    <item type="id" name="digits_container">false</item>
+    <item type="id" name="dialpad_overflow">false</item>
+    <item type="id" name="digits">false</item>
+    <item type="id" name="deleteButton">false</item>
+    <item type="id" name="dialtacts_mainlayout">false</item>
+    <item type="id" name="dialtacts_container">false</item>
+    <item type="id" name="dialtacts_frame">false</item>
+    <item type="id" name="floating_action_button_container">false</item>
+    <item type="id" name="floating_action_button">false</item>
+    <item type="id" name="activity_overlay">false</item>
+    <item type="id" name="contact_tile_drag_shadow_overlay">false</item>
+    <item type="id" name="directory_header">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="display_name">false</item>
+    <item type="id" name="count">false</item>
+    <item type="id" name="dtmf_twelve_key_dialer_view">false</item>
+    <item type="id" name="emptyListViewImage">false</item>
+    <item type="id" name="emptyListViewMessage">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="google_caller_id_setting_switch">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="callCardFragment">false</item>
+    <item type="id" name="conferenceManagerFragment">false</item>
+    <item type="id" name="lists_frame">false</item>
+    <item type="id" name="shortcut_card_list">false</item>
+    <item type="id" name="lists_pager_header">false</item>
+    <item type="id" name="lists_pager">false</item>
+    <item type="id" name="remove_view">false</item>
+    <item type="id" name="remove_view_content">false</item>
+    <item type="id" name="remove_view_icon">false</item>
+    <item type="id" name="remove_view_text">false</item>
+    <item type="id" name="local_search_setting_switch">false</item>
+    <item type="id" name="view_location_settings">false</item>
+    <item type="id" name="manage_conference_call_button">false</item>
+    <item type="id" name="manageConferenceButtonImage">false</item>
+    <item type="id" name="manageConferenceButtonLabel">false</item>
+    <item type="id" name="contact_tile">false</item>
+    <item type="id" name="contact_favorite_card">false</item>
+    <item type="id" name="shadow_overlay">false</item>
+    <item type="id" name="contact_star_icon">false</item>
+    <item type="id" name="contact_tile_secondary_button">false</item>
+    <item type="id" name="buttons_linear_layout">false</item>
+    <item type="id" name="playback_start_stop">false</item>
+    <item type="id" name="playback_speakerphone">false</item>
+    <item type="id" name="seek_container">false</item>
+    <item type="id" name="playback_seek">false</item>
+    <item type="id" name="playback_position_text">false</item>
+    <item type="id" name="playback_speed_text">false</item>
+    <item type="id" name="rate_decrease_button">false</item>
+    <item type="id" name="rate_increase_button">false</item>
+    <item type="id" name="primary_call_banner">false</item>
+    <item type="id" name="callStateButton">false</item>
+    <item type="id" name="callStateIcon">false</item>
+    <item type="id" name="videoCallIcon">false</item>
+    <item type="id" name="callStateLabel">false</item>
+    <item type="id" name="labelAndNumber">false</item>
+    <item type="id" name="phoneNumber">false</item>
+    <item type="id" name="elapsedTime">false</item>
+    <item type="id" name="callTypeLabel">false</item>
+    <item type="id" name="recents_list_footer">false</item>
+    <item type="id" name="search_box_expanded">false</item>
+    <item type="id" name="search_back_button">false</item>
+    <item type="id" name="search_view">false</item>
+    <item type="id" name="search_close_button">false</item>
+    <item type="id" name="search_view_container">false</item>
+    <item type="id" name="search_box_collapsed">false</item>
+    <item type="id" name="search_magnifying_glass">false</item>
+    <item type="id" name="search_box_start_search">false</item>
+    <item type="id" name="voice_search_button">false</item>
+    <item type="id" name="dialtacts_options_menu_button">false</item>
+    <item type="id" name="secondary_call_info">false</item>
+    <item type="id" name="secondaryCallConferenceCallIcon">false</item>
+    <item type="id" name="secondaryCallName">false</item>
+    <item type="id" name="secondary_call_provider_info">false</item>
+    <item type="id" name="secondaryCallProviderIcon">false</item>
+    <item type="id" name="secondaryCallProviderLabel">false</item>
+    <item type="id" name="secondaryCallStatus">false</item>
+    <item type="id" name="setPrimary">false</item>
+    <item type="id" name="contact_tile_frame">false</item>
+    <item type="id" name="contact_tile_list">false</item>
+    <item type="id" name="swipeable_content">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="dismiss_separator">false</item>
+    <item type="id" name="videoCallViewsStub">false</item>
+    <item type="id" name="videoCallViews">false</item>
+    <item type="id" name="incomingVideo">false</item>
+    <item type="id" name="previewVideo">false</item>
+    <item type="id" name="compoundBackgroundItem">false</item>
+    <item type="id" name="moreIndicatorItem">false</item>
+    <item type="id" name="bluetoothItem">false</item>
+    <item type="id" name="handsetItem">false</item>
+    <item type="id" name="speakerphoneItem">false</item>
+    <item type="id" name="copy_phone_number">false</item>
+    <item type="id" name="menu_trash">false</item>
+    <item type="id" name="menu_remove_from_call_log">false</item>
+    <item type="id" name="menu_edit_number_before_call">false</item>
+    <item type="id" name="delete_all">false</item>
+    <item type="id" name="menu_add_contact">false</item>
+    <item type="id" name="menu_2s_pause">false</item>
+    <item type="id" name="menu_add_wait">false</item>
+    <item type="id" name="menu_send_message">false</item>
+    <item type="id" name="menu_history">false</item>
+    <item type="id" name="menu_import_export">false</item>
+    <item type="id" name="menu_clear_frequents">false</item>
+    <item type="id" name="menu_call_settings">false</item>
+    <item type="id" name="audio_mode_speaker">false</item>
+    <item type="id" name="audio_mode_earpiece">false</item>
+    <item type="id" name="audio_mode_wired_headset">false</item>
+    <item type="id" name="audio_mode_bluetooth">false</item>
+    <item type="id" name="overflow_merge_menu_item">false</item>
+    <item type="id" name="overflow_add_menu_item">false</item>
+    <item type="id" name="overflow_hold_menu_item">false</item>
+    <item type="id" name="overflow_resume_menu_item">false</item>
+    <item type="id" name="overflow_swap_menu_item">false</item>
+</resources>

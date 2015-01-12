@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_add_contact" android:title="@string/add_contact" android:showAsAction="withText" />
+    <item android:id="@id/menu_2s_pause" android:title="@string/add_2sec_pause" android:showAsAction="withText" />
+    <item android:id="@id/menu_add_wait" android:title="@string/add_wait" android:showAsAction="withText" />
+    <item android:id="@id/menu_send_message" android:title="@string/menu_sendTextMessage" android:showAsAction="withText" />
+</menu>

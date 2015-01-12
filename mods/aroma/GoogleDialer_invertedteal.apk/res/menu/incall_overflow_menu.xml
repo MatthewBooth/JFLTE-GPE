@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/overflow_merge_menu_item" android:title="@string/overflowMergeMenuItemText" />
+    <item android:id="@id/overflow_add_menu_item" android:title="@string/overflowAddMenuItemText" />
+    <item android:id="@id/overflow_hold_menu_item" android:title="@string/overflowHoldMenuItemText" />
+    <item android:id="@id/overflow_resume_menu_item" android:title="@string/overflowResumeMenuItemText" />
+    <item android:id="@id/overflow_swap_menu_item" android:title="@string/overflowSwapMenuItemText" />
+</menu>

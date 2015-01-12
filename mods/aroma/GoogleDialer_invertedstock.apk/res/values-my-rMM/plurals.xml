@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ခု တွေ့ရှိသည်</item>
+        <item quantity="one">၁ခု တွေ့ရှိသည်</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d အသံစာများ</item>
+        <item quantity="one">အသံစာပို့စနစ်</item>
+    </plurals>
+</resources>

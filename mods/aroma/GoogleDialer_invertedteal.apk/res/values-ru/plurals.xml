@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено контактов: %d</item>
+        <item quantity="one">Найдено контактов: 1</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Голосовые сообщения: %1$d</item>
+        <item quantity="one">Голосовая почта</item>
+    </plurals>
+</resources>

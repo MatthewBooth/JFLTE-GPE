@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d مورد یافت شد</item>
+        <item quantity="one">۱ مورد پیدا شد</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d پست صوتی</item>
+        <item quantity="one">پست صوتی</item>
+    </plurals>
+</resources>

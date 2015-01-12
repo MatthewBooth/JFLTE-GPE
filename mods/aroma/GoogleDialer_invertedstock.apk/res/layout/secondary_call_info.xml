@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/secondary_call_info" android:background="@color/incall_banner_secondary_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:background="@color/secondary_call_info_divider_highlight_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/secondary_call_info_vertical_padding" android:paddingBottom="@dimen/secondary_call_info_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/secondary_call_info_horizontal_padding" android:paddingEnd="@dimen/secondary_call_info_horizontal_padding">
+        <ImageView android:id="@id/secondaryCallConferenceCallIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_group_white_24dp" android:tint="@color/incall_banner_secondary_text_color" android:paddingEnd="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/secondary_call_info_text_size" android:textColor="@color/incall_banner_secondary_text_color" android:ellipsize="marquee" android:id="@id/secondaryCallName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/secondary_call_provider_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/secondaryCallProviderIcon" android:layout_width="@dimen/call_provider_small_icon_size" android:layout_height="@dimen/call_provider_small_icon_size" android:layout_marginRight="2.0dip" android:scaleType="centerInside" android:tint="@color/incall_banner_secondary_text_color" android:baselineAlignBottom="true" />
+                <TextView android:textSize="@dimen/secondary_call_info_text_size" android:textColor="@color/incall_banner_secondary_text_color" android:id="@id/secondaryCallProviderLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/secondary_call_info_text_size" android:textColor="@color/incall_banner_secondary_text_color" android:layout_gravity="center_vertical" android:id="@id/secondaryCallStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onHold" android:singleLine="true" android:textAlignment="textEnd" android:paddingEnd="18.0dip" />
+    </LinearLayout>
+</FrameLayout>
