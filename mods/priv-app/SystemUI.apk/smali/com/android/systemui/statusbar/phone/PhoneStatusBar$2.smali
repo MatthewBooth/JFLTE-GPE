@@ -62,13 +62,7 @@
 
     iget-object v1, v1, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v1
-
-    const-string v5, "heads_up_notifications_enabled"
-
-    invoke-static {v1, v5, v3}, Landroid/provider/Settings$Global;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+    invoke-static {v1}, Lcom/android/internal/policy/impl/RomUtils;->getHeadsUpEnabled(Landroid/content/Context;)Z
 
     move-result v1
 

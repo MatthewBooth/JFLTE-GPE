@@ -237,3 +237,32 @@
 
     return v3
 .end method
+
+.method public static getHeadsUpEnabled(Landroid/content/Context;)Z
+.locals 4
+    .param p0    # Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v2, "heads_up_notifications_enabled"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    const/4 v3, 0x1
+
+    :goto_0
+    return v3
+
+    :cond_0
+    const/4 v3, 0x0
+
+    goto :goto_0
+.end method
