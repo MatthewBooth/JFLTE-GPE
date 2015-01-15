@@ -4,6 +4,13 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
+### Changelog 20150115
+* Updated Google Search
+* Added volume panel timeout options
+* Added heads up timeout options
+* Added long press to skip tracks
+* Updated Interface app
+* Updated build.prop
 
 ### Changelog 20150112
 * Rebuilt from scratch to log our changes in GIT, results in cleaner work

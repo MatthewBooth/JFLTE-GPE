@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150112");
+ini_set("rom_version",          "20150115");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150112");
+ini_set("rom_date",             "20150115");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");

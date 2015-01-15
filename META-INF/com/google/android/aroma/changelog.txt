@@ -1,24 +1,8 @@
-<b><#selectbg_g>JFLTE-GPE-20150112</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150115</#></b>
 <*>Rebuilt from scratch to log our changes in GIT, results in cleaner work</*>
-<*>Enabled national roaming on most European virtual networks</*>
-<*>Dirty flashers should no longer need to clear interface app and data</*>
-<*>Fixed roaming for Videotron users in Quebec, Canada</*>
-<*>App ops added to security settings</*>
-<*>Device walpapers included in tiny .apk from source</*>
+<*>Updated Google Search</*>
+<*>Added volume panel timeout options</*>
+<*>Added heads up timeout options</*>
+<*>Added long press to skip tracks</*>
 <*>Updated Interface app</*>
-<*>Toggle for enable all rotations added to Interface</*>
-<*>Toggle for wake on unplug added to Interface</*>
-<*>Disabling battery icon in Interface will now stick after reboot</*>
-<*>Improved show 4g for LTE toggle</*>
-<*>AROMA improvements</*>
-<*>Motorola Gallery now optional in aroma, it goes amazing with Moto camera</*>
-<*>Oneplus Camera optional in AROMA, HDR and saving to SD card supported</*>
-<*>Inverted teal theme for dialer in contacts added to AROMA</*>
-<*>Custom DPI options in AROMA</*>
-<*>Improvements to the tethering script for some carriers</*>
-<*>Hide alarm clock toggle code simplified</*>
-<*>Disabled safe media nag</*>
-<*>Removed a duplicate ringtone</*>
-<*>Updated OTA app</*>
 <*>Updated build.prop</*>
-
