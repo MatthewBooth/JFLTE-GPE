@@ -11083,7 +11083,11 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mHandler:Lcom/android/systemui/statusbar/BaseStatusBar$H;
 
-    iget v1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mHeadsUpNotificationDecay:I
+    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mContext:Landroid/content/Context;
+
+    invoke-static {v1}, Lcom/android/internal/policy/impl/RomUtils;->getHeadsUpTimeout(Landroid/content/Context;)I
+
+    move-result v1
 
     int-to-long v2, v1
 

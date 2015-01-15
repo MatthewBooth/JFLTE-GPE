@@ -218,3 +218,22 @@
 
     return v1
 .end method
+
+.method public static getHeadsUpTimeout(Landroid/content/Context;)I
+.locals 3
+    .param p0    # Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v1, "heads_up_timeout"
+
+    const/16 v2, 0xbb8
+
+    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    return v1
+.end method
