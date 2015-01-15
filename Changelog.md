@@ -6,6 +6,7 @@ Visit http://ultimarom.com for downloads
 
 ### Changelog 20150115
 * Updated Google Search
+* Removed Gear Manager as it's not working
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks

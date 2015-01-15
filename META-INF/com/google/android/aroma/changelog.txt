@@ -1,6 +1,6 @@
 <b><#selectbg_g>JFLTE-GPE-20150115</#></b>
-<*>Rebuilt from scratch to log our changes in GIT, results in cleaner work</*>
 <*>Updated Google Search</*>
+<*>Removed Gear Manager as it's not working</*>
 <*>Added volume panel timeout options</*>
 <*>Added heads up timeout options</*>
 <*>Added long press to skip tracks</*>
