@@ -201,39 +201,39 @@
 .end method
 
 .method public static getVolumePanelTimeout(Landroid/content/Context;)I
-.locals 3
+    .locals 4
     .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    const-string v1, "volume_panel_timeout"
+    const-string v2, "volume_panel_timeout"
 
-    const/16 v2, 0xbb8
+    const/16 v1, 0xbb8
 
-    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+    invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
-    move-result v1
+    move-result v3
 
-    return v1
+    return v3
 .end method
 
 .method public static getHeadsUpTimeout(Landroid/content/Context;)I
-.locals 3
+    .locals 4
     .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    const-string v1, "heads_up_timeout"
+    const-string v2, "heads_up_timeout"
 
-    const/16 v2, 0xbb8
+    const/16 v1, 0xbb8
 
-    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+    invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
-    move-result v1
+    move-result v3
 
-    return v1
+    return v3
 .end method
