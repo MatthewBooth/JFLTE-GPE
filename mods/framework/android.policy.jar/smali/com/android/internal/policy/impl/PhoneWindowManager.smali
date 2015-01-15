@@ -20289,7 +20289,7 @@
 
     const-string v11, "enable_music_controls"
 
-    const/4 v12, 0x1
+    const/4 v12, 0x0
 
     const/4 v13, -0x2
 
