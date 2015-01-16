@@ -1,4 +1,5 @@
 <b><#selectbg_g>JFLTE-GPE-20150115</#></b>
+<*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
 <*>Updated Google Search</*>
 <*>Removed Gear Manager as it's not working</*>
 <*>Added volume panel timeout options</*>
