@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center_vertical" android:id="@id/system_icons" android:layout_width="wrap_content" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
+  	<com.android.systemui.statusbar.policy.NetworkTraffic android:gravity="center|right" android:id="@id/networkTraffic" android:layout_width="50.0dip" android:layout_height="fill_parent" android:singleLine="false" />
     <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
     <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.5dip" layout="@layout/signal_cluster_view" />
     <com.android.systemui.BatteryMeterView android:id="@id/battery" android:layout_width="9.5dip" android:layout_height="14.5dip" android:layout_marginBottom="@dimen/battery_margin_bottom" android:layout_marginStart="7.0dip" />
+    <com.android.systemui.BatteryLevelTextView android:textSize="@dimen/battery_level_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/battery_level_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
 </LinearLayout>

@@ -4,19 +4,23 @@
   xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
     <FrameLayout android:id="@id/cover_black_bg" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="6.0dip" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="8.0dip">
-        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="8.0dip">
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/left_clock_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="left|center" android:id="@id/left_clock" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentLeft="true" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+   <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/center_clock_area" android:layout_toRightOf="@id/left_clock_area" android:layout_alignWithParentIfMissing="true">
             <com.android.keyguard.AlphaOptimizedLinearLayout android:id="@id/notification_icon_area_inner" android:layout_width="fill_parent" android:layout_height="fill_parent">
                 <com.android.systemui.statusbar.StatusBarIconView android:id="@id/moreIcon" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/stat_notify_more" />
                 <com.android.systemui.statusbar.phone.IconMerger android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notificationIcons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
             </com.android.keyguard.AlphaOptimizedLinearLayout>
         </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
-        <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
-            <com.android.systemui.statusbar.policy.NetworkTraffic android:gravity="center|right" android:id="@id/networkTraffic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="false" />
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/center_clock_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+       <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="left|center" android:id="@id/center_clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+           <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
             <include layout="@layout/system_icons" />
-            <com.android.systemui.BatteryLevelTextView android:textSize="@dimen/battery_level_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/battery_level_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
             <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="7.0dip" />
         </com.android.keyguard.AlphaOptimizedLinearLayout>
-    </LinearLayout>
+    </RelativeLayout>
     <ViewStub android:id="@id/ticker_stub" android:layout="@layout/status_bar_ticker" android:inflatedId="@id/ticker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </com.android.systemui.statusbar.phone.PhoneStatusBarView>
