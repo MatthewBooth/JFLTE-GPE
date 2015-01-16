@@ -604,6 +604,8 @@
         <item>0</item>
         <item>1</item>
         <item>5</item>
+        <item>7</item>
+        <item>9</item>
     </integer-array>
     <array name="config_cdma_dun_supported_types" />
     <array name="config_usbHostBlacklist" />
