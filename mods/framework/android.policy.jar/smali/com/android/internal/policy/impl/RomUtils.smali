@@ -519,7 +519,7 @@
 
     const-string v2, "clock_position"
 
-    const/16 v1, 0x7d0
+    const/4 v1, 0x1
 
     invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
