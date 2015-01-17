@@ -4,13 +4,16 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150115
+### Changelog 20150116
 * Fixed tethering and enabled bluetooth tethering for all carriers
 * Updated Google Search
+* Updated Google Play Services
 * Removed Gear Manager as it's not working
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks
+* Added hold back to kill current app
+* Added clock mods
 * Updated Interface app
 * Updated build.prop
 

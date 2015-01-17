@@ -1,9 +1,12 @@
-<b><#selectbg_g>JFLTE-GPE-20150115</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150116</#></b>
 <*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
 <*>Updated Google Search</*>
+<*>Updated Google Play Services</*>
 <*>Removed Gear Manager as it's not working</*>
 <*>Added volume panel timeout options</*>
 <*>Added heads up timeout options</*>
 <*>Added long press to skip tracks</*>
+<*>Added hold back to kill current app</*>
+<*>Added clock mods</*>
 <*>Updated Interface app</*>
 <*>Updated build.prop</*>
