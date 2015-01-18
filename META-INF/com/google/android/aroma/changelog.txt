@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150116</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150117</#></b>
 <*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
 <*>Updated Google Search</*>
 <*>Updated Google Play Services</*>
@@ -9,4 +9,5 @@
 <*>Added hold back to kill current app</*>
 <*>Added clock mods</*>
 <*>Updated Interface app</*>
+<*>Updated kernel to latest 1.2.7</*>
 <*>Updated build.prop</*>

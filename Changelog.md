@@ -4,7 +4,7 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150116
+### Changelog 20150117
 * Fixed tethering and enabled bluetooth tethering for all carriers
 * Updated Google Search
 * Updated Google Play Services
@@ -15,6 +15,7 @@ Visit http://ultimarom.com for downloads
 * Added hold back to kill current app
 * Added clock mods
 * Updated Interface app
+* Updated kernel to latest 1.2.7
 * Updated build.prop
 
 ### Changelog 20150112
