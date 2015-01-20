@@ -191,6 +191,11 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/data/lockclock", "/data/app");
     endif;
 	
+	if file_getprop("/tmp/aroma-data/install.prop","apollo") == "1" then
+        ui_print("Installing Apollo Music Player");
+        package_extract_dir("aroma/apps/apollo", "/system/app");
+    endif;
+	
 	if file_getprop("/tmp/aroma-data/install.prop","ears") == "1" then
         ui_print("Installing Google Sound Search");
         package_extract_dir("aroma/apps/ears", "/system/app");

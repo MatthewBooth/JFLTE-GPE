@@ -173,6 +173,7 @@ textbox(
 			"es_file_explorer",		"ES File Explorer", 	"One of best resource management tools",											"check.checked",
 			"gmail",				"Gmail", 				"Google's Email service and email checking application",							"check.checked",
 			"lockclock",			"cLock", 				"CyanogenMod's clock and weather widget",											"check.checked",
+			"apollo",			    "Apollo Music Player", 	"The legendary light weight music player from CyanogenMod",							"check.checked",
 			"ears",				    "Google Sound Search", 	"Install Google Sound Search",							                            "check.checked",
 			"tts",					"Google TTS", 			"Google's Text-to-Speech synthesizer",												"check.checked",
 			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked"
