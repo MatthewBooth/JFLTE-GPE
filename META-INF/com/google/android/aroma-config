@@ -163,6 +163,11 @@ textbox(
 			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method <#ff4444>Recommended</#>",			"select",
 			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
 
+			"browser",				"<#selectbg_g>Browser</#>","",																				"group",
+			"cyan",					"CyanogenMod", 			"Cyanogen's new Lollipop Browser app",												"select.selected",
+			"chrome",				"Chrome", 				"Google Chrome browser",															"select",
+			"none",					"None", 				"No browser app",																	"select",
+
 			"dpi",					"<#selectbg_g>Dots-Per-Inch</#>","",																		"group",
 			"480",					"480", 					"Stock value",																		"select.selected",
 			"460",					"460",					"Set a value of 460",																"select",
@@ -175,13 +180,22 @@ textbox(
 							
 			"misc",					"<#selectbg_g>Data Apps</#>","",																			"group",
 			"adaway",				"AdAway", 				"Open Source Ad blocking via the HOSTS file",										"check.checked",
-			"chrome",				"Chrome", 				"Google Chrome browser",															"check.checked",
 			"es_file_explorer",		"ES File Explorer", 	"One of best resource management tools",											"check.checked",
 			"gmail",				"Gmail", 				"Google's Email service and email checking application",							"check.checked",
 			"lockclock",			"cLock", 				"CyanogenMod's clock and weather widget",											"check.checked",
 			"ears",				    "Google Sound Search", 	"Install Google Sound Search",							                            "check.checked",
 			"tts",					"Google TTS", 			"Google's Text-to-Speech synthesizer",												"check.checked",
-			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked"
+			"wallet",               "Google Wallet",        "Enable Google Wallet support",                                                     "check.checked",
+
+			"lwp",					"<#selectbg_g>Live Wallpaper</#>","",																		"group",
+			"galaxy",				"Black Hole", 			"",																					"check.checked",
+			"grass",				"Grass", 				"",																					"check.checked",
+			"spiral",				"Holo Spiral", 			"",																					"check.checked",
+			"microbes",				"Microbes", 			"",																					"check.checked",
+			"noisefield",			"Bubbles", 				"",																					"check.checked",
+			"phasebeam",			"Phase Beam", 			"",							                            							"check.checked",
+			"photophase",			"Photo Phase", 			"",																					"check.checked",
+			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
 			
 	  
