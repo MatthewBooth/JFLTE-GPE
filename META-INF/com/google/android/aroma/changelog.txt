@@ -9,5 +9,5 @@
 <*>Added hold back to kill current app</*>
 <*>Added clock mods</*>
 <*>Updated Interface app</*>
-<*>Updated kernel to latest 1.2.7</*>
+<*>Updated kernel to latest Googy 1.2.7</*>
 <*>Updated build.prop</*>
