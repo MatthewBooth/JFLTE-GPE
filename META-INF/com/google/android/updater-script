@@ -155,10 +155,26 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         package_extract_dir("aroma/apps/settings/dark", "/system/priv-app");
     endif;
 
+# Music Apps
+	if file_getprop("/tmp/aroma-data/install.prop","audio") == "eleven" then
+        ui_print("Installing Eleven Music Player");
+        package_extract_dir("aroma/apps/music/eleven", "/system/app");
+    endif;
+	if file_getprop("/tmp/aroma-data/install.prop","audio") == "apollo" then
+        ui_print("Installing Apollo Music Player");
+        package_extract_dir("aroma/apps/music/apollo", "/system/app");
+    endif;
+
 # DSP Audio
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "stock" then
         ui_print("Installing Stock DSP");
         package_extract_dir("aroma/apps/audio/stock", "/system");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "audiofx" then
+        ui_print("Installing AudioFX");
+        package_extract_dir("aroma/apps/audio/stock", "/system");
+        package_extract_dir("aroma/apps/audio/audiofx", "/system");
+        delete_recursive("/system/priv-app/MusicFX");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "cyan" then
         ui_print("Installing Cyanogen DSP");
@@ -189,11 +205,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     if file_getprop("/tmp/aroma-data/install.prop","lockclock") == "1" then
         ui_print("Installing cLock");
         package_extract_dir("aroma/apps/data/lockclock", "/data/app");
-    endif;
-	
-	if file_getprop("/tmp/aroma-data/install.prop","apollo") == "1" then
-        ui_print("Installing Apollo Music Player");
-        package_extract_dir("aroma/apps/apollo", "/system/app");
     endif;
 	
 	if file_getprop("/tmp/aroma-data/install.prop","ears") == "1" then
