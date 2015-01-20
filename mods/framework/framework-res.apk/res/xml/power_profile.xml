@@ -10,7 +10,7 @@
     <item name="wifi.scan">114</item>
     <item name="dsp.audio">45</item>
     <item name="dsp.video">205</item>
-    <item name="radio.active">4.1</item>
+    <item name="radio.active">117</item>
     <item name="radio.scanning">76</item>
     <item name="gps.on">3</item>
     <array name="radio.on">
