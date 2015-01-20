@@ -12325,6 +12325,8 @@
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->notifyUserAboutHiddenNotifications()V
 
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->updateClock()V
+
     return-void
 .end method
 
