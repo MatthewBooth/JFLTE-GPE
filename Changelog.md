@@ -13,6 +13,7 @@ Visit http://ultimarom.com for downloads
 * Updated the Inverted Teal phone/contacts app
 * Updated Interface app
 * Updated kernel to latest Googy 1.2.7
+* Updated SuperSU
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks
