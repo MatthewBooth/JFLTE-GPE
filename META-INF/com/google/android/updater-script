@@ -192,32 +192,26 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 		ui_print("Installing AdAway");
         package_extract_dir("aroma/apps/data/adaway", "/data");
     endif;
-
     if file_getprop("/tmp/aroma-data/install.prop","es_file_explorer") == "1" then
         ui_print("Installing ES File Explorer");
         package_extract_dir("aroma/apps/data/es_file_explorer", "/data");
     endif;
-
     if file_getprop("/tmp/aroma-data/install.prop","gmail") == "1" then
         ui_print("Installing GMail");
         package_extract_dir("aroma/apps/data/gmail", "/data/app");
     endif;
-
     if file_getprop("/tmp/aroma-data/install.prop","lockclock") == "1" then
         ui_print("Installing cLock");
         package_extract_dir("aroma/apps/data/lockclock", "/data/app");
     endif;
-	
 	if file_getprop("/tmp/aroma-data/install.prop","ears") == "1" then
         ui_print("Installing Google Sound Search");
         package_extract_dir("aroma/apps/ears", "/system/app");
     endif;
-
     if file_getprop("/tmp/aroma-data/install.prop","tts") == "1" then
         ui_print("Installing Google Text-to-Speech");
         package_extract_dir("aroma/apps/data/tts", "/data/app");
     endif;
-	
 	if file_getprop("/tmp/aroma-data/install.prop","wallet") == "1" then
         ui_print("Installing Google Wallet");
         package_extract_dir("aroma/apps/wallet/google", "/system/priv-app");
@@ -226,35 +220,35 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 # Live Wallpapers
 	if file_getprop("/tmp/aroma-data/install.prop","galaxy") == "1" then
 		ui_print("Installing Black Hole LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/Galaxy4", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/galaxy", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","grass") == "1" then
 		ui_print("Installing Grass LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/Grass", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/grass", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","spiral") == "1" then
 		ui_print("Installing Holo Spiral LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/HoloSpiralWallpaper", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/spiral", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","microbes") == "1" then
 		ui_print("Installing Microbes LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/Microbes", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/microbes", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","noisefield") == "1" then
 		ui_print("Installing Bubbles LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/NoiseField", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/noisefield", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","phasebeam") == "1" then
 		ui_print("Installing Phase Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/PhaseBeam", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/phaseBeam", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","photophase") == "1" then
 		ui_print("Installing Photo Phase LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/PhotoPhase", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/photophase", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","sunbeam") == "1" then
 		ui_print("Installing Sun Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/SunBeam", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/", "/system/app");
     endif;
 
 
