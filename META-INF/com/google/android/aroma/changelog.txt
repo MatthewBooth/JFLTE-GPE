@@ -1,13 +1,21 @@
-<b><#selectbg_g>JFLTE-GPE-20150117</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150121</#></b>
 <*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
 <*>Updated Google Search</*>
 <*>Updated Google Play Services</*>
-<*>Removed Gear Manager as it's not working</*>
+<*>Updated AOSP Gallery</*>
+<*>Updated Live walpapers</*>
+<*>Updated the Inverted Teal phone/contacts app</*>
+<*>Updated Interface app</*>
+<*>Updated kernel to latest Googy 1.2.7</*>
 <*>Added volume panel timeout options</*>
 <*>Added heads up timeout options</*>
 <*>Added long press to skip tracks</*>
 <*>Added hold back to kill current app</*>
 <*>Added clock mods</*>
-<*>Updated Interface app</*>
-<*>Updated kernel to latest Googy 1.2.7</*>
+<*>Added CyanogenMOD browser option to AROMA</*>
+<*>Added a choice in AROMA for Eleven and Apollo music players</*>
+<*>Added MusicFX from CM12 to AROMA</*>
+<*>Removed Gear Manager as it's not working</*>
 <*>Updated build.prop</*>
+
+
