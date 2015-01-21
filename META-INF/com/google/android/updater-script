@@ -248,7 +248,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","sunbeam") == "1" then
 		ui_print("Installing Sun Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/sunbeam", "/system/app");
     endif;
 
 
