@@ -194,6 +194,7 @@ textbox(
 			"microbes",				"Microbes", 			"",																					"check.checked",
 			"noisefield",			"Bubbles", 				"",																					"check.checked",
 			"phasebeam",			"Phase Beam", 			"",							                            							"check.checked",
+			"spectrum",			    "Spectrum", 			"",							                            							"check.checked",
 			"photophase",			"Photo Phase", 			"",																					"check.checked",
 			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
