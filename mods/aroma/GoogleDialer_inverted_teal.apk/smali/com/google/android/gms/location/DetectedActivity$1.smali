@@ -88,6 +88,8 @@
 
 .method public synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/location/DetectedActivity;
 

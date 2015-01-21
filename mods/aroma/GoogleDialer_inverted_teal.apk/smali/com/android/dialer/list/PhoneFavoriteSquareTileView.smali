@@ -32,6 +32,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v2, 0x1
 
@@ -54,6 +56,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 0
+    .param p0    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     invoke-direct {p0}, Lcom/android/dialer/list/PhoneFavoriteSquareTileView;->launchQuickContact()V
 
@@ -102,6 +105,7 @@
 
 .method public loadFromContact(Lcom/android/contacts/common/list/ContactEntry;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactEntry;
 
     invoke-super {p0, p1}, Lcom/android/dialer/list/PhoneFavoriteTileView;->loadFromContact(Lcom/android/contacts/common/list/ContactEntry;)V
 
@@ -163,6 +167,8 @@
 
 .method protected onMeasure(II)V
     .locals 8
+    .param p1    # I
+    .param p2    # I
 
     const/high16 v7, 0x40000000
 

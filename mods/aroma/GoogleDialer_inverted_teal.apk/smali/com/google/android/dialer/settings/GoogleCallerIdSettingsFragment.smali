@@ -20,6 +20,8 @@
 # virtual methods
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 1
+    .param p1    # Landroid/widget/CompoundButton;
+    .param p2    # Z
 
     invoke-super {p0, p1, p2}, Lcom/google/android/dialer/settings/SwitchSettingsFragment;->onCheckedChanged(Landroid/widget/CompoundButton;Z)V
 
@@ -37,6 +39,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 8
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const/4 v7, 0x0
 

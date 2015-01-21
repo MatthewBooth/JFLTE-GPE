@@ -78,6 +78,7 @@
 
 .method static encode(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
+    .param p0    # Ljava/lang/String;
 
     :try_start_0
     const-string v0, "UTF-8"

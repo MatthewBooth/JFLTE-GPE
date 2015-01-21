@@ -46,6 +46,7 @@
 
 .method public constructor <init>(Landroid/database/Cursor;)V
     .locals 4
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v3, 0x0
 
@@ -74,6 +75,7 @@
 
 .method private fromCursor(Landroid/database/Cursor;)V
     .locals 5
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v4, -0x1
 
@@ -132,6 +134,9 @@
 
 .method private static getInt(Landroid/database/Cursor;Ljava/lang/String;I)I
     .locals 2
+    .param p0    # Landroid/database/Cursor;
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
@@ -156,6 +161,9 @@
 
 .method private static getLong(Landroid/database/Cursor;Ljava/lang/String;J)J
     .locals 2
+    .param p0    # Landroid/database/Cursor;
+    .param p1    # Ljava/lang/String;
+    .param p2    # J
 
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
@@ -180,6 +188,8 @@
 
 .method private static getString(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Landroid/database/Cursor;
+    .param p1    # Ljava/lang/String;
 
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 

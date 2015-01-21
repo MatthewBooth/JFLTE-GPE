@@ -12,6 +12,7 @@
 
 .method static initializeEngine(Lcom/android/ex/variablespeed/EngineParameters;)V
     .locals 9
+    .param p0    # Lcom/android/ex/variablespeed/EngineParameters;
 
     invoke-virtual {p0}, Lcom/android/ex/variablespeed/EngineParameters;->getTargetFrames()I
 
@@ -75,6 +76,8 @@
 
 .method static playFromContext(Landroid/content/Context;Landroid/net/Uri;)Z
     .locals 10
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;

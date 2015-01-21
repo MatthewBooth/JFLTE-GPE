@@ -36,6 +36,7 @@
 # virtual methods
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 2
+    .param p1    # Landroid/animation/ValueAnimator;
 
     iget-object v1, p0, Lcom/android/dialer/list/TileInteractionTeaserView$3;->this$0:Lcom/android/dialer/list/TileInteractionTeaserView;
 

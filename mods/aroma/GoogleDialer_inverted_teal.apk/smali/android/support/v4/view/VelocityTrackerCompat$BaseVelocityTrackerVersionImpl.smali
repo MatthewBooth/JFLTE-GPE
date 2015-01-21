@@ -30,6 +30,8 @@
 # virtual methods
 .method public getXVelocity(Landroid/view/VelocityTracker;I)F
     .locals 1
+    .param p1    # Landroid/view/VelocityTracker;
+    .param p2    # I
 
     invoke-virtual {p1}, Landroid/view/VelocityTracker;->getXVelocity()F
 
@@ -40,6 +42,8 @@
 
 .method public getYVelocity(Landroid/view/VelocityTracker;I)F
     .locals 1
+    .param p1    # Landroid/view/VelocityTracker;
+    .param p2    # I
 
     invoke-virtual {p1}, Landroid/view/VelocityTracker;->getYVelocity()F
 

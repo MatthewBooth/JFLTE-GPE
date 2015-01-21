@@ -46,6 +46,8 @@
 # virtual methods
 .method public compare(Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;)I
     .locals 2
+    .param p1    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
+    .param p2    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
 
     # getter for: Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;->mPriority:I
     invoke-static {p1}, Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;->access$000(Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;)I
@@ -64,6 +66,8 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
 

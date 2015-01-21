@@ -14,6 +14,7 @@
 # direct methods
 .method public static collapseList(Ljava/util/List;Landroid/content/Context;)V
     .locals 8
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",

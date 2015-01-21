@@ -34,6 +34,10 @@
 
 .method constructor <init>(IIILcom/google/android/gms/location/places/PlaceFilter;)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # Lcom/google/android/gms/location/places/PlaceFilter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -62,6 +66,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -227,6 +232,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/location/places/NearbyAlertRequest;->CREATOR:Lcom/google/android/gms/location/places/c;
 

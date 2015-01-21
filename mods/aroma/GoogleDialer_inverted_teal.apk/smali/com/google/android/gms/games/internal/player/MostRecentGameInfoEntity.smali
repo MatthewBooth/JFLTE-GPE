@@ -41,6 +41,13 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;JLandroid/net/Uri;Landroid/net/Uri;Landroid/net/Uri;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # J
+    .param p6    # Landroid/net/Uri;
+    .param p7    # Landroid/net/Uri;
+    .param p8    # Landroid/net/Uri;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,6 +70,7 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/internal/player/MostRecentGameInfo;)V
     .locals 2
+    .param p1    # Lcom/google/android/gms/games/internal/player/MostRecentGameInfo;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -385,6 +393,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntity;->a(Lcom/google/android/gms/games/internal/player/MostRecentGameInfo;Ljava/lang/Object;)Z
 
@@ -487,6 +496,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntityCreator;->a(Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntity;Landroid/os/Parcel;I)V
 

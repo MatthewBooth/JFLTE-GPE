@@ -53,6 +53,7 @@
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
@@ -105,6 +106,8 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 7
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     const v6, 0x104000a
 
@@ -270,6 +273,8 @@
 
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 4
+    .param p1    # Landroid/content/ComponentName;
+    .param p2    # Landroid/os/IBinder;
 
     check-cast p2, Lcom/android/contacts/common/vcard/VCardService$MyBinder;
 
@@ -308,6 +313,7 @@
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 0
+    .param p1    # Landroid/content/ComponentName;
 
     return-void
 .end method

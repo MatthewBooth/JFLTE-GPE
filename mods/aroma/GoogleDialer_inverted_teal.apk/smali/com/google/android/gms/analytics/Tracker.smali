@@ -47,6 +47,9 @@
 # direct methods
 .method constructor <init>(Ljava/lang/String;Lcom/google/android/gms/analytics/TrackerHandler;Landroid/content/Context;)V
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/android/gms/analytics/TrackerHandler;
+    .param p3    # Landroid/content/Context;
 
     invoke-static {}, Lcom/google/android/gms/analytics/h;->dM()Lcom/google/android/gms/analytics/h;
 
@@ -81,6 +84,13 @@
 
 .method constructor <init>(Ljava/lang/String;Lcom/google/android/gms/analytics/TrackerHandler;Lcom/google/android/gms/analytics/h;Lcom/google/android/gms/analytics/ab;Lcom/google/android/gms/analytics/g;Lcom/google/android/gms/analytics/aa;Landroid/content/Context;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/android/gms/analytics/TrackerHandler;
+    .param p3    # Lcom/google/android/gms/analytics/h;
+    .param p4    # Lcom/google/android/gms/analytics/ab;
+    .param p5    # Lcom/google/android/gms/analytics/g;
+    .param p6    # Lcom/google/android/gms/analytics/aa;
+    .param p7    # Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -423,6 +433,7 @@
 
 .method public enableAdvertisingIdCollection(Z)V
     .locals 3
+    .param p1    # Z
 
     const/4 v2, 0x0
 
@@ -483,6 +494,7 @@
 
 .method public enableAutoActivityTracking(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/Tracker;->Bq:Lcom/google/android/gms/analytics/Tracker$a;
 
@@ -493,6 +505,7 @@
 
 .method public enableExceptionReporting(Z)V
     .locals 3
+    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/google/android/gms/analytics/Tracker;->Bp:Z
 
@@ -779,6 +792,8 @@
 
 .method public set(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     const-string v0, "Key should be non-null"
 
@@ -801,6 +816,7 @@
 
 .method public setScreenName(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "&cd"
 
@@ -811,6 +827,7 @@
 
 .method public setSessionTimeout(J)V
     .locals 5
+    .param p1    # J
 
     iget-object v0, p0, Lcom/google/android/gms/analytics/Tracker;->Bq:Lcom/google/android/gms/analytics/Tracker$a;
 

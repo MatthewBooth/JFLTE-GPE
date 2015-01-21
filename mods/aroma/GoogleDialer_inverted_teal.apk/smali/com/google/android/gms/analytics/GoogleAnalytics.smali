@@ -51,6 +51,7 @@
 # direct methods
 .method protected constructor <init>(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Lcom/google/android/gms/analytics/GAThread;->getInstance(Landroid/content/Context;)Lcom/google/android/gms/analytics/GAThread;
 
@@ -67,6 +68,9 @@
 
 .method private constructor <init>(Landroid/content/Context;Lcom/google/android/gms/analytics/f;Lcom/google/android/gms/analytics/ac;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/google/android/gms/analytics/f;
+    .param p3    # Lcom/google/android/gms/analytics/ac;
 
     const/4 v1, 0x0
 
@@ -352,6 +356,7 @@
 
 .method public static getInstance(Landroid/content/Context;)Lcom/google/android/gms/analytics/GoogleAnalytics;
     .locals 2
+    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/google/android/gms/analytics/GoogleAnalytics;
 
@@ -585,6 +590,7 @@
 
 .method public enableAutoActivityReports(Landroid/app/Application;)V
     .locals 2
+    .param p1    # Landroid/app/Application;
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -716,6 +722,7 @@
 
 .method public newTracker(I)Lcom/google/android/gms/analytics/Tracker;
     .locals 3
+    .param p1    # I
 
     monitor-enter p0
 
@@ -775,6 +782,7 @@
 
 .method public reportActivityStart(Landroid/app/Activity;)V
     .locals 1
+    .param p1    # Landroid/app/Activity;
 
     iget-boolean v0, p0, Lcom/google/android/gms/analytics/GoogleAnalytics;->AA:Z
 
@@ -788,6 +796,7 @@
 
 .method public reportActivityStop(Landroid/app/Activity;)V
     .locals 1
+    .param p1    # Landroid/app/Activity;
 
     iget-boolean v0, p0, Lcom/google/android/gms/analytics/GoogleAnalytics;->AA:Z
 
@@ -887,6 +896,7 @@
 
 .method public setDryRun(Z)V
     .locals 2
+    .param p1    # Z
 
     invoke-static {}, Lcom/google/android/gms/analytics/r;->ek()Lcom/google/android/gms/analytics/r;
 

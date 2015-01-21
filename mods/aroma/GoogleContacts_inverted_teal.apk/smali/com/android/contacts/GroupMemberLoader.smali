@@ -19,6 +19,9 @@
 # direct methods
 .method private constructor <init>(Landroid/content/Context;J[Ljava/lang/String;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # J
+    .param p4    # [Ljava/lang/String;
 
     invoke-direct {p0, p1}, Landroid/content/CursorLoader;-><init>(Landroid/content/Context;)V
 
@@ -73,6 +76,8 @@
 
 .method public static constructLoaderForGroupDetailQuery(Landroid/content/Context;J)Lcom/android/contacts/GroupMemberLoader;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Lcom/android/contacts/GroupMemberLoader;
 
@@ -88,6 +93,8 @@
 
 .method public static constructLoaderForGroupEditorQuery(Landroid/content/Context;J)Lcom/android/contacts/GroupMemberLoader;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Lcom/android/contacts/GroupMemberLoader;
 

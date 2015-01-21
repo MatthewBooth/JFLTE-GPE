@@ -62,6 +62,9 @@
 # direct methods
 .method private constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/android/dialer/widget/ViewDragHelper$Callback;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Lcom/android/dialer/widget/ViewDragHelper$Callback;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -160,6 +163,10 @@
 
 .method private checkNewEdgeDrag(FFII)Z
     .locals 5
+    .param p1    # F
+    .param p2    # F
+    .param p3    # I
+    .param p4    # I
 
     const/4 v2, 0x0
 
@@ -272,6 +279,9 @@
 
 .method private checkTouchSlop(Landroid/view/View;FF)Z
     .locals 7
+    .param p1    # Landroid/view/View;
+    .param p2    # F
+    .param p3    # F
 
     const/4 v2, 0x1
 
@@ -390,6 +400,9 @@
 
 .method private clampMag(FFF)F
     .locals 3
+    .param p1    # F
+    .param p2    # F
+    .param p3    # F
 
     const/4 v1, 0x0
 
@@ -428,6 +441,9 @@
 
 .method private clampMag(III)I
     .locals 1
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
@@ -506,6 +522,7 @@
 
 .method private clearMotionHistory(I)V
     .locals 3
+    .param p1    # I
 
     const/4 v2, 0x0
 
@@ -564,6 +581,9 @@
 
 .method private computeAxisDuration(III)I
     .locals 10
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     const/high16 v9, 0x3f800000
 
@@ -666,6 +686,11 @@
 
 .method private computeSettleDuration(Landroid/view/View;IIII)I
     .locals 14
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     iget v12, p0, Lcom/android/dialer/widget/ViewDragHelper;->mMinVelocity:F
 
@@ -796,6 +821,9 @@
 
 .method public static create(Landroid/view/ViewGroup;FLcom/android/dialer/widget/ViewDragHelper$Callback;)Lcom/android/dialer/widget/ViewDragHelper;
     .locals 3
+    .param p0    # Landroid/view/ViewGroup;
+    .param p1    # F
+    .param p2    # Lcom/android/dialer/widget/ViewDragHelper$Callback;
 
     invoke-static {p0, p2}, Lcom/android/dialer/widget/ViewDragHelper;->create(Landroid/view/ViewGroup;Lcom/android/dialer/widget/ViewDragHelper$Callback;)Lcom/android/dialer/widget/ViewDragHelper;
 
@@ -820,6 +848,8 @@
 
 .method public static create(Landroid/view/ViewGroup;Lcom/android/dialer/widget/ViewDragHelper$Callback;)Lcom/android/dialer/widget/ViewDragHelper;
     .locals 2
+    .param p0    # Landroid/view/ViewGroup;
+    .param p1    # Lcom/android/dialer/widget/ViewDragHelper$Callback;
 
     new-instance v0, Lcom/android/dialer/widget/ViewDragHelper;
 
@@ -834,6 +864,8 @@
 
 .method private dispatchViewFling(FF)V
     .locals 4
+    .param p1    # F
+    .param p2    # F
 
     const/4 v3, 0x1
 
@@ -861,6 +893,8 @@
 
 .method private dispatchViewReleased(FF)V
     .locals 4
+    .param p1    # F
+    .param p2    # F
 
     const/4 v3, 0x1
 
@@ -888,6 +922,7 @@
 
 .method private distanceInfluenceForSnapDuration(F)F
     .locals 4
+    .param p1    # F
 
     const/high16 v0, 0x3f000000
 
@@ -914,6 +949,10 @@
 
 .method private dragTo(IIII)V
     .locals 8
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     move v2, p1
 
@@ -986,6 +1025,7 @@
 
 .method private ensureMotionHistorySizeForId(I)V
     .locals 10
+    .param p1    # I
 
     const/4 v9, 0x0
 
@@ -1109,6 +1149,10 @@
 
 .method private forceSettleCapturedViewAt(IIII)Z
     .locals 11
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     const/4 v0, 0x0
 
@@ -1179,6 +1223,8 @@
 
 .method private getEdgesTouched(II)I
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -1295,6 +1341,9 @@
 
 .method private reportNewEdgeDrags(FFI)V
     .locals 3
+    .param p1    # F
+    .param p2    # F
+    .param p3    # I
 
     const/4 v0, 0x0
 
@@ -1362,6 +1411,9 @@
 
 .method private saveInitialMotion(FFI)V
     .locals 3
+    .param p1    # F
+    .param p2    # F
+    .param p3    # I
 
     invoke-direct {p0, p3}, Lcom/android/dialer/widget/ViewDragHelper;->ensureMotionHistorySizeForId(I)V
 
@@ -1408,6 +1460,7 @@
 
 .method private saveLastMotion(Landroid/view/MotionEvent;)V
     .locals 6
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-static {p1}, Landroid/support/v4/view/MotionEventCompat;->getPointerCount(Landroid/view/MotionEvent;)I
 
@@ -1532,6 +1585,8 @@
 
 .method public captureChildView(Landroid/view/View;I)V
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -1591,6 +1646,7 @@
 
 .method public continueSettling(Z)Z
     .locals 8
+    .param p1    # Z
 
     const/4 v7, 0x2
 
@@ -1707,6 +1763,8 @@
 
 .method public findTopChildUnder(II)Landroid/view/View;
     .locals 5
+    .param p1    # I
+    .param p2    # I
 
     iget-object v3, p0, Lcom/android/dialer/widget/ViewDragHelper;->mParentView:Landroid/view/ViewGroup;
 
@@ -1771,6 +1829,11 @@
 
 .method public flingCapturedView(IIIII)V
     .locals 9
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     const v6, 0x7fffffff
 
@@ -1870,6 +1933,8 @@
 
 .method public isCapturedViewUnder(II)Z
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/ViewDragHelper;->mCapturedView:Landroid/view/View;
 
@@ -1882,6 +1947,9 @@
 
 .method public isViewUnder(Landroid/view/View;II)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v0, 0x0
 
@@ -1923,6 +1991,7 @@
 
 .method public predictFlingYOffset(I)I
     .locals 10
+    .param p1    # I
 
     const v6, 0x7fffffff
 
@@ -1963,6 +2032,8 @@
 
 .method public processNestedFling(Landroid/view/View;I)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     iput-object p1, p0, Lcom/android/dialer/widget/ViewDragHelper;->mCapturedView:Landroid/view/View;
 
@@ -1977,6 +2048,10 @@
 
 .method public processNestedScroll(Landroid/view/View;II[I)V
     .locals 6
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # [I
 
     iget-object v4, p0, Lcom/android/dialer/widget/ViewDragHelper;->mCapturedView:Landroid/view/View;
 
@@ -2032,6 +2107,7 @@
 
 .method public processTouchEvent(Landroid/view/MotionEvent;)V
     .locals 21
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-static/range {p1 .. p1}, Landroid/support/v4/view/MotionEventCompat;->getActionMasked(Landroid/view/MotionEvent;)I
 
@@ -2773,6 +2849,7 @@
 
 .method setDragState(I)V
     .locals 1
+    .param p1    # I
 
     iget v0, p0, Lcom/android/dialer/widget/ViewDragHelper;->mDragState:I
 
@@ -2796,6 +2873,7 @@
 
 .method public setEdgeTrackingEnabled(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/widget/ViewDragHelper;->mTrackingEdges:I
 
@@ -2804,6 +2882,7 @@
 
 .method public setMinVelocity(F)V
     .locals 0
+    .param p1    # F
 
     iput p1, p0, Lcom/android/dialer/widget/ViewDragHelper;->mMinVelocity:F
 
@@ -2812,6 +2891,8 @@
 
 .method public settleCapturedViewAt(II)Z
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/ViewDragHelper;->mReleaseInProgress:Z
 
@@ -2855,6 +2936,7 @@
 
 .method public shouldInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 13
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-static {p1}, Landroid/support/v4/view/MotionEventCompat;->getActionMasked(Landroid/view/MotionEvent;)I
 
@@ -3128,6 +3210,9 @@
 
 .method public smoothSlideViewTo(Landroid/view/View;II)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v1, 0x0
 
@@ -3146,6 +3231,7 @@
 
 .method public startNestedScroll(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/dialer/widget/ViewDragHelper;->mVelocityTracker:Landroid/view/VelocityTracker;
 
@@ -3169,6 +3255,7 @@
 
 .method public stopNestedScroll(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -3181,6 +3268,8 @@
 
 .method tryCaptureViewForDrag(Landroid/view/View;I)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     const/4 v0, 0x1
 

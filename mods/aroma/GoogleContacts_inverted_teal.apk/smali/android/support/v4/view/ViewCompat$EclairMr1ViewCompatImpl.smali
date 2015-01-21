@@ -27,6 +27,7 @@
 # virtual methods
 .method public isOpaque(Landroid/view/View;)Z
     .locals 1
+    .param p1    # Landroid/view/View;
 
     invoke-static {p1}, Landroid/support/v4/view/ViewCompatEclairMr1;->isOpaque(Landroid/view/View;)Z
 

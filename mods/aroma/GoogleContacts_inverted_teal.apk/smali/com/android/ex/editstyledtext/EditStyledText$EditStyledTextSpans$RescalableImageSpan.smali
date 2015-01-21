@@ -31,6 +31,7 @@
 # direct methods
 .method private rescaleBigImage(Landroid/graphics/drawable/Drawable;)V
     .locals 6
+    .param p1    # Landroid/graphics/drawable/Drawable;
 
     const/4 v5, 0x0
 

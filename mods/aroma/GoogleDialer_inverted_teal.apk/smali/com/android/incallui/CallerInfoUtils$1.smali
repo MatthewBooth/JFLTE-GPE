@@ -40,6 +40,7 @@
 # virtual methods
 .method public onLoadComplete(Landroid/content/Loader;Lcom/android/contacts/common/model/Contact;)V
     .locals 3
+    .param p2    # Lcom/android/contacts/common/model/Contact;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -77,6 +78,8 @@
 
 .method public bridge synthetic onLoadComplete(Landroid/content/Loader;Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Landroid/content/Loader;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Lcom/android/contacts/common/model/Contact;
 

@@ -6,6 +6,8 @@
 # direct methods
 .method public static canScrollHorizontally(Landroid/view/View;I)Z
     .locals 1
+    .param p0    # Landroid/view/View;
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Landroid/view/View;->canScrollHorizontally(I)Z
 
@@ -16,6 +18,8 @@
 
 .method public static setAccessibilityDelegate(Landroid/view/View;Ljava/lang/Object;)V
     .locals 0
+    .param p0    # Landroid/view/View;
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Landroid/view/View$AccessibilityDelegate;
 

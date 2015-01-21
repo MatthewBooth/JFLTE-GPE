@@ -71,6 +71,9 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -114,6 +117,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -269,6 +273,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/location/places/b;->a(Lcom/google/android/gms/location/places/AutocompletePrediction;Landroid/os/Parcel;I)V
 

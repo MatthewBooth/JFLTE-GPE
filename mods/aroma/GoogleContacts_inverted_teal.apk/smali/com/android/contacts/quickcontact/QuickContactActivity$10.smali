@@ -48,6 +48,7 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
     .locals 2
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$10;->this$0:Lcom/android/contacts/quickcontact/QuickContactActivity;
 
@@ -63,6 +64,7 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -75,6 +77,7 @@
 
 .method protected onPostExecute(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 
@@ -111,6 +114,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 

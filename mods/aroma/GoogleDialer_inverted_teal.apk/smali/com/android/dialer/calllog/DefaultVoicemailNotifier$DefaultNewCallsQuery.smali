@@ -64,6 +64,7 @@
 
 .method private constructor <init>(Landroid/content/ContentResolver;)V
     .locals 0
+    .param p1    # Landroid/content/ContentResolver;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,6 +75,8 @@
 
 .method synthetic constructor <init>(Landroid/content/ContentResolver;Lcom/android/dialer/calllog/DefaultVoicemailNotifier$1;)V
     .locals 0
+    .param p1    # Landroid/content/ContentResolver;
+    .param p2    # Lcom/android/dialer/calllog/DefaultVoicemailNotifier$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/calllog/DefaultVoicemailNotifier$DefaultNewCallsQuery;-><init>(Landroid/content/ContentResolver;)V
 
@@ -82,6 +85,7 @@
 
 .method private createNewCallsFromCursor(Landroid/database/Cursor;)Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NewCall;
     .locals 6
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v3, 0x2
 

@@ -28,6 +28,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Landroid/os/Handler;)V
     .locals 2
+    .param p2    # Landroid/os/Handler;
 
     iput-object p1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
@@ -48,6 +49,7 @@
 
 .method static synthetic access$400(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;)Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 1
+    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;->mResultStillPending:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -94,6 +96,7 @@
 
 .method public onChange(Z)V
     .locals 4
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 

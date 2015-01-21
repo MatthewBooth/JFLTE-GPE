@@ -27,6 +27,7 @@
 # direct methods
 .method protected constructor <init>(Landroid/content/ContentValues;)V
     .locals 0
+    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -37,6 +38,7 @@
 
 .method public static createFrom(Landroid/content/ContentValues;)Lcom/android/contacts/common/model/dataitem/DataItem;
     .locals 2
+    .param p0    # Landroid/content/ContentValues;
 
     const-string v1, "mimetype"
 
@@ -281,6 +283,8 @@
 # virtual methods
 .method public buildDataString(Landroid/content/Context;Lcom/android/contacts/common/model/dataitem/DataKind;)Ljava/lang/String;
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/4 v1, 0x0
 
@@ -312,6 +316,8 @@
 
 .method public buildDataStringForDisplay(Landroid/content/Context;Lcom/android/contacts/common/model/dataitem/DataKind;)Ljava/lang/String;
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/contacts/common/model/dataitem/DataItem;->buildDataString(Landroid/content/Context;Lcom/android/contacts/common/model/dataitem/DataKind;)Ljava/lang/String;
 
@@ -322,6 +328,7 @@
 
 .method public collapseWith(Lcom/android/contacts/common/model/dataitem/DataItem;)V
     .locals 9
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataItem;
 
     const-wide/16 v4, 0x0
 
@@ -569,6 +576,7 @@
 
 .method public bridge synthetic collapseWith(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/model/dataitem/DataItem;
 
@@ -613,6 +621,7 @@
 
 .method public getKindTypeColumn(Lcom/android/contacts/common/model/dataitem/DataKind;)I
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget-object v0, p1, Lcom/android/contacts/common/model/dataitem/DataKind;->typeColumn:Ljava/lang/String;
 
@@ -687,6 +696,7 @@
 
 .method public hasKindTypeColumn(Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget-object v0, p1, Lcom/android/contacts/common/model/dataitem/DataKind;->typeColumn:Ljava/lang/String;
 
@@ -781,6 +791,7 @@
 
 .method public setDataKind(Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iput-object p1, p0, Lcom/android/contacts/common/model/dataitem/DataItem;->mKind:Lcom/android/contacts/common/model/dataitem/DataKind;
 
@@ -789,6 +800,7 @@
 
 .method public setMimeType(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/dataitem/DataItem;->mContentValues:Landroid/content/ContentValues;
 
@@ -801,6 +813,7 @@
 
 .method public setRawContactId(J)V
     .locals 3
+    .param p1    # J
 
     iget-object v0, p0, Lcom/android/contacts/common/model/dataitem/DataItem;->mContentValues:Landroid/content/ContentValues;
 
@@ -817,6 +830,8 @@
 
 .method public shouldCollapseWith(Lcom/android/contacts/common/model/dataitem/DataItem;Landroid/content/Context;)Z
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataItem;
+    .param p2    # Landroid/content/Context;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/dataitem/DataItem;->mKind:Lcom/android/contacts/common/model/dataitem/DataKind;
 
@@ -866,6 +881,8 @@
 
 .method public bridge synthetic shouldCollapseWith(Ljava/lang/Object;Landroid/content/Context;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Landroid/content/Context;
 
     check-cast p1, Lcom/android/contacts/common/model/dataitem/DataItem;
 

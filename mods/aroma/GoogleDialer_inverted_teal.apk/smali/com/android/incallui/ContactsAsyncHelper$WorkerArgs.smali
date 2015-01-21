@@ -39,6 +39,7 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/ContactsAsyncHelper$1;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/ContactsAsyncHelper$1;
 
     invoke-direct {p0}, Lcom/android/incallui/ContactsAsyncHelper$WorkerArgs;-><init>()V
 

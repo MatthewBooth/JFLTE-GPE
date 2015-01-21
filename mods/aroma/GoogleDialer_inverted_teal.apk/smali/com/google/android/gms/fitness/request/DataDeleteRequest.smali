@@ -78,6 +78,11 @@
 
 .method constructor <init>(IJJLjava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V
     .locals 2
+    .param p1    # I
+    .param p2    # J
+    .param p4    # J
+    .param p9    # Z
+    .param p10    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IJJ",
@@ -209,6 +214,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     if-eq p1, p0, :cond_0
 
@@ -449,6 +455,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/request/d;->a(Lcom/google/android/gms/fitness/request/DataDeleteRequest;Landroid/os/Parcel;I)V
 

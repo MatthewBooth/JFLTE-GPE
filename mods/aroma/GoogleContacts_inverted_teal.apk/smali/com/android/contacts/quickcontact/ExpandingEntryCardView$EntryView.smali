@@ -21,6 +21,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
@@ -29,6 +30,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -47,6 +50,7 @@
 
 .method public setContextMenuInfo(Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryView;->mEntryContextMenuInfo:Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;
 

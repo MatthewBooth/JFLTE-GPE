@@ -48,6 +48,7 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
     .locals 5
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v2, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$12;->val$imageViewDrawable:Landroid/graphics/drawable/Drawable;
 
@@ -195,6 +196,7 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -207,6 +209,7 @@
 
 .method protected onPostExecute(Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
 
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 
@@ -256,6 +259,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
 

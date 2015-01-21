@@ -62,6 +62,7 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/fragment/c;->hm(Landroid/os/Parcel;)Lcom/google/android/gms/wallet/fragment/WalletFragmentStyle;
 
@@ -181,6 +182,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/fragment/c;->jI(I)[Lcom/google/android/gms/wallet/fragment/WalletFragmentStyle;
 

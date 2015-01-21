@@ -54,6 +54,9 @@
 
 .method public constructor <init>(Landroid/content/Context;[Ljava/lang/String;I)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # [Ljava/lang/String;
+    .param p3    # I
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -174,6 +177,7 @@
 # virtual methods
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/util/List;
 

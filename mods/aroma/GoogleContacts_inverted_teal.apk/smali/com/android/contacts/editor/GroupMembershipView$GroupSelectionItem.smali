@@ -25,6 +25,9 @@
 # direct methods
 .method public constructor <init>(JLjava/lang/String;Z)V
     .locals 1
+    .param p1    # J
+    .param p3    # Ljava/lang/String;
+    .param p4    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,6 +60,7 @@
 
 .method public setChecked(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/GroupMembershipView$GroupSelectionItem;->mChecked:Z
 

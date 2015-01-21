@@ -10,6 +10,7 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 0
+    .param p1    # Landroid/app/Activity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -22,6 +23,7 @@
 # virtual methods
 .method public resolveIntent(Landroid/content/Intent;)Lcom/android/contacts/list/ContactsRequest;
     .locals 13
+    .param p1    # Landroid/content/Intent;
 
     new-instance v6, Lcom/android/contacts/list/ContactsRequest;
 

@@ -21,6 +21,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/calllog/CallLogQueryHandler;Landroid/os/Looper;)V
     .locals 0
+    .param p2    # Landroid/os/Looper;
 
     iput-object p1, p0, Lcom/android/dialer/calllog/CallLogQueryHandler$CatchingWorkerHandler;->this$0:Lcom/android/dialer/calllog/CallLogQueryHandler;
 
@@ -33,6 +34,7 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 3
+    .param p1    # Landroid/os/Message;
 
     :try_start_0
     invoke-super {p0, p1}, Landroid/content/AsyncQueryHandler$WorkerHandler;->handleMessage(Landroid/os/Message;)V

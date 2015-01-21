@@ -442,6 +442,9 @@
 
 .method public onActivityResult(IILandroid/content/Intent;)V
     .locals 4
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -489,12 +492,15 @@
 
 .method public onCancelRequest(Lcom/android/contacts/common/vcard/CancelRequest;I)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/CancelRequest;
+    .param p2    # I
 
     return-void
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 9
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v8, 0x1
 
@@ -652,24 +658,30 @@
 
 .method public onExportFailed(Lcom/android/contacts/common/vcard/ExportRequest;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/ExportRequest;
 
     return-void
 .end method
 
 .method public onExportProcessed(Lcom/android/contacts/common/vcard/ExportRequest;I)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/ExportRequest;
+    .param p2    # I
 
     return-void
 .end method
 
 .method public onImportCanceled(Lcom/android/contacts/common/vcard/ImportRequest;I)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
+    .param p2    # I
 
     return-void
 .end method
 
 .method public onImportFailed(Lcom/android/contacts/common/vcard/ImportRequest;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/vcard/NfcImportVCardActivity;->isFinishing()Z
 
@@ -689,6 +701,9 @@
 
 .method public onImportFinished(Lcom/android/contacts/common/vcard/ImportRequest;ILandroid/net/Uri;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
+    .param p2    # I
+    .param p3    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/vcard/NfcImportVCardActivity;->isFinishing()Z
 
@@ -732,18 +747,28 @@
 
 .method public onImportParsed(Lcom/android/contacts/common/vcard/ImportRequest;ILcom/android/vcard/VCardEntry;II)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
+    .param p2    # I
+    .param p3    # Lcom/android/vcard/VCardEntry;
+    .param p4    # I
+    .param p5    # I
 
     return-void
 .end method
 
 .method public onImportProcessed(Lcom/android/contacts/common/vcard/ImportRequest;II)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
+    .param p2    # I
+    .param p3    # I
 
     return-void
 .end method
 
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 4
+    .param p1    # Landroid/content/ComponentName;
+    .param p2    # Landroid/os/IBinder;
 
     check-cast p2, Lcom/android/contacts/common/vcard/VCardService$MyBinder;
 
@@ -770,6 +795,7 @@
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 0
+    .param p1    # Landroid/content/ComponentName;
 
     return-void
 .end method

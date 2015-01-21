@@ -70,6 +70,22 @@
 
 .method constructor <init>(ILcom/google/android/gms/games/GameEntity;Ljava/lang/String;JLandroid/net/Uri;Ljava/lang/String;Ljava/lang/String;JJLandroid/net/Uri;Ljava/lang/String;Ljava/lang/String;JJIILjava/util/ArrayList;)V
     .locals 2
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/games/GameEntity;
+    .param p3    # Ljava/lang/String;
+    .param p4    # J
+    .param p6    # Landroid/net/Uri;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # J
+    .param p11    # J
+    .param p13    # Landroid/net/Uri;
+    .param p14    # Ljava/lang/String;
+    .param p15    # Ljava/lang/String;
+    .param p16    # J
+    .param p18    # J
+    .param p20    # I
+    .param p21    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -146,6 +162,7 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/quest/Quest;)V
     .locals 5
+    .param p1    # Lcom/google/android/gms/games/quest/Quest;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -896,6 +913,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/quest/QuestEntity;->a(Lcom/google/android/gms/games/quest/Quest;Ljava/lang/Object;)Z
 
@@ -1091,6 +1109,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/quest/QuestEntityCreator;->a(Lcom/google/android/gms/games/quest/QuestEntity;Landroid/os/Parcel;I)V
 

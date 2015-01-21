@@ -12,6 +12,7 @@
 # direct methods
 .method constructor <init>(Ljava/lang/Appendable;)V
     .locals 0
+    .param p1    # Ljava/lang/Appendable;
 
     invoke-direct {p0}, Ljava/io/Writer;-><init>()V
 
@@ -48,6 +49,7 @@
 # virtual methods
 .method public append(C)Ljava/io/Writer;
     .locals 1
+    .param p1    # C
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -65,6 +67,7 @@
 
 .method public append(Ljava/lang/CharSequence;)Ljava/io/Writer;
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -82,6 +85,9 @@
 
 .method public append(Ljava/lang/CharSequence;II)Ljava/io/Writer;
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -99,6 +105,7 @@
 
 .method public bridge synthetic append(C)Ljava/lang/Appendable;
     .locals 1
+    .param p1    # C
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -114,6 +121,7 @@
 
 .method public bridge synthetic append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -129,6 +137,9 @@
 
 .method public bridge synthetic append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -198,6 +209,7 @@
 
 .method public write(I)V
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -217,6 +229,7 @@
 
 .method public write(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -234,6 +247,9 @@
 
 .method public write(Ljava/lang/String;II)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -253,6 +269,9 @@
 
 .method public write([CII)V
     .locals 2
+    .param p1    # [C
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

@@ -36,6 +36,9 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;[Ljava/lang/String;I)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # [Ljava/lang/String;
+    .param p3    # I
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -48,6 +51,7 @@
 
 .method private getCallLogInteractions(Ljava/lang/String;)Ljava/util/List;
     .locals 10
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -204,6 +208,7 @@
 
 .method static pruneDuplicateCallLogInteractions(Ljava/util/List;I)Ljava/util/List;
     .locals 6
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -287,6 +292,7 @@
 # virtual methods
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/util/List;
 

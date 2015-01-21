@@ -59,6 +59,8 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/DialpadFragment;Lcom/android/incallui/DialpadFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/DialpadFragment;
+    .param p2    # Lcom/android/incallui/DialpadFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/DialpadFragment$DTMFKeyListener;-><init>(Lcom/android/incallui/DialpadFragment;)V
 
@@ -67,6 +69,7 @@
 
 .method private lookup(Landroid/view/KeyEvent;)C
     .locals 4
+    .param p1    # Landroid/view/KeyEvent;
 
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getMetaState()I
 
@@ -105,6 +108,10 @@
 # virtual methods
 .method public backspace(Landroid/view/View;Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/text/Editable;
+    .param p3    # I
+    .param p4    # Landroid/view/KeyEvent;
 
     const/4 v0, 0x0
 
@@ -121,6 +128,7 @@
 
 .method public onKeyDown(Landroid/view/KeyEvent;)Z
     .locals 3
+    .param p1    # Landroid/view/KeyEvent;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/DialpadFragment$DTMFKeyListener;->lookup(Landroid/view/KeyEvent;)C
 
@@ -246,6 +254,10 @@
 
 .method public onKeyDown(Landroid/view/View;Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/text/Editable;
+    .param p3    # I
+    .param p4    # Landroid/view/KeyEvent;
 
     invoke-virtual {p0, p4, p2}, Lcom/android/incallui/DialpadFragment$DTMFKeyListener;->lookup(Landroid/view/KeyEvent;Landroid/text/Spannable;)I
 
@@ -354,6 +366,7 @@
 
 .method public onKeyUp(Landroid/view/KeyEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/KeyEvent;
 
     const/4 v2, 0x1
 
@@ -453,6 +466,10 @@
 
 .method public onKeyUp(Landroid/view/View;Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/text/Editable;
+    .param p3    # I
+    .param p4    # Landroid/view/KeyEvent;
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/text/method/DialerKeyListener;->onKeyUp(Landroid/view/View;Landroid/text/Editable;ILandroid/view/KeyEvent;)Z
 

@@ -65,6 +65,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -75,6 +76,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -85,6 +88,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 5
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     const/4 v4, 0x1
 
@@ -173,6 +179,7 @@
 
 .method static synthetic access$100(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIsUnableToDrag:Z
 
@@ -181,6 +188,7 @@
 
 .method static synthetic access$1000(Lcom/android/dialer/widget/OverlappingPaneLayout;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideOffsetPx:I
 
@@ -189,6 +197,7 @@
 
 .method static synthetic access$1100(Lcom/android/dialer/widget/OverlappingPaneLayout;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideRange:I
 
@@ -197,6 +206,7 @@
 
 .method static synthetic access$1200(Lcom/android/dialer/widget/OverlappingPaneLayout;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIntermediateOffset:I
 
@@ -205,6 +215,7 @@
 
 .method static synthetic access$1300(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mInNestedPreScrollDownwards:Z
 
@@ -213,6 +224,8 @@
 
 .method static synthetic access$1302(Lcom/android/dialer/widget/OverlappingPaneLayout;Z)Z
     .locals 0
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mInNestedPreScrollDownwards:Z
 
@@ -221,6 +234,7 @@
 
 .method static synthetic access$1400(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mInNestedPreScrollUpwards:Z
 
@@ -229,6 +243,8 @@
 
 .method static synthetic access$1402(Lcom/android/dialer/widget/OverlappingPaneLayout;Z)Z
     .locals 0
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mInNestedPreScrollUpwards:Z
 
@@ -237,6 +253,7 @@
 
 .method static synthetic access$1500(Lcom/android/dialer/widget/OverlappingPaneLayout;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mReleaseScrollSlop:I
 
@@ -245,6 +262,7 @@
 
 .method static synthetic access$1600(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIsInNestedScroll:Z
 
@@ -253,6 +271,7 @@
 
 .method static synthetic access$200(Lcom/android/dialer/widget/OverlappingPaneLayout;)Lcom/android/dialer/widget/ViewDragHelper;
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mDragHelper:Lcom/android/dialer/widget/ViewDragHelper;
 
@@ -261,6 +280,7 @@
 
 .method static synthetic access$300(Lcom/android/dialer/widget/OverlappingPaneLayout;)F
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideOffset:F
 
@@ -269,6 +289,7 @@
 
 .method static synthetic access$400(Lcom/android/dialer/widget/OverlappingPaneLayout;)Landroid/view/View;
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideableView:Landroid/view/View;
 
@@ -277,6 +298,8 @@
 
 .method static synthetic access$502(Lcom/android/dialer/widget/OverlappingPaneLayout;Z)Z
     .locals 0
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPreservedOpenState:Z
 
@@ -285,6 +308,7 @@
 
 .method static synthetic access$600(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIsInNestedFling:Z
 
@@ -293,6 +317,8 @@
 
 .method static synthetic access$602(Lcom/android/dialer/widget/OverlappingPaneLayout;Z)Z
     .locals 0
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIsInNestedFling:Z
 
@@ -301,6 +327,7 @@
 
 .method static synthetic access$700(Lcom/android/dialer/widget/OverlappingPaneLayout;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-boolean v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mInUpwardsPreFling:Z
 
@@ -309,6 +336,7 @@
 
 .method static synthetic access$800(Lcom/android/dialer/widget/OverlappingPaneLayout;)Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPanelSlideCallbacks:Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
@@ -317,6 +345,8 @@
 
 .method static synthetic access$900(Lcom/android/dialer/widget/OverlappingPaneLayout;I)V
     .locals 0
+    .param p0    # Lcom/android/dialer/widget/OverlappingPaneLayout;
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/dialer/widget/OverlappingPaneLayout;->onPanelDragged(I)V
 
@@ -325,6 +355,8 @@
 
 .method private closePane(Landroid/view/View;I)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -351,6 +383,8 @@
 
 .method private isCapturableViewUnder(II)Z
     .locals 9
+    .param p1    # I
+    .param p2    # I
 
     const/4 v8, 0x2
 
@@ -433,6 +467,7 @@
 
 .method private onPanelDragged(I)V
     .locals 4
+    .param p1    # I
 
     iget-object v3, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideableView:Landroid/view/View;
 
@@ -475,6 +510,8 @@
 
 .method private openPane(Landroid/view/View;I)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -504,6 +541,7 @@
 
 .method private updateSlideOffset(I)V
     .locals 2
+    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mSlideOffsetPx:I
 
@@ -524,6 +562,7 @@
 
 .method private static viewIsOpaque(Landroid/view/View;)Z
     .locals 5
+    .param p0    # Landroid/view/View;
 
     const/4 v1, 0x1
 
@@ -568,6 +607,7 @@
 # virtual methods
 .method protected checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
     .locals 1
+    .param p1    # Landroid/view/ViewGroup$LayoutParams;
 
     instance-of v0, p1, Lcom/android/dialer/widget/OverlappingPaneLayout$LayoutParams;
 
@@ -637,6 +677,7 @@
 
 .method dispatchOnPanelClosed(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPanelSlideCallbacks:Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
@@ -651,6 +692,7 @@
 
 .method dispatchOnPanelOpened(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPanelSlideCallbacks:Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
@@ -665,6 +707,7 @@
 
 .method dispatchOnPanelSlide(Landroid/view/View;)V
     .locals 2
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPanelSlideCallbacks:Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
@@ -677,6 +720,9 @@
 
 .method protected drawChild(Landroid/graphics/Canvas;Landroid/view/View;J)Z
     .locals 7
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Landroid/view/View;
+    .param p3    # J
 
     invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -775,6 +821,7 @@
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
     .locals 2
+    .param p1    # Landroid/util/AttributeSet;
 
     new-instance v0, Lcom/android/dialer/widget/OverlappingPaneLayout$LayoutParams;
 
@@ -789,6 +836,7 @@
 
 .method protected generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroid/view/ViewGroup$LayoutParams;
     .locals 1
+    .param p1    # Landroid/view/ViewGroup$LayoutParams;
 
     instance-of v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;
 
@@ -872,6 +920,7 @@
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 13
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v10, 0x0
 
@@ -1087,6 +1136,11 @@
 
 .method protected onLayout(ZIIII)V
     .locals 23
+    .param p1    # Z
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     move-object/from16 v0, p0
 
@@ -1335,6 +1389,8 @@
 
 .method protected onMeasure(II)V
     .locals 31
+    .param p1    # I
+    .param p2    # I
 
     invoke-static/range {p1 .. p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
@@ -2262,6 +2318,9 @@
 
 .method public onNestedPreFling(Landroid/view/View;FF)Z
     .locals 5
+    .param p1    # Landroid/view/View;
+    .param p2    # F
+    .param p3    # F
 
     const/4 v1, 0x1
 
@@ -2347,6 +2406,10 @@
 
 .method public onNestedPreScroll(Landroid/view/View;II[I)V
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # [I
 
     const/4 v1, 0x1
 
@@ -2395,6 +2458,11 @@
 
 .method public onNestedScroll(Landroid/view/View;IIII)V
     .locals 5
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     const/4 v4, 0x0
 
@@ -2415,6 +2483,7 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
+    .param p1    # Landroid/os/Parcelable;
 
     move-object v0, p1
 
@@ -2479,6 +2548,10 @@
 
 .method protected onSizeChanged(IIII)V
     .locals 1
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup;->onSizeChanged(IIII)V
 
@@ -2494,6 +2567,9 @@
 
 .method public onStartNestedScroll(Landroid/view/View;Landroid/view/View;I)Z
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/View;
+    .param p3    # I
 
     const/4 v1, 0x1
 
@@ -2525,6 +2601,7 @@
 
 .method public onStopNestedScroll(Landroid/view/View;)V
     .locals 3
+    .param p1    # Landroid/view/View;
 
     const/4 v2, 0x0
 
@@ -2554,6 +2631,7 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 5
+    .param p1    # Landroid/view/MotionEvent;
 
     iget-boolean v4, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mCanSlide:Z
 
@@ -2620,6 +2698,8 @@
 
 .method public requestChildFocus(Landroid/view/View;Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/View;
 
     invoke-super {p0, p1, p2}, Landroid/view/ViewGroup;->requestChildFocus(Landroid/view/View;Landroid/view/View;)V
 
@@ -2690,6 +2770,7 @@
 
 .method public setCapturableView(Landroid/view/View;)V
     .locals 0
+    .param p1    # Landroid/view/View;
 
     iput-object p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mCapturableView:Landroid/view/View;
 
@@ -2698,6 +2779,7 @@
 
 .method public setIntermediatePinnedOffset(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mIntermediateOffset:I
 
@@ -2706,6 +2788,7 @@
 
 .method public setPanelSlideCallbacks(Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
     iput-object p1, p0, Lcom/android/dialer/widget/OverlappingPaneLayout;->mPanelSlideCallbacks:Lcom/android/dialer/widget/OverlappingPaneLayout$PanelSlideCallbacks;
 
@@ -2714,6 +2797,8 @@
 
 .method smoothSlideTo(FI)Z
     .locals 7
+    .param p1    # F
+    .param p2    # I
 
     const/4 v3, 0x0
 
@@ -2781,6 +2866,7 @@
 
 .method updateObscuredViewsVisibility(Landroid/view/View;)V
     .locals 19
+    .param p1    # Landroid/view/View;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/dialer/widget/OverlappingPaneLayout;->getPaddingTop()I
 

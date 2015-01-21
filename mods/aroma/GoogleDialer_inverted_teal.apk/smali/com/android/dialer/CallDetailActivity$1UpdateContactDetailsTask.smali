@@ -52,6 +52,7 @@
 
 .method private getNumberTypeOrLocation(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 3
+    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v0, p1, Lcom/android/dialer/PhoneCallDetails;->name:Ljava/lang/CharSequence;
 
@@ -86,6 +87,7 @@
 # virtual methods
 .method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -98,6 +100,7 @@
 
 .method public varargs doInBackground([Ljava/lang/Void;)[Lcom/android/dialer/PhoneCallDetails;
     .locals 6
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v4, p0, Lcom/android/dialer/CallDetailActivity$1UpdateContactDetailsTask;->val$callUris:[Landroid/net/Uri;
 
@@ -147,6 +150,7 @@
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, [Lcom/android/dialer/PhoneCallDetails;
 
@@ -157,6 +161,7 @@
 
 .method public onPostExecute([Lcom/android/dialer/PhoneCallDetails;)V
     .locals 24
+    .param p1    # [Lcom/android/dialer/PhoneCallDetails;
 
     if-nez p1, :cond_0
 

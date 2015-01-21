@@ -42,6 +42,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/ContactsApplication;Lcom/android/contacts/ContactsApplication$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/ContactsApplication;
+    .param p2    # Lcom/android/contacts/ContactsApplication$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/ContactsApplication$DelayedInitializer;-><init>(Lcom/android/contacts/ContactsApplication;)V
 
@@ -52,6 +54,7 @@
 # virtual methods
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -64,6 +67,7 @@
 
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
     .locals 6
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v0, p0, Lcom/android/contacts/ContactsApplication$DelayedInitializer;->this$0:Lcom/android/contacts/ContactsApplication;
 

@@ -141,6 +141,50 @@
 
 .method constructor <init>(ILandroid/app/ApplicationErrorReport;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BIIIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;ZIIZLjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/app/ApplicationErrorReport;
+    .param p3    # Ljava/lang/String;
+    .param p4    # I
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Ljava/lang/String;
+    .param p10    # Ljava/lang/String;
+    .param p11    # Ljava/lang/String;
+    .param p12    # I
+    .param p13    # Ljava/lang/String;
+    .param p14    # Ljava/lang/String;
+    .param p15    # Ljava/lang/String;
+    .param p16    # Ljava/lang/String;
+    .param p17    # Ljava/lang/String;
+    .param p18    # [Ljava/lang/String;
+    .param p19    # [Ljava/lang/String;
+    .param p20    # [Ljava/lang/String;
+    .param p21    # Ljava/lang/String;
+    .param p22    # Ljava/lang/String;
+    .param p23    # [B
+    .param p24    # I
+    .param p25    # I
+    .param p26    # I
+    .param p27    # I
+    .param p28    # Ljava/lang/String;
+    .param p29    # Ljava/lang/String;
+    .param p30    # Ljava/lang/String;
+    .param p31    # Landroid/os/Bundle;
+    .param p32    # Z
+    .param p33    # I
+    .param p34    # I
+    .param p35    # Z
+    .param p36    # Ljava/lang/String;
+    .param p37    # Ljava/lang/String;
+    .param p38    # I
+    .param p39    # Ljava/lang/String;
+    .param p40    # Ljava/lang/String;
+    .param p41    # Ljava/lang/String;
+    .param p42    # Ljava/lang/String;
+    .param p43    # Ljava/lang/String;
+    .param p44    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -315,6 +359,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/feedback/a;->a(Lcom/google/android/gms/feedback/ErrorReport;Landroid/os/Parcel;I)V
 

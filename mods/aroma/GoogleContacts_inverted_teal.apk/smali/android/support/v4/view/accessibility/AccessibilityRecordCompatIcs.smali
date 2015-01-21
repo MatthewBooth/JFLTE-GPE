@@ -16,6 +16,8 @@
 
 .method public static setFromIndex(Ljava/lang/Object;I)V
     .locals 0
+    .param p0    # Ljava/lang/Object;
+    .param p1    # I
 
     check-cast p0, Landroid/view/accessibility/AccessibilityRecord;
 
@@ -26,6 +28,8 @@
 
 .method public static setItemCount(Ljava/lang/Object;I)V
     .locals 0
+    .param p0    # Ljava/lang/Object;
+    .param p1    # I
 
     check-cast p0, Landroid/view/accessibility/AccessibilityRecord;
 
@@ -36,6 +40,8 @@
 
 .method public static setScrollable(Ljava/lang/Object;Z)V
     .locals 0
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Z
 
     check-cast p0, Landroid/view/accessibility/AccessibilityRecord;
 
@@ -46,6 +52,8 @@
 
 .method public static setToIndex(Ljava/lang/Object;I)V
     .locals 0
+    .param p0    # Ljava/lang/Object;
+    .param p1    # I
 
     check-cast p0, Landroid/view/accessibility/AccessibilityRecord;
 

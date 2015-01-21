@@ -36,6 +36,7 @@
 # virtual methods
 .method public onPageScrollStateChanged(I)V
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerListener;->this$0:Lcom/android/contacts/activities/PeopleActivity;
 
@@ -65,6 +66,9 @@
 
 .method public onPageScrolled(IFI)V
     .locals 1
+    .param p1    # I
+    .param p2    # F
+    .param p3    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerListener;->this$0:Lcom/android/contacts/activities/PeopleActivity;
 
@@ -94,6 +98,7 @@
 
 .method public onPageSelected(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerListener;->this$0:Lcom/android/contacts/activities/PeopleActivity;
 

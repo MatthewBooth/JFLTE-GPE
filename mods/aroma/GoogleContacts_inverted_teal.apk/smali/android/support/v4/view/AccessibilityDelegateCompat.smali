@@ -96,6 +96,8 @@
 # virtual methods
 .method public dispatchPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -110,6 +112,7 @@
 
 .method public getAccessibilityNodeProvider(Landroid/view/View;)Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
     .locals 2
+    .param p1    # Landroid/view/View;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -132,6 +135,8 @@
 
 .method public onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -144,6 +149,8 @@
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -156,6 +163,8 @@
 
 .method public onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -168,6 +177,9 @@
 
 .method public onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 2
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/accessibility/AccessibilityEvent;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -182,6 +194,9 @@
 
 .method public performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/os/Bundle;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -196,6 +211,8 @@
 
 .method public sendAccessibilityEvent(Landroid/view/View;I)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 
@@ -208,6 +225,8 @@
 
 .method public sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     sget-object v0, Landroid/support/v4/view/AccessibilityDelegateCompat;->IMPL:Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl;
 

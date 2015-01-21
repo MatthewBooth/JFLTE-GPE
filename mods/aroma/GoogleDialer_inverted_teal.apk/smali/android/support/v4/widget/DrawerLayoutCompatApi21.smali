@@ -6,6 +6,9 @@
 # direct methods
 .method public static applyMarginInsets(Landroid/view/ViewGroup$MarginLayoutParams;Ljava/lang/Object;I)V
     .locals 5
+    .param p0    # Landroid/view/ViewGroup$MarginLayoutParams;
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
 
     const/4 v4, 0x0
 
@@ -87,6 +90,9 @@
 
 .method public static dispatchChildInsets(Landroid/view/View;Ljava/lang/Object;I)V
     .locals 5
+    .param p0    # Landroid/view/View;
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
 
     const/4 v4, 0x0
 
@@ -146,6 +152,7 @@
 
 .method public static getTopInset(Ljava/lang/Object;)I
     .locals 1
+    .param p0    # Ljava/lang/Object;
 
     if-eqz p0, :cond_0
 

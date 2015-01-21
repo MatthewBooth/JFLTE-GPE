@@ -32,6 +32,10 @@
 
 .method public static getLabelForCallOrSms(Ljava/lang/Integer;Ljava/lang/CharSequence;ILandroid/content/Context;)Ljava/lang/CharSequence;
     .locals 4
+    .param p0    # Ljava/lang/Integer;
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # I
+    .param p3    # Landroid/content/Context;
 
     invoke-static {p3}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -112,6 +116,7 @@
 
 .method public static getPhoneLabelResourceId(Ljava/lang/Integer;)I
     .locals 2
+    .param p0    # Ljava/lang/Integer;
 
     const v0, 0x7f080063
 
@@ -256,6 +261,7 @@
 
 .method public static getSmsLabelResourceId(Ljava/lang/Integer;)I
     .locals 2
+    .param p0    # Ljava/lang/Integer;
 
     const v0, 0x7f080078
 
@@ -400,6 +406,7 @@
 
 .method public static isCustomPhoneType(Ljava/lang/Integer;)Z
     .locals 2
+    .param p0    # Ljava/lang/Integer;
 
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 

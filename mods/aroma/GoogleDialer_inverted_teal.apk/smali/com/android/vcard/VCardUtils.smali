@@ -574,6 +574,7 @@
 
 .method public static appearsLikeAndroidVCardQuotedPrintable(Ljava/lang/String;)Z
     .locals 6
+    .param p0    # Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -631,6 +632,7 @@
 
 .method public static varargs areAllEmpty([Ljava/lang/String;)Z
     .locals 6
+    .param p0    # [Ljava/lang/String;
 
     const/4 v4, 0x1
 
@@ -670,6 +672,8 @@
 
 .method public static constructListFromValue(Ljava/lang/String;I)Ljava/util/List;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -811,6 +815,10 @@
 
 .method public static constructNameFromElements(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p0    # I
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -833,6 +841,12 @@
 
 .method public static constructNameFromElements(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
+    .param p0    # I
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
 
     const/16 v8, 0x20
 
@@ -1029,6 +1043,7 @@
 
 .method public static varargs containsOnlyAlphaDigitHyphen([Ljava/lang/String;)Z
     .locals 1
+    .param p0    # [Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -1133,6 +1148,7 @@
 
 .method public static varargs containsOnlyNonCrLfPrintableAscii([Ljava/lang/String;)Z
     .locals 1
+    .param p0    # [Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -1210,6 +1226,7 @@
 
 .method public static varargs containsOnlyPrintableAscii([Ljava/lang/String;)Z
     .locals 1
+    .param p0    # [Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -1307,6 +1324,7 @@
 
 .method public static varargs containsOnlyWhiteSpaces([Ljava/lang/String;)Z
     .locals 1
+    .param p0    # [Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -1329,6 +1347,9 @@
 
 .method public static final convertStringCharset(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 7
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
@@ -1397,6 +1418,7 @@
 
 .method public static getPhoneNumberFormat(I)I
     .locals 1
+    .param p0    # I
 
     invoke-static {p0}, Lcom/android/vcard/VCardConfig;->isJapaneseDevice(I)Z
 
@@ -1417,6 +1439,7 @@
 
 .method public static getPhoneTypeFromStrings(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/Object;
     .locals 14
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1641,6 +1664,7 @@
 
 .method public static getPhoneTypeString(Ljava/lang/Integer;)Ljava/lang/String;
     .locals 1
+    .param p0    # Ljava/lang/Integer;
 
     sget-object v0, Lcom/android/vcard/VCardUtils;->sKnownPhoneTypesMap_ItoS:Ljava/util/Map;
 
@@ -1655,6 +1679,7 @@
 
 .method public static getPropertyNameForIm(I)Ljava/lang/String;
     .locals 2
+    .param p0    # I
 
     sget-object v0, Lcom/android/vcard/VCardUtils;->sKnownImPropNameMap_ItoS:Ljava/util/Map;
 
@@ -1673,6 +1698,7 @@
 
 .method public static guessImageType([B)Ljava/lang/String;
     .locals 7
+    .param p0    # [B
 
     const/16 v6, 0x47
 
@@ -1778,6 +1804,7 @@
 
 .method public static isMobilePhoneLabel(Ljava/lang/String;)Z
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     const-string v0, "_AUTO_CELL"
 
@@ -1809,6 +1836,7 @@
 
 .method public static isV21Word(Ljava/lang/String;)Z
     .locals 8
+    .param p0    # Ljava/lang/String;
 
     const/4 v5, 0x1
 
@@ -1877,6 +1905,7 @@
 
 .method public static isValidInV21ButUnknownToContactsPhoteType(Ljava/lang/String;)Z
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/vcard/VCardUtils;->sPhoneTypesUnknownToContactsSet:Ljava/util/Set;
 
@@ -1889,6 +1918,10 @@
 
 .method public static parseQuotedPrintable(Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 22
+    .param p0    # Ljava/lang/String;
+    .param p1    # Z
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -2298,6 +2331,10 @@
 
 .method public static sortNameElements(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
     .locals 6
+    .param p0    # I
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     const/4 v5, 0x2
 
@@ -2382,6 +2419,7 @@
 
 .method public static toHalfWidthString(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p0    # Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2444,6 +2482,8 @@
 
 .method private static toStringAsParamValue(Ljava/lang/String;[I)Ljava/lang/String;
     .locals 14
+    .param p0    # Ljava/lang/String;
+    .param p1    # [I
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2584,6 +2624,7 @@
 
 .method public static toStringAsV30ParamValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/vcard/VCardUtils;->sEscapeIndicatorsV30:[I
 
@@ -2596,6 +2637,7 @@
 
 .method public static toStringAsV40ParamValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/vcard/VCardUtils;->sEscapeIndicatorsV40:[I
 

@@ -41,6 +41,7 @@
 
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
@@ -61,6 +62,8 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage$1;)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage$1;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;-><init>(Landroid/os/Parcel;)V
 
@@ -69,6 +72,9 @@
 
 .method public constructor <init>(Ljava/lang/String;[BI)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # [B
+    .param p3    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -111,6 +117,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;->ajE:Ljava/lang/String;
 

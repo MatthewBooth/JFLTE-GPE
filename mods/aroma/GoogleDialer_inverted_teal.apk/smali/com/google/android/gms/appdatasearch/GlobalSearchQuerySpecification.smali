@@ -66,6 +66,13 @@
 
 .method constructor <init>(I[Lcom/google/android/gms/appdatasearch/CorpusId;I[Lcom/google/android/gms/appdatasearch/CorpusScoringInfo;III)V
     .locals 6
+    .param p1    # I
+    .param p2    # [Lcom/google/android/gms/appdatasearch/CorpusId;
+    .param p3    # I
+    .param p4    # [Lcom/google/android/gms/appdatasearch/CorpusScoringInfo;
+    .param p5    # I
+    .param p6    # I
+    .param p7    # I
 
     const/4 v5, 0x0
 
@@ -212,6 +219,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/GlobalSearchQuerySpecification;->CREATOR:Lcom/google/android/gms/appdatasearch/p;
 

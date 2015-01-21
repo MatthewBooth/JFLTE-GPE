@@ -275,6 +275,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/group/GroupEditorFragment;)Lcom/android/contacts/group/SuggestedMemberListAdapter;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mAutoCompleteAdapter:Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
@@ -283,6 +284,8 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/group/GroupEditorFragment;Lcom/android/contacts/group/GroupEditorFragment$Member;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment$Member;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment;->addMember(Lcom/android/contacts/group/GroupEditorFragment$Member;)V
 
@@ -291,6 +294,7 @@
 
 .method static synthetic access$1200(Lcom/android/contacts/group/GroupEditorFragment;)Landroid/view/LayoutInflater;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mLayoutInflater:Landroid/view/LayoutInflater;
 
@@ -299,6 +303,8 @@
 
 .method static synthetic access$1300(Lcom/android/contacts/group/GroupEditorFragment;Lcom/android/contacts/group/GroupEditorFragment$Member;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment$Member;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment;->removeMember(Lcom/android/contacts/group/GroupEditorFragment$Member;)V
 
@@ -307,6 +313,7 @@
 
 .method static synthetic access$1400(Lcom/android/contacts/group/GroupEditorFragment;)Lcom/android/contacts/common/ContactPhotoManager;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mPhotoManager:Lcom/android/contacts/common/ContactPhotoManager;
 
@@ -315,6 +322,7 @@
 
 .method static synthetic access$1500(Lcom/android/contacts/group/GroupEditorFragment;)Ljava/util/ArrayList;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mListToDisplay:Ljava/util/ArrayList;
 
@@ -323,6 +331,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/group/GroupEditorFragment;)Landroid/widget/AutoCompleteTextView;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mAutoCompleteTextView:Landroid/widget/AutoCompleteTextView;
 
@@ -331,6 +340,7 @@
 
 .method static synthetic access$300(Lcom/android/contacts/group/GroupEditorFragment;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     invoke-direct {p0}, Lcom/android/contacts/group/GroupEditorFragment;->doRevertAction()V
 
@@ -339,6 +349,7 @@
 
 .method static synthetic access$400(Lcom/android/contacts/group/GroupEditorFragment;)Landroid/content/Context;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mContext:Landroid/content/Context;
 
@@ -347,6 +358,7 @@
 
 .method static synthetic access$500(Lcom/android/contacts/group/GroupEditorFragment;)Landroid/net/Uri;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mGroupUri:Landroid/net/Uri;
 
@@ -355,6 +367,8 @@
 
 .method static synthetic access$600(Lcom/android/contacts/group/GroupEditorFragment;Landroid/database/Cursor;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
+    .param p1    # Landroid/database/Cursor;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment;->bindGroupMetaData(Landroid/database/Cursor;)V
 
@@ -363,6 +377,7 @@
 
 .method static synthetic access$700(Lcom/android/contacts/group/GroupEditorFragment;)Landroid/app/LoaderManager$LoaderCallbacks;
     .locals 1
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mGroupMemberListLoaderListener:Landroid/app/LoaderManager$LoaderCallbacks;
 
@@ -371,6 +386,7 @@
 
 .method static synthetic access$800(Lcom/android/contacts/group/GroupEditorFragment;)J
     .locals 2
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
 
     iget-wide v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mGroupId:J
 
@@ -379,6 +395,8 @@
 
 .method static synthetic access$900(Lcom/android/contacts/group/GroupEditorFragment;Ljava/util/List;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/group/GroupEditorFragment;
+    .param p1    # Ljava/util/List;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment;->addExistingMembers(Ljava/util/List;)V
 
@@ -435,6 +453,7 @@
 
 .method private addMember(Lcom/android/contacts/group/GroupEditorFragment$Member;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment$Member;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mListMembersToAdd:Ljava/util/ArrayList;
 
@@ -461,6 +480,7 @@
 
 .method private bindGroupMetaData(Landroid/database/Cursor;)V
     .locals 3
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v1, 0x0
 
@@ -802,6 +822,7 @@
 
 .method private onRestoreInstanceState(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     const-string v0, "action"
 
@@ -908,6 +929,7 @@
 
 .method private removeMember(Lcom/android/contacts/group/GroupEditorFragment$Member;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment$Member;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment;->mListMembersToAdd:Ljava/util/ArrayList;
 
@@ -1395,6 +1417,9 @@
 # virtual methods
 .method public load(Ljava/lang/String;Landroid/net/Uri;Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/net/Uri;
+    .param p3    # Landroid/os/Bundle;
 
     iput-object p1, p0, Lcom/android/contacts/group/GroupEditorFragment;->mAction:Ljava/lang/String;
 
@@ -1423,6 +1448,8 @@
 
 .method public loadMemberToAddToGroup(JLjava/lang/String;)V
     .locals 5
+    .param p1    # J
+    .param p3    # Ljava/lang/String;
 
     new-instance v0, Landroid/os/Bundle;
 
@@ -1451,6 +1478,8 @@
 
 .method public onAccountChosen(Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Landroid/os/Bundle;
 
     iget-object v0, p1, Lcom/android/contacts/common/model/account/AccountWithDataSet;->name:Ljava/lang/String;
 
@@ -1486,6 +1515,7 @@
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 5
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v3, 0x0
 
@@ -1661,6 +1691,7 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 2
+    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
@@ -1687,6 +1718,8 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
     .locals 1
+    .param p1    # Landroid/view/Menu;
+    .param p2    # Landroid/view/MenuInflater;
 
     const v0, 0x7f110001
 
@@ -1697,6 +1730,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const/4 v0, 0x1
 
@@ -1743,6 +1779,7 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 1
+    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -1770,6 +1807,8 @@
 
 .method public onSaveCompleted(ZLandroid/net/Uri;)V
     .locals 12
+    .param p1    # Z
+    .param p2    # Landroid/net/Uri;
 
     const/4 v8, 0x0
 
@@ -1902,6 +1941,7 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 4
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -2186,6 +2226,7 @@
 
 .method public setContentResolver(Landroid/content/ContentResolver;)V
     .locals 2
+    .param p1    # Landroid/content/ContentResolver;
 
     iput-object p1, p0, Lcom/android/contacts/group/GroupEditorFragment;->mContentResolver:Landroid/content/ContentResolver;
 
@@ -2205,6 +2246,7 @@
 
 .method public setListener(Lcom/android/contacts/group/GroupEditorFragment$Listener;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/group/GroupEditorFragment;->mListener:Lcom/android/contacts/group/GroupEditorFragment$Listener;
 

@@ -111,6 +111,8 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/MapMakerInternalMap;II)V
     .locals 2
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -415,6 +417,7 @@
 
 .method clearValue(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ValueReference;)Z
     .locals 9
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -545,6 +548,8 @@
 
 .method containsKey(Ljava/lang/Object;I)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
 
     const/4 v1, 0x0
 
@@ -602,6 +607,7 @@
 
 .method containsValue(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     :try_start_0
     iget v5, p0, Lcom/google/common/collect/MapMakerInternalMap$Segment;->count:I
@@ -866,6 +872,7 @@
 
 .method enqueueNotification(Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;Lcom/google/common/collect/MapMaker$RemovalCause;)V
     .locals 3
+    .param p2    # Lcom/google/common/collect/MapMaker$RemovalCause;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -899,6 +906,8 @@
 
 .method enqueueNotification(Ljava/lang/Object;ILjava/lang/Object;Lcom/google/common/collect/MapMaker$RemovalCause;)V
     .locals 3
+    .param p2    # I
+    .param p4    # Lcom/google/common/collect/MapMaker$RemovalCause;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;ITV;",
@@ -1235,6 +1244,8 @@
 
 .method get(Ljava/lang/Object;I)Ljava/lang/Object;
     .locals 3
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1298,6 +1309,8 @@
 
 .method getEntry(Ljava/lang/Object;I)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 3
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1366,6 +1379,7 @@
 
 .method getFirst(I)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -1395,6 +1409,8 @@
 
 .method getLiveEntry(Ljava/lang/Object;I)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 3
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1619,6 +1635,7 @@
 
 .method newEntry(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 1
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -1642,6 +1659,7 @@
 
 .method newEntryArray(I)Ljava/util/concurrent/atomic/AtomicReferenceArray;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -1696,6 +1714,8 @@
 
 .method put(Ljava/lang/Object;ILjava/lang/Object;Z)Ljava/lang/Object;
     .locals 11
+    .param p2    # I
+    .param p4    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;ITV;Z)TV;"
@@ -1919,6 +1939,7 @@
 
 .method reclaimKey(Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;I)Z
     .locals 9
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2033,6 +2054,7 @@
 
 .method reclaimValue(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ValueReference;)Z
     .locals 10
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -2198,6 +2220,7 @@
 
 .method recordExpirationTime(Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;J)V
     .locals 2
+    .param p2    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2345,6 +2368,8 @@
 
 .method remove(Ljava/lang/Object;I)Ljava/lang/Object;
     .locals 12
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2503,6 +2528,9 @@
 
 .method remove(Ljava/lang/Object;ILjava/lang/Object;)Z
     .locals 12
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
+    .param p3    # Ljava/lang/Object;
 
     const/4 v10, 0x0
 
@@ -2690,6 +2718,8 @@
 
 .method removeEntry(Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;ILcom/google/common/collect/MapMaker$RemovalCause;)Z
     .locals 8
+    .param p2    # I
+    .param p3    # Lcom/google/common/collect/MapMaker$RemovalCause;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2842,6 +2872,7 @@
 
 .method replace(Ljava/lang/Object;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 11
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;ITV;)TV;"
@@ -3005,6 +3036,7 @@
 
 .method replace(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Z
     .locals 11
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;ITV;TV;)Z"

@@ -27,6 +27,7 @@
 
 .method private getShadowBackground(Landroid/support/v7/widget/CardViewDelegate;)Landroid/support/v7/widget/RoundRectDrawableWithShadow;
     .locals 1
+    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-interface {p1}, Landroid/support/v7/widget/CardViewDelegate;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -41,6 +42,11 @@
 # virtual methods
 .method createBackground(Landroid/content/Context;IFFF)Landroid/support/v7/widget/RoundRectDrawableWithShadow;
     .locals 6
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # F
+    .param p4    # F
+    .param p5    # F
 
     new-instance v0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;
 
@@ -63,6 +69,7 @@
 
 .method public getMinHeight(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 1
+    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-direct {p0, p1}, Landroid/support/v7/widget/CardViewEclairMr1;->getShadowBackground(Landroid/support/v7/widget/CardViewDelegate;)Landroid/support/v7/widget/RoundRectDrawableWithShadow;
 
@@ -77,6 +84,7 @@
 
 .method public getMinWidth(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 1
+    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-direct {p0, p1}, Landroid/support/v7/widget/CardViewEclairMr1;->getShadowBackground(Landroid/support/v7/widget/CardViewDelegate;)Landroid/support/v7/widget/RoundRectDrawableWithShadow;
 
@@ -103,6 +111,12 @@
 
 .method public initialize(Landroid/support/v7/widget/CardViewDelegate;Landroid/content/Context;IFFF)V
     .locals 7
+    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
+    .param p2    # Landroid/content/Context;
+    .param p3    # I
+    .param p4    # F
+    .param p5    # F
+    .param p6    # F
 
     move-object v0, p0
 
@@ -135,6 +149,7 @@
 
 .method public updatePadding(Landroid/support/v7/widget/CardViewDelegate;)V
     .locals 5
+    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     new-instance v0, Landroid/graphics/Rect;
 

@@ -59,6 +59,11 @@
 
 .method public constructor <init>(JLjava/lang/String;JLjava/lang/String;Ljava/lang/String;)V
     .locals 2
+    .param p1    # J
+    .param p3    # Ljava/lang/String;
+    .param p4    # J
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,6 +100,7 @@
 
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -159,6 +165,8 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/android/contacts/group/GroupEditorFragment$1;)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # Lcom/android/contacts/group/GroupEditorFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment$Member;-><init>(Landroid/os/Parcel;)V
 
@@ -177,6 +185,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     instance-of v1, p1, Lcom/android/contacts/group/GroupEditorFragment$Member;
 
@@ -277,6 +286,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget-wide v0, p0, Lcom/android/contacts/group/GroupEditorFragment$Member;->mRawContactId:J
 

@@ -50,6 +50,7 @@
 
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/testing/InjectedServices;->mSystemServices:Ljava/util/HashMap;
 
@@ -72,6 +73,7 @@
 
 .method public setContentResolver(Landroid/content/ContentResolver;)V
     .locals 0
+    .param p1    # Landroid/content/ContentResolver;
 
     iput-object p1, p0, Lcom/android/contacts/common/testing/InjectedServices;->mContentResolver:Landroid/content/ContentResolver;
 
@@ -80,6 +82,7 @@
 
 .method public setSharedPreferences(Landroid/content/SharedPreferences;)V
     .locals 0
+    .param p1    # Landroid/content/SharedPreferences;
 
     iput-object p1, p0, Lcom/android/contacts/common/testing/InjectedServices;->mSharedPreferences:Landroid/content/SharedPreferences;
 
@@ -88,6 +91,8 @@
 
 .method public setSystemService(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/android/contacts/common/testing/InjectedServices;->mSystemServices:Ljava/util/HashMap;
 

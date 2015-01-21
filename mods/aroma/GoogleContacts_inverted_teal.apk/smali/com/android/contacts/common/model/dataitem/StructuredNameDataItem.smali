@@ -28,6 +28,7 @@
 
 .method constructor <init>(Landroid/content/ContentValues;)V
     .locals 0
+    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/dataitem/DataItem;-><init>(Landroid/content/ContentValues;)V
 
@@ -118,6 +119,7 @@
 
 .method public setDisplayName(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/StructuredNameDataItem;->getContentValues()Landroid/content/ContentValues;
 
@@ -132,6 +134,7 @@
 
 .method public setPhoneticFamilyName(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/StructuredNameDataItem;->getContentValues()Landroid/content/ContentValues;
 
@@ -146,6 +149,7 @@
 
 .method public setPhoneticGivenName(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/StructuredNameDataItem;->getContentValues()Landroid/content/ContentValues;
 
@@ -160,6 +164,7 @@
 
 .method public setPhoneticMiddleName(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/StructuredNameDataItem;->getContentValues()Landroid/content/ContentValues;
 

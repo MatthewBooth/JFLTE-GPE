@@ -53,6 +53,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -63,6 +64,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -73,6 +76,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 12
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     const-wide/16 v10, 0x64
 
@@ -330,6 +336,8 @@
 
 .method static synthetic access$002(Lcom/android/contacts/datepicker/DatePicker;I)I
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/datepicker/DatePicker;->mDay:I
 
@@ -338,6 +346,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/datepicker/DatePicker;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
 
     invoke-direct {p0}, Lcom/android/contacts/datepicker/DatePicker;->notifyDateChanged()V
 
@@ -346,6 +355,8 @@
 
 .method static synthetic access$202(Lcom/android/contacts/datepicker/DatePicker;I)I
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/datepicker/DatePicker;->mMonth:I
 
@@ -354,6 +365,7 @@
 
 .method static synthetic access$300(Lcom/android/contacts/datepicker/DatePicker;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
 
     invoke-direct {p0}, Lcom/android/contacts/datepicker/DatePicker;->adjustMaxDay()V
 
@@ -362,6 +374,7 @@
 
 .method static synthetic access$400(Lcom/android/contacts/datepicker/DatePicker;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
 
     invoke-direct {p0}, Lcom/android/contacts/datepicker/DatePicker;->updateDaySpinner()V
 
@@ -370,6 +383,8 @@
 
 .method static synthetic access$502(Lcom/android/contacts/datepicker/DatePicker;I)I
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/datepicker/DatePicker;->mYear:I
 
@@ -378,6 +393,8 @@
 
 .method static synthetic access$602(Lcom/android/contacts/datepicker/DatePicker;Z)Z
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/datepicker/DatePicker;->mHasYear:Z
 
@@ -386,6 +403,7 @@
 
 .method static synthetic access$700(Lcom/android/contacts/datepicker/DatePicker;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/datepicker/DatePicker;
 
     invoke-direct {p0}, Lcom/android/contacts/datepicker/DatePicker;->updateSpinners()V
 
@@ -740,6 +758,10 @@
 
 .method public init(IIILcom/android/contacts/datepicker/DatePicker$OnDateChangedListener;)V
     .locals 6
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # Lcom/android/contacts/datepicker/DatePicker$OnDateChangedListener;
 
     const/4 v4, 0x0
 
@@ -760,6 +782,11 @@
 
 .method public init(IIIZLcom/android/contacts/datepicker/DatePicker$OnDateChangedListener;)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # Z
+    .param p5    # Lcom/android/contacts/datepicker/DatePicker$OnDateChangedListener;
 
     const/4 v1, 0x1
 
@@ -825,6 +852,7 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
+    .param p1    # Landroid/os/Parcelable;
 
     move-object v0, p1
 
@@ -899,6 +927,7 @@
 
 .method public setEnabled(Z)V
     .locals 1
+    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setEnabled(Z)V
 

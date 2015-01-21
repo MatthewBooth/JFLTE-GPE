@@ -161,6 +161,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 6
+    .param p1    # Landroid/content/Context;
 
     const/4 v5, 0x1
 
@@ -355,6 +356,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/model/AccountTypeManagerImpl;)Landroid/content/Context;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mContext:Landroid/content/Context;
 
@@ -363,6 +365,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/common/model/AccountTypeManagerImpl;)Landroid/os/Handler;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mListenerHandler:Landroid/os/Handler;
 
@@ -371,6 +374,8 @@
 
 .method static synthetic access$400(Lcom/android/contacts/common/model/AccountTypeManagerImpl;Landroid/content/Context;)Ljava/util/Map;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->findUsableInvitableAccountTypes(Landroid/content/Context;)Ljava/util/Map;
 
@@ -381,6 +386,7 @@
 
 .method static synthetic access$500(Lcom/android/contacts/common/model/AccountTypeManagerImpl;)Lcom/android/contacts/common/model/AccountTypeManagerImpl$InvitableAccountTypeCache;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mInvitableAccountTypeCache:Lcom/android/contacts/common/model/AccountTypeManagerImpl$InvitableAccountTypeCache;
 
@@ -389,6 +395,7 @@
 
 .method static synthetic access$600(Lcom/android/contacts/common/model/AccountTypeManagerImpl;)Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mInvitablesTaskIsRunning:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -397,6 +404,7 @@
 
 .method private addAccountType(Lcom/android/contacts/common/model/account/AccountType;Ljava/util/Map;Ljava/util/Map;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -448,6 +456,7 @@
 
 .method static findAllInvitableAccountTypes(Landroid/content/Context;Ljava/util/Collection;Ljava/util/Map;)Ljava/util/Map;
     .locals 8
+    .param p0    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -580,6 +589,8 @@
 
 .method protected static findAuthenticator([Landroid/accounts/AuthenticatorDescription;Ljava/lang/String;)Landroid/accounts/AuthenticatorDescription;
     .locals 5
+    .param p0    # [Landroid/accounts/AuthenticatorDescription;
+    .param p1    # Ljava/lang/String;
 
     move-object v0, p0
 
@@ -616,6 +627,7 @@
 
 .method private findUsableInvitableAccountTypes(Landroid/content/Context;)Ljava/util/Map;
     .locals 9
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -779,6 +791,7 @@
 
 .method public getAccountType(Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->ensureAccountsLoaded()V
 
@@ -817,6 +830,7 @@
 
 .method public getAccountTypes(Z)Ljava/util/List;
     .locals 4
+    .param p1    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
@@ -893,6 +907,7 @@
 
 .method public getAccounts(Z)Ljava/util/List;
     .locals 1
+    .param p1    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
@@ -939,6 +954,8 @@
 
 .method public getKindOrFallback(Lcom/android/contacts/common/model/account/AccountType;Ljava/lang/String;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->ensureAccountsLoaded()V
 
@@ -2092,6 +2109,7 @@
 
 .method public onAccountsUpdated([Landroid/accounts/Account;)V
     .locals 0
+    .param p1    # [Landroid/accounts/Account;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->loadAccountsInBackground()V
 
@@ -2100,6 +2118,7 @@
 
 .method public onStatusChanged(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mListenerHandler:Landroid/os/Handler;
 
@@ -2112,6 +2131,7 @@
 
 .method public processBroadcastIntent(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/AccountTypeManagerImpl;->mListenerHandler:Landroid/os/Handler;
 

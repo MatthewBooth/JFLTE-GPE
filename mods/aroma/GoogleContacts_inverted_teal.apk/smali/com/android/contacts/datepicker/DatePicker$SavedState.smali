@@ -54,6 +54,7 @@
 
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
 
     const/4 v1, 0x1
 
@@ -114,6 +115,8 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/android/contacts/datepicker/DatePicker$1;)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # Lcom/android/contacts/datepicker/DatePicker$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/datepicker/DatePicker$SavedState;-><init>(Landroid/os/Parcel;)V
 
@@ -122,6 +125,12 @@
 
 .method private constructor <init>(Landroid/os/Parcelable;IIIZZ)V
     .locals 0
+    .param p1    # Landroid/os/Parcelable;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # Z
+    .param p6    # Z
 
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
 
@@ -140,6 +149,13 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcelable;IIIZZLcom/android/contacts/datepicker/DatePicker$1;)V
     .locals 0
+    .param p1    # Landroid/os/Parcelable;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # Z
+    .param p6    # Z
+    .param p7    # Lcom/android/contacts/datepicker/DatePicker$1;
 
     invoke-direct/range {p0 .. p6}, Lcom/android/contacts/datepicker/DatePicker$SavedState;-><init>(Landroid/os/Parcelable;IIIZZ)V
 
@@ -190,6 +206,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v1, 0x1
 

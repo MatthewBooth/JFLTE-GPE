@@ -107,6 +107,7 @@
 
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -169,6 +170,7 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/contacts/quickcontact/ResolveCache;
     .locals 4
+    .param p0    # Landroid/content/Context;
 
     const-class v3, Lcom/android/contacts/quickcontact/ResolveCache;
 
@@ -238,6 +240,7 @@
 # virtual methods
 .method protected getBestResolve(Landroid/content/Intent;Ljava/util/List;)Landroid/content/pm/ResolveInfo;
     .locals 11
+    .param p1    # Landroid/content/Intent;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -371,6 +374,8 @@
 
 .method protected getEntry(Ljava/lang/String;Landroid/content/Intent;)Lcom/android/contacts/quickcontact/ResolveCache$Entry;
     .locals 9
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/content/Intent;
 
     const/4 v8, 0x1
 
@@ -476,6 +481,8 @@
 
 .method public getIcon(Ljava/lang/String;Landroid/content/Intent;)Landroid/graphics/drawable/Drawable;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/content/Intent;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/contacts/quickcontact/ResolveCache;->getEntry(Ljava/lang/String;Landroid/content/Intent;)Lcom/android/contacts/quickcontact/ResolveCache$Entry;
 

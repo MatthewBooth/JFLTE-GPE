@@ -6,6 +6,7 @@
 # direct methods
 .method public static getReportDialogFragment(Ljava/lang/String;)Landroid/app/DialogFragment;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     invoke-static {p0}, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->newInstance(Ljava/lang/String;)Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
@@ -26,6 +27,12 @@
 
 .method public static newCallLogAdapter(Landroid/content/Context;Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;Lcom/android/dialer/calllog/ContactInfoHelper;Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;Z)Lcom/android/dialer/calllog/CallLogAdapter;
     .locals 7
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;
+    .param p2    # Lcom/android/dialer/calllog/ContactInfoHelper;
+    .param p3    # Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;
+    .param p4    # Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;
+    .param p5    # Z
 
     if-eqz p5, :cond_0
 

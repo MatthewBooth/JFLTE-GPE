@@ -39,6 +39,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/activities/ContactEditorActivity;)Lcom/android/contacts/editor/ContactEditorFragment;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ContactEditorActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorActivity;->mFragment:Lcom/android/contacts/editor/ContactEditorFragment;
 
@@ -47,6 +48,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/activities/ContactEditorActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ContactEditorActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/ContactEditorActivity;->mFinishActivityOnSaveCompleted:Z
 
@@ -77,6 +79,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 10
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v7, 0x0
 
@@ -270,6 +273,8 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     invoke-static {p1}, Lcom/android/contacts/util/DialogManager;->isManagedId(I)Z
 
@@ -326,6 +331,7 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 6
+    .param p1    # Landroid/content/Intent;
 
     const/4 v5, 0x0
 

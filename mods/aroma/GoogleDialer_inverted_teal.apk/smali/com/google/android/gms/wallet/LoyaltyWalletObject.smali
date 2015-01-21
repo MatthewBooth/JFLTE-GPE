@@ -183,6 +183,23 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/ArrayList;Lcom/google/android/gms/wallet/wobs/TimeInterval;Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;ZLjava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;Lcom/google/android/gms/wallet/wobs/LoyaltyPoints;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Ljava/lang/String;
+    .param p10    # Ljava/lang/String;
+    .param p11    # Ljava/lang/String;
+    .param p12    # I
+    .param p14    # Lcom/google/android/gms/wallet/wobs/TimeInterval;
+    .param p16    # Ljava/lang/String;
+    .param p17    # Ljava/lang/String;
+    .param p19    # Z
+    .param p23    # Lcom/google/android/gms/wallet/wobs/LoyaltyPoints;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -318,6 +335,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/j;->a(Lcom/google/android/gms/wallet/LoyaltyWalletObject;Landroid/os/Parcel;I)V
 

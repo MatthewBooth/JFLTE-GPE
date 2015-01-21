@@ -33,6 +33,10 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/editor/ContactEditorFragment;Landroid/content/Context;Lcom/android/contacts/editor/BaseRawContactEditorView;ILcom/android/contacts/common/model/RawContactDeltaList;)V
     .locals 6
+    .param p2    # Landroid/content/Context;
+    .param p3    # Lcom/android/contacts/editor/BaseRawContactEditorView;
+    .param p4    # I
+    .param p5    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     iput-object p1, p0, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;->this$0:Lcom/android/contacts/editor/ContactEditorFragment;
 
@@ -73,6 +77,7 @@
 
 .method static synthetic access$1900(Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;)Lcom/android/contacts/editor/BaseRawContactEditorView;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;
 
     iget-object v0, p0, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;->mEditor:Lcom/android/contacts/editor/BaseRawContactEditorView;
 
@@ -81,6 +86,7 @@
 
 .method static synthetic access$2300(Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;)Landroid/content/Context;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;
 
     iget-object v0, p0, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;->mContext:Landroid/content/Context;
 
@@ -99,6 +105,9 @@
 
 .method public startPhotoActivity(Landroid/content/Intent;ILandroid/net/Uri;)V
     .locals 4
+    .param p1    # Landroid/content/Intent;
+    .param p2    # I
+    .param p3    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;->this$0:Lcom/android/contacts/editor/ContactEditorFragment;
 

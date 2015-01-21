@@ -77,6 +77,7 @@
 
 .method static synthetic access$000(Lcom/android/incallui/VideoCallPresenter;)Lcom/android/incallui/Call;
     .locals 1
+    .param p0    # Lcom/android/incallui/VideoCallPresenter;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -85,6 +86,7 @@
 
 .method private changeVideoCall(Landroid/telecom/InCallService$VideoCall;)V
     .locals 2
+    .param p1    # Landroid/telecom/InCallService$VideoCall;
 
     const/4 v1, 0x0
 
@@ -305,6 +307,8 @@
 
 .method private setPreviewSize(IF)V
     .locals 4
+    .param p1    # I
+    .param p2    # F
 
     invoke-virtual {p0}, Lcom/android/incallui/VideoCallPresenter;->getUi()Lcom/android/incallui/Ui;
 
@@ -355,6 +359,7 @@
 # virtual methods
 .method public init(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -389,6 +394,9 @@
 
 .method public onCameraDimensionsChange(Lcom/android/incallui/Call;II)V
     .locals 4
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # I
+    .param p3    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/VideoCallPresenter;->getUi()Lcom/android/incallui/Ui;
 
@@ -455,6 +463,8 @@
 
 .method public onDetailsChanged(Lcom/android/incallui/Call;Landroid/telecom/Call$Details;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # Landroid/telecom/Call$Details;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -475,6 +485,7 @@
 
 .method public onDeviceOrientationChanged(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/VideoCallPresenter;->mDeviceOrientation:I
 
@@ -483,12 +494,16 @@
 
 .method public onDowngradeToAudio(Lcom/android/incallui/Call;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Call;
 
     return-void
 .end method
 
 .method public onIncomingCall(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/Call;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/Call;
 
     invoke-static {}, Lcom/android/incallui/CallList;->getInstance()Lcom/android/incallui/CallList;
 
@@ -501,6 +516,8 @@
 
 .method public onPeerPauseStateChanged(Lcom/android/incallui/Call;Z)V
     .locals 1
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -516,6 +533,9 @@
 
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 4
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/CallList;
 
     iget-object v2, p0, Lcom/android/incallui/VideoCallPresenter;->mContext:Landroid/content/Context;
 
@@ -628,6 +648,7 @@
 
 .method public onSurfaceClick(I)V
     .locals 2
+    .param p1    # I
 
     iget-boolean v0, p0, Lcom/android/incallui/VideoCallPresenter;->mIsFullScreen:Z
 
@@ -656,6 +677,7 @@
 
 .method public onSurfaceCreated(I)V
     .locals 3
+    .param p1    # I
 
     const/4 v2, 0x2
 
@@ -714,6 +736,7 @@
 
 .method public onSurfaceDestroyed(I)V
     .locals 3
+    .param p1    # I
 
     const/4 v2, 0x0
 
@@ -758,6 +781,7 @@
 
 .method public bridge synthetic onUiReady(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/VideoCallPresenter$VideoCallUi;
 
@@ -768,6 +792,7 @@
 
 .method public onUiReady(Lcom/android/incallui/VideoCallPresenter$VideoCallUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/VideoCallPresenter$VideoCallUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiReady(Lcom/android/incallui/Ui;)V
 
@@ -816,6 +841,7 @@
 
 .method public bridge synthetic onUiUnready(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/VideoCallPresenter$VideoCallUi;
 
@@ -826,6 +852,7 @@
 
 .method public onUiUnready(Lcom/android/incallui/VideoCallPresenter$VideoCallUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/VideoCallPresenter$VideoCallUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiUnready(Lcom/android/incallui/Ui;)V
 
@@ -870,6 +897,9 @@
 
 .method public onUpdatePeerDimensions(Lcom/android/incallui/Call;II)V
     .locals 1
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # I
+    .param p3    # I
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -885,6 +915,7 @@
 
 .method public onUpgradeToVideoFail(Lcom/android/incallui/Call;)V
     .locals 4
+    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -922,6 +953,7 @@
 
 .method public onUpgradeToVideoRequest(Lcom/android/incallui/Call;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 
@@ -934,6 +966,7 @@
 
 .method public onUpgradeToVideoSuccess(Lcom/android/incallui/Call;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallPresenter;->mPrimaryCall:Lcom/android/incallui/Call;
 

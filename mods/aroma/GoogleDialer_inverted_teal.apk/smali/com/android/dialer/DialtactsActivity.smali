@@ -146,6 +146,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/DialtactsActivity;)V
     .locals 0
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     invoke-direct {p0}, Lcom/android/dialer/DialtactsActivity;->commitDialpadFragmentHide()V
 
@@ -154,6 +155,7 @@
 
 .method static synthetic access$100(Lcom/android/dialer/DialtactsActivity;)Lcom/android/dialer/list/ListsFragment;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mListsFragment:Lcom/android/dialer/list/ListsFragment;
 
@@ -162,6 +164,7 @@
 
 .method static synthetic access$1000(Lcom/android/dialer/DialtactsActivity;)Lcom/android/dialer/widget/ActionBarController;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mActionBarController:Lcom/android/dialer/widget/ActionBarController;
 
@@ -170,6 +173,7 @@
 
 .method static synthetic access$1100(Lcom/android/dialer/DialtactsActivity;)Landroid/widget/EditText;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mSearchView:Landroid/widget/EditText;
 
@@ -178,6 +182,7 @@
 
 .method static synthetic access$1200(Lcom/android/dialer/DialtactsActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     invoke-direct {p0}, Lcom/android/dialer/DialtactsActivity;->maybeExitSearchUi()Z
 
@@ -188,6 +193,7 @@
 
 .method static synthetic access$1400(Lcom/android/dialer/DialtactsActivity;)Landroid/widget/FrameLayout;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mParentLayout:Landroid/widget/FrameLayout;
 
@@ -196,6 +202,7 @@
 
 .method static synthetic access$1500(Lcom/android/dialer/DialtactsActivity;)Lcom/android/contacts/common/widget/FloatingActionButtonController;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mFloatingActionButtonController:Lcom/android/contacts/common/widget/FloatingActionButtonController;
 
@@ -204,6 +211,8 @@
 
 .method static synthetic access$1600(Lcom/android/dialer/DialtactsActivity;Z)V
     .locals 0
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
+    .param p1    # Z
 
     invoke-direct {p0, p1}, Lcom/android/dialer/DialtactsActivity;->updateFloatingActionButtonControllerAlignment(Z)V
 
@@ -212,6 +221,7 @@
 
 .method static synthetic access$200(Lcom/android/dialer/DialtactsActivity;)Lcom/android/dialer/list/DragDropController;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mDragDropController:Lcom/android/dialer/list/DragDropController;
 
@@ -220,6 +230,7 @@
 
 .method static synthetic access$300(Lcom/android/dialer/DialtactsActivity;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mSearchQuery:Ljava/lang/String;
 
@@ -228,6 +239,8 @@
 
 .method static synthetic access$302(Lcom/android/dialer/DialtactsActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/dialer/DialtactsActivity;->mSearchQuery:Ljava/lang/String;
 
@@ -236,6 +249,7 @@
 
 .method static synthetic access$400(Lcom/android/dialer/DialtactsActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-boolean v0, p0, Lcom/android/dialer/DialtactsActivity;->mIsDialpadShown:Z
 
@@ -244,6 +258,7 @@
 
 .method static synthetic access$500(Lcom/android/dialer/DialtactsActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-boolean v0, p0, Lcom/android/dialer/DialtactsActivity;->mInDialpadSearch:Z
 
@@ -252,6 +267,7 @@
 
 .method static synthetic access$600(Lcom/android/dialer/DialtactsActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-boolean v0, p0, Lcom/android/dialer/DialtactsActivity;->mInRegularSearch:Z
 
@@ -260,6 +276,9 @@
 
 .method static synthetic access$700(Lcom/android/dialer/DialtactsActivity;ZLjava/lang/String;)V
     .locals 0
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
+    .param p1    # Z
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/DialtactsActivity;->enterSearchUi(ZLjava/lang/String;)V
 
@@ -268,6 +287,7 @@
 
 .method static synthetic access$800(Lcom/android/dialer/DialtactsActivity;)Lcom/android/dialer/list/SmartDialSearchFragment;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mSmartDialSearchFragment:Lcom/android/dialer/list/SmartDialSearchFragment;
 
@@ -276,6 +296,7 @@
 
 .method static synthetic access$900(Lcom/android/dialer/DialtactsActivity;)Lcom/android/dialer/list/RegularSearchFragment;
     .locals 1
+    .param p0    # Lcom/android/dialer/DialtactsActivity;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mRegularSearchFragment:Lcom/android/dialer/list/RegularSearchFragment;
 
@@ -284,6 +305,7 @@
 
 .method private buildOptionsMenu(Landroid/view/View;)Lcom/android/dialer/DialtactsActivity$OptionsPopupMenu;
     .locals 3
+    .param p1    # Landroid/view/View;
 
     new-instance v1, Lcom/android/dialer/DialtactsActivity$OptionsPopupMenu;
 
@@ -304,6 +326,7 @@
 
 .method private canIntentBeHandled(Landroid/content/Intent;)Z
     .locals 3
+    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/android/dialer/DialtactsActivity;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -362,6 +385,7 @@
 
 .method private displayFragment(Landroid/content/Intent;)V
     .locals 3
+    .param p1    # Landroid/content/Intent;
 
     const/4 v2, 0x1
 
@@ -427,6 +451,8 @@
 
 .method private enterSearchUi(ZLjava/lang/String;)V
     .locals 8
+    .param p1    # Z
+    .param p2    # Ljava/lang/String;
 
     const/4 v4, 0x1
 
@@ -687,6 +713,7 @@
 
 .method public static getAddNumberToContactIntent(Ljava/lang/CharSequence;)Landroid/content/Intent;
     .locals 2
+    .param p0    # Ljava/lang/CharSequence;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -759,6 +786,7 @@
 
 .method private isDialIntent(Landroid/content/Intent;)Z
     .locals 5
+    .param p1    # Landroid/content/Intent;
 
     const/4 v2, 0x1
 
@@ -821,6 +849,7 @@
 
 .method private isSendKeyWhileInCall(Landroid/content/Intent;)Z
     .locals 4
+    .param p1    # Landroid/content/Intent;
 
     const/4 v1, 0x0
 
@@ -966,6 +995,7 @@
 
 .method private showDialpadFragment(Z)V
     .locals 4
+    .param p1    # Z
 
     const/4 v3, 0x1
 
@@ -1037,6 +1067,7 @@
 
 .method private updateFloatingActionButtonControllerAlignment(Z)V
     .locals 3
+    .param p1    # Z
 
     const/4 v1, 0x0
 
@@ -1121,6 +1152,7 @@
 # virtual methods
 .method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -1224,6 +1256,8 @@
 
 .method public hideDialpadFragment(ZZ)V
     .locals 2
+    .param p1    # Z
+    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mDialpadFragment:Lcom/android/dialer/dialpad/DialpadFragment;
 
@@ -1343,6 +1377,9 @@
 
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 4
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Landroid/content/Intent;
 
     const/4 v2, 0x1
 
@@ -1403,6 +1440,7 @@
 
 .method public onAttachFragment(Landroid/app/Fragment;)V
     .locals 2
+    .param p1    # Landroid/app/Fragment;
 
     instance-of v1, p1, Lcom/android/dialer/dialpad/DialpadFragment;
 
@@ -1555,6 +1593,7 @@
 
 .method public onCallNumberDirectly(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -1565,6 +1604,8 @@
 
 .method public onCallNumberDirectly(Ljava/lang/String;Z)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -1599,6 +1640,7 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 4
+    .param p1    # Landroid/view/View;
 
     const/4 v2, 0x1
 
@@ -1693,6 +1735,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 12
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v11, 0x0
 
@@ -2083,6 +2126,7 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 2
+    .param p1    # Landroid/view/Menu;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mPendingSearchViewQuery:Ljava/lang/String;
 
@@ -2110,6 +2154,7 @@
 
 .method public onDialpadQueryChanged(Ljava/lang/String;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/android/dialer/DialtactsActivity;->mSmartDialSearchFragment:Lcom/android/dialer/list/SmartDialSearchFragment;
 
@@ -2236,6 +2281,8 @@
 
 .method public onDragFinished(II)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mListsFragment:Lcom/android/dialer/list/ListsFragment;
 
@@ -2263,12 +2310,18 @@
 
 .method public onDragHovered(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     return-void
 .end method
 
 .method public onDragStarted(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mListsFragment:Lcom/android/dialer/list/ListsFragment;
 
@@ -2310,12 +2363,16 @@
 
 .method public onListFragmentScroll(III)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     return-void
 .end method
 
 .method public onListFragmentScrollStateChange(I)V
     .locals 2
+    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -2335,6 +2392,7 @@
 
 .method public onMenuItemClick(Landroid/view/MenuItem;)Z
     .locals 6
+    .param p1    # Landroid/view/MenuItem;
 
     const/4 v3, 0x0
 
@@ -2427,6 +2485,7 @@
 
 .method public onNewIntent(Landroid/content/Intent;)V
     .locals 0
+    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/DialtactsActivity;->setIntent(Landroid/content/Intent;)V
 
@@ -2439,12 +2498,16 @@
 
 .method public onPageScrollStateChanged(I)V
     .locals 0
+    .param p1    # I
 
     return-void
 .end method
 
 .method public onPageScrolled(IFI)V
     .locals 5
+    .param p1    # I
+    .param p2    # F
+    .param p3    # I
 
     const/4 v1, 0x1
 
@@ -2511,6 +2574,7 @@
 
 .method public onPageSelected(I)V
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mListsFragment:Lcom/android/dialer/list/ListsFragment;
 
@@ -2544,6 +2608,7 @@
 
 .method public onPickPhoneNumberAction(Landroid/net/Uri;)V
     .locals 1
+    .param p1    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Lcom/android/dialer/DialtactsActivity;->getCallOrigin()Ljava/lang/String;
 
@@ -2622,6 +2687,7 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialer/activity/TransactionSafeActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -2664,6 +2730,7 @@
 
 .method public onShortcutIntentCreated(Landroid/content/Intent;)V
     .locals 3
+    .param p1    # Landroid/content/Intent;
 
     const-string v0, "DialtactsActivity"
 
@@ -2698,6 +2765,7 @@
 
 .method public setActionBarHideOffset(I)V
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/DialtactsActivity;->mActionBarController:Lcom/android/dialer/widget/ActionBarController;
 
@@ -2708,6 +2776,7 @@
 
 .method public setDragDropController(Lcom/android/dialer/list/DragDropController;)V
     .locals 1
+    .param p1    # Lcom/android/dialer/list/DragDropController;
 
     iput-object p1, p0, Lcom/android/dialer/DialtactsActivity;->mDragDropController:Lcom/android/dialer/list/DragDropController;
 

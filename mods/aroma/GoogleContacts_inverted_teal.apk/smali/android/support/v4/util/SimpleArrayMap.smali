@@ -57,6 +57,7 @@
 
 .method private allocArrays(I)V
     .locals 5
+    .param p1    # I
 
     const/16 v1, 0x8
 
@@ -223,6 +224,9 @@
 
 .method private static freeArrays([I[Ljava/lang/Object;I)V
     .locals 5
+    .param p0    # [I
+    .param p1    # [Ljava/lang/Object;
+    .param p2    # I
 
     const/16 v3, 0xa
 
@@ -393,6 +397,7 @@
 
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-virtual {p0, p1}, Landroid/support/v4/util/SimpleArrayMap;->indexOfKey(Ljava/lang/Object;)I
 
@@ -413,6 +418,7 @@
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-virtual {p0, p1}, Landroid/support/v4/util/SimpleArrayMap;->indexOfValue(Ljava/lang/Object;)I
 
@@ -433,6 +439,7 @@
 
 .method public ensureCapacity(I)V
     .locals 5
+    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -477,6 +484,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 10
+    .param p1    # Ljava/lang/Object;
 
     const/4 v6, 0x1
 
@@ -588,6 +596,7 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -669,6 +678,8 @@
 
 .method indexOf(Ljava/lang/Object;I)I
     .locals 6
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
 
     iget v0, p0, Landroid/support/v4/util/SimpleArrayMap;->mSize:I
 
@@ -774,6 +785,7 @@
 
 .method public indexOfKey(Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
@@ -893,6 +905,7 @@
 
 .method indexOfValue(Ljava/lang/Object;)I
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     iget v3, p0, Landroid/support/v4/util/SimpleArrayMap;->mSize:I
 
@@ -970,6 +983,7 @@
 
 .method public keyAt(I)Ljava/lang/Object;
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TK;"
@@ -1166,6 +1180,7 @@
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1195,6 +1210,7 @@
 
 .method public removeAt(I)Ljava/lang/Object;
     .locals 10
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TV;"
@@ -1395,6 +1411,7 @@
 
 .method public setValueAt(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITV;)TV;"
@@ -1519,6 +1536,7 @@
 
 .method public valueAt(I)Ljava/lang/Object;
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TV;"

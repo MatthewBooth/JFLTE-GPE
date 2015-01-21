@@ -54,6 +54,16 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;ZIZLjava/lang/String;[Lcom/google/android/gms/appdatasearch/Feature;[ILjava/lang/String;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Z
+    .param p5    # I
+    .param p6    # Z
+    .param p7    # Ljava/lang/String;
+    .param p8    # [Lcom/google/android/gms/appdatasearch/Feature;
+    .param p9    # [I
+    .param p10    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -82,6 +92,15 @@
 
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;ZIZLjava/lang/String;[Lcom/google/android/gms/appdatasearch/Feature;[ILjava/lang/String;)V
     .locals 11
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Z
+    .param p4    # I
+    .param p5    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # [Lcom/google/android/gms/appdatasearch/Feature;
+    .param p8    # [I
+    .param p9    # Ljava/lang/String;
 
     const/4 v1, 0x2
 
@@ -124,6 +143,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -167,6 +187,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/RegisterSectionInfo;->CREATOR:Lcom/google/android/gms/appdatasearch/z;
 

@@ -5,6 +5,7 @@
 # direct methods
 .method public static sanitize(I)I
     .locals 0
+    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 

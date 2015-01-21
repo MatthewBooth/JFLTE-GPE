@@ -138,6 +138,8 @@
 
 .method private static adjustType(Lcom/android/contacts/common/model/ValuesDelta;Ljava/util/ArrayList;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 8
+    .param p0    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -269,6 +271,9 @@
 
 .method protected static areEqual(Lcom/android/contacts/common/model/ValuesDelta;Landroid/content/ContentValues;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 6
+    .param p0    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p1    # Landroid/content/ContentValues;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/4 v4, 0x0
 
@@ -327,6 +332,8 @@
 
 .method public static canInsert(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 7
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/4 v4, 0x0
 
@@ -376,6 +383,8 @@
 
 .method private static ensureEntryMaxSize(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Ljava/util/ArrayList;)Ljava/util/ArrayList;
     .locals 4
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -440,6 +449,9 @@
 
 .method public static ensureKindExists(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;Ljava/lang/String;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 6
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p2    # Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -510,6 +522,7 @@
 
 .method private static fixupLegacyImType(Landroid/os/Bundle;)V
     .locals 4
+    .param p0    # Landroid/os/Bundle;
 
     const-string v2, "im_protocol"
 
@@ -563,6 +576,10 @@
 
 .method public static getBestValidType(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;ZI)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 7
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Z
+    .param p3    # I
 
     const/4 v3, 0x0
 
@@ -664,6 +681,8 @@
 
 .method public static getCurrentType(Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget-object v1, p1, Lcom/android/contacts/common/model/dataitem/DataKind;->typeColumn:Ljava/lang/String;
 
@@ -692,6 +711,8 @@
 
 .method private static getEntryCountByType(Ljava/util/ArrayList;Ljava/lang/String;I)I
     .locals 5
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -748,6 +769,8 @@
 
 .method public static getType(Lcom/android/contacts/common/model/dataitem/DataKind;I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 3
+    .param p0    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p1    # I
 
     iget-object v2, p0, Lcom/android/contacts/common/model/dataitem/DataKind;->typeList:Ljava/util/List;
 
@@ -783,6 +806,8 @@
 
 .method private static getTypeFrequencies(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Landroid/util/SparseIntArray;
     .locals 9
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     new-instance v6, Landroid/util/SparseIntArray;
 
@@ -858,6 +883,8 @@
 
 .method public static getTypePrecedence(Lcom/android/contacts/common/model/dataitem/DataKind;I)I
     .locals 3
+    .param p0    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -898,6 +925,8 @@
 
 .method public static getValidTypes(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Ljava/util/ArrayList;
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -924,6 +953,9 @@
 
 .method public static getValidTypes(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/account/AccountType$EditType;)Ljava/util/ArrayList;
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Lcom/android/contacts/common/model/account/AccountType$EditType;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -951,6 +983,11 @@
 
 .method private static getValidTypes(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/account/AccountType$EditType;ZLandroid/util/SparseIntArray;)Ljava/util/ArrayList;
     .locals 10
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Lcom/android/contacts/common/model/account/AccountType$EditType;
+    .param p3    # Z
+    .param p4    # Landroid/util/SparseIntArray;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1105,6 +1142,8 @@
 
 .method private static hasChanges(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;)Z
     .locals 10
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
 
     const/4 v7, 0x1
 
@@ -1202,6 +1241,8 @@
 
 .method public static hasChanges(Lcom/android/contacts/common/model/RawContactDeltaList;Lcom/android/contacts/common/model/AccountTypeManager;)Z
     .locals 8
+    .param p0    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p1    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     const/4 v6, 0x1
 
@@ -1275,6 +1316,7 @@
 
 .method public static hasEditTypes(Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 1
+    .param p0    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/dataitem/DataKind;->typeList:Ljava/util/List;
 
@@ -1301,6 +1343,8 @@
 
 .method public static hasValidTypes(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/4 v0, 0x1
 
@@ -1332,6 +1376,8 @@
 
 .method public static insertChild(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 3
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/high16 v2, -0x80000000
 
@@ -1367,6 +1413,9 @@
 
 .method public static insertChild(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/account/AccountType$EditType;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 4
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Lcom/android/contacts/common/model/account/AccountType$EditType;
 
     if-nez p1, :cond_0
 
@@ -1423,6 +1472,8 @@
 
 .method public static isEmpty(Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 7
+    .param p0    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const/4 v4, 0x0
 
@@ -1504,6 +1555,8 @@
 
 .method private static isTypeAllowed(ILjava/util/ArrayList;Lcom/android/contacts/common/model/dataitem/DataKind;)Z
     .locals 7
+    .param p0    # I
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -1581,6 +1634,10 @@
 
 .method public static migrateEvent(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Ljava/lang/Integer;)V
     .locals 21
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p3    # Ljava/lang/Integer;
 
     const-string v3, "vnd.android.cursor.item/contact_event"
 
@@ -1830,6 +1887,9 @@
 
 .method public static migrateGenericWithTypeColumn(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 20
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     move-object/from16 v0, p2
 
@@ -2220,6 +2280,9 @@
 
 .method public static migrateGenericWithoutTypeColumn(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 5
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget-object v4, p2, Lcom/android/contacts/common/model/dataitem/DataKind;->mimeType:Ljava/lang/String;
 
@@ -2278,6 +2341,9 @@
 
 .method public static migratePostal(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 25
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const-string v23, "vnd.android.cursor.item/postal-address_v2"
 
@@ -2940,6 +3006,11 @@
 
 .method public static migrateStateForNewContact(Landroid/content/Context;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;Lcom/android/contacts/common/model/account/AccountType;)V
     .locals 10
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p3    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p4    # Lcom/android/contacts/common/model/account/AccountType;
 
     if-ne p4, p3, :cond_3
 
@@ -3166,6 +3237,10 @@
 
 .method public static migrateStructuredName(Landroid/content/Context;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 19
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p3    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     const-string v15, "vnd.android.cursor.item/name"
 
@@ -3497,6 +3572,12 @@
 
 .method public static parseExtras(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 9
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Landroid/os/Bundle;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
 
     invoke-virtual {p2, p4}, Landroid/os/Bundle;->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
 
@@ -3594,6 +3675,10 @@
 
 .method public static parseExtras(Landroid/content/Context;Lcom/android/contacts/common/model/account/AccountType;Lcom/android/contacts/common/model/RawContactDelta;Landroid/os/Bundle;)V
     .locals 18
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p2    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p3    # Landroid/os/Bundle;
 
     if-eqz p3, :cond_0
 
@@ -3889,6 +3974,10 @@
 
 .method private static parseStructuredNameExtra(Landroid/content/Context;Lcom/android/contacts/common/model/account/AccountType;Lcom/android/contacts/common/model/RawContactDelta;Landroid/os/Bundle;)V
     .locals 16
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p2    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p3    # Landroid/os/Bundle;
 
     const-string v2, "vnd.android.cursor.item/name"
 
@@ -4142,6 +4231,9 @@
 
 .method private static parseStructuredPostalExtra(Lcom/android/contacts/common/model/account/AccountType;Lcom/android/contacts/common/model/RawContactDelta;Landroid/os/Bundle;)V
     .locals 11
+    .param p0    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Landroid/os/Bundle;
 
     const-string v0, "vnd.android.cursor.item/postal-address_v2"
 
@@ -4237,6 +4329,8 @@
 
 .method private static parseValues(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;Ljava/util/ArrayList;)V
     .locals 14
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -4738,6 +4832,8 @@
 
 .method public static trimEmpty(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;)V
     .locals 14
+    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
 
     const/4 v2, 0x0
 
@@ -4886,6 +4982,8 @@
 
 .method public static trimEmpty(Lcom/android/contacts/common/model/RawContactDeltaList;Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 7
+    .param p0    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p1    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContactDeltaList;->iterator()Ljava/util/Iterator;
 

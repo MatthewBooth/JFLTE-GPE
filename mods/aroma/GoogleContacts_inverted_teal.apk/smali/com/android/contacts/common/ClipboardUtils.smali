@@ -6,6 +6,10 @@
 # direct methods
 .method public static copyText(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)V
     .locals 4
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # Ljava/lang/CharSequence;
+    .param p3    # Z
 
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

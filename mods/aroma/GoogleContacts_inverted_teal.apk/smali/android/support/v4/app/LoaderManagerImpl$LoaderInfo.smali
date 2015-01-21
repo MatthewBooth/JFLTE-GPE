@@ -80,6 +80,7 @@
 # virtual methods
 .method callOnLoadFinished(Landroid/support/v4/content/Loader;Ljava/lang/Object;)V
     .locals 4
+    .param p2    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -408,6 +409,10 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/io/FileDescriptor;
+    .param p3    # Ljava/io/PrintWriter;
+    .param p4    # [Ljava/lang/String;
 
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 

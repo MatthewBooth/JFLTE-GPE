@@ -10,6 +10,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x1
 
@@ -30,6 +31,8 @@
 
 .method private inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0}, Lcom/android/contacts/list/JoinContactListAdapter;->getContext()Landroid/content/Context;
 
@@ -70,12 +73,19 @@
 
 .method protected bindHeaderView(Landroid/view/View;ILandroid/database/Cursor;)V
     .locals 0
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
 
     return-void
 .end method
 
 .method protected bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Lcom/android/contacts/common/list/ContactListAdapter;->bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
 
@@ -121,6 +131,8 @@
 
 .method public configureDefaultPartition(ZZ)V
     .locals 2
+    .param p1    # Z
+    .param p2    # Z
 
     const/4 v0, 0x0
 
@@ -133,6 +145,8 @@
 
 .method public configureLoader(Landroid/content/CursorLoader;J)V
     .locals 10
+    .param p1    # Landroid/content/CursorLoader;
+    .param p2    # J
 
     const-wide/16 v6, 0x0
 
@@ -308,6 +322,8 @@
 
 .method public getContactUri(ILandroid/database/Cursor;)Landroid/net/Uri;
     .locals 4
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v3, 0x0
 
@@ -330,6 +346,8 @@
 
 .method public getItemViewType(II)I
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactListAdapter;->getItemViewType(II)I
 
@@ -358,6 +376,10 @@
 
 .method protected newHeaderView(Landroid/content/Context;ILandroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # Landroid/view/ViewGroup;
 
     const v2, 0x7f0e003d
 
@@ -415,6 +437,11 @@
 
 .method protected bridge synthetic newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     invoke-virtual/range {p0 .. p5}, Lcom/android/contacts/list/JoinContactListAdapter;->newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
 
@@ -425,6 +452,11 @@
 
 .method protected newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     packed-switch p2, :pswitch_data_0
 
@@ -449,6 +481,7 @@
 
 .method public setSuggestionsCursor(Landroid/database/Cursor;)V
     .locals 1
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 
@@ -459,6 +492,7 @@
 
 .method public setTargetContactId(J)V
     .locals 1
+    .param p1    # J
 
     iput-wide p1, p0, Lcom/android/contacts/list/JoinContactListAdapter;->mTargetContactId:J
 

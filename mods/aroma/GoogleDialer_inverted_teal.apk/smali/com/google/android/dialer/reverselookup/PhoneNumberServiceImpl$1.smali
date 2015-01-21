@@ -21,6 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Landroid/os/Looper;)V
     .locals 0
+    .param p2    # Landroid/os/Looper;
 
     iput-object p1, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$1;->this$0:Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
@@ -33,6 +34,7 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 4
+    .param p1    # Landroid/os/Message;
 
     iget v2, p1, Landroid/os/Message;->what:I
 

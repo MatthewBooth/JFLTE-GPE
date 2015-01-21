@@ -38,6 +38,8 @@
 
 .method synthetic constructor <init>(Lcom/android/vcard/VCardEntry;Lcom/android/vcard/VCardEntry$1;)V
     .locals 0
+    .param p1    # Lcom/android/vcard/VCardEntry;
+    .param p2    # Lcom/android/vcard/VCardEntry$1;
 
     invoke-direct {p0, p1}, Lcom/android/vcard/VCardEntry$ToStringIterator;-><init>(Lcom/android/vcard/VCardEntry;)V
 
@@ -48,6 +50,7 @@
 # virtual methods
 .method public onElement(Lcom/android/vcard/VCardEntry$EntryElement;)Z
     .locals 2
+    .param p1    # Lcom/android/vcard/VCardEntry$EntryElement;
 
     iget-boolean v0, p0, Lcom/android/vcard/VCardEntry$ToStringIterator;->mFirstElement:Z
 
@@ -103,6 +106,7 @@
 
 .method public onElementGroupStarted(Lcom/android/vcard/VCardEntry$EntryLabel;)V
     .locals 3
+    .param p1    # Lcom/android/vcard/VCardEntry$EntryLabel;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$ToStringIterator;->mBuilder:Ljava/lang/StringBuilder;
 

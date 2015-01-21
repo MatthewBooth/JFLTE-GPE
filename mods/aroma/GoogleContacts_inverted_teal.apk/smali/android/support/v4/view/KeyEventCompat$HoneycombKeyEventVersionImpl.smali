@@ -27,6 +27,8 @@
 # virtual methods
 .method public metaStateHasModifiers(II)Z
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     invoke-static {p1, p2}, Landroid/support/v4/view/KeyEventCompatHoneycomb;->metaStateHasModifiers(II)Z
 
@@ -37,6 +39,7 @@
 
 .method public metaStateHasNoModifiers(I)Z
     .locals 1
+    .param p1    # I
 
     invoke-static {p1}, Landroid/support/v4/view/KeyEventCompatHoneycomb;->metaStateHasNoModifiers(I)Z
 
@@ -47,6 +50,7 @@
 
 .method public normalizeMetaState(I)I
     .locals 1
+    .param p1    # I
 
     invoke-static {p1}, Landroid/support/v4/view/KeyEventCompatHoneycomb;->normalizeMetaState(I)I
 

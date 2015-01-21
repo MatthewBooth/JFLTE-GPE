@@ -66,6 +66,7 @@
 # virtual methods
 .method public addGroup(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/vcard/VCardProperty;->mGroupList:Ljava/util/List;
 
@@ -87,6 +88,8 @@
 
 .method public addParameter(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/android/vcard/VCardProperty;->mParameterMap:Ljava/util/Map;
 
@@ -175,6 +178,7 @@
 
 .method public getParameters(Ljava/lang/String;)Ljava/util/Collection;
     .locals 1
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -225,6 +229,7 @@
 
 .method public setByteValue([B)V
     .locals 0
+    .param p1    # [B
 
     iput-object p1, p0, Lcom/android/vcard/VCardProperty;->mByteValue:[B
 
@@ -233,6 +238,7 @@
 
 .method public setName(Ljava/lang/String;)V
     .locals 5
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/vcard/VCardProperty;->mName:Ljava/lang/String;
 
@@ -270,6 +276,7 @@
 
 .method public setRawValue(Ljava/lang/String;)V
     .locals 0
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardProperty;->mRawValue:Ljava/lang/String;
 
@@ -295,6 +302,7 @@
 
 .method public varargs setValues([Ljava/lang/String;)V
     .locals 1
+    .param p1    # [Ljava/lang/String;
 
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 

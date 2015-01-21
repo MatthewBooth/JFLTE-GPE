@@ -33,6 +33,8 @@
 # virtual methods
 .method public onAudioStateChanged(Landroid/telecom/Phone;Landroid/telecom/AudioState;)V
     .locals 3
+    .param p1    # Landroid/telecom/Phone;
+    .param p2    # Landroid/telecom/AudioState;
 
     iget-object v0, p0, Lcom/android/incallui/AudioModeProvider$1;->this$0:Lcom/android/incallui/AudioModeProvider;
 

@@ -36,6 +36,7 @@
 # virtual methods
 .method public onCallsFetched(Landroid/database/Cursor;)Z
     .locals 1
+    .param p1    # Landroid/database/Cursor;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter$2;->this$0:Lcom/android/dialer/list/ShortcutCardsAdapter;
 
@@ -71,6 +72,7 @@
 
 .method public onVoicemailStatusFetched(Landroid/database/Cursor;)V
     .locals 0
+    .param p1    # Landroid/database/Cursor;
 
     return-void
 .end method

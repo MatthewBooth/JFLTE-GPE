@@ -33,6 +33,7 @@
 # direct methods
 .method private constructor <init>(Lcom/android/incallui/CallerInfoAsyncQuery;Landroid/content/Context;)V
     .locals 1
+    .param p2    # Landroid/content/Context;
 
     iput-object p1, p0, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;->this$0:Lcom/android/incallui/CallerInfoAsyncQuery;
 
@@ -47,6 +48,9 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/CallerInfoAsyncQuery;Landroid/content/Context;Lcom/android/incallui/CallerInfoAsyncQuery$1;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/CallerInfoAsyncQuery;
+    .param p2    # Landroid/content/Context;
+    .param p3    # Lcom/android/incallui/CallerInfoAsyncQuery$1;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;-><init>(Lcom/android/incallui/CallerInfoAsyncQuery;Landroid/content/Context;)V
 
@@ -55,6 +59,8 @@
 
 .method static synthetic access$402(Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;Landroid/content/Context;)Landroid/content/Context;
     .locals 0
+    .param p0    # Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;
+    .param p1    # Landroid/content/Context;
 
     iput-object p1, p0, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;->mQueryContext:Landroid/content/Context;
 
@@ -63,6 +69,8 @@
 
 .method static synthetic access$502(Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;Landroid/net/Uri;)Landroid/net/Uri;
     .locals 0
+    .param p0    # Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;
+    .param p1    # Landroid/net/Uri;
 
     iput-object p1, p0, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;->mQueryUri:Landroid/net/Uri;
 
@@ -71,6 +79,8 @@
 
 .method static synthetic access$602(Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;Lcom/android/incallui/CallerInfo;)Lcom/android/incallui/CallerInfo;
     .locals 0
+    .param p0    # Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;
+    .param p1    # Lcom/android/incallui/CallerInfo;
 
     iput-object p1, p0, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;->mCallerInfo:Lcom/android/incallui/CallerInfo;
 
@@ -81,6 +91,7 @@
 # virtual methods
 .method protected createHandler(Landroid/os/Looper;)Landroid/os/Handler;
     .locals 1
+    .param p1    # Landroid/os/Looper;
 
     new-instance v0, Lcom/android/incallui/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler$CallerInfoWorkerHandler;
 
@@ -91,6 +102,9 @@
 
 .method protected onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 11
+    .param p1    # I
+    .param p2    # Ljava/lang/Object;
+    .param p3    # Landroid/database/Cursor;
 
     const/4 v4, 0x3
 
@@ -503,6 +517,13 @@
 
 .method public startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/Object;
+    .param p3    # Landroid/net/Uri;
+    .param p4    # [Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # [Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
 
     invoke-super/range {p0 .. p7}, Landroid/content/AsyncQueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
 

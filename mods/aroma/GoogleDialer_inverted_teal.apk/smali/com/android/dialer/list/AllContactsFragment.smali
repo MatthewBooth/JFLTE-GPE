@@ -75,6 +75,8 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040040
 
@@ -89,12 +91,17 @@
 
 .method protected onItemClick(IJ)V
     .locals 0
+    .param p1    # I
+    .param p2    # J
 
     return-void
 .end method
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 4
+    .param p2    # Landroid/view/View;
+    .param p3    # I
+    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -129,6 +136,8 @@
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 

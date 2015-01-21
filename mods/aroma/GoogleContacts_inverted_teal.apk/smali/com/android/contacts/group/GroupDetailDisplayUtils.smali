@@ -6,6 +6,10 @@
 # direct methods
 .method public static bindGroupSourceView(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/view/View;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     invoke-static {p0}, Lcom/android/contacts/common/model/AccountTypeManager;->getInstance(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
 
@@ -70,6 +74,7 @@
 
 .method public static getNewGroupSourceView(Landroid/content/Context;)Landroid/view/View;
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     const-string v1, "layout_inflater"
 

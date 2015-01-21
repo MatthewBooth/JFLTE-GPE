@@ -36,6 +36,11 @@
 
 .method constructor <init>(IJJLcom/google/android/gms/games/PlayerLevel;Lcom/google/android/gms/games/PlayerLevel;)V
     .locals 2
+    .param p1    # I
+    .param p2    # J
+    .param p4    # J
+    .param p6    # Lcom/google/android/gms/games/PlayerLevel;
+    .param p7    # Lcom/google/android/gms/games/PlayerLevel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,6 +79,10 @@
 
 .method public constructor <init>(JJLcom/google/android/gms/games/PlayerLevel;Lcom/google/android/gms/games/PlayerLevel;)V
     .locals 9
+    .param p1    # J
+    .param p3    # J
+    .param p5    # Lcom/google/android/gms/games/PlayerLevel;
+    .param p6    # Lcom/google/android/gms/games/PlayerLevel;
 
     const/4 v1, 0x1
 
@@ -104,6 +113,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -274,6 +284,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/PlayerLevelInfoCreator;->a(Lcom/google/android/gms/games/PlayerLevelInfo;Landroid/os/Parcel;I)V
 

@@ -64,6 +64,8 @@
 
 .method public static setMenuVisibility(Landroid/app/Fragment;Z)V
     .locals 1
+    .param p0    # Landroid/app/Fragment;
+    .param p1    # Z
 
     sget-object v0, Landroid/support/v13/app/FragmentCompat;->IMPL:Landroid/support/v13/app/FragmentCompat$FragmentCompatImpl;
 
@@ -74,6 +76,8 @@
 
 .method public static setUserVisibleHint(Landroid/app/Fragment;Z)V
     .locals 1
+    .param p0    # Landroid/app/Fragment;
+    .param p1    # Z
 
     sget-object v0, Landroid/support/v13/app/FragmentCompat;->IMPL:Landroid/support/v13/app/FragmentCompat$FragmentCompatImpl;
 

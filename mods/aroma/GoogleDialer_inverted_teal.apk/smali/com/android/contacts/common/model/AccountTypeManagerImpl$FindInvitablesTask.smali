@@ -45,6 +45,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/model/AccountTypeManagerImpl;Lcom/android/contacts/common/model/AccountTypeManagerImpl$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/model/AccountTypeManagerImpl;
+    .param p2    # Lcom/android/contacts/common/model/AccountTypeManagerImpl$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/AccountTypeManagerImpl$FindInvitablesTask;-><init>(Lcom/android/contacts/common/model/AccountTypeManagerImpl;)V
 
@@ -55,6 +57,7 @@
 # virtual methods
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -67,6 +70,7 @@
 
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/util/Map;
     .locals 2
+    .param p1    # [Ljava/lang/Void;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -99,6 +103,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/util/Map;
 

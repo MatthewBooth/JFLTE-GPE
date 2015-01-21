@@ -99,6 +99,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -274,6 +275,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/im;->a(Lcom/google/android/gms/internal/il;Landroid/os/Parcel;I)V
 

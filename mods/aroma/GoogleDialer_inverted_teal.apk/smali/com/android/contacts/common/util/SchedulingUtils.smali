@@ -6,6 +6,9 @@
 # direct methods
 .method public static doOnPreDraw(Landroid/view/View;ZLjava/lang/Runnable;)V
     .locals 2
+    .param p0    # Landroid/view/View;
+    .param p1    # Z
+    .param p2    # Ljava/lang/Runnable;
 
     new-instance v0, Lcom/android/contacts/common/util/SchedulingUtils$2;
 

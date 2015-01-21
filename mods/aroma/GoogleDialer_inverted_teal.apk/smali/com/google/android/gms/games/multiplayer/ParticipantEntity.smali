@@ -69,6 +69,19 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;ILjava/lang/String;ZLcom/google/android/gms/games/PlayerEntity;ILcom/google/android/gms/games/multiplayer/ParticipantResult;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Landroid/net/Uri;
+    .param p5    # Landroid/net/Uri;
+    .param p6    # I
+    .param p7    # Ljava/lang/String;
+    .param p8    # Z
+    .param p9    # Lcom/google/android/gms/games/PlayerEntity;
+    .param p10    # I
+    .param p11    # Lcom/google/android/gms/games/multiplayer/ParticipantResult;
+    .param p12    # Ljava/lang/String;
+    .param p13    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -103,6 +116,7 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/multiplayer/Participant;)V
     .locals 2
+    .param p1    # Lcom/google/android/gms/games/multiplayer/Participant;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -683,6 +697,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/multiplayer/ParticipantEntity;->a(Lcom/google/android/gms/games/multiplayer/Participant;Ljava/lang/Object;)Z
 
@@ -903,6 +918,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v1, 0x0
 

@@ -24,6 +24,7 @@
 # direct methods
 .method protected constructor <init>(I)V
     .locals 1
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -34,6 +35,8 @@
 
 .method protected constructor <init>(II)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
 
     invoke-direct {p0}, Lcom/google/common/collect/UnmodifiableListIterator;-><init>()V
 

@@ -48,6 +48,13 @@
 
 .method public constructor <init>(Landroid/content/Context;ILcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;IIIZ)V
     .locals 8
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Lcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;
+    .param p4    # I
+    .param p5    # I
+    .param p6    # I
+    .param p7    # Z
 
     const/4 v1, 0x4
 
@@ -158,6 +165,12 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;IIIZ)V
     .locals 8
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
+    .param p6    # Z
 
     const/4 v2, 0x5
 
@@ -182,6 +195,9 @@
 
 .method private updateTitle(III)V
     .locals 3
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
@@ -228,6 +244,8 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 5
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/datepicker/DatePickerDialog;->mCallBack:Lcom/android/contacts/datepicker/DatePickerDialog$OnDateSetListener;
 
@@ -267,6 +285,10 @@
 
 .method public onDateChanged(Lcom/android/contacts/datepicker/DatePicker;III)V
     .locals 0
+    .param p1    # Lcom/android/contacts/datepicker/DatePicker;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-direct {p0, p2, p3, p4}, Lcom/android/contacts/datepicker/DatePickerDialog;->updateTitle(III)V
 
@@ -275,6 +297,7 @@
 
 .method public onRestoreInstanceState(Landroid/os/Bundle;)V
     .locals 6
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/AlertDialog;->onRestoreInstanceState(Landroid/os/Bundle;)V
 

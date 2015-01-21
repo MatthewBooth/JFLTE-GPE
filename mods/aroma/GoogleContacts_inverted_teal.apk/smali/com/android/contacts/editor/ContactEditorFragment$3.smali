@@ -48,6 +48,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 5
+    .param p1    # Landroid/view/View;
 
     new-instance v1, Landroid/widget/ListPopupWindow;
 

@@ -164,6 +164,10 @@
 
 .method private buildLookupUrl(Landroid/content/Context;Ljava/lang/String;ZZ)Ljava/lang/String;
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Z
+    .param p4    # Z
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -252,6 +256,12 @@
 
 .method private doLookup(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lcom/google/android/dialer/reverselookup/PhoneNumberInfoImpl;
     .locals 6
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Z
+    .param p6    # Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/android/dialer/util/AuthException;
@@ -296,6 +306,8 @@
 
 .method private static declared-synchronized invalidateImageToken(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     const-class v1, Lcom/google/android/dialer/reverselookup/PeopleApiClient;
 
@@ -332,6 +344,8 @@
 
 .method private static declared-synchronized invalidateToken(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     const-class v1, Lcom/google/android/dialer/reverselookup/PeopleApiClient;
 
@@ -368,6 +382,11 @@
 
 .method private lookupPhoneNumber(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/dialer/reverselookup/PhoneNumberInfoImpl;
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/android/dialer/util/AuthException;
@@ -424,6 +443,7 @@
 # virtual methods
 .method public getScreenWidth(Landroid/content/Context;)I
     .locals 3
+    .param p1    # Landroid/content/Context;
 
     const-string v2, "window"
 
@@ -450,6 +470,9 @@
 
 .method public imageLookup(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)[B
     .locals 7
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -562,6 +585,12 @@
 
 .method public lookupByPhoneNumber(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Lcom/google/android/dialer/reverselookup/PhoneNumberInfoImpl;
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Z
+    .param p6    # Z
 
     invoke-static {p3}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 

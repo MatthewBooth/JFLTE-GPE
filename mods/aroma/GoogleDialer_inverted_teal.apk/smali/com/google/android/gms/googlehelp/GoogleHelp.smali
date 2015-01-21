@@ -104,6 +104,24 @@
 
 .method constructor <init>(ILjava/lang/String;Landroid/accounts/Account;Landroid/os/Bundle;ZZLjava/util/List;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Landroid/graphics/Bitmap;[BIIZLjava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/util/List;ILjava/util/List;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Landroid/accounts/Account;
+    .param p4    # Landroid/os/Bundle;
+    .param p5    # Z
+    .param p6    # Z
+    .param p8    # Ljava/lang/String;
+    .param p9    # Ljava/lang/String;
+    .param p10    # Landroid/os/Bundle;
+    .param p11    # Landroid/graphics/Bitmap;
+    .param p12    # [B
+    .param p13    # I
+    .param p14    # I
+    .param p15    # Z
+    .param p16    # Ljava/lang/String;
+    .param p17    # Ljava/lang/String;
+    .param p18    # Landroid/net/Uri;
+    .param p20    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -207,6 +225,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/googlehelp/a;->a(Lcom/google/android/gms/googlehelp/GoogleHelp;Landroid/os/Parcel;I)V
 

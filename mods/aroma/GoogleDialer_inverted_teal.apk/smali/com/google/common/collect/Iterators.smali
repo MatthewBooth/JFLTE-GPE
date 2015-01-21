@@ -48,6 +48,7 @@
 
 .method public static contains(Ljava/util/Iterator;Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -205,6 +206,8 @@
 
 .method static forArray([Ljava/lang/Object;II)Lcom/google/common/collect/UnmodifiableIterator;
     .locals 2
+    .param p1    # I
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",

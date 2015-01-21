@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/DialtactsActivity;Lcom/android/dialer/DialtactsActivity$1;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/DialtactsActivity;
+    .param p2    # Lcom/android/dialer/DialtactsActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/DialtactsActivity$LayoutOnDragListener;-><init>(Lcom/android/dialer/DialtactsActivity;)V
 
@@ -44,6 +46,8 @@
 # virtual methods
 .method public onDrag(Landroid/view/View;Landroid/view/DragEvent;)Z
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/DragEvent;
 
     invoke-virtual {p2}, Landroid/view/DragEvent;->getAction()I
 

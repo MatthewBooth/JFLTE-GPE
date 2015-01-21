@@ -32,6 +32,10 @@
 # direct methods
 .method private constructor <init>(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;)V
     .locals 0
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;
 
     iput-object p1, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$ImageLookupRunnable;->this$0:Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
@@ -50,6 +54,12 @@
 
 .method synthetic constructor <init>(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$1;)V
     .locals 0
+    .param p1    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;
+    .param p6    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$1;
 
     invoke-direct/range {p0 .. p5}, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$ImageLookupRunnable;-><init>(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;)V
 

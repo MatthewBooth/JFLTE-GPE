@@ -27,6 +27,7 @@
 # virtual methods
 .method public getLayoutDirection(Landroid/view/View;)I
     .locals 1
+    .param p1    # Landroid/view/View;
 
     invoke-static {p1}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->getLayoutDirection(Landroid/view/View;)I
 
@@ -37,6 +38,8 @@
 
 .method public setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V
     .locals 0
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/graphics/Paint;
 
     invoke-static {p1, p2}, Landroid/support/v4/view/ViewCompatJellybeanMr1;->setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V
 

@@ -41,6 +41,7 @@
 # direct methods
 .method private getAction(I)Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions$EditModeActionBase;
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions;->mActionMap:Ljava/util/HashMap;
 
@@ -79,6 +80,7 @@
 # virtual methods
 .method public doNext(I)Z
     .locals 5
+    .param p1    # I
 
     const/4 v1, 0x0
 
@@ -200,6 +202,7 @@
 
 .method public onAction(I)V
     .locals 1
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -210,6 +213,8 @@
 
 .method public onAction(I[Ljava/lang/Object;)V
     .locals 1
+    .param p1    # I
+    .param p2    # [Ljava/lang/Object;
 
     invoke-direct {p0, p1}, Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions;->getAction(I)Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions$EditModeActionBase;
 

@@ -171,6 +171,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)Z
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mIsReadOnly:Z
 
@@ -179,6 +180,8 @@
 
 .method static synthetic access$100(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Z)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Z
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->onSaveCompleted(Z)V
 
@@ -187,6 +190,8 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Ljava/lang/String;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->startDisambiguationQuery(Ljava/lang/String;)V
 
@@ -195,6 +200,9 @@
 
 .method static synthetic access$1100(Lcom/android/contacts/activities/ConfirmAddDetailActivity;JLandroid/net/Uri;)V
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # J
+    .param p3    # Landroid/net/Uri;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->startPhotoQuery(JLandroid/net/Uri;)V
 
@@ -203,6 +211,7 @@
 
 .method static synthetic access$1200(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->setDisplayName()V
 
@@ -211,6 +220,7 @@
 
 .method static synthetic access$1300(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->showDialogContent()V
 
@@ -219,6 +229,7 @@
 
 .method static synthetic access$1400(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->startExtraInfoQuery()V
 
@@ -235,6 +246,8 @@
 
 .method static synthetic access$1600(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Ljava/lang/String;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->setExtraInfoField(Ljava/lang/String;)V
 
@@ -243,6 +256,7 @@
 
 .method static synthetic access$1702(Ljava/lang/ref/WeakReference;)Ljava/lang/ref/WeakReference;
     .locals 0
+    .param p0    # Ljava/lang/ref/WeakReference;
 
     sput-object p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->sProgressDialog:Ljava/lang/ref/WeakReference;
 
@@ -259,6 +273,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->doSaveAction()V
 
@@ -267,6 +282,8 @@
 
 .method static synthetic access$300(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Lcom/android/contacts/common/model/RawContactDeltaList;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->setEntityDeltaList(Lcom/android/contacts/common/model/RawContactDeltaList;)V
 
@@ -275,6 +292,7 @@
 
 .method static synthetic access$400(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)Lcom/android/contacts/activities/ConfirmAddDetailActivity$QueryHandler;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mQueryHandler:Lcom/android/contacts/activities/ConfirmAddDetailActivity$QueryHandler;
 
@@ -283,6 +301,7 @@
 
 .method static synthetic access$500(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)Landroid/widget/ImageView;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mPhotoView:Landroid/widget/ImageView;
 
@@ -291,6 +310,7 @@
 
 .method static synthetic access$600(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mDisplayName:Ljava/lang/String;
 
@@ -299,6 +319,8 @@
 
 .method static synthetic access$602(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mDisplayName:Ljava/lang/String;
 
@@ -307,6 +329,7 @@
 
 .method static synthetic access$700(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mLookupKey:Ljava/lang/String;
 
@@ -315,6 +338,8 @@
 
 .method static synthetic access$702(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mLookupKey:Ljava/lang/String;
 
@@ -323,6 +348,9 @@
 
 .method static synthetic access$800(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->setDefaultContactImage(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -331,6 +359,7 @@
 
 .method static synthetic access$900(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)J
     .locals 2
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     iget-wide v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mContactId:J
 
@@ -339,6 +368,8 @@
 
 .method static synthetic access$902(Lcom/android/contacts/activities/ConfirmAddDetailActivity;J)J
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
+    .param p1    # J
 
     iput-wide p1, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity;->mContactId:J
 
@@ -347,6 +378,8 @@
 
 .method private static addEditableRawContact(Landroid/content/Context;Lcom/android/contacts/common/model/RawContactDeltaList;)Lcom/android/contacts/common/model/RawContactDelta;
     .locals 14
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     const/4 v13, 0x0
 
@@ -654,6 +687,9 @@
 
 .method private inflateEditorView(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;)V
     .locals 8
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p3    # Lcom/android/contacts/common/model/RawContactDelta;
 
     const/4 v4, 0x0
 
@@ -703,6 +739,7 @@
 
 .method private onSaveCompleted(Z)V
     .locals 3
+    .param p1    # Z
 
     if-eqz p1, :cond_0
 
@@ -747,6 +784,8 @@
 
 .method private setDefaultContactImage(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -783,6 +822,7 @@
 
 .method private setEntityDeltaList(Lcom/android/contacts/common/model/RawContactDeltaList;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     if-nez p1, :cond_0
 
@@ -931,6 +971,7 @@
 
 .method private setExtraInfoField(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     const v1, 0x7f0e002f
 
@@ -963,6 +1004,7 @@
 
 .method private startContactQuery(Landroid/net/Uri;)V
     .locals 8
+    .param p1    # Landroid/net/Uri;
 
     const/4 v5, 0x0
 
@@ -987,6 +1029,7 @@
 
 .method private startDisambiguationQuery(Ljava/lang/String;)V
     .locals 11
+    .param p1    # Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -1145,6 +1188,8 @@
 
 .method private startPhotoQuery(JLandroid/net/Uri;)V
     .locals 9
+    .param p1    # J
+    .param p3    # Landroid/net/Uri;
 
     const/4 v5, 0x0
 
@@ -1183,6 +1228,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 6
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v5, 0x0
 
@@ -1392,6 +1438,8 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     invoke-static {p1}, Lcom/android/contacts/util/DialogManager;->isManagedId(I)Z
 

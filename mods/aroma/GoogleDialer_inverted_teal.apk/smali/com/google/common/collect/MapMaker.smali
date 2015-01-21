@@ -96,6 +96,8 @@
 
 .method private checkExpiration(JLjava/util/concurrent/TimeUnit;)V
     .locals 11
+    .param p1    # J
+    .param p3    # Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v8, -0x1
 
@@ -214,6 +216,7 @@
 # virtual methods
 .method public concurrencyLevel(I)Lcom/google/common/collect/MapMaker;
     .locals 6
+    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -264,6 +267,8 @@
 
 .method expireAfterAccess(JLjava/util/concurrent/TimeUnit;)Lcom/google/common/collect/MapMaker;
     .locals 3
+    .param p1    # J
+    .param p3    # Ljava/util/concurrent/TimeUnit;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -299,6 +304,8 @@
 
 .method expireAfterWrite(JLjava/util/concurrent/TimeUnit;)Lcom/google/common/collect/MapMaker;
     .locals 3
+    .param p1    # J
+    .param p3    # Ljava/util/concurrent/TimeUnit;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -530,6 +537,7 @@
 
 .method public initialCapacity(I)Lcom/google/common/collect/MapMaker;
     .locals 6
+    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -731,6 +739,7 @@
 
 .method maximumSize(I)Lcom/google/common/collect/MapMaker;
     .locals 6
+    .param p1    # I
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -843,6 +852,7 @@
 
 .method setKeyStrength(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
     .locals 6
+    .param p1    # Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     const/4 v2, 0x0
 
@@ -890,6 +900,7 @@
 
 .method setValueStrength(Lcom/google/common/collect/MapMakerInternalMap$Strength;)Lcom/google/common/collect/MapMaker;
     .locals 6
+    .param p1    # Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     const/4 v2, 0x0
 

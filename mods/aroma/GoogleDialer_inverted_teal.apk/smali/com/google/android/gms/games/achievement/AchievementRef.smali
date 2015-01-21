@@ -331,6 +331,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/achievement/AchievementRef;->freeze()Lcom/google/android/gms/games/achievement/Achievement;
 

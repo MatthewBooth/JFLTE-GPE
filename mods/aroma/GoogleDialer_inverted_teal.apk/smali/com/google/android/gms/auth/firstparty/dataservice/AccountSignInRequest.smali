@@ -50,6 +50,12 @@
 
 .method constructor <init>(ILcom/google/android/gms/auth/firstparty/shared/AppDescription;ZZLcom/google/android/gms/auth/firstparty/shared/CaptchaSolution;Lcom/google/android/gms/auth/firstparty/shared/AccountCredentials;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/auth/firstparty/shared/AppDescription;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Lcom/google/android/gms/auth/firstparty/shared/CaptchaSolution;
+    .param p6    # Lcom/google/android/gms/auth/firstparty/shared/AccountCredentials;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -80,6 +86,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/dataservice/k;->a(Lcom/google/android/gms/auth/firstparty/dataservice/AccountSignInRequest;Landroid/os/Parcel;I)V
 

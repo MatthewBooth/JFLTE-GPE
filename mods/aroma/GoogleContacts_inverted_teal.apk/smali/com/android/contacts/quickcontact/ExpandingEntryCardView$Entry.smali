@@ -57,6 +57,25 @@
 # direct methods
 .method public constructor <init>(ILandroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/drawable/Drawable;Ljava/lang/String;Landroid/graphics/drawable/Drawable;Ljava/lang/String;Landroid/content/Intent;Landroid/graphics/drawable/Drawable;Landroid/content/Intent;Ljava/lang/String;ZZLcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;Landroid/graphics/drawable/Drawable;Landroid/content/Intent;Ljava/lang/String;I)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/graphics/drawable/Drawable;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Landroid/graphics/drawable/Drawable;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Landroid/graphics/drawable/Drawable;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Landroid/content/Intent;
+    .param p10    # Landroid/graphics/drawable/Drawable;
+    .param p11    # Landroid/content/Intent;
+    .param p12    # Ljava/lang/String;
+    .param p13    # Z
+    .param p14    # Z
+    .param p15    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;
+    .param p16    # Landroid/graphics/drawable/Drawable;
+    .param p17    # Landroid/content/Intent;
+    .param p18    # Ljava/lang/String;
+    .param p19    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -113,6 +132,23 @@
 
 .method public constructor <init>(ILandroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;Landroid/graphics/drawable/Drawable;Landroid/content/Intent;Ljava/lang/String;ZZLcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;Landroid/graphics/drawable/Drawable;Landroid/content/Intent;Ljava/lang/String;I)V
     .locals 20
+    .param p1    # I
+    .param p2    # Landroid/graphics/drawable/Drawable;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Landroid/content/Intent;
+    .param p8    # Landroid/graphics/drawable/Drawable;
+    .param p9    # Landroid/content/Intent;
+    .param p10    # Ljava/lang/String;
+    .param p11    # Z
+    .param p12    # Z
+    .param p13    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView$EntryContextMenuInfo;
+    .param p14    # Landroid/graphics/drawable/Drawable;
+    .param p15    # Landroid/content/Intent;
+    .param p16    # Ljava/lang/String;
+    .param p17    # I
 
     const/4 v5, 0x0
 

@@ -14,6 +14,9 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/PhoneCallDetailsHelper;Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;Landroid/content/res/Resources;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/PhoneCallDetailsHelper;
+    .param p2    # Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;
+    .param p3    # Landroid/content/res/Resources;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,6 +31,7 @@
 
 .method private getContactBadgeDescription(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 5
+    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogListItemHelper;->mResources:Landroid/content/res/Resources;
 
@@ -54,6 +58,7 @@
 
 .method private getLastCallType([I)I
     .locals 1
+    .param p1    # [I
 
     array-length v0, p1
 
@@ -74,6 +79,7 @@
 
 .method private getNameOrNumber(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 5
+    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v1, p1, Lcom/android/dialer/PhoneCallDetails;->name:Ljava/lang/CharSequence;
 
@@ -108,6 +114,8 @@
 # virtual methods
 .method public getCallDescription(Landroid/content/Context;Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 13
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/dialer/PhoneCallDetails;
 
     const/4 v8, 0x0
 
@@ -250,6 +258,7 @@
 
 .method public getCallDescriptionStringID(Lcom/android/dialer/PhoneCallDetails;)I
     .locals 3
+    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v2, p1, Lcom/android/dialer/PhoneCallDetails;->callTypes:[I
 
@@ -288,6 +297,7 @@
 
 .method public setActionContentDescriptions(Lcom/android/dialer/calllog/CallLogListItemViews;)V
     .locals 7
+    .param p1    # Lcom/android/dialer/calllog/CallLogListItemViews;
 
     const/4 v6, 0x1
 
@@ -370,6 +380,9 @@
 
 .method public setPhoneCallDetails(Landroid/content/Context;Lcom/android/dialer/calllog/CallLogListItemViews;Lcom/android/dialer/PhoneCallDetails;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/dialer/calllog/CallLogListItemViews;
+    .param p3    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogListItemHelper;->mPhoneCallDetailsHelper:Lcom/android/dialer/PhoneCallDetailsHelper;
 

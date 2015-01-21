@@ -25,6 +25,7 @@
 # direct methods
 .method public constructor <init>(Ljava/io/Reader;)V
     .locals 0
+    .param p1    # Ljava/io/Reader;
 
     invoke-direct {p0, p1}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 

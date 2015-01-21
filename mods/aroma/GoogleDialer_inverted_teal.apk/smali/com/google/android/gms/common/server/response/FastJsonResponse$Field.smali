@@ -87,6 +87,15 @@
 
 .method constructor <init>(IIZIZLjava/lang/String;ILjava/lang/String;Lcom/google/android/gms/internal/jp;)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Z
+    .param p4    # I
+    .param p5    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # I
+    .param p8    # Ljava/lang/String;
+    .param p9    # Lcom/google/android/gms/internal/jp;
 
     const/4 v1, 0x0
 
@@ -141,6 +150,12 @@
 
 .method protected constructor <init>(IZIZLjava/lang/String;ILjava/lang/Class;Lcom/google/android/gms/common/server/response/FastJsonResponse$FieldConverter;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Z
+    .param p3    # I
+    .param p4    # Z
+    .param p5    # Ljava/lang/String;
+    .param p6    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IZIZ",
@@ -206,6 +221,8 @@
 
 .method public static forBoolean(Ljava/lang/String;I)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -244,6 +261,8 @@
 
 .method public static forConcreteType(Ljava/lang/String;ILjava/lang/Class;)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -283,6 +302,8 @@
 
 .method public static forConcreteTypeArray(Ljava/lang/String;ILjava/lang/Class;)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -326,6 +347,8 @@
 
 .method public static forDouble(Ljava/lang/String;I)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -364,6 +387,8 @@
 
 .method public static forInteger(Ljava/lang/String;I)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -402,6 +427,8 @@
 
 .method public static forString(Ljava/lang/String;I)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -440,6 +467,8 @@
 
 .method public static forStrings(Ljava/lang/String;I)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -483,6 +512,9 @@
 
 .method public static withConverter(Ljava/lang/String;ILcom/google/android/gms/common/server/response/FastJsonResponse$FieldConverter;Z)Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
     .locals 9
+    .param p0    # Ljava/lang/String;
+    .param p1    # I
+    .param p3    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -715,6 +747,7 @@
 
 .method public setFieldMappingDictionary(Lcom/google/android/gms/common/server/response/FieldMappingDictionary;)V
     .locals 0
+    .param p1    # Lcom/google/android/gms/common/server/response/FieldMappingDictionary;
 
     iput-object p1, p0, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;->Rh:Lcom/google/android/gms/common/server/response/FieldMappingDictionary;
 
@@ -916,6 +949,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;->CREATOR:Lcom/google/android/gms/common/server/response/a;
 

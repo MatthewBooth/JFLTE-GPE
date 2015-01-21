@@ -70,6 +70,7 @@
 
 .method private constructor <init>(I)V
     .locals 2
+    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -82,6 +83,8 @@
 
 .method constructor <init>(ILjava/util/List;I)V
     .locals 1
+    .param p1    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -160,6 +163,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/location/copresence/l;->a(Lcom/google/android/gms/location/copresence/People;Landroid/os/Parcel;I)V
 

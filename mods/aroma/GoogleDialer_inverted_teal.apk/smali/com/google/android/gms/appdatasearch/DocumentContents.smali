@@ -36,6 +36,11 @@
 
 .method constructor <init>(I[Lcom/google/android/gms/appdatasearch/DocumentSection;Ljava/lang/String;ZLandroid/accounts/Account;)V
     .locals 0
+    .param p1    # I
+    .param p2    # [Lcom/google/android/gms/appdatasearch/DocumentSection;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Z
+    .param p5    # Landroid/accounts/Account;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -66,6 +71,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/DocumentContents;->CREATOR:Lcom/google/android/gms/appdatasearch/d;
 

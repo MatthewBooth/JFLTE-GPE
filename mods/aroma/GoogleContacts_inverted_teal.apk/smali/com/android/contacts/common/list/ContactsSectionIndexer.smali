@@ -17,6 +17,8 @@
 # direct methods
 .method public constructor <init>([Ljava/lang/String;[I)V
     .locals 4
+    .param p1    # [Ljava/lang/String;
+    .param p2    # [I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -131,6 +133,7 @@
 # virtual methods
 .method public getPositionForSection(I)I
     .locals 1
+    .param p1    # I
 
     if-ltz p1, :cond_0
 
@@ -156,6 +159,7 @@
 
 .method public getSectionForPosition(I)I
     .locals 2
+    .param p1    # I
 
     if-ltz p1, :cond_0
 
@@ -196,6 +200,7 @@
 
 .method public setProfileHeader(Ljava/lang/String;)V
     .locals 5
+    .param p1    # Ljava/lang/String;
 
     const/4 v4, 0x0
 

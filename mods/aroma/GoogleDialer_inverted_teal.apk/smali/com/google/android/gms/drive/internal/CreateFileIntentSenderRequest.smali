@@ -47,6 +47,12 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/metadata/internal/MetadataBundle;ILjava/lang/String;Lcom/google/android/gms/drive/DriveId;Ljava/lang/Integer;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/drive/metadata/internal/MetadataBundle;
+    .param p3    # I
+    .param p4    # Ljava/lang/String;
+    .param p5    # Lcom/google/android/gms/drive/DriveId;
+    .param p6    # Ljava/lang/Integer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -77,6 +83,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/internal/i;->a(Lcom/google/android/gms/drive/internal/CreateFileIntentSenderRequest;Landroid/os/Parcel;I)V
 

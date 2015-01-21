@@ -155,6 +155,7 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/firstparty/dataservice/i;->an(Landroid/os/Parcel;)Lcom/google/android/gms/auth/firstparty/dataservice/AccountRemovalRequest;
 
@@ -165,6 +166,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/firstparty/dataservice/i;->aQ(I)[Lcom/google/android/gms/auth/firstparty/dataservice/AccountRemovalRequest;
 

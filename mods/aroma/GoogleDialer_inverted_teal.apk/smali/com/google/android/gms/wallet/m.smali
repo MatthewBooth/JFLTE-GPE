@@ -68,6 +68,7 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/m;->hf(Landroid/os/Parcel;)Lcom/google/android/gms/wallet/NotifyTransactionStatusRequest;
 
@@ -197,6 +198,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/m;->jA(I)[Lcom/google/android/gms/wallet/NotifyTransactionStatusRequest;
 

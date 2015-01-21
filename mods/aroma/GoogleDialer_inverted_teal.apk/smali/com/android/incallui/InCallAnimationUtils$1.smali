@@ -41,6 +41,7 @@
 # virtual methods
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 2
+    .param p1    # Landroid/animation/Animator;
 
     invoke-virtual {p1}, Landroid/animation/Animator;->removeAllListeners()V
 
@@ -55,6 +56,7 @@
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
     .locals 0
+    .param p1    # Landroid/animation/Animator;
 
     return-void
 .end method

@@ -48,6 +48,17 @@
 
 .method constructor <init>(I[B[BILjava/lang/String;Ljava/lang/String;ZLandroid/os/Bundle;JJLandroid/accounts/Account;)V
     .locals 1
+    .param p1    # I
+    .param p2    # [B
+    .param p3    # [B
+    .param p4    # I
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Z
+    .param p8    # Landroid/os/Bundle;
+    .param p9    # J
+    .param p11    # J
+    .param p13    # Landroid/accounts/Account;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -90,6 +101,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/PIMEUpdate;->CREATOR:Lcom/google/android/gms/appdatasearch/r;
 

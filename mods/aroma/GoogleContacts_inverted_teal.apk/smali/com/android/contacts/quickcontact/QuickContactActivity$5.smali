@@ -46,6 +46,8 @@
 # virtual methods
 .method public compare(Lcom/android/contacts/common/model/dataitem/DataItem;Lcom/android/contacts/common/model/dataitem/DataItem;)I
     .locals 7
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataItem;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataItem;
 
     const/4 v4, 0x1
 
@@ -214,6 +216,8 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/model/dataitem/DataItem;
 

@@ -79,6 +79,7 @@
 # virtual methods
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 13
+    .param p1    # Landroid/os/Bundle;
 
     const/16 v1, 0x2a
 
@@ -277,6 +278,7 @@
 
 .method protected onCreateDialog(I)Landroid/app/Dialog;
     .locals 7
+    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -376,6 +378,9 @@
 
 .method public onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 11
+    .param p1    # I
+    .param p2    # Ljava/lang/Object;
+    .param p3    # Landroid/database/Cursor;
 
     const/4 v10, 0x1
 

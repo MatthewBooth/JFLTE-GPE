@@ -74,6 +74,10 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/io/FileDescriptor;
+    .param p3    # Ljava/io/PrintWriter;
+    .param p4    # [Ljava/lang/String;
 
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
@@ -184,6 +188,7 @@
 
 .method public registerListener(ILandroid/support/v4/content/Loader$OnLoadCompleteListener;)V
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",

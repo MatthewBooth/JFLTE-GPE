@@ -32,6 +32,7 @@
 
 .method public static getAdditionalQueryParams(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -50,6 +51,7 @@
 
 .method public static getProtectedPhotoUrl(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -68,6 +70,7 @@
 
 .method public static isEnabled(Landroid/content/Context;)Z
     .locals 1
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Lcom/google/android/dialer/reverselookup/ReverseLookupSettingUtil;->isUserEnabled(Landroid/content/Context;)Z
 
@@ -94,6 +97,7 @@
 
 .method public static isGServiceEnabled(Landroid/content/Context;)Z
     .locals 5
+    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -149,6 +153,7 @@
 
 .method public static isUserEnabled(Landroid/content/Context;)Z
     .locals 4
+    .param p0    # Landroid/content/Context;
 
     new-instance v2, Ljava/lang/StringBuilder;
 

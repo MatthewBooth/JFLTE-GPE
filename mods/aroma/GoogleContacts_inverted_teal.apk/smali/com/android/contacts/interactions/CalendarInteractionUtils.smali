@@ -6,6 +6,9 @@
 # direct methods
 .method private static convertAlldayUtcToLocal(Landroid/text/format/Time;JLjava/lang/String;)J
     .locals 3
+    .param p0    # Landroid/text/format/Time;
+    .param p1    # J
+    .param p3    # Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -33,6 +36,10 @@
 
 .method private static formatDateRange(Landroid/content/Context;JJI)Ljava/lang/String;
     .locals 13
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
+    .param p3    # J
+    .param p5    # I
 
     move/from16 v0, p5
 
@@ -89,6 +96,12 @@
 
 .method public static getDisplayedDatetime(JJJLjava/lang/String;ZLandroid/content/Context;)Ljava/lang/String;
     .locals 32
+    .param p0    # J
+    .param p2    # J
+    .param p4    # J
+    .param p6    # Ljava/lang/String;
+    .param p7    # Z
+    .param p8    # Landroid/content/Context;
 
     const/16 v27, 0x12
 
@@ -399,6 +412,10 @@
 
 .method private static isTodayOrTomorrow(Landroid/content/res/Resources;JJJ)I
     .locals 5
+    .param p0    # Landroid/content/res/Resources;
+    .param p1    # J
+    .param p3    # J
+    .param p5    # J
 
     const/4 v3, 0x1
 
@@ -430,6 +447,9 @@
 
 .method private static singleDayEvent(JJJ)Z
     .locals 6
+    .param p0    # J
+    .param p2    # J
+    .param p4    # J
 
     const/4 v2, 0x1
 

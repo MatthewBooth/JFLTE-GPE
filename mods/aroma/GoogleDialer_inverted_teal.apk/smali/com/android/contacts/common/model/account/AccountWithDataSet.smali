@@ -101,6 +101,7 @@
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0, p1}, Landroid/accounts/Account;-><init>(Landroid/os/Parcel;)V
 
@@ -125,6 +126,9 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     invoke-direct {p0, p1, p2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -143,6 +147,7 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     instance-of v0, p1, Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
@@ -187,6 +192,7 @@
 
 .method public hasData(Landroid/content/Context;)Z
     .locals 9
+    .param p1    # Landroid/content/Context;
 
     const/4 v2, 0x2
 
@@ -367,6 +373,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-super {p0, p1, p2}, Landroid/accounts/Account;->writeToParcel(Landroid/os/Parcel;I)V
 

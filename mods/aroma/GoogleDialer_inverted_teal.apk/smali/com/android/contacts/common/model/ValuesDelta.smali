@@ -117,6 +117,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -156,6 +157,7 @@
 
 .method public getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -168,6 +170,8 @@
 
 .method public getAsInteger(Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Integer;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -215,6 +219,7 @@
 
 .method public getAsLong(Ljava/lang/String;)Ljava/lang/Long;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -266,6 +271,7 @@
 
 .method public getAsString(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -628,6 +634,8 @@
 
 .method public put(Ljava/lang/String;I)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -644,6 +652,7 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -680,6 +689,7 @@
 
 .method public subsetEquals(Lcom/android/contacts/common/model/ValuesDelta;)Z
     .locals 6
+    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const/4 v4, 0x0
 
@@ -752,6 +762,7 @@
 
 .method public toString(Ljava/lang/StringBuilder;)V
     .locals 3
+    .param p1    # Ljava/lang/StringBuilder;
 
     const-string v2, "{ "
 
@@ -826,6 +837,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mBefore:Landroid/content/ContentValues;
 

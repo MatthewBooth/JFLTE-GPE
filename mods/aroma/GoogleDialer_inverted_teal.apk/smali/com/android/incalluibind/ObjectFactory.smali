@@ -12,6 +12,7 @@
 # direct methods
 .method public static getCallStateButtonBroadcastIntent(Landroid/content/Context;)Landroid/content/Intent;
     .locals 5
+    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -50,6 +51,7 @@
 
 .method public static getUiReadyBroadcastIntent(Landroid/content/Context;)Landroid/content/Intent;
     .locals 5
+    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 

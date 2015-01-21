@@ -6,6 +6,8 @@
 # direct methods
 .method private static compareCalendarDayYear(Ljava/util/Calendar;Ljava/util/Calendar;)Z
     .locals 4
+    .param p0    # Ljava/util/Calendar;
+    .param p1    # Ljava/util/Calendar;
 
     const/4 v3, 0x6
 
@@ -42,6 +44,8 @@
 
 .method public static formatDateStringFromTimestamp(JLandroid/content/Context;)Ljava/lang/String;
     .locals 2
+    .param p0    # J
+    .param p2    # Landroid/content/Context;
 
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
@@ -56,6 +60,9 @@
 
 .method public static formatDateStringFromTimestamp(JLandroid/content/Context;Ljava/util/Calendar;)Ljava/lang/String;
     .locals 4
+    .param p0    # J
+    .param p2    # Landroid/content/Context;
+    .param p3    # Ljava/util/Calendar;
 
     const/4 v2, 0x6
 
@@ -142,6 +149,7 @@
 
 .method public static questionMarks(I)Ljava/lang/String;
     .locals 3
+    .param p0    # I
 
     if-lez p0, :cond_0
 

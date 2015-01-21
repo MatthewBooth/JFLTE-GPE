@@ -33,6 +33,7 @@
 # virtual methods
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 2
+    .param p1    # Landroid/animation/Animator;
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
@@ -61,6 +62,7 @@
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
     .locals 2
+    .param p1    # Landroid/animation/Animator;
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 

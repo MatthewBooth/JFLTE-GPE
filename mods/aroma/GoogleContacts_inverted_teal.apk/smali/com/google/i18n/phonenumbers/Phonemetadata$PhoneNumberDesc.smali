@@ -84,6 +84,7 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 1
+    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -134,6 +135,7 @@
 
 .method public setExampleNumber(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -146,6 +148,7 @@
 
 .method public setNationalNumberPattern(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -158,6 +161,7 @@
 
 .method public setPossibleNumberPattern(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -170,6 +174,7 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 1
+    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

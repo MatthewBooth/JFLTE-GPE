@@ -6,6 +6,7 @@
 # direct methods
 .method public static getCallIntent(Landroid/net/Uri;)Landroid/content/Intent;
     .locals 1
+    .param p0    # Landroid/net/Uri;
 
     const/4 v0, 0x0
 
@@ -18,6 +19,9 @@
 
 .method public static getCallIntent(Landroid/net/Uri;Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;)Landroid/content/Intent;
     .locals 1
+    .param p0    # Landroid/net/Uri;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/telecom/PhoneAccountHandle;
 
     const/4 v0, 0x0
 
@@ -30,6 +34,10 @@
 
 .method public static getCallIntent(Landroid/net/Uri;Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;I)Landroid/content/Intent;
     .locals 2
+    .param p0    # Landroid/net/Uri;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/telecom/PhoneAccountHandle;
+    .param p3    # I
 
     new-instance v0, Landroid/content/Intent;
 
@@ -60,6 +68,7 @@
 
 .method public static getCallIntent(Ljava/lang/String;)Landroid/content/Intent;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -72,6 +81,9 @@
 
 .method public static getCallIntent(Ljava/lang/String;Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;)Landroid/content/Intent;
     .locals 1
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/telecom/PhoneAccountHandle;
 
     invoke-static {p0}, Lcom/android/contacts/common/CallUtil;->getCallUri(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -86,6 +98,7 @@
 
 .method public static getCallUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 2
+    .param p0    # Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -116,6 +129,8 @@
 
 .method public static getVideoCallIntent(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
     .locals 3
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p0}, Lcom/android/contacts/common/CallUtil;->getCallUri(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -134,6 +149,7 @@
 
 .method public static isVideoEnabled(Landroid/content/Context;)Z
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     const/4 v2, 0x0
 

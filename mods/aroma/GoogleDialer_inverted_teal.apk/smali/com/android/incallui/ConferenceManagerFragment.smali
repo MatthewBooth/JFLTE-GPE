@@ -60,6 +60,12 @@
 
 .method public final displayCallerInfoForConferenceRow(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)V
     .locals 9
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/incallui/ConferenceManagerFragment;->mConferenceCallList:[Landroid/view/ViewGroup;
 
@@ -196,6 +202,7 @@
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 0
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -204,6 +211,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 0
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -212,6 +220,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 5
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const v3, 0x7f040012
 
@@ -317,6 +328,8 @@
 
 .method public setRowVisible(IZ)V
     .locals 2
+    .param p1    # I
+    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -345,6 +358,7 @@
 
 .method public setVisible(Z)V
     .locals 5
+    .param p1    # Z
 
     const/4 v4, 0x0
 
@@ -421,6 +435,8 @@
 
 .method public final setupEndButtonForRow(IZ)V
     .locals 3
+    .param p1    # I
+    .param p2    # Z
 
     iget-object v1, p0, Lcom/android/incallui/ConferenceManagerFragment;->mConferenceCallList:[Landroid/view/ViewGroup;
 
@@ -457,6 +473,8 @@
 
 .method public final setupSeparateButtonForRow(IZ)V
     .locals 3
+    .param p1    # I
+    .param p2    # Z
 
     iget-object v1, p0, Lcom/android/incallui/ConferenceManagerFragment;->mConferenceCallList:[Landroid/view/ViewGroup;
 

@@ -65,6 +65,9 @@
 
 .method public constructor <init>(ILandroid/accounts/Account;Ljava/lang/String;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/accounts/Account;
+    .param p3    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -93,6 +96,7 @@
 # virtual methods
 .method public addEntryHandler(Lcom/android/vcard/VCardEntryHandler;)V
     .locals 1
+    .param p1    # Lcom/android/vcard/VCardEntryHandler;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntryConstructor;->mEntryHandlers:Ljava/util/List;
 
@@ -215,6 +219,7 @@
 
 .method public onPropertyCreated(Lcom/android/vcard/VCardProperty;)V
     .locals 1
+    .param p1    # Lcom/android/vcard/VCardProperty;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntryConstructor;->mCurrentEntry:Lcom/android/vcard/VCardEntry;
 

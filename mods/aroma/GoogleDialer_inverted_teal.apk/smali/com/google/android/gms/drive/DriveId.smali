@@ -45,6 +45,10 @@
 
 .method constructor <init>(ILjava/lang/String;JJ)V
     .locals 7
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # J
+    .param p5    # J
 
     const/4 v1, 0x1
 
@@ -154,6 +158,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 8
+    .param p1    # Ljava/lang/Object;
 
     const-wide/16 v6, -0x1
 
@@ -331,6 +336,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/b;->a(Lcom/google/android/gms/drive/DriveId;Landroid/os/Parcel;I)V
 

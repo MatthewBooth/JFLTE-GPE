@@ -54,6 +54,10 @@
 
 .method constructor <init>(I[BI[Lcom/google/android/gms/audiomodem/Encoding;)V
     .locals 0
+    .param p1    # I
+    .param p2    # [B
+    .param p3    # I
+    .param p4    # [Lcom/google/android/gms/audiomodem/Encoding;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -112,6 +116,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/audiomodem/f;->a(Lcom/google/android/gms/audiomodem/TokenBroadcaster$Params;Landroid/os/Parcel;I)V
 

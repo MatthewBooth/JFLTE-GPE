@@ -25,6 +25,7 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 8
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v7, 0x0
 
@@ -111,6 +112,8 @@
 
 .method updateOkButtonState(Landroid/app/AlertDialog;Landroid/widget/EditText;)V
     .locals 2
+    .param p1    # Landroid/app/AlertDialog;
+    .param p2    # Landroid/widget/EditText;
 
     const/4 v1, -0x1
 

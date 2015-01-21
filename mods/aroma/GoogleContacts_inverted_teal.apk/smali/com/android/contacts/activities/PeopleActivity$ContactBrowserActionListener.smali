@@ -112,6 +112,7 @@
 
 .method public onViewContactAction(Landroid/net/Uri;)V
     .locals 5
+    .param p1    # Landroid/net/Uri;
 
     const/4 v2, 0x0
 

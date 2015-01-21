@@ -32,6 +32,9 @@
 
 .method public static handleAccountFilterResult(Lcom/android/contacts/common/list/ContactListFilterController;ILandroid/content/Intent;)V
     .locals 3
+    .param p0    # Lcom/android/contacts/common/list/ContactListFilterController;
+    .param p1    # I
+    .param p2    # Landroid/content/Intent;
 
     const/4 v1, -0x1
 
@@ -72,6 +75,9 @@
 
 .method public static startAccountFilterActivityForResult(Landroid/app/Activity;ILcom/android/contacts/common/list/ContactListFilter;)V
     .locals 2
+    .param p0    # Landroid/app/Activity;
+    .param p1    # I
+    .param p2    # Lcom/android/contacts/common/list/ContactListFilter;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -90,6 +96,9 @@
 
 .method public static startAccountFilterActivityForResult(Landroid/app/Fragment;ILcom/android/contacts/common/list/ContactListFilter;)V
     .locals 4
+    .param p0    # Landroid/app/Fragment;
+    .param p1    # I
+    .param p2    # Lcom/android/contacts/common/list/ContactListFilter;
 
     invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
@@ -124,6 +133,10 @@
 
 .method private static updateAccountFilterTitle(Landroid/view/View;Lcom/android/contacts/common/list/ContactListFilter;ZZ)Z
     .locals 9
+    .param p0    # Landroid/view/View;
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
+    .param p2    # Z
+    .param p3    # Z
 
     const v8, 0x7f0b00bd
 
@@ -345,6 +358,9 @@
 
 .method public static updateAccountFilterTitleForPeople(Landroid/view/View;Lcom/android/contacts/common/list/ContactListFilter;Z)Z
     .locals 1
+    .param p0    # Landroid/view/View;
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
+    .param p2    # Z
 
     const/4 v0, 0x0
 
@@ -357,6 +373,9 @@
 
 .method public static updateAccountFilterTitleForPhone(Landroid/view/View;Lcom/android/contacts/common/list/ContactListFilter;Z)Z
     .locals 1
+    .param p0    # Landroid/view/View;
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
+    .param p2    # Z
 
     const/4 v0, 0x1
 

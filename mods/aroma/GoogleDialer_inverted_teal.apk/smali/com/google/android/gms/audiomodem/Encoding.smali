@@ -43,6 +43,10 @@
 
 .method constructor <init>(IILcom/google/android/gms/audiomodem/DsssEncoding;Lcom/google/android/gms/audiomodem/DtmfEncoding;)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Lcom/google/android/gms/audiomodem/DsssEncoding;
+    .param p4    # Lcom/google/android/gms/audiomodem/DtmfEncoding;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,6 +73,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -246,6 +251,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/audiomodem/d;->a(Lcom/google/android/gms/audiomodem/Encoding;Landroid/os/Parcel;I)V
 

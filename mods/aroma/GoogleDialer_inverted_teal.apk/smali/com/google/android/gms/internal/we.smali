@@ -21,6 +21,10 @@
 
 .method public static final toByteArray(Lcom/google/android/gms/internal/we;[BII)V
     .locals 3
+    .param p0    # Lcom/google/android/gms/internal/we;
+    .param p1    # [B
+    .param p2    # I
+    .param p3    # I
 
     :try_start_0
     invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/vx;->b([BII)Lcom/google/android/gms/internal/vx;
@@ -49,6 +53,7 @@
 
 .method public static final toByteArray(Lcom/google/android/gms/internal/we;)[B
     .locals 3
+    .param p0    # Lcom/google/android/gms/internal/we;
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/we;->getSerializedSize()I
 
@@ -114,6 +119,7 @@
 
 .method public writeTo(Lcom/google/android/gms/internal/vx;)V
     .locals 0
+    .param p1    # Lcom/google/android/gms/internal/vx;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

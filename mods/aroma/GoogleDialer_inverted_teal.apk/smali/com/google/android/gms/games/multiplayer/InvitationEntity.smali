@@ -70,6 +70,14 @@
 
 .method constructor <init>(ILcom/google/android/gms/games/GameEntity;Ljava/lang/String;JILcom/google/android/gms/games/multiplayer/ParticipantEntity;Ljava/util/ArrayList;II)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/games/GameEntity;
+    .param p3    # Ljava/lang/String;
+    .param p4    # J
+    .param p6    # I
+    .param p7    # Lcom/google/android/gms/games/multiplayer/ParticipantEntity;
+    .param p9    # I
+    .param p10    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -109,6 +117,7 @@
 
 .method constructor <init>(Lcom/google/android/gms/games/multiplayer/Invitation;)V
     .locals 7
+    .param p1    # Lcom/google/android/gms/games/multiplayer/Invitation;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -656,6 +665,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/multiplayer/InvitationEntity;->a(Lcom/google/android/gms/games/multiplayer/Invitation;Ljava/lang/Object;)Z
 
@@ -787,6 +797,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/multiplayer/InvitationEntity;->gP()Z
 

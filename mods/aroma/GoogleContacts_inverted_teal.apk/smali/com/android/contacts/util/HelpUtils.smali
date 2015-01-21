@@ -38,6 +38,9 @@
 
 .method public static prepareHelpMenuItem(Landroid/content/Context;Landroid/view/MenuItem;I)Z
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/view/MenuItem;
+    .param p2    # I
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -56,6 +59,9 @@
 
 .method public static prepareHelpMenuItem(Landroid/content/Context;Landroid/view/MenuItem;Ljava/lang/String;)Z
     .locals 5
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/view/MenuItem;
+    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -104,6 +110,8 @@
 
 .method private static uriWithAddedParameters(Landroid/content/Context;Landroid/net/Uri;)Landroid/net/Uri;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
 
     invoke-virtual {p1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 

@@ -49,6 +49,7 @@
 
 .method constructor <init>(Landroid/os/Parcelable;)V
     .locals 0
+    .param p1    # Landroid/os/Parcelable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -73,6 +74,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget-object v0, p0, Landroid/support/v4/media/session/MediaSessionCompat$Token;->mInner:Landroid/os/Parcelable;
 

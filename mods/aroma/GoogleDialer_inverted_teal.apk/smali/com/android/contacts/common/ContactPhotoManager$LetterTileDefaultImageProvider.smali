@@ -25,6 +25,7 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/ContactPhotoManager$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/ContactPhotoManager$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/ContactPhotoManager$LetterTileDefaultImageProvider;-><init>()V
 
@@ -33,6 +34,8 @@
 
 .method public static getDefaultImageForContact(Landroid/content/res/Resources;Lcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;)Landroid/graphics/drawable/Drawable;
     .locals 3
+    .param p0    # Landroid/content/res/Resources;
+    .param p1    # Lcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;
 
     new-instance v0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;
 
@@ -88,6 +91,10 @@
 # virtual methods
 .method public applyDefaultImage(Landroid/widget/ImageView;IZLcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;)V
     .locals 2
+    .param p1    # Landroid/widget/ImageView;
+    .param p2    # I
+    .param p3    # Z
+    .param p4    # Lcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
 

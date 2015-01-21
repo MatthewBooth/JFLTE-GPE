@@ -28,6 +28,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,6 +42,7 @@
 
 .method private static createTemporaryContactUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 8
+    .param p0    # Ljava/lang/String;
 
     :try_start_0
     new-instance v3, Lorg/json/JSONObject;
@@ -145,6 +148,9 @@
 
 .method private formatPhoneNumber(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -183,6 +189,7 @@
 
 .method public static getLookupKeyFromUri(Landroid/net/Uri;)Ljava/lang/String;
     .locals 4
+    .param p0    # Landroid/net/Uri;
 
     const/4 v1, 0x0
 
@@ -228,6 +235,7 @@
 
 .method private lookupContactFromUri(Landroid/net/Uri;)Lcom/android/dialer/calllog/ContactInfo;
     .locals 11
+    .param p1    # Landroid/net/Uri;
 
     const/4 v3, 0x0
 
@@ -377,6 +385,8 @@
 
 .method private queryContactInfoForPhoneNumber(Ljava/lang/String;Ljava/lang/String;)Lcom/android/dialer/calllog/ContactInfo;
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     const/4 v5, 0x0
 
@@ -474,6 +484,7 @@
 
 .method private queryContactInfoForSipAddress(Ljava/lang/String;)Lcom/android/dialer/calllog/ContactInfo;
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     sget-object v1, Landroid/provider/ContactsContract$PhoneLookup;->CONTENT_FILTER_URI:Landroid/net/Uri;
 
@@ -508,6 +519,8 @@
 # virtual methods
 .method public canReportAsInvalid(ILjava/lang/String;)Z
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/dialer/calllog/ContactInfoHelper;->mCachedNumberLookupService:Lcom/android/dialer/service/CachedNumberLookupService;
 
@@ -534,6 +547,7 @@
 
 .method public isBusiness(I)Z
     .locals 1
+    .param p1    # I
 
     sget-object v0, Lcom/android/dialer/calllog/ContactInfoHelper;->mCachedNumberLookupService:Lcom/android/dialer/service/CachedNumberLookupService;
 
@@ -560,6 +574,8 @@
 
 .method public lookupNumber(Ljava/lang/String;Ljava/lang/String;)Lcom/android/dialer/calllog/ContactInfo;
     .locals 6
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-static {p1}, Lcom/android/contacts/common/util/PhoneNumberHelper;->isUriNumber(Ljava/lang/String;)Z
 

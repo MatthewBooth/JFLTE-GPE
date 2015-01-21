@@ -103,6 +103,12 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;IFFZ)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # F
+    .param p5    # F
+    .param p6    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -139,6 +145,10 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;IZ)V
     .locals 7
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # Z
 
     const/high16 v4, 0x3f800000
 
@@ -161,6 +171,9 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 7
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Z
 
     const/4 v3, 0x1
 

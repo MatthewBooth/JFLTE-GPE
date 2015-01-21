@@ -81,6 +81,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/search/corpora/GetCorpusStatusCall$b;->CREATOR:Lcom/google/android/gms/search/corpora/e;
 

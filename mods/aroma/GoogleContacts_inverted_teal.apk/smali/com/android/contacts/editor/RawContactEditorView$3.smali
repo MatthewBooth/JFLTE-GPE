@@ -40,6 +40,7 @@
 # virtual methods
 .method public onMenuItemClick(Landroid/view/MenuItem;)Z
     .locals 4
+    .param p1    # Landroid/view/MenuItem;
 
     const/4 v3, 0x1
 

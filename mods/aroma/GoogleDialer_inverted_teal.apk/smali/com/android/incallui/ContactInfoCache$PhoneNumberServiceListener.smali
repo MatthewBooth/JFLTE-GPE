@@ -27,6 +27,7 @@
 # direct methods
 .method constructor <init>(Lcom/android/incallui/ContactInfoCache;Ljava/lang/String;)V
     .locals 0
+    .param p2    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/incallui/ContactInfoCache$PhoneNumberServiceListener;->this$0:Lcom/android/incallui/ContactInfoCache;
 
@@ -41,6 +42,7 @@
 # virtual methods
 .method public onImageFetchComplete(Landroid/graphics/Bitmap;)V
     .locals 4
+    .param p1    # Landroid/graphics/Bitmap;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache$PhoneNumberServiceListener;->this$0:Lcom/android/incallui/ContactInfoCache;
 
@@ -57,6 +59,7 @@
 
 .method public onPhoneNumberInfoComplete(Lcom/android/incallui/service/PhoneNumberService$PhoneNumberInfo;)V
     .locals 7
+    .param p1    # Lcom/android/incallui/service/PhoneNumberService$PhoneNumberInfo;
 
     if-nez p1, :cond_1
 

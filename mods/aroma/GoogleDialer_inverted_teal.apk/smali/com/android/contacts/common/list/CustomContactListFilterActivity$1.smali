@@ -40,6 +40,8 @@
 # virtual methods
 .method public compare(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;)I
     .locals 10
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
+    .param p2    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
     const/4 v4, 0x1
 
@@ -114,6 +116,8 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 

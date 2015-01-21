@@ -40,6 +40,8 @@
 
 .method private static newCrossFadeDrawable(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Lcom/android/incallui/InCallAnimationUtils$CrossFadeDrawable;
     .locals 2
+    .param p0    # Landroid/graphics/drawable/Drawable;
+    .param p1    # Landroid/graphics/drawable/Drawable;
 
     const/4 v1, 0x2
 
@@ -62,6 +64,9 @@
 
 .method public static startCrossFade(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
     .locals 10
+    .param p0    # Landroid/widget/ImageView;
+    .param p1    # Landroid/graphics/drawable/Drawable;
+    .param p2    # Landroid/graphics/drawable/Drawable;
 
     const/4 v7, 0x1
 

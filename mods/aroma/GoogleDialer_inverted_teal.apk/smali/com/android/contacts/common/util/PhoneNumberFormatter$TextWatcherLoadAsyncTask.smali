@@ -34,6 +34,8 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Landroid/widget/TextView;)V
     .locals 0
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/widget/TextView;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -48,6 +50,7 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Landroid/telephony/PhoneNumberFormattingTextWatcher;
     .locals 2
+    .param p1    # [Ljava/lang/Void;
 
     new-instance v0, Landroid/telephony/PhoneNumberFormattingTextWatcher;
 
@@ -60,6 +63,7 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -72,6 +76,7 @@
 
 .method protected onPostExecute(Landroid/telephony/PhoneNumberFormattingTextWatcher;)V
     .locals 1
+    .param p1    # Landroid/telephony/PhoneNumberFormattingTextWatcher;
 
     if-eqz p1, :cond_0
 
@@ -95,6 +100,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Landroid/telephony/PhoneNumberFormattingTextWatcher;
 

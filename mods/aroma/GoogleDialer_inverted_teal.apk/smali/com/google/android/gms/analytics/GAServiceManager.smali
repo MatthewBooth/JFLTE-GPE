@@ -647,6 +647,7 @@
 
 .method declared-synchronized setLocalDispatchPeriod(I)V
     .locals 4
+    .param p1    # I
 
     monitor-enter p0
 

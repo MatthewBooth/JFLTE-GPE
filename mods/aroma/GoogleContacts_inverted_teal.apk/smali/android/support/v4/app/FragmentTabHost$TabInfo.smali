@@ -34,6 +34,7 @@
 # direct methods
 .method static synthetic access$100(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Landroid/support/v4/app/Fragment;
     .locals 1
+    .param p0    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->fragment:Landroid/support/v4/app/Fragment;
 
@@ -42,6 +43,8 @@
 
 .method static synthetic access$102(Landroid/support/v4/app/FragmentTabHost$TabInfo;Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/Fragment;
     .locals 0
+    .param p0    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     iput-object p1, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->fragment:Landroid/support/v4/app/Fragment;
 
@@ -50,6 +53,7 @@
 
 .method static synthetic access$200(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Ljava/lang/String;
     .locals 1
+    .param p0    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
@@ -58,6 +62,7 @@
 
 .method static synthetic access$300(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Ljava/lang/Class;
     .locals 1
+    .param p0    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
 
@@ -66,6 +71,7 @@
 
 .method static synthetic access$400(Landroid/support/v4/app/FragmentTabHost$TabInfo;)Landroid/os/Bundle;
     .locals 1
+    .param p0    # Landroid/support/v4/app/FragmentTabHost$TabInfo;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
 

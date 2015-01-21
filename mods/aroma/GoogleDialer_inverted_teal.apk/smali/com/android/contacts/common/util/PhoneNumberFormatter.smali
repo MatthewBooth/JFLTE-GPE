@@ -14,6 +14,8 @@
 # direct methods
 .method public static final setPhoneNumberFormattingTextWatcher(Landroid/content/Context;Landroid/widget/TextView;)V
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/widget/TextView;
 
     new-instance v1, Lcom/android/contacts/common/util/PhoneNumberFormatter$TextWatcherLoadAsyncTask;
 

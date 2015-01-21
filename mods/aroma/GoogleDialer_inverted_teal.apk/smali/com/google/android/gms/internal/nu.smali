@@ -67,6 +67,8 @@
 # virtual methods
 .method public log(Ljava/lang/String;Ljava/lang/String;)V
     .locals 6
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/nu;->mz:Ljava/lang/Object;
 

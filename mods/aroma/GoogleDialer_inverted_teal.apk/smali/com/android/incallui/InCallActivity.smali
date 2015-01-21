@@ -60,6 +60,8 @@
 
 .method static synthetic access$000(Lcom/android/incallui/InCallActivity;Z)V
     .locals 0
+    .param p0    # Lcom/android/incallui/InCallActivity;
+    .param p1    # Z
 
     invoke-direct {p0, p1}, Lcom/android/incallui/InCallActivity;->showDialpad(Z)V
 
@@ -68,6 +70,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/InCallActivity;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/InCallActivity;
 
     invoke-direct {p0}, Lcom/android/incallui/InCallActivity;->onDialogDismissed()V
 
@@ -76,6 +79,8 @@
 
 .method private handleDialerKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/view/KeyEvent;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -264,6 +269,7 @@
 
 .method private internalResolveIntent(Landroid/content/Intent;)V
     .locals 10
+    .param p1    # Landroid/content/Intent;
 
     const/4 v9, 0x0
 
@@ -514,6 +520,7 @@
 
 .method private isEmergencyCall(Lcom/android/incallui/Call;)Z
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getHandle()Landroid/net/Uri;
 
@@ -556,6 +563,7 @@
 
 .method private relaunchedFromDialer(Z)V
     .locals 3
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/InCallActivity;->mShowDialpadRequested:Z
 
@@ -601,6 +609,7 @@
 
 .method private showDialpad(Z)V
     .locals 6
+    .param p1    # Z
 
     iget-object v3, p0, Lcom/android/incallui/InCallActivity;->mDialpadFragment:Lcom/android/incallui/DialpadFragment;
 
@@ -674,6 +683,7 @@
 
 .method private showErrorDialog(Ljava/lang/CharSequence;)V
     .locals 3
+    .param p1    # Ljava/lang/CharSequence;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -750,6 +760,7 @@
 # virtual methods
 .method public dismissKeyguard(Z)V
     .locals 2
+    .param p1    # Z
 
     const/high16 v1, 0x400000
 
@@ -799,6 +810,7 @@
 
 .method public dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 1
+    .param p1    # Landroid/view/accessibility/AccessibilityEvent;
 
     iget-object v0, p0, Lcom/android/incallui/InCallActivity;->mCallCardFragment:Lcom/android/incallui/CallCardFragment;
 
@@ -818,6 +830,8 @@
 
 .method public displayDialpad(ZZ)V
     .locals 2
+    .param p1    # Z
+    .param p2    # Z
 
     if-eqz p1, :cond_0
 
@@ -1008,6 +1022,7 @@
 
 .method public maybeShowErrorDialogOnDisconnect(Landroid/telecom/DisconnectCause;)V
     .locals 2
+    .param p1    # Landroid/telecom/DisconnectCause;
 
     const-string v0, "maybeShowErrorDialogOnDisconnect"
 
@@ -1137,6 +1152,7 @@
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 2
+    .param p1    # Landroid/content/res/Configuration;
 
     invoke-static {}, Lcom/android/incallui/InCallPresenter;->getInstance()Lcom/android/incallui/InCallPresenter;
 
@@ -1214,6 +1230,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 7
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v5, 0x0
 
@@ -1472,6 +1489,8 @@
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 6
+    .param p1    # I
+    .param p2    # Landroid/view/KeyEvent;
 
     const/4 v4, 0x1
 
@@ -1602,6 +1621,8 @@
 
 .method public onKeyUp(ILandroid/view/KeyEvent;)Z
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/view/KeyEvent;
 
     const/4 v0, 0x1
 
@@ -1643,6 +1664,7 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1673,6 +1695,7 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 2
+    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -1796,6 +1819,7 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     const-string v0, "InCallActivity.show_dialpad"
 
@@ -1869,6 +1893,8 @@
 
 .method public showPostCharWaitDialog(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x0
 

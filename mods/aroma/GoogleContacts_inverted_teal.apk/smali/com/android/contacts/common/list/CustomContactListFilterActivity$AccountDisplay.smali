@@ -49,6 +49,10 @@
 # direct methods
 .method public constructor <init>(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Landroid/content/ContentResolver;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -75,6 +79,8 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;->addGroup(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;)V
 
@@ -83,6 +89,7 @@
 
 .method private addGroup(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->getShouldSync()Z
 
@@ -186,6 +193,8 @@
 
 .method public setShouldSync(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;Z)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
+    .param p2    # Z
 
     const/4 v0, 0x1
 
@@ -196,6 +205,9 @@
 
 .method public setShouldSync(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;ZZ)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
+    .param p2    # Z
+    .param p3    # Z
 
     invoke-virtual {p1, p2}, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->putShouldSync(Z)V
 
@@ -241,6 +253,7 @@
 
 .method public setShouldSync(Z)V
     .locals 3
+    .param p1    # Z
 
     if-eqz p1, :cond_0
 

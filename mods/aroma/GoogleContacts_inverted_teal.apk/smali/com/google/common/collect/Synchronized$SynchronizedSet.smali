@@ -36,6 +36,7 @@
 # direct methods
 .method constructor <init>(Ljava/util/Set;Ljava/lang/Object;)V
     .locals 1
+    .param p2    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -96,6 +97,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     if-ne p1, p0, :cond_0
 

@@ -28,6 +28,7 @@
 # virtual methods
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 9
+    .param p1    # Landroid/os/Bundle;
 
     const v8, 0x7f0b00c3
 
@@ -147,6 +148,8 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     packed-switch p1, :pswitch_data_0
 

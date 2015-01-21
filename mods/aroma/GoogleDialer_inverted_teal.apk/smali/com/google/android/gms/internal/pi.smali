@@ -142,6 +142,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/pj;->a(Lcom/google/android/gms/internal/pi;Landroid/os/Parcel;I)V
 

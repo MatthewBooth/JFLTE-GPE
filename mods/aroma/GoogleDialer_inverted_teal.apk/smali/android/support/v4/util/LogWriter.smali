@@ -12,6 +12,7 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/io/Writer;-><init>()V
 
@@ -85,6 +86,9 @@
 
 .method public write([CII)V
     .locals 3
+    .param p1    # [C
+    .param p2    # I
+    .param p3    # I
 
     const/4 v1, 0x0
 

@@ -228,6 +228,7 @@
 
 .method constructor <init>(Lcom/google/common/collect/MapMaker;)V
     .locals 11
+    .param p1    # Lcom/google/common/collect/MapMaker;
 
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
@@ -620,6 +621,7 @@
 
 .method static rehash(I)I
     .locals 2
+    .param p0    # I
 
     shl-int/lit8 v0, p0, 0xf
 
@@ -701,6 +703,7 @@
 
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
@@ -727,6 +730,7 @@
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 22
+    .param p1    # Ljava/lang/Object;
 
     if-nez p1, :cond_0
 
@@ -894,6 +898,8 @@
 
 .method createSegment(II)Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 1
+    .param p1    # I
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
@@ -1031,6 +1037,7 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1121,6 +1128,7 @@
 
 .method hash(Ljava/lang/Object;)I
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/google/common/collect/MapMakerInternalMap;->keyEquivalence:Lcom/google/common/base/Equivalence;
 
@@ -1242,6 +1250,7 @@
 
 .method isExpired(Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;J)Z
     .locals 4
+    .param p2    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1337,6 +1346,7 @@
 
 .method newEntry(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 1
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -1360,6 +1370,7 @@
 
 .method final newSegmentArray(I)[Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)[",
@@ -1603,6 +1614,7 @@
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1636,6 +1648,8 @@
 
 .method public remove(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     if-eqz p1, :cond_0
 
@@ -1727,6 +1741,7 @@
 
 .method segmentFor(I)Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 3
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",

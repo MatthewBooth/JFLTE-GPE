@@ -33,6 +33,7 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 6
+    .param p1    # Landroid/os/Message;
 
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 

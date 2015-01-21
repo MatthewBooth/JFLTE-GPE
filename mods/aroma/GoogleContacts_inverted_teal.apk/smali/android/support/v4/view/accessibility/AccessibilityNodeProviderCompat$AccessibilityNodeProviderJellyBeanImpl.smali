@@ -27,6 +27,7 @@
 # virtual methods
 .method public newAccessibilityNodeProviderBridge(Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 
     new-instance v0, Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1;
 

@@ -69,6 +69,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -79,6 +80,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -89,6 +92,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 6
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     const/4 v5, 0x1
 
@@ -181,6 +187,8 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/list/ViewPagerTabs;I)I
     .locals 1
+    .param p0    # Lcom/android/contacts/common/list/ViewPagerTabs;
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/ViewPagerTabs;->getRtlPosition(I)I
 
@@ -191,6 +199,8 @@
 
 .method private addTab(Ljava/lang/CharSequence;I)V
     .locals 7
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # I
 
     const/4 v6, 0x0
 
@@ -295,6 +305,7 @@
 
 .method private addTabs(Landroid/support/v4/view/PagerAdapter;)V
     .locals 3
+    .param p1    # Landroid/support/v4/view/PagerAdapter;
 
     iget-object v2, p0, Lcom/android/contacts/common/list/ViewPagerTabs;->mTabStrip:Lcom/android/contacts/common/list/ViewPagerTabStrip;
 
@@ -325,6 +336,7 @@
 
 .method private getRtlPosition(I)I
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/ViewPagerTabs;->getLayoutDirection()I
 
@@ -352,12 +364,16 @@
 # virtual methods
 .method public onPageScrollStateChanged(I)V
     .locals 0
+    .param p1    # I
 
     return-void
 .end method
 
 .method public onPageScrolled(IFI)V
     .locals 2
+    .param p1    # I
+    .param p2    # F
+    .param p3    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/ViewPagerTabs;->getRtlPosition(I)I
 
@@ -389,6 +405,7 @@
 
 .method public onPageSelected(I)V
     .locals 6
+    .param p1    # I
 
     const/4 v5, 0x0
 
@@ -448,6 +465,7 @@
 
 .method public setViewPager(Landroid/support/v4/view/ViewPager;)V
     .locals 1
+    .param p1    # Landroid/support/v4/view/ViewPager;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ViewPagerTabs;->mPager:Landroid/support/v4/view/ViewPager;
 

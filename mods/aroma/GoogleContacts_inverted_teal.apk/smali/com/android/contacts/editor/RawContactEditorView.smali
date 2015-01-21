@@ -46,6 +46,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/BaseRawContactEditorView;-><init>(Landroid/content/Context;)V
 
@@ -66,6 +67,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/editor/BaseRawContactEditorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -86,6 +89,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/RawContactEditorView;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     invoke-direct {p0}, Lcom/android/contacts/editor/RawContactEditorView;->showAddInformationPopupWindow()V
 
@@ -94,6 +98,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/editor/RawContactEditorView;)Landroid/view/View;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/RawContactEditorView;->mAddOrganizationButton:Landroid/view/View;
 
@@ -102,6 +107,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/editor/RawContactEditorView;)Landroid/view/ViewGroup;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/RawContactEditorView;->mOrganizationSectionViewContainer:Landroid/view/ViewGroup;
 
@@ -110,6 +116,8 @@
 
 .method static synthetic access$302(Lcom/android/contacts/editor/RawContactEditorView;Z)Z
     .locals 0
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/RawContactEditorView;->mOrganizationViewExpanded:Z
 
@@ -118,6 +126,8 @@
 
 .method static synthetic access$402(Lcom/android/contacts/editor/RawContactEditorView;Z)Z
     .locals 0
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/RawContactEditorView;->mPhoneticNameAdded:Z
 
@@ -126,6 +136,7 @@
 
 .method static synthetic access$500(Lcom/android/contacts/editor/RawContactEditorView;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     invoke-direct {p0}, Lcom/android/contacts/editor/RawContactEditorView;->updatePhoneticNameVisibility()V
 
@@ -134,6 +145,7 @@
 
 .method static synthetic access$600(Lcom/android/contacts/editor/RawContactEditorView;)Lcom/android/contacts/editor/PhoneticNameEditorView;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/RawContactEditorView;->mPhoneticName:Lcom/android/contacts/editor/PhoneticNameEditorView;
 
@@ -142,6 +154,7 @@
 
 .method static synthetic access$700(Lcom/android/contacts/editor/RawContactEditorView;)Landroid/widget/Button;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/RawContactEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/RawContactEditorView;->mAddFieldButton:Landroid/widget/Button;
 
@@ -761,6 +774,7 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 3
+    .param p1    # Landroid/os/Parcelable;
 
     instance-of v1, p1, Landroid/os/Bundle;
 
@@ -838,6 +852,7 @@
 
 .method public setAutoAddToDefaultGroup(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/RawContactEditorView;->mAutoAddToDefaultGroup:Z
 
@@ -846,6 +861,7 @@
 
 .method public setEnabled(Z)V
     .locals 4
+    .param p1    # Z
 
     invoke-super {p0, p1}, Lcom/android/contacts/editor/BaseRawContactEditorView;->setEnabled(Z)V
 
@@ -922,6 +938,7 @@
 
 .method public setGroupMetaData(Landroid/database/Cursor;)V
     .locals 1
+    .param p1    # Landroid/database/Cursor;
 
     iput-object p1, p0, Lcom/android/contacts/editor/RawContactEditorView;->mGroupMetaData:Landroid/database/Cursor;
 
@@ -941,6 +958,10 @@
 
 .method public setState(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/account/AccountType;Lcom/android/contacts/editor/ViewIdGenerator;Z)V
     .locals 15
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
+    .param p2    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p3    # Lcom/android/contacts/editor/ViewIdGenerator;
+    .param p4    # Z
 
     move-object/from16 v0, p1
 

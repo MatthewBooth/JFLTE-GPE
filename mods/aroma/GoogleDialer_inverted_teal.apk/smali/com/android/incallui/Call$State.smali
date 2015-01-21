@@ -17,6 +17,7 @@
 # direct methods
 .method public static isConnectingOrConnected(I)Z
     .locals 1
+    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -51,6 +52,7 @@
 
 .method public static isDialing(I)Z
     .locals 1
+    .param p0    # I
 
     const/4 v0, 0x5
 
@@ -74,6 +76,7 @@
 
 .method public static toString(I)Ljava/lang/String;
     .locals 1
+    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 

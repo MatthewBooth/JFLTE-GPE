@@ -35,6 +35,15 @@
 # direct methods
 .method private constructor <init>(IIFFFIIII)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # F
+    .param p4    # F
+    .param p5    # F
+    .param p6    # I
+    .param p7    # I
+    .param p8    # I
+    .param p9    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,6 +70,16 @@
 
 .method synthetic constructor <init>(IIFFFIIIILcom/android/ex/variablespeed/EngineParameters$1;)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # F
+    .param p4    # F
+    .param p5    # F
+    .param p6    # I
+    .param p7    # I
+    .param p8    # I
+    .param p9    # I
+    .param p10    # Lcom/android/ex/variablespeed/EngineParameters$1;
 
     invoke-direct/range {p0 .. p9}, Lcom/android/ex/variablespeed/EngineParameters;-><init>(IIFFFIIII)V
 

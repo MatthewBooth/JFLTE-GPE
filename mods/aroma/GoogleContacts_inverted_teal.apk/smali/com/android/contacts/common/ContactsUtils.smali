@@ -20,6 +20,7 @@
 
 .method public static areContactWritableAccountsAvailable(Landroid/content/Context;)Z
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     const/4 v1, 0x1
 
@@ -48,6 +49,8 @@
 
 .method public static areObjectsEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -73,6 +76,8 @@
 
 .method public static buildImIntent(Landroid/content/Context;Lcom/android/contacts/common/model/dataitem/ImDataItem;)Landroid/util/Pair;
     .locals 9
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/dataitem/ImDataItem;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -355,6 +360,8 @@
 
 .method private static getCustomImIntent(Lcom/android/contacts/common/model/dataitem/ImDataItem;I)Landroid/content/Intent;
     .locals 7
+    .param p0    # Lcom/android/contacts/common/model/dataitem/ImDataItem;
+    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -429,6 +436,7 @@
 
 .method public static getThumbnailSize(Landroid/content/Context;)I
     .locals 7
+    .param p0    # Landroid/content/Context;
 
     const/4 v5, 0x0
 
@@ -492,6 +500,7 @@
 
 .method public static isGraphic(Ljava/lang/CharSequence;)Z
     .locals 1
+    .param p0    # Ljava/lang/CharSequence;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -518,6 +527,7 @@
 
 .method public static lookupProviderNameFromId(I)Ljava/lang/String;
     .locals 1
+    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 

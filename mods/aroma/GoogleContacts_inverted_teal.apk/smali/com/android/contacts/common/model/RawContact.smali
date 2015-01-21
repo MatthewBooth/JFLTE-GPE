@@ -71,6 +71,7 @@
 
 .method public constructor <init>(Landroid/content/ContentValues;)V
     .locals 1
+    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -87,6 +88,7 @@
 
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -121,6 +123,8 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/android/contacts/common/model/RawContact$1;)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # Lcom/android/contacts/common/model/RawContact$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/RawContact;-><init>(Landroid/os/Parcel;)V
 
@@ -129,6 +133,7 @@
 
 .method public static createFrom(Landroid/content/Entity;)Lcom/android/contacts/common/model/RawContact;
     .locals 7
+    .param p0    # Landroid/content/Entity;
 
     invoke-virtual {p0}, Landroid/content/Entity;->getEntityValues()Landroid/content/ContentValues;
 
@@ -173,6 +178,9 @@
 
 .method private setAccount(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContact;->getValues()Landroid/content/ContentValues;
 
@@ -239,6 +247,7 @@
 # virtual methods
 .method public addDataItemValues(Landroid/content/ContentValues;)V
     .locals 1
+    .param p1    # Landroid/content/ContentValues;
 
     sget-object v0, Landroid/provider/ContactsContract$Data;->CONTENT_URI:Landroid/net/Uri;
 
@@ -249,6 +258,8 @@
 
 .method public addNamedDataItemValues(Landroid/net/Uri;Landroid/content/ContentValues;)Lcom/android/contacts/common/model/RawContact$NamedDataItem;
     .locals 2
+    .param p1    # Landroid/net/Uri;
+    .param p2    # Landroid/content/ContentValues;
 
     new-instance v0, Lcom/android/contacts/common/model/RawContact$NamedDataItem;
 
@@ -271,6 +282,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -338,6 +350,7 @@
 
 .method public getAccountType(Landroid/content/Context;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 3
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContact;->getAccountTypeManager(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
 
@@ -360,6 +373,7 @@
 
 .method public getAccountTypeManager(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/RawContact;->mAccountTypeManager:Lcom/android/contacts/common/model/AccountTypeManager;
 
@@ -589,6 +603,7 @@
 
 .method public setAccount(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 3
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     iget-object v0, p1, Lcom/android/contacts/common/model/account/AccountWithDataSet;->name:Ljava/lang/String;
 
@@ -679,6 +694,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/model/RawContact;->mValues:Landroid/content/ContentValues;
 

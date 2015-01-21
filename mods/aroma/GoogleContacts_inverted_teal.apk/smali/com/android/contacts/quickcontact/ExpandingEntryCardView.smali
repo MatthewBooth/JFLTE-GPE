@@ -122,6 +122,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -132,6 +133,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v3, 0x0
 
@@ -256,6 +259,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/quickcontact/ExpandingEntryCardView;)Z
     .locals 1
+    .param p0    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mIsExpanded:Z
 
@@ -264,6 +268,7 @@
 
 .method static synthetic access$100(Lcom/android/contacts/quickcontact/ExpandingEntryCardView;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->collapse()V
 
@@ -272,6 +277,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/quickcontact/ExpandingEntryCardView;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->expand()V
 
@@ -280,6 +286,7 @@
 
 .method static synthetic access$300(Lcom/android/contacts/quickcontact/ExpandingEntryCardView;)Lcom/android/contacts/quickcontact/ExpandingEntryCardView$ExpandingEntryCardViewListener;
     .locals 1
+    .param p0    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mListener:Lcom/android/contacts/quickcontact/ExpandingEntryCardView$ExpandingEntryCardViewListener;
 
@@ -288,6 +295,7 @@
 
 .method static synthetic access$400(Lcom/android/contacts/quickcontact/ExpandingEntryCardView;)Landroid/widget/LinearLayout;
     .locals 1
+    .param p0    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mEntriesViewGroup:Landroid/widget/LinearLayout;
 
@@ -296,6 +304,7 @@
 
 .method private addEntry(Landroid/view/View;)V
     .locals 4
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mTitleTextView:Landroid/widget/TextView;
 
@@ -435,6 +444,9 @@
 
 .method private createEntryView(Landroid/view/LayoutInflater;Lcom/android/contacts/quickcontact/ExpandingEntryCardView$Entry;I)Landroid/view/View;
     .locals 15
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView$Entry;
+    .param p3    # I
 
     const v11, 0x7f04003a
 
@@ -1056,6 +1068,7 @@
 
 .method private generateSeparator(Landroid/view/View;)Landroid/view/View;
     .locals 8
+    .param p1    # Landroid/view/View;
 
     new-instance v5, Landroid/view/View;
 
@@ -1195,6 +1208,7 @@
 
 .method private inflateAllEntries(Landroid/view/LayoutInflater;)V
     .locals 7
+    .param p1    # Landroid/view/LayoutInflater;
 
     iget-boolean v6, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mAllEntriesInflated:Z
 
@@ -1294,6 +1308,7 @@
 
 .method private inflateInitialEntries(Landroid/view/LayoutInflater;)V
     .locals 9
+    .param p1    # Landroid/view/LayoutInflater;
 
     const/4 v8, 0x0
 
@@ -1880,6 +1895,8 @@
 
 .method private updateExpandCollapseButton(Ljava/lang/CharSequence;J)V
     .locals 6
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # J
 
     const/4 v3, 0x1
 
@@ -2062,6 +2079,11 @@
 
 .method public initialize(Ljava/util/List;IZZLcom/android/contacts/quickcontact/ExpandingEntryCardView$ExpandingEntryCardViewListener;Landroid/view/ViewGroup;)V
     .locals 8
+    .param p2    # I
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Lcom/android/contacts/quickcontact/ExpandingEntryCardView$ExpandingEntryCardViewListener;
+    .param p6    # Landroid/view/ViewGroup;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2231,6 +2253,8 @@
 
 .method public setColorAndFilter(ILandroid/graphics/ColorFilter;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Landroid/graphics/ColorFilter;
 
     iput p1, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mThemeColor:I
 
@@ -2243,6 +2267,7 @@
 
 .method public setEntryHeaderColor(I)V
     .locals 6
+    .param p1    # I
 
     iget-object v5, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mEntries:Ljava/util/List;
 
@@ -2305,6 +2330,7 @@
 
 .method public setExpandButtonText(Ljava/lang/CharSequence;)V
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mExpandButtonText:Ljava/lang/CharSequence;
 
@@ -2326,6 +2352,7 @@
 
 .method public setOnClickListener(Landroid/view/View$OnClickListener;)V
     .locals 0
+    .param p1    # Landroid/view/View$OnClickListener;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mOnClickListener:Landroid/view/View$OnClickListener;
 
@@ -2334,6 +2361,7 @@
 
 .method public setOnCreateContextMenuListener(Landroid/view/View$OnCreateContextMenuListener;)V
     .locals 0
+    .param p1    # Landroid/view/View$OnCreateContextMenuListener;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/ExpandingEntryCardView;->mOnCreateContextMenuListener:Landroid/view/View$OnCreateContextMenuListener;
 
@@ -2342,6 +2370,7 @@
 
 .method public setTitle(Ljava/lang/String;)V
     .locals 6
+    .param p1    # Ljava/lang/String;
 
     const v5, 0x7f08008c
 

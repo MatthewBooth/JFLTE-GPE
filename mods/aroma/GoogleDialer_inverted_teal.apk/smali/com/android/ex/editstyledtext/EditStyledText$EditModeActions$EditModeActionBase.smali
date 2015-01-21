@@ -21,6 +21,7 @@
 # virtual methods
 .method protected addParams([Ljava/lang/Object;)V
     .locals 0
+    .param p1    # [Ljava/lang/Object;
 
     iput-object p1, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions$EditModeActionBase;->mParams:[Ljava/lang/Object;
 

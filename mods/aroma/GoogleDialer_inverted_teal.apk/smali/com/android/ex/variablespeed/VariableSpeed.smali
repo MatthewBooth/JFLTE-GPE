@@ -51,6 +51,7 @@
 # direct methods
 .method private constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 3
+    .param p1    # Ljava/util/concurrent/Executor;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/UnsupportedOperationException;
@@ -114,6 +115,7 @@
 
 .method static synthetic access$000(Lcom/android/ex/variablespeed/VariableSpeed;)Ljava/lang/Object;
     .locals 1
+    .param p0    # Lcom/android/ex/variablespeed/VariableSpeed;
 
     iget-object v0, p0, Lcom/android/ex/variablespeed/VariableSpeed;->lock:Ljava/lang/Object;
 
@@ -122,6 +124,7 @@
 
 .method static synthetic access$100(Lcom/android/ex/variablespeed/VariableSpeed;)Landroid/media/MediaPlayer$OnCompletionListener;
     .locals 1
+    .param p0    # Lcom/android/ex/variablespeed/VariableSpeed;
 
     iget-object v0, p0, Lcom/android/ex/variablespeed/VariableSpeed;->mCompletionListener:Landroid/media/MediaPlayer$OnCompletionListener;
 
@@ -130,6 +133,7 @@
 
 .method static synthetic access$200(Lcom/android/ex/variablespeed/VariableSpeed;)Z
     .locals 1
+    .param p0    # Lcom/android/ex/variablespeed/VariableSpeed;
 
     iget-boolean v0, p0, Lcom/android/ex/variablespeed/VariableSpeed;->mSkipCompletionReport:Z
 
@@ -138,6 +142,7 @@
 
 .method static synthetic access$300(Lcom/android/ex/variablespeed/VariableSpeed;)Ljava/util/concurrent/CountDownLatch;
     .locals 1
+    .param p0    # Lcom/android/ex/variablespeed/VariableSpeed;
 
     iget-object v0, p0, Lcom/android/ex/variablespeed/VariableSpeed;->mPlaybackFinishedLatch:Ljava/util/concurrent/CountDownLatch;
 
@@ -146,6 +151,8 @@
 
 .method private check(ZLjava/lang/String;)V
     .locals 1
+    .param p1    # Z
+    .param p2    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 
@@ -161,6 +168,8 @@
 
 .method private checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 
@@ -194,6 +203,7 @@
 
 .method public static createVariableSpeed(Ljava/util/concurrent/Executor;)Lcom/android/ex/variablespeed/MediaPlayerProxy;
     .locals 2
+    .param p0    # Ljava/util/concurrent/Executor;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/UnsupportedOperationException;
@@ -265,6 +275,7 @@
 
 .method private innerSetDataSource(Lcom/android/ex/variablespeed/MediaPlayerDataSource;)V
     .locals 5
+    .param p1    # Lcom/android/ex/variablespeed/MediaPlayerDataSource;
 
     const/4 v0, 0x1
 
@@ -327,6 +338,7 @@
 
 .method private reportException(Ljava/lang/Exception;)V
     .locals 2
+    .param p1    # Ljava/lang/Exception;
 
     const-string v0, "VariableSpeed"
 
@@ -339,6 +351,7 @@
 
 .method private stopAndStartPlayingAgain(Lcom/android/ex/variablespeed/MediaPlayerDataSource;)V
     .locals 1
+    .param p1    # Lcom/android/ex/variablespeed/MediaPlayerDataSource;
 
     invoke-direct {p0}, Lcom/android/ex/variablespeed/VariableSpeed;->stopCurrentPlayback()V
 
@@ -429,6 +442,7 @@
 
 .method private waitForLatch(Ljava/util/concurrent/CountDownLatch;)V
     .locals 5
+    .param p1    # Ljava/util/concurrent/CountDownLatch;
 
     const-wide/16 v2, 0x1
 
@@ -1098,6 +1112,7 @@
 
 .method public seekTo(I)V
     .locals 6
+    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -1180,6 +1195,7 @@
 
 .method public setAudioStreamType(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v1, p0, Lcom/android/ex/variablespeed/VariableSpeed;->lock:Ljava/lang/Object;
 
@@ -1204,6 +1220,8 @@
 
 .method public setDataSource(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/net/Uri;
 
     const-string v0, "context"
 
@@ -1224,6 +1242,7 @@
 
 .method public setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
     .locals 3
+    .param p1    # Landroid/media/MediaPlayer$OnCompletionListener;
 
     iget-object v1, p0, Lcom/android/ex/variablespeed/VariableSpeed;->lock:Ljava/lang/Object;
 
@@ -1264,6 +1283,7 @@
 
 .method public setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
     .locals 3
+    .param p1    # Landroid/media/MediaPlayer$OnErrorListener;
 
     iget-object v1, p0, Lcom/android/ex/variablespeed/VariableSpeed;->lock:Ljava/lang/Object;
 
@@ -1302,6 +1322,7 @@
 
 .method public setVariableSpeed(F)V
     .locals 3
+    .param p1    # F
 
     iget-object v1, p0, Lcom/android/ex/variablespeed/VariableSpeed;->lock:Ljava/lang/Object;
 

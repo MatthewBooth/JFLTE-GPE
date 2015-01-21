@@ -78,6 +78,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/ContactPhotoManagerImpl;Landroid/content/ContentResolver;)V
     .locals 1
+    .param p2    # Landroid/content/ContentResolver;
 
     iput-object p1, p0, Lcom/android/contacts/common/ContactPhotoManagerImpl$LoaderThread;->this$0:Lcom/android/contacts/common/ContactPhotoManagerImpl;
 
@@ -151,6 +152,7 @@
 
 .method private loadThumbnails(Z)V
     .locals 12
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/contacts/common/ContactPhotoManagerImpl$LoaderThread;->mPhotoIds:Ljava/util/Set;
 
@@ -1074,6 +1076,7 @@
 
 .method public handleMessage(Landroid/os/Message;)Z
     .locals 1
+    .param p1    # Landroid/os/Message;
 
     iget v0, p1, Landroid/os/Message;->what:I
 

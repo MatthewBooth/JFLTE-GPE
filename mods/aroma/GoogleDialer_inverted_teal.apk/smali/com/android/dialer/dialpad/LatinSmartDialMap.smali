@@ -67,6 +67,7 @@
 # virtual methods
 .method public getDialpadIndex(C)B
     .locals 2
+    .param p1    # C
 
     const/16 v0, 0x30
 
@@ -112,6 +113,7 @@
 
 .method public getDialpadNumericCharacter(C)C
     .locals 2
+    .param p1    # C
 
     const/16 v0, 0x61
 
@@ -133,6 +135,7 @@
 
 .method public isValidDialpadAlphabeticChar(C)Z
     .locals 1
+    .param p1    # C
 
     const/16 v0, 0x61
 
@@ -155,6 +158,7 @@
 
 .method public isValidDialpadCharacter(C)Z
     .locals 1
+    .param p1    # C
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/dialpad/LatinSmartDialMap;->isValidDialpadAlphabeticChar(C)Z
 
@@ -182,6 +186,7 @@
 
 .method public isValidDialpadNumericChar(C)Z
     .locals 1
+    .param p1    # C
 
     const/16 v0, 0x30
 
@@ -204,6 +209,7 @@
 
 .method public normalizeCharacter(C)C
     .locals 5
+    .param p1    # C
 
     const/16 v1, 0x65
 

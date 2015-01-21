@@ -44,6 +44,9 @@
 # virtual methods
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 4
+    .param p2    # Landroid/view/View;
+    .param p3    # I
+    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

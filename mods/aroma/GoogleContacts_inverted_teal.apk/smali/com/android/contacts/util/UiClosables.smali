@@ -6,6 +6,7 @@
 # direct methods
 .method public static closeQuietly(Landroid/widget/ListPopupWindow;)Z
     .locals 1
+    .param p0    # Landroid/widget/ListPopupWindow;
 
     if-eqz p0, :cond_0
 

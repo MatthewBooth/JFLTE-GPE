@@ -25,6 +25,8 @@
 # virtual methods
 .method protected onReceiveResult(ILandroid/os/Bundle;)V
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     const/4 v0, 0x2
 

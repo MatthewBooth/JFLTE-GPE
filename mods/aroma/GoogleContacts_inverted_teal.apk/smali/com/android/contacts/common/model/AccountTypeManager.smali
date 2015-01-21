@@ -32,6 +32,7 @@
 
 .method public static getInstance(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
     .locals 2
+    .param p0    # Landroid/content/Context;
 
     sget-object v1, Lcom/android/contacts/common/model/AccountTypeManager;->mInitializationLock:Ljava/lang/Object;
 
@@ -74,6 +75,7 @@
 
 .method public static setInstanceForTest(Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     sget-object v1, Lcom/android/contacts/common/model/AccountTypeManager;->mInitializationLock:Ljava/lang/Object;
 
@@ -100,6 +102,8 @@
 # virtual methods
 .method public contains(Lcom/android/contacts/common/model/account/AccountWithDataSet;Z)Z
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Z
 
     const/4 v2, 0x0
 
@@ -141,6 +145,8 @@
 
 .method public final getAccountType(Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-static {p1, p2}, Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;->get(Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;
 
@@ -155,6 +161,7 @@
 
 .method public final getAccountTypeForAccount(Lcom/android/contacts/common/model/account/AccountWithDataSet;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/model/account/AccountWithDataSet;->getAccountTypeWithDataSet()Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;
 
@@ -205,6 +212,8 @@
 
 .method public getKindOrFallback(Lcom/android/contacts/common/model/account/AccountType;Ljava/lang/String;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p2    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 

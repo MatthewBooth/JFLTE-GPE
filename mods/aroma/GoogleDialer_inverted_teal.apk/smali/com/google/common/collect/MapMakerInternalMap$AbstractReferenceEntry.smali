@@ -180,6 +180,7 @@
 
 .method public setExpirationTime(J)V
     .locals 1
+    .param p1    # J
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 

@@ -18,6 +18,7 @@
 
 .method public static asWriter(Ljava/lang/Appendable;)Ljava/io/Writer;
     .locals 1
+    .param p0    # Ljava/lang/Appendable;
 
     instance-of v0, p0, Ljava/io/Writer;
 
@@ -173,6 +174,7 @@
 
 .method public static copy(Lcom/google/common/io/InputSupplier;Ljava/lang/Appendable;)J
     .locals 5
+    .param p1    # Ljava/lang/Appendable;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R::",
@@ -228,6 +230,8 @@
 
 .method public static copy(Ljava/lang/Readable;Ljava/lang/Appendable;)J
     .locals 6
+    .param p0    # Ljava/lang/Readable;
+    .param p1    # Ljava/lang/Appendable;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -321,6 +325,7 @@
 
 .method public static newReaderSupplier(Lcom/google/common/io/InputSupplier;Ljava/nio/charset/Charset;)Lcom/google/common/io/InputSupplier;
     .locals 1
+    .param p1    # Ljava/nio/charset/Charset;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -350,6 +355,7 @@
 
 .method public static newReaderSupplier(Ljava/lang/String;)Lcom/google/common/io/InputSupplier;
     .locals 1
+    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -373,6 +379,7 @@
 
 .method public static newWriterSupplier(Lcom/google/common/io/OutputSupplier;Ljava/nio/charset/Charset;)Lcom/google/common/io/OutputSupplier;
     .locals 1
+    .param p1    # Ljava/nio/charset/Charset;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -592,6 +599,7 @@
 
 .method public static readLines(Ljava/lang/Readable;)Ljava/util/List;
     .locals 3
+    .param p0    # Ljava/lang/Readable;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -635,6 +643,8 @@
 
 .method public static skipFully(Ljava/io/Reader;J)V
     .locals 7
+    .param p0    # Ljava/io/Reader;
+    .param p1    # J
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -720,6 +730,7 @@
 
 .method public static toString(Ljava/lang/Readable;)Ljava/lang/String;
     .locals 1
+    .param p0    # Ljava/lang/Readable;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -793,6 +804,7 @@
 
 .method private static toStringBuilder(Ljava/lang/Readable;)Ljava/lang/StringBuilder;
     .locals 1
+    .param p0    # Ljava/lang/Readable;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -810,6 +822,7 @@
 
 .method public static write(Ljava/lang/CharSequence;Lcom/google/common/io/OutputSupplier;)V
     .locals 3
+    .param p0    # Ljava/lang/CharSequence;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<W::",

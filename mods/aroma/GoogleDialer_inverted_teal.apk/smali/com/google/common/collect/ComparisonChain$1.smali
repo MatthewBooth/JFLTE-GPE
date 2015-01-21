@@ -29,6 +29,7 @@
 # virtual methods
 .method classify(I)Lcom/google/common/collect/ComparisonChain;
     .locals 1
+    .param p1    # I
 
     if-gez p1, :cond_0
 
@@ -61,6 +62,8 @@
 
 .method public compare(II)Lcom/google/common/collect/ComparisonChain;
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     invoke-static {p1, p2}, Lcom/google/common/primitives/Ints;->compare(II)I
 
@@ -75,6 +78,8 @@
 
 .method public compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcom/google/common/collect/ComparisonChain;
     .locals 1
+    .param p1    # Ljava/lang/Comparable;
+    .param p2    # Ljava/lang/Comparable;
 
     invoke-interface {p1, p2}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 

@@ -57,6 +57,9 @@
 # virtual methods
 .method public clampViewPositionHorizontal(Landroid/view/View;II)I
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
 
     iget-object v1, p0, Landroid/support/v4/widget/DrawerLayout$ViewDragCallback;->this$0:Landroid/support/v4/widget/DrawerLayout;
 
@@ -113,6 +116,9 @@
 
 .method public clampViewPositionVertical(Landroid/view/View;II)I
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
 
     invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
@@ -123,6 +129,7 @@
 
 .method public getViewHorizontalDragRange(Landroid/view/View;)I
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Landroid/support/v4/widget/DrawerLayout$ViewDragCallback;->this$0:Landroid/support/v4/widget/DrawerLayout;
 
@@ -147,6 +154,8 @@
 
 .method public onEdgeDragStarted(II)V
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     and-int/lit8 v1, p1, 0x1
 
@@ -194,6 +203,7 @@
 
 .method public onEdgeLock(I)Z
     .locals 1
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -202,6 +212,8 @@
 
 .method public onEdgeTouched(II)V
     .locals 4
+    .param p1    # I
+    .param p2    # I
 
     iget-object v0, p0, Landroid/support/v4/widget/DrawerLayout$ViewDragCallback;->this$0:Landroid/support/v4/widget/DrawerLayout;
 
@@ -216,6 +228,8 @@
 
 .method public onViewCaptured(Landroid/view/View;I)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -234,6 +248,7 @@
 
 .method public onViewDragStateChanged(I)V
     .locals 3
+    .param p1    # I
 
     iget-object v0, p0, Landroid/support/v4/widget/DrawerLayout$ViewDragCallback;->this$0:Landroid/support/v4/widget/DrawerLayout;
 
@@ -252,6 +267,11 @@
 
 .method public onViewPositionChanged(Landroid/view/View;IIII)V
     .locals 5
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
@@ -322,6 +342,9 @@
 
 .method public onViewReleased(Landroid/view/View;FF)V
     .locals 8
+    .param p1    # Landroid/view/View;
+    .param p2    # F
+    .param p3    # F
 
     const/high16 v7, 0x3f000000
 
@@ -427,6 +450,8 @@
 
 .method public tryCaptureView(Landroid/view/View;I)Z
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     iget-object v0, p0, Landroid/support/v4/widget/DrawerLayout$ViewDragCallback;->this$0:Landroid/support/v4/widget/DrawerLayout;
 

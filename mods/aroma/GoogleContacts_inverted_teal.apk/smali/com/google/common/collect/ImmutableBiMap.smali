@@ -96,6 +96,7 @@
 # virtual methods
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableBiMap;->delegate()Lcom/google/common/collect/ImmutableMap;
 
@@ -110,6 +111,7 @@
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableBiMap;->inverse()Lcom/google/common/collect/ImmutableBiMap;
 
@@ -167,6 +169,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     if-eq p1, p0, :cond_0
 
@@ -194,6 +197,7 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

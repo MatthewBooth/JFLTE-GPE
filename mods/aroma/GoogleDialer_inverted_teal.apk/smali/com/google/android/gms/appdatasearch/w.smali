@@ -269,6 +269,7 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/appdatasearch/w;->G(Landroid/os/Parcel;)Lcom/google/android/gms/appdatasearch/QuerySpecification;
 
@@ -279,6 +280,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/appdatasearch/w;->ad(I)[Lcom/google/android/gms/appdatasearch/QuerySpecification;
 

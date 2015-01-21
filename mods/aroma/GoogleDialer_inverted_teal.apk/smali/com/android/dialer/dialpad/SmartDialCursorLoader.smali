@@ -31,6 +31,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -53,6 +54,7 @@
 
 .method private releaseResources(Landroid/database/Cursor;)V
     .locals 0
+    .param p1    # Landroid/database/Cursor;
 
     if-eqz p1, :cond_0
 
@@ -66,6 +68,7 @@
 # virtual methods
 .method public configureQuery(Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     invoke-static {}, Lcom/android/dialer/dialpad/SmartDialPrefix;->getMap()Lcom/android/dialer/dialpad/SmartDialMap;
 
@@ -94,6 +97,7 @@
 
 .method public deliverResult(Landroid/database/Cursor;)V
     .locals 2
+    .param p1    # Landroid/database/Cursor;
 
     invoke-virtual {p0}, Lcom/android/dialer/dialpad/SmartDialCursorLoader;->isReset()Z
 
@@ -132,6 +136,7 @@
 
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Landroid/database/Cursor;
 
@@ -254,6 +259,7 @@
 
 .method public onCanceled(Landroid/database/Cursor;)V
     .locals 0
+    .param p1    # Landroid/database/Cursor;
 
     invoke-super {p0, p1}, Landroid/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V
 
@@ -264,6 +270,7 @@
 
 .method public bridge synthetic onCanceled(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Landroid/database/Cursor;
 

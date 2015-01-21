@@ -49,6 +49,7 @@
 
 .method private getFragment(I)Landroid/app/Fragment;
     .locals 3
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->this$0:Lcom/android/contacts/activities/PeopleActivity;
 
@@ -164,6 +165,9 @@
 # virtual methods
 .method public destroyItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 1
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
+    .param p3    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->mCurTransaction:Landroid/app/FragmentTransaction;
 
@@ -189,6 +193,7 @@
 
 .method public finishUpdate(Landroid/view/ViewGroup;)V
     .locals 1
+    .param p1    # Landroid/view/ViewGroup;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->mCurTransaction:Landroid/app/FragmentTransaction;
 
@@ -230,6 +235,7 @@
 
 .method public getItemPosition(Ljava/lang/Object;)I
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -297,6 +303,7 @@
 
 .method public getPageTitle(I)Ljava/lang/CharSequence;
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->this$0:Lcom/android/contacts/activities/PeopleActivity;
 
@@ -312,6 +319,8 @@
 
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 2
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
 
     iget-object v1, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->mCurTransaction:Landroid/app/FragmentTransaction;
 
@@ -361,6 +370,8 @@
 
 .method public isViewFromObject(Landroid/view/View;Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Landroid/app/Fragment;
 
@@ -383,6 +394,8 @@
 
 .method public restoreState(Landroid/os/Parcelable;Ljava/lang/ClassLoader;)V
     .locals 0
+    .param p1    # Landroid/os/Parcelable;
+    .param p2    # Ljava/lang/ClassLoader;
 
     return-void
 .end method
@@ -397,6 +410,9 @@
 
 .method public setPrimaryItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 3
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
+    .param p3    # Ljava/lang/Object;
 
     move-object v0, p3
 
@@ -432,6 +448,7 @@
 
 .method public setSearchMode(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;->mTabPagerAdapterSearchMode:Z
 
@@ -450,6 +467,7 @@
 
 .method public startUpdate(Landroid/view/ViewGroup;)V
     .locals 0
+    .param p1    # Landroid/view/ViewGroup;
 
     return-void
 .end method

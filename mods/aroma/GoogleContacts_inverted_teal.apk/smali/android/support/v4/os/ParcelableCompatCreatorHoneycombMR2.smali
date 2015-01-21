@@ -52,6 +52,7 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 2
+    .param p1    # Landroid/os/Parcel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -73,6 +74,8 @@
 
 .method public createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # Ljava/lang/ClassLoader;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -93,6 +96,7 @@
 
 .method public newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)[TT;"

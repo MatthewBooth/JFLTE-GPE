@@ -34,6 +34,7 @@
 # virtual methods
 .method protected cacheContactInfo(I)V
     .locals 4
+    .param p1    # I
 
     sget-object v1, Lcom/android/dialer/list/RegularSearchFragment;->mCachedNumberLookupService:Lcom/android/dialer/service/CachedNumberLookupService;
 
@@ -103,6 +104,8 @@
 
 .method protected onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2}, Lcom/android/dialer/list/SearchFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
 

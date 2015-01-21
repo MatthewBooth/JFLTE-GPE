@@ -221,6 +221,7 @@
 
 .method static synthetic access$000(Lcom/google/common/collect/RegularImmutableMap;)[Lcom/google/common/collect/RegularImmutableMap$LinkedEntry;
     .locals 1
+    .param p0    # Lcom/google/common/collect/RegularImmutableMap;
 
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap;->entries:[Lcom/google/common/collect/RegularImmutableMap$LinkedEntry;
 
@@ -229,6 +230,7 @@
 
 .method static synthetic access$100(Lcom/google/common/collect/RegularImmutableMap;)I
     .locals 1
+    .param p0    # Lcom/google/common/collect/RegularImmutableMap;
 
     iget v0, p0, Lcom/google/common/collect/RegularImmutableMap;->keySetHashCode:I
 
@@ -237,6 +239,7 @@
 
 .method private static chooseTableSize(I)I
     .locals 6
+    .param p0    # I
 
     const/4 v2, 0x1
 
@@ -275,6 +278,7 @@
 
 .method private createEntryArray(I)[Lcom/google/common/collect/RegularImmutableMap$LinkedEntry;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)[",
@@ -327,6 +331,7 @@
 # virtual methods
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v4, 0x0
 
@@ -406,6 +411,7 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 6
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

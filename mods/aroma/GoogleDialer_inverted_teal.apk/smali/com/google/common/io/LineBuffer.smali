@@ -26,6 +26,7 @@
 
 .method private finishLine(Z)Z
     .locals 2
+    .param p1    # Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -83,6 +84,9 @@
 # virtual methods
 .method protected add([CII)V
     .locals 8
+    .param p1    # [C
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

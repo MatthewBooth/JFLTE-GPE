@@ -50,6 +50,14 @@
 
 .method public constructor <init>(IIIZZZILjava/lang/Integer;)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # Z
+    .param p5    # Z
+    .param p6    # Z
+    .param p7    # I
+    .param p8    # Ljava/lang/Integer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -86,6 +94,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -429,6 +438,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/location/reporting/ReportingState;->CREATOR:Lcom/google/android/gms/location/reporting/d;
 

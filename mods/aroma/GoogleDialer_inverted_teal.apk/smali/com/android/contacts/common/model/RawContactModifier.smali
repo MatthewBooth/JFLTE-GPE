@@ -138,6 +138,8 @@
 
 .method public static getTypePrecedence(Lcom/android/contacts/common/model/dataitem/DataKind;I)I
     .locals 3
+    .param p0    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p1    # I
 
     const/4 v0, 0x0
 

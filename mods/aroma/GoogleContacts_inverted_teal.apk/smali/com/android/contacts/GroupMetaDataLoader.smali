@@ -76,6 +76,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 7
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/net/Uri;
 
     const/4 v5, 0x0
 
@@ -100,6 +102,7 @@
 
 .method private static ensureIsGroupUri(Landroid/net/Uri;)Landroid/net/Uri;
     .locals 3
+    .param p0    # Landroid/net/Uri;
 
     if-nez p0, :cond_0
 

@@ -23,6 +23,8 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/voicemail/VoicemailStatusHelper$StatusMessage;I)V
     .locals 0
+    .param p1    # Lcom/android/dialer/voicemail/VoicemailStatusHelper$StatusMessage;
+    .param p2    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -35,6 +37,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
 
     iget v0, p0, Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;->mPriority:I
 
@@ -43,6 +46,7 @@
 
 .method static synthetic access$100(Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;)Lcom/android/dialer/voicemail/VoicemailStatusHelper$StatusMessage;
     .locals 1
+    .param p0    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;->mMessage:Lcom/android/dialer/voicemail/VoicemailStatusHelper$StatusMessage;
 

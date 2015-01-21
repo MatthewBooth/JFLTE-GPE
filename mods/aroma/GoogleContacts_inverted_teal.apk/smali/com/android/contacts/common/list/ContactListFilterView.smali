@@ -38,6 +38,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
@@ -46,6 +47,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -54,6 +57,8 @@
 
 .method private bindView(II)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
 
     if-eqz p1, :cond_0
 
@@ -88,6 +93,7 @@
 # virtual methods
 .method public bindView(Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     const/4 v3, 0x0
 
@@ -293,6 +299,7 @@
 
 .method public setActivated(Z)V
     .locals 2
+    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setActivated(Z)V
 
@@ -319,6 +326,7 @@
 
 .method public setContactListFilter(Lcom/android/contacts/common/list/ContactListFilter;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactListFilterView;->mFilter:Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -327,6 +335,7 @@
 
 .method public setSingleAccount(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ContactListFilterView;->mSingleAccount:Z
 

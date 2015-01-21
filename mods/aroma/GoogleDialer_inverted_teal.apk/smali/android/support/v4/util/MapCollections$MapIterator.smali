@@ -71,6 +71,7 @@
 # virtual methods
 .method public final equals(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

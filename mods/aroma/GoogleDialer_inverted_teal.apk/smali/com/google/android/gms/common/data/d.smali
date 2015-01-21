@@ -115,6 +115,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -174,6 +175,7 @@
 
 .method protected getBoolean(Ljava/lang/String;)Z
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -190,6 +192,7 @@
 
 .method protected getByteArray(Ljava/lang/String;)[B
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -206,6 +209,7 @@
 
 .method protected getDouble(Ljava/lang/String;)D
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -222,6 +226,7 @@
 
 .method protected getFloat(Ljava/lang/String;)F
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -238,6 +243,7 @@
 
 .method protected getInteger(Ljava/lang/String;)I
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -254,6 +260,7 @@
 
 .method protected getLong(Ljava/lang/String;)J
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 
@@ -270,6 +277,7 @@
 
 .method protected getString(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/data/d;->mDataHolder:Lcom/google/android/gms/common/data/DataHolder;
 

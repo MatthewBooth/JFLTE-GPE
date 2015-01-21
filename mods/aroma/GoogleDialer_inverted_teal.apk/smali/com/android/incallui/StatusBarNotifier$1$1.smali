@@ -36,6 +36,7 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)Z
     .locals 1
+    .param p1    # Landroid/os/Message;
 
     iget-object v0, p0, Lcom/android/incallui/StatusBarNotifier$1$1;->this$1:Lcom/android/incallui/StatusBarNotifier$1;
 

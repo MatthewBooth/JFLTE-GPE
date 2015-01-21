@@ -52,6 +52,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -68,6 +70,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -84,6 +89,8 @@
 
 .method static synthetic access$000(Lcom/android/phone/common/dialpad/DialpadKeyButton;Z)V
     .locals 0
+    .param p0    # Lcom/android/phone/common/dialpad/DialpadKeyButton;
+    .param p1    # Z
 
     invoke-direct {p0, p1}, Lcom/android/phone/common/dialpad/DialpadKeyButton;->setLongHovered(Z)V
 
@@ -92,6 +99,7 @@
 
 .method static synthetic access$100(Lcom/android/phone/common/dialpad/DialpadKeyButton;)Ljava/lang/CharSequence;
     .locals 1
+    .param p0    # Lcom/android/phone/common/dialpad/DialpadKeyButton;
 
     iget-object v0, p0, Lcom/android/phone/common/dialpad/DialpadKeyButton;->mLongHoverContentDesc:Ljava/lang/CharSequence;
 
@@ -119,6 +127,7 @@
 
 .method private initForAccessibility(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const-string v0, "accessibility"
 
@@ -135,6 +144,7 @@
 
 .method private setLongHovered(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/phone/common/dialpad/DialpadKeyButton;->mLongHovered:Z
 
@@ -196,6 +206,7 @@
 # virtual methods
 .method public onHoverEvent(Landroid/view/MotionEvent;)Z
     .locals 5
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v4, 0x0
 
@@ -331,6 +342,10 @@
 
 .method public onSizeChanged(IIII)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
@@ -375,6 +390,8 @@
 
 .method public performAccessibilityAction(ILandroid/os/Bundle;)Z
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     const/16 v0, 0x10
 
@@ -397,6 +414,7 @@
 
 .method public setContentDescription(Ljava/lang/CharSequence;)V
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
 
     iget-boolean v0, p0, Lcom/android/phone/common/dialpad/DialpadKeyButton;->mLongHovered:Z
 
@@ -415,6 +433,7 @@
 
 .method public setLongHoverContentDescription(Ljava/lang/CharSequence;)V
     .locals 1
+    .param p1    # Ljava/lang/CharSequence;
 
     iput-object p1, p0, Lcom/android/phone/common/dialpad/DialpadKeyButton;->mLongHoverContentDesc:Ljava/lang/CharSequence;
 
@@ -432,6 +451,7 @@
 
 .method public setOnPressedListener(Lcom/android/phone/common/dialpad/DialpadKeyButton$OnPressedListener;)V
     .locals 0
+    .param p1    # Lcom/android/phone/common/dialpad/DialpadKeyButton$OnPressedListener;
 
     iput-object p1, p0, Lcom/android/phone/common/dialpad/DialpadKeyButton;->mOnPressedListener:Lcom/android/phone/common/dialpad/DialpadKeyButton$OnPressedListener;
 
@@ -440,6 +460,7 @@
 
 .method public setPressed(Z)V
     .locals 1
+    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setPressed(Z)V
 

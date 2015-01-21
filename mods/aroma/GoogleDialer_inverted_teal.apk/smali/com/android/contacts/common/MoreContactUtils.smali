@@ -32,6 +32,8 @@
 
 .method public static getInvitableIntent(Lcom/android/contacts/common/model/account/AccountType;Landroid/net/Uri;)Landroid/content/Intent;
     .locals 4
+    .param p0    # Lcom/android/contacts/common/model/account/AccountType;
+    .param p1    # Landroid/net/Uri;
 
     iget-object v2, p0, Lcom/android/contacts/common/model/account/AccountType;->syncAdapterPackageName:Ljava/lang/String;
 
@@ -75,6 +77,7 @@
 
 .method public static getTargetRectFromView(Landroid/view/View;)Landroid/graphics/Rect;
     .locals 5
+    .param p0    # Landroid/view/View;
 
     const/4 v4, 0x1
 
@@ -123,6 +126,10 @@
 
 .method public static shouldCollapse(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
     .locals 2
+    .param p0    # Ljava/lang/CharSequence;
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # Ljava/lang/CharSequence;
+    .param p3    # Ljava/lang/CharSequence;
 
     const/4 v0, 0x0
 
@@ -177,6 +184,8 @@
 
 .method private static shouldCollapsePhoneNumbers(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 13
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
 
     const/4 v10, 0x1
 

@@ -22,6 +22,7 @@
 # virtual methods
 .method public setBaseContext(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -52,6 +53,7 @@
 
 .method public startActivity(Landroid/content/Intent;)V
     .locals 1
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ha$a;->wN:Landroid/app/Activity;
 

@@ -71,6 +71,7 @@
 
 .method private configureAnswerTargetsForSms(Lcom/android/incallui/Call;Ljava/util/List;)V
     .locals 5
+    .param p1    # Lcom/android/incallui/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -205,6 +206,7 @@
 
 .method private processIncomingCall(Lcom/android/incallui/Call;)V
     .locals 4
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getId()Ljava/lang/String;
 
@@ -285,6 +287,7 @@
 
 .method private processVideoUpgradeRequestCall(Lcom/android/incallui/Call;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getId()Ljava/lang/String;
 
@@ -329,6 +332,8 @@
 # virtual methods
 .method public onAnswer(ILandroid/content/Context;)V
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/content/Context;
 
     iget-object v0, p0, Lcom/android/incallui/AnswerPresenter;->mCallId:Ljava/lang/String;
 
@@ -396,6 +401,7 @@
 
 .method public onCallChanged(Lcom/android/incallui/Call;)V
     .locals 4
+    .param p1    # Lcom/android/incallui/Call;
 
     const/4 v3, 0x0
 
@@ -489,6 +495,7 @@
 
 .method public onCallListChange(Lcom/android/incallui/CallList;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/CallList;
 
     return-void
 .end method
@@ -539,6 +546,7 @@
 
 .method public onDisconnect(Lcom/android/incallui/Call;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Call;
 
     return-void
 .end method
@@ -557,6 +565,7 @@
 
 .method public onIncomingCall(Lcom/android/incallui/Call;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -625,6 +634,7 @@
 
 .method public onUiReady(Lcom/android/incallui/AnswerPresenter$AnswerUi;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/AnswerPresenter$AnswerUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiReady(Lcom/android/incallui/Ui;)V
 
@@ -657,6 +667,7 @@
 
 .method public bridge synthetic onUiReady(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/AnswerPresenter$AnswerUi;
 
@@ -667,6 +678,7 @@
 
 .method public onUiUnready(Lcom/android/incallui/AnswerPresenter$AnswerUi;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/AnswerPresenter$AnswerUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiUnready(Lcom/android/incallui/Ui;)V
 
@@ -694,6 +706,7 @@
 
 .method public bridge synthetic onUiUnready(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/AnswerPresenter$AnswerUi;
 
@@ -704,6 +717,7 @@
 
 .method public rejectCallWithMessage(Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "sendTextToDefaultActivity()..."
 

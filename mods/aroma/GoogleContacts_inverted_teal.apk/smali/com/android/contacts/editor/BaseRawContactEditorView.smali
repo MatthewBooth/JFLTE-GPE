@@ -18,6 +18,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
@@ -34,6 +35,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -117,12 +120,14 @@
 
 .method public setGroupMetaData(Landroid/database/Cursor;)V
     .locals 0
+    .param p1    # Landroid/database/Cursor;
 
     return-void
 .end method
 
 .method protected setHasPhotoEditor(Z)V
     .locals 2
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/BaseRawContactEditorView;->mHasPhotoEditor:Z
 
@@ -145,6 +150,7 @@
 
 .method public setPhotoBitmap(Landroid/graphics/Bitmap;)V
     .locals 1
+    .param p1    # Landroid/graphics/Bitmap;
 
     iget-object v0, p0, Lcom/android/contacts/editor/BaseRawContactEditorView;->mPhoto:Lcom/android/contacts/editor/PhotoEditorView;
 

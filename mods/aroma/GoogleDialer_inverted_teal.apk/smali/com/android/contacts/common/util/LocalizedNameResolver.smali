@@ -6,6 +6,8 @@
 # direct methods
 .method public static getAllContactsName(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     if-nez p0, :cond_0
 
@@ -35,6 +37,9 @@
 
 .method private static loadAllContactsNameFromXml(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
     .locals 12
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lorg/xmlpull/v1/XmlPullParser;
+    .param p2    # Ljava/lang/String;
 
     :try_start_0
     invoke-static {p1}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
@@ -252,6 +257,8 @@
 
 .method private static resolveAllContactsName(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
@@ -300,6 +307,8 @@
 
 .method private static resolveAllContactsNameFromMetaData(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 11
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 

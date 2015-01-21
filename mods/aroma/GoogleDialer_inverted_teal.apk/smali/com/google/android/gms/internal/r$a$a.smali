@@ -229,6 +229,7 @@
 
 .method public getAccountChangeEvents(Lcom/google/android/gms/auth/AccountChangeEventsRequest;)Lcom/google/android/gms/auth/AccountChangeEventsResponse;
     .locals 5
+    .param p1    # Lcom/google/android/gms/auth/AccountChangeEventsRequest;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;

@@ -14,6 +14,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -54,6 +55,8 @@
 
 .method private assignShortcutToView(Lcom/android/contacts/common/list/ContactListItemView;I)V
     .locals 7
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # I
 
     const/4 v6, 0x0
 
@@ -171,6 +174,7 @@
 
 .method public getItemViewType(I)I
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;->getShortcutTypeFromPosition(I)I
 
@@ -228,6 +232,7 @@
 
 .method public getShortcutTypeFromPosition(I)I
     .locals 4
+    .param p1    # I
 
     invoke-super {p0}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getCount()I
 
@@ -283,6 +288,9 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 4
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;->getShortcutTypeFromPosition(I)I
 
@@ -366,6 +374,7 @@
 
 .method public isEnabled(I)Z
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;->getShortcutTypeFromPosition(I)I
 
@@ -388,6 +397,7 @@
 
 .method public setQueryString(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/telephony/PhoneNumberUtils;->normalizeNumber(Ljava/lang/String;)Ljava/lang/String;
 
@@ -408,6 +418,8 @@
 
 .method public setShortcutEnabled(IZ)Z
     .locals 2
+    .param p1    # I
+    .param p2    # Z
 
     iget-object v1, p0, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;->mShortcutEnabled:[Z
 

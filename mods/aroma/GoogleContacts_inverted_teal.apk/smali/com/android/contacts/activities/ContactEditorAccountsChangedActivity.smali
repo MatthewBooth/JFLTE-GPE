@@ -54,6 +54,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;)Lcom/android/contacts/common/util/AccountsListAdapter;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;->mAccountListAdapter:Lcom/android/contacts/common/util/AccountsListAdapter;
 
@@ -62,6 +63,8 @@
 
 .method static synthetic access$100(Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;->saveAccountAndReturnResult(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
 
@@ -70,6 +73,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;)Lcom/android/contacts/editor/ContactEditorUtils;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;->mEditorUtils:Lcom/android/contacts/editor/ContactEditorUtils;
 
@@ -78,6 +82,7 @@
 
 .method private saveAccountAndReturnResult(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     iget-object v1, p0, Lcom/android/contacts/activities/ContactEditorAccountsChangedActivity;->mEditorUtils:Lcom/android/contacts/editor/ContactEditorUtils;
 
@@ -104,6 +109,9 @@
 # virtual methods
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Landroid/content/Intent;
 
     const/4 v1, 0x1
 
@@ -140,6 +148,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 14
+    .param p1    # Landroid/os/Bundle;
 
     const v13, 0x7f0b01c7
 

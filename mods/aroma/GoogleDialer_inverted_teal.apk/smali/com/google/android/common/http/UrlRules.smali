@@ -63,6 +63,7 @@
 
 .method public constructor <init>([Lcom/google/android/common/http/UrlRules$Rule;)V
     .locals 4
+    .param p1    # [Lcom/google/android/common/http/UrlRules$Rule;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -142,6 +143,7 @@
 
 .method public static declared-synchronized getRules(Landroid/content/ContentResolver;)Lcom/google/android/common/http/UrlRules;
     .locals 12
+    .param p0    # Landroid/content/ContentResolver;
 
     const-class v9, Lcom/google/android/common/http/UrlRules;
 
@@ -427,6 +429,7 @@
 # virtual methods
 .method public matchRule(Ljava/lang/String;)Lcom/google/android/common/http/UrlRules$Rule;
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v2, p0, Lcom/google/android/common/http/UrlRules;->mPattern:Ljava/util/regex/Pattern;
 

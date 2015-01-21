@@ -6,6 +6,8 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/preference/RingtonePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -16,6 +18,7 @@
 # virtual methods
 .method protected onPrepareRingtonePickerIntent(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     invoke-super {p0, p1}, Landroid/preference/RingtonePreference;->onPrepareRingtonePickerIntent(Landroid/content/Intent;)V
 
@@ -48,6 +51,7 @@
 
 .method protected onSaveRingtone(Landroid/net/Uri;)V
     .locals 2
+    .param p1    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Lcom/android/dialer/settings/DefaultRingtonePreference;->getContext()Landroid/content/Context;
 

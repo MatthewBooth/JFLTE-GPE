@@ -71,6 +71,18 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/wallet/Address;Lcom/google/android/gms/wallet/Address;[Lcom/google/android/gms/wallet/LoyaltyWalletObject;[Lcom/google/android/gms/wallet/OfferWalletObject;Lcom/google/android/gms/identity/intents/model/UserAddress;Lcom/google/android/gms/identity/intents/model/UserAddress;[Lcom/google/android/gms/wallet/InstrumentInfo;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # [Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Lcom/google/android/gms/wallet/Address;
+    .param p7    # Lcom/google/android/gms/wallet/Address;
+    .param p8    # [Lcom/google/android/gms/wallet/LoyaltyWalletObject;
+    .param p9    # [Lcom/google/android/gms/wallet/OfferWalletObject;
+    .param p10    # Lcom/google/android/gms/identity/intents/model/UserAddress;
+    .param p11    # Lcom/google/android/gms/identity/intents/model/UserAddress;
+    .param p12    # [Lcom/google/android/gms/wallet/InstrumentInfo;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -121,6 +133,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/k;->a(Lcom/google/android/gms/wallet/MaskedWallet;Landroid/os/Parcel;I)V
 

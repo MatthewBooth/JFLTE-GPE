@@ -38,6 +38,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;Z)V
     .locals 1
+    .param p2    # Z
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardSelectedListener;->this$0:Lcom/android/contacts/common/vcard/ImportVCardActivity;
 
@@ -63,6 +64,8 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 6
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
 
     const/4 v3, -0x1
 
@@ -209,6 +212,9 @@
 
 .method public onClick(Landroid/content/DialogInterface;IZ)V
     .locals 5
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
+    .param p3    # Z
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardSelectedListener;->mSelectedIndexSet:Ljava/util/Set;
 

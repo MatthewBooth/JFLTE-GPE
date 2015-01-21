@@ -33,6 +33,8 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;
 
     const/4 v0, 0x0
 
@@ -43,6 +45,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;
+    .param p3    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     const/4 v1, 0x0
 
@@ -110,6 +115,7 @@
 
 .method private getAccounts(Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;)Ljava/util/List;
     .locals 3
+    .param p1    # Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -183,6 +189,7 @@
 
 .method public getItem(I)Lcom/android/contacts/common/model/account/AccountWithDataSet;
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/util/AccountsListAdapter;->mAccounts:Ljava/util/List;
 
@@ -197,6 +204,7 @@
 
 .method public bridge synthetic getItem(I)Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/util/AccountsListAdapter;->getItem(I)Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
@@ -207,6 +215,7 @@
 
 .method public getItemId(I)J
     .locals 2
+    .param p1    # I
 
     int-to-long v0, p1
 
@@ -215,6 +224,9 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 9
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     if-eqz p2, :cond_0
 

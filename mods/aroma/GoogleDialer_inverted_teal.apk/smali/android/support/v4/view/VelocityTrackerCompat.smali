@@ -48,6 +48,8 @@
 
 .method public static getXVelocity(Landroid/view/VelocityTracker;I)F
     .locals 1
+    .param p0    # Landroid/view/VelocityTracker;
+    .param p1    # I
 
     sget-object v0, Landroid/support/v4/view/VelocityTrackerCompat;->IMPL:Landroid/support/v4/view/VelocityTrackerCompat$VelocityTrackerVersionImpl;
 
@@ -60,6 +62,8 @@
 
 .method public static getYVelocity(Landroid/view/VelocityTracker;I)F
     .locals 1
+    .param p0    # Landroid/view/VelocityTracker;
+    .param p1    # I
 
     sget-object v0, Landroid/support/v4/view/VelocityTrackerCompat;->IMPL:Landroid/support/v4/view/VelocityTrackerCompat$VelocityTrackerVersionImpl;
 

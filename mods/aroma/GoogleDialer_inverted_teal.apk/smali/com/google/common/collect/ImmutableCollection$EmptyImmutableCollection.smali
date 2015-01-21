@@ -50,6 +50,7 @@
 
 .method synthetic constructor <init>(Lcom/google/common/collect/ImmutableCollection$1;)V
     .locals 0
+    .param p1    # Lcom/google/common/collect/ImmutableCollection$1;
 
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableCollection$EmptyImmutableCollection;-><init>()V
 
@@ -60,6 +61,7 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 

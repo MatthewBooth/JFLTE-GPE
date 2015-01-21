@@ -41,6 +41,9 @@
 # virtual methods
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/CallList;
 
     invoke-virtual {p3}, Lcom/android/incallui/CallList;->getActiveCall()Lcom/android/incallui/Call;
 
@@ -75,6 +78,7 @@
 
 .method public onUiReady(Lcom/android/incallui/DialpadPresenter$DialpadUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/DialpadPresenter$DialpadUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiReady(Lcom/android/incallui/Ui;)V
 
@@ -99,6 +103,7 @@
 
 .method public bridge synthetic onUiReady(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/DialpadPresenter$DialpadUi;
 
@@ -109,6 +114,7 @@
 
 .method public onUiUnready(Lcom/android/incallui/DialpadPresenter$DialpadUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/DialpadPresenter$DialpadUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiUnready(Lcom/android/incallui/Ui;)V
 
@@ -123,6 +129,7 @@
 
 .method public bridge synthetic onUiUnready(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/DialpadPresenter$DialpadUi;
 
@@ -133,6 +140,7 @@
 
 .method public final processDtmf(C)V
     .locals 2
+    .param p1    # C
 
     new-instance v0, Ljava/lang/StringBuilder;
 

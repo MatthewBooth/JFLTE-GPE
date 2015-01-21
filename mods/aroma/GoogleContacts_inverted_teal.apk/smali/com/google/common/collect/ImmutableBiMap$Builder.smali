@@ -99,6 +99,8 @@
 
 .method public bridge synthetic put(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap$Builder;
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableBiMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableBiMap$Builder;
 

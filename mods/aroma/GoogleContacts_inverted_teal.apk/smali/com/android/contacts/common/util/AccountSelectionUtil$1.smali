@@ -32,6 +32,8 @@
 # direct methods
 .method constructor <init>(Landroid/content/Context;ILjava/util/List;Landroid/view/LayoutInflater;Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
 
     iput-object p4, p0, Lcom/android/contacts/common/util/AccountSelectionUtil$1;->val$dialogInflater:Landroid/view/LayoutInflater;
 
@@ -46,6 +48,9 @@
 # virtual methods
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 8
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     if-nez p2, :cond_0
 

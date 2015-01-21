@@ -62,6 +62,7 @@
 
 .method public setDisplayAddress(Ljava/lang/String;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->aCz:Ljava/lang/String;
 
@@ -70,6 +71,7 @@
 
 .method public setLat(Ljava/lang/Double;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/Double;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->aCv:Ljava/lang/Double;
 
@@ -78,6 +80,7 @@
 
 .method public setLng(Ljava/lang/Double;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/Double;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->aCw:Ljava/lang/Double;
 
@@ -86,6 +89,7 @@
 
 .method public setLocationType(Ljava/lang/Integer;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/Integer;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->aCy:Ljava/lang/Integer;
 
@@ -94,6 +98,7 @@
 
 .method public setName(Ljava/lang/String;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->mName:Ljava/lang/String;
 
@@ -102,6 +107,7 @@
 
 .method public setRadiusMeters(Ljava/lang/Integer;)Lcom/google/android/gms/reminders/model/Location$Builder;
     .locals 0
+    .param p1    # Ljava/lang/Integer;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Location$Builder;->aCx:Ljava/lang/Integer;
 

@@ -24,6 +24,7 @@
 
 .method static synthetic access$000(Lcom/android/phone/common/CallLogAsync;)V
     .locals 0
+    .param p0    # Lcom/android/phone/common/CallLogAsync;
 
     invoke-direct {p0}, Lcom/android/phone/common/CallLogAsync;->assertUiThread()V
 
@@ -63,6 +64,7 @@
 # virtual methods
 .method public getLastOutgoingCall(Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallArgs;)Landroid/os/AsyncTask;
     .locals 3
+    .param p1    # Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallArgs;
 
     invoke-direct {p0}, Lcom/android/phone/common/CallLogAsync;->assertUiThread()V
 

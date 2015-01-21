@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;Lcom/android/contacts/editor/ContactEditorFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;
+    .param p2    # Lcom/android/contacts/editor/ContactEditorFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler$PhotoEditorListener;-><init>(Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;)V
 
@@ -59,12 +61,14 @@
 
 .method public onDeleteRequested(Lcom/android/contacts/editor/Editor;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/editor/Editor;
 
     return-void
 .end method
 
 .method public onPhotoSelected(Landroid/net/Uri;)V
     .locals 4
+    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
@@ -163,6 +167,7 @@
 
 .method public onRequest(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler$PhotoEditorListener;->this$1:Lcom/android/contacts/editor/ContactEditorFragment$PhotoHandler;
 

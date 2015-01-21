@@ -27,6 +27,7 @@
 # virtual methods
 .method protected getTypeLabelResource(Ljava/lang/Integer;)I
     .locals 1
+    .param p1    # Ljava/lang/Integer;
 
     invoke-static {p1}, Lcom/android/contacts/common/util/ContactDisplayUtils;->getPhoneLabelResourceId(Ljava/lang/Integer;)I
 
@@ -37,6 +38,7 @@
 
 .method protected isCustom(Ljava/lang/Integer;)Z
     .locals 1
+    .param p1    # Ljava/lang/Integer;
 
     invoke-static {p1}, Lcom/android/contacts/common/util/ContactDisplayUtils;->isCustomPhoneType(Ljava/lang/Integer;)Z
 

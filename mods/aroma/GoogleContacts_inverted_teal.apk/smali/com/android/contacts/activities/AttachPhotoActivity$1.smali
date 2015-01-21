@@ -36,6 +36,7 @@
 # virtual methods
 .method public onContactLoaded(Lcom/android/contacts/common/model/Contact;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     iget-object v0, p0, Lcom/android/contacts/activities/AttachPhotoActivity$1;->this$0:Lcom/android/contacts/activities/AttachPhotoActivity;
 

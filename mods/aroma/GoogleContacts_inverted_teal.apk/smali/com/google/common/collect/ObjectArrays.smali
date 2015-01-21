@@ -6,6 +6,7 @@
 # direct methods
 .method private static fillArray(Ljava/lang/Iterable;[Ljava/lang/Object;)[Ljava/lang/Object;
     .locals 5
+    .param p1    # [Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -48,6 +49,7 @@
 
 .method public static newArray([Ljava/lang/Object;I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",

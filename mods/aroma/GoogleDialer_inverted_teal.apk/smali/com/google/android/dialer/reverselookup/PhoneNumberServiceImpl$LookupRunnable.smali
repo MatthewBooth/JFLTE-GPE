@@ -32,6 +32,10 @@
 # direct methods
 .method public constructor <init>(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Ljava/lang/String;Lcom/android/incallui/service/PhoneNumberService$NumberLookupListener;Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;Z)V
     .locals 0
+    .param p2    # Ljava/lang/String;
+    .param p3    # Lcom/android/incallui/service/PhoneNumberService$NumberLookupListener;
+    .param p4    # Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;
+    .param p5    # Z
 
     iput-object p1, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$LookupRunnable;->this$0:Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
@@ -50,6 +54,7 @@
 
 .method private doLookup(Ljava/lang/String;)Landroid/util/Pair;
     .locals 14
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

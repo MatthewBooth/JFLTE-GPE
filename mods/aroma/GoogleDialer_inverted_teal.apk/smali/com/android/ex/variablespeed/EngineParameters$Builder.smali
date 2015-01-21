@@ -83,6 +83,7 @@
 # virtual methods
 .method public audioStreamType(I)Lcom/android/ex/variablespeed/EngineParameters$Builder;
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/ex/variablespeed/EngineParameters$Builder;->mAudioStreamType:I
 
@@ -121,6 +122,7 @@
 
 .method public initialRate(F)Lcom/android/ex/variablespeed/EngineParameters$Builder;
     .locals 0
+    .param p1    # F
 
     iput p1, p0, Lcom/android/ex/variablespeed/EngineParameters$Builder;->mInitialRate:F
 
@@ -129,6 +131,7 @@
 
 .method public startPositionMillis(I)Lcom/android/ex/variablespeed/EngineParameters$Builder;
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/ex/variablespeed/EngineParameters$Builder;->mStartPositionMillis:I
 

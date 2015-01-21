@@ -53,6 +53,7 @@
 
 .method public constructor <init>(Landroid/content/ContentResolver;)V
     .locals 1
+    .param p1    # Landroid/content/ContentResolver;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -257,6 +258,7 @@
 
 .method public onEntryCreated(Lcom/android/vcard/VCardEntry;)V
     .locals 6
+    .param p1    # Lcom/android/vcard/VCardEntry;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 

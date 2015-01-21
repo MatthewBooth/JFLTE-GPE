@@ -50,6 +50,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -62,6 +63,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const v0, 0x1010074
 
@@ -72,6 +75,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     const/4 v1, 0x0
 
@@ -100,6 +106,9 @@
 
 .method private drawHeader(Landroid/graphics/Canvas;Lcom/android/contacts/common/list/PinnedHeaderListView$PinnedHeader;J)V
     .locals 9
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Lcom/android/contacts/common/list/PinnedHeaderListView$PinnedHeader;
+    .param p3    # J
 
     const/4 v7, 0x0
 
@@ -235,6 +244,7 @@
 
 .method private ensurePinnedHeaderLayout(I)V
     .locals 8
+    .param p1    # I
 
     const/high16 v7, 0x40000000
 
@@ -359,6 +369,7 @@
 
 .method private smoothScrollToPartition(I)Z
     .locals 6
+    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -425,6 +436,7 @@
 # virtual methods
 .method protected dispatchDraw(Landroid/graphics/Canvas;)V
     .locals 14
+    .param p1    # Landroid/graphics/Canvas;
 
     iget-boolean v12, p0, Lcom/android/contacts/common/list/PinnedHeaderListView;->mAnimating:Z
 
@@ -634,6 +646,7 @@
 
 .method public getPinnedHeaderHeight(I)I
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/PinnedHeaderListView;->ensurePinnedHeaderLayout(I)V
 
@@ -652,6 +665,7 @@
 
 .method public getPositionAt(I)I
     .locals 2
+    .param p1    # I
 
     :cond_0
     invoke-virtual {p0}, Lcom/android/contacts/common/list/PinnedHeaderListView;->getPaddingLeft()I
@@ -740,6 +754,7 @@
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 9
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v6, 0x0
 
@@ -843,6 +858,9 @@
 
 .method public onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 12
+    .param p2    # Landroid/view/View;
+    .param p3    # I
+    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -956,6 +974,11 @@
 
 .method protected onLayout(ZIIII)V
     .locals 2
+    .param p1    # Z
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     invoke-super/range {p0 .. p5}, Lcom/android/contacts/common/list/AutoScrollListView;->onLayout(ZIIII)V
 
@@ -1006,6 +1029,10 @@
 
 .method public onScroll(Landroid/widget/AbsListView;III)V
     .locals 8
+    .param p1    # Landroid/widget/AbsListView;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     const/4 v5, 0x0
 
@@ -1142,6 +1169,8 @@
 
 .method public onScrollStateChanged(Landroid/widget/AbsListView;I)V
     .locals 1
+    .param p1    # Landroid/widget/AbsListView;
+    .param p2    # I
 
     iput p2, p0, Lcom/android/contacts/common/list/PinnedHeaderListView;->mScrollState:I
 
@@ -1159,6 +1188,7 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v0, 0x1
 
@@ -1190,6 +1220,7 @@
 
 .method public bridge synthetic setAdapter(Landroid/widget/Adapter;)V
     .locals 0
+    .param p1    # Landroid/widget/Adapter;
 
     check-cast p1, Landroid/widget/ListAdapter;
 
@@ -1200,6 +1231,7 @@
 
 .method public setAdapter(Landroid/widget/ListAdapter;)V
     .locals 1
+    .param p1    # Landroid/widget/ListAdapter;
 
     move-object v0, p1
 
@@ -1214,6 +1246,9 @@
 
 .method public setFadingHeader(IIZ)V
     .locals 7
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Z
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/PinnedHeaderListView;->ensurePinnedHeaderLayout(I)V
 
@@ -1291,6 +1326,8 @@
 
 .method public setHeaderInvisible(IZ)V
     .locals 5
+    .param p1    # I
+    .param p2    # Z
 
     const/4 v4, 0x0
 
@@ -1355,6 +1392,9 @@
 
 .method public setHeaderPinnedAtBottom(IIZ)V
     .locals 4
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Z
 
     const/4 v2, 0x1
 
@@ -1437,6 +1477,9 @@
 
 .method public setHeaderPinnedAtTop(IIZ)V
     .locals 3
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Z
 
     const/4 v2, 0x0
 
@@ -1461,6 +1504,7 @@
 
 .method public setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
     .locals 0
+    .param p1    # Landroid/widget/AdapterView$OnItemSelectedListener;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/PinnedHeaderListView;->mOnItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
 
@@ -1471,6 +1515,7 @@
 
 .method public setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
     .locals 0
+    .param p1    # Landroid/widget/AbsListView$OnScrollListener;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/PinnedHeaderListView;->mOnScrollListener:Landroid/widget/AbsListView$OnScrollListener;
 

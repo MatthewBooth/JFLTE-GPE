@@ -24,6 +24,8 @@
 
 .method public static createSetSuperPrimaryIntent(Landroid/content/Context;J)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Landroid/content/Intent;
 
@@ -42,6 +44,7 @@
 # virtual methods
 .method protected onHandleIntent(Landroid/content/Intent;)V
     .locals 6
+    .param p1    # Landroid/content/Intent;
 
     const-string v2, "phone_number_data_id"
 

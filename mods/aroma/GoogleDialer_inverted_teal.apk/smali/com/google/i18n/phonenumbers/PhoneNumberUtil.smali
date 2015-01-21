@@ -1549,6 +1549,8 @@
 
 .method constructor <init>(Ljava/lang/String;Lcom/google/i18n/phonenumbers/MetadataLoader;Ljava/util/Map;)V
     .locals 7
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/MetadataLoader;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1727,6 +1729,8 @@
 
 .method private buildNationalNumberForParsing(Ljava/lang/String;Ljava/lang/StringBuilder;)V
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/StringBuilder;
 
     const-string v6, ";phone-context="
 
@@ -1835,6 +1839,8 @@
 
 .method private checkRegionForParsing(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0, p2}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->isValidRegionCode(Ljava/lang/String;)Z
 
@@ -1876,6 +1882,7 @@
 
 .method private static createExtnPattern(Ljava/lang/String;)Ljava/lang/String;
     .locals 7
+    .param p0    # Ljava/lang/String;
 
     const-string v0, ";ext=(\\p{Nd}{1,7})|[ \u00a0\\t,]*(?:e?xt(?:ensi(?:o\u0301?|\u00f3))?n?|\uff45?\uff58\uff54\uff4e?|["
 
@@ -1998,6 +2005,7 @@
 
 .method public static createInstance(Lcom/google/i18n/phonenumbers/MetadataLoader;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil;
     .locals 3
+    .param p0    # Lcom/google/i18n/phonenumbers/MetadataLoader;
 
     if-nez p0, :cond_0
 
@@ -2025,6 +2033,7 @@
 
 .method static extractPossibleNumber(Ljava/lang/String;)Ljava/lang/String;
     .locals 9
+    .param p0    # Ljava/lang/String;
 
     const/4 v8, 0x0
 
@@ -2131,6 +2140,9 @@
 
 .method private formatNsn(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;)Ljava/lang/String;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p3    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
 
     const/4 v0, 0x0
 
@@ -2143,6 +2155,10 @@
 
 .method private formatNsn(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p3    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
+    .param p4    # Ljava/lang/String;
 
     invoke-virtual {p2}, Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;->intlNumberFormats()Ljava/util/List;
 
@@ -2190,6 +2206,10 @@
 
 .method private formatNsnUsingPattern(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
+    .param p3    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
+    .param p4    # Ljava/lang/String;
 
     invoke-virtual {p2}, Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;->getFormat()Ljava/lang/String;
 
@@ -2341,6 +2361,7 @@
 
 .method private getCountryCodeForValidRegion(Ljava/lang/String;)I
     .locals 5
+    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->getMetadataForRegion(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
 
@@ -2425,6 +2446,8 @@
 
 .method private getMetadataForRegionOrCallingCode(ILjava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
 
     const-string v0, "001"
 
@@ -2451,6 +2474,8 @@
 
 .method private getNumberTypeHelper(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberType;
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
 
     invoke-virtual {p2}, Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;->getGeneralDesc()Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
 
@@ -2664,6 +2689,7 @@
 
 .method private getRegionCodeForNumberFromRegionList(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Ljava/util/List;)Ljava/lang/String;
     .locals 6
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2749,6 +2775,7 @@
 
 .method private hasFormattingPatternForNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Z
     .locals 7
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     const/4 v5, 0x0
 
@@ -2792,6 +2819,7 @@
 
 .method private hasUnexpectedItalianLeadingZero(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Z
     .locals 1
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->isItalianLeadingZero()Z
 
@@ -2822,6 +2850,7 @@
 
 .method private hasValidCountryCallingCode(I)Z
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->countryCallingCodeToRegionCodeMap:Ljava/util/Map;
 
@@ -2838,6 +2867,8 @@
 
 .method private isNationalNumberSuffixOfTheOther(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Z
     .locals 4
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->getNationalNumber()J
 
@@ -2881,6 +2912,8 @@
 
 .method private isShorterThanPossibleNormalNumber(Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Ljava/lang/String;)Z
     .locals 3
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p2    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->regexCache:Lcom/google/i18n/phonenumbers/RegexCache;
 
@@ -2917,6 +2950,7 @@
 
 .method private isValidRegionCode(Ljava/lang/String;)Z
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     if-eqz p1, :cond_0
 
@@ -2941,6 +2975,7 @@
 
 .method static isViablePhoneNumber(Ljava/lang/String;)Z
     .locals 3
+    .param p0    # Ljava/lang/String;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -2971,6 +3006,7 @@
 
 .method private static loadMetadataAndCloseInput(Ljava/io/ObjectInputStream;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection;
     .locals 5
+    .param p0    # Ljava/io/ObjectInputStream;
 
     new-instance v1, Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadataCollection;
 
@@ -3090,6 +3126,10 @@
 
 .method private maybeAppendFormattedExtension(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/lang/StringBuilder;)V
     .locals 2
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p3    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
+    .param p4    # Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->hasExtension()Z
 
@@ -3168,6 +3208,7 @@
 
 .method static normalize(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
+    .param p0    # Ljava/lang/String;
 
     sget-object v1, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->VALID_ALPHA_PHONE_PATTERN:Ljava/util/regex/Pattern;
 
@@ -3202,6 +3243,7 @@
 
 .method static normalize(Ljava/lang/StringBuilder;)V
     .locals 3
+    .param p0    # Ljava/lang/StringBuilder;
 
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -3224,6 +3266,7 @@
 
 .method static normalizeDiallableCharsOnly(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->DIALLABLE_CHAR_MAPPINGS:Ljava/util/Map;
 
@@ -3238,6 +3281,8 @@
 
 .method static normalizeDigits(Ljava/lang/String;Z)Ljava/lang/StringBuilder;
     .locals 7
+    .param p0    # Ljava/lang/String;
+    .param p1    # Z
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -3291,6 +3336,7 @@
 
 .method public static normalizeDigitsOnly(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -3307,6 +3353,8 @@
 
 .method private static normalizeHelper(Ljava/lang/String;Ljava/util/Map;Z)Ljava/lang/String;
     .locals 5
+    .param p0    # Ljava/lang/String;
+    .param p2    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3382,6 +3430,11 @@
 
 .method private parseHelper(Ljava/lang/String;Ljava/lang/String;ZZLcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)V
     .locals 17
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;
@@ -3777,6 +3830,8 @@
 
 .method private parsePrefixAsIdd(Ljava/util/regex/Pattern;Ljava/lang/StringBuilder;)Z
     .locals 8
+    .param p1    # Ljava/util/regex/Pattern;
+    .param p2    # Ljava/lang/StringBuilder;
 
     const/4 v5, 0x1
 
@@ -3842,6 +3897,9 @@
 
 .method private prefixNumberWithCountryCallingCode(ILcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/lang/StringBuilder;)V
     .locals 4
+    .param p1    # I
+    .param p2    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
+    .param p3    # Ljava/lang/StringBuilder;
 
     const/16 v3, 0x2b
 
@@ -3917,6 +3975,9 @@
 
 .method private rawInputContainsNationalPrefix(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -3961,6 +4022,7 @@
 
 .method static declared-synchronized setInstance(Lcom/google/i18n/phonenumbers/PhoneNumberUtil;)V
     .locals 2
+    .param p0    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil;
 
     const-class v0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;
 
@@ -3985,6 +4047,8 @@
 
 .method static setItalianLeadingZerosForPhoneNumber(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)V
     .locals 4
+    .param p0    # Ljava/lang/String;
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     const/16 v3, 0x30
 
@@ -4038,6 +4102,8 @@
 
 .method private testNumberLengthAgainstPattern(Ljava/util/regex/Pattern;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$ValidationResult;
     .locals 2
+    .param p1    # Ljava/util/regex/Pattern;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -4075,6 +4141,7 @@
 # virtual methods
 .method chooseFormattingPatternForNumber(Ljava/util/List;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 6
+    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -4165,6 +4232,8 @@
 
 .method extractCountryCode(Ljava/lang/StringBuilder;Ljava/lang/StringBuilder;)I
     .locals 6
+    .param p1    # Ljava/lang/StringBuilder;
+    .param p2    # Ljava/lang/StringBuilder;
 
     const/4 v3, 0x0
 
@@ -4243,6 +4312,8 @@
 
 .method public format(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;)Ljava/lang/String;
     .locals 6
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->getNationalNumber()J
 
@@ -4291,6 +4362,9 @@
 
 .method public format(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/lang/StringBuilder;)V
     .locals 5
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
+    .param p3    # Ljava/lang/StringBuilder;
 
     const/4 v4, 0x0
 
@@ -4352,6 +4426,8 @@
 
 .method public formatByPattern(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;Ljava/util/List;)Ljava/lang/String;
     .locals 11
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -4485,6 +4561,8 @@
 
 .method public formatInOriginalFormat(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Ljava/lang/String;)Ljava/lang/String;
     .locals 19
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual/range {p1 .. p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->hasRawInput()Z
 
@@ -4809,6 +4887,9 @@
 
 .method formatNsnUsingPattern(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;)Ljava/lang/String;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
+    .param p3    # Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberFormat;
 
     const/4 v0, 0x0
 
@@ -4821,6 +4902,8 @@
 
 .method public formatOutOfCountryCallingNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Ljava/lang/String;)Ljava/lang/String;
     .locals 15
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Ljava/lang/String;
 
     move-object/from16 v0, p2
 
@@ -5093,6 +5176,7 @@
 
 .method getMetadataForNonGeographicalRegion(I)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
     .locals 4
+    .param p1    # I
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->countryCodeToNonGeographicalMetadataMap:Ljava/util/Map;
 
@@ -5171,6 +5255,7 @@
 
 .method getMetadataForRegion(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
     .locals 4
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->isValidRegionCode(Ljava/lang/String;)Z
 
@@ -5233,6 +5318,7 @@
 
 .method public getNationalSignificantNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Ljava/lang/String;
     .locals 4
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -5276,6 +5362,8 @@
 
 .method public getNddPrefixForRegion(Ljava/lang/String;Z)Ljava/lang/String;
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
 
     const/4 v2, 0x0
 
@@ -5371,6 +5459,7 @@
 
 .method public getNumberType(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$PhoneNumberType;
     .locals 4
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p0, p1}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->getRegionCodeForNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Ljava/lang/String;
 
@@ -5405,6 +5494,7 @@
 
 .method public getRegionCodeForCountryCode(I)Ljava/lang/String;
     .locals 3
+    .param p1    # I
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->countryCallingCodeToRegionCodeMap:Ljava/util/Map;
 
@@ -5439,6 +5529,7 @@
 
 .method public getRegionCodeForNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Ljava/lang/String;
     .locals 8
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->getCountryCode()I
 
@@ -5544,6 +5635,7 @@
 
 .method isLeadingZeroPossible(I)Z
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->getRegionCodeForCountryCode(I)Ljava/lang/String;
 
@@ -5570,6 +5662,7 @@
 
 .method public isNANPACountry(Ljava/lang/String;)Z
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->nanpaRegions:Ljava/util/Set;
 
@@ -5582,6 +5675,8 @@
 
 .method public isNumberMatch(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$MatchType;
     .locals 6
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     new-instance v0, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
@@ -5749,6 +5844,8 @@
 
 .method public isNumberMatch(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$MatchType;
     .locals 11
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Ljava/lang/String;
 
     :try_start_0
     const-string v0, "ZZ"
@@ -5847,6 +5944,8 @@
 
 .method public isNumberMatch(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/PhoneNumberUtil$MatchType;
     .locals 19
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     :try_start_0
     const-string v3, "ZZ"
@@ -5975,6 +6074,8 @@
 
 .method isNumberMatchingDesc(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;)Z
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->regexCache:Lcom/google/i18n/phonenumbers/RegexCache;
 
@@ -6015,6 +6116,8 @@
 
 .method isNumberPossibleForDesc(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;)Z
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneNumberDesc;
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->regexCache:Lcom/google/i18n/phonenumbers/RegexCache;
 
@@ -6039,6 +6142,7 @@
 
 .method public isValidNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Z
     .locals 2
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p0, p1}, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->getRegionCodeForNumber(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Ljava/lang/String;
 
@@ -6053,6 +6157,8 @@
 
 .method public isValidNumberForRegion(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;Ljava/lang/String;)Z
     .locals 9
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    .param p2    # Ljava/lang/String;
 
     const/4 v5, 0x1
 
@@ -6137,6 +6243,10 @@
 
 .method loadMetadataFromFile(Ljava/lang/String;Ljava/lang/String;ILcom/google/i18n/phonenumbers/MetadataLoader;)V
     .locals 15
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # Lcom/google/i18n/phonenumbers/MetadataLoader;
 
     const-string v10, "001"
 
@@ -6510,6 +6620,11 @@
 
 .method maybeExtractCountryCode(Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Ljava/lang/StringBuilder;ZLcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)I
     .locals 15
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p3    # Ljava/lang/StringBuilder;
+    .param p4    # Z
+    .param p5    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;
@@ -6734,6 +6849,7 @@
 
 .method maybeStripExtension(Ljava/lang/StringBuilder;)Ljava/lang/String;
     .locals 6
+    .param p1    # Ljava/lang/StringBuilder;
 
     sget-object v4, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;->EXTN_PATTERN:Ljava/util/regex/Pattern;
 
@@ -6808,6 +6924,8 @@
 
 .method maybeStripInternationalPrefixAndNormalize(Ljava/lang/StringBuilder;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber$CountryCodeSource;
     .locals 4
+    .param p1    # Ljava/lang/StringBuilder;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->length()I
 
@@ -6874,6 +6992,9 @@
 
 .method maybeStripNationalPrefixAndCarrierCode(Ljava/lang/StringBuilder;Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;Ljava/lang/StringBuilder;)Z
     .locals 12
+    .param p1    # Ljava/lang/StringBuilder;
+    .param p2    # Lcom/google/i18n/phonenumbers/Phonemetadata$PhoneMetadata;
+    .param p3    # Ljava/lang/StringBuilder;
 
     const/4 v9, 0x1
 
@@ -7065,6 +7186,8 @@
 
 .method public parse(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;
@@ -7082,6 +7205,9 @@
 
 .method public parse(Ljava/lang/String;Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)V
     .locals 6
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;
@@ -7107,6 +7233,8 @@
 
 .method public parseAndKeepRawInput(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;
@@ -7124,6 +7252,9 @@
 
 .method public parseAndKeepRawInput(Ljava/lang/String;Ljava/lang/String;Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)V
     .locals 6
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/i18n/phonenumbers/NumberParseException;

@@ -41,6 +41,7 @@
 
 .method private update(Lcom/android/incallui/CallList;)V
     .locals 13
+    .param p1    # Lcom/android/incallui/CallList;
 
     const/4 v10, 0x1
 
@@ -244,6 +245,7 @@
 # virtual methods
 .method public endConferenceConnection(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/ConferenceManagerPresenter;->mCallerIds:[Ljava/lang/String;
 
@@ -275,6 +277,8 @@
 
 .method public init(Landroid/content/Context;Lcom/android/incallui/CallList;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/incallui/CallList;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -293,6 +297,9 @@
 
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 4
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/CallList;
 
     const/4 v3, 0x0
 
@@ -407,6 +414,7 @@
 
 .method public onUiReady(Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiReady(Lcom/android/incallui/Ui;)V
 
@@ -421,6 +429,7 @@
 
 .method public bridge synthetic onUiReady(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;
 
@@ -431,6 +440,7 @@
 
 .method public onUiUnready(Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiUnready(Lcom/android/incallui/Ui;)V
 
@@ -445,6 +455,7 @@
 
 .method public bridge synthetic onUiUnready(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/ConferenceManagerPresenter$ConferenceManagerUi;
 
@@ -455,6 +466,7 @@
 
 .method public separateConferenceConnection(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/ConferenceManagerPresenter;->mCallerIds:[Ljava/lang/String;
 
@@ -478,6 +490,10 @@
 
 .method public updateManageConferenceRow(ILcom/android/incallui/ContactInfoCache$ContactCacheEntry;ZZ)V
     .locals 7
+    .param p1    # I
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
+    .param p3    # Z
+    .param p4    # Z
 
     if-eqz p2, :cond_1
 

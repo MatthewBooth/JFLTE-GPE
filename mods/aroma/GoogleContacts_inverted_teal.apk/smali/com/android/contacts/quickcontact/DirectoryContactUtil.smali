@@ -6,6 +6,8 @@
 # direct methods
 .method public static createCopy(Ljava/util/ArrayList;Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/content/Context;)V
     .locals 3
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -44,6 +46,7 @@
 
 .method public static isDirectoryContact(Lcom/android/contacts/common/model/Contact;)Z
     .locals 2
+    .param p0    # Lcom/android/contacts/common/model/Contact;
 
     const/4 v0, 0x0
 

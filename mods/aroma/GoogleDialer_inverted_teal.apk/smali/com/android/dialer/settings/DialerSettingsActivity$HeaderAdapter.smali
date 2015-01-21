@@ -36,6 +36,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Ljava/util/List;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -68,6 +69,9 @@
 # virtual methods
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 7
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v6, 0x0
 

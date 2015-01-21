@@ -21,6 +21,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Landroid/content/ContentResolver;)V
     .locals 0
+    .param p2    # Landroid/content/ContentResolver;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity$QueryHandler;->this$0:Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
@@ -33,6 +34,9 @@
 # virtual methods
 .method protected onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 16
+    .param p1    # I
+    .param p2    # Ljava/lang/Object;
+    .param p3    # Landroid/database/Cursor;
 
     :try_start_0
     move-object/from16 v0, p0

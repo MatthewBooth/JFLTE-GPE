@@ -6,6 +6,8 @@
 # direct methods
 .method public static getStatusString(Landroid/content/Context;I)Ljava/lang/String;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # I
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 

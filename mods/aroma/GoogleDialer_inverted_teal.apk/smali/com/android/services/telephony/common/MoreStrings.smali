@@ -6,6 +6,7 @@
 # direct methods
 .method public static toSafeString(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
+    .param p0    # Ljava/lang/String;
 
     if-nez p0, :cond_0
 

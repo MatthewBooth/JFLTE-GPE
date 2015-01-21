@@ -40,6 +40,7 @@
 
 .method private static getAccountManagerCallback(Landroid/app/Activity;)Landroid/accounts/AccountManagerCallback;
     .locals 1
+    .param p0    # Landroid/app/Activity;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -61,6 +62,7 @@
 
 .method private static getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
     .locals 1
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -71,6 +73,7 @@
 
 .method public static launchAccountPrompt(Landroid/app/Activity;)V
     .locals 8
+    .param p0    # Landroid/app/Activity;
 
     const/4 v2, 0x0
 
@@ -117,6 +120,7 @@
 
 .method public static neverShowAccountPromptAgain(Landroid/content/Context;)V
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Lcom/android/contacts/util/AccountPromptUtils;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -141,6 +145,7 @@
 
 .method public static shouldShowAccountPrompt(Landroid/content/Context;)Z
     .locals 8
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 

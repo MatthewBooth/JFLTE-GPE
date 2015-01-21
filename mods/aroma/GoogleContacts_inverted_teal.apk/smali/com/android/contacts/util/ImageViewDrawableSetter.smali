@@ -30,6 +30,7 @@
 
 .method private decodedBitmapDrawable([B)Landroid/graphics/drawable/BitmapDrawable;
     .locals 5
+    .param p1    # [B
 
     iget-object v3, p0, Lcom/android/contacts/util/ImageViewDrawableSetter;->mTarget:Landroid/widget/ImageView;
 
@@ -191,6 +192,7 @@
 # virtual methods
 .method protected setCompressedImage([B)Landroid/graphics/Bitmap;
     .locals 5
+    .param p1    # [B
 
     iget-object v3, p0, Lcom/android/contacts/util/ImageViewDrawableSetter;->mPreviousDrawable:Landroid/graphics/drawable/Drawable;
 
@@ -302,6 +304,7 @@
 
 .method protected setTarget(Landroid/widget/ImageView;)V
     .locals 2
+    .param p1    # Landroid/widget/ImageView;
 
     const/4 v1, 0x0
 
@@ -321,6 +324,8 @@
 
 .method public setupContactPhoto(Lcom/android/contacts/common/model/Contact;Landroid/widget/ImageView;)Landroid/graphics/Bitmap;
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/Contact;
+    .param p2    # Landroid/widget/ImageView;
 
     iput-object p1, p0, Lcom/android/contacts/util/ImageViewDrawableSetter;->mContact:Lcom/android/contacts/common/model/Contact;
 

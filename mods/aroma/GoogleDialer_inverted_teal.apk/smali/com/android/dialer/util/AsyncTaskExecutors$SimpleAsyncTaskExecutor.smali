@@ -24,6 +24,7 @@
 # direct methods
 .method public constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 0
+    .param p1    # Ljava/util/concurrent/Executor;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,6 +37,7 @@
 # virtual methods
 .method public varargs submit(Ljava/lang/Object;Landroid/os/AsyncTask;[Ljava/lang/Object;)Landroid/os/AsyncTask;
     .locals 1
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",

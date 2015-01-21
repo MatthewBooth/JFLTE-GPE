@@ -21,6 +21,8 @@
 # direct methods
 .method constructor <init>(Lcom/android/contacts/common/vcard/SelectAccountActivity;Landroid/content/Context;Ljava/util/List;I)V
     .locals 0
+    .param p2    # Landroid/content/Context;
+    .param p4    # I
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/SelectAccountActivity$1;->this$0:Lcom/android/contacts/common/vcard/SelectAccountActivity;
 
@@ -33,6 +35,8 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 4
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
 
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 

@@ -105,6 +105,7 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 4
+    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -182,6 +183,7 @@
 
 .method public setDomesticCarrierCodeFormattingRule(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -194,6 +196,7 @@
 
 .method public setFormat(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -206,6 +209,7 @@
 
 .method public setNationalPrefixFormattingRule(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -218,6 +222,7 @@
 
 .method public setNationalPrefixOptionalWhenFormatting(Z)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 1
+    .param p1    # Z
 
     const/4 v0, 0x1
 
@@ -230,6 +235,7 @@
 
 .method public setPattern(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonemetadata$NumberFormat;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -242,6 +248,7 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 3
+    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

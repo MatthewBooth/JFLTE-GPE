@@ -34,6 +34,10 @@
 
 .method public constructor <init>(ILjava/lang/String;II)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -62,6 +66,9 @@
 
 .method public constructor <init>(Ljava/lang/String;II)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v0, 0x1
 
@@ -114,6 +121,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/multiplayer/ParticipantResultCreator;->a(Lcom/google/android/gms/games/multiplayer/ParticipantResult;Landroid/os/Parcel;I)V
 

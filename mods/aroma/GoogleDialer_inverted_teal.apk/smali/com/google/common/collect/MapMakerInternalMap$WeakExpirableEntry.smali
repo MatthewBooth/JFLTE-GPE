@@ -56,6 +56,7 @@
 # direct methods
 .method constructor <init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)V
     .locals 2
+    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -129,6 +130,7 @@
 
 .method public setExpirationTime(J)V
     .locals 1
+    .param p1    # J
 
     iput-wide p1, p0, Lcom/google/common/collect/MapMakerInternalMap$WeakExpirableEntry;->time:J
 

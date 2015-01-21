@@ -284,6 +284,7 @@
 
 .method private configureKeypadListeners(Landroid/view/View;)V
     .locals 4
+    .param p1    # Landroid/view/View;
 
     const/16 v3, 0xc
 
@@ -364,6 +365,7 @@
 
 .method public appendDigitsToField(C)V
     .locals 1
+    .param p1    # C
 
     iget-object v0, p0, Lcom/android/incallui/DialpadFragment;->mDtmfDialerField:Landroid/widget/EditText;
 
@@ -435,6 +437,7 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 6
+    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -516,6 +519,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 0
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -524,6 +528,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 4
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const/4 v3, 0x0
 
@@ -611,6 +618,7 @@
 
 .method onDialerKeyDown(Landroid/view/KeyEvent;)Z
     .locals 1
+    .param p1    # Landroid/view/KeyEvent;
 
     const-string v0, "Notifying dtmf key down."
 
@@ -637,6 +645,7 @@
 
 .method public onDialerKeyUp(Landroid/view/KeyEvent;)Z
     .locals 1
+    .param p1    # Landroid/view/KeyEvent;
 
     const-string v0, "Notifying dtmf key up."
 
@@ -663,6 +672,8 @@
 
 .method public onHover(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 10
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/MotionEvent;
 
     const/4 v9, 0x0
 
@@ -774,6 +785,9 @@
 
 .method public onKey(Landroid/view/View;ILandroid/view/KeyEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/view/KeyEvent;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -892,6 +906,8 @@
 
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/MotionEvent;
 
     const-string v1, "onTouch"
 
@@ -975,6 +991,7 @@
 
 .method public setDtmfText(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/DialpadFragment;->mDtmfDialerField:Landroid/widget/EditText;
 

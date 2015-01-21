@@ -500,6 +500,7 @@
 
 .method public getValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "&cid"
 

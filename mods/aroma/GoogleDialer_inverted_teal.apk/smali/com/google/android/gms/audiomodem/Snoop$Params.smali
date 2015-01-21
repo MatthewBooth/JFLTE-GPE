@@ -56,6 +56,11 @@
 
 .method constructor <init>(I[Lcom/google/android/gms/audiomodem/Encoding;ZZJ)V
     .locals 1
+    .param p1    # I
+    .param p2    # [Lcom/google/android/gms/audiomodem/Encoding;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # J
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -124,6 +129,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/audiomodem/e;->a(Lcom/google/android/gms/audiomodem/Snoop$Params;Landroid/os/Parcel;I)V
 

@@ -61,6 +61,7 @@
 
 .method static synthetic access$100(I)Ljava/lang/String;
     .locals 1
+    .param p0    # I
 
     invoke-static {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment;->formatAsMinutesAndSeconds(I)Ljava/lang/String;
 
@@ -105,6 +106,7 @@
 
 .method private static formatAsMinutesAndSeconds(I)Ljava/lang/String;
     .locals 6
+    .param p0    # I
 
     div-int/lit16 v1, p0, 0x3e8
 
@@ -301,6 +303,7 @@
 # virtual methods
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 10
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -389,6 +392,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const v0, 0x7f040037
 
@@ -433,6 +439,7 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Landroid/os/Bundle;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment;->mPresenter:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 

@@ -68,6 +68,8 @@
 
 .method private constructor <init>(Landroid/support/v7/graphics/ColorHistogram;I)V
     .locals 13
+    .param p1    # Landroid/support/v7/graphics/ColorHistogram;
+    .param p2    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -211,6 +213,7 @@
 
 .method static synthetic access$000(Landroid/support/v7/graphics/ColorCutQuantizer;)[I
     .locals 1
+    .param p0    # Landroid/support/v7/graphics/ColorCutQuantizer;
 
     iget-object v0, p0, Landroid/support/v7/graphics/ColorCutQuantizer;->mColors:[I
 
@@ -219,6 +222,10 @@
 
 .method static synthetic access$100(Landroid/support/v7/graphics/ColorCutQuantizer;III)V
     .locals 0
+    .param p0    # Landroid/support/v7/graphics/ColorCutQuantizer;
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/graphics/ColorCutQuantizer;->modifySignificantOctet(III)V
 
@@ -227,6 +234,7 @@
 
 .method static synthetic access$200(Landroid/support/v7/graphics/ColorCutQuantizer;)Landroid/util/SparseIntArray;
     .locals 1
+    .param p0    # Landroid/support/v7/graphics/ColorCutQuantizer;
 
     iget-object v0, p0, Landroid/support/v7/graphics/ColorCutQuantizer;->mColorPopulations:Landroid/util/SparseIntArray;
 
@@ -235,6 +243,8 @@
 
 .method static fromBitmap(Landroid/graphics/Bitmap;I)Landroid/support/v7/graphics/ColorCutQuantizer;
     .locals 8
+    .param p0    # Landroid/graphics/Bitmap;
+    .param p1    # I
 
     const/4 v2, 0x0
 
@@ -333,6 +343,7 @@
 
 .method private static isBlack([F)Z
     .locals 2
+    .param p0    # [F
 
     const/4 v0, 0x2
 
@@ -357,6 +368,7 @@
 
 .method private static isNearRedILine([F)Z
     .locals 4
+    .param p0    # [F
 
     const/4 v0, 0x1
 
@@ -397,6 +409,7 @@
 
 .method private static isWhite([F)Z
     .locals 2
+    .param p0    # [F
 
     const/4 v0, 0x2
 
@@ -421,6 +434,9 @@
 
 .method private modifySignificantOctet(III)V
     .locals 6
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -502,6 +518,8 @@
 
 .method private quantizePixels(II)Ljava/util/List;
     .locals 3
+    .param p1    # I
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
@@ -537,6 +555,7 @@
 
 .method private shouldIgnoreColor(I)Z
     .locals 4
+    .param p1    # I
 
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
@@ -565,6 +584,7 @@
 
 .method private static shouldIgnoreColor(Landroid/support/v7/graphics/Palette$Swatch;)Z
     .locals 1
+    .param p0    # Landroid/support/v7/graphics/Palette$Swatch;
 
     invoke-virtual {p0}, Landroid/support/v7/graphics/Palette$Swatch;->getHsl()[F
 
@@ -579,6 +599,7 @@
 
 .method private static shouldIgnoreColor([F)Z
     .locals 1
+    .param p0    # [F
 
     invoke-static {p0}, Landroid/support/v7/graphics/ColorCutQuantizer;->isWhite([F)Z
 
@@ -612,6 +633,7 @@
 
 .method private splitBoxes(Ljava/util/PriorityQueue;I)V
     .locals 2
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

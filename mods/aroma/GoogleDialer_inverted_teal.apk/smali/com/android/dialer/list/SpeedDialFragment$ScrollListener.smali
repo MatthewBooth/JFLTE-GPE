@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/list/SpeedDialFragment;Lcom/android/dialer/list/SpeedDialFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/list/SpeedDialFragment;
+    .param p2    # Lcom/android/dialer/list/SpeedDialFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/SpeedDialFragment$ScrollListener;-><init>(Lcom/android/dialer/list/SpeedDialFragment;)V
 
@@ -44,6 +46,10 @@
 # virtual methods
 .method public onScroll(Landroid/widget/AbsListView;III)V
     .locals 1
+    .param p1    # Landroid/widget/AbsListView;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment$ScrollListener;->this$0:Lcom/android/dialer/list/SpeedDialFragment;
 
@@ -69,6 +75,8 @@
 
 .method public onScrollStateChanged(Landroid/widget/AbsListView;I)V
     .locals 1
+    .param p1    # Landroid/widget/AbsListView;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment$ScrollListener;->this$0:Lcom/android/dialer/list/SpeedDialFragment;
 

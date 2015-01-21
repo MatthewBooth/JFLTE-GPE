@@ -292,6 +292,9 @@
 
 .method static makeFadeAnimation(Landroid/content/Context;FF)Landroid/view/animation/Animation;
     .locals 4
+    .param p0    # Landroid/content/Context;
+    .param p1    # F
+    .param p2    # F
 
     new-instance v0, Landroid/view/animation/AlphaAnimation;
 
@@ -310,6 +313,11 @@
 
 .method static makeOpenCloseAnimation(Landroid/content/Context;FFFF)Landroid/view/animation/Animation;
     .locals 11
+    .param p0    # Landroid/content/Context;
+    .param p1    # F
+    .param p2    # F
+    .param p3    # F
+    .param p4    # F
 
     new-instance v10, Landroid/view/animation/AnimationSet;
 
@@ -366,6 +374,7 @@
 
 .method public static reverseTransit(I)I
     .locals 1
+    .param p0    # I
 
     const/4 v0, 0x0
 
@@ -399,6 +408,7 @@
 
 .method private throwException(Ljava/lang/RuntimeException;)V
     .locals 7
+    .param p1    # Ljava/lang/RuntimeException;
 
     const-string v3, "FragmentManager"
 
@@ -487,6 +497,8 @@
 
 .method public static transitToStyleIndex(IZ)I
     .locals 1
+    .param p0    # I
+    .param p1    # Z
 
     const/4 v0, -0x1
 
@@ -548,6 +560,7 @@
 # virtual methods
 .method addBackStackState(Landroid/support/v4/app/BackStackRecord;)V
     .locals 1
+    .param p1    # Landroid/support/v4/app/BackStackRecord;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentManagerImpl;->mBackStack:Ljava/util/ArrayList;
 
@@ -571,6 +584,8 @@
 
 .method public addFragment(Landroid/support/v4/app/Fragment;Z)V
     .locals 4
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # Z
 
     const/4 v3, 0x1
 
@@ -682,6 +697,7 @@
 
 .method public allocBackStackIndex(Landroid/support/v4/app/BackStackRecord;)I
     .locals 5
+    .param p1    # Landroid/support/v4/app/BackStackRecord;
 
     monitor-enter p0
 
@@ -844,6 +860,9 @@
 
 .method public attachActivity(Landroid/support/v4/app/FragmentActivity;Landroid/support/v4/app/FragmentContainer;Landroid/support/v4/app/Fragment;)V
     .locals 2
+    .param p1    # Landroid/support/v4/app/FragmentActivity;
+    .param p2    # Landroid/support/v4/app/FragmentContainer;
+    .param p3    # Landroid/support/v4/app/Fragment;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
 
@@ -869,6 +888,9 @@
 
 .method public attachFragment(Landroid/support/v4/app/Fragment;II)V
     .locals 6
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v3, 0x1
 
@@ -1027,6 +1049,9 @@
 
 .method public detachFragment(Landroid/support/v4/app/Fragment;II)V
     .locals 6
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v5, 0x0
 
@@ -1148,6 +1173,7 @@
 
 .method public dispatchConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 3
+    .param p1    # Landroid/content/res/Configuration;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -1187,6 +1213,7 @@
 
 .method public dispatchContextItemSelected(Landroid/view/MenuItem;)Z
     .locals 3
+    .param p1    # Landroid/view/MenuItem;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -1251,6 +1278,8 @@
 
 .method public dispatchCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)Z
     .locals 5
+    .param p1    # Landroid/view/Menu;
+    .param p2    # Landroid/view/MenuInflater;
 
     const/4 v3, 0x0
 
@@ -1426,6 +1455,7 @@
 
 .method public dispatchOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 3
+    .param p1    # Landroid/view/MenuItem;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -1476,6 +1506,7 @@
 
 .method public dispatchOptionsMenuClosed(Landroid/view/Menu;)V
     .locals 3
+    .param p1    # Landroid/view/Menu;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -1527,6 +1558,7 @@
 
 .method public dispatchPrepareOptionsMenu(Landroid/view/Menu;)Z
     .locals 4
+    .param p1    # Landroid/view/Menu;
 
     const/4 v2, 0x0
 
@@ -1630,6 +1662,10 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/io/FileDescriptor;
+    .param p3    # Ljava/io/PrintWriter;
+    .param p4    # [Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -2163,6 +2199,8 @@
 
 .method public enqueueAction(Ljava/lang/Runnable;Z)V
     .locals 2
+    .param p1    # Ljava/lang/Runnable;
+    .param p2    # Z
 
     if-nez p2, :cond_0
 
@@ -2468,6 +2506,7 @@
 
 .method public findFragmentById(I)Landroid/support/v4/app/Fragment;
     .locals 3
+    .param p1    # I
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -2550,6 +2589,7 @@
 
 .method public findFragmentByTag(Ljava/lang/String;)Landroid/support/v4/app/Fragment;
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentManagerImpl;->mAdded:Ljava/util/ArrayList;
 
@@ -2644,6 +2684,7 @@
 
 .method public freeBackStackIndex(I)V
     .locals 3
+    .param p1    # I
 
     monitor-enter p0
 
@@ -2716,6 +2757,8 @@
 
 .method public getFragment(Landroid/os/Bundle;Ljava/lang/String;)Landroid/support/v4/app/Fragment;
     .locals 5
+    .param p1    # Landroid/os/Bundle;
+    .param p2    # Ljava/lang/String;
 
     const/4 v2, -0x1
 
@@ -2830,6 +2873,9 @@
 
 .method public hideFragment(Landroid/support/v4/app/Fragment;II)V
     .locals 5
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v4, 0x1
 
@@ -2913,6 +2959,10 @@
 
 .method loadAnimation(Landroid/support/v4/app/Fragment;IZI)Landroid/view/animation/Animation;
     .locals 9
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # Z
+    .param p4    # I
 
     const v8, 0x3f79999a
 
@@ -3078,6 +3128,7 @@
 
 .method makeActive(Landroid/support/v4/app/Fragment;)V
     .locals 3
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     iget v0, p1, Landroid/support/v4/app/Fragment;->mIndex:I
 
@@ -3191,6 +3242,7 @@
 
 .method makeInactive(Landroid/support/v4/app/Fragment;)V
     .locals 3
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     iget v0, p1, Landroid/support/v4/app/Fragment;->mIndex:I
 
@@ -3269,6 +3321,10 @@
 
 .method moveToState(IIIZ)V
     .locals 8
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # Z
 
     const/4 v5, 0x0
 
@@ -3385,6 +3441,8 @@
 
 .method moveToState(IZ)V
     .locals 1
+    .param p1    # I
+    .param p2    # Z
 
     const/4 v0, 0x0
 
@@ -3395,6 +3453,7 @@
 
 .method moveToState(Landroid/support/v4/app/Fragment;)V
     .locals 6
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     const/4 v3, 0x0
 
@@ -3415,6 +3474,11 @@
 
 .method moveToState(Landroid/support/v4/app/Fragment;IIIZ)V
     .locals 10
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # Z
 
     iget-boolean v0, p1, Landroid/support/v4/app/Fragment;->mAdded:Z
 
@@ -4476,6 +4540,9 @@
 
 .method public onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
     .locals 12
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/content/Context;
+    .param p3    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -4883,6 +4950,7 @@
 
 .method public performPendingDeferredStart(Landroid/support/v4/app/Fragment;)V
     .locals 6
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     const/4 v3, 0x0
 
@@ -4946,6 +5014,10 @@
 
 .method popBackStackState(Landroid/os/Handler;Ljava/lang/String;II)Z
     .locals 12
+    .param p1    # Landroid/os/Handler;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # I
 
     iget-object v9, p0, Landroid/support/v4/app/FragmentManagerImpl;->mBackStack:Ljava/util/ArrayList;
 
@@ -5257,6 +5329,9 @@
 
 .method public putFragment(Landroid/os/Bundle;Ljava/lang/String;Landroid/support/v4/app/Fragment;)V
     .locals 3
+    .param p1    # Landroid/os/Bundle;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Landroid/support/v4/app/Fragment;
 
     iget v0, p3, Landroid/support/v4/app/Fragment;->mIndex:I
 
@@ -5302,6 +5377,9 @@
 
 .method public removeFragment(Landroid/support/v4/app/Fragment;II)V
     .locals 7
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v0, 0x1
 
@@ -5453,6 +5531,7 @@
 
 .method restoreAllState(Landroid/os/Parcelable;Ljava/util/ArrayList;)V
     .locals 12
+    .param p1    # Landroid/os/Parcelable;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -6665,6 +6744,7 @@
 
 .method saveFragmentBasicState(Landroid/support/v4/app/Fragment;)Landroid/os/Bundle;
     .locals 3
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     const/4 v0, 0x0
 
@@ -6746,6 +6826,7 @@
 
 .method saveFragmentViewState(Landroid/support/v4/app/Fragment;)V
     .locals 2
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     iget-object v0, p1, Landroid/support/v4/app/Fragment;->mInnerView:Landroid/view/View;
 
@@ -6801,6 +6882,8 @@
 
 .method public setBackStackIndex(ILandroid/support/v4/app/BackStackRecord;)V
     .locals 4
+    .param p1    # I
+    .param p2    # Landroid/support/v4/app/BackStackRecord;
 
     monitor-enter p0
 
@@ -6986,6 +7069,9 @@
 
 .method public showFragment(Landroid/support/v4/app/Fragment;II)V
     .locals 6
+    .param p1    # Landroid/support/v4/app/Fragment;
+    .param p2    # I
+    .param p3    # I
 
     const/4 v5, 0x1
 

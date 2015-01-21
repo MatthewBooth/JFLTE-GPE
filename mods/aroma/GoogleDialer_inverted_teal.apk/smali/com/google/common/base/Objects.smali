@@ -15,6 +15,8 @@
 # direct methods
 .method public static equal(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -63,6 +65,7 @@
 
 .method public static varargs hashCode([Ljava/lang/Object;)I
     .locals 1
+    .param p0    # [Ljava/lang/Object;
 
     invoke-static {p0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
 
@@ -122,6 +125,7 @@
 
 .method public static toStringHelper(Ljava/lang/Object;)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 3
+    .param p0    # Ljava/lang/Object;
 
     new-instance v0, Lcom/google/common/base/Objects$ToStringHelper;
 

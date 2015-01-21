@@ -18,6 +18,9 @@
 # direct methods
 .method public constructor <init>(Lcom/google/android/gms/analytics/Tracker;Ljava/lang/Thread$UncaughtExceptionHandler;Landroid/content/Context;)V
     .locals 2
+    .param p1    # Lcom/google/android/gms/analytics/Tracker;
+    .param p2    # Ljava/lang/Thread$UncaughtExceptionHandler;
+    .param p3    # Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -114,6 +117,8 @@
 
 .method public uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
     .locals 3
+    .param p1    # Ljava/lang/Thread;
+    .param p2    # Ljava/lang/Throwable;
 
     const-string v0, "UncaughtException"
 

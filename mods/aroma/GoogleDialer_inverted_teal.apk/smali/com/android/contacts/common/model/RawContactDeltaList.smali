@@ -92,6 +92,7 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -200,6 +201,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContactDeltaList;->size()I
 

@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/list/PhoneNumberPickerFragment;Lcom/android/contacts/common/list/PhoneNumberPickerFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/PhoneNumberPickerFragment;
+    .param p2    # Lcom/android/contacts/common/list/PhoneNumberPickerFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberPickerFragment$FilterHeaderClickListener;-><init>(Lcom/android/contacts/common/list/PhoneNumberPickerFragment;)V
 
@@ -44,6 +46,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 3
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment$FilterHeaderClickListener;->this$0:Lcom/android/contacts/common/list/PhoneNumberPickerFragment;
 

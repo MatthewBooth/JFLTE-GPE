@@ -35,6 +35,7 @@
 # direct methods
 .method constructor <init>([Ljava/lang/Object;Lcom/google/common/collect/ImmutableCollection;)V
     .locals 2
+    .param p1    # [Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -57,6 +58,7 @@
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 2
+    .param p1    # Ljava/io/ObjectInputStream;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/InvalidObjectException;
@@ -76,6 +78,7 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/ImmutableAsList;->collection:Lcom/google/common/collect/ImmutableCollection;
 

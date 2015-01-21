@@ -180,6 +180,7 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/achievement/AchievementEntity;
     .locals 24
+    .param p1    # Landroid/os/Parcel;
 
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->bq(Landroid/os/Parcel;)I
 
@@ -483,6 +484,7 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/achievement/AchievementEntityCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/achievement/AchievementEntity;
 
@@ -493,6 +495,7 @@
 
 .method public newArray(I)[Lcom/google/android/gms/games/achievement/AchievementEntity;
     .locals 1
+    .param p1    # I
 
     new-array v0, p1, [Lcom/google/android/gms/games/achievement/AchievementEntity;
 
@@ -501,6 +504,7 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/achievement/AchievementEntityCreator;->newArray(I)[Lcom/google/android/gms/games/achievement/AchievementEntity;
 

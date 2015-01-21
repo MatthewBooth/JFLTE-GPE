@@ -14,6 +14,7 @@
 # virtual methods
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
+    .param p1    # Landroid/content/res/Configuration;
 
     invoke-super {p0, p1}, Landroid/app/Application;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 

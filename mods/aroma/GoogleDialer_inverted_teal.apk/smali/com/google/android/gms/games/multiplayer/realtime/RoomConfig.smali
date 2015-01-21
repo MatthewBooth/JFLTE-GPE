@@ -5,6 +5,9 @@
 # direct methods
 .method public static createAutoMatchCriteria(IIJ)Landroid/os/Bundle;
     .locals 2
+    .param p0    # I
+    .param p1    # I
+    .param p2    # J
 
     new-instance v0, Landroid/os/Bundle;
 

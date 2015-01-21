@@ -15,6 +15,10 @@
 # direct methods
 .method public static createPopupMenu(Landroid/content/Context;Landroid/view/View;Lcom/android/contacts/editor/PhotoActionPopup$Listener;I)Landroid/widget/ListPopupWindow;
     .locals 13
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/view/View;
+    .param p2    # Lcom/android/contacts/editor/PhotoActionPopup$Listener;
+    .param p3    # I
 
     new-instance v1, Ljava/util/ArrayList;
 

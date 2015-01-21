@@ -74,6 +74,7 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/PlayerLevel;
     .locals 9
+    .param p1    # Landroid/os/Parcel;
 
     const-wide/16 v6, 0x0
 
@@ -187,6 +188,7 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/PlayerLevelCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/PlayerLevel;
 
@@ -197,6 +199,7 @@
 
 .method public newArray(I)[Lcom/google/android/gms/games/PlayerLevel;
     .locals 1
+    .param p1    # I
 
     new-array v0, p1, [Lcom/google/android/gms/games/PlayerLevel;
 
@@ -205,6 +208,7 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/PlayerLevelCreator;->newArray(I)[Lcom/google/android/gms/games/PlayerLevel;
 

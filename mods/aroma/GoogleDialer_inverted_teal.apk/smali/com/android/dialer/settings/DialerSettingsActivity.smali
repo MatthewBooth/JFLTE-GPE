@@ -82,6 +82,7 @@
 # virtual methods
 .method protected isValidFragment(Ljava/lang/String;)Z
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -154,6 +155,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsPreferenceActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -168,6 +170,7 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 2
+    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -192,6 +195,7 @@
 
 .method public setListAdapter(Landroid/widget/ListAdapter;)V
     .locals 4
+    .param p1    # Landroid/widget/ListAdapter;
 
     if-nez p1, :cond_0
 

@@ -48,6 +48,7 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Boolean;
     .locals 2
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$13;->val$imageViewDrawable:Landroid/graphics/drawable/Drawable;
 
@@ -98,6 +99,7 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -110,6 +112,7 @@
 
 .method protected onPostExecute(Ljava/lang/Boolean;)V
     .locals 2
+    .param p1    # Ljava/lang/Boolean;
 
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 
@@ -131,6 +134,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Boolean;
 

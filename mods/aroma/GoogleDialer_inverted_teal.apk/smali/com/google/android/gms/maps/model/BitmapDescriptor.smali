@@ -9,6 +9,7 @@
 # direct methods
 .method public constructor <init>(Lcom/google/android/gms/dynamic/d;)V
     .locals 1
+    .param p1    # Lcom/google/android/gms/dynamic/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

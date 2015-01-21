@@ -20,6 +20,8 @@
 # direct methods
 .method public constructor <init>(Lcom/google/i18n/phonenumbers/NumberParseException$ErrorType;Ljava/lang/String;)V
     .locals 0
+    .param p1    # Lcom/google/i18n/phonenumbers/NumberParseException$ErrorType;
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 

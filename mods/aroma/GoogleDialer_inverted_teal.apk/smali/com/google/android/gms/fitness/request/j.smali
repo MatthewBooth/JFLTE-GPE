@@ -75,6 +75,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     if-eq p1, p0, :cond_0
 
@@ -162,6 +163,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/request/k;->a(Lcom/google/android/gms/fitness/request/j;Landroid/os/Parcel;I)V
 

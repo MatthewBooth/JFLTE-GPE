@@ -33,6 +33,9 @@
 # virtual methods
 .method public onRequestSendAccessibilityEvent(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 4
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/accessibility/AccessibilityEvent;
 
     invoke-virtual {p3}, Landroid/view/accessibility/AccessibilityEvent;->getEventType()I
 

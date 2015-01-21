@@ -100,6 +100,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/net/Uri;Z)V
     .locals 7
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/net/Uri;
+    .param p3    # Z
 
     const/4 v3, 0x0
 
@@ -122,6 +125,12 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/net/Uri;ZZZZ)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/net/Uri;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Z
+    .param p6    # Z
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -148,6 +157,7 @@
 
 .method private computeFormattedPhoneNumbers(Lcom/android/contacts/common/model/Contact;)V
     .locals 11
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/ContactLoader;->getContext()Landroid/content/Context;
 
@@ -221,6 +231,9 @@
 
 .method private cursorColumnToContentValues(Landroid/database/Cursor;Landroid/content/ContentValues;I)V
     .locals 4
+    .param p1    # Landroid/database/Cursor;
+    .param p2    # Landroid/content/ContentValues;
+    .param p3    # I
 
     invoke-interface {p1, p3}, Landroid/database/Cursor;->getType(I)I
 
@@ -296,6 +309,8 @@
 
 .method private loadContactEntity(Landroid/content/ContentResolver;Landroid/net/Uri;)Lcom/android/contacts/common/model/Contact;
     .locals 21
+    .param p1    # Landroid/content/ContentResolver;
+    .param p2    # Landroid/net/Uri;
 
     const-string v2, "entities"
 
@@ -502,6 +517,8 @@
 
 .method private loadContactHeaderData(Landroid/database/Cursor;Landroid/net/Uri;)Lcom/android/contacts/common/model/Contact;
     .locals 26
+    .param p1    # Landroid/database/Cursor;
+    .param p2    # Landroid/net/Uri;
 
     const-string v2, "directory"
 
@@ -733,6 +750,7 @@
 
 .method private loadDataValues(Landroid/database/Cursor;)Landroid/content/ContentValues;
     .locals 4
+    .param p1    # Landroid/database/Cursor;
 
     new-instance v0, Landroid/content/ContentValues;
 
@@ -865,6 +883,7 @@
 
 .method private loadDirectoryMetaData(Lcom/android/contacts/common/model/Contact;)V
     .locals 16
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-virtual/range {p1 .. p1}, Lcom/android/contacts/common/model/Contact;->getDirectoryId()J
 
@@ -1039,6 +1058,7 @@
 
 .method private loadEncodedContactEntity(Landroid/net/Uri;)Lcom/android/contacts/common/model/Contact;
     .locals 43
+    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -1357,6 +1377,7 @@
 
 .method private loadGroupMetaData(Lcom/android/contacts/common/model/Contact;)V
     .locals 18
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     new-instance v15, Ljava/lang/StringBuilder;
 
@@ -1627,6 +1648,7 @@
 
 .method private loadInvitableAccountTypes(Lcom/android/contacts/common/model/Contact;)V
     .locals 8
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     new-instance v3, Lcom/google/common/collect/ImmutableList$Builder;
 
@@ -1716,6 +1738,7 @@
 
 .method private loadPhotoBinaryData(Lcom/android/contacts/common/model/Contact;)V
     .locals 10
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/ContactLoader;->loadThumbnailBinaryData(Lcom/android/contacts/common/model/Contact;)V
 
@@ -1867,6 +1890,7 @@
 
 .method private loadRawContactValues(Landroid/database/Cursor;)Landroid/content/ContentValues;
     .locals 4
+    .param p1    # Landroid/database/Cursor;
 
     new-instance v0, Landroid/content/ContentValues;
 
@@ -1943,6 +1967,7 @@
 
 .method private loadThumbnailBinaryData(Lcom/android/contacts/common/model/Contact;)V
     .locals 10
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/model/Contact;->getPhotoId()J
 
@@ -2153,6 +2178,9 @@
 
 .method private processOneRecord(Lcom/android/contacts/common/model/RawContact;Lorg/json/JSONObject;Ljava/lang/String;)V
     .locals 6
+    .param p1    # Lcom/android/contacts/common/model/RawContact;
+    .param p2    # Lorg/json/JSONObject;
+    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -2288,6 +2316,7 @@
 
 .method public deliverResult(Lcom/android/contacts/common/model/Contact;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ContactLoader;->unregisterObserver()V
 
@@ -2392,6 +2421,7 @@
 
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/model/Contact;
 

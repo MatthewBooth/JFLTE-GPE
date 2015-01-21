@@ -86,6 +86,10 @@
 
 .method static synthetic access$000(Lcom/android/incallui/CallCardPresenter;Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)V
     .locals 0
+    .param p0    # Lcom/android/incallui/CallCardPresenter;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
+    .param p3    # Z
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/incallui/CallCardPresenter;->onContactInfoComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)V
 
@@ -94,6 +98,9 @@
 
 .method static synthetic access$100(Lcom/android/incallui/CallCardPresenter;Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/CallCardPresenter;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/CallCardPresenter;->onImageLoadComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
 
@@ -102,6 +109,7 @@
 
 .method private static canManageConference(Lcom/android/incallui/Call;)Z
     .locals 1
+    .param p0    # Lcom/android/incallui/Call;
 
     if-eqz p0, :cond_0
 
@@ -126,6 +134,7 @@
 
 .method private getAccountForCall(Lcom/android/incallui/Call;)Landroid/telecom/PhoneAccount;
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getAccountHandle()Landroid/telecom/PhoneAccountHandle;
 
@@ -152,6 +161,7 @@
 
 .method private getCallProviderIcon(Lcom/android/incallui/Call;)Landroid/graphics/drawable/Drawable;
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallCardPresenter;->getAccountForCall(Lcom/android/incallui/Call;)Landroid/telecom/PhoneAccount;
 
@@ -186,6 +196,7 @@
 
 .method private getCallProviderLabel(Lcom/android/incallui/Call;)Ljava/lang/String;
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallCardPresenter;->getAccountForCall(Lcom/android/incallui/Call;)Landroid/telecom/PhoneAccount;
 
@@ -222,6 +233,9 @@
 
 .method private getCallToDisplay(Lcom/android/incallui/CallList;Lcom/android/incallui/Call;Z)Lcom/android/incallui/Call;
     .locals 2
+    .param p1    # Lcom/android/incallui/CallList;
+    .param p2    # Lcom/android/incallui/Call;
+    .param p3    # Z
 
     invoke-virtual {p1}, Lcom/android/incallui/CallList;->getActiveCall()Lcom/android/incallui/Call;
 
@@ -476,6 +490,7 @@
 
 .method private static getNameForCall(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;->name:Ljava/lang/String;
 
@@ -498,6 +513,7 @@
 
 .method private static getNumberForCall(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;->name:Ljava/lang/String;
 
@@ -520,6 +536,7 @@
 
 .method private getNumberFromHandle(Landroid/net/Uri;)Ljava/lang/String;
     .locals 1
+    .param p1    # Landroid/net/Uri;
 
     if-nez p1, :cond_0
 
@@ -658,6 +675,7 @@
 
 .method private static isConference(Lcom/android/incallui/Call;)Z
     .locals 1
+    .param p0    # Lcom/android/incallui/Call;
 
     if-eqz p0, :cond_0
 
@@ -733,6 +751,8 @@
 
 .method private maybeStartSearch(Lcom/android/incallui/Call;Z)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # Z
 
     if-eqz p1, :cond_0
 
@@ -766,6 +786,9 @@
 
 .method private onContactInfoComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)V
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
+    .param p3    # Z
 
     const/4 v0, 0x0
 
@@ -814,6 +837,8 @@
 
 .method private onImageLoadComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     invoke-virtual {p0}, Lcom/android/incallui/CallCardPresenter;->getUi()Lcom/android/incallui/Ui;
 
@@ -957,6 +982,9 @@
 
 .method private startContactInfoSearch(Lcom/android/incallui/Call;ZZ)V
     .locals 2
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # Z
+    .param p3    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallCardPresenter;->mContext:Landroid/content/Context;
 
@@ -975,6 +1003,9 @@
 
 .method private updateContactEntry(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;ZZ)V
     .locals 0
+    .param p1    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
+    .param p2    # Z
+    .param p3    # Z
 
     if-eqz p2, :cond_0
 
@@ -1058,6 +1089,8 @@
 
 .method private updatePrimaryDisplayInfo(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)V
     .locals 18
+    .param p1    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
+    .param p2    # Z
 
     sget-object v5, Lcom/android/incallui/CallCardPresenter;->TAG:Ljava/lang/String;
 
@@ -1189,6 +1222,7 @@
 
 .method private updateSecondaryDisplayInfo(Z)V
     .locals 19
+    .param p1    # Z
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/incallui/CallCardPresenter;->getUi()Lcom/android/incallui/Ui;
 
@@ -1402,6 +1436,8 @@
 
 .method public init(Landroid/content/Context;Lcom/android/incallui/Call;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/incallui/Call;
 
     const/4 v1, 0x1
 
@@ -1480,6 +1516,8 @@
 
 .method public onDetailsChanged(Lcom/android/incallui/Call;Landroid/telecom/Call$Details;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Call;
+    .param p2    # Landroid/telecom/Call$Details;
 
     invoke-direct {p0}, Lcom/android/incallui/CallCardPresenter;->updatePrimaryCallState()V
 
@@ -1488,6 +1526,7 @@
 
 .method public onFullScreenVideoStateChanged(Z)V
     .locals 2
+    .param p1    # Z
 
     invoke-virtual {p0}, Lcom/android/incallui/CallCardPresenter;->getUi()Lcom/android/incallui/Ui;
 
@@ -1518,6 +1557,9 @@
 
 .method public onIncomingCall(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/Call;)V
     .locals 1
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/Call;
 
     invoke-static {}, Lcom/android/incallui/CallList;->getInstance()Lcom/android/incallui/CallList;
 
@@ -1530,6 +1572,9 @@
 
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 16
+    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
+    .param p3    # Lcom/android/incallui/CallList;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -2104,6 +2149,7 @@
 
 .method public onUiReady(Lcom/android/incallui/CallCardPresenter$CallCardUi;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/CallCardPresenter$CallCardUi;
 
     invoke-super {p0, p1}, Lcom/android/incallui/Presenter;->onUiReady(Lcom/android/incallui/Ui;)V
 
@@ -2151,6 +2197,7 @@
 
 .method public bridge synthetic onUiReady(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/CallCardPresenter$CallCardUi;
 
@@ -2161,6 +2208,7 @@
 
 .method public onUiUnready(Lcom/android/incallui/CallCardPresenter$CallCardUi;)V
     .locals 2
+    .param p1    # Lcom/android/incallui/CallCardPresenter$CallCardUi;
 
     const/4 v1, 0x0
 
@@ -2201,6 +2249,7 @@
 
 .method public bridge synthetic onUiUnready(Lcom/android/incallui/Ui;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/Ui;
 
     check-cast p1, Lcom/android/incallui/CallCardPresenter$CallCardUi;
 

@@ -49,6 +49,7 @@
 
 .method constructor <init>(Ljava/lang/Object;I)V
     .locals 0
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TE;I)V"
@@ -68,6 +69,7 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/SingletonImmutableSet;->element:Ljava/lang/Object;
 
@@ -80,6 +82,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
+    .param p1    # Ljava/lang/Object;
 
     const/4 v2, 0x0
 

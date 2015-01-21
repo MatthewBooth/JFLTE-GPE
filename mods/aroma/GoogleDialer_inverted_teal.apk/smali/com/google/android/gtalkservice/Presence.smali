@@ -108,6 +108,7 @@
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
 
     const/4 v1, 0x1
 
@@ -230,6 +231,10 @@
 
 .method public constructor <init>(ZLcom/google/android/gtalkservice/Presence$Show;Ljava/lang/String;I)V
     .locals 1
+    .param p1    # Z
+    .param p2    # Lcom/google/android/gtalkservice/Presence$Show;
+    .param p3    # Ljava/lang/String;
+    .param p4    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -328,6 +333,7 @@
 
 .method public setAllowInvisibility(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/google/android/gtalkservice/Presence;->mAllowInvisibility:Z
 
@@ -336,6 +342,7 @@
 
 .method public setAvailable(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/google/android/gtalkservice/Presence;->mAvailable:Z
 
@@ -344,6 +351,7 @@
 
 .method public setCapabilities(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/google/android/gtalkservice/Presence;->mCapabilities:I
 
@@ -352,6 +360,7 @@
 
 .method public setInvisible(Z)Z
     .locals 1
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/google/android/gtalkservice/Presence;->mInvisible:Z
 
@@ -376,6 +385,7 @@
 
 .method public setShow(Lcom/google/android/gtalkservice/Presence$Show;)V
     .locals 0
+    .param p1    # Lcom/google/android/gtalkservice/Presence$Show;
 
     iput-object p1, p0, Lcom/google/android/gtalkservice/Presence;->mShow:Lcom/google/android/gtalkservice/Presence$Show;
 
@@ -384,6 +394,7 @@
 
 .method public setStatusListContentsMax(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/google/android/gtalkservice/Presence;->mStatusListContentsMax:I
 
@@ -392,6 +403,7 @@
 
 .method public setStatusListMax(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/google/android/gtalkservice/Presence;->mStatusListMax:I
 
@@ -400,6 +412,7 @@
 
 .method public setStatusMax(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/google/android/gtalkservice/Presence;->mStatusMax:I
 
@@ -513,6 +526,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v1, 0x1
 

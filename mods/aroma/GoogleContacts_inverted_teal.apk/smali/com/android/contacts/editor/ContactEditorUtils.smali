@@ -41,6 +41,7 @@
 
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Lcom/android/contacts/common/model/AccountTypeManager;->getInstance(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
 
@@ -53,6 +54,8 @@
 
 .method constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -77,6 +80,7 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/contacts/editor/ContactEditorUtils;
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/android/contacts/editor/ContactEditorUtils;
 
@@ -254,6 +258,8 @@
 
 .method public getCreatedAccount(ILandroid/content/Intent;)Lcom/android/contacts/common/model/account/AccountWithDataSet;
     .locals 4
+    .param p1    # I
+    .param p2    # Landroid/content/Intent;
 
     const/4 v2, 0x0
 
@@ -498,6 +504,7 @@
 
 .method isValidAccount(Lcom/android/contacts/common/model/account/AccountWithDataSet;)Z
     .locals 1
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     if-nez p1, :cond_0
 
@@ -540,6 +547,7 @@
 
 .method public saveDefaultAndAllAccounts(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     iget-object v1, p0, Lcom/android/contacts/editor/ContactEditorUtils;->mPrefs:Landroid/content/SharedPreferences;
 

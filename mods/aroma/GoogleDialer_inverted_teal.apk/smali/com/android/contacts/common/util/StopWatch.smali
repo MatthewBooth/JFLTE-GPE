@@ -32,6 +32,7 @@
 # direct methods
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,6 +59,7 @@
 
 .method public static start(Ljava/lang/String;)Lcom/android/contacts/common/util/StopWatch;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/contacts/common/util/StopWatch;
 
@@ -70,6 +72,7 @@
 # virtual methods
 .method public lap(Ljava/lang/String;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/util/StopWatch;->mTimes:Ljava/util/ArrayList;
 
@@ -92,6 +95,8 @@
 
 .method public stopAndLog(Ljava/lang/String;I)V
     .locals 16
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     const-string v14, ""
 

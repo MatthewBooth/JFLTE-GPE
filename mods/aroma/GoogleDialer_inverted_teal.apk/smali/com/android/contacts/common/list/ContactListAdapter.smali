@@ -26,6 +26,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -42,6 +43,7 @@
 
 .method protected static buildSectionIndexerUri(Landroid/net/Uri;)Landroid/net/Uri;
     .locals 3
+    .param p0    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
@@ -66,6 +68,8 @@
 # virtual methods
 .method protected bindNameAndViewId(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -84,6 +88,9 @@
 
 .method protected bindPhoto(Lcom/android/contacts/common/list/ContactListItemView;ILandroid/database/Cursor;)V
     .locals 12
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
 
     const/4 v6, 0x0
 
@@ -191,6 +198,8 @@
 
 .method protected bindPresenceAndStatusMessage(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v0, 0x2
 
@@ -203,6 +212,8 @@
 
 .method protected bindSearchSnippet(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
 
     const/16 v0, 0x8
 
@@ -213,6 +224,9 @@
 
 .method protected bindSectionHeaderAndDivider(Lcom/android/contacts/common/list/ContactListItemView;ILandroid/database/Cursor;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/ContactListAdapter;->isSectionHeaderDisplayEnabled()Z
 
@@ -247,6 +261,8 @@
 
 .method public changeCursor(ILandroid/database/Cursor;)V
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -284,6 +300,8 @@
 
 .method public getContactUri(ILandroid/database/Cursor;)Landroid/net/Uri;
     .locals 9
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v6, 0x0
 
@@ -341,6 +359,7 @@
 
 .method protected final getProjection(Z)[Ljava/lang/String;
     .locals 2
+    .param p1    # Z
 
     const/4 v1, 0x1
 
@@ -413,6 +432,8 @@
 
 .method public isSelectedContact(ILandroid/database/Cursor;)Z
     .locals 10
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v4, 0x1
 
@@ -502,6 +523,11 @@
 
 .method protected bridge synthetic newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     invoke-virtual/range {p0 .. p5}, Lcom/android/contacts/common/list/ContactListAdapter;->newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
 
@@ -512,6 +538,11 @@
 
 .method protected newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     invoke-super/range {p0 .. p5}, Lcom/android/contacts/common/list/ContactEntryListAdapter;->newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
 

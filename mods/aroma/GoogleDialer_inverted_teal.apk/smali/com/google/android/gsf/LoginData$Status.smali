@@ -297,6 +297,7 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/android/gsf/LoginData$Status;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/google/android/gsf/LoginData$Status;
 

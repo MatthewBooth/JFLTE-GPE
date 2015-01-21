@@ -69,6 +69,14 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/DriveId;Ljava/lang/String;Landroid/os/ParcelFileDescriptor;Landroid/os/ParcelFileDescriptor;Lcom/google/android/gms/drive/metadata/internal/MetadataBundle;Ljava/util/ArrayList;ILandroid/os/IBinder;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/drive/DriveId;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Landroid/os/ParcelFileDescriptor;
+    .param p5    # Landroid/os/ParcelFileDescriptor;
+    .param p6    # Lcom/google/android/gms/drive/metadata/internal/MetadataBundle;
+    .param p8    # I
+    .param p9    # Landroid/os/IBinder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -209,6 +217,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/events/b;->a(Lcom/google/android/gms/drive/events/CompletionEvent;Landroid/os/Parcel;I)V
 

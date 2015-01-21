@@ -160,6 +160,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     instance-of v0, p1, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
@@ -186,6 +187,7 @@
 
 .method public exactlySameAs(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Z
     .locals 6
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     const/4 v0, 0x1
 
@@ -534,6 +536,7 @@
 
 .method public mergeFrom(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 2
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->hasCountryCode()Z
 
@@ -644,6 +647,7 @@
 
 .method public setCountryCode(I)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -656,6 +660,7 @@
 
 .method public setCountryCodeSource(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber$CountryCodeSource;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber$CountryCodeSource;
 
     if-nez p1, :cond_0
 
@@ -677,6 +682,7 @@
 
 .method public setExtension(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 
@@ -698,6 +704,7 @@
 
 .method public setItalianLeadingZero(Z)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Z
 
     const/4 v0, 0x1
 
@@ -710,6 +717,7 @@
 
 .method public setNationalNumber(J)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # J
 
     const/4 v0, 0x1
 
@@ -722,6 +730,7 @@
 
 .method public setNumberOfLeadingZeros(I)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -734,6 +743,7 @@
 
 .method public setPreferredDomesticCarrierCode(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 
@@ -755,6 +765,7 @@
 
 .method public setRawInput(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 

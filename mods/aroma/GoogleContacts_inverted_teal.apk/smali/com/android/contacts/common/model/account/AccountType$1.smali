@@ -40,6 +40,8 @@
 # virtual methods
 .method public compare(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/dataitem/DataKind;)I
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iget v0, p1, Lcom/android/contacts/common/model/dataitem/DataKind;->weight:I
 
@@ -52,6 +54,8 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/model/dataitem/DataKind;
 

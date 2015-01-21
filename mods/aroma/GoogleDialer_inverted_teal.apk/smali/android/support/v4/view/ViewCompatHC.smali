@@ -16,6 +16,7 @@
 
 .method public static getLayerType(Landroid/view/View;)I
     .locals 1
+    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getLayerType()I
 
@@ -26,6 +27,9 @@
 
 .method public static setLayerType(Landroid/view/View;ILandroid/graphics/Paint;)V
     .locals 0
+    .param p0    # Landroid/view/View;
+    .param p1    # I
+    .param p2    # Landroid/graphics/Paint;
 
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 

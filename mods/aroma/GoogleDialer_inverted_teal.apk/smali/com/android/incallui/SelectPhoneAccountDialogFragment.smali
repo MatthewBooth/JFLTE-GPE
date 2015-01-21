@@ -50,6 +50,8 @@
 
 .method static synthetic access$002(Lcom/android/incallui/SelectPhoneAccountDialogFragment;Z)Z
     .locals 0
+    .param p0    # Lcom/android/incallui/SelectPhoneAccountDialogFragment;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/SelectPhoneAccountDialogFragment;->mIsSelected:Z
 
@@ -58,6 +60,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/SelectPhoneAccountDialogFragment;)Ljava/util/List;
     .locals 1
+    .param p0    # Lcom/android/incallui/SelectPhoneAccountDialogFragment;
 
     iget-object v0, p0, Lcom/android/incallui/SelectPhoneAccountDialogFragment;->mAccountHandles:Ljava/util/List;
 
@@ -66,6 +69,7 @@
 
 .method static synthetic access$300(Lcom/android/incallui/SelectPhoneAccountDialogFragment;)Landroid/telecom/TelecomManager;
     .locals 1
+    .param p0    # Lcom/android/incallui/SelectPhoneAccountDialogFragment;
 
     iget-object v0, p0, Lcom/android/incallui/SelectPhoneAccountDialogFragment;->mTelecomManager:Landroid/telecom/TelecomManager;
 
@@ -74,6 +78,7 @@
 
 .method public static showAccountDialog(Landroid/app/FragmentManager;Ljava/util/List;)V
     .locals 2
+    .param p0    # Landroid/app/FragmentManager;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -100,6 +105,7 @@
 # virtual methods
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 6
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v3, 0x0
 

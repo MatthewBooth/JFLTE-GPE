@@ -36,6 +36,7 @@
 
 .method public static getInstance(Landroid/content/Context;)Lcom/android/contacts/common/list/ContactListFilterController;
     .locals 1
+    .param p0    # Landroid/content/Context;
 
     sget-object v0, Lcom/android/contacts/common/list/ContactListFilterController;->sFilterController:Lcom/android/contacts/common/list/ContactListFilterControllerImpl;
 

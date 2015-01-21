@@ -22,6 +22,10 @@
 
 .method public static configureStarredMenuItem(Landroid/view/MenuItem;ZZZ)V
     .locals 2
+    .param p0    # Landroid/view/MenuItem;
+    .param p1    # Z
+    .param p2    # Z
+    .param p3    # Z
 
     if-nez p1, :cond_2
 
@@ -70,6 +74,8 @@
 
 .method public static getDisplayName(Landroid/content/Context;Lcom/android/contacts/common/model/Contact;)Ljava/lang/CharSequence;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     new-instance v2, Lcom/android/contacts/common/preference/ContactsPreferences;
 

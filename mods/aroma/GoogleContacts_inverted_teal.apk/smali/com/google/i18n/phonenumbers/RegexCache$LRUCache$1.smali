@@ -28,6 +28,9 @@
 # direct methods
 .method constructor <init>(Lcom/google/i18n/phonenumbers/RegexCache$LRUCache;IFZ)V
     .locals 0
+    .param p2    # I
+    .param p3    # F
+    .param p4    # Z
 
     iput-object p1, p0, Lcom/google/i18n/phonenumbers/RegexCache$LRUCache$1;->this$0:Lcom/google/i18n/phonenumbers/RegexCache$LRUCache;
 

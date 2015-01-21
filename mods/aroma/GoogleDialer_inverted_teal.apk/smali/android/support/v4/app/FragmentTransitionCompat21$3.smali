@@ -35,6 +35,7 @@
 # virtual methods
 .method public onGetEpicenter(Landroid/transition/Transition;)Landroid/graphics/Rect;
     .locals 1
+    .param p1    # Landroid/transition/Transition;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentTransitionCompat21$3;->mEpicenter:Landroid/graphics/Rect;
 

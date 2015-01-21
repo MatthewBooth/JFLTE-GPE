@@ -10,6 +10,7 @@
 # direct methods
 .method public constructor <init>([Ljava/lang/String;)V
     .locals 0
+    .param p1    # [Ljava/lang/String;
 
     invoke-direct {p0}, Landroid/database/AbstractCursor;-><init>()V
 
@@ -50,6 +51,7 @@
 
 .method public getDouble(I)D
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -60,6 +62,7 @@
 
 .method public getFloat(I)F
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -70,6 +73,7 @@
 
 .method public getInt(I)I
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -80,6 +84,7 @@
 
 .method public getLong(I)J
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -90,6 +95,7 @@
 
 .method public getShort(I)S
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -100,6 +106,7 @@
 
 .method public getString(I)Ljava/lang/String;
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -110,6 +117,7 @@
 
 .method public isNull(I)Z
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/database/EmptyCursor;->cursorException()Landroid/database/CursorIndexOutOfBoundsException;
 

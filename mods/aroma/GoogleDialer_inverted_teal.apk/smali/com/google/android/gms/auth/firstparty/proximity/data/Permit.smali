@@ -81,6 +81,11 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/auth/firstparty/proximity/data/PermitAccess;Ljava/util/List;Ljava/util/List;)V
     .locals 8
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Lcom/google/android/gms/auth/firstparty/proximity/data/PermitAccess;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -126,6 +131,11 @@
 
 .method private constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/auth/firstparty/proximity/data/PermitAccess;Ljava/util/Map;Ljava/util/Set;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Lcom/google/android/gms/auth/firstparty/proximity/data/PermitAccess;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -272,6 +282,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 
@@ -430,6 +441,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     new-instance v0, Ljava/util/ArrayList;
 

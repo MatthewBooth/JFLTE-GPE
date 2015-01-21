@@ -54,6 +54,11 @@
 
 .method constructor <init>(ILandroid/os/IBinder;ZFZ)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/os/IBinder;
+    .param p3    # Z
+    .param p4    # F
+    .param p5    # Z
 
     const/4 v0, 0x1
 
@@ -160,6 +165,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {}, Lcom/google/android/gms/maps/internal/v;->nK()Z
 

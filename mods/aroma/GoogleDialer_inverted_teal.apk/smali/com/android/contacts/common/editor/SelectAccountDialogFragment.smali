@@ -22,6 +22,8 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/editor/SelectAccountDialogFragment;Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/common/editor/SelectAccountDialogFragment;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/editor/SelectAccountDialogFragment;->onAccountSelected(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
 
@@ -30,6 +32,7 @@
 
 .method private onAccountSelected(Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/editor/SelectAccountDialogFragment;->getTargetFragment()Landroid/app/Fragment;
 
@@ -63,6 +66,10 @@
 
 .method public static show(Landroid/app/FragmentManager;Landroid/app/Fragment;ILcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;Landroid/os/Bundle;)V
     .locals 3
+    .param p0    # Landroid/app/FragmentManager;
+    .param p2    # I
+    .param p3    # Lcom/android/contacts/common/util/AccountsListAdapter$AccountListFilter;
+    .param p4    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
@@ -120,6 +127,7 @@
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 3
+    .param p1    # Landroid/content/DialogInterface;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onCancel(Landroid/content/DialogInterface;)V
 
@@ -145,6 +153,7 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 7
+    .param p1    # Landroid/os/Bundle;
 
     new-instance v2, Landroid/app/AlertDialog$Builder;
 

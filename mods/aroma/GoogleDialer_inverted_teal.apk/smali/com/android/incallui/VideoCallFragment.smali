@@ -86,6 +86,7 @@
 
 .method static synthetic access$000(Lcom/android/incallui/VideoCallFragment;)I
     .locals 1
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
 
     iget v0, p0, Lcom/android/incallui/VideoCallFragment;->mWidth:I
 
@@ -94,6 +95,8 @@
 
 .method static synthetic access$002(Lcom/android/incallui/VideoCallFragment;I)I
     .locals 0
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/VideoCallFragment;->mWidth:I
 
@@ -102,6 +105,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/VideoCallFragment;)I
     .locals 1
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
 
     iget v0, p0, Lcom/android/incallui/VideoCallFragment;->mHeight:I
 
@@ -110,6 +114,8 @@
 
 .method static synthetic access$102(Lcom/android/incallui/VideoCallFragment;I)I
     .locals 0
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/VideoCallFragment;->mHeight:I
 
@@ -118,6 +124,8 @@
 
 .method static synthetic access$200(Lcom/android/incallui/VideoCallFragment;Landroid/view/View;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
+    .param p1    # Landroid/view/View;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/VideoCallFragment;->centerDisplayView(Landroid/view/View;)V
 
@@ -126,6 +134,8 @@
 
 .method static synthetic access$302(Lcom/android/incallui/VideoCallFragment;Z)Z
     .locals 0
+    .param p0    # Lcom/android/incallui/VideoCallFragment;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/VideoCallFragment;->mIsLayoutComplete:Z
 
@@ -134,6 +144,7 @@
 
 .method private centerDisplayView(Landroid/view/View;)V
     .locals 5
+    .param p1    # Landroid/view/View;
 
     const/high16 v4, 0x40000000
 
@@ -337,6 +348,8 @@
 
 .method private setSurfaceSizeAndTranslation(Landroid/view/TextureView;Landroid/graphics/Point;)V
     .locals 3
+    .param p1    # Landroid/view/TextureView;
+    .param p2    # Landroid/graphics/Point;
 
     const/4 v2, 0x0
 
@@ -568,6 +581,7 @@
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -612,6 +626,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -624,6 +639,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 4
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2, p3}, Lcom/android/incallui/BaseFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
@@ -650,6 +668,8 @@
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2}, Lcom/android/incallui/BaseFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
@@ -675,6 +695,8 @@
 
 .method public setPreviewSize(II)V
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     sget-object v2, Lcom/android/incallui/VideoCallFragment;->sPreviewSurface:Lcom/android/incallui/VideoCallFragment$VideoCallSurface;
 
@@ -712,6 +734,7 @@
 
 .method public showVideoUi(Z)V
     .locals 2
+    .param p1    # Z
 
     if-eqz p1, :cond_1
 

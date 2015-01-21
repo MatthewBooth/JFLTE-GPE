@@ -39,6 +39,7 @@
 
 .method static chooseTableSize(I)I
     .locals 3
+    .param p0    # I
 
     const/high16 v1, 0x40000000
 
@@ -77,6 +78,7 @@
 
 .method private static varargs construct([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
     .locals 19
+    .param p0    # [Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -355,6 +357,7 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     if-ne p1, p0, :cond_0
 

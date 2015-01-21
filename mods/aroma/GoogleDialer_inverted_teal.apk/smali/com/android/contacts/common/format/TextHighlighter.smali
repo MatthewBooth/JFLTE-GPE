@@ -14,6 +14,7 @@
 # direct methods
 .method public constructor <init>(I)V
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,6 +53,9 @@
 # virtual methods
 .method public applyMaskingHighlight(Landroid/text/SpannableString;II)V
     .locals 2
+    .param p1    # Landroid/text/SpannableString;
+    .param p2    # I
+    .param p3    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/format/TextHighlighter;->getStyleSpan()Landroid/text/style/CharacterStyle;
 
@@ -66,6 +70,8 @@
 
 .method public applyPrefixHighlight(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/CharSequence;
     .locals 7
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # Ljava/lang/String;
 
     if-nez p2, :cond_1
 
@@ -133,6 +139,9 @@
 
 .method public setPrefixText(Landroid/widget/TextView;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Landroid/widget/TextView;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     invoke-virtual {p0, p2, p3}, Lcom/android/contacts/common/format/TextHighlighter;->applyPrefixHighlight(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/CharSequence;
 

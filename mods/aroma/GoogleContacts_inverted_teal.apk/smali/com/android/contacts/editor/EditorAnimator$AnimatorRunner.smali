@@ -46,6 +46,7 @@
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 1
+    .param p1    # Landroid/animation/Animator;
 
     const/4 v0, 0x0
 
@@ -75,6 +76,7 @@
 
 .method public run(Ljava/util/List;Landroid/animation/Animator$AnimatorListener;)V
     .locals 1
+    .param p2    # Landroid/animation/Animator$AnimatorListener;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

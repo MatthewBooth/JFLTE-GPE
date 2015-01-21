@@ -31,6 +31,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, -0x1
 
@@ -73,6 +74,8 @@
 
 .method static synthetic access$002(Lcom/android/contacts/common/preference/ContactsPreferences;I)I
     .locals 0
+    .param p0    # Lcom/android/contacts/common/preference/ContactsPreferences;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mDisplayOrder:I
 
@@ -81,6 +84,8 @@
 
 .method static synthetic access$102(Lcom/android/contacts/common/preference/ContactsPreferences;I)I
     .locals 0
+    .param p0    # Lcom/android/contacts/common/preference/ContactsPreferences;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mSortOrder:I
 
@@ -89,6 +94,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/common/preference/ContactsPreferences;)Lcom/android/contacts/common/preference/ContactsPreferences$ChangeListener;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/preference/ContactsPreferences;
 
     iget-object v0, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mListener:Lcom/android/contacts/common/preference/ContactsPreferences$ChangeListener;
 
@@ -359,6 +365,8 @@
 
 .method public onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V
     .locals 2
+    .param p1    # Landroid/content/SharedPreferences;
+    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mHandler:Landroid/os/Handler;
 
@@ -373,6 +381,7 @@
 
 .method public registerChangeListener(Lcom/android/contacts/common/preference/ContactsPreferences$ChangeListener;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/preference/ContactsPreferences$ChangeListener;
 
     const/4 v1, -0x1
 
@@ -398,6 +407,7 @@
 
 .method public setDisplayOrder(I)V
     .locals 2
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mDisplayOrder:I
 
@@ -418,6 +428,7 @@
 
 .method public setSortOrder(I)V
     .locals 2
+    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/preference/ContactsPreferences;->mSortOrder:I
 

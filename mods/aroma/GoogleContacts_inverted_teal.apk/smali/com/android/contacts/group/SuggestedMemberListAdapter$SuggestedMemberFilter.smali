@@ -33,6 +33,7 @@
 # virtual methods
 .method protected performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults;
     .locals 36
+    .param p1    # Ljava/lang/CharSequence;
 
     new-instance v31, Landroid/widget/Filter$FilterResults;
 
@@ -708,6 +709,8 @@
 
 .method protected publishResults(Ljava/lang/CharSequence;Landroid/widget/Filter$FilterResults;)V
     .locals 4
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # Landroid/widget/Filter$FilterResults;
 
     iget-object v2, p2, Landroid/widget/Filter$FilterResults;->values:Ljava/lang/Object;
 

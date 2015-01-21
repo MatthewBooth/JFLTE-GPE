@@ -51,6 +51,8 @@
 
 .method constructor <init>(ILandroid/accounts/Account;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Landroid/accounts/Account;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,6 +65,7 @@
 
 .method public constructor <init>(Landroid/accounts/Account;)V
     .locals 1
+    .param p1    # Landroid/accounts/Account;
 
     const/4 v0, 0x1
 
@@ -85,6 +88,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/GetRecentContextCall$Request;->CREATOR:Lcom/google/android/gms/appdatasearch/i;
 

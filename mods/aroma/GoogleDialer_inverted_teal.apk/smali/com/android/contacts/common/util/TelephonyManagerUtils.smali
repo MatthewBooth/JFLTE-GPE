@@ -32,6 +32,8 @@
 
 .method public static getCurrentCountryIso(Landroid/content/Context;Ljava/util/Locale;)Ljava/lang/String;
     .locals 5
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/util/Locale;
 
     const-string v2, "phone"
 
@@ -83,6 +85,7 @@
 
 .method public static getVoiceMailAlphaTag(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
+    .param p0    # Landroid/content/Context;
 
     const-string v2, "phone"
 

@@ -23,6 +23,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Lcom/android/contacts/common/list/ContactListFilterController;-><init>()V
 
@@ -129,6 +130,9 @@
 
 .method private setContactListFilter(Lcom/android/contacts/common/list/ContactListFilter;ZZ)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
+    .param p2    # Z
+    .param p3    # Z
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListFilterControllerImpl;->mFilter:Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -171,6 +175,7 @@
 # virtual methods
 .method public addListener(Lcom/android/contacts/common/list/ContactListFilterController$ContactListFilterListener;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilterController$ContactListFilterListener;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListFilterControllerImpl;->mListeners:Ljava/util/List;
 
@@ -181,6 +186,7 @@
 
 .method public checkFilterValidity(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListFilterControllerImpl;->mFilter:Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -250,6 +256,7 @@
 
 .method public removeListener(Lcom/android/contacts/common/list/ContactListFilterController$ContactListFilterListener;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilterController$ContactListFilterListener;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListFilterControllerImpl;->mListeners:Ljava/util/List;
 
@@ -276,6 +283,8 @@
 
 .method public setContactListFilter(Lcom/android/contacts/common/list/ContactListFilter;Z)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
+    .param p2    # Z
 
     const/4 v0, 0x1
 

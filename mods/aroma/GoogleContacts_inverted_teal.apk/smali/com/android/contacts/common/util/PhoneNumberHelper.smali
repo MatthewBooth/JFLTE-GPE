@@ -32,6 +32,7 @@
 
 .method public static isUriNumber(Ljava/lang/String;)Z
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     if-eqz p0, :cond_1
 

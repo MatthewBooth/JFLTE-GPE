@@ -65,6 +65,8 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/content/Intent;
 
     const/4 v0, 0x0
 

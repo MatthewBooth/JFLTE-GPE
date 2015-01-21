@@ -46,6 +46,8 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/widget/multiwaveview/GlowPadView;Lcom/android/incallui/widget/multiwaveview/GlowPadView$1;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p2    # Lcom/android/incallui/widget/multiwaveview/GlowPadView$1;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/widget/multiwaveview/GlowPadView$AnimationBundle;-><init>(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)V
 
@@ -88,6 +90,7 @@
 
 .method public setSuspended(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView$AnimationBundle;->mSuspended:Z
 

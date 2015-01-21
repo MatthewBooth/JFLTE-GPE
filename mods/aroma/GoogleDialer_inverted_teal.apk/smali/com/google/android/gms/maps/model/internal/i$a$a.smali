@@ -43,6 +43,9 @@
 
 .method public getTile(III)Lcom/google/android/gms/maps/model/Tile;
     .locals 5
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;

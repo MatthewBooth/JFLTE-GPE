@@ -93,6 +93,25 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZZLcom/google/android/gms/auth/firstparty/shared/CaptchaChallenge;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;ZZI)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Ljava/lang/String;
+    .param p10    # Z
+    .param p11    # Z
+    .param p12    # Z
+    .param p13    # Z
+    .param p14    # Lcom/google/android/gms/auth/firstparty/shared/CaptchaChallenge;
+    .param p16    # Ljava/lang/String;
+    .param p17    # Ljava/lang/String;
+    .param p18    # Z
+    .param p19    # Z
+    .param p20    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -185,6 +204,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/dataservice/ae;->a(Lcom/google/android/gms/auth/firstparty/dataservice/TokenResponse;Landroid/os/Parcel;I)V
 

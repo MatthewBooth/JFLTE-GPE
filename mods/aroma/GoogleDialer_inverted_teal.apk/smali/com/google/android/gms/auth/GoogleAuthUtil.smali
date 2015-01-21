@@ -476,6 +476,10 @@
 
 .method public static getToken(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -695,6 +699,10 @@
 
 .method public static getTokenWithNotification(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -725,6 +733,8 @@
 
 .method public static invalidateToken(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 

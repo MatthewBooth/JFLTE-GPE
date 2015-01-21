@@ -45,6 +45,7 @@
 # direct methods
 .method public varargs constructor <init>(Lcom/google/android/gms/common/api/Api$b;Lcom/google/android/gms/common/api/Api$c;[Lcom/google/android/gms/common/api/Scope;)V
     .locals 2
+    .param p3    # [Lcom/google/android/gms/common/api/Scope;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

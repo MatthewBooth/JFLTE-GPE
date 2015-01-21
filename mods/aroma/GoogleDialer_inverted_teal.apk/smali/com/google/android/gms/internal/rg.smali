@@ -208,6 +208,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
+    .param p1    # Ljava/lang/Object;
 
     const/4 v2, 0x1
 
@@ -337,6 +338,7 @@
 
 .method protected getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
     .locals 3
+    .param p1    # Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;->getSafeParcelableFieldId()I
 
@@ -480,6 +482,7 @@
 
 .method protected isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
     .locals 2
+    .param p1    # Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/rg;->aAe:Ljava/util/Set;
 
@@ -506,6 +509,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/internal/rg;->CREATOR:Lcom/google/android/gms/internal/rh;
 

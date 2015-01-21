@@ -80,6 +80,7 @@
 
 .method private addEmptyUserProfileHeader(Landroid/view/LayoutInflater;)V
     .locals 5
+    .param p1    # Landroid/view/LayoutInflater;
 
     const/4 v4, 0x0
 
@@ -173,6 +174,7 @@
 
 .method private showEmptyUserProfile(Z)V
     .locals 4
+    .param p1    # Z
 
     const/16 v2, 0x8
 
@@ -237,6 +239,7 @@
 
 .method private showSearchProgress(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/contacts/list/DefaultContactBrowseListFragment;->mSearchProgress:Landroid/view/View;
 
@@ -319,6 +322,7 @@
 # virtual methods
 .method public createCursorLoader(Landroid/content/Context;)Landroid/content/CursorLoader;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     new-instance v0, Lcom/android/contacts/common/list/ProfileAndContactsLoader;
 
@@ -371,6 +375,8 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040012
 
@@ -385,6 +391,9 @@
 
 .method public onActivityResult(IILandroid/content/Intent;)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -422,6 +431,8 @@
 
 .method protected onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 5
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
 
     const/4 v4, 0x0
 
@@ -508,6 +519,8 @@
 
 .method protected onItemClick(IJ)V
     .locals 2
+    .param p1    # I
+    .param p2    # J
 
     invoke-virtual {p0}, Lcom/android/contacts/list/DefaultContactBrowseListFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -532,6 +545,7 @@
 
 .method public setFilter(Lcom/android/contacts/common/list/ContactListFilter;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
 
     invoke-super {p0, p1}, Lcom/android/contacts/list/ContactBrowseListFragment;->setFilter(Lcom/android/contacts/common/list/ContactListFilter;)V
 
@@ -669,6 +683,7 @@
 
 .method protected setSearchMode(Z)V
     .locals 1
+    .param p1    # Z
 
     invoke-super {p0, p1}, Lcom/android/contacts/list/ContactBrowseListFragment;->setSearchMode(Z)V
 

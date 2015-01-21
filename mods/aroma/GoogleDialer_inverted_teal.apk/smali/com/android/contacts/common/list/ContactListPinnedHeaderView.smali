@@ -6,6 +6,9 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/view/View;)V
     .locals 10
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # Landroid/view/View;
 
     const/4 v8, 0x0
 
@@ -128,6 +131,7 @@
 # virtual methods
 .method public setSectionHeaderTitle(Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

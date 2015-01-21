@@ -6,6 +6,8 @@
 # direct methods
 .method public static getHelpUrl(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
     .locals 7
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 

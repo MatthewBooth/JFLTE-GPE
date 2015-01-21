@@ -57,6 +57,7 @@
 # virtual methods
 .method public apply(Ljava/lang/Object;)Ljava/lang/Integer;
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/Ordering$ArbitraryOrdering$1;->counter:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -73,6 +74,7 @@
 
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Ordering$ArbitraryOrdering$1;->apply(Ljava/lang/Object;)Ljava/lang/Integer;
 

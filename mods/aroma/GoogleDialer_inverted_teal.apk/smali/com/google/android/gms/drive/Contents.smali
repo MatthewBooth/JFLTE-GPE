@@ -58,6 +58,12 @@
 
 .method constructor <init>(ILandroid/os/ParcelFileDescriptor;IILcom/google/android/gms/drive/DriveId;Z)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/os/ParcelFileDescriptor;
+    .param p3    # I
+    .param p4    # I
+    .param p5    # Lcom/google/android/gms/drive/DriveId;
+    .param p6    # Z
 
     const/4 v0, 0x0
 
@@ -104,6 +110,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/a;->a(Lcom/google/android/gms/drive/Contents;Landroid/os/Parcel;I)V
 

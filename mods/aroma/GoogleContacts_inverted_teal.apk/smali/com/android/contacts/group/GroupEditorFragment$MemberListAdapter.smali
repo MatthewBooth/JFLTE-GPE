@@ -37,6 +37,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/group/GroupEditorFragment;Lcom/android/contacts/group/GroupEditorFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/group/GroupEditorFragment;
+    .param p2    # Lcom/android/contacts/group/GroupEditorFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment$MemberListAdapter;-><init>(Lcom/android/contacts/group/GroupEditorFragment;)V
 
@@ -64,6 +66,7 @@
 
 .method public getItem(I)Lcom/android/contacts/group/GroupEditorFragment$Member;
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupEditorFragment$MemberListAdapter;->this$0:Lcom/android/contacts/group/GroupEditorFragment;
 
@@ -83,6 +86,7 @@
 
 .method public bridge synthetic getItem(I)Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/group/GroupEditorFragment$MemberListAdapter;->getItem(I)Lcom/android/contacts/group/GroupEditorFragment$Member;
 
@@ -93,6 +97,7 @@
 
 .method public getItemId(I)J
     .locals 2
+    .param p1    # I
 
     int-to-long v0, p1
 
@@ -101,6 +106,9 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 11
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v5, 0x1
 
@@ -218,6 +226,7 @@
 
 .method public setIsGroupMembershipEditable(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/group/GroupEditorFragment$MemberListAdapter;->mIsGroupMembershipEditable:Z
 

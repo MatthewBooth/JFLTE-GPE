@@ -52,6 +52,7 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v3, 0x0
 
@@ -136,6 +137,7 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 5
+    .param p1    # Ljava/lang/Object;
 
     const/4 v2, 0x0
 

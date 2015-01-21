@@ -48,6 +48,10 @@
 
 .method constructor <init>(ILjava/util/List;IZZ)V
     .locals 3
+    .param p1    # I
+    .param p3    # I
+    .param p4    # Z
+    .param p5    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -118,6 +122,8 @@
 
 .method constructor <init>(Ljava/util/List;IZ)V
     .locals 1
+    .param p2    # I
+    .param p3    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -167,6 +173,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -317,6 +324,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/common/people/data/a;->a(Lcom/google/android/gms/common/people/data/Audience;Landroid/os/Parcel;I)V
 

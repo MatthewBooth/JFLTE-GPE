@@ -40,6 +40,7 @@
 
 .method constructor <init>(ILjava/util/ArrayList;)V
     .locals 0
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -173,6 +174,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
+    .param p1    # Ljava/lang/Object;
 
     const/4 v3, 0x1
 
@@ -332,6 +334,7 @@
 
 .method public getRecipientStatus(Ljava/lang/String;)I
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -492,6 +495,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/internal/request/GameRequestClusterCreator;->a(Lcom/google/android/gms/games/internal/request/GameRequestCluster;Landroid/os/Parcel;I)V
 

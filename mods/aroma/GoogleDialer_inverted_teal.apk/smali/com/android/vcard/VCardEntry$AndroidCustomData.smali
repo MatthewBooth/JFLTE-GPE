@@ -35,6 +35,7 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/util/List;)V
     .locals 0
+    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -135,6 +136,7 @@
 # virtual methods
 .method public constructInsertOperation(Ljava/util/List;I)V
     .locals 5
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -225,6 +227,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 7
+    .param p1    # Ljava/lang/Object;
 
     const/4 v5, 0x1
 

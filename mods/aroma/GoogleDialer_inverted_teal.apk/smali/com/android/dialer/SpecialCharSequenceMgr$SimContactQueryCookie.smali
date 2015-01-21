@@ -32,6 +32,9 @@
 # direct methods
 .method public constructor <init>(ILcom/android/dialer/SpecialCharSequenceMgr$QueryHandler;I)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/android/dialer/SpecialCharSequenceMgr$QueryHandler;
+    .param p3    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -70,6 +73,7 @@
 
 .method public declared-synchronized onCancel(Landroid/content/DialogInterface;)V
     .locals 2
+    .param p1    # Landroid/content/DialogInterface;
 
     monitor-enter p0
 
@@ -109,6 +113,7 @@
 
 .method public declared-synchronized setTextField(Landroid/widget/EditText;)V
     .locals 1
+    .param p1    # Landroid/widget/EditText;
 
     monitor-enter p0
 

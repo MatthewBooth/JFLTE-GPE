@@ -151,6 +151,7 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/drive/internal/ap;->ch(Landroid/os/Parcel;)Lcom/google/android/gms/drive/internal/OnMetadataResponse;
 
@@ -169,6 +170,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/drive/internal/ap;->dv(I)[Lcom/google/android/gms/drive/internal/OnMetadataResponse;
 

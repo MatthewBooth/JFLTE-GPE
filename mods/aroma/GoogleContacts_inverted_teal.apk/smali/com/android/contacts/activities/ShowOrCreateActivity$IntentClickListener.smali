@@ -26,6 +26,8 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;Landroid/content/Intent;)V
     .locals 0
+    .param p1    # Landroid/app/Activity;
+    .param p2    # Landroid/content/Intent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,6 +42,8 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/ShowOrCreateActivity$IntentClickListener;->mIntent:Landroid/content/Intent;
 

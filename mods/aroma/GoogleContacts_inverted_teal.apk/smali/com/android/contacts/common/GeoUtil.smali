@@ -6,6 +6,7 @@
 # direct methods
 .method public static getCurrentCountryIso(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Lcom/android/contacts/common/location/CountryDetector;->getInstance(Landroid/content/Context;)Lcom/android/contacts/common/location/CountryDetector;
 
@@ -20,6 +21,8 @@
 
 .method public static getGeocodedLocationFor(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
 
     invoke-static {}, Lcom/google/i18n/phonenumbers/geocoding/PhoneNumberOfflineGeocoder;->getInstance()Lcom/google/i18n/phonenumbers/geocoding/PhoneNumberOfflineGeocoder;
 

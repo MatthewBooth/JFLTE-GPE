@@ -40,6 +40,7 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/android/contacts/common/model/RawContact$NamedDataItem;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     new-instance v0, Lcom/android/contacts/common/model/RawContact$NamedDataItem;
 
@@ -50,6 +51,7 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContact$NamedDataItem$1;->createFromParcel(Landroid/os/Parcel;)Lcom/android/contacts/common/model/RawContact$NamedDataItem;
 
@@ -60,6 +62,7 @@
 
 .method public newArray(I)[Lcom/android/contacts/common/model/RawContact$NamedDataItem;
     .locals 1
+    .param p1    # I
 
     new-array v0, p1, [Lcom/android/contacts/common/model/RawContact$NamedDataItem;
 
@@ -68,6 +71,7 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContact$NamedDataItem$1;->newArray(I)[Lcom/android/contacts/common/model/RawContact$NamedDataItem;
 

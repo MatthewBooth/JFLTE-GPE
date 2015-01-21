@@ -92,6 +92,20 @@
 
 .method constructor <init>(ILjava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/wallet/Cart;ZZ[Lcom/google/android/gms/wallet/CountrySpecification;ZZLjava/util/ArrayList;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Lcom/google/android/gms/wallet/Cart;
+    .param p10    # Z
+    .param p11    # Z
+    .param p12    # [Lcom/google/android/gms/wallet/CountrySpecification;
+    .param p13    # Z
+    .param p14    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -166,6 +180,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/l;->a(Lcom/google/android/gms/wallet/MaskedWalletRequest;Landroid/os/Parcel;I)V
 

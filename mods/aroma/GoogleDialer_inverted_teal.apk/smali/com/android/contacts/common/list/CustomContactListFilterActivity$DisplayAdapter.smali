@@ -29,6 +29,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Landroid/widget/BaseExpandableListAdapter;-><init>()V
 
@@ -59,6 +60,7 @@
 
 .method static synthetic access$500(Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;)Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
     .locals 1
+    .param p0    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;->mAccounts:Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
@@ -69,6 +71,8 @@
 # virtual methods
 .method public getChild(II)Ljava/lang/Object;
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     iget-object v2, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;->mAccounts:Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
@@ -115,6 +119,8 @@
 
 .method public getChildId(II)J
     .locals 4
+    .param p1    # I
+    .param p2    # I
 
     const-wide/high16 v2, -0x8000000000000000L
 
@@ -142,6 +148,11 @@
 
 .method public getChildView(IIZLandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 10
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Z
+    .param p4    # Landroid/view/View;
+    .param p5    # Landroid/view/ViewGroup;
 
     if-nez p4, :cond_0
 
@@ -239,6 +250,7 @@
 
 .method public getChildrenCount(I)I
     .locals 5
+    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -289,6 +301,7 @@
 
 .method public getGroup(I)Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;->mAccounts:Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
@@ -323,6 +336,7 @@
 
 .method public getGroupId(I)J
     .locals 2
+    .param p1    # I
 
     int-to-long v0, p1
 
@@ -331,6 +345,10 @@
 
 .method public getGroupView(IZLandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 8
+    .param p1    # I
+    .param p2    # Z
+    .param p3    # Landroid/view/View;
+    .param p4    # Landroid/view/ViewGroup;
 
     const/4 v4, 0x0
 
@@ -411,6 +429,8 @@
 
 .method public isChildSelectable(II)Z
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -419,6 +439,7 @@
 
 .method public setAccounts(Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;->mAccounts:Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 

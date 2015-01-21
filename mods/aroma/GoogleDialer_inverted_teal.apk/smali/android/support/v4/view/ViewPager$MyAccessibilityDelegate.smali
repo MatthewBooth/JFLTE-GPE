@@ -69,6 +69,8 @@
 # virtual methods
 .method public onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     invoke-super {p0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
@@ -144,6 +146,8 @@
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
 
     invoke-super {p0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
 
@@ -196,6 +200,9 @@
 
 .method public performAccessibilityAction(Landroid/view/View;ILandroid/os/Bundle;)Z
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/os/Bundle;
 
     const/4 v1, 0x0
 

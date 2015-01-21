@@ -20,6 +20,7 @@
 # virtual methods
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "contactPhotos"
 

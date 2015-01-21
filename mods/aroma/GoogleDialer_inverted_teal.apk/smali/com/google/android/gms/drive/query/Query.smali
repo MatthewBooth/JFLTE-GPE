@@ -54,6 +54,10 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/query/internal/LogicalFilter;Ljava/lang/String;Lcom/google/android/gms/drive/query/SortOrder;Ljava/util/List;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/drive/query/internal/LogicalFilter;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Lcom/google/android/gms/drive/query/SortOrder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -130,6 +134,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/query/a;->a(Lcom/google/android/gms/drive/query/Query;Landroid/os/Parcel;I)V
 

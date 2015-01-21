@@ -30,6 +30,10 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;ILjava/lang/String;Z)V
     .locals 0
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
+    .param p3    # Ljava/lang/String;
+    .param p4    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -46,6 +50,7 @@
 
 .method static synthetic access$1500(Lcom/android/vcard/VCardEntry$EmailData;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/vcard/VCardEntry$EmailData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$EmailData;->mAddress:Ljava/lang/String;
 
@@ -56,6 +61,7 @@
 # virtual methods
 .method public constructInsertOperation(Ljava/util/List;I)V
     .locals 3
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -135,6 +141,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
+    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

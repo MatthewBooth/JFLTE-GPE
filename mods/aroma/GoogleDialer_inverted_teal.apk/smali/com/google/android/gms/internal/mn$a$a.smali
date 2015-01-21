@@ -104,6 +104,7 @@
 
 .method public onStatusReceived(I)V
     .locals 5
+    .param p1    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;

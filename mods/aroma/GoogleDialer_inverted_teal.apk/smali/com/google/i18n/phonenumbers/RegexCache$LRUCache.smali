@@ -41,6 +41,7 @@
 # direct methods
 .method public constructor <init>(I)V
     .locals 4
+    .param p1    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -67,6 +68,7 @@
 
 .method static synthetic access$000(Lcom/google/i18n/phonenumbers/RegexCache$LRUCache;)I
     .locals 1
+    .param p0    # Lcom/google/i18n/phonenumbers/RegexCache$LRUCache;
 
     iget v0, p0, Lcom/google/i18n/phonenumbers/RegexCache$LRUCache;->size:I
 

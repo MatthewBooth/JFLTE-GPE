@@ -180,6 +180,7 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/quest/QuestEntity;
     .locals 27
+    .param p1    # Landroid/os/Parcel;
 
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->bq(Landroid/os/Parcel;)I
 
@@ -487,6 +488,7 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/quest/QuestEntityCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/games/quest/QuestEntity;
 
@@ -497,6 +499,7 @@
 
 .method public newArray(I)[Lcom/google/android/gms/games/quest/QuestEntity;
     .locals 1
+    .param p1    # I
 
     new-array v0, p1, [Lcom/google/android/gms/games/quest/QuestEntity;
 
@@ -505,6 +508,7 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/quest/QuestEntityCreator;->newArray(I)[Lcom/google/android/gms/games/quest/QuestEntity;
 

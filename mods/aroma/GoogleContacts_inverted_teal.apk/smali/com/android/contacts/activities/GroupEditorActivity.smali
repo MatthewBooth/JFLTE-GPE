@@ -37,6 +37,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/activities/GroupEditorActivity;)Lcom/android/contacts/group/GroupEditorFragment;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/GroupEditorActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/GroupEditorActivity;->mFragment:Lcom/android/contacts/group/GroupEditorFragment;
 
@@ -72,6 +73,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 8
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v5, 0x0
 
@@ -209,6 +211,8 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     invoke-static {p1}, Lcom/android/contacts/util/DialogManager;->isManagedId(I)Z
 
@@ -265,6 +269,7 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 4
+    .param p1    # Landroid/content/Intent;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onNewIntent(Landroid/content/Intent;)V
 

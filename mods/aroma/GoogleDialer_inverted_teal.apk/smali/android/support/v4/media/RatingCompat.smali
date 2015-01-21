@@ -40,6 +40,8 @@
 
 .method private constructor <init>(IF)V
     .locals 0
+    .param p1    # I
+    .param p2    # F
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,6 +54,9 @@
 
 .method synthetic constructor <init>(IFLandroid/support/v4/media/RatingCompat$1;)V
     .locals 0
+    .param p1    # I
+    .param p2    # F
+    .param p3    # Landroid/support/v4/media/RatingCompat$1;
 
     invoke-direct {p0, p1, p2}, Landroid/support/v4/media/RatingCompat;-><init>(IF)V
 
@@ -126,6 +131,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     iget v0, p0, Landroid/support/v4/media/RatingCompat;->mRatingStyle:I
 

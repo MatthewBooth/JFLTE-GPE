@@ -30,6 +30,8 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Ljava/util/List;I)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -56,6 +58,9 @@
 # virtual methods
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 8
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2, p3}, Landroid/widget/ArrayAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 

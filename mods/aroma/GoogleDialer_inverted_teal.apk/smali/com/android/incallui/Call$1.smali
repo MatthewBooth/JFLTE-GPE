@@ -33,6 +33,7 @@
 # virtual methods
 .method public onCallDestroyed(Landroid/telecom/Call;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 
@@ -48,6 +49,7 @@
 
 .method public onCannedTextResponsesLoaded(Landroid/telecom/Call;Ljava/util/List;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -69,6 +71,7 @@
 
 .method public onChildrenChanged(Landroid/telecom/Call;Ljava/util/List;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -90,6 +93,7 @@
 
 .method public onConferenceableCallsChanged(Landroid/telecom/Call;Ljava/util/List;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -111,6 +115,8 @@
 
 .method public onDetailsChanged(Landroid/telecom/Call;Landroid/telecom/Call$Details;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
+    .param p2    # Landroid/telecom/Call$Details;
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 
@@ -122,6 +128,8 @@
 
 .method public onParentChanged(Landroid/telecom/Call;Landroid/telecom/Call;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
+    .param p2    # Landroid/telecom/Call;
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 
@@ -133,6 +141,8 @@
 
 .method public onPostDialWait(Landroid/telecom/Call;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
+    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 
@@ -144,6 +154,8 @@
 
 .method public onStateChanged(Landroid/telecom/Call;I)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 
@@ -155,6 +167,8 @@
 
 .method public onVideoCallChanged(Landroid/telecom/Call;Landroid/telecom/InCallService$VideoCall;)V
     .locals 1
+    .param p1    # Landroid/telecom/Call;
+    .param p2    # Landroid/telecom/InCallService$VideoCall;
 
     iget-object v0, p0, Lcom/android/incallui/Call$1;->this$0:Lcom/android/incallui/Call;
 

@@ -34,6 +34,8 @@
 
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
 
     const v0, 0x13884
 
@@ -50,6 +52,7 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
     .locals 4
+    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
 
@@ -91,6 +94,7 @@
 
 .method static getNewInstanceForTest(Landroid/content/Context;)Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
     .locals 2
+    .param p0    # Landroid/content/Context;
 
     new-instance v0, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
 
@@ -103,6 +107,7 @@
 
 .method private setupTables(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 2
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     const-string v0, "DROP TABLE IF EXISTS cached_number_contacts"
 
@@ -133,6 +138,7 @@
 # virtual methods
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 0
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-super {p0, p1}, Lcom/android/dialer/database/DialerDatabaseHelper;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
@@ -143,6 +149,9 @@
 
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 4
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
+    .param p2    # I
+    .param p3    # I
 
     const/16 v3, 0x8
 
@@ -214,6 +223,7 @@
 
 .method public prune(J)V
     .locals 5
+    .param p1    # J
 
     iget-object v0, p0, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;->mArgs1:[Ljava/lang/String;
 
@@ -260,6 +270,7 @@
 
 .method public purgeSource(I)V
     .locals 3
+    .param p1    # I
 
     iget-object v0, p0, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;->mArgs1:[Ljava/lang/String;
 

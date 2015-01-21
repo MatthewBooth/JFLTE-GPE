@@ -64,6 +64,17 @@
 
 .method constructor <init>(IBBILcom/google/android/gms/maps/model/CameraPosition;BBBBBB)V
     .locals 1
+    .param p1    # I
+    .param p2    # B
+    .param p3    # B
+    .param p4    # I
+    .param p5    # Lcom/google/android/gms/maps/model/CameraPosition;
+    .param p6    # B
+    .param p7    # B
+    .param p8    # B
+    .param p9    # B
+    .param p10    # B
+    .param p11    # B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -260,6 +271,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {}, Lcom/google/android/gms/maps/internal/v;->nK()Z
 

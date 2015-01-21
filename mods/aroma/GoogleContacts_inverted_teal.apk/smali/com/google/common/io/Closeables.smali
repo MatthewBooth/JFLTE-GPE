@@ -36,6 +36,8 @@
 
 .method public static close(Ljava/io/Closeable;Z)V
     .locals 4
+    .param p0    # Ljava/io/Closeable;
+    .param p1    # Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -76,6 +78,7 @@
 
 .method public static closeQuietly(Ljava/io/Closeable;)V
     .locals 4
+    .param p0    # Ljava/io/Closeable;
 
     const/4 v1, 0x1
 

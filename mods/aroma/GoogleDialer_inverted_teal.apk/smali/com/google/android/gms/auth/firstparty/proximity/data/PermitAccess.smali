@@ -34,6 +34,10 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;[B)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # [B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,6 +78,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -186,6 +191,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/proximity/data/c;->a(Lcom/google/android/gms/auth/firstparty/proximity/data/PermitAccess;Landroid/os/Parcel;I)V
 

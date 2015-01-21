@@ -108,6 +108,14 @@
 
 .method constructor <init>(ILjava/util/List;Ljava/util/List;FIIFZZ)V
     .locals 2
+    .param p1    # I
+    .param p3    # Ljava/util/List;
+    .param p4    # F
+    .param p5    # I
+    .param p6    # I
+    .param p7    # F
+    .param p8    # Z
+    .param p9    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -258,6 +266,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {}, Lcom/google/android/gms/maps/internal/v;->nK()Z
 

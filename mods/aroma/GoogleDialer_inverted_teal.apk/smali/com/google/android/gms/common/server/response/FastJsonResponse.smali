@@ -191,6 +191,7 @@
 
 .method protected getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
     .locals 6
+    .param p1    # Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
     const/4 v1, 0x1
 
@@ -350,6 +351,7 @@
 
 .method protected getOriginalValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p2    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<O:",
@@ -383,6 +385,7 @@
 
 .method protected isConcreteTypeArrayFieldSet(Ljava/lang/String;)Z
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -395,6 +398,7 @@
 
 .method protected isConcreteTypeFieldSet(Ljava/lang/String;)Z
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -407,6 +411,7 @@
 
 .method protected isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
     .locals 2
+    .param p1    # Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;->getTypeOut()I
 

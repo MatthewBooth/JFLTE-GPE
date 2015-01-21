@@ -24,6 +24,8 @@
 # direct methods
 .method constructor <init>(Lcom/google/android/gms/appdatasearch/SearchResults;ILcom/google/android/gms/appdatasearch/SearchResults$ResultIterator;)V
     .locals 0
+    .param p2    # I
+    .param p3    # Lcom/google/android/gms/appdatasearch/SearchResults$ResultIterator;
 
     iput-object p1, p0, Lcom/google/android/gms/appdatasearch/SearchResults$Result;->DC:Lcom/google/android/gms/appdatasearch/SearchResults;
 

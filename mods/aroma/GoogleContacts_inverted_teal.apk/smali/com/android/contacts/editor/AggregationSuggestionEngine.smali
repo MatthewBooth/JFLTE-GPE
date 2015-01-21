@@ -38,6 +38,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     const-string v0, "AggregationSuggestions"
 
@@ -68,6 +69,9 @@
 
 .method private appendValue(Ljava/lang/StringBuilder;Lcom/android/contacts/common/model/ValuesDelta;Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/StringBuilder;
+    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
+    .param p3    # Ljava/lang/String;
 
     invoke-virtual {p2, p3}, Lcom/android/contacts/common/model/ValuesDelta;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -98,6 +102,7 @@
 
 .method private buildAggregationSuggestionUri(Lcom/android/contacts/common/model/ValuesDelta;)Landroid/net/Uri;
     .locals 6
+    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -223,6 +228,7 @@
 
 .method private loadAggregationSuggestions(Landroid/net/Uri;)V
     .locals 12
+    .param p1    # Landroid/net/Uri;
 
     const/4 v2, 0x1
 
@@ -379,6 +385,7 @@
 
 .method private updateSuggestedContactIds(Landroid/database/Cursor;)Z
     .locals 12
+    .param p1    # Landroid/database/Cursor;
 
     const/4 v9, 0x0
 
@@ -493,6 +500,8 @@
 # virtual methods
 .method public containsRawContact(Lcom/android/contacts/editor/AggregationSuggestionEngine$Suggestion;J)Z
     .locals 4
+    .param p1    # Lcom/android/contacts/editor/AggregationSuggestionEngine$Suggestion;
+    .param p2    # J
 
     iget-object v2, p1, Lcom/android/contacts/editor/AggregationSuggestionEngine$Suggestion;->rawContacts:Ljava/util/List;
 
@@ -541,6 +550,7 @@
 
 .method protected deliverNotification(Landroid/database/Cursor;)V
     .locals 1
+    .param p1    # Landroid/database/Cursor;
 
     iget-object v0, p0, Lcom/android/contacts/editor/AggregationSuggestionEngine;->mDataCursor:Landroid/database/Cursor;
 
@@ -1067,6 +1077,7 @@
 
 .method protected handleMessage(Landroid/os/Message;)V
     .locals 1
+    .param p1    # Landroid/os/Message;
 
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -1102,6 +1113,7 @@
 
 .method public onNameChange(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const/4 v2, 0x0
 
@@ -1261,6 +1273,7 @@
 
 .method public setContactId(J)V
     .locals 3
+    .param p1    # J
 
     iget-wide v0, p0, Lcom/android/contacts/editor/AggregationSuggestionEngine;->mContactId:J
 
@@ -1278,6 +1291,7 @@
 
 .method public setListener(Lcom/android/contacts/editor/AggregationSuggestionEngine$Listener;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/editor/AggregationSuggestionEngine$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/editor/AggregationSuggestionEngine;->mListener:Lcom/android/contacts/editor/AggregationSuggestionEngine$Listener;
 

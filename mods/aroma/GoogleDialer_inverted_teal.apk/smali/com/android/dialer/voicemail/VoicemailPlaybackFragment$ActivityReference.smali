@@ -31,6 +31,8 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment;Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$1;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment;
+    .param p2    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$ActivityReference;-><init>(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment;)V
 

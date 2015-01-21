@@ -32,6 +32,8 @@
 
 .method private makeCursor(Ljava/lang/String;I)Landroid/database/Cursor;
     .locals 8
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     const/4 v7, 0x2
 
@@ -108,6 +110,7 @@
 # virtual methods
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 14
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/ListActivity;->onCreate(Landroid/os/Bundle;)V
 

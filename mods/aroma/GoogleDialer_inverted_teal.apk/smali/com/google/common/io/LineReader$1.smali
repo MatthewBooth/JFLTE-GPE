@@ -33,6 +33,8 @@
 # virtual methods
 .method protected handleLine(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/common/io/LineReader$1;->this$0:Lcom/google/common/io/LineReader;
 

@@ -67,6 +67,17 @@
 
 .method constructor <init>(ILcom/google/android/gms/games/GameEntity;IZIJJLjava/lang/String;JLjava/lang/String;Ljava/util/ArrayList;Lcom/google/android/gms/games/snapshot/SnapshotMetadataEntity;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/games/GameEntity;
+    .param p3    # I
+    .param p4    # Z
+    .param p5    # I
+    .param p6    # J
+    .param p8    # J
+    .param p10    # Ljava/lang/String;
+    .param p11    # J
+    .param p13    # Ljava/lang/String;
+    .param p15    # Lcom/google/android/gms/games/snapshot/SnapshotMetadataEntity;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -115,6 +126,7 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/internal/game/ExtendedGame;)V
     .locals 5
+    .param p1    # Lcom/google/android/gms/games/internal/game/ExtendedGame;
 
     const/4 v1, 0x0
 
@@ -745,6 +757,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/internal/game/ExtendedGameEntity;->a(Lcom/google/android/gms/games/internal/game/ExtendedGame;Ljava/lang/Object;)Z
 
@@ -910,6 +923,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v1, 0x0
 

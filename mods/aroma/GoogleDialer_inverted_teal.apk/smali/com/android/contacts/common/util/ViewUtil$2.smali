@@ -27,6 +27,8 @@
 # virtual methods
 .method public getOutline(Landroid/view/View;Landroid/graphics/Outline;)V
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/graphics/Outline;
 
     const/4 v2, 0x0
 

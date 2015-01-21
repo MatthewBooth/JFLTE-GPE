@@ -61,6 +61,8 @@
 
 .method constructor <init>(ILjava/util/List;Ljava/util/List;Z)V
     .locals 0
+    .param p1    # I
+    .param p4    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -195,6 +197,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/request/h;->a(Lcom/google/android/gms/fitness/request/DataSourcesRequest;Landroid/os/Parcel;I)V
 

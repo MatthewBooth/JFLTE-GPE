@@ -79,6 +79,7 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/collect/MapMakerInternalMap$NullEntry;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/google/common/collect/MapMakerInternalMap$NullEntry;
 
@@ -233,6 +234,7 @@
 
 .method public setExpirationTime(J)V
     .locals 0
+    .param p1    # J
 
     return-void
 .end method

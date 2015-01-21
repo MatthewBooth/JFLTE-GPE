@@ -30,6 +30,8 @@
 
 .method public constructor <init>(II)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -42,6 +44,7 @@
 
 .method private advance(I)V
     .locals 1
+    .param p1    # I
 
     iget v0, p0, Lcom/android/dialer/dialpad/SmartDialMatchPosition;->start:I
 
@@ -60,6 +63,7 @@
 
 .method public static advanceMatchPositions(Ljava/util/ArrayList;I)V
     .locals 2
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

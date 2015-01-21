@@ -38,6 +38,8 @@
 
 .method public constructor <init>(Lcom/android/dialer/widget/ActionBarController$ActivityUi;Lcom/android/dialer/widget/SearchEditTextLayout;)V
     .locals 1
+    .param p1    # Lcom/android/dialer/widget/ActionBarController$ActivityUi;
+    .param p2    # Lcom/android/dialer/widget/SearchEditTextLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,6 +58,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/widget/ActionBarController;)Lcom/android/dialer/widget/ActionBarController$ActivityUi;
     .locals 1
+    .param p0    # Lcom/android/dialer/widget/ActionBarController;
 
     iget-object v0, p0, Lcom/android/dialer/widget/ActionBarController;->mActivityUi:Lcom/android/dialer/widget/ActionBarController$ActivityUi;
 
@@ -488,6 +491,7 @@
 
 .method public restoreInstanceState(Landroid/os/Bundle;)V
     .locals 5
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v4, 0x0
 
@@ -580,6 +584,7 @@
 
 .method public saveInstanceState(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     const-string v0, "key_actionbar_is_slid_up"
 
@@ -612,6 +617,7 @@
 
 .method public setAlpha(F)V
     .locals 1
+    .param p1    # F
 
     iget-object v0, p0, Lcom/android/dialer/widget/ActionBarController;->mSearchBox:Lcom/android/dialer/widget/SearchEditTextLayout;
 
@@ -630,6 +636,7 @@
 
 .method public setHideOffset(I)V
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/ActionBarController;->mActivityUi:Lcom/android/dialer/widget/ActionBarController$ActivityUi;
 
@@ -662,6 +669,8 @@
 
 .method public slideActionBar(ZZ)V
     .locals 5
+    .param p1    # Z
+    .param p2    # Z
 
     const/4 v4, 0x2
 

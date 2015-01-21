@@ -64,6 +64,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
@@ -72,6 +73,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -80,6 +83,8 @@
 
 .method static synthetic access$002(Lcom/android/contacts/editor/GroupMembershipView;Z)Z
     .locals 0
+    .param p0    # Lcom/android/contacts/editor/GroupMembershipView;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/GroupMembershipView;->mCreatedNewGroup:Z
 
@@ -124,6 +129,7 @@
 
 .method private hasMembership(J)Z
     .locals 9
+    .param p1    # J
 
     const/4 v4, 0x1
 
@@ -202,6 +208,7 @@
 
 .method private isGroupChecked(J)Z
     .locals 7
+    .param p1    # J
 
     iget-object v3, p0, Lcom/android/contacts/editor/GroupMembershipView;->mAdapter:Lcom/android/contacts/editor/GroupMembershipView$GroupMembershipAdapter;
 
@@ -581,6 +588,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 18
+    .param p1    # Landroid/view/View;
 
     move-object/from16 v0, p0
 
@@ -955,6 +963,9 @@
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 14
+    .param p2    # Landroid/view/View;
+    .param p3    # I
+    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1153,6 +1164,7 @@
 
 .method public setEnabled(Z)V
     .locals 1
+    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
@@ -1170,6 +1182,7 @@
 
 .method public setGroupMetaData(Landroid/database/Cursor;)V
     .locals 6
+    .param p1    # Landroid/database/Cursor;
 
     iput-object p1, p0, Lcom/android/contacts/editor/GroupMembershipView;->mGroupMetaData:Landroid/database/Cursor;
 
@@ -1231,6 +1244,7 @@
 
 .method public setKind(Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 3
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     iput-object p1, p0, Lcom/android/contacts/editor/GroupMembershipView;->mKind:Lcom/android/contacts/common/model/dataitem/DataKind;
 
@@ -1263,6 +1277,7 @@
 
 .method public setState(Lcom/android/contacts/common/model/RawContactDelta;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
 
     const/4 v1, 0x0
 

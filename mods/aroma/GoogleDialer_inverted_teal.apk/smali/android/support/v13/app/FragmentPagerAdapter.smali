@@ -14,6 +14,7 @@
 # direct methods
 .method public constructor <init>(Landroid/app/FragmentManager;)V
     .locals 1
+    .param p1    # Landroid/app/FragmentManager;
 
     const/4 v0, 0x0
 
@@ -30,6 +31,8 @@
 
 .method private static makeFragmentName(IJ)Ljava/lang/String;
     .locals 3
+    .param p0    # I
+    .param p1    # J
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -66,6 +69,9 @@
 # virtual methods
 .method public destroyItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 1
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
+    .param p3    # Ljava/lang/Object;
 
     iget-object v0, p0, Landroid/support/v13/app/FragmentPagerAdapter;->mCurTransaction:Landroid/app/FragmentTransaction;
 
@@ -91,6 +97,7 @@
 
 .method public finishUpdate(Landroid/view/ViewGroup;)V
     .locals 1
+    .param p1    # Landroid/view/ViewGroup;
 
     iget-object v0, p0, Landroid/support/v13/app/FragmentPagerAdapter;->mCurTransaction:Landroid/app/FragmentTransaction;
 
@@ -117,6 +124,7 @@
 
 .method public getItemId(I)J
     .locals 2
+    .param p1    # I
 
     int-to-long v0, p1
 
@@ -125,6 +133,8 @@
 
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 8
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
 
     const/4 v7, 0x0
 
@@ -203,6 +213,8 @@
 
 .method public isViewFromObject(Landroid/view/View;Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Landroid/app/Fragment;
 
@@ -225,6 +237,8 @@
 
 .method public restoreState(Landroid/os/Parcelable;Ljava/lang/ClassLoader;)V
     .locals 0
+    .param p1    # Landroid/os/Parcelable;
+    .param p2    # Ljava/lang/ClassLoader;
 
     return-void
 .end method
@@ -239,6 +253,9 @@
 
 .method public setPrimaryItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
     .locals 4
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
+    .param p3    # Ljava/lang/Object;
 
     const/4 v3, 0x1
 
@@ -280,6 +297,7 @@
 
 .method public startUpdate(Landroid/view/ViewGroup;)V
     .locals 0
+    .param p1    # Landroid/view/ViewGroup;
 
     return-void
 .end method

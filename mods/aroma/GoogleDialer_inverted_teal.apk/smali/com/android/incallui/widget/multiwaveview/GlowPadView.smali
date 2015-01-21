@@ -178,6 +178,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -188,6 +189,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 13
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v12, 0x3
 
@@ -534,6 +537,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)F
     .locals 1
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mWaveCenterX:F
 
@@ -542,6 +546,7 @@
 
 .method static synthetic access$200(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)F
     .locals 1
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mWaveCenterY:F
 
@@ -550,6 +555,10 @@
 
 .method static synthetic access$300(Lcom/android/incallui/widget/multiwaveview/GlowPadView;IFF)V
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p1    # I
+    .param p2    # F
+    .param p3    # F
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->switchToState(IFF)V
 
@@ -558,6 +567,7 @@
 
 .method static synthetic access$400(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
 
     invoke-direct {p0}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->dispatchOnFinishFinalAnimation()V
 
@@ -566,6 +576,7 @@
 
 .method static synthetic access$500(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)I
     .locals 1
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mNewTargetResources:I
 
@@ -574,6 +585,8 @@
 
 .method static synthetic access$502(Lcom/android/incallui/widget/multiwaveview/GlowPadView;I)I
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mNewTargetResources:I
 
@@ -582,6 +595,8 @@
 
 .method static synthetic access$600(Lcom/android/incallui/widget/multiwaveview/GlowPadView;I)V
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->internalSetTargetResources(I)V
 
@@ -590,6 +605,9 @@
 
 .method static synthetic access$700(Lcom/android/incallui/widget/multiwaveview/GlowPadView;ZZ)V
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p1    # Z
+    .param p2    # Z
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->hideTargets(ZZ)V
 
@@ -598,6 +616,8 @@
 
 .method static synthetic access$802(Lcom/android/incallui/widget/multiwaveview/GlowPadView;Z)Z
     .locals 0
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mAnimatingTargets:Z
 
@@ -606,6 +626,7 @@
 
 .method static synthetic access$900(Lcom/android/incallui/widget/multiwaveview/GlowPadView;)Lcom/android/incallui/widget/multiwaveview/PointCloud;
     .locals 1
+    .param p0    # Lcom/android/incallui/widget/multiwaveview/GlowPadView;
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mPointCloud:Lcom/android/incallui/widget/multiwaveview/PointCloud;
 
@@ -777,6 +798,8 @@
 
 .method private computeInsets(II)V
     .locals 4
+    .param p1    # I
+    .param p2    # I
 
     const/4 v3, 0x0
 
@@ -847,6 +870,10 @@
 
 .method private computeScaleFactor(IIII)F
     .locals 7
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     const/high16 v4, 0x3f800000
 
@@ -1000,6 +1027,7 @@
 
 .method private dispatchTriggerEvent(I)V
     .locals 1
+    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->vibrate()V
 
@@ -1017,6 +1045,8 @@
 
 .method private dist2(FF)F
     .locals 2
+    .param p1    # F
+    .param p2    # F
 
     mul-float v0, p1, p1
 
@@ -1264,6 +1294,7 @@
 
 .method private getDirectionDescription(I)Ljava/lang/String;
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mDirectionDescriptions:Ljava/util/ArrayList;
 
@@ -1325,6 +1356,8 @@
 
 .method private getResourceId(Landroid/content/res/TypedArray;I)I
     .locals 2
+    .param p1    # Landroid/content/res/TypedArray;
+    .param p2    # I
 
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->peekValue(I)Landroid/util/TypedValue;
 
@@ -1441,6 +1474,7 @@
 
 .method private getTargetDescription(I)Ljava/lang/String;
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mTargetDescriptions:Ljava/util/ArrayList;
 
@@ -1502,6 +1536,7 @@
 
 .method private handleCancel(Landroid/view/MotionEvent;)V
     .locals 4
+    .param p1    # Landroid/view/MotionEvent;
 
     iget v1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mPointerId:I
 
@@ -1533,6 +1568,7 @@
 
 .method private handleDown(Landroid/view/MotionEvent;)V
     .locals 4
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionIndex()I
 
@@ -1577,6 +1613,7 @@
 
 .method private handleMove(Landroid/view/MotionEvent;)V
     .locals 38
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v6, -0x1
 
@@ -2110,6 +2147,7 @@
 
 .method private handleUp(Landroid/view/MotionEvent;)V
     .locals 4
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionIndex()I
 
@@ -2141,6 +2179,10 @@
 
 .method private hideGlow(IIFLandroid/animation/Animator$AnimatorListener;)V
     .locals 8
+    .param p1    # I
+    .param p2    # I
+    .param p3    # F
+    .param p4    # Landroid/animation/Animator$AnimatorListener;
 
     const/4 v7, 0x0
 
@@ -2265,6 +2307,8 @@
 
 .method private hideTargets(ZZ)V
     .locals 17
+    .param p1    # Z
+    .param p2    # Z
 
     move-object/from16 v0, p0
 
@@ -2587,6 +2631,7 @@
 
 .method private hideUnselected(I)V
     .locals 3
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -2624,6 +2669,7 @@
 
 .method private highlightSelected(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mTargetDrawables:Ljava/util/ArrayList;
 
@@ -2644,6 +2690,7 @@
 
 .method private internalSetTargetResources(I)V
     .locals 8
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->loadDrawableArray(I)Ljava/util/ArrayList;
 
@@ -2737,6 +2784,7 @@
 
 .method private loadDescriptions(I)Ljava/util/ArrayList;
     .locals 6
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -2790,6 +2838,7 @@
 
 .method private loadDrawableArray(I)Ljava/util/ArrayList;
     .locals 9
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -2859,6 +2908,9 @@
 
 .method private replaceTargetDrawables(Landroid/content/res/Resources;II)Z
     .locals 6
+    .param p1    # Landroid/content/res/Resources;
+    .param p2    # I
+    .param p3    # I
 
     if-eqz p2, :cond_0
 
@@ -2918,6 +2970,8 @@
 
 .method private resolveMeasured(II)I
     .locals 3
+    .param p1    # I
+    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -2959,6 +3013,7 @@
 
 .method private setGrabbedState(I)V
     .locals 2
+    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -3001,6 +3056,10 @@
 
 .method private showGlow(IIFLandroid/animation/Animator$AnimatorListener;)V
     .locals 7
+    .param p1    # I
+    .param p2    # I
+    .param p3    # F
+    .param p4    # Landroid/animation/Animator$AnimatorListener;
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mGlowAnimations:Lcom/android/incallui/widget/multiwaveview/GlowPadView$AnimationBundle;
 
@@ -3095,6 +3154,7 @@
 
 .method private showTargets(Z)V
     .locals 13
+    .param p1    # Z
 
     iget-object v6, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mTargetAnimations:Lcom/android/incallui/widget/multiwaveview/GlowPadView$AnimationBundle;
 
@@ -3375,6 +3435,7 @@
 
 .method private square(F)F
     .locals 1
+    .param p1    # F
 
     mul-float v0, p1, p1
 
@@ -3383,6 +3444,8 @@
 
 .method private startBackgroundAnimation(IF)V
     .locals 6
+    .param p1    # I
+    .param p2    # F
 
     invoke-virtual {p0}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -3623,6 +3686,9 @@
 
 .method private switchToState(IFF)V
     .locals 7
+    .param p1    # I
+    .param p2    # F
+    .param p3    # F
 
     const/4 v6, 0x1
 
@@ -3739,6 +3805,8 @@
 
 .method private trySwitchToFirstTouchState(FF)Z
     .locals 5
+    .param p1    # F
+    .param p2    # F
 
     const/4 v2, 0x1
 
@@ -3786,6 +3854,8 @@
 
 .method private updateGlowPosition(FF)V
     .locals 4
+    .param p1    # F
+    .param p2    # F
 
     const/high16 v3, 0x3f800000
 
@@ -3850,6 +3920,8 @@
 
 .method private updatePointCloudPosition(FF)V
     .locals 1
+    .param p1    # F
+    .param p2    # F
 
     iget-object v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mPointCloud:Lcom/android/incallui/widget/multiwaveview/PointCloud;
 
@@ -3860,6 +3932,8 @@
 
 .method private updateTargetPositions(FF)V
     .locals 11
+    .param p1    # F
+    .param p2    # F
 
     const/high16 v10, 0x40000000
 
@@ -3971,6 +4045,7 @@
 
 .method public getResourceIdForTarget(I)I
     .locals 2
+    .param p1    # I
 
     iget-object v1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mTargetDrawables:Ljava/util/ArrayList;
 
@@ -4141,6 +4216,7 @@
 
 .method public getTargetPosition(I)I
     .locals 3
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -4191,6 +4267,7 @@
 
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 4
+    .param p1    # Landroid/graphics/Canvas;
 
     iget-object v3, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mPointCloud:Lcom/android/incallui/widget/multiwaveview/PointCloud;
 
@@ -4238,6 +4315,7 @@
 
 .method public onHoverEvent(Landroid/view/MotionEvent;)Z
     .locals 5
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v4, 0x1
 
@@ -4306,6 +4384,11 @@
 
 .method protected onLayout(ZIIII)V
     .locals 10
+    .param p1    # Z
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     const/high16 v9, 0x40000000
 
@@ -4401,6 +4484,8 @@
 
 .method protected onMeasure(II)V
     .locals 8
+    .param p1    # I
+    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->getSuggestedMinimumWidth()I
 
@@ -4445,6 +4530,7 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
+    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
@@ -4584,6 +4670,9 @@
 
 .method public replaceTargetDrawablesIfPresent(Landroid/content/ComponentName;Ljava/lang/String;I)Z
     .locals 10
+    .param p1    # Landroid/content/ComponentName;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
 
     if-nez p3, :cond_1
 
@@ -4721,6 +4810,7 @@
 
 .method public reset(Z)V
     .locals 3
+    .param p1    # Z
 
     const/4 v2, 0x0
 
@@ -4783,6 +4873,7 @@
 
 .method public setDirectionDescriptionsResourceId(I)V
     .locals 1
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mDirectionDescriptionsResourceId:I
 
@@ -4800,6 +4891,8 @@
 
 .method public setEnableTarget(IZ)V
     .locals 3
+    .param p1    # I
+    .param p2    # Z
 
     const/4 v0, 0x0
 
@@ -4839,6 +4932,7 @@
 
 .method public setHandleDrawable(I)V
     .locals 3
+    .param p1    # I
 
     new-instance v0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;
 
@@ -4863,6 +4957,7 @@
 
 .method public setOnTriggerListener(Lcom/android/incallui/widget/multiwaveview/GlowPadView$OnTriggerListener;)V
     .locals 0
+    .param p1    # Lcom/android/incallui/widget/multiwaveview/GlowPadView$OnTriggerListener;
 
     iput-object p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mOnTriggerListener:Lcom/android/incallui/widget/multiwaveview/GlowPadView$OnTriggerListener;
 
@@ -4871,6 +4966,7 @@
 
 .method public setTargetDescriptionsResourceId(I)V
     .locals 1
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mTargetDescriptionsResourceId:I
 
@@ -4888,6 +4984,7 @@
 
 .method public setTargetResources(I)V
     .locals 1
+    .param p1    # I
 
     iget-boolean v0, p0, Lcom/android/incallui/widget/multiwaveview/GlowPadView;->mAnimatingTargets:Z
 
@@ -4906,6 +5003,7 @@
 
 .method public setVibrateEnabled(Z)V
     .locals 2
+    .param p1    # Z
 
     if-eqz p1, :cond_0
 

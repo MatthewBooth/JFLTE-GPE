@@ -70,6 +70,7 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -95,6 +96,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
+    .param p1    # Ljava/lang/Object;
 
     instance-of v1, p1, Ljava/util/List;
 
@@ -119,6 +121,7 @@
 
 .method public get(I)Ljava/lang/Object;
     .locals 2
+    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -143,6 +146,7 @@
 
 .method public indexOf(Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, -0x1
 
@@ -196,6 +200,7 @@
 
 .method public lastIndexOf(Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, -0x1
 
@@ -221,6 +226,7 @@
 
 .method public listIterator(I)Lcom/google/common/collect/UnmodifiableListIterator;
     .locals 1
+    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -252,6 +258,7 @@
 
 .method public bridge synthetic listIterator(I)Ljava/util/ListIterator;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/EmptyImmutableList;->listIterator(I)Lcom/google/common/collect/UnmodifiableListIterator;
 
@@ -278,6 +285,8 @@
 
 .method public subList(II)Lcom/google/common/collect/ImmutableList;
     .locals 1
+    .param p1    # I
+    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
@@ -297,6 +306,8 @@
 
 .method public bridge synthetic subList(II)Ljava/util/List;
     .locals 1
+    .param p1    # I
+    .param p2    # I
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/EmptyImmutableList;->subList(II)Lcom/google/common/collect/ImmutableList;
 

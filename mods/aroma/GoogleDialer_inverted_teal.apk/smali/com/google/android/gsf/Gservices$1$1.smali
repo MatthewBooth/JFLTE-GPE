@@ -21,6 +21,7 @@
 # direct methods
 .method constructor <init>(Lcom/google/android/gsf/Gservices$1;Landroid/os/Handler;)V
     .locals 0
+    .param p2    # Landroid/os/Handler;
 
     iput-object p1, p0, Lcom/google/android/gsf/Gservices$1$1;->this$0:Lcom/google/android/gsf/Gservices$1;
 
@@ -33,6 +34,7 @@
 # virtual methods
 .method public onChange(Z)V
     .locals 3
+    .param p1    # Z
 
     const-class v1, Lcom/google/android/gsf/Gservices;
 

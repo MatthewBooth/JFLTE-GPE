@@ -46,6 +46,7 @@
 
 .method public onContactSplit(Landroid/net/Uri;)V
     .locals 1
+    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorActivity$2;->this$0:Lcom/android/contacts/activities/ContactEditorActivity;
 
@@ -56,6 +57,8 @@
 
 .method public onCustomCreateContactActivityRequested(Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/os/Bundle;)V
     .locals 5
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Landroid/os/Bundle;
 
     iget-object v3, p0, Lcom/android/contacts/activities/ContactEditorActivity$2;->this$0:Lcom/android/contacts/activities/ContactEditorActivity;
 
@@ -131,6 +134,10 @@
 
 .method public onCustomEditContactActivityRequested(Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/net/Uri;Landroid/os/Bundle;Z)V
     .locals 5
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Landroid/net/Uri;
+    .param p3    # Landroid/os/Bundle;
+    .param p4    # Z
 
     iget-object v3, p0, Lcom/android/contacts/activities/ContactEditorActivity$2;->this$0:Lcom/android/contacts/activities/ContactEditorActivity;
 
@@ -196,6 +203,7 @@
 
 .method public onDeleteRequested(Landroid/net/Uri;)V
     .locals 2
+    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorActivity$2;->this$0:Lcom/android/contacts/activities/ContactEditorActivity;
 
@@ -208,6 +216,7 @@
 
 .method public onEditOtherContactRequested(Landroid/net/Uri;Ljava/util/ArrayList;)V
     .locals 3
+    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -271,6 +280,7 @@
 
 .method public onSaveFinished(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactEditorActivity$2;->this$0:Lcom/android/contacts/activities/ContactEditorActivity;
 

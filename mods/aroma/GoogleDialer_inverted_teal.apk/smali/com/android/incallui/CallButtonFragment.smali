@@ -78,6 +78,7 @@
 
 .method private isAudio(I)Z
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/CallButtonFragment;->getPresenter()Lcom/android/incallui/Presenter;
 
@@ -104,6 +105,7 @@
 
 .method private isSupported(I)Z
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/CallButtonFragment;->getPresenter()Lcom/android/incallui/Presenter;
 
@@ -132,6 +134,8 @@
 
 .method private maybeSendAccessibilityEvent(Landroid/view/View;I)V
     .locals 5
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/CallButtonFragment;->getActivity()Landroid/app/Activity;
 
@@ -400,6 +404,7 @@
 
 .method private updateAudioButtons(I)V
     .locals 12
+    .param p1    # I
 
     const/4 v10, 0x2
 
@@ -769,6 +774,10 @@
 # virtual methods
 .method public configureOverflowMenu(ZZZZ)V
     .locals 7
+    .param p1    # Z
+    .param p2    # Z
+    .param p3    # Z
+    .param p4    # Z
 
     const/4 v3, 0x1
 
@@ -942,6 +951,8 @@
 
 .method public displayDialpad(ZZ)V
     .locals 1
+    .param p1    # Z
+    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mShowDialpadButton:Landroid/widget/ImageButton;
 
@@ -975,6 +986,7 @@
 
 .method public enableHold(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mHoldButton:Landroid/widget/ImageButton;
 
@@ -985,6 +997,7 @@
 
 .method public enableMute(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mMuteButton:Landroid/widget/ImageButton;
 
@@ -1057,6 +1070,7 @@
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 1
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -1077,12 +1091,15 @@
 
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 0
+    .param p1    # Landroid/widget/CompoundButton;
+    .param p2    # Z
 
     return-void
 .end method
 
 .method public onClick(Landroid/view/View;)V
     .locals 6
+    .param p1    # Landroid/view/View;
 
     const/4 v3, 0x1
 
@@ -1344,6 +1361,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 0
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -1352,6 +1370,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const v1, 0x7f040005
 
@@ -1534,6 +1555,7 @@
 
 .method public onDismiss(Landroid/widget/PopupMenu;)V
     .locals 2
+    .param p1    # Landroid/widget/PopupMenu;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1564,6 +1586,7 @@
 
 .method public onMenuItemClick(Landroid/view/MenuItem;)Z
     .locals 3
+    .param p1    # Landroid/view/MenuItem;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1770,6 +1793,7 @@
 
 .method public setAudio(I)V
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/incallui/CallButtonFragment;->getPresenter()Lcom/android/incallui/Presenter;
 
@@ -1846,6 +1870,7 @@
 
 .method public setEnabled(Z)V
     .locals 2
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/CallButtonFragment;->mIsEnabled:Z
 
@@ -1917,6 +1942,7 @@
 
 .method public setHold(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mHoldButton:Landroid/widget/ImageButton;
 
@@ -1950,6 +1976,7 @@
 
 .method public setMute(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mMuteButton:Landroid/widget/ImageButton;
 
@@ -1983,6 +2010,7 @@
 
 .method public setPauseVideoButton(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mPauseVideoButton:Landroid/widget/ImageButton;
 
@@ -1993,6 +2021,7 @@
 
 .method public setSupportedAudio(I)V
     .locals 0
+    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallButtonFragment;->updateAudioButtons(I)V
 
@@ -2003,6 +2032,7 @@
 
 .method public setSwitchCameraButton(Z)V
     .locals 1
+    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/CallButtonFragment;->mSwitchCameraButton:Landroid/widget/ImageButton;
 
@@ -2013,6 +2043,7 @@
 
 .method public showAddCallButton(Z)V
     .locals 2
+    .param p1    # Z
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2053,6 +2084,7 @@
 
 .method public showAudioButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mAudioButton:Landroid/widget/ImageButton;
 
@@ -2073,6 +2105,7 @@
 
 .method public showChangeToVideoButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mChangeToVideoButton:Landroid/widget/ImageButton;
 
@@ -2093,6 +2126,7 @@
 
 .method public showChangeToVoiceButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mChangeToVoiceButton:Landroid/widget/ImageButton;
 
@@ -2113,6 +2147,7 @@
 
 .method public showDialpadButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mShowDialpadButton:Landroid/widget/ImageButton;
 
@@ -2133,6 +2168,7 @@
 
 .method public showHoldButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mHoldButton:Landroid/widget/ImageButton;
 
@@ -2153,6 +2189,7 @@
 
 .method public showMergeButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mMergeButton:Landroid/widget/ImageButton;
 
@@ -2173,6 +2210,7 @@
 
 .method public showOverflowButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mOverflowButton:Landroid/widget/ImageButton;
 
@@ -2193,6 +2231,7 @@
 
 .method public showPauseVideoButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mPauseVideoButton:Landroid/widget/ImageButton;
 
@@ -2213,6 +2252,7 @@
 
 .method public showSwapButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mSwapButton:Landroid/widget/ImageButton;
 
@@ -2233,6 +2273,7 @@
 
 .method public showSwitchCameraButton(Z)V
     .locals 2
+    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallButtonFragment;->mSwitchCameraButton:Landroid/widget/ImageButton;
 

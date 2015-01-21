@@ -31,6 +31,8 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/database/DialerDatabaseHelper;Lcom/android/dialer/database/DialerDatabaseHelper$1;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/database/DialerDatabaseHelper;
+    .param p2    # Lcom/android/dialer/database/DialerDatabaseHelper$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/database/DialerDatabaseHelper$SmartDialUpdateAsyncTask;-><init>(Lcom/android/dialer/database/DialerDatabaseHelper;)V
 
@@ -41,6 +43,7 @@
 # virtual methods
 .method protected doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/android/dialer/database/DialerDatabaseHelper$SmartDialUpdateAsyncTask;->this$0:Lcom/android/dialer/database/DialerDatabaseHelper;
 
@@ -61,6 +64,7 @@
 
 .method protected onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 

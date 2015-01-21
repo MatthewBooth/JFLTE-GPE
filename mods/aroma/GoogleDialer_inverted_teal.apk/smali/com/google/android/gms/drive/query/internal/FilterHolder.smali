@@ -67,6 +67,11 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/query/internal/ComparisonFilter;Lcom/google/android/gms/drive/query/internal/FieldOnlyFilter;Lcom/google/android/gms/drive/query/internal/LogicalFilter;Lcom/google/android/gms/drive/query/internal/NotFilter;Lcom/google/android/gms/drive/query/internal/InFilter;Lcom/google/android/gms/drive/query/internal/MatchAllFilter;Lcom/google/android/gms/drive/query/internal/HasFilter;)V
     .locals 2
+    .param p1    # I
+    .param p3    # Lcom/google/android/gms/drive/query/internal/FieldOnlyFilter;
+    .param p4    # Lcom/google/android/gms/drive/query/internal/LogicalFilter;
+    .param p5    # Lcom/google/android/gms/drive/query/internal/NotFilter;
+    .param p7    # Lcom/google/android/gms/drive/query/internal/MatchAllFilter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -230,6 +235,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/query/internal/d;->a(Lcom/google/android/gms/drive/query/internal/FilterHolder;Landroid/os/Parcel;I)V
 

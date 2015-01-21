@@ -113,6 +113,11 @@
 
 .method public constructor <init>(Landroid/content/Context;ILcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;FF)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Lcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;
+    .param p4    # F
+    .param p5    # F
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -234,6 +239,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/SwipeHelper;)Lcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/SwipeHelper;
 
     iget-object v0, p0, Lcom/android/dialer/list/SwipeHelper;->mCallback:Lcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;
 
@@ -242,6 +248,8 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/SwipeHelper;Landroid/view/View;)F
     .locals 1
+    .param p0    # Lcom/android/dialer/list/SwipeHelper;
+    .param p1    # Landroid/view/View;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/SwipeHelper;->getAlphaForOffset(Landroid/view/View;)F
 
@@ -252,6 +260,7 @@
 
 .method static synthetic access$200(Lcom/android/dialer/list/SwipeHelper;)F
     .locals 1
+    .param p0    # Lcom/android/dialer/list/SwipeHelper;
 
     iget v0, p0, Lcom/android/dialer/list/SwipeHelper;->mStartAlpha:F
 
@@ -260,6 +269,7 @@
 
 .method static synthetic access$300(Lcom/android/dialer/list/SwipeHelper;)Landroid/view/View;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/SwipeHelper;
 
     iget-object v0, p0, Lcom/android/dialer/list/SwipeHelper;->mCurrView:Landroid/view/View;
 
@@ -268,6 +278,9 @@
 
 .method private createDismissAnimation(Landroid/view/View;FI)Landroid/animation/ObjectAnimator;
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # F
+    .param p3    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/list/SwipeHelper;->createTranslationAnimation(Landroid/view/View;F)Landroid/animation/ObjectAnimator;
 
@@ -286,6 +299,8 @@
 
 .method private createTranslationAnimation(Landroid/view/View;F)Landroid/animation/ObjectAnimator;
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # F
 
     iget v1, p0, Lcom/android/dialer/list/SwipeHelper;->mSwipeDirection:I
 
@@ -316,6 +331,9 @@
 
 .method private determineDuration(Landroid/view/View;FF)I
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # F
+    .param p3    # F
 
     sget v0, Lcom/android/dialer/list/SwipeHelper;->MAX_ESCAPE_ANIMATION_DURATION:I
 
@@ -362,6 +380,8 @@
 
 .method private determinePos(Landroid/view/View;F)F
     .locals 3
+    .param p1    # Landroid/view/View;
+    .param p2    # F
 
     const/4 v2, 0x0
 
@@ -422,6 +442,8 @@
 
 .method private dismissChild(Landroid/view/View;F)V
     .locals 7
+    .param p1    # Landroid/view/View;
+    .param p2    # F
 
     iget-object v5, p0, Lcom/android/dialer/list/SwipeHelper;->mCallback:Lcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;
 
@@ -472,6 +494,7 @@
 
 .method private getAlphaForOffset(Landroid/view/View;)F
     .locals 6
+    .param p1    # Landroid/view/View;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/SwipeHelper;->getSize(Landroid/view/View;)F
 
@@ -547,6 +570,7 @@
 
 .method private getPerpendicularVelocity(Landroid/view/VelocityTracker;)F
     .locals 1
+    .param p1    # Landroid/view/VelocityTracker;
 
     iget v0, p0, Lcom/android/dialer/list/SwipeHelper;->mSwipeDirection:I
 
@@ -569,6 +593,7 @@
 
 .method private getSize(Landroid/view/View;)F
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget v0, p0, Lcom/android/dialer/list/SwipeHelper;->mSwipeDirection:I
 
@@ -595,6 +620,7 @@
 
 .method private getVelocity(Landroid/view/VelocityTracker;)F
     .locals 1
+    .param p1    # Landroid/view/VelocityTracker;
 
     iget v0, p0, Lcom/android/dialer/list/SwipeHelper;->mSwipeDirection:I
 
@@ -617,6 +643,7 @@
 
 .method public static invalidateGlobalRegion(Landroid/view/View;)V
     .locals 5
+    .param p0    # Landroid/view/View;
 
     new-instance v0, Landroid/graphics/RectF;
 
@@ -653,6 +680,8 @@
 
 .method public static invalidateGlobalRegion(Landroid/view/View;Landroid/graphics/RectF;)V
     .locals 6
+    .param p0    # Landroid/view/View;
+    .param p1    # Landroid/graphics/RectF;
 
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
@@ -731,6 +760,8 @@
 
 .method private setTranslation(Landroid/view/View;F)V
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # F
 
     iget v0, p0, Lcom/android/dialer/list/SwipeHelper;->mSwipeDirection:I
 
@@ -751,6 +782,7 @@
 # virtual methods
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 10
+    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v8, 0x0
 
@@ -1001,6 +1033,7 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 24
+    .param p1    # Landroid/view/MotionEvent;
 
     move-object/from16 v0, p0
 
@@ -1599,6 +1632,8 @@
 
 .method public snapChild(Landroid/view/View;F)V
     .locals 6
+    .param p1    # Landroid/view/View;
+    .param p2    # F
 
     iget-object v4, p0, Lcom/android/dialer/list/SwipeHelper;->mCallback:Lcom/android/dialer/list/SwipeHelper$SwipeHelperCallback;
 

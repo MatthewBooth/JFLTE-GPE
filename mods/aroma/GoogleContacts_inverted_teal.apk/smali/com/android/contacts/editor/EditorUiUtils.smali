@@ -90,6 +90,7 @@
 
 .method public static getLayoutResourceId(Ljava/lang/String;)I
     .locals 2
+    .param p0    # Ljava/lang/String;
 
     sget-object v1, Lcom/android/contacts/editor/EditorUiUtils;->mimetypeLayoutMap:Ljava/util/HashMap;
 

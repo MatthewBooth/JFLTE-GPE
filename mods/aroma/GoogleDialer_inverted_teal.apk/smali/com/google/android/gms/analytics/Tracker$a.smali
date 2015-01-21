@@ -181,6 +181,7 @@
 
 .method public enableAutoActivityTracking(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/analytics/Tracker$a;->Bt:Z
 
@@ -338,6 +339,7 @@
 
 .method public setSessionTimeout(J)V
     .locals 1
+    .param p1    # J
 
     iput-wide p1, p0, Lcom/google/android/gms/analytics/Tracker$a;->Bv:J
 

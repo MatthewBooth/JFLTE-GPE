@@ -12,6 +12,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/content/CursorLoader;-><init>(Landroid/content/Context;)V
 
@@ -178,6 +179,7 @@
 
 .method public setLoadProfile(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ProfileAndContactsLoader;->mLoadProfile:Z
 
@@ -186,6 +188,7 @@
 
 .method public setProjection([Ljava/lang/String;)V
     .locals 0
+    .param p1    # [Ljava/lang/String;
 
     invoke-super {p0, p1}, Landroid/content/CursorLoader;->setProjection([Ljava/lang/String;)V
 

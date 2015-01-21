@@ -37,6 +37,7 @@
 # direct methods
 .method constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Lcom/google/common/collect/MapMaker$RemovalCause;)V
     .locals 0
+    .param p3    # Lcom/google/common/collect/MapMaker$RemovalCause;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;",

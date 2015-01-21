@@ -52,6 +52,8 @@
 # virtual methods
 .method public onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",

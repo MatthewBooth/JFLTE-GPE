@@ -14,6 +14,8 @@
 # direct methods
 .method public static create(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;
     .locals 2
+    .param p0    # Landroid/content/res/Resources;
+    .param p1    # Landroid/graphics/Bitmap;
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 

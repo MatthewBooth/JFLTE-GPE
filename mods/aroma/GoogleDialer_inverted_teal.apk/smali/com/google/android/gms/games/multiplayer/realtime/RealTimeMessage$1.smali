@@ -39,6 +39,7 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage$1;->ee(Landroid/os/Parcel;)Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;
 
@@ -69,6 +70,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage$1;->fO(I)[Lcom/google/android/gms/games/multiplayer/realtime/RealTimeMessage;
 

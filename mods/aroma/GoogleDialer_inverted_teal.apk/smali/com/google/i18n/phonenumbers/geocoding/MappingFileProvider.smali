@@ -88,6 +88,8 @@
 
 .method private appendSubsequentLocalePart(Ljava/lang/String;Ljava/lang/StringBuilder;)V
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -109,6 +111,9 @@
 
 .method private constructFullLocale(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -123,6 +128,9 @@
 
 .method private findBestMatchingLanguageCode(Ljava/util/Set;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -277,6 +285,8 @@
 
 .method private onlyOneOfScriptOrRegionIsEmpty(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -319,6 +329,10 @@
 # virtual methods
 .method getFileName(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
 
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
@@ -399,6 +413,7 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 6
+    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -573,6 +588,7 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 6
+    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

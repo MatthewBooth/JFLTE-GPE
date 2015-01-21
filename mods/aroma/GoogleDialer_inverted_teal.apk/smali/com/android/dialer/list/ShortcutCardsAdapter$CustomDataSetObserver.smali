@@ -31,6 +31,8 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/list/ShortcutCardsAdapter;Lcom/android/dialer/list/ShortcutCardsAdapter$1;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/list/ShortcutCardsAdapter;
+    .param p2    # Lcom/android/dialer/list/ShortcutCardsAdapter$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/ShortcutCardsAdapter$CustomDataSetObserver;-><init>(Lcom/android/dialer/list/ShortcutCardsAdapter;)V
 

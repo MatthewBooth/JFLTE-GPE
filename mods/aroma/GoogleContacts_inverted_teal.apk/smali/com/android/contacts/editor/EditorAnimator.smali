@@ -48,6 +48,7 @@
 
 .method static synthetic access$000(Landroid/view/View;)Ljava/util/List;
     .locals 1
+    .param p0    # Landroid/view/View;
 
     invoke-static {p0}, Lcom/android/contacts/editor/EditorAnimator;->getViewsBelowOf(Landroid/view/View;)Ljava/util/List;
 
@@ -58,6 +59,12 @@
 
 .method static synthetic access$100(Ljava/util/List;Ljava/util/List;FFII)V
     .locals 0
+    .param p0    # Ljava/util/List;
+    .param p1    # Ljava/util/List;
+    .param p2    # F
+    .param p3    # F
+    .param p4    # I
+    .param p5    # I
 
     invoke-static/range {p0 .. p5}, Lcom/android/contacts/editor/EditorAnimator;->translateViews(Ljava/util/List;Ljava/util/List;FFII)V
 
@@ -66,6 +73,7 @@
 
 .method static synthetic access$200(Lcom/android/contacts/editor/EditorAnimator;)Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
     .locals 1
+    .param p0    # Lcom/android/contacts/editor/EditorAnimator;
 
     iget-object v0, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 
@@ -82,6 +90,7 @@
 
 .method private static getViewsBelowOf(Landroid/view/View;)Ljava/util/List;
     .locals 4
+    .param p0    # Landroid/view/View;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -120,6 +129,9 @@
 
 .method private static getViewsBelowOfRecursive(Ljava/util/List;Landroid/view/ViewGroup;ILandroid/view/View;)V
     .locals 8
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
+    .param p3    # Landroid/view/View;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -203,6 +215,10 @@
 
 .method private static translateViews(Ljava/util/List;Ljava/util/List;FFII)V
     .locals 6
+    .param p2    # F
+    .param p3    # F
+    .param p4    # I
+    .param p5    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -272,6 +288,8 @@
 # virtual methods
 .method public expandOrganization(Landroid/view/View;Landroid/view/ViewGroup;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/ViewGroup;
 
     iget-object v0, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 
@@ -298,6 +316,7 @@
 
 .method public hideAddFieldFooter(Landroid/view/View;)V
     .locals 8
+    .param p1    # Landroid/view/View;
 
     iget-object v2, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 
@@ -378,6 +397,7 @@
 
 .method public removeEditorView(Landroid/view/View;)V
     .locals 8
+    .param p1    # Landroid/view/View;
 
     iget-object v2, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 
@@ -444,6 +464,7 @@
 
 .method public showAddFieldFooter(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 
@@ -478,6 +499,8 @@
 
 .method public slideAndFadeIn(Landroid/view/ViewGroup;I)V
     .locals 1
+    .param p1    # Landroid/view/ViewGroup;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/editor/EditorAnimator;->mRunner:Lcom/android/contacts/editor/EditorAnimator$AnimatorRunner;
 

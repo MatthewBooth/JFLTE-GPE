@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/google/android/dialer/provider/DialerProvider;Lcom/google/android/dialer/provider/DialerProvider$1;)V
     .locals 0
+    .param p1    # Lcom/google/android/dialer/provider/DialerProvider;
+    .param p2    # Lcom/google/android/dialer/provider/DialerProvider$1;
 
     invoke-direct {p0, p1}, Lcom/google/android/dialer/provider/DialerProvider$DialerLocationListener;-><init>(Lcom/google/android/dialer/provider/DialerProvider;)V
 
@@ -44,6 +46,7 @@
 # virtual methods
 .method public onLocationChanged(Landroid/location/Location;)V
     .locals 3
+    .param p1    # Landroid/location/Location;
 
     const-string v0, "DialerProvider"
 
@@ -83,6 +86,7 @@
 
 .method public onProviderDisabled(Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "DialerProvider"
 
@@ -122,6 +126,7 @@
 
 .method public onProviderEnabled(Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "DialerProvider"
 
@@ -161,6 +166,9 @@
 
 .method public onStatusChanged(Ljava/lang/String;ILandroid/os/Bundle;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
+    .param p3    # Landroid/os/Bundle;
 
     const-string v0, "DialerProvider"
 

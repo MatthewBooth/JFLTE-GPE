@@ -14,6 +14,9 @@
 
 .method static synthetic access$000(Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;Landroid/content/Context;Ljava/lang/String;)J
     .locals 2
+    .param p0    # Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;->getContactIdFromPhoneNumber(Landroid/content/Context;Ljava/lang/String;)J
 
@@ -24,6 +27,9 @@
 
 .method static synthetic access$100(Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;Landroid/content/Context;J)V
     .locals 0
+    .param p0    # Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;
+    .param p1    # Landroid/content/Context;
+    .param p2    # J
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/dialer/interactions/UndemoteOutgoingCallReceiver;->undemoteContactWithId(Landroid/content/Context;J)V
 
@@ -32,6 +38,8 @@
 
 .method private getContactIdFromPhoneNumber(Landroid/content/Context;Ljava/lang/String;)J
     .locals 10
+    .param p1    # Landroid/content/Context;
+    .param p2    # Ljava/lang/String;
 
     const-wide/16 v8, -0x1
 
@@ -109,6 +117,8 @@
 
 .method private undemoteContactWithId(Landroid/content/Context;J)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # J
 
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -123,6 +133,8 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/content/Intent;
 
     if-eqz p2, :cond_0
 

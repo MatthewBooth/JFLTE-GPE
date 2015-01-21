@@ -115,6 +115,8 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/vcard/VCardService;Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;)V
     .locals 0
+    .param p0    # Lcom/android/contacts/common/vcard/VCardService;
+    .param p1    # Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/vcard/VCardService;->removeConnectionClient(Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;)V
 
@@ -236,6 +238,7 @@
 
 .method private getAppropriateDestination(Ljava/io/File;)Ljava/lang/String;
     .locals 19
+    .param p1    # Ljava/io/File;
 
     const/4 v4, 0x0
 
@@ -731,6 +734,7 @@
 
 .method private declared-synchronized removeConnectionClient(Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;
 
     monitor-enter p0
 
@@ -902,6 +906,7 @@
 
 .method private declared-synchronized tryExecute(Lcom/android/contacts/common/vcard/ProcessorBase;)Z
     .locals 3
+    .param p1    # Lcom/android/contacts/common/vcard/ProcessorBase;
 
     monitor-enter p0
 
@@ -954,6 +959,8 @@
 # virtual methods
 .method public declared-synchronized handleCancelRequest(Lcom/android/contacts/common/vcard/CancelRequest;Lcom/android/contacts/common/vcard/VCardImportExportListener;)V
     .locals 9
+    .param p1    # Lcom/android/contacts/common/vcard/CancelRequest;
+    .param p2    # Lcom/android/contacts/common/vcard/VCardImportExportListener;
 
     monitor-enter p0
 
@@ -1083,6 +1090,8 @@
 
 .method public declared-synchronized handleExportRequest(Lcom/android/contacts/common/vcard/ExportRequest;Lcom/android/contacts/common/vcard/VCardImportExportListener;)V
     .locals 5
+    .param p1    # Lcom/android/contacts/common/vcard/ExportRequest;
+    .param p2    # Lcom/android/contacts/common/vcard/VCardImportExportListener;
 
     monitor-enter p0
 
@@ -1184,6 +1193,8 @@
 
 .method declared-synchronized handleFinishExportNotification(IZ)V
     .locals 7
+    .param p1    # I
+    .param p2    # Z
 
     monitor-enter p0
 
@@ -1297,6 +1308,8 @@
 
 .method declared-synchronized handleFinishImportNotification(IZ)V
     .locals 1
+    .param p1    # I
+    .param p2    # Z
 
     monitor-enter p0
 
@@ -1323,6 +1336,7 @@
 
 .method public declared-synchronized handleImportRequest(Ljava/util/List;Lcom/android/contacts/common/vcard/VCardImportExportListener;)V
     .locals 5
+    .param p2    # Lcom/android/contacts/common/vcard/VCardImportExportListener;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1404,6 +1418,7 @@
 
 .method public declared-synchronized handleRequestAvailableExportDestination(Landroid/os/Messenger;)V
     .locals 8
+    .param p1    # Landroid/os/Messenger;
 
     monitor-enter p0
 
@@ -1483,6 +1498,7 @@
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 1
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/VCardService;->mBinder:Lcom/android/contacts/common/vcard/VCardService$MyBinder;
 
@@ -1519,6 +1535,9 @@
 
 .method public onStartCommand(Landroid/content/Intent;II)I
     .locals 2
+    .param p1    # Landroid/content/Intent;
+    .param p2    # I
+    .param p3    # I
 
     if-eqz p1, :cond_0
 
@@ -1555,6 +1574,7 @@
 
 .method declared-synchronized updateMediaScanner(Ljava/lang/String;)V
     .locals 3
+    .param p1    # Ljava/lang/String;
 
     monitor-enter p0
 

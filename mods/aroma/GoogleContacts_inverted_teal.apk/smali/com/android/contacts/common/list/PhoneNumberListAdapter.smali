@@ -55,6 +55,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -109,6 +110,10 @@
 
 .method private applyFilter(Landroid/content/CursorLoader;Landroid/net/Uri$Builder;JLcom/android/contacts/common/list/ContactListFilter;)V
     .locals 5
+    .param p1    # Landroid/content/CursorLoader;
+    .param p2    # Landroid/net/Uri$Builder;
+    .param p3    # J
+    .param p5    # Lcom/android/contacts/common/list/ContactListFilter;
 
     if-eqz p5, :cond_0
 
@@ -235,6 +240,7 @@
 
 .method private getExtendedDirectoryFromId(J)Lcom/android/contacts/common/list/DirectoryPartition;
     .locals 5
+    .param p1    # J
 
     iget-wide v2, p0, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->mFirstExtendedDirectoryId:J
 
@@ -257,6 +263,8 @@
 # virtual methods
 .method protected bindName(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 2
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
 
     const/4 v0, 0x7
 
@@ -271,6 +279,9 @@
 
 .method protected bindPhoneNumber(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;Z)V
     .locals 10
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
+    .param p3    # Z
 
     const/4 v9, 0x3
 
@@ -351,6 +362,9 @@
 
 .method protected bindPhoto(Lcom/android/contacts/common/list/ContactListItemView;ILandroid/database/Cursor;)V
     .locals 15
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
 
     move/from16 v0, p2
 
@@ -484,6 +498,8 @@
 
 .method protected bindSectionHeaderAndDivider(Lcom/android/contacts/common/list/ContactListItemView;I)V
     .locals 3
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # I
 
     const/4 v1, 0x0
 
@@ -517,6 +533,10 @@
 
 .method protected bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
     .locals 22
+    .param p1    # Landroid/view/View;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
 
     invoke-super/range {p0 .. p4}, Lcom/android/contacts/common/list/ContactEntryListAdapter;->bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
 
@@ -705,6 +725,7 @@
 
 .method public changeDirectories(Landroid/database/Cursor;)V
     .locals 14
+    .param p1    # Landroid/database/Cursor;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListAdapter;->changeDirectories(Landroid/database/Cursor;)V
 
@@ -831,6 +852,8 @@
 
 .method public configureLoader(Landroid/content/CursorLoader;J)V
     .locals 18
+    .param p1    # Landroid/content/CursorLoader;
+    .param p2    # J
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getQueryString()Ljava/lang/String;
 
@@ -1175,6 +1198,10 @@
 
 .method protected getContactUri(ILandroid/database/Cursor;II)Landroid/net/Uri;
     .locals 6
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
+    .param p3    # I
+    .param p4    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getPartition(I)Lcom/android/common/widget/CompositeCursorAdapter$Partition;
 
@@ -1249,6 +1276,7 @@
 
 .method public getDataUri(I)Landroid/net/Uri;
     .locals 3
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getPartitionForPosition(I)I
 
@@ -1277,6 +1305,8 @@
 
 .method public getDataUri(ILandroid/database/Cursor;)Landroid/net/Uri;
     .locals 5
+    .param p1    # I
+    .param p2    # Landroid/database/Cursor;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getPartition(I)Lcom/android/common/widget/CompositeCursorAdapter$Partition;
 
@@ -1317,6 +1347,7 @@
 
 .method public getPhoneNumber(I)Ljava/lang/String;
     .locals 2
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -1343,6 +1374,7 @@
 
 .method protected isExtendedDirectory(J)Z
     .locals 3
+    .param p1    # J
 
     iget-wide v0, p0, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->mFirstExtendedDirectoryId:J
 
@@ -1363,6 +1395,11 @@
 
 .method protected bridge synthetic newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     invoke-virtual/range {p0 .. p5}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
 
@@ -1373,6 +1410,11 @@
 
 .method protected newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # I
+    .param p3    # Landroid/database/Cursor;
+    .param p4    # I
+    .param p5    # Landroid/view/ViewGroup;
 
     invoke-super/range {p0 .. p5}, Lcom/android/contacts/common/list/ContactEntryListAdapter;->newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Lcom/android/contacts/common/list/ContactListItemView;
 
@@ -1397,6 +1439,8 @@
 
 .method protected setHighlight(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
+    .param p2    # Landroid/database/Cursor;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->isSearchMode()Z
 
@@ -1421,6 +1465,7 @@
 
 .method public setPhotoPosition(Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->mPhotoPosition:Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;
 
@@ -1429,6 +1474,7 @@
 
 .method public setUseCallableUri(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/PhoneNumberListAdapter;->mUseCallableUri:Z
 
@@ -1437,6 +1483,7 @@
 
 .method protected unbindName(Lcom/android/contacts/common/list/ContactListItemView;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/list/ContactListItemView;->hideDisplayName()V
 

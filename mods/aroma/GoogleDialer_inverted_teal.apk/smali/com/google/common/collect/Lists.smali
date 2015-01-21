@@ -6,6 +6,7 @@
 # direct methods
 .method static computeArrayListCapacity(I)I
     .locals 4
+    .param p0    # I
 
     if-ltz p0, :cond_0
 
@@ -40,6 +41,7 @@
 
 .method static equalsImpl(Ljava/util/List;Ljava/lang/Object;)Z
     .locals 5
+    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -207,6 +209,7 @@
 
 .method public static newArrayListWithCapacity(I)Ljava/util/ArrayList;
     .locals 1
+    .param p0    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",

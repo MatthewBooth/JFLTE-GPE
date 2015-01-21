@@ -52,6 +52,9 @@
 # direct methods
 .method private dumpViewHierarchy(Ljava/lang/String;Ljava/io/PrintWriter;Landroid/view/View;)V
     .locals 5
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/io/PrintWriter;
+    .param p3    # Landroid/view/View;
 
     invoke-virtual {p2, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
@@ -121,6 +124,7 @@
 
 .method private static viewToString(Landroid/view/View;)Ljava/lang/String;
     .locals 12
+    .param p0    # Landroid/view/View;
 
     const/16 v9, 0x56
 
@@ -497,6 +501,7 @@
 # virtual methods
 .method doReallyStop(Z)V
     .locals 2
+    .param p1    # Z
 
     const/4 v1, 0x1
 
@@ -520,6 +525,10 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 4
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/io/FileDescriptor;
+    .param p3    # Ljava/io/PrintWriter;
+    .param p4    # [Ljava/lang/String;
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -702,6 +711,9 @@
 
 .method getLoaderManager(Ljava/lang/String;ZZ)Landroid/support/v4/app/LoaderManagerImpl;
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
+    .param p3    # Z
 
     iget-object v1, p0, Landroid/support/v4/app/FragmentActivity;->mAllLoaderManagers:Landroid/support/v4/util/SimpleArrayMap;
 
@@ -746,6 +758,7 @@
 
 .method invalidateSupportFragment(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     iget-object v1, p0, Landroid/support/v4/app/FragmentActivity;->mAllLoaderManagers:Landroid/support/v4/util/SimpleArrayMap;
 
@@ -777,6 +790,9 @@
 
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 5
+    .param p1    # I
+    .param p2    # I
+    .param p3    # Landroid/content/Intent;
 
     iget-object v2, p0, Landroid/support/v4/app/FragmentActivity;->mFragments:Landroid/support/v4/app/FragmentManagerImpl;
 
@@ -894,6 +910,7 @@
 
 .method public onAttachFragment(Landroid/support/v4/app/Fragment;)V
     .locals 0
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     return-void
 .end method
@@ -917,6 +934,7 @@
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 1
+    .param p1    # Landroid/content/res/Configuration;
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
@@ -929,6 +947,7 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 5
+    .param p1    # Landroid/os/Bundle;
 
     const/4 v2, 0x0
 
@@ -997,6 +1016,8 @@
 
 .method public onCreatePanelMenu(ILandroid/view/Menu;)Z
     .locals 3
+    .param p1    # I
+    .param p2    # Landroid/view/Menu;
 
     if-nez p1, :cond_1
 
@@ -1040,6 +1061,9 @@
 
 .method public onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/content/Context;
+    .param p3    # Landroid/util/AttributeSet;
 
     const-string v1, "fragment"
 
@@ -1100,6 +1124,8 @@
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/view/KeyEvent;
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1146,6 +1172,8 @@
 
 .method public onMenuItemSelected(ILandroid/view/MenuItem;)Z
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/view/MenuItem;
 
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->onMenuItemSelected(ILandroid/view/MenuItem;)Z
 
@@ -1194,6 +1222,7 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 1
+    .param p1    # Landroid/content/Intent;
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
 
@@ -1206,6 +1235,8 @@
 
 .method public onPanelClosed(ILandroid/view/Menu;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/view/Menu;
 
     packed-switch p1, :pswitch_data_0
 
@@ -1284,6 +1315,8 @@
 
 .method protected onPrepareOptionsPanel(Landroid/view/View;Landroid/view/Menu;)Z
     .locals 1
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/view/Menu;
 
     const/4 v0, 0x0
 
@@ -1296,6 +1329,9 @@
 
 .method public onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
     .locals 2
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/Menu;
 
     if-nez p1, :cond_1
 
@@ -1537,6 +1573,7 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -1719,6 +1756,8 @@
 
 .method public startActivityForResult(Landroid/content/Intent;I)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
+    .param p2    # I
 
     const/4 v0, -0x1
 

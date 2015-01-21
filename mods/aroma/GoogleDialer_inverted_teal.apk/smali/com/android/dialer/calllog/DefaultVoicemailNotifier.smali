@@ -35,6 +35,11 @@
 # direct methods
 .method private constructor <init>(Landroid/content/Context;Landroid/app/NotificationManager;Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NewCallsQuery;Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NameLookupQuery;Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/app/NotificationManager;
+    .param p3    # Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NewCallsQuery;
+    .param p4    # Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NameLookupQuery;
+    .param p5    # Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,6 +84,7 @@
 
 .method public static createNameLookupQuery(Landroid/content/ContentResolver;)Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NameLookupQuery;
     .locals 2
+    .param p0    # Landroid/content/ContentResolver;
 
     new-instance v0, Lcom/android/dialer/calllog/DefaultVoicemailNotifier$DefaultNameLookupQuery;
 
@@ -91,6 +97,7 @@
 
 .method public static createNewCallsQuery(Landroid/content/ContentResolver;)Lcom/android/dialer/calllog/DefaultVoicemailNotifier$NewCallsQuery;
     .locals 2
+    .param p0    # Landroid/content/ContentResolver;
 
     new-instance v0, Lcom/android/dialer/calllog/DefaultVoicemailNotifier$DefaultNewCallsQuery;
 
@@ -103,6 +110,7 @@
 
 .method public static createPhoneNumberHelper(Landroid/content/Context;)Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;
     .locals 2
+    .param p0    # Landroid/content/Context;
 
     new-instance v0, Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;
 
@@ -117,6 +125,7 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/dialer/calllog/DefaultVoicemailNotifier;
     .locals 8
+    .param p0    # Landroid/content/Context;
 
     const-class v7, Lcom/android/dialer/calllog/DefaultVoicemailNotifier;
 
@@ -194,6 +203,7 @@
 
 .method public updateNotification(Landroid/net/Uri;)V
     .locals 24
+    .param p1    # Landroid/net/Uri;
 
     move-object/from16 v0, p0
 

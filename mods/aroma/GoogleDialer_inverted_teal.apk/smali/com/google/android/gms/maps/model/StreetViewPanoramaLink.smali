@@ -32,6 +32,9 @@
 
 .method constructor <init>(ILjava/lang/String;F)V
     .locals 5
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # F
 
     const/high16 v4, 0x43b40000
 
@@ -73,6 +76,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -200,6 +204,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/maps/model/r;->a(Lcom/google/android/gms/maps/model/StreetViewPanoramaLink;Landroid/os/Parcel;I)V
 

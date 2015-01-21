@@ -20,6 +20,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -30,6 +31,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -58,6 +61,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/TileInteractionTeaserView;)V
     .locals 0
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
 
     invoke-direct {p0}, Lcom/android/dialer/list/TileInteractionTeaserView;->startDestroyAnimation()V
 
@@ -66,6 +70,7 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/TileInteractionTeaserView;)Z
     .locals 1
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
 
     iget-boolean v0, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mNeedLayout:Z
 
@@ -74,6 +79,8 @@
 
 .method static synthetic access$102(Lcom/android/dialer/list/TileInteractionTeaserView;Z)Z
     .locals 0
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mNeedLayout:Z
 
@@ -82,6 +89,7 @@
 
 .method static synthetic access$200(Lcom/android/dialer/list/TileInteractionTeaserView;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
 
     iget v0, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mTextTop:I
 
@@ -90,6 +98,8 @@
 
 .method static synthetic access$202(Lcom/android/dialer/list/TileInteractionTeaserView;I)I
     .locals 0
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mTextTop:I
 
@@ -98,6 +108,8 @@
 
 .method static synthetic access$302(Lcom/android/dialer/list/TileInteractionTeaserView;I)I
     .locals 0
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mAnimatedHeight:I
 
@@ -106,6 +118,7 @@
 
 .method static synthetic access$400(Lcom/android/dialer/list/TileInteractionTeaserView;)V
     .locals 0
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
 
     invoke-direct {p0}, Lcom/android/dialer/list/TileInteractionTeaserView;->setDismissed()V
 
@@ -114,6 +127,7 @@
 
 .method static synthetic access$500(Lcom/android/dialer/list/TileInteractionTeaserView;)Lcom/android/dialer/list/ShortcutCardsAdapter;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/TileInteractionTeaserView;
 
     iget-object v0, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mAdapter:Lcom/android/dialer/list/ShortcutCardsAdapter;
 
@@ -252,6 +266,11 @@
 
 .method protected onLayout(ZIIII)V
     .locals 3
+    .param p1    # Z
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # I
 
     invoke-super/range {p0 .. p5}, Landroid/widget/FrameLayout;->onLayout(ZIIII)V
 
@@ -282,6 +301,8 @@
 
 .method protected onMeasure(II)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
 
     iget v0, p0, Lcom/android/dialer/list/TileInteractionTeaserView;->mAnimatedHeight:I
 

@@ -26,6 +26,7 @@
 
 .method static capacity(I)I
     .locals 1
+    .param p0    # I
 
     const/4 v0, 0x3
 

@@ -30,6 +30,9 @@
 # direct methods
 .method public constructor <init>(IFI)V
     .locals 4
+    .param p1    # I
+    .param p2    # F
+    .param p3    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -100,6 +103,7 @@
 
 .method public getInterpolation(F)F
     .locals 5
+    .param p1    # F
 
     const/high16 v4, 0x3f800000
 

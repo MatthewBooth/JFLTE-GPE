@@ -58,6 +58,7 @@
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
 
     const/4 v1, 0x1
 
@@ -158,6 +159,7 @@
 
 .method public constructor <init>(Landroid/support/v4/app/Fragment;)V
     .locals 1
+    .param p1    # Landroid/support/v4/app/Fragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -218,6 +220,8 @@
 
 .method public instantiate(Landroid/support/v4/app/FragmentActivity;Landroid/support/v4/app/Fragment;)Landroid/support/v4/app/Fragment;
     .locals 3
+    .param p1    # Landroid/support/v4/app/FragmentActivity;
+    .param p2    # Landroid/support/v4/app/Fragment;
 
     iget-object v0, p0, Landroid/support/v4/app/FragmentState;->mInstance:Landroid/support/v4/app/Fragment;
 
@@ -361,6 +365,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v1, 0x1
 

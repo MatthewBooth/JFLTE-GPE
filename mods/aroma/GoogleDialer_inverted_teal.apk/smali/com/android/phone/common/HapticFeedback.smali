@@ -86,6 +86,8 @@
 
 .method public init(Landroid/content/Context;Z)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Z
 
     iput-boolean p2, p0, Lcom/android/phone/common/HapticFeedback;->mEnabled:Z
 

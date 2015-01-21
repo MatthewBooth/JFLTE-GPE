@@ -80,6 +80,7 @@
 
 .method static synthetic access$000(Lcom/android/incallui/AnswerFragment;)Lcom/android/incallui/GlowPadWrapper;
     .locals 1
+    .param p0    # Lcom/android/incallui/AnswerFragment;
 
     iget-object v0, p0, Lcom/android/incallui/AnswerFragment;->mGlowpad:Lcom/android/incallui/GlowPadWrapper;
 
@@ -88,6 +89,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/AnswerFragment;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/AnswerFragment;
 
     invoke-direct {p0}, Lcom/android/incallui/AnswerFragment;->dismissCannedResponsePopup()V
 
@@ -96,6 +98,7 @@
 
 .method static synthetic access$200(Lcom/android/incallui/AnswerFragment;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/AnswerFragment;
 
     invoke-direct {p0}, Lcom/android/incallui/AnswerFragment;->dismissCustomMessagePopup()V
 
@@ -104,6 +107,7 @@
 
 .method static synthetic access$300(Lcom/android/incallui/AnswerFragment;)Landroid/app/AlertDialog;
     .locals 1
+    .param p0    # Lcom/android/incallui/AnswerFragment;
 
     iget-object v0, p0, Lcom/android/incallui/AnswerFragment;->mCustomMessagePopup:Landroid/app/AlertDialog;
 
@@ -335,6 +339,8 @@
 
 .method public onAnswer(ILandroid/content/Context;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/content/Context;
 
     invoke-virtual {p0}, Lcom/android/incallui/AnswerFragment;->getPresenter()Lcom/android/incallui/Presenter;
 
@@ -349,6 +355,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const v0, 0x7f040004
 
@@ -438,6 +447,7 @@
 
 .method public showAnswerUi(Z)V
     .locals 2
+    .param p1    # Z
 
     invoke-virtual {p0}, Lcom/android/incallui/AnswerFragment;->getView()Landroid/view/View;
 
@@ -682,6 +692,7 @@
 
 .method public showTargets(I)V
     .locals 6
+    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 

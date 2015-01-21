@@ -30,6 +30,8 @@
 # virtual methods
 .method public draw(Ljava/lang/Object;Landroid/graphics/Canvas;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Landroid/graphics/Canvas;
 
     const/4 v0, 0x0
 
@@ -38,12 +40,14 @@
 
 .method public finish(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     return-void
 .end method
 
 .method public isFinished(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -52,6 +56,7 @@
 
 .method public newEdgeEffect(Landroid/content/Context;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -60,6 +65,8 @@
 
 .method public onPull(Ljava/lang/Object;F)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
+    .param p2    # F
 
     const/4 v0, 0x0
 
@@ -68,6 +75,7 @@
 
 .method public onRelease(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -76,6 +84,9 @@
 
 .method public setSize(Ljava/lang/Object;II)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
+    .param p2    # I
+    .param p3    # I
 
     return-void
 .end method

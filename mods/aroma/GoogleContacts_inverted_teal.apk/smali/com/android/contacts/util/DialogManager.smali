@@ -21,6 +21,7 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
+    .param p1    # Landroid/app/Activity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -46,6 +47,7 @@
 
 .method static synthetic access$000(Lcom/android/contacts/util/DialogManager;)Landroid/app/Activity;
     .locals 1
+    .param p0    # Lcom/android/contacts/util/DialogManager;
 
     iget-object v0, p0, Lcom/android/contacts/util/DialogManager;->mActivity:Landroid/app/Activity;
 
@@ -54,6 +56,7 @@
 
 .method public static final isManagedId(I)Z
     .locals 1
+    .param p0    # I
 
     const v0, 0x7f0e001c
 
@@ -79,6 +82,8 @@
 # virtual methods
 .method public onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 5
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
 
     const/4 v0, 0x0
 
@@ -161,6 +166,8 @@
 
 .method public showDialogInView(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 4
+    .param p1    # Landroid/view/View;
+    .param p2    # Landroid/os/Bundle;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 

@@ -32,6 +32,7 @@
 
 .method public static buildAuthHeader(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 4
+    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -84,6 +85,7 @@
 
 .method public static getGoogleAccounts(Landroid/content/Context;)[Landroid/accounts/Account;
     .locals 2
+    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
@@ -100,6 +102,9 @@
 
 .method public static declared-synchronized getToken(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
+    .param p0    # Landroid/content/Context;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/String;
 
     const/4 v1, 0x0
 

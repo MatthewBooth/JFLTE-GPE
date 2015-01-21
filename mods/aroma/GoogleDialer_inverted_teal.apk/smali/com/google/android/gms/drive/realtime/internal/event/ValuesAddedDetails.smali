@@ -47,6 +47,12 @@
 
 .method constructor <init>(IIIILjava/lang/String;I)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
+    .param p5    # Ljava/lang/String;
+    .param p6    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -77,6 +83,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/realtime/internal/event/i;->a(Lcom/google/android/gms/drive/realtime/internal/event/ValuesAddedDetails;Landroid/os/Parcel;I)V
 

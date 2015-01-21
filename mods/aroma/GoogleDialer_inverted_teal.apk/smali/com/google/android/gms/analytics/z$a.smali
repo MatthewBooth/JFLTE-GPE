@@ -404,6 +404,7 @@
 
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 1
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteDatabase;->getPath()Ljava/lang/String;
 
@@ -416,6 +417,7 @@
 
 .method public onOpen(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 2
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -471,6 +473,9 @@
 
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 0
+    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
+    .param p2    # I
+    .param p3    # I
 
     return-void
 .end method

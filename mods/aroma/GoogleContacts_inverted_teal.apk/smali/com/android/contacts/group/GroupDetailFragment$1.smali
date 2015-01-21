@@ -65,6 +65,7 @@
 
 .method public onCallNumberDirectly(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "GroupDetailFragment"
 
@@ -77,6 +78,8 @@
 
 .method public onContactSelected(Landroid/net/Uri;Landroid/graphics/Rect;)V
     .locals 1
+    .param p1    # Landroid/net/Uri;
+    .param p2    # Landroid/graphics/Rect;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment$1;->this$0:Lcom/android/contacts/group/GroupDetailFragment;
 

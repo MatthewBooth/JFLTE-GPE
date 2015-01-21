@@ -12,6 +12,8 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -52,6 +54,10 @@
 # virtual methods
 .method protected onSizeChanged(IIII)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onSizeChanged(IIII)V
 
@@ -66,6 +72,10 @@
 
 .method protected onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 2
+    .param p1    # Ljava/lang/CharSequence;
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onTextChanged(Ljava/lang/CharSequence;III)V
 

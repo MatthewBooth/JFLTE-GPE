@@ -34,6 +34,8 @@
 
 .method private getCountryFromLocation(Landroid/content/Context;Landroid/location/Location;)Ljava/lang/String;
     .locals 9
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/location/Location;
 
     new-instance v1, Landroid/location/Geocoder;
 
@@ -96,6 +98,8 @@
 
 .method public static updateCountry(Landroid/content/Context;Landroid/location/Location;)V
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/location/Location;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -120,6 +124,7 @@
 # virtual methods
 .method protected onHandleIntent(Landroid/content/Intent;)V
     .locals 8
+    .param p1    # Landroid/content/Intent;
 
     const-string v4, "saveCountry"
 

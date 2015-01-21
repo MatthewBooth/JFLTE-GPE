@@ -36,6 +36,8 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/query/internal/FilterHolder;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Lcom/google/android/gms/drive/query/internal/FilterHolder;
 
     invoke-direct {p0}, Lcom/google/android/gms/drive/query/internal/AbstractFilter;-><init>()V
 
@@ -87,6 +89,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/query/internal/k;->a(Lcom/google/android/gms/drive/query/internal/NotFilter;Landroid/os/Parcel;I)V
 

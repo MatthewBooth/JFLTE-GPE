@@ -35,6 +35,8 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/CallCardPresenter;Z)V
     .locals 1
+    .param p1    # Lcom/android/incallui/CallCardPresenter;
+    .param p2    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,6 +55,8 @@
 # virtual methods
 .method public onContactInfoComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v1, p0, Lcom/android/incallui/CallCardPresenter$ContactLookupCallback;->mCallCardPresenter:Ljava/lang/ref/WeakReference;
 
@@ -75,6 +79,8 @@
 
 .method public onImageLoadComplete(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v1, p0, Lcom/android/incallui/CallCardPresenter$ContactLookupCallback;->mCallCardPresenter:Ljava/lang/ref/WeakReference;
 

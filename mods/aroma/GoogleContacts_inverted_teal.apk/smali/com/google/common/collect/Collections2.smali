@@ -89,6 +89,7 @@
 
 .method static newStringBuilderForCollection(I)Ljava/lang/StringBuilder;
     .locals 6
+    .param p0    # I
 
     if-ltz p0, :cond_0
 

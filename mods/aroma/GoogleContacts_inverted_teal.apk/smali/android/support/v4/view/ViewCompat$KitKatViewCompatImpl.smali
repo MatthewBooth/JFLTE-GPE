@@ -27,6 +27,8 @@
 # virtual methods
 .method public setImportantForAccessibility(Landroid/view/View;I)V
     .locals 0
+    .param p1    # Landroid/view/View;
+    .param p2    # I
 
     invoke-static {p1, p2}, Landroid/support/v4/view/ViewCompatJB;->setImportantForAccessibility(Landroid/view/View;I)V
 

@@ -68,6 +68,8 @@
 # virtual methods
 .method public compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 5
+    .param p1    # Ljava/lang/Object;
+    .param p2    # Ljava/lang/Object;
 
     if-ne p1, p2, :cond_0
 
@@ -135,6 +137,7 @@
 
 .method identityHashCode(Ljava/lang/Object;)I
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 

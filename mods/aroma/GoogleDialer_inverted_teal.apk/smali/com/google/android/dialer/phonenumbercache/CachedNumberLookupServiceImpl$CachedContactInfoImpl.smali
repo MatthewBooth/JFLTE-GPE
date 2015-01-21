@@ -32,6 +32,7 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/calllog/ContactInfo;)V
     .locals 0
+    .param p1    # Lcom/android/dialer/calllog/ContactInfo;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,6 +51,8 @@
 
 .method public static canReportAsInvalid(ILjava/lang/String;)Z
     .locals 1
+    .param p0    # I
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p0}, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;->isPeopleApiSource(I)Z
 
@@ -76,6 +79,7 @@
 
 .method public static isBusiness(I)Z
     .locals 1
+    .param p0    # I
 
     const/4 v0, 0x3
 
@@ -99,6 +103,7 @@
 
 .method public static isPeopleApiSource(I)Z
     .locals 1
+    .param p0    # I
 
     const/4 v0, 0x3
 
@@ -140,6 +145,8 @@
 
 .method public setDirectorySource(Ljava/lang/String;J)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # J
 
     const/4 v0, 0x1
 
@@ -150,6 +157,8 @@
 
 .method public setExtendedSource(Ljava/lang/String;J)V
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # J
 
     const/4 v0, 0x2
 
@@ -160,6 +169,7 @@
 
 .method public setLookupKey(Ljava/lang/String;)V
     .locals 0
+    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;->lookupKey:Ljava/lang/String;
 
@@ -168,6 +178,7 @@
 
 .method public setPeopleAPISource(Z)V
     .locals 4
+    .param p1    # Z
 
     if-eqz p1, :cond_0
 
@@ -190,6 +201,9 @@
 
 .method protected setSource(ILjava/lang/String;J)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # J
 
     iput p1, p0, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;->sourceType:I
 

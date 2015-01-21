@@ -76,6 +76,8 @@
 
 .method static synthetic access$1400(Landroid/util/AttributeSet;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/android/contacts/common/model/account/BaseAccountType;->getAttr(Landroid/util/AttributeSet;Ljava/lang/String;)Ljava/lang/String;
 
@@ -86,6 +88,9 @@
 
 .method static synthetic access$1500(Landroid/util/AttributeSet;Ljava/lang/String;I)I
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/android/contacts/common/model/account/BaseAccountType;->getAttr(Landroid/util/AttributeSet;Ljava/lang/String;I)I
 
@@ -96,6 +101,9 @@
 
 .method static synthetic access$1700(Landroid/util/AttributeSet;Ljava/lang/String;Z)Z
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
 
     invoke-static {p0, p1, p2}, Lcom/android/contacts/common/model/account/BaseAccountType;->getAttr(Landroid/util/AttributeSet;Ljava/lang/String;Z)Z
 
@@ -106,6 +114,7 @@
 
 .method protected static buildEmailType(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EditType;
 
@@ -120,6 +129,8 @@
 
 .method protected static buildEventType(IZ)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
+    .param p1    # Z
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EventEditType;
 
@@ -142,6 +153,7 @@
 
 .method protected static buildImType(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EditType;
 
@@ -156,6 +168,7 @@
 
 .method protected static buildPhoneType(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EditType;
 
@@ -170,6 +183,7 @@
 
 .method protected static buildPostalType(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EditType;
 
@@ -184,6 +198,7 @@
 
 .method protected static buildRelationType(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 2
+    .param p0    # I
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountType$EditType;
 
@@ -198,6 +213,9 @@
 
 .method private static getAttr(Landroid/util/AttributeSet;Ljava/lang/String;I)I
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -210,6 +228,8 @@
 
 .method private static getAttr(Landroid/util/AttributeSet;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -222,6 +242,9 @@
 
 .method private static getAttr(Landroid/util/AttributeSet;Ljava/lang/String;Z)Z
     .locals 1
+    .param p0    # Landroid/util/AttributeSet;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
 
     const/4 v0, 0x0
 
@@ -236,6 +259,7 @@
 # virtual methods
 .method protected addDataKindDisplayName(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 10
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -475,6 +499,7 @@
 
 .method protected addDataKindEmail(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -602,6 +627,7 @@
 
 .method protected addDataKindGroupMembership(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 7
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -653,6 +679,7 @@
 
 .method protected addDataKindIm(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 7
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -836,6 +863,7 @@
 
 .method protected addDataKindNickname(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -913,6 +941,7 @@
 
 .method protected addDataKindNote(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -978,6 +1007,7 @@
 
 .method protected addDataKindOrganization(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 7
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1049,6 +1079,7 @@
 
 .method protected addDataKindPhone(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 8
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1410,6 +1441,7 @@
 
 .method protected addDataKindPhoneticName(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 7
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1525,6 +1557,7 @@
 
 .method protected addDataKindPhoto(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 5
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1568,6 +1601,7 @@
 
 .method protected addDataKindSipAddress(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1629,6 +1663,7 @@
 
 .method protected addDataKindStructuredName(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 8
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1810,6 +1845,7 @@
 
 .method protected addDataKindStructuredPostal(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -1933,6 +1969,7 @@
 
 .method protected addDataKindWebsite(Landroid/content/Context;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 6
+    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -2018,6 +2055,9 @@
 
 .method protected final parseEditSchema(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)V
     .locals 9
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
+    .param p3    # Landroid/util/AttributeSet;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/xmlpull/v1/XmlPullParserException;,

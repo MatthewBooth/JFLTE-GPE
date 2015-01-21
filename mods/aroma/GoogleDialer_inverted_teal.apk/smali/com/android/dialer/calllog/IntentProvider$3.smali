@@ -37,6 +37,7 @@
 # virtual methods
 .method public getIntent(Landroid/content/Context;)Landroid/content/Intent;
     .locals 4
+    .param p1    # Landroid/content/Context;
 
     new-instance v0, Landroid/content/Intent;
 

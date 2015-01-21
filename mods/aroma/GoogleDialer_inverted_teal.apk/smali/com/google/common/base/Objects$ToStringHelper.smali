@@ -23,6 +23,7 @@
 # direct methods
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -55,6 +56,8 @@
 
 .method synthetic constructor <init>(Ljava/lang/String;Lcom/google/common/base/Objects$1;)V
     .locals 0
+    .param p1    # Ljava/lang/String;
+    .param p2    # Lcom/google/common/base/Objects$1;
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Objects$ToStringHelper;-><init>(Ljava/lang/String;)V
 
@@ -63,6 +66,7 @@
 
 .method private checkNameAndAppend(Ljava/lang/String;)Ljava/lang/StringBuilder;
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -115,6 +119,8 @@
 # virtual methods
 .method public add(Ljava/lang/String;I)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # I
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Objects$ToStringHelper;->checkNameAndAppend(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -127,6 +133,8 @@
 
 .method public add(Ljava/lang/String;J)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 2
+    .param p1    # Ljava/lang/String;
+    .param p2    # J
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Objects$ToStringHelper;->checkNameAndAppend(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -139,6 +147,8 @@
 
 .method public add(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Object;
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Objects$ToStringHelper;->checkNameAndAppend(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -151,6 +161,8 @@
 
 .method public add(Ljava/lang/String;Z)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 1
+    .param p1    # Ljava/lang/String;
+    .param p2    # Z
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Objects$ToStringHelper;->checkNameAndAppend(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -163,6 +175,7 @@
 
 .method public addValue(Ljava/lang/Object;)Lcom/google/common/base/Objects$ToStringHelper;
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-direct {p0}, Lcom/google/common/base/Objects$ToStringHelper;->maybeAppendSeparator()Ljava/lang/StringBuilder;
 

@@ -191,6 +191,9 @@
 
 .method private static addMembersToGroup(Landroid/content/ContentResolver;[JJ)V
     .locals 14
+    .param p0    # Landroid/content/ContentResolver;
+    .param p1    # [J
+    .param p2    # J
 
     if-nez p1, :cond_1
 
@@ -392,6 +395,8 @@
 
 .method private buildJoinContactDiff(Ljava/util/ArrayList;JJ)V
     .locals 4
+    .param p2    # J
+    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -445,6 +450,7 @@
 
 .method private clearPrimary(Landroid/content/Intent;)V
     .locals 10
+    .param p1    # Landroid/content/Intent;
 
     const-wide/16 v8, -0x1
 
@@ -511,6 +517,8 @@
 
 .method public static createClearPrimaryIntent(Landroid/content/Context;J)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Landroid/content/Intent;
 
@@ -531,6 +539,8 @@
 
 .method public static createDeleteContactIntent(Landroid/content/Context;Landroid/net/Uri;)Landroid/content/Intent;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -551,6 +561,7 @@
 
 .method private createGroup(Landroid/content/Intent;)V
     .locals 12
+    .param p1    # Landroid/content/Intent;
 
     const-string v9, "accountType"
 
@@ -699,6 +710,8 @@
 
 .method public static createGroupDeletionIntent(Landroid/content/Context;J)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Landroid/content/Intent;
 
@@ -719,6 +732,12 @@
 
 .method public static createGroupUpdateIntent(Landroid/content/Context;JLjava/lang/String;[J[JLjava/lang/Class;Ljava/lang/String;)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
+    .param p3    # Ljava/lang/String;
+    .param p4    # [J
+    .param p5    # [J
+    .param p7    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -777,6 +796,11 @@
 
 .method public static createJoinContactsIntent(Landroid/content/Context;JJZLjava/lang/Class;Ljava/lang/String;)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
+    .param p3    # J
+    .param p5    # Z
+    .param p7    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -829,6 +853,11 @@
 
 .method public static createNewGroupIntent(Landroid/content/Context;Lcom/android/contacts/common/model/account/AccountWithDataSet;Ljava/lang/String;[JLjava/lang/Class;Ljava/lang/String;)Landroid/content/Intent;
     .locals 4
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p2    # Ljava/lang/String;
+    .param p3    # [J
+    .param p5    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -897,6 +926,9 @@
 
 .method public static createNewRawContactIntent(Landroid/content/Context;Ljava/util/ArrayList;Lcom/android/contacts/common/model/account/AccountWithDataSet;Ljava/lang/Class;Ljava/lang/String;)Landroid/content/Intent;
     .locals 4
+    .param p0    # Landroid/content/Context;
+    .param p2    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
+    .param p4    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -966,6 +998,7 @@
 
 .method private createRawContact(Landroid/content/Intent;)V
     .locals 17
+    .param p1    # Landroid/content/Intent;
 
     const-string v14, "accountName"
 
@@ -1140,6 +1173,14 @@
 
 .method public static createSaveContactIntent(Landroid/content/Context;Lcom/android/contacts/common/model/RawContactDeltaList;Ljava/lang/String;IZLjava/lang/Class;Ljava/lang/String;JLandroid/net/Uri;)Landroid/content/Intent;
     .locals 9
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # J
+    .param p9    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1194,6 +1235,13 @@
 
 .method public static createSaveContactIntent(Landroid/content/Context;Lcom/android/contacts/common/model/RawContactDeltaList;Ljava/lang/String;IZLjava/lang/Class;Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p2    # Ljava/lang/String;
+    .param p3    # I
+    .param p4    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1257,6 +1305,9 @@
 
 .method public static createSetRingtone(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
+    .param p2    # Ljava/lang/String;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1281,6 +1332,9 @@
 
 .method public static createSetSendToVoicemail(Landroid/content/Context;Landroid/net/Uri;Z)Landroid/content/Intent;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
+    .param p2    # Z
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1305,6 +1359,9 @@
 
 .method public static createSetStarredIntent(Landroid/content/Context;Landroid/net/Uri;Z)Landroid/content/Intent;
     .locals 2
+    .param p0    # Landroid/content/Context;
+    .param p1    # Landroid/net/Uri;
+    .param p2    # Z
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1329,6 +1386,8 @@
 
 .method public static createSetSuperPrimaryIntent(Landroid/content/Context;J)Landroid/content/Intent;
     .locals 3
+    .param p0    # Landroid/content/Context;
+    .param p1    # J
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1349,6 +1408,7 @@
 
 .method private deleteContact(Landroid/content/Intent;)V
     .locals 3
+    .param p1    # Landroid/content/Intent;
 
     const/4 v2, 0x0
 
@@ -1383,6 +1443,7 @@
 
 .method private deleteGroup(Landroid/content/Intent;)V
     .locals 8
+    .param p1    # Landroid/content/Intent;
 
     const-wide/16 v6, -0x1
 
@@ -1425,6 +1486,7 @@
 
 .method private deliverCallback(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/ContactSaveService;->mMainHandler:Landroid/os/Handler;
 
@@ -1439,6 +1501,7 @@
 
 .method private getInsertedRawContactId(Ljava/util/ArrayList;[Landroid/content/ContentProviderResult;)J
     .locals 6
+    .param p2    # [Landroid/content/ContentProviderResult;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1518,6 +1581,8 @@
 
 .method private getRawContactId(Lcom/android/contacts/common/model/RawContactDeltaList;Ljava/util/ArrayList;[Landroid/content/ContentProviderResult;)J
     .locals 4
+    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p3    # [Landroid/content/ContentProviderResult;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1554,6 +1619,7 @@
 
 .method private joinContacts(Landroid/content/Intent;)V
     .locals 30
+    .param p1    # Landroid/content/Intent;
 
     const-string v3, "contactId1"
 
@@ -1970,6 +2036,7 @@
 
 .method public static registerListener(Lcom/android/contacts/ContactSaveService$Listener;)V
     .locals 3
+    .param p0    # Lcom/android/contacts/ContactSaveService$Listener;
 
     instance-of v0, p0, Landroid/app/Activity;
 
@@ -2017,6 +2084,9 @@
 
 .method private static removeMembersFromGroup(Landroid/content/ContentResolver;[JJ)V
     .locals 10
+    .param p0    # Landroid/content/ContentResolver;
+    .param p1    # [J
+    .param p2    # J
 
     if-nez p1, :cond_1
 
@@ -2074,6 +2144,7 @@
 
 .method private renameGroup(Landroid/content/Intent;)V
     .locals 10
+    .param p1    # Landroid/content/Intent;
 
     const-wide/16 v8, -0x1
 
@@ -2142,6 +2213,7 @@
 
 .method private saveContact(Landroid/content/Intent;)V
     .locals 40
+    .param p1    # Landroid/content/Intent;
 
     const-string v5, "state"
 
@@ -2710,6 +2782,8 @@
 
 .method private saveUpdatedPhoto(JLandroid/net/Uri;)Z
     .locals 3
+    .param p1    # J
+    .param p3    # Landroid/net/Uri;
 
     sget-object v1, Landroid/provider/ContactsContract$RawContacts;->CONTENT_URI:Landroid/net/Uri;
 
@@ -2734,6 +2808,7 @@
 
 .method private setRingtone(Landroid/content/Intent;)V
     .locals 5
+    .param p1    # Landroid/content/Intent;
 
     const/4 v4, 0x0
 
@@ -2784,6 +2859,7 @@
 
 .method private setSendToVoicemail(Landroid/content/Intent;)V
     .locals 6
+    .param p1    # Landroid/content/Intent;
 
     const/4 v5, 0x0
 
@@ -2840,6 +2916,7 @@
 
 .method private setStarred(Landroid/content/Intent;)V
     .locals 11
+    .param p1    # Landroid/content/Intent;
 
     const/4 v4, 0x1
 
@@ -2961,6 +3038,7 @@
 
 .method private setSuperPrimary(Landroid/content/Intent;)V
     .locals 6
+    .param p1    # Landroid/content/Intent;
 
     const-wide/16 v4, -0x1
 
@@ -2991,6 +3069,7 @@
 
 .method private showToast(I)V
     .locals 2
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/ContactSaveService;->mMainHandler:Landroid/os/Handler;
 
@@ -3005,6 +3084,7 @@
 
 .method public static unregisterListener(Lcom/android/contacts/ContactSaveService$Listener;)V
     .locals 1
+    .param p0    # Lcom/android/contacts/ContactSaveService$Listener;
 
     sget-object v0, Lcom/android/contacts/ContactSaveService;->sListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -3015,6 +3095,7 @@
 
 .method private updateGroup(Landroid/content/Intent;)V
     .locals 14
+    .param p1    # Landroid/content/Intent;
 
     const-wide/16 v12, -0x1
 
@@ -3104,6 +3185,7 @@
 # virtual methods
 .method deliverCallbackOnUiThread(Landroid/content/Intent;)V
     .locals 4
+    .param p1    # Landroid/content/Intent;
 
     sget-object v2, Lcom/android/contacts/ContactSaveService;->sListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -3154,6 +3236,7 @@
 
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     invoke-super {p0, p1}, Landroid/app/IntentService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -3178,6 +3261,7 @@
 
 .method protected onHandleIntent(Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 

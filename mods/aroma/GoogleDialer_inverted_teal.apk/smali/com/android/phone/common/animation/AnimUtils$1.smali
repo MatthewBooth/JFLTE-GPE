@@ -37,6 +37,7 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 2
+    .param p1    # Landroid/animation/Animator;
 
     iget-object v0, p0, Lcom/android/phone/common/animation/AnimUtils$1;->val$fadeOut:Landroid/view/View;
 
@@ -64,6 +65,7 @@
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 2
+    .param p1    # Landroid/animation/Animator;
 
     iget-object v0, p0, Lcom/android/phone/common/animation/AnimUtils$1;->val$fadeOut:Landroid/view/View;
 

@@ -53,6 +53,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 2
+    .param p1    # Landroid/view/View;
 
     iget-object v1, p0, Lcom/android/contacts/list/ContactsUnavailableFragment;->mListener:Lcom/android/contacts/list/OnContactsUnavailableActionListener;
 
@@ -124,6 +125,7 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 0
+    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -132,6 +134,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const v0, 0x7f04001e
 
@@ -275,6 +280,8 @@
 
 .method public setMessageText(II)V
     .locals 6
+    .param p1    # I
+    .param p2    # I
 
     const/16 v1, 0x8
 
@@ -361,6 +368,7 @@
 
 .method public setOnContactsUnavailableActionListener(Lcom/android/contacts/list/OnContactsUnavailableActionListener;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/list/OnContactsUnavailableActionListener;
 
     iput-object p1, p0, Lcom/android/contacts/list/ContactsUnavailableFragment;->mListener:Lcom/android/contacts/list/OnContactsUnavailableActionListener;
 
@@ -369,6 +377,7 @@
 
 .method public updateStatus(Lcom/android/contacts/list/ProviderStatusWatcher$Status;)V
     .locals 7
+    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher$Status;
 
     const/4 v3, 0x1
 

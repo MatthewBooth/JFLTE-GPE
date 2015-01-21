@@ -21,6 +21,8 @@
 # direct methods
 .method public constructor <init>(II)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/common/model/account/AccountType$EditType;-><init>(II)V
 
@@ -39,6 +41,7 @@
 
 .method public setYearOptional(Z)Lcom/android/contacts/common/model/account/AccountType$EventEditType;
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/account/AccountType$EventEditType;->mYearOptional:Z
 

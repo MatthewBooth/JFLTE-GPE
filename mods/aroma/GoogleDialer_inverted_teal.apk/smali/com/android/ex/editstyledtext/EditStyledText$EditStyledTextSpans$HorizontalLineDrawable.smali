@@ -171,6 +171,7 @@
 
 .method private renewColor(I)V
     .locals 3
+    .param p1    # I
 
     sget-boolean v0, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$HorizontalLineDrawable;->DBG_HL:Z
 
@@ -212,6 +213,7 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 5
+    .param p1    # Landroid/graphics/Canvas;
 
     invoke-direct {p0}, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$HorizontalLineDrawable;->renewColor()V
 
@@ -238,6 +240,7 @@
 
 .method public renewBounds(I)V
     .locals 6
+    .param p1    # I
 
     const/4 v5, 0x0
 

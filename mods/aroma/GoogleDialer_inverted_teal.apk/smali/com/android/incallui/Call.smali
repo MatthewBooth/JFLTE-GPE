@@ -83,6 +83,7 @@
 
 .method public constructor <init>(Landroid/telecom/Call;)V
     .locals 3
+    .param p1    # Landroid/telecom/Call;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -147,6 +148,7 @@
 
 .method static synthetic access$000(Lcom/android/incallui/Call;)V
     .locals 0
+    .param p0    # Lcom/android/incallui/Call;
 
     invoke-direct {p0}, Lcom/android/incallui/Call;->update()V
 
@@ -155,6 +157,7 @@
 
 .method static synthetic access$100(Lcom/android/incallui/Call;)Landroid/telecom/Call$Listener;
     .locals 1
+    .param p0    # Lcom/android/incallui/Call;
 
     iget-object v0, p0, Lcom/android/incallui/Call;->mTelecommCallListener:Landroid/telecom/Call$Listener;
 
@@ -163,6 +166,8 @@
 
 .method public static areSame(Lcom/android/incallui/Call;Lcom/android/incallui/Call;)Z
     .locals 2
+    .param p0    # Lcom/android/incallui/Call;
+    .param p1    # Lcom/android/incallui/Call;
 
     if-nez p0, :cond_0
 
@@ -201,6 +206,7 @@
 
 .method private hasProperty(I)Z
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/Call;->mTelecommCall:Landroid/telecom/Call;
 
@@ -229,6 +235,7 @@
 
 .method private static translateState(I)I
     .locals 1
+    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -476,6 +483,7 @@
 # virtual methods
 .method public can(I)Z
     .locals 3
+    .param p1    # I
 
     const/4 v1, 0x0
 
@@ -902,6 +910,7 @@
 
 .method public isVideoCall(Landroid/content/Context;)Z
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Lcom/android/contacts/common/CallUtil;->isVideoEnabled(Landroid/content/Context;)Z
 
@@ -932,6 +941,7 @@
 
 .method public setDisconnectCause(Landroid/telecom/DisconnectCause;)V
     .locals 0
+    .param p1    # Landroid/telecom/DisconnectCause;
 
     iput-object p1, p0, Lcom/android/incallui/Call;->mDisconnectCause:Landroid/telecom/DisconnectCause;
 
@@ -940,6 +950,7 @@
 
 .method public setSessionModificationState(I)V
     .locals 2
+    .param p1    # I
 
     iget v1, p0, Lcom/android/incallui/Call;->mSessionModificationState:I
 
@@ -965,6 +976,7 @@
 
 .method public setState(I)V
     .locals 0
+    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/Call;->mState:I
 

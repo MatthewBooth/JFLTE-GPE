@@ -80,6 +80,24 @@
 
 .method constructor <init>(ILandroid/os/Bundle;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Lcom/google/android/gms/auth/firstparty/shared/AppDescription;Lcom/google/android/gms/auth/firstparty/shared/AccountCredentials;Lcom/google/android/gms/auth/firstparty/shared/CaptchaSolution;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Landroid/os/Bundle;
+    .param p3    # Z
+    .param p4    # Z
+    .param p5    # Z
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Ljava/lang/String;
+    .param p9    # Ljava/lang/String;
+    .param p10    # Z
+    .param p11    # Z
+    .param p12    # Z
+    .param p13    # Ljava/lang/String;
+    .param p14    # Lcom/google/android/gms/auth/firstparty/shared/AppDescription;
+    .param p15    # Lcom/google/android/gms/auth/firstparty/shared/AccountCredentials;
+    .param p16    # Lcom/google/android/gms/auth/firstparty/shared/CaptchaSolution;
+    .param p17    # Ljava/lang/String;
+    .param p18    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -142,6 +160,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/dataservice/r;->a(Lcom/google/android/gms/auth/firstparty/dataservice/GoogleAccountSetupRequest;Landroid/os/Parcel;I)V
 

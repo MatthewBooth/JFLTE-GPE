@@ -41,6 +41,8 @@
 
 .method constructor <init>(IZLjava/util/List;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IZ",
@@ -101,6 +103,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/location/places/AutocompleteFilter;->CREATOR:Lcom/google/android/gms/location/places/a;
 

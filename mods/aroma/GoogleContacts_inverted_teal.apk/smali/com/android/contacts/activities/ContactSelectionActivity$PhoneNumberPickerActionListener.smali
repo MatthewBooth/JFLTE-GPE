@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/ContactSelectionActivity;Lcom/android/contacts/activities/ContactSelectionActivity$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/activities/ContactSelectionActivity;
+    .param p2    # Lcom/android/contacts/activities/ContactSelectionActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ContactSelectionActivity$PhoneNumberPickerActionListener;-><init>(Lcom/android/contacts/activities/ContactSelectionActivity;)V
 
@@ -44,6 +46,7 @@
 # virtual methods
 .method public onCallNumberDirectly(Ljava/lang/String;)V
     .locals 2
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "ContactSelectionActivity"
 
@@ -66,6 +69,7 @@
 
 .method public onPickPhoneNumberAction(Landroid/net/Uri;)V
     .locals 1
+    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity$PhoneNumberPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 
@@ -76,6 +80,7 @@
 
 .method public onShortcutIntentCreated(Landroid/content/Intent;)V
     .locals 1
+    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity$PhoneNumberPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 

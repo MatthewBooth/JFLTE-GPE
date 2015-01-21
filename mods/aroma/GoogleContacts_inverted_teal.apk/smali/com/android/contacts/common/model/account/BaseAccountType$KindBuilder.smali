@@ -25,6 +25,7 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/model/account/BaseAccountType$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/common/model/account/BaseAccountType$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/account/BaseAccountType$KindBuilder;-><init>()V
 
@@ -33,6 +34,9 @@
 
 .method private parseTypeTag(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Lcom/android/contacts/common/model/dataitem/DataKind;)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 5
+    .param p1    # Lorg/xmlpull/v1/XmlPullParser;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -111,6 +115,11 @@
 
 .method private parseTypes(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Lcom/android/contacts/common/model/dataitem/DataKind;Z)V
     .locals 7
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
+    .param p3    # Landroid/util/AttributeSet;
+    .param p4    # Lcom/android/contacts/common/model/dataitem/DataKind;
+    .param p5    # Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;,
@@ -246,6 +255,8 @@
 # virtual methods
 .method protected buildEditTypeForTypeTag(Landroid/util/AttributeSet;Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 1
+    .param p1    # Landroid/util/AttributeSet;
+    .param p2    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -257,6 +268,16 @@
 
 .method protected final newDataKind(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;ZLjava/lang/String;Ljava/lang/String;IILcom/android/contacts/common/model/account/AccountType$StringInflater;Lcom/android/contacts/common/model/account/AccountType$StringInflater;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 7
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
+    .param p3    # Landroid/util/AttributeSet;
+    .param p4    # Z
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # I
+    .param p8    # I
+    .param p9    # Lcom/android/contacts/common/model/account/AccountType$StringInflater;
+    .param p10    # Lcom/android/contacts/common/model/account/AccountType$StringInflater;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;,
@@ -438,6 +459,7 @@
 
 .method protected final throwIfList(Lcom/android/contacts/common/model/dataitem/DataKind;)V
     .locals 3
+    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;

@@ -29,6 +29,10 @@
 # direct methods
 .method private constructor <init>(Lcom/android/contacts/activities/PhotoSelectionActivity;Landroid/content/Context;Landroid/view/View;ILcom/android/contacts/common/model/RawContactDeltaList;)V
     .locals 6
+    .param p2    # Landroid/content/Context;
+    .param p3    # Landroid/view/View;
+    .param p4    # I
+    .param p5    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     iput-object p1, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;->this$0:Lcom/android/contacts/activities/PhotoSelectionActivity;
 
@@ -62,6 +66,12 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/PhotoSelectionActivity;Landroid/content/Context;Landroid/view/View;ILcom/android/contacts/common/model/RawContactDeltaList;Lcom/android/contacts/activities/PhotoSelectionActivity$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/activities/PhotoSelectionActivity;
+    .param p2    # Landroid/content/Context;
+    .param p3    # Landroid/view/View;
+    .param p4    # I
+    .param p5    # Lcom/android/contacts/common/model/RawContactDeltaList;
+    .param p6    # Lcom/android/contacts/activities/PhotoSelectionActivity$1;
 
     invoke-direct/range {p0 .. p5}, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;-><init>(Lcom/android/contacts/activities/PhotoSelectionActivity;Landroid/content/Context;Landroid/view/View;ILcom/android/contacts/common/model/RawContactDeltaList;)V
 
@@ -70,6 +80,7 @@
 
 .method static synthetic access$1600(Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;)J
     .locals 2
+    .param p0    # Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;
 
     invoke-virtual {p0}, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;->getWritableEntityId()J
 
@@ -80,6 +91,7 @@
 
 .method static synthetic access$1700(Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;)Landroid/content/Context;
     .locals 1
+    .param p0    # Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;->mContext:Landroid/content/Context;
 
@@ -98,6 +110,9 @@
 
 .method public startPhotoActivity(Landroid/content/Intent;ILandroid/net/Uri;)V
     .locals 2
+    .param p1    # Landroid/content/Intent;
+    .param p2    # I
+    .param p3    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;->this$0:Lcom/android/contacts/activities/PhotoSelectionActivity;
 

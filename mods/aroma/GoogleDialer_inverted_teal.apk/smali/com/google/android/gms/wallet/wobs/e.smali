@@ -76,6 +76,7 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/wobs/e;->hv(Landroid/os/Parcel;)Lcom/google/android/gms/wallet/wobs/LoyaltyPoints;
 
@@ -227,6 +228,7 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wallet/wobs/e;->jV(I)[Lcom/google/android/gms/wallet/wobs/LoyaltyPoints;
 

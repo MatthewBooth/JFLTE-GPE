@@ -68,6 +68,7 @@
 
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/common/collect/Table$Cell;
 

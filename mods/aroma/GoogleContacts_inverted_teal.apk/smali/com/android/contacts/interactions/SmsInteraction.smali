@@ -29,6 +29,7 @@
 
 .method public constructor <init>(Landroid/content/ContentValues;)V
     .locals 0
+    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,6 +86,7 @@
 
 .method public getBodyIcon(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -93,6 +95,7 @@
 
 .method public getContentDescription(Landroid/content/Context;)Ljava/lang/String;
     .locals 5
+    .param p1    # Landroid/content/Context;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -175,6 +178,7 @@
 
 .method public getFooterIcon(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -183,6 +187,7 @@
 
 .method public getIcon(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -293,6 +298,7 @@
 
 .method public getViewBody(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0}, Lcom/android/contacts/interactions/SmsInteraction;->getAddress()Ljava/lang/String;
 
@@ -303,6 +309,7 @@
 
 .method public getViewFooter(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0}, Lcom/android/contacts/interactions/SmsInteraction;->getDate()Ljava/lang/Long;
 
@@ -329,6 +336,7 @@
 
 .method public getViewHeader(Landroid/content/Context;)Ljava/lang/String;
     .locals 5
+    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0}, Lcom/android/contacts/interactions/SmsInteraction;->getBody()Ljava/lang/String;
 

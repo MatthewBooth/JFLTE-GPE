@@ -65,6 +65,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/dialer/list/ListsFragment;Lcom/android/dialer/calllog/CallLogAdapter;)V
     .locals 4
+    .param p1    # Landroid/content/Context;
+    .param p2    # Lcom/android/dialer/list/ListsFragment;
+    .param p3    # Lcom/android/dialer/calllog/CallLogAdapter;
 
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
@@ -187,6 +190,7 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/ShortcutCardsAdapter;)Lcom/android/dialer/calllog/CallLogQueryHandler;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogQueryHandler:Lcom/android/dialer/calllog/CallLogQueryHandler;
 
@@ -195,6 +199,7 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/ShortcutCardsAdapter;)Landroid/content/Context;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mContext:Landroid/content/Context;
 
@@ -203,6 +208,7 @@
 
 .method static synthetic access$1000(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogPaddingTop:I
 
@@ -211,6 +217,7 @@
 
 .method static synthetic access$1100(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogPaddingBottom:I
 
@@ -219,6 +226,7 @@
 
 .method static synthetic access$1200(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mShortCardBackgroundColor:I
 
@@ -227,6 +235,7 @@
 
 .method static synthetic access$200(Lcom/android/dialer/list/ShortcutCardsAdapter;)Lcom/android/dialer/list/ListsFragment;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mFragment:Lcom/android/dialer/list/ListsFragment;
 
@@ -235,6 +244,7 @@
 
 .method static synthetic access$300(Lcom/android/dialer/list/ShortcutCardsAdapter;)Lcom/android/dialer/calllog/CallLogAdapter;
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogAdapter:Lcom/android/dialer/calllog/CallLogAdapter;
 
@@ -243,6 +253,7 @@
 
 .method static synthetic access$600(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogMarginHorizontal:I
 
@@ -251,6 +262,7 @@
 
 .method static synthetic access$700(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogMarginTop:I
 
@@ -259,6 +271,7 @@
 
 .method static synthetic access$800(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogMarginBottom:I
 
@@ -267,6 +280,7 @@
 
 .method static synthetic access$900(Lcom/android/dialer/list/ShortcutCardsAdapter;)I
     .locals 1
+    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter;
 
     iget v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogPaddingStart:I
 
@@ -301,6 +315,7 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogAdapter:Lcom/android/dialer/calllog/CallLogAdapter;
 
@@ -313,6 +328,7 @@
 
 .method public getItemId(I)J
     .locals 2
+    .param p1    # I
 
     int-to-long v0, p1
 
@@ -321,6 +337,7 @@
 
 .method public getItemViewType(I)I
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogAdapter:Lcom/android/dialer/calllog/CallLogAdapter;
 
@@ -333,6 +350,9 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 4
+    .param p1    # I
+    .param p2    # Landroid/view/View;
+    .param p3    # Landroid/view/ViewGroup;
 
     if-nez p2, :cond_0
 
@@ -406,6 +426,7 @@
 
 .method public isEnabled(I)Z
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter;->mCallLogAdapter:Lcom/android/dialer/calllog/CallLogAdapter;
 

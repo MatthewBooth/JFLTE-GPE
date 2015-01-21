@@ -14,6 +14,8 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/net/Uri;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,6 +63,7 @@
 
 .method public setAsSourceFor(Landroid/media/MediaPlayer;)V
     .locals 2
+    .param p1    # Landroid/media/MediaPlayer;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

@@ -93,6 +93,31 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;Landroid/net/Uri;ZZLjava/lang/String;IIIZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;)V
     .locals 1
+    .param p1    # I
+    .param p2    # Ljava/lang/String;
+    .param p3    # Ljava/lang/String;
+    .param p4    # Ljava/lang/String;
+    .param p5    # Ljava/lang/String;
+    .param p6    # Ljava/lang/String;
+    .param p7    # Ljava/lang/String;
+    .param p8    # Landroid/net/Uri;
+    .param p9    # Landroid/net/Uri;
+    .param p10    # Landroid/net/Uri;
+    .param p11    # Z
+    .param p12    # Z
+    .param p13    # Ljava/lang/String;
+    .param p14    # I
+    .param p15    # I
+    .param p16    # I
+    .param p17    # Z
+    .param p18    # Z
+    .param p19    # Ljava/lang/String;
+    .param p20    # Ljava/lang/String;
+    .param p21    # Ljava/lang/String;
+    .param p22    # Z
+    .param p23    # Z
+    .param p24    # Z
+    .param p25    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -173,6 +198,7 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/Game;)V
     .locals 1
+    .param p1    # Lcom/google/android/gms/games/Game;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -1263,6 +1289,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/GameEntity;->a(Lcom/google/android/gms/games/Game;Ljava/lang/Object;)Z
 
@@ -1501,6 +1528,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     const/4 v2, 0x1
 

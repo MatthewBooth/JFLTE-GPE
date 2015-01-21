@@ -27,6 +27,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 2
+    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/google/android/dialer/settings/LocalSearchSettingsFragment;->mButton:Landroid/view/View;
 
@@ -46,6 +47,9 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 8
+    .param p1    # Landroid/view/LayoutInflater;
+    .param p2    # Landroid/view/ViewGroup;
+    .param p3    # Landroid/os/Bundle;
 
     const/4 v7, 0x0
 

@@ -34,6 +34,8 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/ContactSelectionActivity;Lcom/android/contacts/activities/ContactSelectionActivity$1;)V
     .locals 0
+    .param p1    # Lcom/android/contacts/activities/ContactSelectionActivity;
+    .param p2    # Lcom/android/contacts/activities/ContactSelectionActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ContactSelectionActivity$JoinContactActionListener;-><init>(Lcom/android/contacts/activities/ContactSelectionActivity;)V
 
@@ -50,12 +52,14 @@
 
 .method public onEditContactAction(Landroid/net/Uri;)V
     .locals 0
+    .param p1    # Landroid/net/Uri;
 
     return-void
 .end method
 
 .method public onPickContactAction(Landroid/net/Uri;)V
     .locals 3
+    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -78,6 +82,7 @@
 
 .method public onShortcutIntentCreated(Landroid/content/Intent;)V
     .locals 0
+    .param p1    # Landroid/content/Intent;
 
     return-void
 .end method

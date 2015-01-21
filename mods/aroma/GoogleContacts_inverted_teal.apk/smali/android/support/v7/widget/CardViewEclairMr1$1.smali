@@ -36,6 +36,10 @@
 # virtual methods
 .method public drawRoundRect(Landroid/graphics/Canvas;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
     .locals 9
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Landroid/graphics/RectF;
+    .param p3    # F
+    .param p4    # Landroid/graphics/Paint;
 
     const/high16 v0, 0x40000000
 

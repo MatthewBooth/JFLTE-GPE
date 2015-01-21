@@ -60,6 +60,7 @@
 
 .method public static getContactLookupUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheContract;->CONTACT_URI:Landroid/net/Uri;
 
@@ -80,6 +81,7 @@
 
 .method public static getPhotoLookupUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheContract;->PHOTO_URI:Landroid/net/Uri;
 
@@ -100,6 +102,7 @@
 
 .method public static getThumbnailLookupUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 1
+    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheContract;->THUMBNAIL_URI:Landroid/net/Uri;
 

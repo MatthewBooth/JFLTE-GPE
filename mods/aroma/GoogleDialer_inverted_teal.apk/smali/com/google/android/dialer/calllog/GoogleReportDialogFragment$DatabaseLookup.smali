@@ -42,6 +42,8 @@
 
 .method synthetic constructor <init>(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;Lcom/google/android/dialer/calllog/GoogleReportDialogFragment$1;)V
     .locals 0
+    .param p1    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
+    .param p2    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment$1;
 
     invoke-direct {p0, p1}, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment$DatabaseLookup;-><init>(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)V
 
@@ -52,6 +54,7 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
     .locals 4
+    .param p1    # [Ljava/lang/Void;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment$DatabaseLookup;->this$0:Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
@@ -92,6 +95,7 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -104,6 +108,7 @@
 
 .method protected onPostExecute(Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;)V
     .locals 3
+    .param p1    # Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
     const/4 v2, 0x0
 
@@ -185,6 +190,7 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 

@@ -38,6 +38,8 @@
 
 .method public static d(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     sget-boolean v0, Lcom/android/incallui/Log;->DEBUG:Z
 
@@ -73,6 +75,9 @@
 
 .method public static d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Object;
 
     sget-boolean v0, Lcom/android/incallui/Log;->DEBUG:Z
 
@@ -112,6 +117,8 @@
 
 .method public static d(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
 
     sget-boolean v0, Lcom/android/incallui/Log;->DEBUG:Z
 
@@ -147,6 +154,7 @@
 
 .method private static delimit(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
+    .param p0    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -171,6 +179,8 @@
 
 .method public static e(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 
@@ -201,6 +211,9 @@
 
 .method public static e(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Exception;
 
     const-string v0, "InCall"
 
@@ -231,6 +244,8 @@
 
 .method public static e(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 
@@ -261,6 +276,9 @@
 
 .method public static e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 3
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Exception;
 
     const-string v0, "InCall"
 
@@ -291,6 +309,7 @@
 
 .method private static encodeHex([B)Ljava/lang/String;
     .locals 5
+    .param p0    # [B
 
     const/16 v4, 0x10
 
@@ -340,6 +359,7 @@
 
 .method private static getPrefix(Ljava/lang/Object;)Ljava/lang/String;
     .locals 2
+    .param p0    # Ljava/lang/Object;
 
     if-nez p0, :cond_0
 
@@ -380,6 +400,8 @@
 
 .method public static i(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 
@@ -410,6 +432,8 @@
 
 .method public static i(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/String;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 
@@ -440,6 +464,7 @@
 
 .method public static pii(Ljava/lang/Object;)Ljava/lang/String;
     .locals 2
+    .param p0    # Ljava/lang/Object;
 
     if-eqz p0, :cond_0
 
@@ -497,6 +522,7 @@
 
 .method private static secureHash([B)Ljava/lang/String;
     .locals 4
+    .param p0    # [B
 
     :try_start_0
     const-string v3, "SHA-1"
@@ -530,6 +556,8 @@
 
 .method public static v(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     sget-boolean v0, Lcom/android/incallui/Log;->VERBOSE:Z
 
@@ -565,6 +593,9 @@
 
 .method public static v(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
+    .param p2    # Ljava/lang/Object;
 
     sget-boolean v0, Lcom/android/incallui/Log;->VERBOSE:Z
 
@@ -604,6 +635,8 @@
 
 .method public static w(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 
@@ -634,6 +667,8 @@
 
 .method public static wtf(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 3
+    .param p0    # Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
 
     const-string v0, "InCall"
 

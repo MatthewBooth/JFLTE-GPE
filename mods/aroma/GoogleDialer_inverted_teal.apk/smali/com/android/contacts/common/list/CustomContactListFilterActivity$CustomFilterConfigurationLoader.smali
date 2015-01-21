@@ -30,6 +30,7 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
+    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -40,6 +41,7 @@
 # virtual methods
 .method public deliverResult(Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;)V
     .locals 1
+    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/CustomContactListFilterActivity$CustomFilterConfigurationLoader;->isReset()Z
 
@@ -67,6 +69,7 @@
 
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
+    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 

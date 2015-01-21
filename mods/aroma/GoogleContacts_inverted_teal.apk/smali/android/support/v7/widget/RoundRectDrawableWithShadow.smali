@@ -72,6 +72,11 @@
 
 .method constructor <init>(Landroid/content/res/Resources;IFFF)V
     .locals 3
+    .param p1    # Landroid/content/res/Resources;
+    .param p2    # I
+    .param p3    # F
+    .param p4    # F
+    .param p5    # F
 
     const/4 v1, 0x5
 
@@ -160,6 +165,7 @@
 
 .method private buildComponents(Landroid/graphics/Rect;)V
     .locals 6
+    .param p1    # Landroid/graphics/Rect;
 
     iget v1, p0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->mMaxShadowSize:F
 
@@ -449,6 +455,9 @@
 
 .method static calculateHorizontalPadding(FFZ)F
     .locals 6
+    .param p0    # F
+    .param p1    # F
+    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -474,6 +483,9 @@
 
 .method static calculateVerticalPadding(FFZ)F
     .locals 6
+    .param p0    # F
+    .param p1    # F
+    .param p2    # Z
 
     const/high16 v0, 0x3fc00000
 
@@ -508,6 +520,7 @@
 
 .method private drawShadow(Landroid/graphics/Canvas;)V
     .locals 11
+    .param p1    # Landroid/graphics/Canvas;
 
     const/4 v0, 0x1
 
@@ -800,6 +813,7 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 4
+    .param p1    # Landroid/graphics/Canvas;
 
     const/high16 v2, 0x40000000
 
@@ -851,6 +865,7 @@
 
 .method getMaxShadowAndCornerPadding(Landroid/graphics/Rect;)V
     .locals 0
+    .param p1    # Landroid/graphics/Rect;
 
     invoke-virtual {p0, p1}, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->getPadding(Landroid/graphics/Rect;)Z
 
@@ -949,6 +964,7 @@
 
 .method public getPadding(Landroid/graphics/Rect;)Z
     .locals 5
+    .param p1    # Landroid/graphics/Rect;
 
     iget v2, p0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->mRawMaxShadowSize:F
 
@@ -995,6 +1011,7 @@
 
 .method protected onBoundsChange(Landroid/graphics/Rect;)V
     .locals 1
+    .param p1    # Landroid/graphics/Rect;
 
     invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
 
@@ -1007,6 +1024,7 @@
 
 .method public setAddPaddingForCorners(Z)V
     .locals 0
+    .param p1    # Z
 
     iput-boolean p1, p0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->mAddPaddingForCorners:Z
 
@@ -1017,6 +1035,7 @@
 
 .method public setAlpha(I)V
     .locals 1
+    .param p1    # I
 
     iget-object v0, p0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->mPaint:Landroid/graphics/Paint;
 
@@ -1035,6 +1054,7 @@
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 1
+    .param p1    # Landroid/graphics/ColorFilter;
 
     iget-object v0, p0, Landroid/support/v7/widget/RoundRectDrawableWithShadow;->mPaint:Landroid/graphics/Paint;
 
@@ -1053,6 +1073,8 @@
 
 .method setShadowSize(FF)V
     .locals 3
+    .param p1    # F
+    .param p2    # F
 
     const/4 v2, 0x1
 

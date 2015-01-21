@@ -40,6 +40,8 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
+    .param p1    # Landroid/content/DialogInterface;
+    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/interactions/ContactDeletionInteraction$1;->this$0:Lcom/android/contacts/interactions/ContactDeletionInteraction;
 

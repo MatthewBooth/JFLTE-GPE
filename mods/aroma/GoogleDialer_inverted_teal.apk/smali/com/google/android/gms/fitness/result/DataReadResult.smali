@@ -85,6 +85,9 @@
 
 .method constructor <init>(ILjava/util/List;Lcom/google/android/gms/common/api/Status;Ljava/util/List;ILjava/util/List;Ljava/util/List;)V
     .locals 4
+    .param p1    # I
+    .param p3    # Lcom/google/android/gms/common/api/Status;
+    .param p5    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -255,6 +258,7 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
+    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -600,6 +604,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/result/b;->a(Lcom/google/android/gms/fitness/result/DataReadResult;Landroid/os/Parcel;I)V
 

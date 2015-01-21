@@ -53,6 +53,8 @@
 
 .method constructor <init>(IZ)V
     .locals 0
+    .param p1    # I
+    .param p2    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -77,6 +79,8 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
+    .param p1    # Landroid/os/Parcel;
+    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/search/global/GetGlobalSearchSourcesCall$Request;->CREATOR:Lcom/google/android/gms/search/global/e;
 
