@@ -82,16 +82,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/maps/model/StreetViewPanoramaCamera;Ljava/lang/String;Lcom/google/android/gms/maps/model/LatLng;Ljava/lang/Integer;BBBBB)V
     .locals 2
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/maps/model/StreetViewPanoramaCamera;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Lcom/google/android/gms/maps/model/LatLng;
-    .param p5    # Ljava/lang/Integer;
-    .param p6    # B
-    .param p7    # B
-    .param p8    # B
-    .param p9    # B
-    .param p10    # B
 
     const/4 v1, 0x1
 
@@ -276,8 +266,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/maps/c;->a(Lcom/google/android/gms/maps/StreetViewPanoramaOptions;Landroid/os/Parcel;I)V
 

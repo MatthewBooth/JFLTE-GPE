@@ -374,7 +374,6 @@
 
 .method public static buildContactAddressRow(Lorg/json/JSONObject;)Lorg/json/JSONObject;
     .locals 8
-    .param p0    # Lorg/json/JSONObject;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -448,7 +447,6 @@
 
 .method private static buildUrlJsonRecord(Ljava/lang/String;)Lorg/json/JSONObject;
     .locals 2
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -468,8 +466,6 @@
 
 .method public static findPhoneObject(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
     .locals 6
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -533,8 +529,6 @@
 
 .method public static getArrayItem(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
     .locals 2
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -571,8 +565,6 @@
 
 .method public static getArrayOfStrings(Lorg/json/JSONObject;Ljava/lang/String;)[Ljava/lang/String;
     .locals 4
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -626,8 +618,6 @@
 
 .method private static getFirstImageUrl(Lorg/json/JSONObject;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -724,7 +714,6 @@
 
 .method private static getRemappedDataObject(Lorg/json/JSONObject;Ljava/util/Map;)Lorg/json/JSONObject;
     .locals 5
-    .param p0    # Lorg/json/JSONObject;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -791,7 +780,6 @@
 
 .method private static getUrls(Lorg/json/JSONObject;)[Ljava/lang/String;
     .locals 5
-    .param p0    # Lorg/json/JSONObject;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -846,8 +834,6 @@
 
 .method private static handleMalformedJsonError(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/android/dialer/reverselookup/PeopleJsonParser;->TAG:Ljava/lang/String;
 
@@ -880,9 +866,6 @@
 
 .method private static handleMalformedJsonError(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 3
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/Exception;
 
     sget-object v0, Lcom/google/android/dialer/reverselookup/PeopleJsonParser;->TAG:Ljava/lang/String;
 
@@ -915,7 +898,6 @@
 
 .method private static isPersonItem(Lorg/json/JSONObject;)Z
     .locals 4
-    .param p0    # Lorg/json/JSONObject;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -954,8 +936,6 @@
 
 .method public static parseAddressType(Ljava/lang/String;Ljava/lang/String;)Landroid/util/Pair;
     .locals 3
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1013,10 +993,6 @@
 
 .method private static parseContactJson(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/dialer/reverselookup/PhoneNumberInfoImpl;
     .locals 24
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;
@@ -1319,10 +1295,6 @@
 
 .method public static parsePeopleJson(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/dialer/reverselookup/PhoneNumberInfoImpl;
     .locals 7
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1400,8 +1372,6 @@
 
 .method public static parsePhoneType(Ljava/lang/String;Ljava/lang/String;)Landroid/util/Pair;
     .locals 3
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1447,8 +1417,6 @@
 
 .method private static populateUrlData(Lorg/json/JSONObject;[Ljava/lang/String;)V
     .locals 6
-    .param p0    # Lorg/json/JSONObject;
-    .param p1    # [Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lorg/json/JSONException;

@@ -80,7 +80,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/list/ContactTileListFragment;)Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment;->mDisplayType:Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;
 
@@ -97,7 +96,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/list/ContactTileListFragment;)Lcom/android/contacts/common/list/ContactTileAdapter;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment;->mAdapter:Lcom/android/contacts/common/list/ContactTileAdapter;
 
@@ -106,7 +104,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/list/ContactTileListFragment;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ContactTileListFragment;->getEmptyStateText()Ljava/lang/String;
 
@@ -117,7 +114,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/list/ContactTileListFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment;->mEmptyView:Landroid/widget/TextView;
 
@@ -126,7 +122,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/list/ContactTileListFragment;)Landroid/widget/ListView;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment;->mListView:Landroid/widget/ListView;
 
@@ -135,7 +130,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/list/ContactTileListFragment;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ContactTileListFragment;->invalidateOptionsMenuIfNeeded()V
 
@@ -144,7 +138,6 @@
 
 .method static synthetic access$700(Lcom/android/contacts/list/ContactTileListFragment;)Lcom/android/contacts/list/ContactTileListFragment$Listener;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ContactTileListFragment;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment;->mListener:Lcom/android/contacts/list/ContactTileListFragment$Listener;
 
@@ -301,10 +294,6 @@
 
 .method protected inflateAndSetupView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;I)Landroid/view/View;
     .locals 3
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
-    .param p4    # I
 
     const/4 v1, 0x0
 
@@ -357,7 +346,6 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 5
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
@@ -394,9 +382,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     const v0, 0x7f04001a
 
@@ -409,7 +394,6 @@
 
 .method public onHiddenChanged(Z)V
     .locals 3
-    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onHiddenChanged(Z)V
 
@@ -509,7 +493,6 @@
 
 .method public setDisplayType(Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;
 
     iput-object p1, p0, Lcom/android/contacts/list/ContactTileListFragment;->mDisplayType:Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;
 
@@ -524,7 +507,6 @@
 
 .method public setListener(Lcom/android/contacts/list/ContactTileListFragment$Listener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/ContactTileListFragment$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/list/ContactTileListFragment;->mListener:Lcom/android/contacts/list/ContactTileListFragment$Listener;
 

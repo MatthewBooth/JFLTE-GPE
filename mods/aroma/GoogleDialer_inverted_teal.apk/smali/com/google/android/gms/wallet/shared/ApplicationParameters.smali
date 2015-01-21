@@ -69,12 +69,6 @@
 
 .method constructor <init>(IILandroid/accounts/Account;Landroid/os/Bundle;ZI)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/accounts/Account;
-    .param p4    # Landroid/os/Bundle;
-    .param p5    # Z
-    .param p6    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -109,8 +103,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/shared/a;->a(Lcom/google/android/gms/wallet/shared/ApplicationParameters;Landroid/os/Parcel;I)V
 

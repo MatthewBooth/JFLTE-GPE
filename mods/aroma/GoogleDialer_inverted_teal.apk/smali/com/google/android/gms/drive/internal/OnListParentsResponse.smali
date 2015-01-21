@@ -39,8 +39,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/common/data/DataHolder;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-direct {p0}, Lcom/google/android/gms/drive/g;-><init>()V
 

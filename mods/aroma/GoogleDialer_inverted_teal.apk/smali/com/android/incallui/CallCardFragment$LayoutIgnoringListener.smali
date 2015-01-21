@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/CallCardFragment;Lcom/android/incallui/CallCardFragment$1;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/CallCardFragment;
-    .param p2    # Lcom/android/incallui/CallCardFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallCardFragment$LayoutIgnoringListener;-><init>(Lcom/android/incallui/CallCardFragment;)V
 
@@ -46,15 +44,6 @@
 # virtual methods
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
-    .param p6    # I
-    .param p7    # I
-    .param p8    # I
-    .param p9    # I
 
     invoke-virtual {p1, p6}, Landroid/view/View;->setLeft(I)V
 

@@ -40,8 +40,6 @@
 
 .method public static buildCallerInfo(Landroid/content/Context;Lcom/android/incallui/Call;)Lcom/android/incallui/CallerInfo;
     .locals 5
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/incallui/Call;
 
     const/4 v4, 0x1
 
@@ -139,9 +137,6 @@
 
 .method public static getCallerInfoForCall(Landroid/content/Context;Lcom/android/incallui/Call;Lcom/android/incallui/CallerInfoAsyncQuery$OnQueryCompleteListener;)Lcom/android/incallui/CallerInfo;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Lcom/android/incallui/CallerInfoAsyncQuery$OnQueryCompleteListener;
 
     invoke-static {p0, p1}, Lcom/android/incallui/CallerInfoUtils;->buildCallerInfo(Landroid/content/Context;Lcom/android/incallui/Call;)Lcom/android/incallui/CallerInfo;
 
@@ -169,7 +164,6 @@
 
 .method private static isCnapSpecialCaseRestricted(Ljava/lang/String;)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-string v0, "PRIVATE"
 
@@ -209,7 +203,6 @@
 
 .method private static isCnapSpecialCaseUnknown(Ljava/lang/String;)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-string v0, "UNAVAILABLE"
 
@@ -257,10 +250,6 @@
 
 .method static modifyForSpecialCnapCases(Landroid/content/Context;Lcom/android/incallui/CallerInfo;Ljava/lang/String;I)Ljava/lang/String;
     .locals 8
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/incallui/CallerInfo;
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
 
     const v7, 0x7f080142
 
@@ -470,8 +459,6 @@
 
 .method public static sendViewNotification(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Lcom/android/contacts/common/model/ContactLoader;
 
@@ -494,7 +481,6 @@
 
 .method static toLogSafePhoneNumber(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
-    .param p0    # Ljava/lang/String;
 
     if-nez p0, :cond_0
 

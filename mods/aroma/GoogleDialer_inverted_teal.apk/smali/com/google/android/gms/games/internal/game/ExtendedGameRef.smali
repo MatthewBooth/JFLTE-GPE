@@ -24,7 +24,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/internal/game/ExtendedGameEntity;->a(Lcom/google/android/gms/games/internal/game/ExtendedGame;Ljava/lang/Object;)Z
 
@@ -264,8 +263,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/internal/game/ExtendedGameRef;->ly()Lcom/google/android/gms/games/internal/game/ExtendedGame;
 

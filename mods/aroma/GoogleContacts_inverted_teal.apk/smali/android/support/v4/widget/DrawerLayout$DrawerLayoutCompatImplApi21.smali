@@ -30,9 +30,6 @@
 # virtual methods
 .method public applyMarginInsets(Landroid/view/ViewGroup$MarginLayoutParams;Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # Landroid/view/ViewGroup$MarginLayoutParams;
-    .param p2    # Ljava/lang/Object;
-    .param p3    # I
 
     invoke-static {p1, p2, p3}, Landroid/support/v4/widget/DrawerLayoutCompatApi21;->applyMarginInsets(Landroid/view/ViewGroup$MarginLayoutParams;Ljava/lang/Object;I)V
 
@@ -41,9 +38,6 @@
 
 .method public dispatchChildInsets(Landroid/view/View;Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # Ljava/lang/Object;
-    .param p3    # I
 
     invoke-static {p1, p2, p3}, Landroid/support/v4/widget/DrawerLayoutCompatApi21;->dispatchChildInsets(Landroid/view/View;Ljava/lang/Object;I)V
 
@@ -52,7 +46,6 @@
 
 .method public getTopInset(Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p1}, Landroid/support/v4/widget/DrawerLayoutCompatApi21;->getTopInset(Ljava/lang/Object;)I
 

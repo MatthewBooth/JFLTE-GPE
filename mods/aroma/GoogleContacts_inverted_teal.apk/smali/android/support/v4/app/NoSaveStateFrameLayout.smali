@@ -6,7 +6,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
@@ -15,7 +14,6 @@
 
 .method static wrap(Landroid/view/View;)Landroid/view/ViewGroup;
     .locals 5
-    .param p0    # Landroid/view/View;
 
     const/4 v4, -0x1
 

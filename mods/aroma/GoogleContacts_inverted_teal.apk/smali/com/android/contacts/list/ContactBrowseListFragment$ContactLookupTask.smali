@@ -36,7 +36,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/list/ContactBrowseListFragment;Landroid/net/Uri;)V
     .locals 0
-    .param p2    # Landroid/net/Uri;
 
     iput-object p1, p0, Lcom/android/contacts/list/ContactBrowseListFragment$ContactLookupTask;->this$0:Lcom/android/contacts/list/ContactBrowseListFragment;
 
@@ -63,7 +62,6 @@
 
 .method protected varargs doInBackground([Ljava/lang/Void;)Landroid/net/Uri;
     .locals 11
-    .param p1    # [Ljava/lang/Void;
 
     const/4 v10, 0x0
 
@@ -208,7 +206,6 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -221,7 +218,6 @@
 
 .method protected onPostExecute(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-boolean v0, p0, Lcom/android/contacts/list/ContactBrowseListFragment$ContactLookupTask;->mIsCancelled:Z
 
@@ -249,7 +245,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Landroid/net/Uri;
 

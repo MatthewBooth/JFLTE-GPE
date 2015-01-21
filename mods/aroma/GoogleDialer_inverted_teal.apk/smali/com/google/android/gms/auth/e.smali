@@ -155,7 +155,6 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/e;->ae(Landroid/os/Parcel;)Lcom/google/android/gms/auth/RecoveryWriteResponse;
 
@@ -166,7 +165,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/e;->aG(I)[Lcom/google/android/gms/auth/RecoveryWriteResponse;
 

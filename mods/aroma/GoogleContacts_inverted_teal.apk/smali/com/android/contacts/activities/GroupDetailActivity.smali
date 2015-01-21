@@ -32,8 +32,6 @@
 
 .method static synthetic access$002(Lcom/android/contacts/activities/GroupDetailActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/GroupDetailActivity;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/GroupDetailActivity;->mAccountTypeString:Ljava/lang/String;
 
@@ -42,8 +40,6 @@
 
 .method static synthetic access$102(Lcom/android/contacts/activities/GroupDetailActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/GroupDetailActivity;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/GroupDetailActivity;->mDataSet:Ljava/lang/String;
 
@@ -52,7 +48,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/activities/GroupDetailActivity;)Lcom/android/contacts/group/GroupDetailFragment;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/GroupDetailActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/GroupDetailActivity;->mFragment:Lcom/android/contacts/group/GroupDetailFragment;
 
@@ -63,7 +58,6 @@
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -145,7 +139,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 2
-    .param p1    # Landroid/view/Menu;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
@@ -169,7 +162,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 2
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -211,7 +203,6 @@
 
 .method public onPrepareOptionsMenu(Landroid/view/Menu;)Z
     .locals 8
-    .param p1    # Landroid/view/Menu;
 
     const/4 v5, 0x1
 

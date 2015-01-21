@@ -43,7 +43,6 @@
 
 .method public onDeviceFound(Lcom/google/android/gms/fitness/data/BleDevice;)V
     .locals 5
-    .param p1    # Lcom/google/android/gms/fitness/data/BleDevice;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/RemoteException;

@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/ContactSelectionActivity;Lcom/android/contacts/activities/ContactSelectionActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ContactSelectionActivity;
-    .param p2    # Lcom/android/contacts/activities/ContactSelectionActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ContactSelectionActivity$ContactPickerActionListener;-><init>(Lcom/android/contacts/activities/ContactSelectionActivity;)V
 
@@ -44,7 +42,6 @@
 
 .method private launchAddToContactDialog(Landroid/os/Bundle;)Z
     .locals 7
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v4, 0x1
 
@@ -185,7 +182,6 @@
 
 .method public onEditContactAction(Landroid/net/Uri;)V
     .locals 5
-    .param p1    # Landroid/net/Uri;
 
     iget-object v2, p0, Lcom/android/contacts/activities/ContactSelectionActivity$ContactPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 
@@ -247,7 +243,6 @@
 
 .method public onPickContactAction(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity$ContactPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 
@@ -258,7 +253,6 @@
 
 .method public onShortcutIntentCreated(Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity$ContactPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 

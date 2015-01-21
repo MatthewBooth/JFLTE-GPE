@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$1;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p2    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$MediaPlayerCompletionListener;-><init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)V
 
@@ -46,7 +44,6 @@
 # virtual methods
 .method public onCompletion(Landroid/media/MediaPlayer;)V
     .locals 2
-    .param p1    # Landroid/media/MediaPlayer;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$MediaPlayerCompletionListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 

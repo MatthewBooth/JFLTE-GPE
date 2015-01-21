@@ -22,8 +22,6 @@
 # direct methods
 .method public constructor <init>(IF)V
     .locals 2
-    .param p1    # I
-    .param p2    # F
 
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
@@ -66,7 +64,6 @@
 
 .method private updateBounds(Landroid/graphics/Rect;)V
     .locals 7
-    .param p1    # Landroid/graphics/Rect;
 
     if-nez p1, :cond_0
 
@@ -157,7 +154,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 4
-    .param p1    # Landroid/graphics/Canvas;
 
     iget-object v0, p0, Landroid/support/v7/widget/RoundRectDrawable;->mBoundsF:Landroid/graphics/RectF;
 
@@ -182,7 +178,6 @@
 
 .method public getOutline(Landroid/graphics/Outline;)V
     .locals 2
-    .param p1    # Landroid/graphics/Outline;
 
     iget-object v0, p0, Landroid/support/v7/widget/RoundRectDrawable;->mBoundsI:Landroid/graphics/Rect;
 
@@ -211,7 +206,6 @@
 
 .method protected onBoundsChange(Landroid/graphics/Rect;)V
     .locals 0
-    .param p1    # Landroid/graphics/Rect;
 
     invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
 
@@ -222,23 +216,18 @@
 
 .method public setAlpha(I)V
     .locals 0
-    .param p1    # I
 
     return-void
 .end method
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 0
-    .param p1    # Landroid/graphics/ColorFilter;
 
     return-void
 .end method
 
 .method setPadding(FZZ)V
     .locals 1
-    .param p1    # F
-    .param p2    # Z
-    .param p3    # Z
 
     iget v0, p0, Landroid/support/v7/widget/RoundRectDrawable;->mPadding:F
 

@@ -72,11 +72,6 @@
 
 .method constructor <init>(ILjava/lang/String;Lcom/google/android/gms/appdatasearch/RegisterSectionInfo;I[B)V
     .locals 3
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/google/android/gms/appdatasearch/RegisterSectionInfo;
-    .param p4    # I
-    .param p5    # [B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -218,8 +213,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/DocumentSection;->CREATOR:Lcom/google/android/gms/appdatasearch/g;
 

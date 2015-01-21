@@ -34,10 +34,6 @@
 
 .method constructor <init>(ILjava/lang/String;[Lcom/google/android/gms/appdatasearch/CorpusId;[I)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # [Lcom/google/android/gms/appdatasearch/CorpusId;
-    .param p4    # [I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -66,8 +62,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/PhraseAffinityResponse;->CREATOR:Lcom/google/android/gms/appdatasearch/u;
 

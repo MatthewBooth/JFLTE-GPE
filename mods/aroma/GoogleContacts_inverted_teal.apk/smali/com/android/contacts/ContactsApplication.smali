@@ -39,7 +39,6 @@
 
 .method public static injectServices(Lcom/android/contacts/common/testing/InjectedServices;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/testing/InjectedServices;
 
     sput-object p0, Lcom/android/contacts/ContactsApplication;->sInjectedServices:Lcom/android/contacts/common/testing/InjectedServices;
 
@@ -76,8 +75,6 @@
 
 .method public getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     sget-object v1, Lcom/android/contacts/ContactsApplication;->sInjectedServices:Lcom/android/contacts/common/testing/InjectedServices;
 
@@ -104,7 +101,6 @@
 
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     sget-object v1, Lcom/android/contacts/ContactsApplication;->sInjectedServices:Lcom/android/contacts/common/testing/InjectedServices;
 

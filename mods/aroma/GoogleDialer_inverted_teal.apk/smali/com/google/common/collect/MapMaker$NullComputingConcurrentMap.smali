@@ -44,7 +44,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/MapMaker;Lcom/google/common/base/Function;)V
     .locals 1
-    .param p1    # Lcom/google/common/collect/MapMaker;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -108,7 +107,6 @@
 # virtual methods
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 4
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

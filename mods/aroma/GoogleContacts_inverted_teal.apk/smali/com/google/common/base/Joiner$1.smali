@@ -23,7 +23,6 @@
 # virtual methods
 .method toString(Ljava/lang/Object;)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-nez p1, :cond_0
 

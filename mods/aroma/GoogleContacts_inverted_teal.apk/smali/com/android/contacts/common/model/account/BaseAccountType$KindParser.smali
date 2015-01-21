@@ -147,7 +147,6 @@
 
 .method private addBuilder(Lcom/android/contacts/common/model/account/BaseAccountType$KindBuilder;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/account/BaseAccountType$KindBuilder;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/account/BaseAccountType$KindParser;->mBuilders:Ljava/util/Map;
 
@@ -164,9 +163,6 @@
 # virtual methods
 .method public parseDataKindTag(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)Ljava/util/List;
     .locals 5
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
-    .param p3    # Landroid/util/AttributeSet;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

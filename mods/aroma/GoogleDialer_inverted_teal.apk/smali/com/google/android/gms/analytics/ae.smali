@@ -1087,7 +1087,6 @@
 
 .method public overrideHostUrl(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     :try_start_0
     new-instance v0, Ljava/net/URL;

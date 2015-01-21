@@ -79,7 +79,6 @@
 
 .method public static fromAfter(Landroid/content/ContentValues;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 5
-    .param p0    # Landroid/content/ContentValues;
 
     new-instance v0, Lcom/android/contacts/common/model/ValuesDelta;
 
@@ -112,7 +111,6 @@
 
 .method public static fromBefore(Landroid/content/ContentValues;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 2
-    .param p0    # Landroid/content/ContentValues;
 
     new-instance v0, Lcom/android/contacts/common/model/ValuesDelta;
 
@@ -131,8 +129,6 @@
 
 .method public static mergeAfter(Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/ValuesDelta;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     if-nez p0, :cond_1
 
@@ -216,7 +212,6 @@
 
 .method public buildDiff(Landroid/net/Uri;)Landroid/content/ContentProviderOperation$Builder;
     .locals 4
-    .param p1    # Landroid/net/Uri;
 
     const/4 v3, 0x0
 
@@ -339,7 +334,6 @@
 
 .method public containsKey(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -380,8 +374,6 @@
 
 .method public copyStringFrom(Lcom/android/contacts/common/model/ValuesDelta;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -396,7 +388,6 @@
 
 .method public copyStructuredNameFieldsFrom(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const-string v0, "data1"
 
@@ -467,7 +458,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -507,7 +497,6 @@
 
 .method public getAsByteArray(Ljava/lang/String;)[B
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -559,7 +548,6 @@
 
 .method public getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -572,8 +560,6 @@
 
 .method public getAsInteger(Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/Integer;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -621,7 +607,6 @@
 
 .method public getAsLong(Ljava/lang/String;)Ljava/lang/Long;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -673,7 +658,6 @@
 
 .method public getAsString(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mAfter:Landroid/content/ContentValues;
 
@@ -1349,8 +1333,6 @@
 
 .method public put(Ljava/lang/String;I)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -1367,8 +1349,6 @@
 
 .method public put(Ljava/lang/String;J)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # J
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -1385,8 +1365,6 @@
 
 .method public put(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -1399,8 +1377,6 @@
 
 .method public put(Ljava/lang/String;[B)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # [B
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -1413,7 +1389,6 @@
 
 .method public putNull(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;->ensureUpdate()V
 
@@ -1426,7 +1401,6 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1463,7 +1437,6 @@
 
 .method public setDisplayName(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 
@@ -1484,7 +1457,6 @@
 
 .method public setFromTemplate(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/ValuesDelta;->mFromTemplate:Z
 
@@ -1493,7 +1465,6 @@
 
 .method public setGroupRowId(J)V
     .locals 1
-    .param p1    # J
 
     const-string v0, "data1"
 
@@ -1504,7 +1475,6 @@
 
 .method public setIdColumn(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/model/ValuesDelta;->mIdColumn:Ljava/lang/String;
 
@@ -1513,7 +1483,6 @@
 
 .method public setPhoneticFamilyName(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-string v0, "data9"
 
@@ -1524,7 +1493,6 @@
 
 .method public setPhoneticGivenName(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-string v0, "data7"
 
@@ -1535,7 +1503,6 @@
 
 .method public setPhoneticMiddleName(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-string v0, "data8"
 
@@ -1546,7 +1513,6 @@
 
 .method public setPhoto([B)V
     .locals 1
-    .param p1    # [B
 
     const-string v0, "data15"
 
@@ -1557,7 +1523,6 @@
 
 .method public setSuperPrimary(Z)V
     .locals 2
-    .param p1    # Z
 
     if-eqz p1, :cond_0
 
@@ -1582,7 +1547,6 @@
 
 .method public subsetEquals(Lcom/android/contacts/common/model/ValuesDelta;)Z
     .locals 6
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const/4 v4, 0x0
 
@@ -1655,7 +1619,6 @@
 
 .method public toString(Ljava/lang/StringBuilder;)V
     .locals 3
-    .param p1    # Ljava/lang/StringBuilder;
 
     const-string v2, "{ "
 
@@ -1730,8 +1693,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/model/ValuesDelta;->mBefore:Landroid/content/ContentValues;
 

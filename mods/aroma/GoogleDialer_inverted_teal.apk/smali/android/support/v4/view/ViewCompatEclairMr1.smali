@@ -6,7 +6,6 @@
 # direct methods
 .method public static isOpaque(Landroid/view/View;)Z
     .locals 1
-    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->isOpaque()Z
 

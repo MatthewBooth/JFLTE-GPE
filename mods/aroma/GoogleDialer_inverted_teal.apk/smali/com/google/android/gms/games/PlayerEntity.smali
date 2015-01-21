@@ -71,20 +71,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;JIJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntity;Lcom/google/android/gms/games/PlayerLevelInfo;Z)V
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Landroid/net/Uri;
-    .param p5    # Landroid/net/Uri;
-    .param p6    # J
-    .param p8    # I
-    .param p9    # J
-    .param p11    # Ljava/lang/String;
-    .param p12    # Ljava/lang/String;
-    .param p13    # Ljava/lang/String;
-    .param p14    # Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntity;
-    .param p15    # Lcom/google/android/gms/games/PlayerLevelInfo;
-    .param p16    # Z
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -125,7 +111,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/Player;)V
     .locals 4
-    .param p1    # Lcom/google/android/gms/games/Player;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -610,7 +595,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/PlayerEntity;->a(Lcom/google/android/gms/games/Player;Ljava/lang/Object;)Z
 
@@ -769,8 +753,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     const/4 v1, 0x0
 

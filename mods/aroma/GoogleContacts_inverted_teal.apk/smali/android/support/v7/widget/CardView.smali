@@ -70,7 +70,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
@@ -97,8 +96,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -123,9 +120,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -148,9 +142,6 @@
 
 .method private initialize(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 10
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     const/4 v9, 0x0
 
@@ -292,8 +283,6 @@
 
 .method protected onMeasure(II)V
     .locals 6
-    .param p1    # I
-    .param p2    # I
 
     sget-object v4, Landroid/support/v7/widget/CardView;->IMPL:Landroid/support/v7/widget/CardViewImpl;
 
@@ -398,30 +387,18 @@
 
 .method public setPadding(IIII)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     return-void
 .end method
 
 .method public setPaddingRelative(IIII)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     return-void
 .end method
 
 .method public setShadowPadding(IIII)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     iget-object v0, p0, Landroid/support/v7/widget/CardView;->mShadowBounds:Landroid/graphics/Rect;
 

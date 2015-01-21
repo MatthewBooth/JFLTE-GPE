@@ -56,10 +56,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/util/List;ILjava/lang/String;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p4    # I
-    .param p5    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -161,8 +157,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/common/internal/ParcelableClientSettingsCreator;->a(Lcom/google/android/gms/common/internal/ClientSettings$ParcelableClientSettings;Landroid/os/Parcel;I)V
 

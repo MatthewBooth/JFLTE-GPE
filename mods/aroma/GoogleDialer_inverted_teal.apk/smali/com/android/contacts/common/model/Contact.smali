@@ -115,24 +115,6 @@
 # direct methods
 .method public constructor <init>(Landroid/net/Uri;Landroid/net/Uri;Landroid/net/Uri;JLjava/lang/String;JJIJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Integer;ZLjava/lang/String;Z)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Landroid/net/Uri;
-    .param p4    # J
-    .param p6    # Ljava/lang/String;
-    .param p7    # J
-    .param p9    # J
-    .param p11    # I
-    .param p12    # J
-    .param p14    # Ljava/lang/String;
-    .param p15    # Ljava/lang/String;
-    .param p16    # Ljava/lang/String;
-    .param p17    # Ljava/lang/String;
-    .param p18    # Z
-    .param p19    # Ljava/lang/Integer;
-    .param p20    # Z
-    .param p21    # Ljava/lang/String;
-    .param p22    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -215,9 +197,6 @@
 
 .method private constructor <init>(Landroid/net/Uri;Lcom/android/contacts/common/model/Contact$Status;Ljava/lang/Exception;)V
     .locals 6
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Lcom/android/contacts/common/model/Contact$Status;
-    .param p3    # Ljava/lang/Exception;
 
     const-wide/16 v4, -0x1
 
@@ -293,8 +272,6 @@
 
 .method public constructor <init>(Landroid/net/Uri;Lcom/android/contacts/common/model/Contact;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Lcom/android/contacts/common/model/Contact;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -421,8 +398,6 @@
 
 .method public static forError(Landroid/net/Uri;Ljava/lang/Exception;)Lcom/android/contacts/common/model/Contact;
     .locals 2
-    .param p0    # Landroid/net/Uri;
-    .param p1    # Ljava/lang/Exception;
 
     new-instance v0, Lcom/android/contacts/common/model/Contact;
 
@@ -435,7 +410,6 @@
 
 .method public static forNotFound(Landroid/net/Uri;)Lcom/android/contacts/common/model/Contact;
     .locals 3
-    .param p0    # Landroid/net/Uri;
 
     new-instance v0, Lcom/android/contacts/common/model/Contact;
 
@@ -617,11 +591,6 @@
 
 .method public setDirectoryMetaData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # I
 
     iput-object p1, p0, Lcom/android/contacts/common/model/Contact;->mDirectoryDisplayName:Ljava/lang/String;
 
@@ -672,7 +641,6 @@
 
 .method setPhotoBinaryData([B)V
     .locals 0
-    .param p1    # [B
 
     iput-object p1, p0, Lcom/android/contacts/common/model/Contact;->mPhotoBinaryData:[B
 
@@ -716,7 +684,6 @@
 
 .method setThumbnailPhotoBinaryData([B)V
     .locals 0
-    .param p1    # [B
 
     iput-object p1, p0, Lcom/android/contacts/common/model/Contact;->mThumbnailPhotoBinaryData:[B
 

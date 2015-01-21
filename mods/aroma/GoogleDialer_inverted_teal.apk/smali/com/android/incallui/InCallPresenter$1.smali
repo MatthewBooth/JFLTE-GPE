@@ -33,8 +33,6 @@
 # virtual methods
 .method public onBringToForeground(Landroid/telecom/Phone;Z)V
     .locals 1
-    .param p1    # Landroid/telecom/Phone;
-    .param p2    # Z
 
     const-string v0, "Bringing UI to foreground."
 
@@ -49,8 +47,6 @@
 
 .method public onCallAdded(Landroid/telecom/Phone;Landroid/telecom/Call;)V
     .locals 1
-    .param p1    # Landroid/telecom/Phone;
-    .param p2    # Landroid/telecom/Call;
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter$1;->this$0:Lcom/android/incallui/InCallPresenter;
 
@@ -66,8 +62,6 @@
 
 .method public onCallRemoved(Landroid/telecom/Phone;Landroid/telecom/Call;)V
     .locals 1
-    .param p1    # Landroid/telecom/Phone;
-    .param p2    # Landroid/telecom/Call;
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter$1;->this$0:Lcom/android/incallui/InCallPresenter;
 

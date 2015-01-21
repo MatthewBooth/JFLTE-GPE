@@ -31,8 +31,6 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/widget/OverlappingPaneLayout;Lcom/android/dialer/widget/OverlappingPaneLayout$1;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/widget/OverlappingPaneLayout;
-    .param p2    # Lcom/android/dialer/widget/OverlappingPaneLayout$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;-><init>(Lcom/android/dialer/widget/OverlappingPaneLayout;)V
 
@@ -43,9 +41,6 @@
 # virtual methods
 .method public clampViewPositionHorizontal(Landroid/view/View;II)I
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
 
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
@@ -56,9 +51,6 @@
 
 .method public clampViewPositionVertical(Landroid/view/View;II)I
     .locals 7
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
 
     iget-object v5, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 
@@ -155,7 +147,6 @@
 
 .method public getViewVerticalDragRange(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 
@@ -169,8 +160,6 @@
 
 .method public onEdgeDragStarted(II)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 
@@ -193,8 +182,6 @@
 
 .method public onViewCaptured(Landroid/view/View;I)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 
@@ -205,7 +192,6 @@
 
 .method public onViewDragStateChanged(I)V
     .locals 4
-    .param p1    # I
 
     const/4 v3, 0x0
 
@@ -366,9 +352,6 @@
 
 .method public onViewFling(Landroid/view/View;FF)V
     .locals 12
-    .param p1    # Landroid/view/View;
-    .param p2    # F
-    .param p3    # F
 
     const v4, 0x7fffffff
 
@@ -608,11 +591,6 @@
 
 .method public onViewPositionChanged(Landroid/view/View;IIII)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 
@@ -628,9 +606,6 @@
 
 .method public onViewReleased(Landroid/view/View;FF)V
     .locals 5
-    .param p1    # Landroid/view/View;
-    .param p2    # F
-    .param p3    # F
 
     const/4 v4, 0x0
 
@@ -941,8 +916,6 @@
 
 .method public tryCaptureView(Landroid/view/View;I)Z
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$DragHelperCallback;->this$0:Lcom/android/dialer/widget/OverlappingPaneLayout;
 

@@ -40,8 +40,6 @@
 
 .method private static checkElementNotNull(Ljava/lang/Object;I)Ljava/lang/Object;
     .locals 3
-    .param p0    # Ljava/lang/Object;
-    .param p1    # I
 
     if-nez p0, :cond_0
 
@@ -75,7 +73,6 @@
 
 .method private static varargs construct([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
     .locals 2
-    .param p0    # [Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -307,7 +304,6 @@
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 2
-    .param p1    # Ljava/io/ObjectInputStream;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/InvalidObjectException;
@@ -327,7 +323,6 @@
 # virtual methods
 .method public final add(ILjava/lang/Object;)V
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITE;)V"
@@ -343,7 +338,6 @@
 
 .method public final addAll(ILjava/util/Collection;)Z
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -374,7 +368,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/common/collect/Lists;->equalsImpl(Ljava/util/List;Ljava/lang/Object;)Z
 
@@ -461,7 +454,6 @@
 
 .method public bridge synthetic listIterator(I)Ljava/util/ListIterator;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList;->listIterator(I)Lcom/google/common/collect/UnmodifiableListIterator;
 
@@ -472,7 +464,6 @@
 
 .method public final remove(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TE;"
@@ -488,7 +479,6 @@
 
 .method public final set(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITE;)TE;"
@@ -514,8 +504,6 @@
 
 .method public bridge synthetic subList(II)Ljava/util/List;
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableList;->subList(II)Lcom/google/common/collect/ImmutableList;
 

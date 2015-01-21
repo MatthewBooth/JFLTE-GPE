@@ -27,8 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/util/NotifyingAsyncQueryHandler$AsyncQueryListener;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/util/NotifyingAsyncQueryHandler$AsyncQueryListener;
 
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -45,9 +43,6 @@
 # virtual methods
 .method protected onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/database/Cursor;
 
     iget-object v1, p0, Lcom/android/contacts/util/NotifyingAsyncQueryHandler;->mListener:Ljava/lang/ref/WeakReference;
 
@@ -75,7 +70,6 @@
 
 .method public setQueryListener(Lcom/android/contacts/util/NotifyingAsyncQueryHandler$AsyncQueryListener;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/util/NotifyingAsyncQueryHandler$AsyncQueryListener;
 
     new-instance v0, Ljava/lang/ref/WeakReference;
 

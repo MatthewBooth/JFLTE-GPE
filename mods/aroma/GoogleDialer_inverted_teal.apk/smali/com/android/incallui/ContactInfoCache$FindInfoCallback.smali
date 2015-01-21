@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/ContactInfoCache;Z)V
     .locals 0
-    .param p2    # Z
 
     iput-object p1, p0, Lcom/android/incallui/ContactInfoCache$FindInfoCallback;->this$0:Lcom/android/incallui/ContactInfoCache;
 
@@ -41,9 +40,6 @@
 # virtual methods
 .method public onQueryComplete(ILjava/lang/Object;Lcom/android/incallui/CallerInfo;)V
     .locals 3
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Lcom/android/incallui/CallerInfo;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache$FindInfoCallback;->this$0:Lcom/android/incallui/ContactInfoCache;
 

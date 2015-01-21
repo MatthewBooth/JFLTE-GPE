@@ -114,7 +114,6 @@
 
 .method public static equalsSetHelper(Ljava/util/Set;Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -442,7 +441,6 @@
 
 .method public toArrayHelper(I)[Ljava/lang/Object;
     .locals 4
-    .param p1    # I
 
     invoke-virtual {p0}, Landroid/support/v4/util/MapCollections;->colGetSize()I
 
@@ -471,7 +469,6 @@
 
 .method public toArrayHelper([Ljava/lang/Object;I)[Ljava/lang/Object;
     .locals 4
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",

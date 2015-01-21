@@ -70,9 +70,6 @@
 
 .method static doSecondaryLookupIfNecessary(Landroid/content/Context;Ljava/lang/String;Lcom/android/incallui/CallerInfo;)Lcom/android/incallui/CallerInfo;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/CallerInfo;
 
     iget-boolean v1, p2, Lcom/android/incallui/CallerInfo;->contactExists:Z
 
@@ -114,8 +111,6 @@
 
 .method private static getCallerInfo(Landroid/content/Context;Landroid/net/Uri;)Lcom/android/incallui/CallerInfo;
     .locals 6
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
 
     const/4 v2, 0x0
 
@@ -144,9 +139,6 @@
 
 .method public static getCallerInfo(Landroid/content/Context;Landroid/net/Uri;Landroid/database/Cursor;)Lcom/android/incallui/CallerInfo;
     .locals 10
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/database/Cursor;
 
     new-instance v1, Lcom/android/incallui/CallerInfo;
 
@@ -512,8 +504,6 @@
 
 .method private static getColumnIndexForPersonId(Landroid/net/Uri;Landroid/database/Cursor;)I
     .locals 6
-    .param p0    # Landroid/net/Uri;
-    .param p1    # Landroid/database/Cursor;
 
     const-string v3, "CallerInfo"
 
@@ -690,8 +680,6 @@
 
 .method private static getGeoDescription(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 10
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -898,7 +886,6 @@
 
 .method private static normalize(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     if-eqz p0, :cond_0
 
@@ -938,7 +925,6 @@
 
 .method markAsEmergency(Landroid/content/Context;)Lcom/android/incallui/CallerInfo;
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const v0, 0x7f0801da
 
@@ -961,7 +947,6 @@
 
 .method markAsVoiceMail(Landroid/content/Context;)Lcom/android/incallui/CallerInfo;
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x1
 
@@ -1111,8 +1096,6 @@
 
 .method public updateGeoDescription(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/android/incallui/CallerInfo;->phoneNumber:Ljava/lang/String;
 

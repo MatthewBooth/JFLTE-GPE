@@ -30,12 +30,6 @@
 # virtual methods
 .method public apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/graphics/Rect;
-    .param p5    # Landroid/graphics/Rect;
-    .param p6    # I
 
     invoke-static/range {p1 .. p6}, Landroid/support/v4/view/GravityCompatJellybeanMr1;->apply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;I)V
 
@@ -44,8 +38,6 @@
 
 .method public getAbsoluteGravity(II)I
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     invoke-static {p1, p2}, Landroid/support/v4/view/GravityCompatJellybeanMr1;->getAbsoluteGravity(II)I
 

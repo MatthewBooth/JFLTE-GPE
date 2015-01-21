@@ -23,8 +23,6 @@
 # direct methods
 .method private getMarqueeColor(II)I
     .locals 8
-    .param p1    # I
-    .param p2    # I
 
     const v5, 0xffffff
 
@@ -108,7 +106,6 @@
 # virtual methods
 .method public resetColor(I)V
     .locals 1
-    .param p1    # I
 
     iget v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$MarqueeSpan;->mType:I
 
@@ -123,7 +120,6 @@
 
 .method public updateDrawState(Landroid/text/TextPaint;)V
     .locals 1
-    .param p1    # Landroid/text/TextPaint;
 
     iget v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$MarqueeSpan;->mMarqueeColor:I
 

@@ -6,7 +6,6 @@
 # direct methods
 .method public static getMovementGranularities(Ljava/lang/Object;)I
     .locals 1
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 
@@ -19,7 +18,6 @@
 
 .method public static isAccessibilityFocused(Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 
@@ -32,7 +30,6 @@
 
 .method public static isVisibleToUser(Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 
@@ -45,8 +42,6 @@
 
 .method public static setAccesibilityFocused(Ljava/lang/Object;Z)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Z
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 
@@ -57,8 +52,6 @@
 
 .method public static setMovementGranularities(Ljava/lang/Object;I)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # I
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 
@@ -69,8 +62,6 @@
 
 .method public static setVisibleToUser(Ljava/lang/Object;Z)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Z
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 

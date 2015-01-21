@@ -34,7 +34,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/phone/common/CallLogAsync;Lcom/android/phone/common/CallLogAsync$OnLastOutgoingCallComplete;)V
     .locals 0
-    .param p2    # Lcom/android/phone/common/CallLogAsync$OnLastOutgoingCallComplete;
 
     iput-object p1, p0, Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallTask;->this$0:Lcom/android/phone/common/CallLogAsync;
 
@@ -49,7 +48,6 @@
 # virtual methods
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallArgs;
 
@@ -62,7 +60,6 @@
 
 .method protected varargs doInBackground([Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallArgs;)Ljava/lang/String;
     .locals 7
-    .param p1    # [Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallArgs;
 
     array-length v2, p1
 
@@ -95,7 +92,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/String;
 
@@ -106,7 +102,6 @@
 
 .method protected onPostExecute(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/phone/common/CallLogAsync$GetLastOutgoingCallTask;->this$0:Lcom/android/phone/common/CallLogAsync;
 

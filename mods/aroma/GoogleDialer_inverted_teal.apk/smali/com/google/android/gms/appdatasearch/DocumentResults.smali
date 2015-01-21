@@ -36,11 +36,6 @@
 
 .method constructor <init>(ILjava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;Landroid/os/Bundle;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Landroid/os/Bundle;
-    .param p4    # Landroid/os/Bundle;
-    .param p5    # Landroid/os/Bundle;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -71,8 +66,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/DocumentResults;->CREATOR:Lcom/google/android/gms/appdatasearch/f;
 

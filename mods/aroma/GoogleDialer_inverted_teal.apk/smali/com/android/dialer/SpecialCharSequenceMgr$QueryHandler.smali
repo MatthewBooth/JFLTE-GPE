@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/ContentResolver;)V
     .locals 0
-    .param p1    # Landroid/content/ContentResolver;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/database/NoNullCursorAsyncQueryHandler;-><init>(Landroid/content/ContentResolver;)V
 
@@ -46,9 +45,6 @@
 
 .method protected onNotNullableQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 9
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/database/Cursor;
 
     const/4 v6, 0x0
 

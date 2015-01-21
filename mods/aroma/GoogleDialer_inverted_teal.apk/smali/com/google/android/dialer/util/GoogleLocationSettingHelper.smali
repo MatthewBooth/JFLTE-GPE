@@ -24,7 +24,6 @@
 
 .method private static getUseLocationForServices(Landroid/content/Context;)I
     .locals 12
-    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -144,7 +143,6 @@
 
 .method public static isEnforceable(Landroid/content/Context;)Z
     .locals 4
-    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -177,7 +175,6 @@
 
 .method public static isGoogleLocationServicesEnabled(Landroid/content/Context;)Z
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     const/4 v0, 0x1
 
@@ -205,7 +202,6 @@
 
 .method public static isSystemLocationSettingEnabled(Landroid/content/Context;)Z
     .locals 4
-    .param p0    # Landroid/content/Context;
 
     const/4 v1, 0x0
 

@@ -50,8 +50,6 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/CallDetailActivity;Lcom/android/dialer/CallDetailActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/CallDetailActivity;
-    .param p2    # Lcom/android/dialer/CallDetailActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/CallDetailActivity$ProximitySensorListener;-><init>(Lcom/android/dialer/CallDetailActivity;)V
 
@@ -60,8 +58,6 @@
 
 .method private declared-synchronized postDelayed(Ljava/lang/Runnable;J)V
     .locals 4
-    .param p1    # Ljava/lang/Runnable;
-    .param p2    # J
 
     monitor-enter p0
 

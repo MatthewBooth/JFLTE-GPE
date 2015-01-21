@@ -40,7 +40,6 @@
 # virtual methods
 .method public createAccessibilityNodeInfo(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1;->val$compat:Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 
@@ -65,8 +64,6 @@
 
 .method public findAccessibilityNodeInfosByText(Ljava/lang/String;I)Ljava/util/List;
     .locals 6
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -120,7 +117,6 @@
 
 .method public findFocus(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1;->val$compat:Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 
@@ -145,9 +141,6 @@
 
 .method public performAction(IILandroid/os/Bundle;)Z
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/os/Bundle;
 
     iget-object v0, p0, Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1;->val$compat:Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 

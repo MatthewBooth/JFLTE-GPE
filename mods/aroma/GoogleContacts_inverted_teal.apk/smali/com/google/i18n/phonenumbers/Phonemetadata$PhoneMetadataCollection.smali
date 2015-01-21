@@ -82,7 +82,6 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 4
-    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -118,7 +117,6 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 3
-    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

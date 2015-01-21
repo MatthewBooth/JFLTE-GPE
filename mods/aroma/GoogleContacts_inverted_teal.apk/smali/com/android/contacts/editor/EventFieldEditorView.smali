@@ -16,7 +16,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/LabeledEditorView;-><init>(Landroid/content/Context;)V
 
@@ -25,8 +24,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/editor/LabeledEditorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -35,9 +32,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/contacts/editor/LabeledEditorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -46,7 +40,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/EventFieldEditorView;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/editor/EventFieldEditorView;
 
     invoke-direct {p0}, Lcom/android/contacts/editor/EventFieldEditorView;->rebuildDateView()V
 
@@ -315,7 +308,6 @@
 
 .method public createDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     if-nez p1, :cond_0
 
@@ -609,7 +601,6 @@
 
 .method public setEnabled(Z)V
     .locals 2
-    .param p1    # Z
 
     invoke-super {p0, p1}, Lcom/android/contacts/editor/LabeledEditorView;->setEnabled(Z)V
 
@@ -638,11 +629,6 @@
 
 .method public setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
     .locals 3
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p3    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p4    # Z
-    .param p5    # Lcom/android/contacts/editor/ViewIdGenerator;
 
     const/4 v0, 0x1
 

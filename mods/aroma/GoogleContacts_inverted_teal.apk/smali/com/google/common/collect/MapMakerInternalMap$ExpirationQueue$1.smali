@@ -100,7 +100,6 @@
 
 .method public setExpirationTime(J)V
     .locals 0
-    .param p1    # J
 
     return-void
 .end method

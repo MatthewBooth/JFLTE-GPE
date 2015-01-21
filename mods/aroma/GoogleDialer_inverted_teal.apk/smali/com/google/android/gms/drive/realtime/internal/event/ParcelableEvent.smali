@@ -74,20 +74,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/util/List;ZLjava/lang/String;Ljava/lang/String;Lcom/google/android/gms/drive/realtime/internal/event/TextInsertedDetails;Lcom/google/android/gms/drive/realtime/internal/event/TextDeletedDetails;Lcom/google/android/gms/drive/realtime/internal/event/ValuesAddedDetails;Lcom/google/android/gms/drive/realtime/internal/event/ValuesRemovedDetails;Lcom/google/android/gms/drive/realtime/internal/event/ValuesSetDetails;Lcom/google/android/gms/drive/realtime/internal/event/ValueChangedDetails;Lcom/google/android/gms/drive/realtime/internal/event/ReferenceShiftedDetails;Lcom/google/android/gms/drive/realtime/internal/event/ObjectChangedDetails;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p5    # Z
-    .param p6    # Ljava/lang/String;
-    .param p7    # Ljava/lang/String;
-    .param p8    # Lcom/google/android/gms/drive/realtime/internal/event/TextInsertedDetails;
-    .param p9    # Lcom/google/android/gms/drive/realtime/internal/event/TextDeletedDetails;
-    .param p10    # Lcom/google/android/gms/drive/realtime/internal/event/ValuesAddedDetails;
-    .param p11    # Lcom/google/android/gms/drive/realtime/internal/event/ValuesRemovedDetails;
-    .param p12    # Lcom/google/android/gms/drive/realtime/internal/event/ValuesSetDetails;
-    .param p13    # Lcom/google/android/gms/drive/realtime/internal/event/ValueChangedDetails;
-    .param p14    # Lcom/google/android/gms/drive/realtime/internal/event/ReferenceShiftedDetails;
-    .param p15    # Lcom/google/android/gms/drive/realtime/internal/event/ObjectChangedDetails;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -158,8 +144,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/realtime/internal/event/b;->a(Lcom/google/android/gms/drive/realtime/internal/event/ParcelableEvent;Landroid/os/Parcel;I)V
 

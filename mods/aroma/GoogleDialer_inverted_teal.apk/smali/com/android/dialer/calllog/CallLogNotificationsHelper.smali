@@ -6,7 +6,6 @@
 # direct methods
 .method public static removeMissedCallNotifications(Landroid/content/Context;)V
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     const-string v1, "telecom"
 
@@ -23,7 +22,6 @@
 
 .method public static updateVoicemailNotifications(Landroid/content/Context;)V
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Landroid/content/Intent;
 

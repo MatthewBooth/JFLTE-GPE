@@ -6,10 +6,6 @@
 # direct methods
 .method static synthetic access$000(Landroid/widget/ListView;III)V
     .locals 0
-    .param p0    # Landroid/widget/ListView;
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
 
     invoke-static {p0, p1, p2, p3}, Lcom/android/contacts/common/util/ContactListViewUtils;->addPaddingToView(Landroid/widget/ListView;III)V
 
@@ -18,10 +14,6 @@
 
 .method private static addPaddingToView(Landroid/widget/ListView;III)V
     .locals 8
-    .param p0    # Landroid/widget/ListView;
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
 
     const-wide v6, 0x3ff199999999999aL
 
@@ -79,9 +71,6 @@
 
 .method public static applyCardPaddingToView(Landroid/content/res/Resources;Landroid/widget/ListView;Landroid/view/View;)V
     .locals 5
-    .param p0    # Landroid/content/res/Resources;
-    .param p1    # Landroid/widget/ListView;
-    .param p2    # Landroid/view/View;
 
     const/4 v4, 0x0
 

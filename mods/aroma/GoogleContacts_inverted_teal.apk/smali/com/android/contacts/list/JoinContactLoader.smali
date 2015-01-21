@@ -20,7 +20,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 7
-    .param p1    # Landroid/content/Context;
 
     const/4 v2, 0x0
 
@@ -91,7 +90,6 @@
 
 .method public setProjection([Ljava/lang/String;)V
     .locals 0
-    .param p1    # [Ljava/lang/String;
 
     invoke-super {p0, p1}, Landroid/content/CursorLoader;->setProjection([Ljava/lang/String;)V
 
@@ -102,7 +100,6 @@
 
 .method public setSuggestionUri(Landroid/net/Uri;)V
     .locals 0
-    .param p1    # Landroid/net/Uri;
 
     iput-object p1, p0, Lcom/android/contacts/list/JoinContactLoader;->mSuggestionUri:Landroid/net/Uri;
 

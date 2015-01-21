@@ -32,9 +32,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -59,8 +56,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/shared/d;->a(Lcom/google/android/gms/auth/firstparty/shared/CaptchaSolution;Landroid/os/Parcel;I)V
 

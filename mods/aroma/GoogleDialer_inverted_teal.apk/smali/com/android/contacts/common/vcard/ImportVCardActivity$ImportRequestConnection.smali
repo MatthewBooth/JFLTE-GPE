@@ -36,8 +36,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;Lcom/android/contacts/common/vcard/ImportVCardActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/vcard/ImportVCardActivity;
-    .param p2    # Lcom/android/contacts/common/vcard/ImportVCardActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/vcard/ImportVCardActivity$ImportRequestConnection;-><init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;)V
 
@@ -48,8 +46,6 @@
 # virtual methods
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 5
-    .param p1    # Landroid/content/ComponentName;
-    .param p2    # Landroid/os/IBinder;
 
     check-cast p2, Lcom/android/contacts/common/vcard/VCardService$MyBinder;
 
@@ -106,7 +102,6 @@
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 2
-    .param p1    # Landroid/content/ComponentName;
 
     const-string v0, "VCardImport"
 

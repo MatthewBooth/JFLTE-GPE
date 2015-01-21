@@ -35,8 +35,6 @@
 # virtual methods
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 3
-    .param p1    # Landroid/content/ComponentName;
-    .param p2    # Landroid/os/IBinder;
 
     const/4 v2, 0x0
 
@@ -134,7 +132,6 @@
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 2
-    .param p1    # Landroid/content/ComponentName;
 
     new-instance v0, Ljava/lang/StringBuilder;
 

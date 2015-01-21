@@ -28,11 +28,6 @@
 
 .method private static metaStateFilterDirectionalModifiers(IIIII)I
     .locals 5
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     const/4 v2, 0x1
 
@@ -97,8 +92,6 @@
 # virtual methods
 .method public metaStateHasModifiers(II)Z
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -139,7 +132,6 @@
 
 .method public metaStateHasNoModifiers(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Landroid/support/v4/view/KeyEventCompat$BaseKeyEventVersionImpl;->normalizeMetaState(I)I
 
@@ -162,7 +154,6 @@
 
 .method public normalizeMetaState(I)I
     .locals 1
-    .param p1    # I
 
     and-int/lit16 v0, p1, 0xc0
 
@@ -185,7 +176,6 @@
 
 .method public startTracking(Landroid/view/KeyEvent;)V
     .locals 0
-    .param p1    # Landroid/view/KeyEvent;
 
     return-void
 .end method

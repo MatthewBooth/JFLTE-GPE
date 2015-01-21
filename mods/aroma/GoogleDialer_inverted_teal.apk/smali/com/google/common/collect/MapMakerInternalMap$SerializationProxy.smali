@@ -33,12 +33,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/MapMakerInternalMap$Strength;Lcom/google/common/collect/MapMakerInternalMap$Strength;Lcom/google/common/base/Equivalence;Lcom/google/common/base/Equivalence;JJIILcom/google/common/collect/MapMaker$RemovalListener;Ljava/util/concurrent/ConcurrentMap;)V
     .locals 1
-    .param p1    # Lcom/google/common/collect/MapMakerInternalMap$Strength;
-    .param p2    # Lcom/google/common/collect/MapMakerInternalMap$Strength;
-    .param p5    # J
-    .param p7    # J
-    .param p9    # I
-    .param p10    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -66,7 +60,6 @@
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 2
-    .param p1    # Ljava/io/ObjectInputStream;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -101,7 +94,6 @@
 
 .method private writeObject(Ljava/io/ObjectOutputStream;)V
     .locals 0
-    .param p1    # Ljava/io/ObjectOutputStream;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

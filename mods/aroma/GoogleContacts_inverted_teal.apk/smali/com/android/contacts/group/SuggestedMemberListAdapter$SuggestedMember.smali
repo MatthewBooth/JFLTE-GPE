@@ -31,9 +31,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/group/SuggestedMemberListAdapter;JLjava/lang/String;J)V
     .locals 0
-    .param p2    # J
-    .param p4    # Ljava/lang/String;
-    .param p5    # J
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter$SuggestedMember;->this$0:Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
@@ -110,7 +107,6 @@
 
 .method public setExtraInfo(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter$SuggestedMember;->mExtraInfo:Ljava/lang/String;
 
@@ -119,7 +115,6 @@
 
 .method public setPhotoByteArray([B)V
     .locals 0
-    .param p1    # [B
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter$SuggestedMember;->mPhoto:[B
 

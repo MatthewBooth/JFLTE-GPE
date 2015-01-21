@@ -30,8 +30,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/incallui/AccelerometerListener$OrientationListener;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/incallui/AccelerometerListener$OrientationListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,10 +72,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/AccelerometerListener;DDD)V
     .locals 1
-    .param p0    # Lcom/android/incallui/AccelerometerListener;
-    .param p1    # D
-    .param p3    # D
-    .param p5    # D
 
     invoke-direct/range {p0 .. p6}, Lcom/android/incallui/AccelerometerListener;->onSensorEvent(DDD)V
 
@@ -86,7 +80,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/AccelerometerListener;)I
     .locals 1
-    .param p0    # Lcom/android/incallui/AccelerometerListener;
 
     iget v0, p0, Lcom/android/incallui/AccelerometerListener;->mOrientation:I
 
@@ -95,8 +88,6 @@
 
 .method static synthetic access$102(Lcom/android/incallui/AccelerometerListener;I)I
     .locals 0
-    .param p0    # Lcom/android/incallui/AccelerometerListener;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/AccelerometerListener;->mOrientation:I
 
@@ -105,7 +96,6 @@
 
 .method static synthetic access$200(Lcom/android/incallui/AccelerometerListener;)I
     .locals 1
-    .param p0    # Lcom/android/incallui/AccelerometerListener;
 
     iget v0, p0, Lcom/android/incallui/AccelerometerListener;->mPendingOrientation:I
 
@@ -114,7 +104,6 @@
 
 .method static synthetic access$300(Lcom/android/incallui/AccelerometerListener;)Lcom/android/incallui/AccelerometerListener$OrientationListener;
     .locals 1
-    .param p0    # Lcom/android/incallui/AccelerometerListener;
 
     iget-object v0, p0, Lcom/android/incallui/AccelerometerListener;->mListener:Lcom/android/incallui/AccelerometerListener$OrientationListener;
 
@@ -123,9 +112,6 @@
 
 .method private onSensorEvent(DDD)V
     .locals 13
-    .param p1    # D
-    .param p3    # D
-    .param p5    # D
 
     const-wide/16 v8, 0x0
 
@@ -195,7 +181,6 @@
 
 .method private setOrientation(I)V
     .locals 6
-    .param p1    # I
 
     monitor-enter p0
 
@@ -277,7 +262,6 @@
 # virtual methods
 .method public enable(Z)V
     .locals 4
-    .param p1    # Z
 
     const-string v0, "AccelerometerListener"
 

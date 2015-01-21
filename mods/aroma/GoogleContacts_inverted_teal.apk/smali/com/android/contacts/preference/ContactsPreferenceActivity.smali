@@ -14,7 +14,6 @@
 
 .method public static isEmpty(Landroid/content/Context;)Z
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -55,7 +54,6 @@
 # virtual methods
 .method protected isValidFragment(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -83,7 +81,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v1, 0x4
 
@@ -103,7 +100,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 2
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 

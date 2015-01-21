@@ -128,7 +128,6 @@
 
 .method public static createFrequentLoader(Landroid/content/Context;)Landroid/content/CursorLoader;
     .locals 7
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Landroid/content/CursorLoader;
 
@@ -159,7 +158,6 @@
 
 .method public static createStarredLoader(Landroid/content/Context;)Landroid/content/CursorLoader;
     .locals 7
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Landroid/content/CursorLoader;
 
@@ -190,7 +188,6 @@
 
 .method public static createStrequentLoader(Landroid/content/Context;)Landroid/content/CursorLoader;
     .locals 7
-    .param p0    # Landroid/content/Context;
 
     const/4 v4, 0x0
 

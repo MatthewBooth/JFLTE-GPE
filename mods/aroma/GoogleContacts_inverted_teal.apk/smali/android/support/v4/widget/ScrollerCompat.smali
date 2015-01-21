@@ -102,11 +102,6 @@
 
 .method public startScroll(IIIII)V
     .locals 7
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
 
     iget-object v0, p0, Landroid/support/v4/widget/ScrollerCompat;->mImpl:Landroid/support/v4/widget/ScrollerCompat$ScrollerCompatImpl;
 

@@ -57,7 +57,6 @@
 # direct methods
 .method public constructor <init>(Landroid/graphics/drawable/Drawable;)V
     .locals 4
-    .param p1    # Landroid/graphics/drawable/Drawable;
 
     const/4 v3, 0x0
 
@@ -137,8 +136,6 @@
 
 .method private static hypot(FF)F
     .locals 2
-    .param p0    # F
-    .param p1    # F
 
     mul-float v0, p0, p0
 
@@ -155,9 +152,6 @@
 
 .method private interp(FFF)F
     .locals 1
-    .param p1    # F
-    .param p2    # F
-    .param p3    # F
 
     sub-float v0, p2, p1
 
@@ -170,8 +164,6 @@
 
 .method private static max(FF)F
     .locals 1
-    .param p0    # F
-    .param p1    # F
 
     cmpl-float v0, p0, p1
 
@@ -190,7 +182,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 14
-    .param p1    # Landroid/graphics/Canvas;
 
     iget-object v6, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud;->mPointCloud:Ljava/util/ArrayList;
 
@@ -336,7 +327,6 @@
 
 .method public getAlphaForPoint(Lcom/android/incallui/widget/multiwaveview/PointCloud$Point;)I
     .locals 14
-    .param p1    # Lcom/android/incallui/widget/multiwaveview/PointCloud$Point;
 
     const v13, 0x3f490fdb
 
@@ -520,8 +510,6 @@
 
 .method public makePointCloud(FF)V
     .locals 17
-    .param p1    # F
-    .param p2    # F
 
     const/4 v15, 0x0
 
@@ -643,8 +631,6 @@
 
 .method public setCenter(FF)V
     .locals 0
-    .param p1    # F
-    .param p2    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud;->mCenterX:F
 
@@ -655,7 +641,6 @@
 
 .method public setScale(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud;->mScale:F
 

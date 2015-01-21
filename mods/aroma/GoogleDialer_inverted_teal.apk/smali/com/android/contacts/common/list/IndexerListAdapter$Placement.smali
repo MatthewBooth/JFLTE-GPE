@@ -39,7 +39,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/list/IndexerListAdapter$Placement;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/IndexerListAdapter$Placement;
 
     iget v0, p0, Lcom/android/contacts/common/list/IndexerListAdapter$Placement;->position:I
 
@@ -48,8 +47,6 @@
 
 .method static synthetic access$002(Lcom/android/contacts/common/list/IndexerListAdapter$Placement;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/common/list/IndexerListAdapter$Placement;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/list/IndexerListAdapter$Placement;->position:I
 

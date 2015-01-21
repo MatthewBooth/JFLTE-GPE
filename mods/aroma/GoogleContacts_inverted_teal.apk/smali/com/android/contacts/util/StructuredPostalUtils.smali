@@ -6,7 +6,6 @@
 # direct methods
 .method public static getPostalAddressDirectionsUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 2
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -39,7 +38,6 @@
 
 .method public static getPostalAddressUri(Ljava/lang/String;)Landroid/net/Uri;
     .locals 2
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -72,7 +70,6 @@
 
 .method public static getViewPostalAddressDirectionsIntent(Ljava/lang/String;)Landroid/content/Intent;
     .locals 3
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -89,7 +86,6 @@
 
 .method public static getViewPostalAddressIntent(Ljava/lang/String;)Landroid/content/Intent;
     .locals 3
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Landroid/content/Intent;
 

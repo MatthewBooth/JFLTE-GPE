@@ -49,7 +49,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/list/PinnedHeaderListView$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/list/PinnedHeaderListView$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/list/PinnedHeaderListView$PinnedHeader;-><init>()V
 

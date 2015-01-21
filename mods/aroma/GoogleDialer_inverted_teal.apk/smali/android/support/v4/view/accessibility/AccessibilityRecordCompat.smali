@@ -84,7 +84,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -113,7 +112,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 
@@ -204,7 +202,6 @@
 
 .method public setFromIndex(I)V
     .locals 2
-    .param p1    # I
 
     sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityRecordCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordImpl;
 
@@ -217,7 +214,6 @@
 
 .method public setItemCount(I)V
     .locals 2
-    .param p1    # I
 
     sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityRecordCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordImpl;
 
@@ -230,7 +226,6 @@
 
 .method public setScrollable(Z)V
     .locals 2
-    .param p1    # Z
 
     sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityRecordCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordImpl;
 
@@ -243,7 +238,6 @@
 
 .method public setToIndex(I)V
     .locals 2
-    .param p1    # I
 
     sget-object v0, Landroid/support/v4/view/accessibility/AccessibilityRecordCompat;->IMPL:Landroid/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordImpl;
 

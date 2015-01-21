@@ -50,8 +50,6 @@
 
 .method protected colGetEntry(II)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Landroid/support/v4/util/ArrayMap$1;->this$0:Landroid/support/v4/util/ArrayMap;
 
@@ -93,7 +91,6 @@
 
 .method protected colIndexOfKey(Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Landroid/support/v4/util/ArrayMap$1;->this$0:Landroid/support/v4/util/ArrayMap;
 
@@ -106,7 +103,6 @@
 
 .method protected colIndexOfValue(Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Landroid/support/v4/util/ArrayMap$1;->this$0:Landroid/support/v4/util/ArrayMap;
 
@@ -134,7 +130,6 @@
 
 .method protected colRemoveAt(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Landroid/support/v4/util/ArrayMap$1;->this$0:Landroid/support/v4/util/ArrayMap;
 
@@ -145,7 +140,6 @@
 
 .method protected colSetValue(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITV;)TV;"

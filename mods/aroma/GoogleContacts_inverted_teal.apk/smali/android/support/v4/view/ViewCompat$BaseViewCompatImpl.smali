@@ -38,8 +38,6 @@
 # virtual methods
 .method public canScrollHorizontally(Landroid/view/View;I)Z
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -48,7 +46,6 @@
 
 .method public getFitsSystemWindows(Landroid/view/View;)Z
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -65,7 +62,6 @@
 
 .method public getImportantForAccessibility(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -74,7 +70,6 @@
 
 .method public getLayerType(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -83,7 +78,6 @@
 
 .method public getLayoutDirection(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -92,7 +86,6 @@
 
 .method public getOverScrollMode(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x2
 
@@ -101,7 +94,6 @@
 
 .method public isOpaque(Landroid/view/View;)Z
     .locals 4
-    .param p1    # Landroid/view/View;
 
     const/4 v1, 0x0
 
@@ -127,7 +119,6 @@
 
 .method public postInvalidateOnAnimation(Landroid/view/View;)V
     .locals 0
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
@@ -136,11 +127,6 @@
 
 .method public postInvalidateOnAnimation(Landroid/view/View;IIII)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
 
     invoke-virtual {p1, p2, p3, p4, p5}, Landroid/view/View;->invalidate(IIII)V
 
@@ -149,8 +135,6 @@
 
 .method public postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V
     .locals 2
-    .param p1    # Landroid/view/View;
-    .param p2    # Ljava/lang/Runnable;
 
     invoke-virtual {p0}, Landroid/support/v4/view/ViewCompat$BaseViewCompatImpl;->getFrameTime()J
 
@@ -163,33 +147,24 @@
 
 .method public setAccessibilityDelegate(Landroid/view/View;Landroid/support/v4/view/AccessibilityDelegateCompat;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     return-void
 .end method
 
 .method public setImportantForAccessibility(Landroid/view/View;I)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     return-void
 .end method
 
 .method public setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/graphics/Paint;
 
     return-void
 .end method
 
 .method public setLayerType(Landroid/view/View;ILandroid/graphics/Paint;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/graphics/Paint;
 
     return-void
 .end method

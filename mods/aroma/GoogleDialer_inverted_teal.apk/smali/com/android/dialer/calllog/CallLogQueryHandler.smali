@@ -46,8 +46,6 @@
 
 .method public constructor <init>(Landroid/content/ContentResolver;Lcom/android/dialer/calllog/CallLogQueryHandler$Listener;)V
     .locals 1
-    .param p1    # Landroid/content/ContentResolver;
-    .param p2    # Lcom/android/dialer/calllog/CallLogQueryHandler$Listener;
 
     const/4 v0, -0x1
 
@@ -58,9 +56,6 @@
 
 .method public constructor <init>(Landroid/content/ContentResolver;Lcom/android/dialer/calllog/CallLogQueryHandler$Listener;I)V
     .locals 1
-    .param p1    # Landroid/content/ContentResolver;
-    .param p2    # Lcom/android/dialer/calllog/CallLogQueryHandler$Listener;
-    .param p3    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/database/NoNullCursorAsyncQueryHandler;-><init>(Landroid/content/ContentResolver;)V
 
@@ -87,10 +82,6 @@
 
 .method private fetchCalls(IIZJ)V
     .locals 12
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Z
-    .param p4    # J
 
     new-instance v10, Ljava/lang/StringBuilder;
 
@@ -268,7 +259,6 @@
 
 .method private updateAdapterData(Landroid/database/Cursor;)Z
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     iget-object v1, p0, Lcom/android/dialer/calllog/CallLogQueryHandler;->mListener:Ljava/lang/ref/WeakReference;
 
@@ -295,7 +285,6 @@
 
 .method private updateVoicemailStatus(Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     iget-object v1, p0, Lcom/android/dialer/calllog/CallLogQueryHandler;->mListener:Ljava/lang/ref/WeakReference;
 
@@ -317,7 +306,6 @@
 # virtual methods
 .method protected createHandler(Landroid/os/Looper;)Landroid/os/Handler;
     .locals 1
-    .param p1    # Landroid/os/Looper;
 
     new-instance v0, Lcom/android/dialer/calllog/CallLogQueryHandler$CatchingWorkerHandler;
 
@@ -328,8 +316,6 @@
 
 .method public fetchCalls(IJ)V
     .locals 6
-    .param p1    # I
-    .param p2    # J
 
     invoke-direct {p0}, Lcom/android/dialer/calllog/CallLogQueryHandler;->cancelFetch()V
 
@@ -552,9 +538,6 @@
 
 .method protected declared-synchronized onNotNullableQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 3
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/database/Cursor;
 
     monitor-enter p0
 

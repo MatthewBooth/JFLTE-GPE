@@ -25,7 +25,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
@@ -38,8 +37,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -52,7 +49,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/PhotoEditorView;)Lcom/android/contacts/editor/Editor$EditorListener;
     .locals 1
-    .param p0    # Lcom/android/contacts/editor/PhotoEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/PhotoEditorView;->mListener:Lcom/android/contacts/editor/Editor$EditorListener;
 
@@ -203,14 +199,12 @@
 
 .method public setDeletable(Z)V
     .locals 0
-    .param p1    # Z
 
     return-void
 .end method
 
 .method public setEditorListener(Lcom/android/contacts/editor/Editor$EditorListener;)V
     .locals 5
-    .param p1    # Lcom/android/contacts/editor/Editor$EditorListener;
 
     const/4 v3, 0x4
 
@@ -259,7 +253,6 @@
 
 .method public setEnabled(Z)V
     .locals 1
-    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
@@ -272,7 +265,6 @@
 
 .method public setPhotoBitmap(Landroid/graphics/Bitmap;)V
     .locals 7
-    .param p1    # Landroid/graphics/Bitmap;
 
     const/4 v6, 0x1
 
@@ -346,7 +338,6 @@
 
 .method public setSuperPrimary(Z)V
     .locals 3
-    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/contacts/editor/PhotoEditorView;->mEntry:Lcom/android/contacts/common/model/ValuesDelta;
 
@@ -369,11 +360,6 @@
 
 .method public setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
     .locals 5
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p3    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p4    # Z
-    .param p5    # Lcom/android/contacts/editor/ViewIdGenerator;
 
     const/4 v4, 0x0
 

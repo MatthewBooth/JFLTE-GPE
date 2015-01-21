@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Landroid/accounts/Account;[BLandroid/net/Uri;Ljava/lang/String;ILjava/lang/String;II)V
     .locals 0
-    .param p1    # Landroid/accounts/Account;
-    .param p2    # [B
-    .param p3    # Landroid/net/Uri;
-    .param p4    # Ljava/lang/String;
-    .param p5    # I
-    .param p6    # Ljava/lang/String;
-    .param p7    # I
-    .param p8    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

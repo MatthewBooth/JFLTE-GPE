@@ -33,7 +33,6 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 2
-    .param p1    # Landroid/animation/Animator;
 
     const/high16 v1, 0x3f800000
 
@@ -50,7 +49,6 @@
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
     .locals 2
-    .param p1    # Landroid/animation/Animator;
 
     iget-object v0, p0, Lcom/android/phone/common/animation/AnimUtils$3;->val$view:Landroid/view/View;
 

@@ -27,8 +27,6 @@
 # virtual methods
 .method public getAccessibilityNodeProvider(Ljava/lang/Object;Landroid/view/View;)Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Landroid/view/View;
 
     invoke-static {p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompatJellyBean;->getAccessibilityNodeProvider(Ljava/lang/Object;Landroid/view/View;)Ljava/lang/Object;
 
@@ -51,7 +49,6 @@
 
 .method public newAccessiblityDelegateBridge(Landroid/support/v4/view/AccessibilityDelegateCompat;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/support/v4/view/AccessibilityDelegateCompat;
 
     new-instance v0, Landroid/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1;
 
@@ -66,10 +63,6 @@
 
 .method public performAccessibilityAction(Ljava/lang/Object;Landroid/view/View;ILandroid/os/Bundle;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Landroid/view/View;
-    .param p3    # I
-    .param p4    # Landroid/os/Bundle;
 
     invoke-static {p1, p2, p3, p4}, Landroid/support/v4/view/AccessibilityDelegateCompatJellyBean;->performAccessibilityAction(Ljava/lang/Object;Landroid/view/View;ILandroid/os/Bundle;)Z
 

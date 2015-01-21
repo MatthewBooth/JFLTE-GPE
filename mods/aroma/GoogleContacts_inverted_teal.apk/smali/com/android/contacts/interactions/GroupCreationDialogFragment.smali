@@ -30,7 +30,6 @@
 
 .method private constructor <init>(Lcom/android/contacts/interactions/GroupCreationDialogFragment$OnGroupCreatedListener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/interactions/GroupCreationDialogFragment$OnGroupCreatedListener;
 
     invoke-direct {p0}, Lcom/android/contacts/interactions/GroupNameDialogFragment;-><init>()V
 
@@ -41,11 +40,6 @@
 
 .method public static show(Landroid/app/FragmentManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/android/contacts/interactions/GroupCreationDialogFragment$OnGroupCreatedListener;)V
     .locals 3
-    .param p0    # Landroid/app/FragmentManager;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Lcom/android/contacts/interactions/GroupCreationDialogFragment$OnGroupCreatedListener;
 
     new-instance v1, Lcom/android/contacts/interactions/GroupCreationDialogFragment;
 
@@ -88,14 +82,12 @@
 
 .method protected initializeGroupLabelEditText(Landroid/widget/EditText;)V
     .locals 0
-    .param p1    # Landroid/widget/EditText;
 
     return-void
 .end method
 
 .method protected onCompleted(Ljava/lang/String;)V
     .locals 10
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/interactions/GroupCreationDialogFragment;->getArguments()Landroid/os/Bundle;
 

@@ -113,8 +113,6 @@
 
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V
 
@@ -139,7 +137,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/group/SuggestedMemberListAdapter;)Landroid/content/ContentResolver;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mContentResolver:Landroid/content/ContentResolver;
 
@@ -148,7 +145,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/group/SuggestedMemberListAdapter;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mDataSet:Ljava/lang/String;
 
@@ -157,7 +153,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/group/SuggestedMemberListAdapter;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mAccountName:Ljava/lang/String;
 
@@ -166,7 +161,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/group/SuggestedMemberListAdapter;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mAccountType:Ljava/lang/String;
 
@@ -183,7 +177,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/group/SuggestedMemberListAdapter;)Ljava/util/List;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/SuggestedMemberListAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mExistingMemberContactIds:Ljava/util/List;
 
@@ -202,7 +195,6 @@
 # virtual methods
 .method public addNewMember(J)V
     .locals 3
-    .param p1    # J
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mExistingMemberContactIds:Ljava/util/List;
 
@@ -236,9 +228,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 10
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v9, 0x0
 
@@ -348,7 +337,6 @@
 
 .method public removeMember(J)V
     .locals 3
-    .param p1    # J
 
     iget-object v0, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mExistingMemberContactIds:Ljava/util/List;
 
@@ -376,7 +364,6 @@
 
 .method public setAccountName(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mAccountName:Ljava/lang/String;
 
@@ -385,7 +372,6 @@
 
 .method public setAccountType(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mAccountType:Ljava/lang/String;
 
@@ -394,7 +380,6 @@
 
 .method public setContentResolver(Landroid/content/ContentResolver;)V
     .locals 0
-    .param p1    # Landroid/content/ContentResolver;
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mContentResolver:Landroid/content/ContentResolver;
 
@@ -403,7 +388,6 @@
 
 .method public setDataSet(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/group/SuggestedMemberListAdapter;->mDataSet:Ljava/lang/String;
 

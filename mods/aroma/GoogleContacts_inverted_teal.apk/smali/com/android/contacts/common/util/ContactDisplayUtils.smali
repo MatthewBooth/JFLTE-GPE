@@ -32,7 +32,6 @@
 
 .method public static getPhoneLabelResourceId(Ljava/lang/Integer;)I
     .locals 2
-    .param p0    # Ljava/lang/Integer;
 
     const v0, 0x7f0b003f
 
@@ -177,7 +176,6 @@
 
 .method public static getSmsLabelResourceId(Ljava/lang/Integer;)I
     .locals 2
-    .param p0    # Ljava/lang/Integer;
 
     const v0, 0x7f0b0054
 
@@ -322,7 +320,6 @@
 
 .method public static isCustomPhoneType(Ljava/lang/Integer;)Z
     .locals 2
-    .param p0    # Ljava/lang/Integer;
 
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 

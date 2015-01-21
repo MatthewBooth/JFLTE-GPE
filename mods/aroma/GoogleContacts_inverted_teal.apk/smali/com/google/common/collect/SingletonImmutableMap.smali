@@ -141,7 +141,6 @@
 # virtual methods
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/SingletonImmutableMap;->singleKey:Ljava/lang/Object;
 
@@ -154,7 +153,6 @@
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/SingletonImmutableMap;->singleValue:Ljava/lang/Object;
 
@@ -207,7 +205,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
 
     const/4 v2, 0x1
 
@@ -290,7 +287,6 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

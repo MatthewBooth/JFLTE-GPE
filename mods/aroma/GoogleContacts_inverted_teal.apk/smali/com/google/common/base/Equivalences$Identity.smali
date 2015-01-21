@@ -66,8 +66,6 @@
 # virtual methods
 .method protected doEquivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -76,7 +74,6 @@
 
 .method protected doHash(Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 

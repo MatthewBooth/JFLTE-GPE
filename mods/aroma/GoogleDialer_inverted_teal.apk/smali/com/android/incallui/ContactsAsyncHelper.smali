@@ -70,7 +70,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/ContactsAsyncHelper;)Landroid/os/Handler;
     .locals 1
-    .param p0    # Lcom/android/incallui/ContactsAsyncHelper;
 
     iget-object v0, p0, Lcom/android/incallui/ContactsAsyncHelper;->mResultHandler:Landroid/os/Handler;
 
@@ -79,11 +78,6 @@
 
 .method public static final startObtainPhotoAsync(ILandroid/content/Context;Landroid/net/Uri;Lcom/android/incallui/ContactsAsyncHelper$OnImageLoadCompleteListener;Ljava/lang/Object;)V
     .locals 5
-    .param p0    # I
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Lcom/android/incallui/ContactsAsyncHelper$OnImageLoadCompleteListener;
-    .param p4    # Ljava/lang/Object;
 
     if-nez p2, :cond_0
 

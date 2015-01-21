@@ -37,7 +37,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x2
 
@@ -48,8 +47,6 @@
 
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
 
     const/4 v1, 0x1
 
@@ -78,8 +75,6 @@
 # virtual methods
 .method public addPartition(ILcom/android/common/widget/CompositeCursorAdapter$Partition;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Lcom/android/common/widget/CompositeCursorAdapter$Partition;
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -94,7 +89,6 @@
 
 .method public addPartition(Lcom/android/common/widget/CompositeCursorAdapter$Partition;)V
     .locals 1
-    .param p1    # Lcom/android/common/widget/CompositeCursorAdapter$Partition;
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -109,8 +103,6 @@
 
 .method public addPartition(ZZ)V
     .locals 1
-    .param p1    # Z
-    .param p2    # Z
 
     new-instance v0, Lcom/android/common/widget/CompositeCursorAdapter$Partition;
 
@@ -160,9 +152,6 @@
 
 .method protected bindHeaderView(Landroid/view/View;ILandroid/database/Cursor;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
 
     return-void
 .end method
@@ -172,8 +161,6 @@
 
 .method public changeCursor(ILandroid/database/Cursor;)V
     .locals 3
-    .param p1    # I
-    .param p2    # Landroid/database/Cursor;
 
     iget-object v1, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -371,7 +358,6 @@
 
 .method public getCursor(I)Landroid/database/Cursor;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -388,10 +374,6 @@
 
 .method protected getHeaderView(ILandroid/database/Cursor;Landroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
-    .param p1    # I
-    .param p2    # Landroid/database/Cursor;
-    .param p3    # Landroid/view/View;
-    .param p4    # Landroid/view/ViewGroup;
 
     if-eqz p3, :cond_0
 
@@ -414,7 +396,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 7
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -481,7 +462,6 @@
 
 .method public getItemId(I)J
     .locals 10
-    .param p1    # I
 
     const/4 v9, -0x1
 
@@ -570,7 +550,6 @@
 
 .method public getItemViewType(I)I
     .locals 7
-    .param p1    # I
 
     const/4 v6, -0x1
 
@@ -653,8 +632,6 @@
 
 .method protected getItemViewType(II)I
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -671,7 +648,6 @@
 
 .method public getOffsetInPartition(I)I
     .locals 6
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/common/widget/CompositeCursorAdapter;->ensureCacheValid()V
 
@@ -729,7 +705,6 @@
 
 .method public getPartition(I)Lcom/android/common/widget/CompositeCursorAdapter$Partition;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -756,7 +731,6 @@
 
 .method public getPartitionForPosition(I)I
     .locals 5
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/common/widget/CompositeCursorAdapter;->ensureCacheValid()V
 
@@ -807,7 +781,6 @@
 
 .method public getPositionForPartition(I)I
     .locals 3
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/common/widget/CompositeCursorAdapter;->ensureCacheValid()V
 
@@ -840,11 +813,6 @@
 
 .method protected getView(ILandroid/database/Cursor;ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 7
-    .param p1    # I
-    .param p2    # Landroid/database/Cursor;
-    .param p3    # I
-    .param p4    # Landroid/view/View;
-    .param p5    # Landroid/view/ViewGroup;
 
     if-eqz p4, :cond_0
 
@@ -877,9 +845,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 10
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0}, Lcom/android/common/widget/CompositeCursorAdapter;->ensureCacheValid()V
 
@@ -1080,7 +1045,6 @@
 
 .method public hasHeader(I)Z
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -1107,7 +1071,6 @@
 
 .method public isEnabled(I)Z
     .locals 7
-    .param p1    # I
 
     const/4 v6, 0x0
 
@@ -1185,8 +1148,6 @@
 
 .method protected isEnabled(II)Z
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -1195,7 +1156,6 @@
 
 .method public isPartitionEmpty(I)Z
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -1229,10 +1189,6 @@
 
 .method protected newHeaderView(Landroid/content/Context;ILandroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # Landroid/view/ViewGroup;
 
     const/4 v0, 0x0
 
@@ -1268,7 +1224,6 @@
 
 .method public removePartition(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -1304,8 +1259,6 @@
 
 .method public setHasHeader(IZ)V
     .locals 1
-    .param p1    # I
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 
@@ -1324,8 +1277,6 @@
 
 .method public setShowIfEmpty(IZ)V
     .locals 1
-    .param p1    # I
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/common/widget/CompositeCursorAdapter;->mPartitions:Ljava/util/ArrayList;
 

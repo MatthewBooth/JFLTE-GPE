@@ -33,8 +33,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/interactions/ImportExportDialogFragment;I)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/common/interactions/ImportExportDialogFragment;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/interactions/ImportExportDialogFragment;->handleImportRequest(I)Z
 
@@ -45,7 +43,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/common/interactions/ImportExportDialogFragment;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/interactions/ImportExportDialogFragment;
 
     invoke-direct {p0}, Lcom/android/contacts/common/interactions/ImportExportDialogFragment;->doShareVisibleContacts()V
 
@@ -190,7 +187,6 @@
 
 .method private handleImportRequest(I)Z
     .locals 8
-    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -263,9 +259,6 @@
 
 .method public static show(Landroid/app/FragmentManager;ZLjava/lang/Class;)V
     .locals 4
-    .param p0    # Landroid/app/FragmentManager;
-    .param p1    # Z
-    .param p2    # Ljava/lang/Class;
 
     new-instance v1, Lcom/android/contacts/common/interactions/ImportExportDialogFragment;
 
@@ -300,8 +293,6 @@
 # virtual methods
 .method public onAccountChosen(Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
-    .param p2    # Landroid/os/Bundle;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/interactions/ImportExportDialogFragment;->getActivity()Landroid/app/Activity;
 
@@ -330,7 +321,6 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 0
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsDialogFragment;->onAttach(Landroid/app/Activity;)V
 
@@ -341,7 +331,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 9
-    .param p1    # Landroid/os/Bundle;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/interactions/ImportExportDialogFragment;->getActivity()Landroid/app/Activity;
 

@@ -50,7 +50,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$KeySet;->this$0:Lcom/google/common/collect/MapMakerInternalMap;
 
@@ -94,7 +93,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$KeySet;->this$0:Lcom/google/common/collect/MapMakerInternalMap;
 

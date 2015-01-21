@@ -6,7 +6,6 @@
 # direct methods
 .method public static closeQuietly(Ljava/lang/AutoCloseable;)V
     .locals 2
-    .param p0    # Ljava/lang/AutoCloseable;
 
     if-eqz p0, :cond_0
 
@@ -33,10 +32,6 @@
 
 .method public static configureEmptyListView(Landroid/view/View;IILandroid/content/res/Resources;)V
     .locals 3
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/res/Resources;
 
     const v2, 0x7f0e00d9
 
@@ -77,7 +72,6 @@
 
 .method public static getSmsComponent(Landroid/content/Context;)Landroid/content/ComponentName;
     .locals 10
-    .param p0    # Landroid/content/Context;
 
     const/4 v6, 0x0
 
@@ -152,7 +146,6 @@
 
 .method public static hideInputMethod(Landroid/view/View;)V
     .locals 3
-    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -206,7 +199,6 @@
 
 .method public static join(Landroid/content/res/Resources;Ljava/lang/Iterable;)Ljava/lang/CharSequence;
     .locals 2
-    .param p0    # Landroid/content/res/Resources;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -234,7 +226,6 @@
 
 .method public static showInputMethod(Landroid/view/View;)V
     .locals 3
-    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -260,8 +251,6 @@
 
 .method public static startActivityWithErrorToast(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 1
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/content/Intent;
 
     const v0, 0x7f08024f
 
@@ -272,9 +261,6 @@
 
 .method public static startActivityWithErrorToast(Landroid/content/Context;Landroid/content/Intent;I)V
     .locals 7
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/content/Intent;
-    .param p2    # I
 
     const/4 v6, 0x0
 

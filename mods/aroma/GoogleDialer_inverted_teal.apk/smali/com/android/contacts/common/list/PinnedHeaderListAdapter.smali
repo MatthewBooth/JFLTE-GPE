@@ -15,7 +15,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/common/widget/CompositeCursorAdapter;-><init>(Landroid/content/Context;)V
 
@@ -26,7 +25,6 @@
 # virtual methods
 .method public configurePinnedHeaders(Lcom/android/contacts/common/list/PinnedHeaderListView;)V
     .locals 14
-    .param p1    # Lcom/android/contacts/common/list/PinnedHeaderListView;
 
     const/4 v13, 0x0
 
@@ -238,9 +236,6 @@
 
 .method public getPinnedHeaderView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v2, 0x0
 
@@ -325,7 +320,6 @@
 
 .method public getScrollPositionForHeader(I)I
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PinnedHeaderListAdapter;->getPositionForPartition(I)I
 
@@ -336,7 +330,6 @@
 
 .method protected isPinnedPartitionHeaderVisible(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/PinnedHeaderListAdapter;->getPinnedPartitionHeadersEnabled()Z
 
@@ -369,7 +362,6 @@
 
 .method public setPinnedPartitionHeadersEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/PinnedHeaderListAdapter;->mPinnedPartitionHeadersEnabled:Z
 

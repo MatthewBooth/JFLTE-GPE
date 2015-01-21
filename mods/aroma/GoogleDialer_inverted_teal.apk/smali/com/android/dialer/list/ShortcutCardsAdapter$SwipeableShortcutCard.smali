@@ -32,7 +32,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/list/ShortcutCardsAdapter;Landroid/content/Context;)V
     .locals 6
-    .param p2    # Landroid/content/Context;
 
     iput-object p1, p0, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->this$0:Lcom/android/dialer/list/ShortcutCardsAdapter;
 
@@ -85,8 +84,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;Landroid/view/View;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;
-    .param p1    # Landroid/view/View;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->prepareChildView(Landroid/view/View;)V
 
@@ -95,7 +92,6 @@
 
 .method private prepareChildView(Landroid/view/View;)V
     .locals 12
-    .param p1    # Landroid/view/View;
 
     const/4 v11, 0x0
 
@@ -280,8 +276,6 @@
 
 .method private setChildrenOpacity(Landroid/view/ViewGroup;F)V
     .locals 3
-    .param p1    # Landroid/view/ViewGroup;
-    .param p2    # F
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -310,7 +304,6 @@
 # virtual methods
 .method public canChildBeDismissed(Landroid/view/View;)Z
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x1
 
@@ -319,7 +312,6 @@
 
 .method public clipCard(F)V
     .locals 8
-    .param p1    # F
 
     const/4 v7, 0x0
 
@@ -437,7 +429,6 @@
 
 .method public getChildAtPosition(Landroid/view/MotionEvent;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p0}, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->getChildCount()I
 
@@ -462,7 +453,6 @@
 
 .method public getChildContentView(Landroid/view/View;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const v0, 0x7f0e0074
 
@@ -475,7 +465,6 @@
 
 .method public onBeginDrag(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x1
 
@@ -486,7 +475,6 @@
 
 .method public onChildDismissed(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
 
     if-eqz p1, :cond_0
 
@@ -504,14 +492,12 @@
 
 .method public onDragCancelled(Landroid/view/View;)V
     .locals 0
-    .param p1    # Landroid/view/View;
 
     return-void
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->mSwipeHelper:Lcom/android/dialer/list/SwipeHelper;
 
@@ -558,7 +544,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     iget-object v0, p0, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->mSwipeHelper:Lcom/android/dialer/list/SwipeHelper;
 
@@ -599,7 +584,6 @@
 
 .method public setOnItemSwipeListener(Lcom/android/dialer/list/SwipeHelper$OnItemGestureListener;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/list/SwipeHelper$OnItemGestureListener;
 
     iput-object p1, p0, Lcom/android/dialer/list/ShortcutCardsAdapter$SwipeableShortcutCard;->mOnItemSwipeListener:Lcom/android/dialer/list/SwipeHelper$OnItemGestureListener;
 

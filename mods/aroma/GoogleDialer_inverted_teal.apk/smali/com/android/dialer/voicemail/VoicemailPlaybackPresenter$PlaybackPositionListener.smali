@@ -36,8 +36,6 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$1;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p2    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackPositionListener;-><init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)V
 
@@ -48,9 +46,6 @@
 # virtual methods
 .method public onProgressChanged(Landroid/widget/SeekBar;IZ)V
     .locals 3
-    .param p1    # Landroid/widget/SeekBar;
-    .param p2    # I
-    .param p3    # Z
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackPositionListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
@@ -74,7 +69,6 @@
 
 .method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 3
-    .param p1    # Landroid/widget/SeekBar;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackPositionListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
@@ -133,7 +127,6 @@
 
 .method public onStopTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 3
-    .param p1    # Landroid/widget/SeekBar;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackPositionListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 

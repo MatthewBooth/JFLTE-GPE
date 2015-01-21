@@ -18,7 +18,6 @@
 # virtual methods
 .method public getValueObject(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -27,7 +26,6 @@
 
 .method public isPrimitiveFieldSet(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 

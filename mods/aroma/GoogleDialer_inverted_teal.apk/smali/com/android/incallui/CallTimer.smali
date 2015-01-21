@@ -27,7 +27,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 2
-    .param p1    # Ljava/lang/Runnable;
 
     const-wide/16 v0, 0x0
 
@@ -58,7 +57,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/CallTimer;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallTimer;
 
     invoke-direct {p0}, Lcom/android/incallui/CallTimer;->periodicUpdateTimer()V
 
@@ -129,7 +127,6 @@
 
 .method public start(J)Z
     .locals 5
-    .param p1    # J
 
     const/4 v0, 0x1
 

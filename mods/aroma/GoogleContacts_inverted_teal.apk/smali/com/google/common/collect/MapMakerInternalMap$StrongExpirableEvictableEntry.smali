@@ -74,7 +74,6 @@
 # direct methods
 .method constructor <init>(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)V
     .locals 2
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -188,7 +187,6 @@
 
 .method public setExpirationTime(J)V
     .locals 1
-    .param p1    # J
 
     iput-wide p1, p0, Lcom/google/common/collect/MapMakerInternalMap$StrongExpirableEvictableEntry;->time:J
 

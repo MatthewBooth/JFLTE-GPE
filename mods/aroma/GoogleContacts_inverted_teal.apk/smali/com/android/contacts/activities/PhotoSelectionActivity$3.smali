@@ -36,15 +36,6 @@
 # virtual methods
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 9
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
-    .param p6    # I
-    .param p7    # I
-    .param p8    # I
-    .param p9    # I
 
     iget-object v5, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$3;->this$0:Lcom/android/contacts/activities/PhotoSelectionActivity;
 

@@ -6,8 +6,6 @@
 # direct methods
 .method public static draw(Ljava/lang/Object;Landroid/graphics/Canvas;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/graphics/Canvas;
 
     check-cast p0, Landroid/widget/EdgeEffect;
 
@@ -20,7 +18,6 @@
 
 .method public static finish(Ljava/lang/Object;)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/widget/EdgeEffect;
 
@@ -31,7 +28,6 @@
 
 .method public static isFinished(Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/widget/EdgeEffect;
 
@@ -44,7 +40,6 @@
 
 .method public static newEdgeEffect(Landroid/content/Context;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Landroid/widget/EdgeEffect;
 
@@ -55,8 +50,6 @@
 
 .method public static onPull(Ljava/lang/Object;F)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # F
 
     check-cast p0, Landroid/widget/EdgeEffect;
 
@@ -69,7 +62,6 @@
 
 .method public static onRelease(Ljava/lang/Object;)Z
     .locals 2
-    .param p0    # Ljava/lang/Object;
 
     move-object v0, p0
 
@@ -86,9 +78,6 @@
 
 .method public static setSize(Ljava/lang/Object;II)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # I
-    .param p2    # I
 
     check-cast p0, Landroid/widget/EdgeEffect;
 

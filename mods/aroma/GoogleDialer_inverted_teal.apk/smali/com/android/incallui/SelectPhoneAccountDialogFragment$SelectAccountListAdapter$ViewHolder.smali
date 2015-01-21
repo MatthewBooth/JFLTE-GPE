@@ -35,8 +35,6 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/SelectPhoneAccountDialogFragment$SelectAccountListAdapter;Lcom/android/incallui/SelectPhoneAccountDialogFragment$1;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/SelectPhoneAccountDialogFragment$SelectAccountListAdapter;
-    .param p2    # Lcom/android/incallui/SelectPhoneAccountDialogFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/SelectPhoneAccountDialogFragment$SelectAccountListAdapter$ViewHolder;-><init>(Lcom/android/incallui/SelectPhoneAccountDialogFragment$SelectAccountListAdapter;)V
 

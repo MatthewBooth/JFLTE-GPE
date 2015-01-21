@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;I)V
     .locals 0
-    .param p2    # I
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ImportVCardActivity$DialogDisplayer;->this$0:Lcom/android/contacts/common/vcard/ImportVCardActivity;
 
@@ -39,7 +38,6 @@
 
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;Ljava/lang/String;)V
     .locals 1
-    .param p2    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ImportVCardActivity$DialogDisplayer;->this$0:Lcom/android/contacts/common/vcard/ImportVCardActivity;
 

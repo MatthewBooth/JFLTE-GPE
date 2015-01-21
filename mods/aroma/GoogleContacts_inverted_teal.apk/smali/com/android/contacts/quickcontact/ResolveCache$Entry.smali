@@ -31,7 +31,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/quickcontact/ResolveCache$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/quickcontact/ResolveCache$1;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/ResolveCache$Entry;-><init>()V
 

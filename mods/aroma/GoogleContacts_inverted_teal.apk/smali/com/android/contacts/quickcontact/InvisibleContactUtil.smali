@@ -6,8 +6,6 @@
 # direct methods
 .method public static addToDefaultGroup(Lcom/android/contacts/common/model/Contact;Landroid/content/Context;)V
     .locals 18
-    .param p0    # Lcom/android/contacts/common/model/Contact;
-    .param p1    # Landroid/content/Context;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/contacts/common/model/Contact;->getGroupMetaData()Lcom/google/common/collect/ImmutableList;
 
@@ -152,8 +150,6 @@
 
 .method public static isInvisibleAndAddable(Lcom/android/contacts/common/model/Contact;Landroid/content/Context;)Z
     .locals 14
-    .param p0    # Lcom/android/contacts/common/model/Contact;
-    .param p1    # Landroid/content/Context;
 
     const/4 v10, 0x1
 

@@ -30,10 +30,6 @@
 
 .method public static show(Landroid/app/FragmentManager;JLjava/lang/String;Z)V
     .locals 3
-    .param p0    # Landroid/app/FragmentManager;
-    .param p1    # J
-    .param p3    # Ljava/lang/String;
-    .param p4    # Z
 
     new-instance v1, Lcom/android/contacts/interactions/GroupDeletionDialogFragment;
 
@@ -111,7 +107,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 6
-    .param p1    # Landroid/os/Bundle;
 
     invoke-virtual {p0}, Lcom/android/contacts/interactions/GroupDeletionDialogFragment;->getArguments()Landroid/os/Bundle;
 

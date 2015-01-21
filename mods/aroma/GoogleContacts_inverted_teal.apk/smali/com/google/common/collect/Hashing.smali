@@ -6,7 +6,6 @@
 # direct methods
 .method static smear(I)I
     .locals 2
-    .param p0    # I
 
     ushr-int/lit8 v0, p0, 0x14
 

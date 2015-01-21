@@ -144,7 +144,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/SpeedDialFragment;)Lcom/android/dialer/list/PhoneFavoritesTileAdapter;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mContactTileAdapter:Lcom/android/dialer/list/PhoneFavoritesTileAdapter;
 
@@ -153,7 +152,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/SpeedDialFragment;)Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mPhoneNumberPickerActionListener:Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
 
@@ -162,7 +160,6 @@
 
 .method static synthetic access$1000(Lcom/android/dialer/list/SpeedDialFragment;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mAnimationDuration:I
 
@@ -171,7 +168,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/list/SpeedDialFragment;)Lcom/android/dialer/list/OnListFragmentScrolledListener;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mActivityScrollListener:Lcom/android/dialer/list/OnListFragmentScrolledListener;
 
@@ -180,7 +176,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/list/SpeedDialFragment;)Lcom/android/dialer/list/PhoneFavoriteListView;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mListView:Lcom/android/dialer/list/PhoneFavoriteListView;
 
@@ -189,9 +184,6 @@
 
 .method static synthetic access$700(Lcom/android/dialer/list/SpeedDialFragment;[JJ)Z
     .locals 2
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
-    .param p1    # [J
-    .param p2    # J
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/dialer/list/SpeedDialFragment;->containsId([JJ)Z
 
@@ -202,7 +194,6 @@
 
 .method static synthetic access$800(Lcom/android/dialer/list/SpeedDialFragment;)Ljava/util/HashMap;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mItemIdTopMap:Ljava/util/HashMap;
 
@@ -211,7 +202,6 @@
 
 .method static synthetic access$900(Lcom/android/dialer/list/SpeedDialFragment;)Ljava/util/HashMap;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment;->mItemIdLeftMap:Ljava/util/HashMap;
 
@@ -220,7 +210,6 @@
 
 .method private varargs animateGridView([J)V
     .locals 2
-    .param p1    # [J
 
     iget-object v1, p0, Lcom/android/dialer/list/SpeedDialFragment;->mItemIdTopMap:Ljava/util/HashMap;
 
@@ -251,8 +240,6 @@
 
 .method private containsId([JJ)Z
     .locals 4
-    .param p1    # [J
-    .param p2    # J
 
     const/4 v0, 0x0
 
@@ -285,7 +272,6 @@
 
 .method private saveOffsets(I)V
     .locals 10
-    .param p1    # I
 
     iget-object v6, p0, Lcom/android/dialer/list/SpeedDialFragment;->mListView:Lcom/android/dialer/list/PhoneFavoriteListView;
 
@@ -421,7 +407,6 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 2
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsFragment;->onAttach(Landroid/app/Activity;)V
 
@@ -446,7 +431,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -467,9 +451,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 8
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     const/4 v7, 0x0
 
@@ -636,7 +617,6 @@
 
 .method public varargs onDataSetChangedForAnimation([J)V
     .locals 0
-    .param p1    # [J
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/SpeedDialFragment;->animateGridView([J)V
 
@@ -645,9 +625,6 @@
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 4
-    .param p2    # Landroid/view/View;
-    .param p3    # I
-    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -890,7 +867,6 @@
 
 .method setEmptyViewVisibility(Z)V
     .locals 4
-    .param p1    # Z
 
     iget-object v3, p0, Lcom/android/dialer/list/SpeedDialFragment;->mEmptyView:Landroid/view/View;
 

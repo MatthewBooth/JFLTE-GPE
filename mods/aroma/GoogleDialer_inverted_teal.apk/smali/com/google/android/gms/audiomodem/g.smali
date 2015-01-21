@@ -163,7 +163,6 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/audiomodem/g;->Z(Landroid/os/Parcel;)Lcom/google/android/gms/audiomodem/TokenReceiver$Params;
 
@@ -174,7 +173,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/audiomodem/g;->aB(I)[Lcom/google/android/gms/audiomodem/TokenReceiver$Params;
 

@@ -26,7 +26,6 @@
 
 .method private readEntries(Ljava/io/ObjectInput;)V
     .locals 3
-    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -124,10 +123,6 @@
 
 .method private static readExternalWord(Ljava/io/ObjectInput;ILjava/nio/ByteBuffer;I)V
     .locals 2
-    .param p0    # Ljava/io/ObjectInput;
-    .param p1    # I
-    .param p2    # Ljava/nio/ByteBuffer;
-    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -161,9 +156,6 @@
 
 .method private static readWordFromBuffer(Ljava/nio/ByteBuffer;II)I
     .locals 2
-    .param p0    # Ljava/nio/ByteBuffer;
-    .param p1    # I
-    .param p2    # I
 
     mul-int v0, p2, p1
 
@@ -188,10 +180,6 @@
 
 .method private static writeExternalWord(Ljava/io/ObjectOutput;ILjava/nio/ByteBuffer;I)V
     .locals 2
-    .param p0    # Ljava/io/ObjectOutput;
-    .param p1    # I
-    .param p2    # Ljava/nio/ByteBuffer;
-    .param p3    # I
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -227,7 +215,6 @@
 # virtual methods
 .method public getDescription(I)Ljava/lang/String;
     .locals 3
-    .param p1    # I
 
     iget-object v1, p0, Lcom/google/i18n/phonenumbers/geocoding/FlyweightMapStorage;->descriptionIndexes:Ljava/nio/ByteBuffer;
 
@@ -246,7 +233,6 @@
 
 .method public getPrefix(I)I
     .locals 2
-    .param p1    # I
 
     iget-object v0, p0, Lcom/google/i18n/phonenumbers/geocoding/FlyweightMapStorage;->phoneNumberPrefixes:Ljava/nio/ByteBuffer;
 
@@ -261,7 +247,6 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 6
-    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -355,7 +340,6 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 9
-    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

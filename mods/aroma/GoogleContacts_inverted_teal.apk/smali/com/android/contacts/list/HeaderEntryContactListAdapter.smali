@@ -10,7 +10,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/DefaultContactListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -46,10 +45,6 @@
 # virtual methods
 .method protected bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # I
 
     invoke-direct {p0}, Lcom/android/contacts/list/HeaderEntryContactListAdapter;->getHeaderEntryCount()I
 
@@ -100,7 +95,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/list/HeaderEntryContactListAdapter;->getHeaderEntryCount()I
 
@@ -117,7 +111,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     if-nez p1, :cond_0
 
@@ -152,7 +145,6 @@
 
 .method public getPartitionForPosition(I)I
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/list/HeaderEntryContactListAdapter;->getHeaderEntryCount()I
 
@@ -169,9 +161,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 7
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v2, 0x0
 
@@ -264,7 +253,6 @@
 
 .method public isEnabled(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/list/HeaderEntryContactListAdapter;->getHeaderEntryCount()I
 
@@ -298,7 +286,6 @@
 
 .method public setShowCreateContact(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/list/HeaderEntryContactListAdapter;->mShowCreateContact:Z
 

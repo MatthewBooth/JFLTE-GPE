@@ -78,7 +78,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -89,8 +88,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, -0x1
 
@@ -101,9 +98,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/GridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -184,7 +178,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/PhoneFavoriteListView;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mLastDragY:I
 
@@ -193,7 +186,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/PhoneFavoriteListView;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mTopScrollBound:I
 
@@ -202,7 +194,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/list/PhoneFavoriteListView;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mBottomScrollBound:I
 
@@ -211,7 +202,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/list/PhoneFavoriteListView;)Landroid/os/Handler;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mScrollHandler:Landroid/os/Handler;
 
@@ -220,7 +210,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/list/PhoneFavoriteListView;)Landroid/graphics/Bitmap;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowBitmap:Landroid/graphics/Bitmap;
 
@@ -229,8 +218,6 @@
 
 .method static synthetic access$402(Lcom/android/dialer/list/PhoneFavoriteListView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 0
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
-    .param p1    # Landroid/graphics/Bitmap;
 
     iput-object p1, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowBitmap:Landroid/graphics/Bitmap;
 
@@ -239,7 +226,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/list/PhoneFavoriteListView;)Landroid/widget/ImageView;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/PhoneFavoriteListView;
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowOverlay:Landroid/widget/ImageView;
 
@@ -248,7 +234,6 @@
 
 .method private createDraggedChildBitmap(Landroid/view/View;)Landroid/graphics/Bitmap;
     .locals 6
-    .param p1    # Landroid/view/View;
 
     const/4 v5, 0x0
 
@@ -316,8 +301,6 @@
 
 .method private getViewAtPosition(II)Landroid/view/View;
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/dialer/list/PhoneFavoriteListView;->getChildCount()I
 
@@ -382,8 +365,6 @@
 
 .method public getViewForLocation(II)Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
     .locals 5
-    .param p1    # I
-    .param p2    # I
 
     iget-object v3, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mLocationOnScreen:[I
 
@@ -426,7 +407,6 @@
 
 .method protected onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 1
-    .param p1    # Landroid/content/res/Configuration;
 
     invoke-super {p0, p1}, Landroid/widget/GridView;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
@@ -451,7 +431,6 @@
 
 .method public onDragEvent(Landroid/view/DragEvent;)Z
     .locals 10
-    .param p1    # Landroid/view/DragEvent;
 
     const/4 v5, 0x1
 
@@ -623,8 +602,6 @@
 
 .method public onDragFinished(II)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowOverlay:Landroid/widget/ImageView;
 
@@ -668,9 +645,6 @@
 
 .method public onDragHovered(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 3
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowParent:Landroid/view/View;
 
@@ -732,9 +706,6 @@
 
 .method public onDragStarted(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     const/4 v3, 0x1
 
@@ -860,7 +831,6 @@
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -894,7 +864,6 @@
 
 .method public setDragShadowOverlay(Landroid/widget/ImageView;)V
     .locals 1
-    .param p1    # Landroid/widget/ImageView;
 
     iput-object p1, p0, Lcom/android/dialer/list/PhoneFavoriteListView;->mDragShadowOverlay:Landroid/widget/ImageView;
 

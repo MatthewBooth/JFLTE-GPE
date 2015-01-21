@@ -30,16 +30,12 @@
 # virtual methods
 .method public setMenuVisibility(Landroid/app/Fragment;Z)V
     .locals 0
-    .param p1    # Landroid/app/Fragment;
-    .param p2    # Z
 
     return-void
 .end method
 
 .method public setUserVisibleHint(Landroid/app/Fragment;Z)V
     .locals 0
-    .param p1    # Landroid/app/Fragment;
-    .param p2    # Z
 
     return-void
 .end method

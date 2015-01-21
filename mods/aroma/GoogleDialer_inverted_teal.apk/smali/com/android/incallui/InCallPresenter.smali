@@ -201,7 +201,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/InCallPresenter;)Landroid/telecom/Call$Listener;
     .locals 1
-    .param p0    # Lcom/android/incallui/InCallPresenter;
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter;->mCallListener:Landroid/telecom/Call$Listener;
 
@@ -210,7 +209,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/InCallPresenter;)Ljava/util/Set;
     .locals 1
-    .param p0    # Lcom/android/incallui/InCallPresenter;
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter;->mDetailsListeners:Ljava/util/Set;
 
@@ -438,7 +436,6 @@
 
 .method public static getPotentialStateFromCallList(Lcom/android/incallui/CallList;)Lcom/android/incallui/InCallPresenter$InCallState;
     .locals 3
-    .param p0    # Lcom/android/incallui/CallList;
 
     sget-object v0, Lcom/android/incallui/InCallPresenter$InCallState;->NO_CALLS:Lcom/android/incallui/InCallPresenter$InCallState;
 
@@ -571,7 +568,6 @@
 
 .method private maybeShowErrorDialogOnDisconnect(Lcom/android/incallui/Call;)V
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p0}, Lcom/android/incallui/InCallPresenter;->isActivityStarted()Z
 
@@ -616,7 +612,6 @@
 
 .method private setDisconnectCauseForMissingAccounts(Lcom/android/incallui/Call;)V
     .locals 8
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getTelecommCall()Landroid/telecom/Call;
 
@@ -708,8 +703,6 @@
 
 .method private showInCall(ZZ)V
     .locals 2
-    .param p1    # Z
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter;->mContext:Landroid/content/Context;
 
@@ -724,7 +717,6 @@
 
 .method private startOrFinishUi(Lcom/android/incallui/InCallPresenter$InCallState;)Lcom/android/incallui/InCallPresenter$InCallState;
     .locals 10
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
 
     const/4 v6, 0x1
 
@@ -975,7 +967,6 @@
 
 .method private startUi(Lcom/android/incallui/InCallPresenter$InCallState;)Z
     .locals 4
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
 
     const/4 v2, 0x1
 
@@ -1050,7 +1041,6 @@
 # virtual methods
 .method public acceptUpgradeRequest(Landroid/content/Context;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     iget-object v2, p0, Lcom/android/incallui/InCallPresenter;->mCallList:Lcom/android/incallui/CallList;
 
@@ -1092,7 +1082,6 @@
 
 .method public addDetailsListener(Lcom/android/incallui/InCallPresenter$InCallDetailsListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallDetailsListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1105,7 +1094,6 @@
 
 .method public addInCallEventListener(Lcom/android/incallui/InCallPresenter$InCallEventListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallEventListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1118,7 +1106,6 @@
 
 .method public addIncomingCallListener(Lcom/android/incallui/InCallPresenter$IncomingCallListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$IncomingCallListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1131,7 +1118,6 @@
 
 .method public addListener(Lcom/android/incallui/InCallPresenter$InCallStateListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallStateListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1144,7 +1130,6 @@
 
 .method public addOrientationListener(Lcom/android/incallui/InCallPresenter$InCallOrientationListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallOrientationListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1157,8 +1142,6 @@
 
 .method public answerIncomingCall(Landroid/content/Context;I)V
     .locals 4
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
 
     const/4 v3, 0x0
 
@@ -1198,7 +1181,6 @@
 
 .method public bringToForeground(Z)V
     .locals 2
-    .param p1    # Z
 
     invoke-virtual {p0}, Lcom/android/incallui/InCallPresenter;->isShowingInCallUi()Z
 
@@ -1251,7 +1233,6 @@
 
 .method public declineIncomingCall(Landroid/content/Context;)V
     .locals 5
-    .param p1    # Landroid/content/Context;
 
     iget-object v1, p0, Lcom/android/incallui/InCallPresenter;->mCallList:Lcom/android/incallui/CallList;
 
@@ -1291,7 +1272,6 @@
 
 .method public declineUpgradeRequest(Landroid/content/Context;)V
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     const/4 v3, 0x0
 
@@ -1400,8 +1380,6 @@
 
 .method public getInCallIntent(ZZ)Landroid/content/Intent;
     .locals 3
-    .param p1    # Z
-    .param p2    # Z
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1471,7 +1449,6 @@
 
 .method public handleAccountSelection(Landroid/telecom/PhoneAccountHandle;)V
     .locals 3
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     iget-object v2, p0, Lcom/android/incallui/InCallPresenter;->mCallList:Lcom/android/incallui/CallList;
 
@@ -1704,7 +1681,6 @@
 
 .method public hangUpOngoingCall(Landroid/content/Context;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     iget-object v1, p0, Lcom/android/incallui/InCallPresenter;->mCallList:Lcom/android/incallui/CallList;
 
@@ -1831,7 +1807,6 @@
 
 .method public onCallListChange(Lcom/android/incallui/CallList;)V
     .locals 7
-    .param p1    # Lcom/android/incallui/CallList;
 
     if-nez p1, :cond_1
 
@@ -1980,7 +1955,6 @@
 
 .method public onDeviceOrientationChange(I)V
     .locals 3
-    .param p1    # I
 
     iget-object v2, p0, Lcom/android/incallui/InCallPresenter;->mOrientationListeners:Ljava/util/Set;
 
@@ -2011,7 +1985,6 @@
 
 .method public onDeviceRotationChange(I)V
     .locals 2
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -2057,7 +2030,6 @@
 
 .method public onDisconnect(Lcom/android/incallui/Call;)V
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0}, Lcom/android/incallui/InCallPresenter;->hideDialpadForDisconnect()V
 
@@ -2108,7 +2080,6 @@
 
 .method public onIncomingCall(Lcom/android/incallui/Call;)V
     .locals 6
-    .param p1    # Lcom/android/incallui/Call;
 
     sget-object v4, Lcom/android/incallui/InCallPresenter$InCallState;->INCOMING:Lcom/android/incallui/InCallPresenter$InCallState;
 
@@ -2181,8 +2152,6 @@
 
 .method public onPostDialCharWait(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/incallui/InCallPresenter;->isActivityStarted()Z
 
@@ -2200,7 +2169,6 @@
 
 .method public onUiShowing(Z)V
     .locals 5
-    .param p1    # Z
 
     const/4 v2, 0x1
 
@@ -2283,7 +2251,6 @@
 
 .method public removeDetailsListener(Lcom/android/incallui/InCallPresenter$InCallDetailsListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallDetailsListener;
 
     if-eqz p1, :cond_0
 
@@ -2297,7 +2264,6 @@
 
 .method public removeInCallEventListener(Lcom/android/incallui/InCallPresenter$InCallEventListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallEventListener;
 
     if-eqz p1, :cond_0
 
@@ -2311,7 +2277,6 @@
 
 .method public removeIncomingCallListener(Lcom/android/incallui/InCallPresenter$IncomingCallListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$IncomingCallListener;
 
     if-eqz p1, :cond_0
 
@@ -2325,7 +2290,6 @@
 
 .method public removeListener(Lcom/android/incallui/InCallPresenter$InCallStateListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallStateListener;
 
     if-eqz p1, :cond_0
 
@@ -2339,7 +2303,6 @@
 
 .method public removeOrientationListener(Lcom/android/incallui/InCallPresenter$InCallOrientationListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallOrientationListener;
 
     if-eqz p1, :cond_0
 
@@ -2353,7 +2316,6 @@
 
 .method public setActivity(Lcom/android/incallui/InCallActivity;)V
     .locals 4
-    .param p1    # Lcom/android/incallui/InCallActivity;
 
     const/4 v1, 0x0
 
@@ -2453,7 +2415,6 @@
 
 .method public setFullScreenVideoState(Z)V
     .locals 3
-    .param p1    # Z
 
     iget-object v2, p0, Lcom/android/incallui/InCallPresenter;->mInCallEventListeners:Ljava/util/Set;
 
@@ -2484,7 +2445,6 @@
 
 .method public setInCallAllowsOrientationChange(Z)V
     .locals 2
-    .param p1    # Z
 
     if-nez p1, :cond_0
 
@@ -2509,7 +2469,6 @@
 
 .method public setPhone(Landroid/telecom/Phone;)V
     .locals 2
-    .param p1    # Landroid/telecom/Phone;
 
     iput-object p1, p0, Lcom/android/incallui/InCallPresenter;->mPhone:Landroid/telecom/Phone;
 
@@ -2524,9 +2483,6 @@
 
 .method public setUp(Landroid/content/Context;Lcom/android/incallui/CallList;Lcom/android/incallui/AudioModeProvider;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/incallui/CallList;
-    .param p3    # Lcom/android/incallui/AudioModeProvider;
 
     const/4 v2, 0x0
 

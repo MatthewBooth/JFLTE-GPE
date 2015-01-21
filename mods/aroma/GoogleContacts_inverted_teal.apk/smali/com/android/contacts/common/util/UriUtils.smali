@@ -6,8 +6,6 @@
 # direct methods
 .method public static areEqual(Landroid/net/Uri;Landroid/net/Uri;)Z
     .locals 1
-    .param p0    # Landroid/net/Uri;
-    .param p1    # Landroid/net/Uri;
 
     if-nez p0, :cond_0
 

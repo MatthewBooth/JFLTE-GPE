@@ -65,8 +65,6 @@
 
 .method constructor <init>(ILjava/util/ArrayList;Ljava/lang/String;)V
     .locals 1
-    .param p1    # I
-    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -179,7 +177,6 @@
 
 .method public getFieldMapping(Ljava/lang/String;)Ljava/util/HashMap;
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -447,8 +444,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/common/server/response/FieldMappingDictionary;->CREATOR:Lcom/google/android/gms/common/server/response/c;
 

@@ -121,7 +121,6 @@
 # virtual methods
 .method public addSessionModificationListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$SessionModificationListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$SessionModificationListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -134,7 +133,6 @@
 
 .method public addSurfaceChangeListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$SurfaceChangeListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$SurfaceChangeListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -147,7 +145,6 @@
 
 .method public addVideoEventListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$VideoEventListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$VideoEventListener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -160,9 +157,6 @@
 
 .method public cameraDimensionsChanged(Lcom/android/incallui/Call;II)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # I
-    .param p3    # I
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSurfaceChangeListeners:Ljava/util/Set;
 
@@ -193,7 +187,6 @@
 
 .method public downgradeToAudio(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSessionModificationListeners:Ljava/util/Set;
 
@@ -224,9 +217,6 @@
 
 .method public peerDimensionsChanged(Lcom/android/incallui/Call;II)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # I
-    .param p3    # I
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSurfaceChangeListeners:Ljava/util/Set;
 
@@ -257,8 +247,6 @@
 
 .method public peerPausedStateChanged(Lcom/android/incallui/Call;Z)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Z
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mVideoEventListeners:Ljava/util/Set;
 
@@ -289,7 +277,6 @@
 
 .method public removeSessionModificationListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$SessionModificationListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$SessionModificationListener;
 
     if-eqz p1, :cond_0
 
@@ -303,7 +290,6 @@
 
 .method public removeSurfaceChangeListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$SurfaceChangeListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$SurfaceChangeListener;
 
     if-eqz p1, :cond_0
 
@@ -317,7 +303,6 @@
 
 .method public removeVideoEventListener(Lcom/android/incallui/InCallVideoCallListenerNotifier$VideoEventListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallVideoCallListenerNotifier$VideoEventListener;
 
     if-eqz p1, :cond_0
 
@@ -331,7 +316,6 @@
 
 .method public upgradeToVideoFail(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSessionModificationListeners:Ljava/util/Set;
 
@@ -362,7 +346,6 @@
 
 .method public upgradeToVideoRequest(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSessionModificationListeners:Ljava/util/Set;
 
@@ -393,7 +376,6 @@
 
 .method public upgradeToVideoSuccess(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v2, p0, Lcom/android/incallui/InCallVideoCallListenerNotifier;->mSessionModificationListeners:Ljava/util/Set;
 

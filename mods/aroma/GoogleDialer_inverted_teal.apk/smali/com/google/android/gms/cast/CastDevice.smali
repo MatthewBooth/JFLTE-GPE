@@ -98,15 +98,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;II)V
     .locals 2
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Ljava/lang/String;
-    .param p7    # I
-    .param p9    # I
-    .param p10    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -192,7 +183,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -454,8 +444,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/cast/b;->a(Lcom/google/android/gms/cast/CastDevice;Landroid/os/Parcel;I)V
 

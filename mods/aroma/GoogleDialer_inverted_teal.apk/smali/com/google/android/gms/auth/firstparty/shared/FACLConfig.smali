@@ -74,13 +74,6 @@
 
 .method constructor <init>(IZLjava/lang/String;ZZZZ)V
     .locals 0
-    .param p1    # I
-    .param p2    # Z
-    .param p3    # Ljava/lang/String;
-    .param p4    # Z
-    .param p5    # Z
-    .param p6    # Z
-    .param p7    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -113,8 +106,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/auth/firstparty/shared/e;->a(Lcom/google/android/gms/auth/firstparty/shared/FACLConfig;Landroid/os/Parcel;I)V
 

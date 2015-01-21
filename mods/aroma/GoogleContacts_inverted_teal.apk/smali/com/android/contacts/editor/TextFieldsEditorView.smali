@@ -54,7 +54,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -73,8 +72,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -93,9 +90,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     const/4 v0, 0x0
 
@@ -114,7 +108,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/TextFieldsEditorView;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/editor/TextFieldsEditorView;
 
     iget v0, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mPreviousViewHeight:I
 
@@ -123,8 +116,6 @@
 
 .method static synthetic access$002(Lcom/android/contacts/editor/TextFieldsEditorView;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/editor/TextFieldsEditorView;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mPreviousViewHeight:I
 
@@ -133,7 +124,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/editor/TextFieldsEditorView;)Landroid/view/ViewGroup;
     .locals 1
-    .param p0    # Lcom/android/contacts/editor/TextFieldsEditorView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mFields:Landroid/view/ViewGroup;
 
@@ -142,7 +132,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/editor/TextFieldsEditorView;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/editor/TextFieldsEditorView;
 
     iget-boolean v0, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mHideOptional:Z
 
@@ -151,8 +140,6 @@
 
 .method static synthetic access$202(Lcom/android/contacts/editor/TextFieldsEditorView;Z)Z
     .locals 0
-    .param p0    # Lcom/android/contacts/editor/TextFieldsEditorView;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mHideOptional:Z
 
@@ -161,8 +148,6 @@
 
 .method private setupExpansionView(ZZ)V
     .locals 2
-    .param p1    # Z
-    .param p2    # Z
 
     if-eqz p1, :cond_1
 
@@ -442,7 +427,6 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 5
-    .param p1    # Landroid/os/Parcelable;
 
     move-object v2, p1
 
@@ -616,7 +600,6 @@
 
 .method public setEnabled(Z)V
     .locals 5
-    .param p1    # Z
 
     const/4 v2, 0x1
 
@@ -687,8 +670,6 @@
 
 .method public setValue(ILjava/lang/String;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/editor/TextFieldsEditorView;->mFieldEditTexts:[Landroid/widget/EditText;
 
@@ -701,11 +682,6 @@
 
 .method public setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
     .locals 22
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p3    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p4    # Z
-    .param p5    # Lcom/android/contacts/editor/ViewIdGenerator;
 
     invoke-super/range {p0 .. p5}, Lcom/android/contacts/editor/LabeledEditorView;->setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
 

@@ -79,7 +79,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/collect/GenericMapMaker$NullListener;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/google/common/collect/GenericMapMaker$NullListener;
 

@@ -27,10 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/view/LayoutInflater;Lcom/android/dialer/calllog/CallTypeHelper;[Lcom/android/dialer/PhoneCallDetails;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/view/LayoutInflater;
-    .param p3    # Lcom/android/dialer/calllog/CallTypeHelper;
-    .param p4    # [Lcom/android/dialer/PhoneCallDetails;
 
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
@@ -53,7 +49,6 @@
 
 .method private formatDuration(J)Ljava/lang/CharSequence;
     .locals 9
-    .param p1    # J
 
     const-wide/16 v6, 0x3c
 
@@ -107,8 +102,6 @@
 
 .method private formatDurationAndDataUsage(JLjava/lang/Long;)Ljava/lang/CharSequence;
     .locals 7
-    .param p1    # J
-    .param p3    # Ljava/lang/Long;
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/calllog/CallDetailHistoryAdapter;->formatDuration(J)Ljava/lang/CharSequence;
 
@@ -170,7 +163,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
 
     if-nez p1, :cond_0
 
@@ -191,7 +183,6 @@
 
 .method public getItemId(I)J
     .locals 2
-    .param p1    # I
 
     if-nez p1, :cond_0
 
@@ -210,7 +201,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     if-nez p1, :cond_0
 
@@ -227,9 +217,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 18
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     if-nez p1, :cond_1
 
@@ -446,7 +433,6 @@
 
 .method public isEnabled(I)Z
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 

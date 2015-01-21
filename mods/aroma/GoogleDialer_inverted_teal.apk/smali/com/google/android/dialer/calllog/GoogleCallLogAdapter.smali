@@ -38,12 +38,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;Lcom/android/dialer/calllog/ContactInfoHelper;Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;Z)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfoHelper;
-    .param p4    # Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;
-    .param p5    # Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;
-    .param p6    # Z
 
     invoke-direct/range {p0 .. p6}, Lcom/android/dialer/calllog/CallLogAdapter;-><init>(Landroid/content/Context;Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;Lcom/android/dialer/calllog/ContactInfoHelper;Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;Z)V
 
@@ -58,7 +52,6 @@
 
 .method static synthetic access$000(Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;->mBadgeContainer:Landroid/view/View;
 
@@ -67,7 +60,6 @@
 
 .method static synthetic access$100(Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;)Landroid/content/SharedPreferences;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;->mPrefs:Landroid/content/SharedPreferences;
 
@@ -76,7 +68,6 @@
 
 .method static synthetic access$200(Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;->mContext:Landroid/content/Context;
 
@@ -85,7 +76,6 @@
 
 .method static synthetic access$300(Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleCallLogAdapter;->mContext:Landroid/content/Context;
 
@@ -94,8 +84,6 @@
 
 .method private shouldShowCallerIdBadge(Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/PhoneCallDetails;)Z
     .locals 8
-    .param p1    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p2    # Lcom/android/dialer/PhoneCallDetails;
 
     const/4 v3, 0x1
 
@@ -220,10 +208,6 @@
 # virtual methods
 .method protected bindBadge(Landroid/view/View;Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/PhoneCallDetails;I)V
     .locals 3
-    .param p1    # Landroid/view/View;
-    .param p2    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p3    # Lcom/android/dialer/PhoneCallDetails;
-    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Lcom/android/dialer/calllog/CallLogAdapter;->bindBadge(Landroid/view/View;Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/PhoneCallDetails;I)V
 
@@ -296,8 +280,6 @@
 
 .method protected newChildView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/view/ViewGroup;
 
     const/4 v4, 0x0
 

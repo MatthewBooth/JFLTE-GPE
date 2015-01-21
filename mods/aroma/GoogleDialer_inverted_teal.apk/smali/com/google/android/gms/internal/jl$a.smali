@@ -36,7 +36,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 

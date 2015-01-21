@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Z)V
     .locals 0
-    .param p2    # Z
 
     iput-object p1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$RateChangeListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
@@ -41,7 +40,6 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 4
-    .param p1    # Landroid/view/View;
 
     iget-object v1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$RateChangeListener;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 

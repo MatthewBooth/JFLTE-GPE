@@ -23,7 +23,6 @@
 # direct methods
 .method static synthetic access$000(Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;
 
     iget v0, p0, Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;->start:I
 
@@ -32,7 +31,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;
 
     iget v0, p0, Lcom/android/contacts/common/list/ContactListItemView$HighlightSequence;->end:I
 

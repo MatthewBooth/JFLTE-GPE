@@ -15,8 +15,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/net/Uri;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/net/Uri;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -29,8 +27,6 @@
 
 .method public static register(Landroid/app/Activity;Landroid/net/Uri;)V
     .locals 3
-    .param p0    # Landroid/app/Activity;
-    .param p1    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
@@ -63,7 +59,6 @@
 # virtual methods
 .method public createNdefMessage(Landroid/nfc/NfcEvent;)Landroid/nfc/NdefMessage;
     .locals 13
-    .param p1    # Landroid/nfc/NfcEvent;
 
     const/4 v10, 0x0
 

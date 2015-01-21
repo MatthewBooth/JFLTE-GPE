@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/ex/variablespeed/VariableSpeed;Lcom/android/ex/variablespeed/MediaPlayerDataSource;)V
     .locals 0
-    .param p2    # Lcom/android/ex/variablespeed/MediaPlayerDataSource;
 
     iput-object p1, p0, Lcom/android/ex/variablespeed/VariableSpeed$PlaybackRunnable;->this$0:Lcom/android/ex/variablespeed/VariableSpeed;
 

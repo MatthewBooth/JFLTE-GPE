@@ -114,12 +114,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;Lcom/android/dialer/calllog/ContactInfoHelper;Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;Z)V
     .locals 8
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/dialer/calllog/CallLogAdapter$CallFetcher;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfoHelper;
-    .param p4    # Lcom/android/dialer/calllog/CallLogAdapter$CallItemExpandedListener;
-    .param p5    # Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;
-    .param p6    # Z
 
     const-wide/16 v6, -0x1
 
@@ -284,8 +278,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/calllog/CallLogAdapter;Landroid/view/View;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
-    .param p1    # Landroid/view/View;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/calllog/CallLogAdapter;->startActivityForAction(Landroid/view/View;)V
 
@@ -294,10 +286,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/calllog/CallLogAdapter;Lcom/android/dialer/calllog/CallLogListItemView;ZZ)V
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemView;
-    .param p2    # Z
-    .param p3    # Z
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/dialer/calllog/CallLogAdapter;->handleRowExpanded(Lcom/android/dialer/calllog/CallLogListItemView;ZZ)V
 
@@ -306,7 +294,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/calllog/CallLogAdapter;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
 
     invoke-direct {p0}, Lcom/android/dialer/calllog/CallLogAdapter;->startRequestProcessing()V
 
@@ -315,7 +302,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/calllog/CallLogAdapter;)Ljava/util/LinkedList;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mRequests:Ljava/util/LinkedList;
 
@@ -324,10 +310,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/calllog/CallLogAdapter;Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;)Z
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfo;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/dialer/calllog/CallLogAdapter;->queryContactInfo(Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;)Z
 
@@ -338,7 +320,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/calllog/CallLogAdapter;)Landroid/os/Handler;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mHandler:Landroid/os/Handler;
 
@@ -347,7 +328,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/calllog/CallLogAdapter;)Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogAdapter;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mOnReportButtonClickListener:Lcom/android/dialer/calllog/CallLogAdapter$OnReportButtonClickListener;
 
@@ -356,7 +336,6 @@
 
 .method private bindActionButtons(Lcom/android/dialer/calllog/CallLogListItemViews;)V
     .locals 8
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemViews;
 
     const/4 v7, 0x0
 
@@ -548,9 +527,6 @@
 
 .method private bindView(Landroid/view/View;Landroid/database/Cursor;I)V
     .locals 60
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/database/Cursor;
-    .param p3    # I
 
     move-object/from16 v0, p0
 
@@ -1518,8 +1494,6 @@
 
 .method private callLogInfoMatches(Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/calllog/ContactInfo;)Z
     .locals 2
-    .param p1    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p2    # Lcom/android/dialer/calllog/ContactInfo;
 
     iget-object v0, p1, Lcom/android/dialer/calllog/ContactInfo;->name:Ljava/lang/String;
 
@@ -1560,8 +1534,6 @@
 
 .method private expandOrCollapseActions(Lcom/android/dialer/calllog/CallLogListItemView;Z)V
     .locals 4
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemView;
-    .param p2    # Z
 
     const/4 v3, 0x0
 
@@ -1637,8 +1609,6 @@
 
 .method public static expandVoicemailTranscriptionView(Lcom/android/dialer/calllog/CallLogListItemViews;Z)V
     .locals 4
-    .param p0    # Lcom/android/dialer/calllog/CallLogListItemViews;
-    .param p1    # Z
 
     const/4 v2, 0x1
 
@@ -1694,8 +1664,6 @@
 
 .method private getCallFeatures(Landroid/database/Cursor;I)I
     .locals 4
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -1730,8 +1698,6 @@
 
 .method private getCallIds(Landroid/database/Cursor;I)[J
     .locals 6
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     invoke-interface {p1}, Landroid/database/Cursor;->getPosition()I
 
@@ -1766,8 +1732,6 @@
 
 .method private getCallTypes(Landroid/database/Cursor;I)[I
     .locals 4
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     invoke-interface {p1}, Landroid/database/Cursor;->getPosition()I
 
@@ -1802,7 +1766,6 @@
 
 .method private getContactInfoFromCallLog(Landroid/database/Cursor;)Lcom/android/dialer/calllog/ContactInfo;
     .locals 4
-    .param p1    # Landroid/database/Cursor;
 
     new-instance v0, Lcom/android/dialer/calllog/ContactInfo;
 
@@ -1894,7 +1857,6 @@
 
 .method private getDayGroupForCall(J)I
     .locals 3
-    .param p1    # J
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mDayGroups:Ljava/util/HashMap;
 
@@ -1935,7 +1897,6 @@
 
 .method private getGroupDescription(I)Ljava/lang/CharSequence;
     .locals 2
-    .param p1    # I
 
     if-nez p1, :cond_0
 
@@ -1991,7 +1952,6 @@
 
 .method private getPreviousDayGroup(Landroid/database/Cursor;)I
     .locals 5
-    .param p1    # Landroid/database/Cursor;
 
     invoke-interface {p1}, Landroid/database/Cursor;->getPosition()I
 
@@ -2023,9 +1983,6 @@
 
 .method private handleRowExpanded(Lcom/android/dialer/calllog/CallLogListItemView;ZZ)V
     .locals 8
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemView;
-    .param p2    # Z
-    .param p3    # Z
 
     const-wide/16 v6, -0x1
 
@@ -2103,7 +2060,6 @@
 
 .method private inflateActionViewStub(Landroid/view/View;)V
     .locals 4
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -2230,7 +2186,6 @@
 
 .method private isExpanded(J)Z
     .locals 3
-    .param p1    # J
 
     iget-wide v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mCurrentlyExpanded:J
 
@@ -2251,9 +2206,6 @@
 
 .method private queryContactInfo(Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;)Z
     .locals 8
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfo;
 
     const/4 v5, 0x1
 
@@ -2329,12 +2281,6 @@
 
 .method private setPhoto(Lcom/android/dialer/calllog/CallLogListItemViews;JLandroid/net/Uri;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 8
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemViews;
-    .param p2    # J
-    .param p4    # Landroid/net/Uri;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Ljava/lang/String;
-    .param p7    # I
 
     const/4 v5, 0x1
 
@@ -2367,12 +2313,6 @@
 
 .method private setPhoto(Lcom/android/dialer/calllog/CallLogListItemViews;Landroid/net/Uri;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 6
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemViews;
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Landroid/net/Uri;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # I
 
     const/4 v4, 0x1
 
@@ -2405,7 +2345,6 @@
 
 .method private startActivityForAction(Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -2485,7 +2424,6 @@
 
 .method private toggleExpansion(J)Z
     .locals 5
-    .param p1    # J
 
     const-wide/16 v2, -0x1
 
@@ -2545,10 +2483,6 @@
 
 .method private updateCallLogContactInfoCache(Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/calllog/ContactInfo;)V
     .locals 8
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p4    # Lcom/android/dialer/calllog/ContactInfo;
 
     const/4 v7, 0x1
 
@@ -2848,9 +2782,6 @@
 # virtual methods
 .method public addGroup(IIZ)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Z
 
     invoke-super {p0, p1, p2, p3}, Lcom/android/common/widget/GroupingListAdapter;->addGroup(IIZ)V
 
@@ -2859,7 +2790,6 @@
 
 .method protected addGroups(Landroid/database/Cursor;)V
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mCallLogGroupBuilder:Lcom/android/dialer/calllog/CallLogGroupBuilder;
 
@@ -2870,10 +2800,6 @@
 
 .method protected bindBadge(Landroid/view/View;Lcom/android/dialer/calllog/ContactInfo;Lcom/android/dialer/PhoneCallDetails;I)V
     .locals 5
-    .param p1    # Landroid/view/View;
-    .param p2    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p3    # Lcom/android/dialer/PhoneCallDetails;
-    .param p4    # I
 
     iget-boolean v3, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mIsCallLog:Z
 
@@ -2978,9 +2904,6 @@
 
 .method protected bindChildView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -2991,11 +2914,6 @@
 
 .method protected bindGroupView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;IZ)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # I
-    .param p5    # Z
 
     invoke-direct {p0, p1, p3, p4}, Lcom/android/dialer/calllog/CallLogAdapter;->bindView(Landroid/view/View;Landroid/database/Cursor;I)V
 
@@ -3004,9 +2922,6 @@
 
 .method protected bindStandAloneView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -3017,9 +2932,6 @@
 
 .method bindViewForTest(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/database/Cursor;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/android/dialer/calllog/CallLogAdapter;->bindStandAloneView(Landroid/view/View;Landroid/content/Context;Landroid/database/Cursor;)V
 
@@ -3050,10 +2962,6 @@
 
 .method protected enqueueRequest(Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;Z)V
     .locals 3
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfo;
-    .param p4    # Z
 
     new-instance v0, Lcom/android/dialer/calllog/CallLogAdapter$ContactInfoRequest;
 
@@ -3105,9 +3013,6 @@
 
 .method injectContactInfoForTest(Ljava/lang/String;Ljava/lang/String;Lcom/android/dialer/calllog/ContactInfo;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/dialer/calllog/ContactInfo;
 
     new-instance v0, Lcom/android/dialer/calllog/CallLogAdapter$NumberWithCountryIso;
 
@@ -3156,8 +3061,6 @@
 
 .method protected newChildView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/view/ViewGroup;
 
     const/4 v4, 0x0
 
@@ -3196,8 +3099,6 @@
 
 .method protected newGroupView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/dialer/calllog/CallLogAdapter;->newChildView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
 
@@ -3208,8 +3109,6 @@
 
 .method protected newStandAloneView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/dialer/calllog/CallLogAdapter;->newChildView(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
 
@@ -3220,7 +3119,6 @@
 
 .method public onBadDataReported(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mContactInfoCache:Lcom/android/dialer/util/ExpirableCache;
 
@@ -3268,8 +3166,6 @@
 
 .method public setDayGroup(JI)V
     .locals 3
-    .param p1    # J
-    .param p3    # I
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mDayGroups:Ljava/util/HashMap;
 
@@ -3301,7 +3197,6 @@
 
 .method public setLoading(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/calllog/CallLogAdapter;->mLoading:Z
 

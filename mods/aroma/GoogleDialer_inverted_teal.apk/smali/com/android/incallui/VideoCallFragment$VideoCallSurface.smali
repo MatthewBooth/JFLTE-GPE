@@ -33,8 +33,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/VideoCallFragment;ILandroid/view/TextureView;)V
     .locals 6
-    .param p2    # I
-    .param p3    # Landroid/view/TextureView;
 
     const/4 v4, -0x1
 
@@ -55,10 +53,6 @@
 
 .method public constructor <init>(Lcom/android/incallui/VideoCallFragment;ILandroid/view/TextureView;II)V
     .locals 0
-    .param p2    # I
-    .param p3    # Landroid/view/TextureView;
-    .param p4    # I
-    .param p5    # I
 
     iput-object p1, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->this$0:Lcom/android/incallui/VideoCallFragment;
 
@@ -161,7 +155,6 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 2
-    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->this$0:Lcom/android/incallui/VideoCallFragment;
 
@@ -180,9 +173,6 @@
 
 .method public onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
     .locals 3
-    .param p1    # Landroid/graphics/SurfaceTexture;
-    .param p2    # I
-    .param p3    # I
 
     iget-object v1, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->mSavedSurfaceTexture:Landroid/graphics/SurfaceTexture;
 
@@ -220,7 +210,6 @@
 
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
     .locals 2
-    .param p1    # Landroid/graphics/SurfaceTexture;
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->mSavedSurfaceTexture:Landroid/graphics/SurfaceTexture;
 
@@ -268,23 +257,18 @@
 
 .method public onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
     .locals 0
-    .param p1    # Landroid/graphics/SurfaceTexture;
-    .param p2    # I
-    .param p3    # I
 
     return-void
 .end method
 
 .method public onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V
     .locals 0
-    .param p1    # Landroid/graphics/SurfaceTexture;
 
     return-void
 .end method
 
 .method public recreateView(Landroid/view/TextureView;)V
     .locals 2
-    .param p1    # Landroid/view/TextureView;
 
     iput-object p1, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->mTextureView:Landroid/view/TextureView;
 
@@ -342,8 +326,6 @@
 
 .method public setSurfaceDimensions(II)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/incallui/VideoCallFragment$VideoCallSurface;->this$0:Lcom/android/incallui/VideoCallFragment;
 

@@ -60,7 +60,6 @@
 
 .method constructor <init>(ILjava/util/List;)V
     .locals 0
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -100,8 +99,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/identity/intents/a;->a(Lcom/google/android/gms/identity/intents/UserAddressRequest;Landroid/os/Parcel;I)V
 

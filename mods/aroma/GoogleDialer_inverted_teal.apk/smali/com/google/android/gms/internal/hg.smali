@@ -80,7 +80,6 @@
 
 .method private readFromParcel(Landroid/os/Parcel;)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -135,8 +134,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 

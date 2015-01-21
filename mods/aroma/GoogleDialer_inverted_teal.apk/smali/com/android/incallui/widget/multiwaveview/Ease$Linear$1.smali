@@ -30,7 +30,6 @@
 # virtual methods
 .method public getInterpolation(F)F
     .locals 0
-    .param p1    # F
 
     return p1
 .end method

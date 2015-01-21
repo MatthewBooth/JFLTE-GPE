@@ -34,9 +34,6 @@
 # direct methods
 .method public constructor <init>(Landroid/hardware/SensorManager;Landroid/hardware/Sensor;Lcom/android/dialer/ProximitySensorManager$Listener;)V
     .locals 1
-    .param p1    # Landroid/hardware/SensorManager;
-    .param p2    # Landroid/hardware/Sensor;
-    .param p3    # Lcom/android/dialer/ProximitySensorManager$Listener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -65,7 +62,6 @@
 
 .method private getStateFromValue(F)Lcom/android/dialer/ProximitySensorManager$State;
     .locals 1
-    .param p1    # F
 
     const/high16 v0, 0x40a00000
 
@@ -109,15 +105,12 @@
 # virtual methods
 .method public onAccuracyChanged(Landroid/hardware/Sensor;I)V
     .locals 0
-    .param p1    # Landroid/hardware/Sensor;
-    .param p2    # I
 
     return-void
 .end method
 
 .method public onSensorChanged(Landroid/hardware/SensorEvent;)V
     .locals 4
-    .param p1    # Landroid/hardware/SensorEvent;
 
     iget-object v2, p1, Landroid/hardware/SensorEvent;->values:[F
 

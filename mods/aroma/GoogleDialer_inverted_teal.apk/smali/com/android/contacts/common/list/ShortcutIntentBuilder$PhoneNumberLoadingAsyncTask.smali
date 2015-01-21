@@ -29,8 +29,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/list/ShortcutIntentBuilder;Landroid/net/Uri;Ljava/lang/String;)V
     .locals 0
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ShortcutIntentBuilder$PhoneNumberLoadingAsyncTask;->this$0:Lcom/android/contacts/common/list/ShortcutIntentBuilder;
 
@@ -149,7 +147,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Void;
 
@@ -160,7 +157,6 @@
 
 .method protected onPostExecute(Ljava/lang/Void;)V
     .locals 9
-    .param p1    # Ljava/lang/Void;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ShortcutIntentBuilder$PhoneNumberLoadingAsyncTask;->this$0:Lcom/android/contacts/common/list/ShortcutIntentBuilder;
 

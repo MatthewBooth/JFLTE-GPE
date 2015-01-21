@@ -31,7 +31,6 @@
 # direct methods
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     const-string v0, "phone"
 
@@ -60,10 +59,6 @@
 
 .method private constructor <init>(Landroid/content/Context;Landroid/telephony/TelephonyManager;Landroid/location/LocationManager;Lcom/android/contacts/common/location/CountryDetector$LocaleProvider;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/telephony/TelephonyManager;
-    .param p3    # Landroid/location/LocationManager;
-    .param p4    # Lcom/android/contacts/common/location/CountryDetector$LocaleProvider;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -88,7 +83,6 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/contacts/common/location/CountryDetector;
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/android/contacts/common/location/CountryDetector;
 
@@ -228,8 +222,6 @@
 
 .method public static registerForLocationUpdates(Landroid/content/Context;Landroid/location/LocationManager;)V
     .locals 7
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/location/LocationManager;
 
     invoke-static {}, Landroid/location/Geocoder;->isPresent()Z
 
@@ -339,11 +331,6 @@
 
 .method public getInstanceForTest(Landroid/content/Context;Landroid/telephony/TelephonyManager;Landroid/location/LocationManager;Lcom/android/contacts/common/location/CountryDetector$LocaleProvider;Landroid/location/Geocoder;)Lcom/android/contacts/common/location/CountryDetector;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/telephony/TelephonyManager;
-    .param p3    # Landroid/location/LocationManager;
-    .param p4    # Lcom/android/contacts/common/location/CountryDetector$LocaleProvider;
-    .param p5    # Landroid/location/Geocoder;
 
     new-instance v0, Lcom/android/contacts/common/location/CountryDetector;
 

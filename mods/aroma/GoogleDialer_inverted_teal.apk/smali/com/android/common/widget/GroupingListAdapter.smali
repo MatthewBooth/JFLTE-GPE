@@ -42,7 +42,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
@@ -111,7 +110,6 @@
 
 .method private idealByteArraySize(I)I
     .locals 3
-    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -143,7 +141,6 @@
 
 .method private idealLongArraySize(I)I
     .locals 1
-    .param p1    # I
 
     mul-int/lit8 v0, p1, 0x8
 
@@ -185,9 +182,6 @@
 # virtual methods
 .method protected addGroup(IIZ)V
     .locals 8
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Z
 
     const/4 v6, 0x0
 
@@ -264,7 +258,6 @@
 
 .method public changeCursor(Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     iget-object v0, p0, Lcom/android/common/widget/GroupingListAdapter;->mCursor:Landroid/database/Cursor;
 
@@ -444,7 +437,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 3
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -480,7 +472,6 @@
 
 .method public getItemId(I)J
     .locals 4
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/common/widget/GroupingListAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -507,7 +498,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/common/widget/GroupingListAdapter;->mPositionMetadata:Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
 
@@ -522,9 +512,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 6
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     iget-object v0, p0, Lcom/android/common/widget/GroupingListAdapter;->mPositionMetadata:Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
 
@@ -657,8 +644,6 @@
 
 .method public obtainPositionMetadata(Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;I)V
     .locals 18
-    .param p1    # Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
-    .param p2    # I
 
     # getter for: Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;->listPosition:I
     invoke-static/range {p1 .. p1}, Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;->access$000(Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;)I

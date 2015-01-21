@@ -22,9 +22,6 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;Landroid/view/View;Landroid/view/View;)V
     .locals 2
-    .param p1    # Landroid/app/Activity;
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -101,10 +98,6 @@
 # virtual methods
 .method public align(IIIZ)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Z
 
     iget v1, p0, Lcom/android/contacts/common/widget/FloatingActionButtonController;->mScreenWidth:I
 
@@ -186,7 +179,6 @@
 
 .method public getTranslationXForAlignment(I)I
     .locals 3
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -248,7 +240,6 @@
 
 .method public onPageScrolled(F)V
     .locals 2
-    .param p1    # F
 
     iget-object v0, p0, Lcom/android/contacts/common/widget/FloatingActionButtonController;->mFloatingActionButtonContainer:Landroid/view/View;
 
@@ -279,8 +270,6 @@
 
 .method public resize(IZ)V
     .locals 1
-    .param p1    # I
-    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -317,7 +306,6 @@
 
 .method public scaleIn(I)V
     .locals 4
-    .param p1    # I
 
     const/16 v3, 0x10a
 
@@ -362,7 +350,6 @@
 
 .method public setScreenWidth(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/widget/FloatingActionButtonController;->mScreenWidth:I
 
@@ -371,7 +358,6 @@
 
 .method public setVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/contacts/common/widget/FloatingActionButtonController;->mFloatingActionButtonContainer:Landroid/view/View;
 

@@ -22,9 +22,6 @@
 
 .method public static resizeText(Landroid/widget/TextView;II)V
     .locals 6
-    .param p0    # Landroid/widget/TextView;
-    .param p1    # I
-    .param p2    # I
 
     const/4 v5, 0x0
 

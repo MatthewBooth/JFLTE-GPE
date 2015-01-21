@@ -17,8 +17,6 @@
 # direct methods
 .method public static formatNumber(Ljava/lang/String;I)Ljava/lang/String;
     .locals 2
-    .param p0    # Ljava/lang/String;
-    .param p1    # I
 
     new-instance v0, Landroid/text/SpannableStringBuilder;
 

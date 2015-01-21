@@ -32,7 +32,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     instance-of v0, p1, Lcom/google/android/gms/common/images/a$a;
 

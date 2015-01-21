@@ -70,7 +70,6 @@
 
 .method protected bridge synthetic computeNext(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
 

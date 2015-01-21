@@ -57,7 +57,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/calllog/CallLogActivity;)Landroid/support/v4/view/ViewPager;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mViewPager:Landroid/support/v4/view/ViewPager;
 
@@ -66,7 +65,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/calllog/CallLogActivity;)Lcom/android/contacts/common/list/ViewPagerTabs;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mViewPagerTabs:Lcom/android/contacts/common/list/ViewPagerTabs;
 
@@ -75,8 +73,6 @@
 
 .method static synthetic access$202(Lcom/android/dialer/calllog/CallLogActivity;Z)Z
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/calllog/CallLogActivity;->mSwitchToVoicemailTab:Z
 
@@ -85,7 +81,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/calllog/CallLogActivity;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mAllCallsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -94,8 +89,6 @@
 
 .method static synthetic access$302(Lcom/android/dialer/calllog/CallLogActivity;Lcom/android/dialer/calllog/CallLogFragment;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
-    .param p1    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iput-object p1, p0, Lcom/android/dialer/calllog/CallLogActivity;->mAllCallsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -104,7 +97,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/calllog/CallLogActivity;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mMissedCallsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -113,8 +105,6 @@
 
 .method static synthetic access$402(Lcom/android/dialer/calllog/CallLogActivity;Lcom/android/dialer/calllog/CallLogFragment;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
-    .param p1    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iput-object p1, p0, Lcom/android/dialer/calllog/CallLogActivity;->mMissedCallsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -123,7 +113,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/calllog/CallLogActivity;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mVoicemailFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -132,8 +121,6 @@
 
 .method static synthetic access$502(Lcom/android/dialer/calllog/CallLogActivity;Lcom/android/dialer/calllog/CallLogFragment;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
-    .param p1    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iput-object p1, p0, Lcom/android/dialer/calllog/CallLogActivity;->mVoicemailFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -142,7 +129,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/calllog/CallLogActivity;)[Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mTabTitles:[Ljava/lang/String;
 
@@ -151,7 +137,6 @@
 
 .method static synthetic access$700(Lcom/android/dialer/calllog/CallLogActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogActivity;
 
     iget-boolean v0, p0, Lcom/android/dialer/calllog/CallLogActivity;->mHasActiveVoicemailProvider:Z
 
@@ -162,7 +147,6 @@
 # virtual methods
 .method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -198,7 +182,6 @@
 
 .method public onCallsFetched(Landroid/database/Cursor;)Z
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 
@@ -207,7 +190,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 9
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v6, 0x3
 
@@ -399,7 +381,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 2
-    .param p1    # Landroid/view/Menu;
 
     invoke-virtual {p0}, Lcom/android/dialer/calllog/CallLogActivity;->getMenuInflater()Landroid/view/MenuInflater;
 
@@ -416,7 +397,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 3
-    .param p1    # Landroid/view/MenuItem;
 
     const/4 v1, 0x1
 
@@ -468,7 +448,6 @@
 
 .method public onPrepareOptionsMenu(Landroid/view/Menu;)Z
     .locals 4
-    .param p1    # Landroid/view/Menu;
 
     const/4 v3, 0x1
 
@@ -532,7 +511,6 @@
 
 .method public onVoicemailStatusFetched(Landroid/database/Cursor;)V
     .locals 5
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v2, 0x1
 

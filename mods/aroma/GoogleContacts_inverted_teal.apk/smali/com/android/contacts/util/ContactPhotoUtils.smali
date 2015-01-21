@@ -6,8 +6,6 @@
 # direct methods
 .method public static addCropExtras(Landroid/content/Intent;I)V
     .locals 3
-    .param p0    # Landroid/content/Intent;
-    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -46,8 +44,6 @@
 
 .method public static addPhotoPickerExtras(Landroid/content/Intent;Landroid/net/Uri;)V
     .locals 1
-    .param p0    # Landroid/content/Intent;
-    .param p1    # Landroid/net/Uri;
 
     const-string v0, "output"
 
@@ -70,7 +66,6 @@
 
 .method public static compressBitmap(Landroid/graphics/Bitmap;)[B
     .locals 6
-    .param p0    # Landroid/graphics/Bitmap;
 
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -144,7 +139,6 @@
 
 .method public static generateTempCroppedImageUri(Landroid/content/Context;)Landroid/net/Uri;
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -227,7 +221,6 @@
 
 .method public static generateTempImageUri(Landroid/content/Context;)Landroid/net/Uri;
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -310,8 +303,6 @@
 
 .method public static getBitmapFromUri(Landroid/content/Context;Landroid/net/Uri;)Landroid/graphics/Bitmap;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
@@ -347,8 +338,6 @@
 
 .method private static pathForTempPhoto(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
 
@@ -369,10 +358,6 @@
 
 .method public static savePhotoFromUriToUri(Landroid/content/Context;Landroid/net/Uri;Landroid/net/Uri;Z)Z
     .locals 11
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Z
 
     const/4 v6, 0x0
 

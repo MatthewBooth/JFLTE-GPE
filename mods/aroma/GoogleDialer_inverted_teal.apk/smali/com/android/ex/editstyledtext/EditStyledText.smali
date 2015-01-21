@@ -63,7 +63,6 @@
 
 .method static synthetic access$1700(Lcom/android/ex/editstyledtext/EditStyledText;)Lcom/android/ex/editstyledtext/EditStyledText$EditorManager;
     .locals 1
-    .param p0    # Lcom/android/ex/editstyledtext/EditStyledText;
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText;->mManager:Lcom/android/ex/editstyledtext/EditStyledText$EditorManager;
 
@@ -72,9 +71,6 @@
 
 .method static synthetic access$300(Lcom/android/ex/editstyledtext/EditStyledText;II)V
     .locals 0
-    .param p0    # Lcom/android/ex/editstyledtext/EditStyledText;
-    .param p1    # I
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/ex/editstyledtext/EditStyledText;->notifyStateChanged(II)V
 
@@ -83,8 +79,6 @@
 
 .method static synthetic access$700(Landroid/view/View;Landroid/text/Spannable;)V
     .locals 0
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/text/Spannable;
 
     invoke-static {p0, p1}, Lcom/android/ex/editstyledtext/EditStyledText;->stopSelecting(Landroid/view/View;Landroid/text/Spannable;)V
 
@@ -93,8 +87,6 @@
 
 .method private notifyStateChanged(II)V
     .locals 3
-    .param p1    # I
-    .param p2    # I
 
     iget-object v2, p0, Lcom/android/ex/editstyledtext/EditStyledText;->mESTNotifiers:Ljava/util/ArrayList;
 
@@ -139,7 +131,6 @@
 
 .method private sendOnTouchEvent(Landroid/view/MotionEvent;)V
     .locals 3
-    .param p1    # Landroid/view/MotionEvent;
 
     iget-object v2, p0, Lcom/android/ex/editstyledtext/EditStyledText;->mESTNotifiers:Ljava/util/ArrayList;
 
@@ -174,8 +165,6 @@
 
 .method private static stopSelecting(Landroid/view/View;Landroid/text/Spannable;)V
     .locals 1
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/text/Spannable;
 
     sget-object v0, Lcom/android/ex/editstyledtext/EditStyledText;->SELECTING:Landroid/text/NoCopySpan$Concrete;
 
@@ -217,7 +206,6 @@
 
 .method public getForegroundColor(I)I
     .locals 4
-    .param p1    # I
 
     const/high16 v1, -0x1000000
 
@@ -365,7 +353,6 @@
 
 .method protected onCreateContextMenu(Landroid/view/ContextMenu;)V
     .locals 4
-    .param p1    # Landroid/view/ContextMenu;
 
     const/4 v3, 0x0
 
@@ -443,7 +430,6 @@
 
 .method public onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
     .locals 2
-    .param p1    # Landroid/view/inputmethod/EditorInfo;
 
     new-instance v0, Lcom/android/ex/editstyledtext/EditStyledText$StyledTextInputConnection;
 
@@ -484,9 +470,6 @@
 
 .method protected onFocusChanged(ZILandroid/graphics/Rect;)V
     .locals 1
-    .param p1    # Z
-    .param p2    # I
-    .param p3    # Landroid/graphics/Rect;
 
     invoke-super {p0, p1, p2, p3}, Landroid/widget/EditText;->onFocusChanged(ZILandroid/graphics/Rect;)V
 
@@ -524,7 +507,6 @@
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
-    .param p1    # Landroid/os/Parcelable;
 
     instance-of v1, p1, Lcom/android/ex/editstyledtext/EditStyledText$SavedStyledTextState;
 
@@ -649,10 +631,6 @@
 
 .method protected onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText;->mManager:Lcom/android/ex/editstyledtext/EditStyledText$EditorManager;
 
@@ -729,7 +707,6 @@
 
 .method public onTextContextMenuItem(I)Z
     .locals 5
-    .param p1    # I
 
     const/4 v2, 0x0
 
@@ -856,7 +833,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 7
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -963,7 +939,6 @@
 
 .method public setBackgroundColor(I)V
     .locals 1
-    .param p1    # I
 
     const v0, 0xffffff
 

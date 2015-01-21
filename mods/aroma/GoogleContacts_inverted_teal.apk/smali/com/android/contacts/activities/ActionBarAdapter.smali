@@ -50,12 +50,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/activities/ActionBarAdapter$Listener;Landroid/app/ActionBar;Landroid/view/View;Landroid/view/View;Landroid/widget/Toolbar;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/activities/ActionBarAdapter$Listener;
-    .param p3    # Landroid/app/ActionBar;
-    .param p4    # Landroid/view/View;
-    .param p5    # Landroid/view/View;
-    .param p6    # Landroid/widget/Toolbar;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -114,7 +108,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/activities/ActionBarAdapter;)Landroid/widget/EditText;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mSearchView:Landroid/widget/EditText;
 
@@ -123,8 +116,6 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/activities/ActionBarAdapter;I)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ActionBarAdapter;->setPortraitTabHeight(I)V
 
@@ -133,7 +124,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/activities/ActionBarAdapter;)Lcom/android/contacts/activities/ActionBarAdapter$Listener;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mListener:Lcom/android/contacts/activities/ActionBarAdapter$Listener;
 
@@ -142,7 +132,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/activities/ActionBarAdapter;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mQueryString:Ljava/lang/String;
 
@@ -151,8 +140,6 @@
 
 .method static synthetic access$302(Lcom/android/contacts/activities/ActionBarAdapter;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mQueryString:Ljava/lang/String;
 
@@ -161,7 +148,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/activities/ActionBarAdapter;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mSearchMode:Z
 
@@ -170,7 +156,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/activities/ActionBarAdapter;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ActionBarAdapter;->updateDisplayOptionsInner()V
 
@@ -179,8 +164,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/activities/ActionBarAdapter;Z)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
-    .param p1    # Z
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ActionBarAdapter;->updateDisplayOptions(Z)V
 
@@ -189,7 +172,6 @@
 
 .method static synthetic access$700(Lcom/android/contacts/activities/ActionBarAdapter;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ActionBarAdapter;->addLandscapeViewPagerTabs()V
 
@@ -198,7 +180,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/activities/ActionBarAdapter;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mSearchContainer:Landroid/view/View;
 
@@ -207,7 +188,6 @@
 
 .method static synthetic access$900(Lcom/android/contacts/activities/ActionBarAdapter;)Landroid/widget/Toolbar;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/ActionBarAdapter;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mToolbar:Landroid/widget/Toolbar;
 
@@ -257,8 +237,6 @@
 
 .method private animateTabHeightChange(II)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     iget-object v1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mPortraitTabs:Landroid/view/View;
 
@@ -330,7 +308,6 @@
 
 .method private saveLastTabPreference(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mPrefs:Landroid/content/SharedPreferences;
 
@@ -351,7 +328,6 @@
 
 .method private setPortraitTabHeight(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mPortraitTabs:Landroid/view/View;
 
@@ -498,7 +474,6 @@
 
 .method private setupTabs(Landroid/content/Context;)V
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     const/4 v3, 0x0
 
@@ -527,7 +502,6 @@
 
 .method private showInputMethod(Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/view/View;
 
     iget-object v1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mContext:Landroid/content/Context;
 
@@ -551,7 +525,6 @@
 
 .method private update(Z)V
     .locals 7
-    .param p1    # Z
 
     const/4 v2, 0x1
 
@@ -696,7 +669,6 @@
 
 .method private updateDisplayOptions(Z)V
     .locals 3
-    .param p1    # Z
 
     iget-boolean v1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mSearchMode:Z
 
@@ -861,8 +833,6 @@
 
 .method public initialize(Landroid/os/Bundle;Lcom/android/contacts/list/ContactsRequest;)V
     .locals 3
-    .param p1    # Landroid/os/Bundle;
-    .param p2    # Lcom/android/contacts/list/ContactsRequest;
 
     const/4 v2, 0x1
 
@@ -978,7 +948,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     const-string v0, "navBar.searchMode"
 
@@ -1003,7 +972,6 @@
 
 .method public setCurrentTab(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -1014,8 +982,6 @@
 
 .method public setCurrentTab(IZ)V
     .locals 1
-    .param p1    # I
-    .param p2    # Z
 
     iget v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mCurrentTab:I
 
@@ -1061,7 +1027,6 @@
 
 .method public setListener(Lcom/android/contacts/activities/ActionBarAdapter$Listener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ActionBarAdapter$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mListener:Lcom/android/contacts/activities/ActionBarAdapter$Listener;
 
@@ -1070,7 +1035,6 @@
 
 .method public setQueryString(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mQueryString:Ljava/lang/String;
 
@@ -1088,7 +1052,6 @@
 
 .method public setSearchMode(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/ActionBarAdapter;->mSearchMode:Z
 

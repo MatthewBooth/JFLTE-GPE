@@ -34,7 +34,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/activities/ConfirmAddDetailActivity;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -45,8 +44,6 @@
 
 .method private static queryForContactId(Landroid/content/ContentResolver;J)J
     .locals 9
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # J
 
     const/4 v8, 0x0
 
@@ -126,7 +123,6 @@
 # virtual methods
 .method protected varargs doInBackground([Landroid/content/Intent;)Lcom/android/contacts/common/model/RawContactDeltaList;
     .locals 15
-    .param p1    # [Landroid/content/Intent;
 
     const/4 v10, 0x0
 
@@ -265,7 +261,6 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Landroid/content/Intent;
 
@@ -278,7 +273,6 @@
 
 .method protected onPostExecute(Lcom/android/contacts/common/model/RawContactDeltaList;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ConfirmAddDetailActivity$QueryEntitiesTask;->activityTarget:Lcom/android/contacts/activities/ConfirmAddDetailActivity;
 
@@ -324,7 +318,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/model/RawContactDeltaList;
 

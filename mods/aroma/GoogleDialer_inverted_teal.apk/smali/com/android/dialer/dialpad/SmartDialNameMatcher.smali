@@ -43,7 +43,6 @@
 
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/dialer/dialpad/SmartDialNameMatcher;->LATIN_SMART_DIAL_MAP:Lcom/android/dialer/dialpad/SmartDialMap;
 
@@ -54,8 +53,6 @@
 
 .method public constructor <init>(Ljava/lang/String;Lcom/android/dialer/dialpad/SmartDialMap;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/dialer/dialpad/SmartDialMap;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -82,8 +79,6 @@
 
 .method private constructEmptyMask(Ljava/lang/StringBuilder;I)V
     .locals 2
-    .param p1    # Ljava/lang/StringBuilder;
-    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -104,9 +99,6 @@
 
 .method private matchesNumberWithOffset(Ljava/lang/String;Ljava/lang/String;I)Lcom/android/dialer/dialpad/SmartDialMatchPosition;
     .locals 6
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
 
     const/4 v4, 0x0
 
@@ -196,9 +188,6 @@
 
 .method public static normalizeNumber(Ljava/lang/String;ILcom/android/dialer/dialpad/SmartDialMap;)Ljava/lang/String;
     .locals 4
-    .param p0    # Ljava/lang/String;
-    .param p1    # I
-    .param p2    # Lcom/android/dialer/dialpad/SmartDialMap;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -240,8 +229,6 @@
 
 .method public static normalizeNumber(Ljava/lang/String;Lcom/android/dialer/dialpad/SmartDialMap;)Ljava/lang/String;
     .locals 1
-    .param p0    # Ljava/lang/String;
-    .param p1    # Lcom/android/dialer/dialpad/SmartDialMap;
 
     const/4 v0, 0x0
 
@@ -254,8 +241,6 @@
 
 .method private replaceBitInMask(Ljava/lang/StringBuilder;Lcom/android/dialer/dialpad/SmartDialMatchPosition;)V
     .locals 3
-    .param p1    # Ljava/lang/StringBuilder;
-    .param p2    # Lcom/android/dialer/dialpad/SmartDialMatchPosition;
 
     iget v0, p2, Lcom/android/dialer/dialpad/SmartDialMatchPosition;->start:I
 
@@ -303,7 +288,6 @@
 
 .method public matches(Ljava/lang/String;)Z
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/dialpad/SmartDialNameMatcher;->mMatchPositions:Ljava/util/ArrayList;
 
@@ -322,8 +306,6 @@
 
 .method matchesCombination(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;)Z
     .locals 19
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -804,7 +786,6 @@
 
 .method public matchesNumber(Ljava/lang/String;)Lcom/android/dialer/dialpad/SmartDialMatchPosition;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/dialpad/SmartDialNameMatcher;->mQuery:Ljava/lang/String;
 
@@ -819,8 +800,6 @@
 
 .method public matchesNumber(Ljava/lang/String;Ljava/lang/String;)Lcom/android/dialer/dialpad/SmartDialMatchPosition;
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -833,9 +812,6 @@
 
 .method public matchesNumber(Ljava/lang/String;Ljava/lang/String;Z)Lcom/android/dialer/dialpad/SmartDialMatchPosition;
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Z
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -917,7 +893,6 @@
 
 .method public setQuery(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/dialer/dialpad/SmartDialNameMatcher;->mQuery:Ljava/lang/String;
 

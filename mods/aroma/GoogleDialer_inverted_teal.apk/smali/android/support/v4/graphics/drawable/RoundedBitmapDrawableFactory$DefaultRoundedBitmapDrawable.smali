@@ -17,8 +17,6 @@
 # direct methods
 .method constructor <init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
     .locals 0
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # Landroid/graphics/Bitmap;
 
     invoke-direct {p0, p1, p2}, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
@@ -29,11 +27,6 @@
 # virtual methods
 .method gravityCompatApply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;)V
     .locals 6
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/graphics/Rect;
-    .param p5    # Landroid/graphics/Rect;
 
     const/4 v5, 0x0
 

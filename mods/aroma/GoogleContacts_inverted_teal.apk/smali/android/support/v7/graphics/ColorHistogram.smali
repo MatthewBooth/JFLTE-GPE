@@ -14,7 +14,6 @@
 # direct methods
 .method constructor <init>([I)V
     .locals 1
-    .param p1    # [I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +44,6 @@
 
 .method private static countDistinctColors([I)I
     .locals 5
-    .param p0    # [I
 
     array-length v3, p0
 
@@ -88,7 +86,6 @@
 
 .method private countFrequencies([I)V
     .locals 6
-    .param p1    # [I
 
     const/4 v5, 0x1
 

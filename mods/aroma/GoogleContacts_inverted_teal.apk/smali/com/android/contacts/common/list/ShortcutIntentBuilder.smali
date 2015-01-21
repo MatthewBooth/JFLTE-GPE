@@ -111,8 +111,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/list/ShortcutIntentBuilder$OnShortcutIntentCreatedListener;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/common/list/ShortcutIntentBuilder$OnShortcutIntentCreatedListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -176,7 +174,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/list/ShortcutIntentBuilder;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/ShortcutIntentBuilder;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ShortcutIntentBuilder;->mContext:Landroid/content/Context;
 
@@ -201,12 +198,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/common/list/ShortcutIntentBuilder;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/list/ShortcutIntentBuilder;
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # [B
 
     invoke-direct/range {p0 .. p5}, Lcom/android/contacts/common/list/ShortcutIntentBuilder;->createContactShortcutIntent(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
 
@@ -223,15 +214,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/common/list/ShortcutIntentBuilder;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/list/ShortcutIntentBuilder;
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [B
-    .param p5    # Ljava/lang/String;
-    .param p6    # I
-    .param p7    # Ljava/lang/String;
-    .param p8    # Ljava/lang/String;
 
     invoke-direct/range {p0 .. p8}, Lcom/android/contacts/common/list/ShortcutIntentBuilder;->createPhoneNumberShortcutIntent(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
 
@@ -240,11 +222,6 @@
 
 .method private createContactShortcutIntent(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)V
     .locals 7
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # [B
 
     invoke-direct {p0, p5, p3, p4}, Lcom/android/contacts/common/list/ShortcutIntentBuilder;->getPhotoDrawable([BLjava/lang/String;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
@@ -331,14 +308,6 @@
 
 .method private createPhoneNumberShortcutIntent(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
     .locals 7
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [B
-    .param p5    # Ljava/lang/String;
-    .param p6    # I
-    .param p7    # Ljava/lang/String;
-    .param p8    # Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -415,10 +384,6 @@
 
 .method private generatePhoneNumberIcon(Landroid/graphics/drawable/Drawable;ILjava/lang/String;I)Landroid/graphics/Bitmap;
     .locals 24
-    .param p1    # Landroid/graphics/drawable/Drawable;
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
-    .param p4    # I
 
     move-object/from16 v0, p0
 
@@ -720,7 +685,6 @@
 
 .method private generateQuickContactIcon(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
     .locals 9
-    .param p1    # Landroid/graphics/drawable/Drawable;
 
     const/4 v8, 0x0
 
@@ -793,9 +757,6 @@
 
 .method private getPhotoDrawable([BLjava/lang/String;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
     .locals 4
-    .param p1    # [B
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -844,7 +805,6 @@
 # virtual methods
 .method public createContactShortcutIntent(Landroid/net/Uri;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Lcom/android/contacts/common/list/ShortcutIntentBuilder$ContactLoadingAsyncTask;
 
@@ -861,8 +821,6 @@
 
 .method public createPhoneNumberShortcutIntent(Landroid/net/Uri;Ljava/lang/String;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/contacts/common/list/ShortcutIntentBuilder$PhoneNumberLoadingAsyncTask;
 

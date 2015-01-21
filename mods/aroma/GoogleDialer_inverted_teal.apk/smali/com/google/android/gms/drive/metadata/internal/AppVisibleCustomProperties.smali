@@ -81,7 +81,6 @@
 
 .method constructor <init>(ILjava/util/Collection;)V
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -128,8 +127,6 @@
 
 .method synthetic constructor <init>(Ljava/util/Collection;Lcom/google/android/gms/drive/metadata/internal/AppVisibleCustomProperties$1;)V
     .locals 0
-    .param p1    # Ljava/util/Collection;
-    .param p2    # Lcom/google/android/gms/drive/metadata/internal/AppVisibleCustomProperties$1;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/drive/metadata/internal/AppVisibleCustomProperties;-><init>(Ljava/util/Collection;)V
 
@@ -169,8 +166,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/metadata/internal/a;->a(Lcom/google/android/gms/drive/metadata/internal/AppVisibleCustomProperties;Landroid/os/Parcel;I)V
 

@@ -119,7 +119,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber$CountryCodeSource;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber$CountryCodeSource;
 

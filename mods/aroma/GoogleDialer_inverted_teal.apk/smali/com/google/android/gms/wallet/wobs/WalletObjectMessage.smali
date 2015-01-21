@@ -59,12 +59,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;Lcom/google/android/gms/wallet/wobs/TimeInterval;Lcom/google/android/gms/wallet/wobs/UriData;Lcom/google/android/gms/wallet/wobs/UriData;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Lcom/google/android/gms/wallet/wobs/TimeInterval;
-    .param p5    # Lcom/google/android/gms/wallet/wobs/UriData;
-    .param p6    # Lcom/google/android/gms/wallet/wobs/UriData;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -103,8 +97,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/wobs/i;->a(Lcom/google/android/gms/wallet/wobs/WalletObjectMessage;Landroid/os/Parcel;I)V
 

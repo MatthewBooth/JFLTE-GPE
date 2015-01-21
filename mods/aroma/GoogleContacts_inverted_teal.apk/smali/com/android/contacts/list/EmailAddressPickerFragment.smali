@@ -43,7 +43,6 @@
 
 .method private pickEmailAddress(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/list/EmailAddressPickerFragment;->mListener:Lcom/android/contacts/list/OnEmailAddressPickerActionListener;
 
@@ -76,8 +75,6 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040012
 
@@ -92,8 +89,6 @@
 
 .method protected onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 1
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
 
@@ -118,8 +113,6 @@
 
 .method protected onItemClick(IJ)V
     .locals 2
-    .param p1    # I
-    .param p2    # J
 
     invoke-virtual {p0}, Lcom/android/contacts/list/EmailAddressPickerFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -152,7 +145,6 @@
 
 .method public setOnEmailAddressPickerActionListener(Lcom/android/contacts/list/OnEmailAddressPickerActionListener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/OnEmailAddressPickerActionListener;
 
     iput-object p1, p0, Lcom/android/contacts/list/EmailAddressPickerFragment;->mListener:Lcom/android/contacts/list/OnEmailAddressPickerActionListener;
 

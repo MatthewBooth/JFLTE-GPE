@@ -39,8 +39,6 @@
 
 .method private copyNodeInfoNoChildren(Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
     .locals 2
-    .param p1    # Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
-    .param p2    # Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
 
     iget-object v0, p0, Lcom/android/dialer/widget/OverlappingPaneLayout$AccessibilityDelegate;->mTmpRect:Landroid/graphics/Rect;
 
@@ -137,8 +135,6 @@
 # virtual methods
 .method public onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     invoke-super {p0, p1, p2}, Landroid/support/v4/view/AccessibilityDelegateCompat;->onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
 
@@ -155,8 +151,6 @@
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)V
     .locals 6
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
 
     invoke-static {p2}, Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;->obtain(Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;)Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat;
 

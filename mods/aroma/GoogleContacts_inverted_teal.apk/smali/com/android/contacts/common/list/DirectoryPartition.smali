@@ -28,8 +28,6 @@
 # direct methods
 .method public constructor <init>(ZZ)V
     .locals 1
-    .param p1    # Z
-    .param p2    # Z
 
     invoke-direct {p0, p1, p2}, Lcom/android/common/widget/CompositeCursorAdapter$Partition;-><init>(ZZ)V
 
@@ -151,7 +149,6 @@
 
 .method public setDirectoryId(J)V
     .locals 1
-    .param p1    # J
 
     iput-wide p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mDirectoryId:J
 
@@ -160,7 +157,6 @@
 
 .method public setDirectoryType(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mDirectoryType:Ljava/lang/String;
 
@@ -169,7 +165,6 @@
 
 .method public setDisplayName(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mDisplayName:Ljava/lang/String;
 
@@ -178,7 +173,6 @@
 
 .method public setLabel(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mLabel:Ljava/lang/String;
 
@@ -187,7 +181,6 @@
 
 .method public setPhotoSupported(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mPhotoSupported:Z
 
@@ -196,7 +189,6 @@
 
 .method public setPriorityDirectory(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mPriorityDirectory:Z
 
@@ -205,7 +197,6 @@
 
 .method public setStatus(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/list/DirectoryPartition;->mStatus:I
 

@@ -34,8 +34,6 @@
 # virtual methods
 .method public onAccountChosen(Lcom/android/contacts/common/model/account/AccountWithDataSet;Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
-    .param p2    # Landroid/os/Bundle;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$SelectAccountDialogFragmentListener;->mQuickContactActivity:Lcom/android/contacts/quickcontact/QuickContactActivity;
 
@@ -63,7 +61,6 @@
 
 .method public setQuickContactActivity(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$SelectAccountDialogFragmentListener;->mQuickContactActivity:Lcom/android/contacts/quickcontact/QuickContactActivity;
 

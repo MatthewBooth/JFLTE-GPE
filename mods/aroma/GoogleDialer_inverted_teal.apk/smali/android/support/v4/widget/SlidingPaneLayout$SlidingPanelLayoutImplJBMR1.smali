@@ -27,8 +27,6 @@
 # virtual methods
 .method public invalidateChildRegion(Landroid/support/v4/widget/SlidingPaneLayout;Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/support/v4/widget/SlidingPaneLayout;
-    .param p2    # Landroid/view/View;
 
     invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 

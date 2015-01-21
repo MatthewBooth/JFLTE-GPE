@@ -53,14 +53,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/fitness/data/DataType;Ljava/lang/String;ILcom/google/android/gms/fitness/data/Device;Lcom/google/android/gms/fitness/data/Application;Ljava/lang/String;Z)V
     .locals 1
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/fitness/data/DataType;
-    .param p3    # Ljava/lang/String;
-    .param p4    # I
-    .param p5    # Lcom/google/android/gms/fitness/data/Device;
-    .param p6    # Lcom/google/android/gms/fitness/data/Application;
-    .param p7    # Ljava/lang/String;
-    .param p8    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -237,7 +229,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -710,8 +701,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0}, Lcom/google/android/gms/internal/lf;->b(Lcom/google/android/gms/fitness/data/DataSource;)Lcom/google/android/gms/fitness/data/DataSource;
 

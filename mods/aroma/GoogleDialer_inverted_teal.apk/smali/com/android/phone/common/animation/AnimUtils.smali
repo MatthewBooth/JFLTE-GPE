@@ -54,9 +54,6 @@
 
 .method public static changeDimensions(Landroid/view/View;II)V
     .locals 7
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # I
 
     const/4 v0, 0x2
 
@@ -103,9 +100,6 @@
 
 .method public static crossFadeViews(Landroid/view/View;Landroid/view/View;I)V
     .locals 0
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     invoke-static {p0, p2}, Lcom/android/phone/common/animation/AnimUtils;->fadeIn(Landroid/view/View;I)V
 
@@ -116,8 +110,6 @@
 
 .method public static fadeIn(Landroid/view/View;I)V
     .locals 2
-    .param p0    # Landroid/view/View;
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -130,10 +122,6 @@
 
 .method public static fadeIn(Landroid/view/View;IILcom/android/phone/common/animation/AnimUtils$AnimationCallback;)V
     .locals 4
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Lcom/android/phone/common/animation/AnimUtils$AnimationCallback;
 
     const/4 v1, 0x0
 
@@ -181,8 +169,6 @@
 
 .method public static fadeOut(Landroid/view/View;I)V
     .locals 1
-    .param p0    # Landroid/view/View;
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -193,9 +179,6 @@
 
 .method public static fadeOut(Landroid/view/View;ILcom/android/phone/common/animation/AnimUtils$AnimationCallback;)V
     .locals 4
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # Lcom/android/phone/common/animation/AnimUtils$AnimationCallback;
 
     const/high16 v1, 0x3f800000
 
@@ -239,9 +222,6 @@
 
 .method public static scaleIn(Landroid/view/View;II)V
     .locals 7
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # I
 
     new-instance v5, Lcom/android/phone/common/animation/AnimUtils$3;
 
@@ -266,13 +246,6 @@
 
 .method private static scaleInternal(Landroid/view/View;IIIILandroid/animation/AnimatorListenerAdapter;Landroid/view/animation/Interpolator;)V
     .locals 4
-    .param p0    # Landroid/view/View;
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # Landroid/animation/AnimatorListenerAdapter;
-    .param p6    # Landroid/view/animation/Interpolator;
 
     int-to-float v1, p1
 
@@ -330,8 +303,6 @@
 
 .method public static scaleOut(Landroid/view/View;I)V
     .locals 7
-    .param p0    # Landroid/view/View;
-    .param p1    # I
 
     const/4 v2, 0x0
 

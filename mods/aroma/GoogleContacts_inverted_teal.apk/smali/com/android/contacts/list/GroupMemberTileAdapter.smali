@@ -6,9 +6,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/list/ContactTileView$Listener;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/common/list/ContactTileView$Listener;
-    .param p3    # I
 
     sget-object v0, Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;->GROUP_MEMBERS:Lcom/android/contacts/common/list/ContactTileAdapter$DisplayType;
 
@@ -86,7 +83,6 @@
 
 .method protected getDividerPosition(Landroid/database/Cursor;)I
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, -0x1
 
@@ -95,7 +91,6 @@
 
 .method public bridge synthetic getItem(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/list/GroupMemberTileAdapter;->getItem(I)Ljava/util/ArrayList;
 
@@ -106,7 +101,6 @@
 
 .method public getItem(I)Ljava/util/ArrayList;
     .locals 4
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -154,7 +148,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -163,7 +156,6 @@
 
 .method protected saveNumFrequentsFromCursor(Landroid/database/Cursor;)V
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 

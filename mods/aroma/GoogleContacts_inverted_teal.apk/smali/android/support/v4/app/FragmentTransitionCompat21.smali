@@ -15,8 +15,6 @@
 # direct methods
 .method static synthetic access$000(Ljava/util/ArrayList;Landroid/view/View;)V
     .locals 0
-    .param p0    # Ljava/util/ArrayList;
-    .param p1    # Landroid/view/View;
 
     invoke-static {p0, p1}, Landroid/support/v4/app/FragmentTransitionCompat21;->captureTransitioningViews(Ljava/util/ArrayList;Landroid/view/View;)V
 
@@ -25,7 +23,6 @@
 
 .method static synthetic access$100(Landroid/view/View;)Landroid/graphics/Rect;
     .locals 1
-    .param p0    # Landroid/view/View;
 
     invoke-static {p0}, Landroid/support/v4/app/FragmentTransitionCompat21;->getBoundsOnScreen(Landroid/view/View;)Landroid/graphics/Rect;
 
@@ -36,7 +33,6 @@
 
 .method public static addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
     .locals 4
-    .param p0    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -79,12 +75,6 @@
 
 .method public static addTransitionTargets(Ljava/lang/Object;Ljava/lang/Object;Landroid/view/View;Landroid/support/v4/app/FragmentTransitionCompat21$ViewRetriever;Landroid/view/View;Landroid/support/v4/app/FragmentTransitionCompat21$EpicenterView;Ljava/util/Map;Ljava/util/ArrayList;Ljava/util/Map;Ljava/util/ArrayList;)V
     .locals 10
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/support/v4/app/FragmentTransitionCompat21$ViewRetriever;
-    .param p4    # Landroid/view/View;
-    .param p5    # Landroid/support/v4/app/FragmentTransitionCompat21$EpicenterView;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -171,8 +161,6 @@
 
 .method public static beginDelayedTransition(Landroid/view/ViewGroup;Ljava/lang/Object;)V
     .locals 1
-    .param p0    # Landroid/view/ViewGroup;
-    .param p1    # Ljava/lang/Object;
 
     move-object v0, p1
 
@@ -185,8 +173,6 @@
 
 .method public static captureExitingViews(Ljava/lang/Object;Landroid/view/View;Ljava/util/ArrayList;Ljava/util/Map;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -242,7 +228,6 @@
 
 .method private static captureTransitioningViews(Ljava/util/ArrayList;Landroid/view/View;)V
     .locals 5
-    .param p1    # Landroid/view/View;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -309,12 +294,6 @@
 
 .method public static cleanupTransitions(Landroid/view/View;Landroid/view/View;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/Map;)V
     .locals 13
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/view/View;
-    .param p2    # Ljava/lang/Object;
-    .param p4    # Ljava/lang/Object;
-    .param p6    # Ljava/lang/Object;
-    .param p8    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -396,7 +375,6 @@
 
 .method public static cloneTransition(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Ljava/lang/Object;
 
     if-eqz p0, :cond_0
 
@@ -412,9 +390,6 @@
 
 .method public static excludeTarget(Ljava/lang/Object;Landroid/view/View;Z)V
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Z
 
     move-object v0, p0
 
@@ -427,7 +402,6 @@
 
 .method public static findNamedViews(Ljava/util/Map;Landroid/view/View;)V
     .locals 6
-    .param p1    # Landroid/view/View;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -489,7 +463,6 @@
 
 .method private static getBoundsOnScreen(Landroid/view/View;)Landroid/graphics/Rect;
     .locals 7
-    .param p0    # Landroid/view/View;
 
     const/4 v6, 0x1
 
@@ -532,7 +505,6 @@
 
 .method public static getTransitionName(Landroid/view/View;)Ljava/lang/String;
     .locals 1
-    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getTransitionName()Ljava/lang/String;
 
@@ -543,10 +515,6 @@
 
 .method public static mergeTransitions(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object;
     .locals 10
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Z
 
     const/4 v2, 0x1
 
@@ -661,7 +629,6 @@
 
 .method public static removeTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
     .locals 4
-    .param p0    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -704,8 +671,6 @@
 
 .method public static setEpicenter(Ljava/lang/Object;Landroid/view/View;)V
     .locals 3
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
 
     move-object v1, p0
 
@@ -726,8 +691,6 @@
 
 .method private static setSharedElementEpicenter(Landroid/transition/Transition;Landroid/support/v4/app/FragmentTransitionCompat21$EpicenterView;)V
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-    .param p1    # Landroid/support/v4/app/FragmentTransitionCompat21$EpicenterView;
 
     if-eqz p0, :cond_0
 

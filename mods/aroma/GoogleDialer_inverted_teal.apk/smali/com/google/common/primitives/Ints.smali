@@ -6,8 +6,6 @@
 # direct methods
 .method public static compare(II)I
     .locals 1
-    .param p0    # I
-    .param p1    # I
 
     if-ge p0, p1, :cond_0
 
@@ -31,7 +29,6 @@
 
 .method public static saturatedCast(J)I
     .locals 2
-    .param p0    # J
 
     const-wide/32 v0, 0x7fffffff
 

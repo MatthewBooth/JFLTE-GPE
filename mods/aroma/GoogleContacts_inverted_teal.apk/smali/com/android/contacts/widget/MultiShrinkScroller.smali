@@ -131,7 +131,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -142,8 +141,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -154,9 +151,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 10
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     const/4 v9, 0x2
 
@@ -463,7 +457,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/widget/MultiShrinkScroller;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->getScrollUntilOffBottom()I
 
@@ -474,7 +467,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/widget/MultiShrinkScroller;)Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mListener:Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
 
@@ -483,7 +475,6 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/widget/MultiShrinkScroller;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mLargeTextView:Landroid/widget/TextView;
 
@@ -492,8 +483,6 @@
 
 .method static synthetic access$102(Lcom/android/contacts/widget/MultiShrinkScroller;Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;)Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
 
     iput-object p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mListener:Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
 
@@ -502,8 +491,6 @@
 
 .method static synthetic access$1102(Lcom/android/contacts/widget/MultiShrinkScroller;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMinimumHeaderHeight:I
 
@@ -512,7 +499,6 @@
 
 .method static synthetic access$1200(Lcom/android/contacts/widget/MultiShrinkScroller;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMaximumTitleMargin:I
 
@@ -521,7 +507,6 @@
 
 .method static synthetic access$1300(Lcom/android/contacts/widget/MultiShrinkScroller;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->calculateCollapsedLargeTitlePadding()V
 
@@ -530,7 +515,6 @@
 
 .method static synthetic access$1400(Lcom/android/contacts/widget/MultiShrinkScroller;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->updateHeaderTextSizeAndMargin()V
 
@@ -539,7 +523,6 @@
 
 .method static synthetic access$1500(Lcom/android/contacts/widget/MultiShrinkScroller;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->configureGradientViewHeights()V
 
@@ -548,7 +531,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/widget/MultiShrinkScroller;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->expandHeader()V
 
@@ -557,7 +539,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/widget/MultiShrinkScroller;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget-boolean v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mIsTwoPanel:Z
 
@@ -566,7 +547,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/widget/MultiShrinkScroller;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMaximumHeaderHeight:I
 
@@ -575,8 +555,6 @@
 
 .method static synthetic access$402(Lcom/android/contacts/widget/MultiShrinkScroller;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMaximumHeaderHeight:I
 
@@ -585,7 +563,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/widget/MultiShrinkScroller;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mPhotoViewContainer:Landroid/view/View;
 
@@ -594,8 +571,6 @@
 
 .method static synthetic access$602(Lcom/android/contacts/widget/MultiShrinkScroller;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mIntermediateHeaderHeight:I
 
@@ -604,8 +579,6 @@
 
 .method static synthetic access$702(Lcom/android/contacts/widget/MultiShrinkScroller;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMaximumPortraitHeaderHeight:I
 
@@ -614,7 +587,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/widget/MultiShrinkScroller;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
 
     invoke-direct {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->getMaximumScrollableHeaderHeight()I
 
@@ -625,8 +597,6 @@
 
 .method static synthetic access$902(Lcom/android/contacts/widget/MultiShrinkScroller;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/MultiShrinkScroller;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMaximumHeaderTextSize:I
 
@@ -635,8 +605,6 @@
 
 .method private alphaMatrix(FI)Landroid/graphics/ColorMatrix;
     .locals 5
-    .param p1    # F
-    .param p2    # I
 
     const/high16 v4, 0x3f800000
 
@@ -805,7 +773,6 @@
 
 .method private calculateHeightRatio(I)F
     .locals 3
-    .param p1    # I
 
     iget v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMinimumPortraitHeaderHeight:I
 
@@ -965,7 +932,6 @@
 
 .method private fling(F)V
     .locals 9
-    .param p1    # F
 
     const/4 v1, 0x0
 
@@ -1273,7 +1239,6 @@
 
 .method private getTransparentHeightRatio(I)F
     .locals 4
-    .param p1    # I
 
     const/high16 v3, 0x3f800000
 
@@ -1318,7 +1283,6 @@
 
 .method private motionShouldStartDrag(Landroid/view/MotionEvent;)Z
     .locals 8
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v5, 0x1
 
@@ -1413,8 +1377,6 @@
 
 .method private multiplyBlend(IF)F
     .locals 2
-    .param p1    # I
-    .param p2    # F
 
     int-to-float v0, p1
 
@@ -1435,8 +1397,6 @@
 
 .method private multiplyBlendMatrix(IF)Landroid/graphics/ColorMatrix;
     .locals 3
-    .param p1    # I
-    .param p2    # F
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mMultiplyBlendMatrixValues:[F
 
@@ -1493,7 +1453,6 @@
 
 .method private onDragFinished(I)V
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/widget/MultiShrinkScroller;->snapToTop(I)Z
 
@@ -1509,7 +1468,6 @@
 
 .method private scrollDown(I)V
     .locals 4
-    .param p1    # I
 
     iget-object v2, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mScrollView:Landroid/widget/ScrollView;
 
@@ -1613,7 +1571,6 @@
 
 .method private scrollUp(I)V
     .locals 5
-    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -1708,7 +1665,6 @@
 
 .method private setInterpolatedTitleMargins(F)V
     .locals 8
-    .param p1    # F
 
     const/4 v4, 0x0
 
@@ -1813,7 +1769,6 @@
 
 .method private setTransparentViewHeight(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mTransparentView:Landroid/view/View;
 
@@ -1838,7 +1793,6 @@
 
 .method private shouldStartDrag(Landroid/view/MotionEvent;)Z
     .locals 3
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v1, 0x1
 
@@ -1911,7 +1865,6 @@
 
 .method private smoothScrollBy(I)V
     .locals 3
-    .param p1    # I
 
     const/4 v2, 0x0
 
@@ -1941,7 +1894,6 @@
 
 .method private snapToBottom(I)V
     .locals 5
-    .param p1    # I
 
     iget-boolean v3, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mHasEverTouchedTheTop:Z
 
@@ -2036,7 +1988,6 @@
 
 .method private snapToTop(I)Z
     .locals 5
-    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -2114,7 +2065,6 @@
 
 .method private stopDrag(Z)V
     .locals 3
-    .param p1    # Z
 
     const/4 v2, 0x0
 
@@ -2367,7 +2317,6 @@
 
 .method private updateLastEventPosition(Landroid/view/MotionEvent;)V
     .locals 3
-    .param p1    # Landroid/view/MotionEvent;
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mLastEventPosition:[F
 
@@ -2754,7 +2703,6 @@
 
 .method private updatePositionAndComputeDelta(Landroid/view/MotionEvent;)F
     .locals 4
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v3, 0x1
 
@@ -2868,7 +2816,6 @@
 
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 7
-    .param p1    # Landroid/graphics/Canvas;
 
     const/4 v6, 0x0
 
@@ -3080,8 +3027,6 @@
 
 .method public initialize(Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;Z)V
     .locals 2
-    .param p1    # Lcom/android/contacts/widget/MultiShrinkScroller$MultiShrinkScrollerListener;
-    .param p2    # Z
 
     const v1, 0x7f0e00bc
 
@@ -3252,7 +3197,6 @@
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/widget/MultiShrinkScroller;->shouldStartDrag(Landroid/view/MotionEvent;)Z
 
@@ -3263,7 +3207,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 9
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v4, 0x1
 
@@ -3441,7 +3384,6 @@
 
 .method public prepareForShrinkingScrollChild(I)V
     .locals 6
-    .param p1    # I
 
     const/4 v4, 0x0
 
@@ -3574,8 +3516,6 @@
 
 .method public scrollTo(II)V
     .locals 5
-    .param p1    # I
-    .param p2    # I
 
     const/4 v1, 0x1
 
@@ -3681,7 +3621,6 @@
 
 .method public scrollUpForEntranceAnimation(Z)V
     .locals 8
-    .param p1    # Z
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/MultiShrinkScroller;->getScroll()I
 
@@ -3758,7 +3697,6 @@
 
 .method public setHeaderHeight(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mToolbar:Landroid/view/View;
 
@@ -3781,7 +3719,6 @@
 
 .method public setHeaderTintColor(I)V
     .locals 4
-    .param p1    # I
 
     const/4 v3, 0x0
 
@@ -3818,7 +3755,6 @@
 
 .method public setScroll(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -3829,7 +3765,6 @@
 
 .method public setTitle(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mLargeTextView:Landroid/widget/TextView;
 
@@ -3844,7 +3779,6 @@
 
 .method public setToolbarHeight(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/contacts/widget/MultiShrinkScroller;->mToolbar:Landroid/view/View;
 
@@ -3867,7 +3801,6 @@
 
 .method public setUseGradient(Z)V
     .locals 4
-    .param p1    # Z
 
     const/16 v2, 0x8
 

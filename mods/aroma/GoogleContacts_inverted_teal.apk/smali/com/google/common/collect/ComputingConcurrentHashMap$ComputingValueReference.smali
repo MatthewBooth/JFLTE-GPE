@@ -93,7 +93,6 @@
 
 .method compute(Ljava/lang/Object;I)Ljava/lang/Object;
     .locals 3
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I)TV;"

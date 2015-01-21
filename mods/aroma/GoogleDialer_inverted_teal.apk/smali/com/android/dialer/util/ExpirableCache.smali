@@ -68,7 +68,6 @@
 
 .method public static create(I)Lcom/android/dialer/util/ExpirableCache;
     .locals 1
-    .param p0    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",

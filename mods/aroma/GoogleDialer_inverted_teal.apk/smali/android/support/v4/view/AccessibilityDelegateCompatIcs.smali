@@ -14,9 +14,6 @@
 # direct methods
 .method public static dispatchPopulateAccessibilityEvent(Ljava/lang/Object;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -29,7 +26,6 @@
 
 .method public static newAccessibilityDelegateBridge(Landroid/support/v4/view/AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroid/support/v4/view/AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge;
 
     new-instance v0, Landroid/support/v4/view/AccessibilityDelegateCompatIcs$1;
 
@@ -50,9 +46,6 @@
 
 .method public static onInitializeAccessibilityEvent(Ljava/lang/Object;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -63,9 +56,6 @@
 
 .method public static onInitializeAccessibilityNodeInfo(Ljava/lang/Object;Landroid/view/View;Ljava/lang/Object;)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -78,9 +68,6 @@
 
 .method public static onPopulateAccessibilityEvent(Ljava/lang/Object;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -91,10 +78,6 @@
 
 .method public static onRequestSendAccessibilityEvent(Ljava/lang/Object;Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/ViewGroup;
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/accessibility/AccessibilityEvent;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -107,9 +90,6 @@
 
 .method public static sendAccessibilityEvent(Ljava/lang/Object;Landroid/view/View;I)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 
@@ -120,9 +100,6 @@
 
 .method public static sendAccessibilityEventUnchecked(Ljava/lang/Object;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 0
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/accessibility/AccessibilityEvent;
 
     check-cast p0, Landroid/view/View$AccessibilityDelegate;
 

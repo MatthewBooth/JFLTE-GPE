@@ -73,7 +73,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/content/AsyncTaskLoader;-><init>(Landroid/content/Context;)V
 
@@ -569,7 +568,6 @@
 
 .method public setDirectorySearchMode(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/list/DirectoryListLoader;->mDirectorySearchMode:I
 
@@ -578,7 +576,6 @@
 
 .method public setLocalInvisibleDirectoryEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/DirectoryListLoader;->mLocalInvisibleDirectoryEnabled:Z
 

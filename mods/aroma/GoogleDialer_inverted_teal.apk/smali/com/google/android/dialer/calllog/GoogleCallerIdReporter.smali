@@ -20,8 +20,6 @@
 
 .method private static invalidateToken(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/auth/GoogleAuthUtil;->invalidateToken(Landroid/content/Context;Ljava/lang/String;)V
 
@@ -30,8 +28,6 @@
 
 .method public static report(Landroid/content/Context;Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;)Z
     .locals 13
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
     const/4 v7, 0x1
 

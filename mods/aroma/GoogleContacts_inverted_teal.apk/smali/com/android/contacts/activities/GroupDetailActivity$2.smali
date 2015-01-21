@@ -40,7 +40,6 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 6
-    .param p1    # Landroid/view/View;
 
     sget-object v2, Landroid/provider/ContactsContract$Groups;->CONTENT_URI:Landroid/net/Uri;
 

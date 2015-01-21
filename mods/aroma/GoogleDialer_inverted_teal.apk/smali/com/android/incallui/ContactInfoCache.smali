@@ -76,7 +76,6 @@
 
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -105,11 +104,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/ContactInfoCache;Lcom/android/incallui/Call;Lcom/android/incallui/CallerInfo;ZZ)V
     .locals 0
-    .param p0    # Lcom/android/incallui/ContactInfoCache;
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Lcom/android/incallui/CallerInfo;
-    .param p3    # Z
-    .param p4    # Z
 
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/android/incallui/ContactInfoCache;->findInfoQueryComplete(Lcom/android/incallui/Call;Lcom/android/incallui/CallerInfo;ZZ)V
 
@@ -126,8 +120,6 @@
 
 .method static synthetic access$200(Lcom/android/incallui/ContactInfoCache;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/ContactInfoCache;
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/ContactInfoCache;->clearCallbacks(Ljava/lang/String;)V
 
@@ -136,7 +128,6 @@
 
 .method static synthetic access$300(Lcom/android/incallui/ContactInfoCache;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/android/incallui/ContactInfoCache;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache;->mContext:Landroid/content/Context;
 
@@ -145,7 +136,6 @@
 
 .method static synthetic access$400(Lcom/android/incallui/ContactInfoCache;)Ljava/util/HashMap;
     .locals 1
-    .param p0    # Lcom/android/incallui/ContactInfoCache;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache;->mInfoMap:Ljava/util/HashMap;
 
@@ -154,9 +144,6 @@
 
 .method static synthetic access$500(Lcom/android/incallui/ContactInfoCache;Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/ContactInfoCache;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/ContactInfoCache;->sendInfoNotifications(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
 
@@ -165,9 +152,6 @@
 
 .method public static buildCacheEntryFromCall(Landroid/content/Context;Lcom/android/incallui/Call;Z)Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Z
 
     new-instance v0, Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
@@ -188,11 +172,6 @@
 
 .method private buildEntry(Landroid/content/Context;Ljava/lang/String;Lcom/android/incallui/CallerInfo;IZ)Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
     .locals 6
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/android/incallui/CallerInfo;
-    .param p4    # I
-    .param p5    # Z
 
     const v4, 0x7f0200d4
 
@@ -319,7 +298,6 @@
 
 .method private clearCallbacks(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache;->mCallBacks:Ljava/util/HashMap;
 
@@ -330,10 +308,6 @@
 
 .method private findInfoQueryComplete(Lcom/android/incallui/Call;Lcom/android/incallui/CallerInfo;ZZ)V
     .locals 8
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Lcom/android/incallui/CallerInfo;
-    .param p3    # Z
-    .param p4    # Z
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getId()Ljava/lang/String;
 
@@ -486,7 +460,6 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/incallui/ContactInfoCache;
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/android/incallui/ContactInfoCache;
 
@@ -526,8 +499,6 @@
 
 .method private static getPresentationString(Landroid/content/Context;I)Ljava/lang/String;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # I
 
     const v1, 0x7f080142
 
@@ -565,11 +536,6 @@
 
 .method public static populateCacheEntry(Landroid/content/Context;Lcom/android/incallui/CallerInfo;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;IZ)V
     .locals 9
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/incallui/CallerInfo;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
-    .param p3    # I
-    .param p4    # Z
 
     const/4 v7, 0x1
 
@@ -910,8 +876,6 @@
 
 .method private sendImageNotifications(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v3, p0, Lcom/android/incallui/ContactInfoCache;->mCallBacks:Ljava/util/HashMap;
 
@@ -954,8 +918,6 @@
 
 .method private sendInfoNotifications(Ljava/lang/String;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     iget-object v3, p0, Lcom/android/incallui/ContactInfoCache;->mCallBacks:Ljava/util/HashMap;
 
@@ -1010,9 +972,6 @@
 
 .method public findInfo(Lcom/android/incallui/Call;ZLcom/android/incallui/ContactInfoCache$ContactInfoCacheCallback;)V
     .locals 8
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Z
-    .param p3    # Lcom/android/incallui/ContactInfoCache$ContactInfoCacheCallback;
 
     const/4 v5, 0x0
 
@@ -1144,7 +1103,6 @@
 
 .method public getInfo(Ljava/lang/String;)Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/ContactInfoCache;->mInfoMap:Ljava/util/HashMap;
 
@@ -1159,10 +1117,6 @@
 
 .method public onImageLoadComplete(ILandroid/graphics/drawable/Drawable;Landroid/graphics/Bitmap;Ljava/lang/Object;)V
     .locals 4
-    .param p1    # I
-    .param p2    # Landroid/graphics/drawable/Drawable;
-    .param p3    # Landroid/graphics/Bitmap;
-    .param p4    # Ljava/lang/Object;
 
     const-string v2, "Image load complete with context: "
 

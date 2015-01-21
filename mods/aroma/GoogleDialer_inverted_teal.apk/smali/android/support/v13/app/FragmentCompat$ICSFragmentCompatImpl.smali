@@ -27,8 +27,6 @@
 # virtual methods
 .method public setMenuVisibility(Landroid/app/Fragment;Z)V
     .locals 0
-    .param p1    # Landroid/app/Fragment;
-    .param p2    # Z
 
     invoke-static {p1, p2}, Landroid/support/v13/app/FragmentCompatICS;->setMenuVisibility(Landroid/app/Fragment;Z)V
 

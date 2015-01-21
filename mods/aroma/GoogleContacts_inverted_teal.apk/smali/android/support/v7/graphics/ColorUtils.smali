@@ -6,7 +6,6 @@
 # direct methods
 .method static HSLtoRGB([F)I
     .locals 13
-    .param p0    # [F
 
     const/4 v10, 0x0
 
@@ -321,10 +320,6 @@
 
 .method static RGBtoHSL(III[F)V
     .locals 12
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
-    .param p3    # [F
 
     int-to-float v9, p0
 

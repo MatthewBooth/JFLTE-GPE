@@ -72,7 +72,6 @@
 
 .method public constructor <init>(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -93,7 +92,6 @@
 
 .method private containsEntry(Lcom/android/contacts/common/model/ValuesDelta;)Z
     .locals 5
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     iget-object v4, p0, Lcom/android/contacts/common/model/RawContactDelta;->mEntries:Ljava/util/HashMap;
 
@@ -154,7 +152,6 @@
 
 .method public static fromBefore(Lcom/android/contacts/common/model/RawContact;)Lcom/android/contacts/common/model/RawContactDelta;
     .locals 5
-    .param p0    # Lcom/android/contacts/common/model/RawContact;
 
     new-instance v1, Lcom/android/contacts/common/model/RawContactDelta;
 
@@ -211,8 +208,6 @@
 
 .method private getMimeEntries(Ljava/lang/String;Z)Ljava/util/ArrayList;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -251,8 +246,6 @@
 
 .method public static mergeAfter(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/RawContactDelta;)Lcom/android/contacts/common/model/RawContactDelta;
     .locals 10
-    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
 
     iget-object v7, p1, Lcom/android/contacts/common/model/RawContactDelta;->mValues:Lcom/android/contacts/common/model/ValuesDelta;
 
@@ -358,7 +351,6 @@
 
 .method private possibleAdd(Ljava/util/ArrayList;Landroid/content/ContentProviderOperation$Builder;)V
     .locals 1
-    .param p2    # Landroid/content/ContentProviderOperation$Builder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -387,7 +379,6 @@
 # virtual methods
 .method public addEntry(Lcom/android/contacts/common/model/ValuesDelta;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/model/ValuesDelta;->getMimetype()Ljava/lang/String;
 
@@ -757,8 +748,6 @@
 
 .method protected buildSetAggregationMode(Ljava/lang/Long;I)Landroid/content/ContentProviderOperation$Builder;
     .locals 3
-    .param p1    # Ljava/lang/Long;
-    .param p2    # I
 
     iget-object v1, p0, Lcom/android/contacts/common/model/RawContactDelta;->mContactsQueryUri:Landroid/net/Uri;
 
@@ -809,7 +798,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 8
-    .param p1    # Ljava/lang/Object;
 
     const/4 v5, 0x0
 
@@ -908,7 +896,6 @@
 
 .method public getAccountType(Lcom/android/contacts/common/model/AccountTypeManager;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContactDelta;->getAccountType()Ljava/lang/String;
 
@@ -1034,7 +1021,6 @@
 
 .method public getEntry(Ljava/lang/Long;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 6
-    .param p1    # Ljava/lang/Long;
 
     const/4 v4, 0x0
 
@@ -1106,7 +1092,6 @@
 
 .method public getEntryCount(Z)I
     .locals 4
-    .param p1    # Z
 
     const/4 v0, 0x0
 
@@ -1147,7 +1132,6 @@
 
 .method public getMimeEntries(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1171,8 +1155,6 @@
 
 .method public getMimeEntriesCount(Ljava/lang/String;Z)I
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContactDelta;->getMimeEntries(Ljava/lang/String;)Ljava/util/ArrayList;
 
@@ -1222,7 +1204,6 @@
 
 .method public getPrimaryEntry(Ljava/lang/String;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -1284,7 +1265,6 @@
 
 .method public getRawContactAccountType(Landroid/content/Context;)Lcom/android/contacts/common/model/account/AccountType;
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContactDelta;->getValues()Lcom/android/contacts/common/model/ValuesDelta;
 
@@ -1335,8 +1315,6 @@
 
 .method public getSuperPrimaryEntry(Ljava/lang/String;Z)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 7
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     const/4 v6, 0x0
 
@@ -1429,7 +1407,6 @@
 
 .method public hasMimeEntries(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/RawContactDelta;->mEntries:Ljava/util/HashMap;
 
@@ -1523,7 +1500,6 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 5
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1691,8 +1667,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 6
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     const/4 v5, 0x0
 

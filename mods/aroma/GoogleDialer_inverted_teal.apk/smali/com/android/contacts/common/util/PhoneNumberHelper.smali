@@ -32,8 +32,6 @@
 
 .method public static formatNumber(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
 
     const-string v4, "#"
 
@@ -91,9 +89,6 @@
 
 .method public static formatNumber(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -211,7 +206,6 @@
 
 .method public static getUsernameFromUriNumber(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
-    .param p0    # Ljava/lang/String;
 
     const/16 v1, 0x40
 
@@ -273,7 +267,6 @@
 
 .method public static isUriNumber(Ljava/lang/String;)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     if-eqz p0, :cond_1
 
@@ -307,7 +300,6 @@
 
 .method public static normalizeNumber(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
-    .param p0    # Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
 

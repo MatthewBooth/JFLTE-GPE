@@ -85,8 +85,6 @@
 
 .method public setPoint(II)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/interactions/TouchPointManager;->mPoint:Landroid/graphics/Point;
 

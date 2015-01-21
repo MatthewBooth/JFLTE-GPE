@@ -33,7 +33,6 @@
 # virtual methods
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 1
-    .param p1    # Landroid/animation/Animator;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$5$1;->this$1:Lcom/android/contacts/activities/PhotoSelectionActivity$5;
 

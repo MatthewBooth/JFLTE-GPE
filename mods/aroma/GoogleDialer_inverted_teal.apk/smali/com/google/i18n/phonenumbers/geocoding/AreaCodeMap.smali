@@ -51,9 +51,6 @@
 
 .method private binarySearch(IIJ)I
     .locals 7
-    .param p1    # I
-    .param p2    # I
-    .param p3    # J
 
     const/4 v0, 0x0
 
@@ -109,7 +106,6 @@
 # virtual methods
 .method lookup(Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;)Ljava/lang/String;
     .locals 13
-    .param p1    # Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     const/4 v12, 0x0
 
@@ -242,7 +238,6 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 2
-    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -292,7 +287,6 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 1
-    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

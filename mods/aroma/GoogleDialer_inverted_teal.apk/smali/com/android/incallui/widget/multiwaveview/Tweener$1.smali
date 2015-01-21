@@ -27,7 +27,6 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 0
-    .param p1    # Landroid/animation/Animator;
 
     # invokes: Lcom/android/incallui/widget/multiwaveview/Tweener;->remove(Landroid/animation/Animator;)V
     invoke-static {p1}, Lcom/android/incallui/widget/multiwaveview/Tweener;->access$000(Landroid/animation/Animator;)V
@@ -37,7 +36,6 @@
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 0
-    .param p1    # Landroid/animation/Animator;
 
     # invokes: Lcom/android/incallui/widget/multiwaveview/Tweener;->remove(Landroid/animation/Animator;)V
     invoke-static {p1}, Lcom/android/incallui/widget/multiwaveview/Tweener;->access$000(Landroid/animation/Animator;)V

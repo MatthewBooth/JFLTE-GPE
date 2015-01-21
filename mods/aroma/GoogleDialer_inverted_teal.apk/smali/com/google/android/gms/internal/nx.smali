@@ -68,7 +68,6 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/nx;->ff(Landroid/os/Parcel;)Lcom/google/android/gms/internal/nw;
 
@@ -198,7 +197,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/nx;->hd(I)[Lcom/google/android/gms/internal/nw;
 

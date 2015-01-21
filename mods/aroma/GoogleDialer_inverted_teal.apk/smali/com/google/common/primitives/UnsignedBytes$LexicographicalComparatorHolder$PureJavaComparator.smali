@@ -76,7 +76,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/primitives/UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/google/common/primitives/UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator;
 
@@ -107,8 +106,6 @@
 # virtual methods
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p1, [B
 
@@ -123,8 +120,6 @@
 
 .method public compare([B[B)I
     .locals 5
-    .param p1    # [B
-    .param p2    # [B
 
     array-length v3, p1
 

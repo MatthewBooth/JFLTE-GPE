@@ -70,11 +70,6 @@
 
 .method constructor <init>(I[Ljava/lang/String;[Landroid/database/CursorWindow;ILandroid/os/Bundle;)V
     .locals 1
-    .param p1    # I
-    .param p2    # [Ljava/lang/String;
-    .param p3    # [Landroid/database/CursorWindow;
-    .param p4    # I
-    .param p5    # Landroid/os/Bundle;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -785,8 +780,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/common/data/f;->a(Lcom/google/android/gms/common/data/DataHolder;Landroid/os/Parcel;I)V
 

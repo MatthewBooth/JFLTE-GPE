@@ -188,7 +188,6 @@
 
 .method private static checkBitmapParam(Landroid/graphics/Bitmap;)V
     .locals 2
-    .param p0    # Landroid/graphics/Bitmap;
 
     if-nez p0, :cond_0
 
@@ -221,7 +220,6 @@
 
 .method private static checkNumberColorsParam(I)V
     .locals 2
-    .param p0    # I
 
     const/4 v0, 0x1
 
@@ -241,7 +239,6 @@
 
 .method private static copyHslValues(Landroid/support/v7/graphics/Palette$Swatch;)[F
     .locals 4
-    .param p0    # Landroid/support/v7/graphics/Palette$Swatch;
 
     const/4 v3, 0x3
 
@@ -260,12 +257,6 @@
 
 .method private static createComparisonValue(FFFFII)F
     .locals 4
-    .param p0    # F
-    .param p1    # F
-    .param p2    # F
-    .param p3    # F
-    .param p4    # I
-    .param p5    # I
 
     const/4 v0, 0x6
 
@@ -324,12 +315,6 @@
 
 .method private findColor(FFFFFF)Landroid/support/v7/graphics/Palette$Swatch;
     .locals 11
-    .param p1    # F
-    .param p2    # F
-    .param p3    # F
-    .param p4    # F
-    .param p5    # F
-    .param p6    # F
 
     const/4 v7, 0x0
 
@@ -464,8 +449,6 @@
 
 .method public static generate(Landroid/graphics/Bitmap;I)Landroid/support/v7/graphics/Palette;
     .locals 4
-    .param p0    # Landroid/graphics/Bitmap;
-    .param p1    # I
 
     invoke-static {p0}, Landroid/support/v7/graphics/Palette;->checkBitmapParam(Landroid/graphics/Bitmap;)V
 
@@ -565,8 +548,6 @@
 
 .method private static invertDiff(FF)F
     .locals 2
-    .param p0    # F
-    .param p1    # F
 
     const/high16 v0, 0x3f800000
 
@@ -583,7 +564,6 @@
 
 .method private isAlreadySelected(Landroid/support/v7/graphics/Palette$Swatch;)Z
     .locals 1
-    .param p1    # Landroid/support/v7/graphics/Palette$Swatch;
 
     iget-object v0, p0, Landroid/support/v7/graphics/Palette;->mVibrantSwatch:Landroid/support/v7/graphics/Palette$Swatch;
 
@@ -623,7 +603,6 @@
 
 .method private static scaleBitmapDown(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 5
-    .param p0    # Landroid/graphics/Bitmap;
 
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -686,7 +665,6 @@
 
 .method private static varargs weightedMean([F)F
     .locals 6
-    .param p0    # [F
 
     const/4 v1, 0x0
 
@@ -725,7 +703,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

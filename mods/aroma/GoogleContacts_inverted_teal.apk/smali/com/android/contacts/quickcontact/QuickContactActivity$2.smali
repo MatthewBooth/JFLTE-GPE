@@ -36,7 +36,6 @@
 # virtual methods
 .method public onCollapse(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$2;->this$0:Lcom/android/contacts/quickcontact/QuickContactActivity;
 
@@ -52,7 +51,6 @@
 
 .method public onExpand(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$2;->this$0:Lcom/android/contacts/quickcontact/QuickContactActivity;
 

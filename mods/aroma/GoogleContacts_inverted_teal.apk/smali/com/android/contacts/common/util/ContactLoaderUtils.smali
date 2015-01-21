@@ -6,8 +6,6 @@
 # direct methods
 .method public static ensureIsContactUri(Landroid/content/ContentResolver;Landroid/net/Uri;)Landroid/net/Uri;
     .locals 7
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/IllegalArgumentException;

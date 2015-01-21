@@ -47,7 +47,6 @@
 
 .method constructor <init>(I)V
     .locals 0
-    .param p1    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -68,8 +67,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/internal/n;->a(Lcom/google/android/gms/drive/internal/DisconnectRequest;Landroid/os/Parcel;I)V
 

@@ -10,7 +10,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/Call;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0}, Landroid/telecom/InCallService$VideoCall$Listener;-><init>()V
 
@@ -23,21 +22,18 @@
 # virtual methods
 .method public onCallDataUsageChanged(I)V
     .locals 0
-    .param p1    # I
 
     return-void
 .end method
 
 .method public onCallSessionEvent(I)V
     .locals 0
-    .param p1    # I
 
     return-void
 .end method
 
 .method public onCameraCapabilitiesChanged(Landroid/telecom/CameraCapabilities;)V
     .locals 4
-    .param p1    # Landroid/telecom/CameraCapabilities;
 
     invoke-static {}, Lcom/android/incallui/InCallVideoCallListenerNotifier;->getInstance()Lcom/android/incallui/InCallVideoCallListenerNotifier;
 
@@ -60,8 +56,6 @@
 
 .method public onPeerDimensionsChanged(II)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
 
     invoke-static {}, Lcom/android/incallui/InCallVideoCallListenerNotifier;->getInstance()Lcom/android/incallui/InCallVideoCallListenerNotifier;
 
@@ -76,7 +70,6 @@
 
 .method public onSessionModifyRequestReceived(Landroid/telecom/VideoProfile;)V
     .locals 9
-    .param p1    # Landroid/telecom/VideoProfile;
 
     iget-object v7, p0, Lcom/android/incallui/InCallVideoCallListener;->mCall:Lcom/android/incallui/Call;
 
@@ -158,9 +151,6 @@
 
 .method public onSessionModifyResponseReceived(ILandroid/telecom/VideoProfile;Landroid/telecom/VideoProfile;)V
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/telecom/VideoProfile;
-    .param p3    # Landroid/telecom/VideoProfile;
 
     const/4 v2, 0x1
 

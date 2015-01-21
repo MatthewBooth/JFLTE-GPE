@@ -82,9 +82,6 @@
 
 .method private buildSplitContactDiff(Ljava/util/ArrayList;II[I)V
     .locals 10
-    .param p2    # I
-    .param p3    # I
-    .param p4    # [I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -209,7 +206,6 @@
 
 .method private buildSplitContactDiff(Ljava/util/ArrayList;[I)V
     .locals 3
-    .param p2    # [I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -336,11 +332,6 @@
 
 .method public static fromQuery(Landroid/net/Uri;Landroid/content/ContentResolver;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/model/RawContactDeltaList;
     .locals 7
-    .param p0    # Landroid/net/Uri;
-    .param p1    # Landroid/content/ContentResolver;
-    .param p2    # Ljava/lang/String;
-    .param p3    # [Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -383,8 +374,6 @@
 
 .method public static mergeAfter(Lcom/android/contacts/common/model/RawContactDeltaList;Lcom/android/contacts/common/model/RawContactDeltaList;)Lcom/android/contacts/common/model/RawContactDeltaList;
     .locals 6
-    .param p0    # Lcom/android/contacts/common/model/RawContactDeltaList;
-    .param p1    # Lcom/android/contacts/common/model/RawContactDeltaList;
 
     if-nez p0, :cond_0
 
@@ -943,7 +932,6 @@
 
 .method public getByRawContactId(Ljava/lang/Long;)Lcom/android/contacts/common/model/RawContactDelta;
     .locals 2
-    .param p1    # Ljava/lang/Long;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContactDeltaList;->indexOfRawContactId(Ljava/lang/Long;)I
 
@@ -970,7 +958,6 @@
 
 .method public getFirstWritableRawContact(Landroid/content/Context;)Lcom/android/contacts/common/model/RawContactDelta;
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContactDeltaList;->indexOfFirstWritableRawContact(Landroid/content/Context;)I
 
@@ -997,7 +984,6 @@
 
 .method public getRawContactId(I)Ljava/lang/Long;
     .locals 3
-    .param p1    # I
 
     if-ltz p1, :cond_0
 
@@ -1040,7 +1026,6 @@
 
 .method public indexOfFirstWritableRawContact(Landroid/content/Context;)I
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -1087,7 +1072,6 @@
 
 .method public indexOfRawContactId(Ljava/lang/Long;)I
     .locals 5
-    .param p1    # Ljava/lang/Long;
 
     const/4 v3, -0x1
 
@@ -1173,7 +1157,6 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 4
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1230,7 +1213,6 @@
 
 .method public setJoinWithRawContacts([J)V
     .locals 0
-    .param p1    # [J
 
     iput-object p1, p0, Lcom/android/contacts/common/model/RawContactDeltaList;->mJoinWithRawContactIds:[J
 
@@ -1291,8 +1273,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/RawContactDeltaList;->size()I
 

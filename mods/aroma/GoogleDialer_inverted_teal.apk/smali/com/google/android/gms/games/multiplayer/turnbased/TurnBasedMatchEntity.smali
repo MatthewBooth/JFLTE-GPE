@@ -78,26 +78,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/games/GameEntity;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JLjava/lang/String;III[BLjava/util/ArrayList;Ljava/lang/String;[BILandroid/os/Bundle;IZLjava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/games/GameEntity;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # J
-    .param p7    # Ljava/lang/String;
-    .param p8    # J
-    .param p10    # Ljava/lang/String;
-    .param p11    # I
-    .param p12    # I
-    .param p13    # I
-    .param p14    # [B
-    .param p16    # Ljava/lang/String;
-    .param p17    # [B
-    .param p18    # I
-    .param p19    # Landroid/os/Bundle;
-    .param p20    # I
-    .param p21    # Z
-    .param p22    # Ljava/lang/String;
-    .param p23    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -190,7 +170,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatch;)V
     .locals 5
-    .param p1    # Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatch;
 
     const/4 v4, 0x0
 
@@ -1221,7 +1200,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatchEntity;->a(Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatch;Ljava/lang/Object;)Z
 
@@ -1473,8 +1451,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatchEntityCreator;->a(Lcom/google/android/gms/games/multiplayer/turnbased/TurnBasedMatchEntity;Landroid/os/Parcel;I)V
 

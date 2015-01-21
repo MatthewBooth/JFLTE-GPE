@@ -52,7 +52,6 @@
 
 .method static synthetic access$1000(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mMiddle:Ljava/lang/String;
 
@@ -61,8 +60,6 @@
 
 .method static synthetic access$1002(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mMiddle:Ljava/lang/String;
 
@@ -71,7 +68,6 @@
 
 .method static synthetic access$1100(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mGiven:Ljava/lang/String;
 
@@ -80,8 +76,6 @@
 
 .method static synthetic access$1102(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mGiven:Ljava/lang/String;
 
@@ -90,7 +84,6 @@
 
 .method static synthetic access$1200(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mFamily:Ljava/lang/String;
 
@@ -99,8 +92,6 @@
 
 .method static synthetic access$1202(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mFamily:Ljava/lang/String;
 
@@ -109,7 +100,6 @@
 
 .method static synthetic access$1300(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mFormatted:Ljava/lang/String;
 
@@ -118,8 +108,6 @@
 
 .method static synthetic access$1302(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mFormatted:Ljava/lang/String;
 
@@ -128,8 +116,6 @@
 
 .method static synthetic access$1402(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mSortString:Ljava/lang/String;
 
@@ -138,7 +124,6 @@
 
 .method static synthetic access$500(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticFamily:Ljava/lang/String;
 
@@ -147,8 +132,6 @@
 
 .method static synthetic access$502(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticFamily:Ljava/lang/String;
 
@@ -157,7 +140,6 @@
 
 .method static synthetic access$600(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticMiddle:Ljava/lang/String;
 
@@ -166,8 +148,6 @@
 
 .method static synthetic access$602(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticMiddle:Ljava/lang/String;
 
@@ -176,7 +156,6 @@
 
 .method static synthetic access$700(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticGiven:Ljava/lang/String;
 
@@ -185,8 +164,6 @@
 
 .method static synthetic access$702(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mPhoneticGiven:Ljava/lang/String;
 
@@ -195,7 +172,6 @@
 
 .method static synthetic access$800(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mSuffix:Ljava/lang/String;
 
@@ -204,8 +180,6 @@
 
 .method static synthetic access$802(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mSuffix:Ljava/lang/String;
 
@@ -214,7 +188,6 @@
 
 .method static synthetic access$900(Lcom/android/vcard/VCardEntry$NameData;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
 
     iget-object v0, p0, Lcom/android/vcard/VCardEntry$NameData;->mPrefix:Ljava/lang/String;
 
@@ -223,8 +196,6 @@
 
 .method static synthetic access$902(Lcom/android/vcard/VCardEntry$NameData;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/vcard/VCardEntry$NameData;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/vcard/VCardEntry$NameData;->mPrefix:Ljava/lang/String;
 
@@ -235,7 +206,6 @@
 # virtual methods
 .method public constructInsertOperation(Ljava/util/List;I)V
     .locals 4
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -508,7 +478,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

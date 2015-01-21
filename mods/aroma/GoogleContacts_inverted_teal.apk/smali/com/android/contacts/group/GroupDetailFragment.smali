@@ -115,7 +115,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/group/GroupDetailFragment;)Lcom/android/contacts/group/GroupDetailFragment$Listener;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mListener:Lcom/android/contacts/group/GroupDetailFragment$Listener;
 
@@ -124,7 +123,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/group/GroupDetailFragment;)Lcom/android/contacts/common/list/ContactTileAdapter;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mAdapter:Lcom/android/contacts/common/list/ContactTileAdapter;
 
@@ -133,7 +131,6 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/group/GroupDetailFragment;)Landroid/widget/ListView;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mMemberListView:Landroid/widget/ListView;
 
@@ -142,7 +139,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/group/GroupDetailFragment;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mContext:Landroid/content/Context;
 
@@ -151,7 +147,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/group/GroupDetailFragment;)Landroid/net/Uri;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mGroupUri:Landroid/net/Uri;
 
@@ -160,8 +155,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/group/GroupDetailFragment;Landroid/database/Cursor;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
-    .param p1    # Landroid/database/Cursor;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupDetailFragment;->bindGroupMetaData(Landroid/database/Cursor;)V
 
@@ -170,7 +163,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/group/GroupDetailFragment;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     invoke-direct {p0}, Lcom/android/contacts/group/GroupDetailFragment;->startGroupMembersLoader()V
 
@@ -179,8 +171,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/group/GroupDetailFragment;I)V
     .locals 0
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupDetailFragment;->updateSize(I)V
 
@@ -189,8 +179,6 @@
 
 .method static synthetic access$700(Lcom/android/contacts/group/GroupDetailFragment;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/group/GroupDetailFragment;->updateTitle(Ljava/lang/String;)V
 
@@ -199,7 +187,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/group/GroupDetailFragment;)J
     .locals 2
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-wide v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mGroupId:J
 
@@ -208,7 +195,6 @@
 
 .method static synthetic access$900(Lcom/android/contacts/group/GroupDetailFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/contacts/group/GroupDetailFragment;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mEmptyView:Landroid/view/View;
 
@@ -217,7 +203,6 @@
 
 .method private bindGroupMetaData(Landroid/database/Cursor;)V
     .locals 7
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v6, 0x2
 
@@ -384,8 +369,6 @@
 
 .method private updateAccountType(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/group/GroupDetailFragment;->getActivity()Landroid/app/Activity;
 
@@ -489,7 +472,6 @@
 
 .method private updateSize(I)V
     .locals 9
-    .param p1    # I
 
     const/4 v8, 0x1
 
@@ -599,7 +581,6 @@
 
 .method private updateTitle(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/group/GroupDetailFragment;->mGroupTitle:Landroid/widget/TextView;
 
@@ -624,7 +605,6 @@
 # virtual methods
 .method public closeActivityAfterDelete(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/group/GroupDetailFragment;->mCloseActivityAfterDelete:Z
 
@@ -685,7 +665,6 @@
 
 .method public loadGroup(Landroid/net/Uri;)V
     .locals 0
-    .param p1    # Landroid/net/Uri;
 
     iput-object p1, p0, Lcom/android/contacts/group/GroupDetailFragment;->mGroupUri:Landroid/net/Uri;
 
@@ -696,7 +675,6 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 4
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
@@ -735,8 +713,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
     .locals 1
-    .param p1    # Landroid/view/Menu;
-    .param p2    # Landroid/view/MenuInflater;
 
     const v0, 0x7f110008
 
@@ -747,9 +723,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     const/4 v2, 0x1
 
@@ -852,7 +825,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 5
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -906,7 +878,6 @@
 
 .method public onPrepareOptionsMenu(Landroid/view/Menu;)V
     .locals 5
-    .param p1    # Landroid/view/Menu;
 
     const/4 v3, 0x1
 
@@ -979,18 +950,12 @@
 
 .method public onScroll(Landroid/widget/AbsListView;III)V
     .locals 0
-    .param p1    # Landroid/widget/AbsListView;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     return-void
 .end method
 
 .method public onScrollStateChanged(Landroid/widget/AbsListView;I)V
     .locals 1
-    .param p1    # Landroid/widget/AbsListView;
-    .param p2    # I
 
     const/4 v0, 0x2
 
@@ -1013,7 +978,6 @@
 
 .method public setListener(Lcom/android/contacts/group/GroupDetailFragment$Listener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/group/GroupDetailFragment$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/group/GroupDetailFragment;->mListener:Lcom/android/contacts/group/GroupDetailFragment$Listener;
 
@@ -1022,7 +986,6 @@
 
 .method public setShowGroupSourceInActionBar(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/group/GroupDetailFragment;->mShowGroupActionInActionBar:Z
 

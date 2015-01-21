@@ -52,7 +52,6 @@
 
 .method protected getPhoneUri(I)Landroid/net/Uri;
     .locals 2
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/list/LegacyPhoneNumberPickerFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -77,14 +76,12 @@
 
 .method protected setPhotoPosition(Lcom/android/contacts/common/list/ContactEntryListAdapter;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
     return-void
 .end method
 
 .method protected startPhoneNumberShortcutIntent(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 

@@ -48,8 +48,6 @@
 # virtual methods
 .method public onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;
     .locals 10
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -185,8 +183,6 @@
 
 .method public bridge synthetic onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Landroid/content/Loader;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Ljava/util/List;
 

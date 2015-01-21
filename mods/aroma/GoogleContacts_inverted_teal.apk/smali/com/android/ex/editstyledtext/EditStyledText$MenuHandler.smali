@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/ex/editstyledtext/EditStyledText;Lcom/android/ex/editstyledtext/EditStyledText$1;)V
     .locals 0
-    .param p1    # Lcom/android/ex/editstyledtext/EditStyledText;
-    .param p2    # Lcom/android/ex/editstyledtext/EditStyledText$1;
 
     invoke-direct {p0, p1}, Lcom/android/ex/editstyledtext/EditStyledText$MenuHandler;-><init>(Lcom/android/ex/editstyledtext/EditStyledText;)V
 
@@ -46,7 +44,6 @@
 # virtual methods
 .method public onMenuItemClick(Landroid/view/MenuItem;)Z
     .locals 2
-    .param p1    # Landroid/view/MenuItem;
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$MenuHandler;->this$0:Lcom/android/ex/editstyledtext/EditStyledText;
 

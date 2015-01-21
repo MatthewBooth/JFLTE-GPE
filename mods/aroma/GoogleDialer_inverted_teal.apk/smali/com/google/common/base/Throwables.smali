@@ -6,7 +6,6 @@
 # direct methods
 .method public static propagateIfInstanceOf(Ljava/lang/Throwable;Ljava/lang/Class;)V
     .locals 1
-    .param p0    # Ljava/lang/Throwable;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<X:",

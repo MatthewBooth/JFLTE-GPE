@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/list/DefaultContactBrowseListFragment;Lcom/android/contacts/list/DefaultContactBrowseListFragment$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/DefaultContactBrowseListFragment;
-    .param p2    # Lcom/android/contacts/list/DefaultContactBrowseListFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/list/DefaultContactBrowseListFragment$FilterHeaderClickListener;-><init>(Lcom/android/contacts/list/DefaultContactBrowseListFragment;)V
 
@@ -46,7 +44,6 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/view/View;
 
     iget-object v0, p0, Lcom/android/contacts/list/DefaultContactBrowseListFragment$FilterHeaderClickListener;->this$0:Lcom/android/contacts/list/DefaultContactBrowseListFragment;
 

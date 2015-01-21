@@ -113,9 +113,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/contacts/common/list/ContactTileView$Listener;Lcom/android/dialer/list/PhoneFavoritesTileAdapter$OnDataSetChangedForAnimationListener;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/common/list/ContactTileView$Listener;
-    .param p3    # Lcom/android/dialer/list/PhoneFavoritesTileAdapter$OnDataSetChangedForAnimationListener;
 
     const/4 v2, 0x0
 
@@ -174,7 +171,6 @@
 
 .method private isIndexInBound(I)Z
     .locals 1
-    .param p1    # I
 
     if-ltz p1, :cond_0
 
@@ -199,7 +195,6 @@
 
 .method private markDropArea(I)V
     .locals 4
-    .param p1    # I
 
     iget v1, p0, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->mDragEnteredEntryIndex:I
 
@@ -261,7 +256,6 @@
 
 .method private saveCursorToCache(Landroid/database/Cursor;)V
     .locals 19
-    .param p1    # Landroid/database/Cursor;
 
     move-object/from16 v0, p0
 
@@ -655,7 +649,6 @@
 
 .method private unstarAndUnpinContact(Landroid/net/Uri;)V
     .locals 4
-    .param p1    # Landroid/net/Uri;
 
     const/4 v3, 0x0
 
@@ -950,7 +943,6 @@
 
 .method public getItem(I)Lcom/android/contacts/common/list/ContactEntry;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->mContactEntries:Ljava/util/ArrayList;
 
@@ -965,7 +957,6 @@
 
 .method public bridge synthetic getItem(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->getItem(I)Lcom/android/contacts/common/list/ContactEntry;
 
@@ -976,7 +967,6 @@
 
 .method public getItemId(I)J
     .locals 2
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->getItem(I)Lcom/android/contacts/common/list/ContactEntry;
 
@@ -989,7 +979,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -1006,7 +995,6 @@
 
 .method protected getNumStarredContacts(Landroid/database/Cursor;)I
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, -0x1
 
@@ -1044,8 +1032,6 @@
 
 .method getReflowedPinningOperations(Ljava/util/ArrayList;II)Ljava/util/ArrayList;
     .locals 12
-    .param p2    # I
-    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1141,9 +1127,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->getItemViewType(I)I
 
@@ -1349,7 +1332,6 @@
 
 .method public isEnabled(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->getCount()I
 
@@ -1378,8 +1360,6 @@
 
 .method public onDragFinished(II)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -1397,9 +1377,6 @@
 
 .method public onDragHovered(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 3
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     if-nez p3, :cond_1
 
@@ -1445,9 +1422,6 @@
 
 .method public onDragStarted(IILcom/android/dialer/list/PhoneFavoriteSquareTileView;)V
     .locals 3
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Lcom/android/dialer/list/PhoneFavoriteSquareTileView;
 
     const/4 v1, 0x1
 
@@ -1491,7 +1465,6 @@
 
 .method public popContactEntry(I)V
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->isIndexInBound(I)Z
 
@@ -1523,7 +1496,6 @@
 
 .method protected saveNumFrequentsFromCursor(Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     invoke-interface {p1}, Landroid/database/Cursor;->getCount()I
 
@@ -1540,7 +1512,6 @@
 
 .method public setContactCursor(Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     iget-boolean v0, p0, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->mDelayCursorUpdates:Z
 
@@ -1589,7 +1560,6 @@
 
 .method public setInDragging(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->mDelayCursorUpdates:Z
 
@@ -1600,7 +1570,6 @@
 
 .method public setPhotoLoader(Lcom/android/contacts/common/ContactPhotoManager;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/ContactPhotoManager;
 
     iput-object p1, p0, Lcom/android/dialer/list/PhoneFavoritesTileAdapter;->mPhotoManager:Lcom/android/contacts/common/ContactPhotoManager;
 

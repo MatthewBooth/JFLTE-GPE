@@ -30,7 +30,6 @@
 # virtual methods
 .method public newAccessibilityNodeProviderBridge(Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/support/v4/view/accessibility/AccessibilityNodeProviderCompat;
 
     const/4 v0, 0x0
 

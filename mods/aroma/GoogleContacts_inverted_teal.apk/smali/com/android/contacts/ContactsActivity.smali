@@ -59,8 +59,6 @@
 
 .method public getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     invoke-static {}, Lcom/android/contacts/ContactsApplication;->getInjectedServices()Lcom/android/contacts/common/testing/InjectedServices;
 
@@ -87,7 +85,6 @@
 
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/activity/TransactionSafeActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
@@ -112,7 +109,6 @@
 
 .method public getView(I)Landroid/view/View;
     .locals 4
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -167,7 +163,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0
-    .param p1    # Landroid/os/Bundle;
 
     invoke-static {p0}, Lcom/android/contacts/ContactSaveService;->registerListener(Lcom/android/contacts/ContactSaveService$Listener;)V
 
@@ -188,7 +183,6 @@
 
 .method public onServiceCompleted(Landroid/content/Intent;)V
     .locals 0
-    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/ContactsActivity;->onNewIntent(Landroid/content/Intent;)V
 

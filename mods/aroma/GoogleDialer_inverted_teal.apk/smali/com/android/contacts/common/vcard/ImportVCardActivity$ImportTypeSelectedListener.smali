@@ -36,8 +36,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;Lcom/android/contacts/common/vcard/ImportVCardActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/vcard/ImportVCardActivity;
-    .param p2    # Lcom/android/contacts/common/vcard/ImportVCardActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/vcard/ImportVCardActivity$ImportTypeSelectedListener;-><init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;)V
 
@@ -48,8 +46,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     const/4 v0, -0x1
 

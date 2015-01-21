@@ -6,8 +6,6 @@
 # direct methods
 .method public static decodeBitmapFromBytes([BI)Landroid/graphics/Bitmap;
     .locals 3
-    .param p0    # [B
-    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -38,8 +36,6 @@
 
 .method public static findOptimalSampleSize(II)I
     .locals 5
-    .param p0    # I
-    .param p1    # I
 
     const/4 v1, 0x1
 
@@ -79,9 +75,6 @@
 
 .method public static getRotatedDrawable(Landroid/content/res/Resources;IF)Landroid/graphics/drawable/Drawable;
     .locals 7
-    .param p0    # Landroid/content/res/Resources;
-    .param p1    # I
-    .param p2    # F
 
     const/4 v6, 0x0
 
@@ -138,7 +131,6 @@
 
 .method public static getSmallerExtentFromBytes([B)I
     .locals 3
-    .param p0    # [B
 
     new-instance v0, Landroid/graphics/BitmapFactory$Options;
 

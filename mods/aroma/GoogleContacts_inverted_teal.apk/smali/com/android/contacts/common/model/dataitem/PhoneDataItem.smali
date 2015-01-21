@@ -6,7 +6,6 @@
 # direct methods
 .method constructor <init>(Landroid/content/ContentValues;)V
     .locals 0
-    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/dataitem/DataItem;-><init>(Landroid/content/ContentValues;)V
 
@@ -17,8 +16,6 @@
 # virtual methods
 .method public buildDataStringForDisplay(Landroid/content/Context;Lcom/android/contacts/common/model/dataitem/DataKind;)Ljava/lang/String;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/PhoneDataItem;->getFormattedPhoneNumber()Ljava/lang/String;
 
@@ -39,7 +36,6 @@
 
 .method public computeFormattedPhoneNumber(Ljava/lang/String;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/dataitem/PhoneDataItem;->getNumber()Ljava/lang/String;
 

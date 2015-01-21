@@ -81,15 +81,6 @@
 
 .method constructor <init>(IILjava/lang/String;JLcom/google/android/gms/location/copresence/AccessLock;Lcom/google/android/gms/common/people/data/Audience;IILcom/google/android/gms/location/copresence/AclResourceId;)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
-    .param p4    # J
-    .param p6    # Lcom/google/android/gms/location/copresence/AccessLock;
-    .param p7    # Lcom/google/android/gms/common/people/data/Audience;
-    .param p8    # I
-    .param p9    # I
-    .param p10    # Lcom/google/android/gms/location/copresence/AclResourceId;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -198,8 +189,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/location/copresence/c;->a(Lcom/google/android/gms/location/copresence/AccessPolicy;Landroid/os/Parcel;I)V
 

@@ -31,8 +31,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;Lcom/android/contacts/activities/PhotoSelectionActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;
-    .param p2    # Lcom/android/contacts/activities/PhotoSelectionActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler$PhotoListener;-><init>(Lcom/android/contacts/activities/PhotoSelectionActivity$PhotoHandler;)V
 
@@ -58,7 +56,6 @@
 
 .method public onPhotoSelected(Landroid/net/Uri;)V
     .locals 11
-    .param p1    # Landroid/net/Uri;
 
     const/4 v6, 0x0
 

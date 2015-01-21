@@ -48,7 +48,6 @@
 
 .method public constructor <init>(Landroid/animation/ObjectAnimator;)V
     .locals 0
-    .param p1    # Landroid/animation/ObjectAnimator;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -59,7 +58,6 @@
 
 .method static synthetic access$000(Landroid/animation/Animator;)V
     .locals 0
-    .param p0    # Landroid/animation/Animator;
 
     invoke-static {p0}, Lcom/android/incallui/widget/multiwaveview/Tweener;->remove(Landroid/animation/Animator;)V
 
@@ -68,7 +66,6 @@
 
 .method private static remove(Landroid/animation/Animator;)V
     .locals 3
-    .param p0    # Landroid/animation/Animator;
 
     sget-object v2, Lcom/android/incallui/widget/multiwaveview/Tweener;->sTweens:Ljava/util/HashMap;
 
@@ -111,7 +108,6 @@
 
 .method private static varargs replace(Ljava/util/ArrayList;[Ljava/lang/Object;)V
     .locals 7
-    .param p1    # [Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -196,9 +192,6 @@
 
 .method public static varargs to(Ljava/lang/Object;J[Ljava/lang/Object;)Lcom/android/incallui/widget/multiwaveview/Tweener;
     .locals 19
-    .param p0    # Ljava/lang/Object;
-    .param p1    # J
-    .param p3    # [Ljava/lang/Object;
 
     const-wide/16 v4, 0x0
 
@@ -627,9 +620,6 @@
 # virtual methods
 .method varargs from(Ljava/lang/Object;J[Ljava/lang/Object;)Lcom/android/incallui/widget/multiwaveview/Tweener;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-    .param p2    # J
-    .param p4    # [Ljava/lang/Object;
 
     invoke-static {p1, p2, p3, p4}, Lcom/android/incallui/widget/multiwaveview/Tweener;->to(Ljava/lang/Object;J[Ljava/lang/Object;)Lcom/android/incallui/widget/multiwaveview/Tweener;
 

@@ -56,8 +56,6 @@
 
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -93,8 +91,6 @@
 
 .method public static get(Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;
     .locals 1
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/contacts/common/model/account/AccountTypeWithDataSet;
 
@@ -107,7 +103,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -151,7 +146,6 @@
 
 .method public hasData(Landroid/content/Context;)Z
     .locals 9
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x1
 

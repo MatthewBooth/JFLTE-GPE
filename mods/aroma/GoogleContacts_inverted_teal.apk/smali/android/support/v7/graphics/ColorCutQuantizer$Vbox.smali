@@ -37,8 +37,6 @@
 # direct methods
 .method constructor <init>(Landroid/support/v7/graphics/ColorCutQuantizer;II)V
     .locals 0
-    .param p2    # I
-    .param p3    # I
 
     iput-object p1, p0, Landroid/support/v7/graphics/ColorCutQuantizer$Vbox;->this$0:Landroid/support/v7/graphics/ColorCutQuantizer;
 
@@ -483,7 +481,6 @@
 
 .method midPoint(I)I
     .locals 2
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 

@@ -31,12 +31,6 @@
 # direct methods
 .method private constructor <init>(JLandroid/net/Uri;IZZLcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;)V
     .locals 1
-    .param p1    # J
-    .param p3    # Landroid/net/Uri;
-    .param p4    # I
-    .param p5    # Z
-    .param p6    # Z
-    .param p7    # Lcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +51,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
 
     iget-boolean v0, p0, Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;->mIsCircular:Z
 
@@ -66,7 +59,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;)J
     .locals 2
-    .param p0    # Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
 
     iget-wide v0, p0, Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;->mId:J
 
@@ -75,10 +67,6 @@
 
 .method public static createFromThumbnailId(JZZLcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;)Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
     .locals 10
-    .param p0    # J
-    .param p2    # Z
-    .param p3    # Z
-    .param p4    # Lcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;
 
     new-instance v1, Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
 
@@ -101,11 +89,6 @@
 
 .method public static createFromUri(Landroid/net/Uri;IZZLcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;)Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
     .locals 9
-    .param p0    # Landroid/net/Uri;
-    .param p1    # I
-    .param p2    # Z
-    .param p3    # Z
-    .param p4    # Lcom/android/contacts/common/ContactPhotoManager$DefaultImageProvider;
 
     new-instance v1, Lcom/android/contacts/common/ContactPhotoManagerImpl$Request;
 
@@ -130,8 +113,6 @@
 # virtual methods
 .method public applyDefaultImage(Landroid/widget/ImageView;Z)V
     .locals 4
-    .param p1    # Landroid/widget/ImageView;
-    .param p2    # Z
 
     if-eqz p2, :cond_1
 
@@ -183,7 +164,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 8
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

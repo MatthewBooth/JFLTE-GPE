@@ -40,8 +40,6 @@
 # virtual methods
 .method public compare(Landroid/accounts/Account;Landroid/accounts/Account;)I
     .locals 7
-    .param p1    # Landroid/accounts/Account;
-    .param p2    # Landroid/accounts/Account;
 
     const/4 v4, 0x1
 
@@ -180,8 +178,6 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Landroid/accounts/Account;
 

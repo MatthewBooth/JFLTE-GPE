@@ -132,9 +132,6 @@
 
 .method public static getDayDifference(Landroid/text/format/Time;JJ)I
     .locals 5
-    .param p0    # Landroid/text/format/Time;
-    .param p1    # J
-    .param p3    # J
 
     invoke-virtual {p0, p1, p2}, Landroid/text/format/Time;->set(J)V
 

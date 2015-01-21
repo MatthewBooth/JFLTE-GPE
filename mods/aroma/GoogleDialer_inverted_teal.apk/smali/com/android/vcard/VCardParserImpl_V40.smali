@@ -6,7 +6,6 @@
 # direct methods
 .method public static unescapeCharacter(C)Ljava/lang/String;
     .locals 1
-    .param p0    # C
 
     const/16 v0, 0x6e
 
@@ -32,7 +31,6 @@
 
 .method public static unescapeText(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -138,7 +136,6 @@
 
 .method protected maybeUnescapeText(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Lcom/android/vcard/VCardParserImpl_V40;->unescapeText(Ljava/lang/String;)Ljava/lang/String;
 

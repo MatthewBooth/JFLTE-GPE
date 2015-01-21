@@ -274,9 +274,6 @@
 
 .method private constructor <init>(Ljava/lang/String;IILcom/android/dialer/voicemail/VoicemailStatusHelperImpl$Action;I)V
     .locals 7
-    .param p3    # I
-    .param p4    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$Action;
-    .param p5    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -306,10 +303,6 @@
 
 .method private constructor <init>(Ljava/lang/String;IILcom/android/dialer/voicemail/VoicemailStatusHelperImpl$Action;II)V
     .locals 0
-    .param p3    # I
-    .param p4    # Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$Action;
-    .param p5    # I
-    .param p6    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -333,7 +326,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$OverallState;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const-class v0, Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$OverallState;
 

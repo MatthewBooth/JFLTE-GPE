@@ -16,8 +16,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/android/gms/common/data/DataHolder;I)V
     .locals 1
-    .param p1    # Lcom/google/android/gms/common/data/DataHolder;
-    .param p2    # I
 
     const/4 v0, 0x0
 
@@ -28,9 +26,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/common/data/DataHolder;ILjava/lang/String;)V
     .locals 9
-    .param p1    # Lcom/google/android/gms/common/data/DataHolder;
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
 
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/d;-><init>(Lcom/google/android/gms/common/data/DataHolder;I)V
 
@@ -208,7 +203,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/PlayerEntity;->a(Lcom/google/android/gms/games/Player;Ljava/lang/Object;)Z
 
@@ -472,8 +466,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/PlayerRef;->freeze()Lcom/google/android/gms/games/Player;
 

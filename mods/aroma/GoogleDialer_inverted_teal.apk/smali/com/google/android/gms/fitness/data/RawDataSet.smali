@@ -54,10 +54,6 @@
 
 .method constructor <init>(IIILjava/util/List;Z)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p5    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(III",
@@ -85,7 +81,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/fitness/data/DataSet;Ljava/util/List;Ljava/util/List;)V
     .locals 1
-    .param p1    # Lcom/google/android/gms/fitness/data/DataSet;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -196,7 +191,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -302,8 +296,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/data/n;->a(Lcom/google/android/gms/fitness/data/RawDataSet;Landroid/os/Parcel;I)V
 

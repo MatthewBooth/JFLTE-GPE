@@ -113,7 +113,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/ListsFragment;)Landroid/widget/ListView;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mShortcutCardsListView:Landroid/widget/ListView;
 
@@ -122,7 +121,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/list/ListsFragment;)Landroid/app/ActionBar;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mActionBar:Landroid/app/ActionBar;
 
@@ -139,8 +137,6 @@
 
 .method static synthetic access$302(Lcom/android/dialer/list/ListsFragment;Z)Z
     .locals 0
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/list/ListsFragment;->mIsPanelOpen:Z
 
@@ -149,7 +145,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/list/ListsFragment;)Landroid/widget/AbsListView;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     invoke-direct {p0}, Lcom/android/dialer/list/ListsFragment;->getCurrentListView()Landroid/widget/AbsListView;
 
@@ -160,7 +155,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/list/ListsFragment;)Lcom/android/dialer/list/SpeedDialFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mSpeedDialFragment:Lcom/android/dialer/list/SpeedDialFragment;
 
@@ -169,8 +163,6 @@
 
 .method static synthetic access$502(Lcom/android/dialer/list/ListsFragment;Lcom/android/dialer/list/SpeedDialFragment;)Lcom/android/dialer/list/SpeedDialFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
-    .param p1    # Lcom/android/dialer/list/SpeedDialFragment;
 
     iput-object p1, p0, Lcom/android/dialer/list/ListsFragment;->mSpeedDialFragment:Lcom/android/dialer/list/SpeedDialFragment;
 
@@ -179,7 +171,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/list/ListsFragment;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mRecentsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -188,8 +179,6 @@
 
 .method static synthetic access$602(Lcom/android/dialer/list/ListsFragment;Lcom/android/dialer/calllog/CallLogFragment;)Lcom/android/dialer/calllog/CallLogFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
-    .param p1    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iput-object p1, p0, Lcom/android/dialer/list/ListsFragment;->mRecentsFragment:Lcom/android/dialer/calllog/CallLogFragment;
 
@@ -198,7 +187,6 @@
 
 .method static synthetic access$700(Lcom/android/dialer/list/ListsFragment;)Lcom/android/dialer/list/AllContactsFragment;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mAllContactsFragment:Lcom/android/dialer/list/AllContactsFragment;
 
@@ -207,8 +195,6 @@
 
 .method static synthetic access$702(Lcom/android/dialer/list/ListsFragment;Lcom/android/dialer/list/AllContactsFragment;)Lcom/android/dialer/list/AllContactsFragment;
     .locals 0
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
-    .param p1    # Lcom/android/dialer/list/AllContactsFragment;
 
     iput-object p1, p0, Lcom/android/dialer/list/ListsFragment;->mAllContactsFragment:Lcom/android/dialer/list/AllContactsFragment;
 
@@ -217,7 +203,6 @@
 
 .method static synthetic access$800(Lcom/android/dialer/list/ListsFragment;)[Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/ListsFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mTabTitles:[Ljava/lang/String;
 
@@ -321,7 +306,6 @@
 
 .method private setupPaneLayout(Lcom/android/dialer/widget/OverlappingPaneLayout;)V
     .locals 2
-    .param p1    # Lcom/android/dialer/widget/OverlappingPaneLayout;
 
     iget-object v1, p0, Lcom/android/dialer/list/ListsFragment;->mViewPagerTabs:Lcom/android/contacts/common/list/ViewPagerTabs;
 
@@ -360,7 +344,6 @@
 # virtual methods
 .method public addOnPageChangeListener(Landroid/support/v4/view/ViewPager$OnPageChangeListener;)V
     .locals 1
-    .param p1    # Landroid/support/v4/view/ViewPager$OnPageChangeListener;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mOnPageChangeListeners:Ljava/util/ArrayList;
 
@@ -380,7 +363,6 @@
 
 .method public dismissShortcut(Landroid/view/View;)V
     .locals 6
-    .param p1    # Landroid/view/View;
 
     iget-wide v2, p0, Lcom/android/dialer/list/ListsFragment;->mCurrentCallShortcutDate:J
 
@@ -441,7 +423,6 @@
 
 .method public getRtlPosition(I)I
     .locals 1
-    .param p1    # I
 
     invoke-static {}, Lcom/android/dialer/util/DialerUtils;->isRtl()Z
 
@@ -473,7 +454,6 @@
 
 .method public onCallsFetched(Landroid/database/Cursor;)Z
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment;->mCallLogAdapter:Lcom/android/dialer/calllog/CallLogAdapter;
 
@@ -513,7 +493,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 7
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v3, 0x0
 
@@ -584,9 +563,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 6
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     const/4 v5, 0x2
 
@@ -767,7 +743,6 @@
 
 .method public onPageScrollStateChanged(I)V
     .locals 3
-    .param p1    # I
 
     iget-object v2, p0, Lcom/android/dialer/list/ListsFragment;->mOnPageChangeListeners:Ljava/util/ArrayList;
 
@@ -800,9 +775,6 @@
 
 .method public onPageScrolled(IFI)V
     .locals 3
-    .param p1    # I
-    .param p2    # F
-    .param p3    # I
 
     iget-object v2, p0, Lcom/android/dialer/list/ListsFragment;->mOnPageChangeListeners:Ljava/util/ArrayList;
 
@@ -835,7 +807,6 @@
 
 .method public onPageSelected(I)V
     .locals 3
-    .param p1    # I
 
     if-nez p1, :cond_1
 
@@ -978,7 +949,6 @@
 
 .method public onVoicemailStatusFetched(Landroid/database/Cursor;)V
     .locals 0
-    .param p1    # Landroid/database/Cursor;
 
     return-void
 .end method
@@ -1007,7 +977,6 @@
 
 .method public showRemoveView(Z)V
     .locals 6
-    .param p1    # Z
 
     const/4 v2, 0x0
 

@@ -14,7 +14,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -29,7 +28,6 @@
 
 .method private initializeCameraList(Landroid/content/Context;)V
     .locals 8
-    .param p1    # Landroid/content/Context;
 
     if-nez p1, :cond_1
 
@@ -188,7 +186,6 @@
 
 .method public setUseFrontFacingCamera(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/InCallCameraManager;->mUseFrontFacingCamera:Z
 

@@ -31,7 +31,6 @@
 
 .method public static newInstance(I)Lcom/android/dialer/dialpad/DialpadFragment$ErrorDialogFragment;
     .locals 1
-    .param p0    # I
 
     const/4 v0, 0x0
 
@@ -44,8 +43,6 @@
 
 .method public static newInstance(II)Lcom/android/dialer/dialpad/DialpadFragment$ErrorDialogFragment;
     .locals 3
-    .param p0    # I
-    .param p1    # I
 
     new-instance v1, Lcom/android/dialer/dialpad/DialpadFragment$ErrorDialogFragment;
 
@@ -72,7 +69,6 @@
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -105,7 +101,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     new-instance v0, Landroid/app/AlertDialog$Builder;
 

@@ -72,7 +72,6 @@
 
 .method private containsEntry(Lcom/android/contacts/common/model/ValuesDelta;)Z
     .locals 5
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     iget-object v4, p0, Lcom/android/contacts/common/model/RawContactDelta;->mEntries:Ljava/util/HashMap;
 
@@ -133,8 +132,6 @@
 
 .method private getMimeEntries(Ljava/lang/String;Z)Ljava/util/ArrayList;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -175,7 +172,6 @@
 # virtual methods
 .method public addEntry(Lcom/android/contacts/common/model/ValuesDelta;)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/model/ValuesDelta;->getMimetype()Ljava/lang/String;
 
@@ -202,7 +198,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 8
-    .param p1    # Ljava/lang/Object;
 
     const/4 v5, 0x0
 
@@ -285,7 +280,6 @@
 
 .method public getEntryCount(Z)I
     .locals 4
-    .param p1    # Z
 
     const/4 v0, 0x0
 
@@ -326,7 +320,6 @@
 
 .method public getMimeEntries(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -350,8 +343,6 @@
 
 .method public getMimeEntriesCount(Ljava/lang/String;Z)I
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/model/RawContactDelta;->getMimeEntries(Ljava/lang/String;)Ljava/util/ArrayList;
 
@@ -401,8 +392,6 @@
 
 .method public getSuperPrimaryEntry(Ljava/lang/String;Z)Lcom/android/contacts/common/model/ValuesDelta;
     .locals 7
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     const/4 v6, 0x0
 
@@ -487,7 +476,6 @@
 
 .method public readFromParcel(Landroid/os/Parcel;)V
     .locals 5
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -645,8 +633,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 6
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     const/4 v5, 0x0
 

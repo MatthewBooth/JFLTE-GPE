@@ -160,8 +160,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 9
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v8, 0x5
 
@@ -538,7 +536,6 @@
 
 .method public static final getDefaultPhotoPosition(Z)Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;
     .locals 3
-    .param p0    # Z
 
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
@@ -592,8 +589,6 @@
 
 .method private final pointIsInView(FF)Z
     .locals 2
-    .param p1    # F
-    .param p2    # F
 
     iget v0, p0, Lcom/android/contacts/common/list/ContactListItemView;->mLeftOffset:I
 
@@ -646,8 +641,6 @@
 
 .method private setMarqueeText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
     .locals 5
-    .param p1    # Landroid/widget/TextView;
-    .param p2    # Ljava/lang/CharSequence;
 
     invoke-direct {p0}, Lcom/android/contacts/common/list/ContactListItemView;->getTextEllipsis()Landroid/text/TextUtils$TruncateAt;
 
@@ -686,9 +679,6 @@
 
 .method private setMarqueeText(Landroid/widget/TextView;[CI)V
     .locals 3
-    .param p1    # Landroid/widget/TextView;
-    .param p2    # [C
-    .param p3    # I
 
     const/4 v2, 0x0
 
@@ -717,9 +707,6 @@
 
 .method private snippetize(Ljava/lang/String;II)Ljava/lang/String;
     .locals 7
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
-    .param p3    # I
 
     move v2, p3
 
@@ -863,7 +850,6 @@
 
 .method private static split(Ljava/lang/String;)Ljava/util/List;
     .locals 3
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -907,9 +893,6 @@
 
 .method private updateSnippet(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -1026,7 +1009,6 @@
 # virtual methods
 .method public adjustListItemSelectionBounds(Landroid/graphics/Rect;)V
     .locals 2
-    .param p1    # Landroid/graphics/Rect;
 
     iget-boolean v0, p0, Lcom/android/contacts/common/list/ContactListItemView;->mAdjustSelectionBoundsEnabled:Z
 
@@ -1072,7 +1054,6 @@
 
 .method public dispatchDraw(Landroid/graphics/Canvas;)V
     .locals 1
-    .param p1    # Landroid/graphics/Canvas;
 
     iget-boolean v0, p0, Lcom/android/contacts/common/list/ContactListItemView;->mActivatedStateSupported:Z
 
@@ -1736,7 +1717,6 @@
 
 .method protected isVisible(Landroid/view/View;)Z
     .locals 1
-    .param p1    # Landroid/view/View;
 
     if-eqz p1, :cond_0
 
@@ -1776,11 +1756,6 @@
 
 .method protected onLayout(ZIIII)V
     .locals 25
-    .param p1    # Z
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
 
     sub-int v8, p5, p3
 
@@ -2930,8 +2905,6 @@
 
 .method protected onMeasure(II)V
     .locals 14
-    .param p1    # I
-    .param p2    # I
 
     const/4 v10, 0x0
 
@@ -3495,7 +3468,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 5
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -3551,8 +3523,6 @@
 
 .method public removePhotoView(ZZ)V
     .locals 2
-    .param p1    # Z
-    .param p2    # Z
 
     const/4 v1, 0x0
 
@@ -3599,7 +3569,6 @@
 
 .method public setActivatedStateSupported(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mActivatedStateSupported:Z
 
@@ -3608,7 +3577,6 @@
 
 .method public setAdjustSelectionBoundsEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mAdjustSelectionBoundsEnabled:Z
 
@@ -3617,8 +3585,6 @@
 
 .method public setData([CI)V
     .locals 2
-    .param p1    # [C
-    .param p2    # I
 
     if-eqz p1, :cond_0
 
@@ -3657,7 +3623,6 @@
 
 .method public setDisplayName(Ljava/lang/CharSequence;)V
     .locals 6
-    .param p1    # Ljava/lang/CharSequence;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -3748,8 +3713,6 @@
 
 .method public setDrawableResource(II)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/ContactListItemView;->getPhotoView()Landroid/widget/ImageView;
 
@@ -3768,7 +3731,6 @@
 
 .method public setHighlightedPrefix(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mHighlightedPrefix:Ljava/lang/String;
 
@@ -3777,7 +3739,6 @@
 
 .method public setIsSectionHeaderEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mIsSectionHeaderEnabled:Z
 
@@ -3786,7 +3747,6 @@
 
 .method public setLabel(Ljava/lang/CharSequence;)V
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -3826,8 +3786,6 @@
 
 .method public setPhoneNumber(Ljava/lang/String;Ljava/lang/String;)V
     .locals 6
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const/4 v5, 0x0
 
@@ -3910,8 +3868,6 @@
 
 .method public setPhoneticName([CI)V
     .locals 2
-    .param p1    # [C
-    .param p2    # I
 
     if-eqz p1, :cond_0
 
@@ -3950,7 +3906,6 @@
 
 .method public setPhotoPosition(Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mPhotoPosition:Lcom/android/contacts/common/list/ContactListItemView$PhotoPosition;
 
@@ -3959,7 +3914,6 @@
 
 .method public setPresence(Landroid/graphics/drawable/Drawable;)V
     .locals 2
-    .param p1    # Landroid/graphics/drawable/Drawable;
 
     if-eqz p1, :cond_2
 
@@ -4018,7 +3972,6 @@
 
 .method public setQuickContactEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mQuickContactEnabled:Z
 
@@ -4027,7 +3980,6 @@
 
 .method public setSectionHeader(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4118,7 +4070,6 @@
 
 .method public setSnippet(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4162,7 +4113,6 @@
 
 .method public setStatus(Ljava/lang/CharSequence;)V
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4202,7 +4152,6 @@
 
 .method public setUnknownNameText(Ljava/lang/CharSequence;)V
     .locals 0
-    .param p1    # Ljava/lang/CharSequence;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mUnknownNameText:Ljava/lang/CharSequence;
 
@@ -4211,8 +4160,6 @@
 
 .method public showData(Landroid/database/Cursor;I)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListItemView;->mDataBuffer:Landroid/database/CharArrayBuffer;
 
@@ -4233,9 +4180,6 @@
 
 .method public showDisplayName(Landroid/database/Cursor;II)V
     .locals 7
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
-    .param p3    # I
 
     invoke-interface {p1, p2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -4281,8 +4225,6 @@
 
 .method public showPhoneticName(Landroid/database/Cursor;I)V
     .locals 3
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     iget-object v1, p0, Lcom/android/contacts/common/list/ContactListItemView;->mPhoneticNameBuffer:Landroid/database/CharArrayBuffer;
 
@@ -4315,9 +4257,6 @@
 
 .method public showPresenceAndStatusMessage(Landroid/database/Cursor;II)V
     .locals 4
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
-    .param p3    # I
 
     const/4 v0, 0x0
 
@@ -4379,8 +4318,6 @@
 
 .method public showSnippet(Landroid/database/Cursor;I)V
     .locals 16
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # I
 
     invoke-interface/range {p1 .. p1}, Landroid/database/Cursor;->getColumnCount()I
 
@@ -4553,7 +4490,6 @@
 
 .method protected verifyDrawable(Landroid/graphics/drawable/Drawable;)Z
     .locals 1
-    .param p1    # Landroid/graphics/drawable/Drawable;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactListItemView;->mActivatedBackgroundDrawable:Landroid/graphics/drawable/Drawable;
 

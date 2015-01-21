@@ -157,13 +157,6 @@
 
 .method public constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;Lcom/android/ex/variablespeed/MediaPlayerProxy;Landroid/net/Uri;Ljava/util/concurrent/ScheduledExecutorService;ZLcom/android/dialer/util/AsyncTaskExecutor;Landroid/os/PowerManager$WakeLock;)V
     .locals 2
-    .param p1    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;
-    .param p2    # Lcom/android/ex/variablespeed/MediaPlayerProxy;
-    .param p3    # Landroid/net/Uri;
-    .param p4    # Ljava/util/concurrent/ScheduledExecutorService;
-    .param p5    # Z
-    .param p6    # Lcom/android/dialer/util/AsyncTaskExecutor;
-    .param p7    # Landroid/os/PowerManager$WakeLock;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -204,7 +197,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Landroid/net/Uri;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mVoicemailUri:Landroid/net/Uri;
 
@@ -213,7 +205,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mView:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;
 
@@ -222,8 +213,6 @@
 
 .method static synthetic access$1400(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Ljava/lang/Exception;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # Ljava/lang/Exception;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->handleError(Ljava/lang/Exception;)V
 
@@ -232,7 +221,6 @@
 
 .method static synthetic access$1500(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mRateIndex:I
 
@@ -241,8 +229,6 @@
 
 .method static synthetic access$1502(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;I)I
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mRateIndex:I
 
@@ -259,9 +245,6 @@
 
 .method static synthetic access$1700(III)I
     .locals 1
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->constrain(III)I
 
@@ -280,9 +263,6 @@
 
 .method static synthetic access$1900(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;FI)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # F
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->changeRate(FI)V
 
@@ -291,7 +271,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     invoke-direct {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->postSuccessfullyFetchedContent()V
 
@@ -300,8 +279,6 @@
 
 .method static synthetic access$2002(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # Landroid/os/AsyncTask;
 
     iput-object p1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mPrepareTask:Landroid/os/AsyncTask;
 
@@ -310,7 +287,6 @@
 
 .method static synthetic access$2100(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Landroid/os/PowerManager$WakeLock;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mWakeLock:Landroid/os/PowerManager$WakeLock;
 
@@ -319,7 +295,6 @@
 
 .method static synthetic access$2200(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PositionUpdater;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mPositionUpdater:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PositionUpdater;
 
@@ -328,9 +303,6 @@
 
 .method static synthetic access$2300(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;II)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # I
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->stopPlaybackAtPosition(II)V
 
@@ -339,8 +311,6 @@
 
 .method static synthetic access$2400(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;I)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->resetPrepareStartPlaying(I)V
 
@@ -349,7 +319,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     invoke-direct {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->makeRequestForContent()V
 
@@ -358,7 +327,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Lcom/android/dialer/util/AsyncTaskExecutor;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mAsyncTaskExecutor:Lcom/android/dialer/util/AsyncTaskExecutor;
 
@@ -367,7 +335,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Lcom/android/ex/variablespeed/MediaPlayerProxy;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mPlayer:Lcom/android/ex/variablespeed/MediaPlayerProxy;
 
@@ -376,7 +343,6 @@
 
 .method static synthetic access$700(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)Ljava/util/concurrent/atomic/AtomicInteger;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mDuration:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -385,7 +351,6 @@
 
 .method static synthetic access$800(Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;)V
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
 
     invoke-direct {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->postSuccessfulPrepareActions()V
 
@@ -394,8 +359,6 @@
 
 .method private changeRate(FI)V
     .locals 1
-    .param p1    # F
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mPlayer:Lcom/android/ex/variablespeed/MediaPlayerProxy;
 
@@ -436,9 +399,6 @@
 
 .method private static constrain(III)I
     .locals 0
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
 
     if-ge p0, p1, :cond_0
 
@@ -460,7 +420,6 @@
 
 .method private handleError(Ljava/lang/Exception;)V
     .locals 1
-    .param p1    # Ljava/lang/Exception;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mView:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;
 
@@ -664,7 +623,6 @@
 
 .method private resetPrepareStartPlaying(I)V
     .locals 4
-    .param p1    # I
 
     const/4 v3, 0x0
 
@@ -702,8 +660,6 @@
 
 .method private stopPlaybackAtPosition(II)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mPositionUpdater:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PositionUpdater;
 
@@ -778,7 +734,6 @@
 
 .method public handleCompletion(Landroid/media/MediaPlayer;)V
     .locals 2
-    .param p1    # Landroid/media/MediaPlayer;
 
     const/4 v0, 0x0
 
@@ -795,7 +750,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->mView:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$PlaybackView;
 
@@ -920,7 +874,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     sget-object v0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;->CLIP_POSITION_KEY:Ljava/lang/String;
 

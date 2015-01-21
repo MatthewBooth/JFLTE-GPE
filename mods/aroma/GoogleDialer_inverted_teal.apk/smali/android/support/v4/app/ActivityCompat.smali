@@ -6,7 +6,6 @@
 # direct methods
 .method public static finishAfterTransition(Landroid/app/Activity;)V
     .locals 2
-    .param p0    # Landroid/app/Activity;
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 

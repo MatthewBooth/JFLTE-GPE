@@ -45,7 +45,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -150,7 +149,6 @@
 
 .method public format(Ljava/lang/String;)Lcom/google/android/gms/appdatasearch/RegisterSectionInfo$Builder;
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/appdatasearch/RegisterSectionInfo$Builder;->Dd:Ljava/lang/String;
 
@@ -159,7 +157,6 @@
 
 .method public noIndex(Z)Lcom/google/android/gms/appdatasearch/RegisterSectionInfo$Builder;
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/appdatasearch/RegisterSectionInfo$Builder;->De:Z
 

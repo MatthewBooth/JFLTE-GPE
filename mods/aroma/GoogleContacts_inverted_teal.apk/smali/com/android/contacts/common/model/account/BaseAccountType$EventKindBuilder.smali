@@ -27,7 +27,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/model/account/BaseAccountType$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/model/account/BaseAccountType$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/account/BaseAccountType$EventKindBuilder;-><init>()V
 
@@ -38,8 +37,6 @@
 # virtual methods
 .method protected buildEditTypeForTypeTag(Landroid/util/AttributeSet;Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 4
-    .param p1    # Landroid/util/AttributeSet;
-    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -146,9 +143,6 @@
 
 .method public parseDataKind(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)Ljava/util/List;
     .locals 12
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
-    .param p3    # Landroid/util/AttributeSet;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

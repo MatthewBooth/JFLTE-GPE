@@ -27,7 +27,6 @@
 # virtual methods
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     new-instance v0, Landroid/app/AlertDialog$Builder;
 

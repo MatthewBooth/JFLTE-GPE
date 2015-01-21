@@ -53,7 +53,6 @@
 
 .method static synthetic access$200(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mInfo:Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -62,8 +61,6 @@
 
 .method static synthetic access$202(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
     .locals 0
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
-    .param p1    # Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
     iput-object p1, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mInfo:Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -72,7 +69,6 @@
 
 .method static synthetic access$300(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mNumber:Ljava/lang/String;
 
@@ -89,7 +85,6 @@
 
 .method static synthetic access$500(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mNameText:Landroid/widget/TextView;
 
@@ -98,7 +93,6 @@
 
 .method static synthetic access$600(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mNumberText:Landroid/widget/TextView;
 
@@ -107,7 +101,6 @@
 
 .method static synthetic access$700(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Landroid/widget/ProgressBar;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mProgress:Landroid/widget/ProgressBar;
 
@@ -116,7 +109,6 @@
 
 .method static synthetic access$800(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;)Landroid/widget/Toast;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
     iget-object v0, p0, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->mReportFailed:Landroid/widget/Toast;
 
@@ -125,8 +117,6 @@
 
 .method static synthetic access$900(Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->reportBadData(Ljava/lang/String;)V
 
@@ -135,7 +125,6 @@
 
 .method public static newInstance(Ljava/lang/String;)Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
     .locals 3
-    .param p0    # Ljava/lang/String;
 
     new-instance v1, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;
 
@@ -156,7 +145,6 @@
 
 .method private reportBadData(Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/google/android/dialer/calllog/GoogleReportDialogFragment;->getTargetFragment()Landroid/app/Fragment;
 
@@ -178,7 +166,6 @@
 # virtual methods
 .method public onAttach(Landroid/app/Activity;)V
     .locals 0
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsDialogFragment;->onAttach(Landroid/app/Activity;)V
 
@@ -189,7 +176,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -229,7 +215,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 6
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v5, 0x0
 
@@ -346,7 +331,6 @@
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
 
     const/4 v0, 0x0
 

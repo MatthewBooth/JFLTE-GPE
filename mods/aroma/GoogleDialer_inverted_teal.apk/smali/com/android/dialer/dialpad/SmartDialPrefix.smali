@@ -78,7 +78,6 @@
 
 .method public static generateNamePrefixes(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 13
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1324,7 +1323,6 @@
 
 .method public static initializeNanpSettings(Landroid/content/Context;)V
     .locals 5
-    .param p0    # Landroid/content/Context;
 
     const-string v2, "phone"
 
@@ -1396,7 +1394,6 @@
 
 .method public static isCountryNanp(Ljava/lang/String;)Z
     .locals 2
-    .param p0    # Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1436,7 +1433,6 @@
 
 .method private static isValidCountryCode(Ljava/lang/String;)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     sget-object v0, Lcom/android/dialer/dialpad/SmartDialPrefix;->sCountryCodes:Ljava/util/Set;
 
@@ -1460,7 +1456,6 @@
 
 .method public static parsePhoneNumber(Ljava/lang/String;)Lcom/android/dialer/dialpad/SmartDialPrefix$PhoneNumberTokens;
     .locals 14
-    .param p0    # Ljava/lang/String;
 
     const/16 v13, 0xb
 
@@ -1647,7 +1642,6 @@
 
 .method public static parseToIndexTokens(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 7
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1751,7 +1745,6 @@
 
 .method public static parseToNumberTokens(Ljava/lang/String;)Ljava/util/ArrayList;
     .locals 4
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1827,7 +1820,6 @@
 
 .method public static setUserInNanpRegion(Z)V
     .locals 0
-    .param p0    # Z
 
     sput-boolean p0, Lcom/android/dialer/dialpad/SmartDialPrefix;->sUserInNanpRegion:Z
 

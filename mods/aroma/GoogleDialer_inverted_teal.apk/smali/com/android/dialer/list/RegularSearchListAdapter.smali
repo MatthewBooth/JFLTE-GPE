@@ -6,7 +6,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -17,8 +16,6 @@
 # virtual methods
 .method public getContactInfo(Lcom/android/dialer/service/CachedNumberLookupService;I)Lcom/android/dialer/service/CachedNumberLookupService$CachedContactInfo;
     .locals 10
-    .param p1    # Lcom/android/dialer/service/CachedNumberLookupService;
-    .param p2    # I
 
     new-instance v1, Lcom/android/dialer/calllog/ContactInfo;
 
@@ -134,7 +131,6 @@
 
 .method public setQueryString(Ljava/lang/String;)V
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     const/4 v2, 0x1
 

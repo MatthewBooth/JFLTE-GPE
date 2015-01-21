@@ -6,7 +6,6 @@
 # direct methods
 .method public static newPhoneNumberService(Landroid/content/Context;)Lcom/android/incallui/service/PhoneNumberService;
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 

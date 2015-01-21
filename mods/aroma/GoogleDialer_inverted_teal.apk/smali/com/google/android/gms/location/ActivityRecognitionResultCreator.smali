@@ -70,7 +70,6 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/location/ActivityRecognitionResult;
     .locals 9
-    .param p1    # Landroid/os/Parcel;
 
     const-wide/16 v6, 0x0
 
@@ -186,7 +185,6 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/location/ActivityRecognitionResultCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/location/ActivityRecognitionResult;
 
@@ -197,7 +195,6 @@
 
 .method public newArray(I)[Lcom/google/android/gms/location/ActivityRecognitionResult;
     .locals 1
-    .param p1    # I
 
     new-array v0, p1, [Lcom/google/android/gms/location/ActivityRecognitionResult;
 
@@ -206,7 +203,6 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/location/ActivityRecognitionResultCreator;->newArray(I)[Lcom/google/android/gms/location/ActivityRecognitionResult;
 

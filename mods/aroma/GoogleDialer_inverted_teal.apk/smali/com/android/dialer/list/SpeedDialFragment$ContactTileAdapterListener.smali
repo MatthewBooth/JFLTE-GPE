@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/dialer/list/SpeedDialFragment;Lcom/android/dialer/list/SpeedDialFragment$1;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/list/SpeedDialFragment;
-    .param p2    # Lcom/android/dialer/list/SpeedDialFragment$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/SpeedDialFragment$ContactTileAdapterListener;-><init>(Lcom/android/dialer/list/SpeedDialFragment;)V
 
@@ -62,7 +60,6 @@
 
 .method public onCallNumberDirectly(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment$ContactTileAdapterListener;->this$0:Lcom/android/dialer/list/SpeedDialFragment;
 
@@ -88,8 +85,6 @@
 
 .method public onContactSelected(Landroid/net/Uri;Landroid/graphics/Rect;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/graphics/Rect;
 
     iget-object v0, p0, Lcom/android/dialer/list/SpeedDialFragment$ContactTileAdapterListener;->this$0:Lcom/android/dialer/list/SpeedDialFragment;
 

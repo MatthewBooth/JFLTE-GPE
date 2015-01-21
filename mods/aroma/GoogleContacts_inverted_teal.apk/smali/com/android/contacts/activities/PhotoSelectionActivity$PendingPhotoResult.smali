@@ -25,9 +25,6 @@
 # direct methods
 .method private constructor <init>(IILandroid/content/Intent;)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -42,10 +39,6 @@
 
 .method synthetic constructor <init>(IILandroid/content/Intent;Lcom/android/contacts/activities/PhotoSelectionActivity$1;)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
-    .param p4    # Lcom/android/contacts/activities/PhotoSelectionActivity$1;
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;-><init>(IILandroid/content/Intent;)V
 
@@ -54,7 +47,6 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;)Landroid/content/Intent;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;->mData:Landroid/content/Intent;
 
@@ -63,7 +55,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;
 
     iget v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;->mRequestCode:I
 
@@ -72,7 +63,6 @@
 
 .method static synthetic access$900(Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;
 
     iget v0, p0, Lcom/android/contacts/activities/PhotoSelectionActivity$PendingPhotoResult;->mResultCode:I
 

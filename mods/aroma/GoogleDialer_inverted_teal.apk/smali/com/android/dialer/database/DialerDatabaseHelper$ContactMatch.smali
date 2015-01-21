@@ -25,8 +25,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/database/DialerDatabaseHelper;Ljava/lang/String;J)V
     .locals 1
-    .param p2    # Ljava/lang/String;
-    .param p3    # J
 
     iput-object p1, p0, Lcom/android/dialer/database/DialerDatabaseHelper$ContactMatch;->this$0:Lcom/android/dialer/database/DialerDatabaseHelper;
 
@@ -43,7 +41,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 

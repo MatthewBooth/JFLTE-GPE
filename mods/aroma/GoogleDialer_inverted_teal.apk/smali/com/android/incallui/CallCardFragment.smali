@@ -114,7 +114,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/CallCardFragment;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     invoke-direct {p0}, Lcom/android/incallui/CallCardFragment;->updateFabPositionForSecondaryCallInfo()V
 
@@ -123,7 +122,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/CallCardFragment;)Z
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-boolean v0, p0, Lcom/android/incallui/CallCardFragment;->mIsLandscape:Z
 
@@ -132,7 +130,6 @@
 
 .method static synthetic access$1000(Lcom/android/incallui/CallCardFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallTypeLabel:Landroid/widget/TextView;
 
@@ -141,7 +138,6 @@
 
 .method static synthetic access$1100(Lcom/android/incallui/CallCardFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallNumberAndLabel:Landroid/view/View;
 
@@ -150,8 +146,6 @@
 
 .method static synthetic access$1200(Lcom/android/incallui/CallCardFragment;Landroid/graphics/Point;)Landroid/animation/Animator;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
-    .param p1    # Landroid/graphics/Point;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallCardFragment;->getRevealAnimator(Landroid/graphics/Point;)Landroid/animation/Animator;
 
@@ -162,9 +156,6 @@
 
 .method static synthetic access$1300(Lcom/android/incallui/CallCardFragment;II)Landroid/animation/Animator;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
-    .param p1    # I
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/CallCardFragment;->getShrinkAnimator(II)Landroid/animation/Animator;
 
@@ -175,7 +166,6 @@
 
 .method static synthetic access$1400(Lcom/android/incallui/CallCardFragment;)Landroid/animation/AnimatorSet;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mAnimatorSet:Landroid/animation/AnimatorSet;
 
@@ -184,8 +174,6 @@
 
 .method static synthetic access$1402(Lcom/android/incallui/CallCardFragment;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
     .locals 0
-    .param p0    # Lcom/android/incallui/CallCardFragment;
-    .param p1    # Landroid/animation/AnimatorSet;
 
     iput-object p1, p0, Lcom/android/incallui/CallCardFragment;->mAnimatorSet:Landroid/animation/AnimatorSet;
 
@@ -194,8 +182,6 @@
 
 .method static synthetic access$1500(Lcom/android/incallui/CallCardFragment;Landroid/view/View$OnLayoutChangeListener;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallCardFragment;
-    .param p1    # Landroid/view/View$OnLayoutChangeListener;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallCardFragment;->setViewStatePostAnimation(Landroid/view/View$OnLayoutChangeListener;)V
 
@@ -204,7 +190,6 @@
 
 .method static synthetic access$1600(Lcom/android/incallui/CallCardFragment;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     invoke-direct {p0}, Lcom/android/incallui/CallCardFragment;->updateFabPosition()V
 
@@ -213,7 +198,6 @@
 
 .method static synthetic access$1700(Lcom/android/incallui/CallCardFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mSecondaryCallInfo:Landroid/view/View;
 
@@ -222,7 +206,6 @@
 
 .method static synthetic access$1800(Lcom/android/incallui/CallCardFragment;)Z
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-boolean v0, p0, Lcom/android/incallui/CallCardFragment;->mIsDialpadShowing:Z
 
@@ -231,9 +214,6 @@
 
 .method static synthetic access$1900(Lcom/android/incallui/CallCardFragment;Landroid/view/View;I)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallCardFragment;
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/CallCardFragment;->assignTranslateAnimation(Landroid/view/View;I)V
 
@@ -242,7 +222,6 @@
 
 .method static synthetic access$200(Lcom/android/incallui/CallCardFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mPrimaryCallCardContainer:Landroid/view/View;
 
@@ -251,7 +230,6 @@
 
 .method static synthetic access$2000(Lcom/android/incallui/CallCardFragment;)Landroid/widget/ImageView;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallStateIcon:Landroid/widget/ImageView;
 
@@ -260,7 +238,6 @@
 
 .method static synthetic access$2100(Lcom/android/incallui/CallCardFragment;)Landroid/widget/ImageButton;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButton:Landroid/widget/ImageButton;
 
@@ -269,7 +246,6 @@
 
 .method static synthetic access$300(Lcom/android/incallui/CallCardFragment;)I
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget v0, p0, Lcom/android/incallui/CallCardFragment;->mVideoAnimationDuration:I
 
@@ -278,7 +254,6 @@
 
 .method static synthetic access$500(Lcom/android/incallui/CallCardFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonContainer:Landroid/view/View;
 
@@ -287,7 +262,6 @@
 
 .method static synthetic access$600(Lcom/android/incallui/CallCardFragment;)Lcom/android/contacts/common/widget/FloatingActionButtonController;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonController:Lcom/android/contacts/common/widget/FloatingActionButtonController;
 
@@ -296,7 +270,6 @@
 
 .method static synthetic access$700(Lcom/android/incallui/CallCardFragment;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallButtonsContainer:Landroid/view/View;
 
@@ -305,7 +278,6 @@
 
 .method static synthetic access$800(Lcom/android/incallui/CallCardFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallStateLabel:Landroid/widget/TextView;
 
@@ -314,7 +286,6 @@
 
 .method static synthetic access$900(Lcom/android/incallui/CallCardFragment;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallCardFragment;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mPrimaryName:Landroid/widget/TextView;
 
@@ -323,8 +294,6 @@
 
 .method private assignTranslateAnimation(Landroid/view/View;I)V
     .locals 4
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     iget v0, p0, Lcom/android/incallui/CallCardFragment;->mTranslationOffset:F
 
@@ -371,8 +340,6 @@
 
 .method private dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/view/accessibility/AccessibilityEvent;
-    .param p2    # Landroid/view/View;
 
     if-nez p2, :cond_1
 
@@ -406,12 +373,6 @@
 
 .method private getCallStateLabelFromState(IIILandroid/telecom/DisconnectCause;Ljava/lang/String;Z)Ljava/lang/CharSequence;
     .locals 7
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/telecom/DisconnectCause;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Z
 
     const/4 v5, 0x0
 
@@ -660,7 +621,6 @@
 
 .method private getConferencePhoto(Z)Landroid/graphics/drawable/Drawable;
     .locals 3
-    .param p1    # Z
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -709,7 +669,6 @@
 
 .method private getConferenceString(Z)Ljava/lang/String;
     .locals 3
-    .param p1    # Z
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -758,7 +717,6 @@
 
 .method private getRevealAnimator(Landroid/graphics/Point;)Landroid/animation/Animator;
     .locals 10
-    .param p1    # Landroid/graphics/Point;
 
     invoke-virtual {p0}, Lcom/android/incallui/CallCardFragment;->getActivity()Landroid/app/Activity;
 
@@ -828,8 +786,6 @@
 
 .method private getShrinkAnimator(II)Landroid/animation/Animator;
     .locals 5
-    .param p1    # I
-    .param p2    # I
 
     iget-object v1, p0, Lcom/android/incallui/CallCardFragment;->mPrimaryCallCardContainer:Landroid/view/View;
 
@@ -872,8 +828,6 @@
 
 .method private setDrawableToImageView(Landroid/widget/ImageView;Landroid/graphics/drawable/Drawable;)V
     .locals 3
-    .param p1    # Landroid/widget/ImageView;
-    .param p2    # Landroid/graphics/drawable/Drawable;
 
     if-nez p2, :cond_0
 
@@ -921,7 +875,6 @@
 
 .method private setViewStatePostAnimation(Landroid/view/View$OnLayoutChangeListener;)V
     .locals 2
-    .param p1    # Landroid/view/View$OnLayoutChangeListener;
 
     iget-object v0, p0, Lcom/android/incallui/CallCardFragment;->mCallButtonsContainer:Landroid/view/View;
 
@@ -972,7 +925,6 @@
 
 .method private setViewStatePostAnimation(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
 
     const/4 v0, 0x0
 
@@ -987,7 +939,6 @@
 
 .method private showAndInitializeSecondaryCallInfo(Z)V
     .locals 3
-    .param p1    # Z
 
     const/4 v2, 0x0
 
@@ -1065,7 +1016,6 @@
 
 .method private showInternetCallLabel(Z)V
     .locals 3
-    .param p1    # Z
 
     if-eqz p1, :cond_0
 
@@ -1195,7 +1145,6 @@
 # virtual methods
 .method public animateForNewOutgoingCall(Landroid/graphics/Point;)V
     .locals 5
-    .param p1    # Landroid/graphics/Point;
 
     iget-object v3, p0, Lcom/android/incallui/CallCardFragment;->mPrimaryCallCardContainer:Landroid/view/View;
 
@@ -1256,7 +1205,6 @@
 
 .method public dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
     .locals 2
-    .param p1    # Landroid/view/accessibility/AccessibilityEvent;
 
     invoke-virtual {p1}, Landroid/view/accessibility/AccessibilityEvent;->getEventType()I
 
@@ -1377,7 +1325,6 @@
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -1406,7 +1353,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/incallui/BaseFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -1487,9 +1433,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2, p3}, Lcom/android/incallui/BaseFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
@@ -1532,7 +1475,6 @@
 
 .method public onDialpadVisiblityChange(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/CallCardFragment;->mIsDialpadShowing:Z
 
@@ -1614,8 +1556,6 @@
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 5
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/os/Bundle;
 
     const/4 v4, 0x0
 
@@ -1884,7 +1824,6 @@
 
 .method public setCallCardVisible(Z)V
     .locals 7
-    .param p1    # Z
 
     invoke-static {}, Lcom/android/incallui/InCallPresenter;->isRtl()Z
 
@@ -1927,13 +1866,6 @@
 
 .method public setCallState(IIILandroid/telecom/DisconnectCause;Ljava/lang/String;Landroid/graphics/drawable/Drawable;Ljava/lang/String;)V
     .locals 10
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/telecom/DisconnectCause;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Landroid/graphics/drawable/Drawable;
-    .param p7    # Ljava/lang/String;
 
     invoke-static/range {p7 .. p7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2221,8 +2153,6 @@
 
 .method public setCallbackNumber(Ljava/lang/String;Z)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     const/4 v3, 0x0
 
@@ -2286,8 +2216,6 @@
 
 .method public setEndCallButtonEnabled(ZZ)V
     .locals 3
-    .param p1    # Z
-    .param p2    # Z
 
     const/4 v2, 0x0
 
@@ -2355,7 +2283,6 @@
 
 .method public setPhotoVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallCardFragment;->mPhoto:Landroid/widget/ImageView;
 
@@ -2376,14 +2303,6 @@
 
 .method public setPrimary(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Landroid/graphics/drawable/Drawable;ZZZ)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Z
-    .param p4    # Ljava/lang/String;
-    .param p5    # Landroid/graphics/drawable/Drawable;
-    .param p6    # Z
-    .param p7    # Z
-    .param p8    # Z
 
     const-string v0, "Setting primary call"
 
@@ -2451,8 +2370,6 @@
 
 .method public setPrimaryCallElapsedTime(ZLjava/lang/String;)V
     .locals 2
-    .param p1    # Z
-    .param p2    # Ljava/lang/String;
 
     const/4 v1, -0x1
 
@@ -2488,7 +2405,6 @@
 
 .method public setPrimaryImage(Landroid/graphics/drawable/Drawable;)V
     .locals 1
-    .param p1    # Landroid/graphics/drawable/Drawable;
 
     if-eqz p1, :cond_0
 
@@ -2502,7 +2418,6 @@
 
 .method public setPrimaryLabel(Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2535,8 +2450,6 @@
 
 .method public setPrimaryName(Ljava/lang/String;Z)V
     .locals 3
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2574,7 +2487,6 @@
 
 .method public setPrimaryPhoneNumber(Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2619,14 +2531,6 @@
 
 .method public setSecondary(ZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Landroid/graphics/drawable/Drawable;ZZ)V
     .locals 5
-    .param p1    # Z
-    .param p2    # Ljava/lang/String;
-    .param p3    # Z
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Landroid/graphics/drawable/Drawable;
-    .param p7    # Z
-    .param p8    # Z
 
     const/16 v4, 0x8
 
@@ -2720,7 +2624,6 @@
 
 .method public setVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     if-eqz p1, :cond_0
 
@@ -2749,7 +2652,6 @@
 
 .method public showManageConferenceCallButton(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-object v1, p0, Lcom/android/incallui/CallCardFragment;->mManageConferenceCallButton:Landroid/view/View;
 

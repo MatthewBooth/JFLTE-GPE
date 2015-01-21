@@ -50,7 +50,6 @@
 
 .method public setHour(Ljava/lang/Integer;)Lcom/google/android/gms/reminders/model/Time$Builder;
     .locals 0
-    .param p1    # Ljava/lang/Integer;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Time$Builder;->aCR:Ljava/lang/Integer;
 
@@ -59,7 +58,6 @@
 
 .method public setMinute(Ljava/lang/Integer;)Lcom/google/android/gms/reminders/model/Time$Builder;
     .locals 0
-    .param p1    # Ljava/lang/Integer;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Time$Builder;->aCS:Ljava/lang/Integer;
 
@@ -68,7 +66,6 @@
 
 .method public setSecond(Ljava/lang/Integer;)Lcom/google/android/gms/reminders/model/Time$Builder;
     .locals 0
-    .param p1    # Ljava/lang/Integer;
 
     iput-object p1, p0, Lcom/google/android/gms/reminders/model/Time$Builder;->aCT:Ljava/lang/Integer;
 

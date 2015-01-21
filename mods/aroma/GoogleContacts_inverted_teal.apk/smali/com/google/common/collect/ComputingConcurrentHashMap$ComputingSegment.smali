@@ -29,8 +29,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/MapMakerInternalMap;II)V
     .locals 0
-    .param p2    # I
-    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -48,7 +46,6 @@
 # virtual methods
 .method compute(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;Lcom/google/common/collect/ComputingConcurrentHashMap$ComputingValueReference;)Ljava/lang/Object;
     .locals 10
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",
@@ -162,7 +159,6 @@
 
 .method getOrCompute(Ljava/lang/Object;ILcom/google/common/base/Function;)Ljava/lang/Object;
     .locals 14
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",

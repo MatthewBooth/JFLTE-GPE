@@ -36,7 +36,6 @@
 # virtual methods
 .method public lastOutgoingCall(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/dialpad/DialpadFragment$4;->this$0:Lcom/android/dialer/dialpad/DialpadFragment;
 

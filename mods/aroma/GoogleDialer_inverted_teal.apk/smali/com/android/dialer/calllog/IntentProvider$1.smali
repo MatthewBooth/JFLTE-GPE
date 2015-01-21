@@ -37,7 +37,6 @@
 # virtual methods
 .method public getIntent(Landroid/content/Context;)Landroid/content/Intent;
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/IntentProvider$1;->val$number:Ljava/lang/String;
 

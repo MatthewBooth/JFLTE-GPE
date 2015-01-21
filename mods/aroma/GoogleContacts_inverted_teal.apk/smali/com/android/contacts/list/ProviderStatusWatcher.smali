@@ -73,7 +73,6 @@
 
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -110,7 +109,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/list/ProviderStatusWatcher;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ProviderStatusWatcher;->startLoading()V
 
@@ -127,7 +125,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/list/ProviderStatusWatcher;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
 
     iget-object v0, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mContext:Landroid/content/Context;
 
@@ -136,8 +133,6 @@
 
 .method static synthetic access$402(Lcom/android/contacts/list/ProviderStatusWatcher;Lcom/android/contacts/list/ProviderStatusWatcher$Status;)Lcom/android/contacts/list/ProviderStatusWatcher$Status;
     .locals 0
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
-    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher$Status;
 
     iput-object p1, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mProviderStatus:Lcom/android/contacts/list/ProviderStatusWatcher$Status;
 
@@ -146,7 +141,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/list/ProviderStatusWatcher;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
 
     iget-object v0, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mSignal:Ljava/lang/Object;
 
@@ -155,7 +149,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/list/ProviderStatusWatcher;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ProviderStatusWatcher;->notifyListeners()V
 
@@ -164,8 +157,6 @@
 
 .method static synthetic access$702(Lcom/android/contacts/list/ProviderStatusWatcher;Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;)Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;
     .locals 0
-    .param p0    # Lcom/android/contacts/list/ProviderStatusWatcher;
-    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;
 
     iput-object p1, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mLoaderTask:Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;
 
@@ -174,7 +165,6 @@
 
 .method public static declared-synchronized getInstance(Landroid/content/Context;)Lcom/android/contacts/list/ProviderStatusWatcher;
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/android/contacts/list/ProviderStatusWatcher;
 
@@ -264,7 +254,6 @@
 
 .method public static retryUpgrade(Landroid/content/Context;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     const-string v1, "ProviderStatusWatcher"
 
@@ -373,7 +362,6 @@
 # virtual methods
 .method public addListener(Lcom/android/contacts/list/ProviderStatusWatcher$ProviderStatusListener;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher$ProviderStatusListener;
 
     iget-object v0, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mListeners:Ljava/util/ArrayList;
 
@@ -410,8 +398,6 @@
 
 .method public onChange(ZLandroid/net/Uri;)V
     .locals 2
-    .param p1    # Z
-    .param p2    # Landroid/net/Uri;
 
     sget-object v0, Landroid/provider/ContactsContract$ProviderStatus;->CONTENT_URI:Landroid/net/Uri;
 
@@ -448,7 +434,6 @@
 
 .method public removeListener(Lcom/android/contacts/list/ProviderStatusWatcher$ProviderStatusListener;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher$ProviderStatusListener;
 
     iget-object v0, p0, Lcom/android/contacts/list/ProviderStatusWatcher;->mListeners:Ljava/util/ArrayList;
 

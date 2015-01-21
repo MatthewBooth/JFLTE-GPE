@@ -100,7 +100,6 @@
 
 .method static synthetic access$102(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Ljava/lang/Object;
 
     sput-object p0, Lcom/google/android/gsf/Gservices;->sVersionToken:Ljava/lang/Object;
 
@@ -117,8 +116,6 @@
 
 .method public static varargs bulkCacheByPrefix(Landroid/content/ContentResolver;[Ljava/lang/String;)V
     .locals 7
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # [Ljava/lang/String;
 
     invoke-static {}, Lcom/google/android/gsf/Gservices;->maybeEnforceCalingOrSelfPermission()V
 
@@ -190,7 +187,6 @@
 
 .method private static ensureCacheInitializedLocked(Landroid/content/ContentResolver;)V
     .locals 2
-    .param p0    # Landroid/content/ContentResolver;
 
     sget-object v0, Lcom/google/android/gsf/Gservices;->sCache:Ljava/util/HashMap;
 
@@ -222,9 +218,6 @@
 
 .method public static getBoolean(Landroid/content/ContentResolver;Ljava/lang/String;Z)Z
     .locals 4
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-static {p0, p1}, Lcom/google/android/gsf/Gservices;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
@@ -322,9 +315,6 @@
 
 .method public static getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
     .locals 3
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     invoke-static {p0, p1}, Lcom/google/android/gsf/Gservices;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
@@ -357,8 +347,6 @@
 
 .method public static getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -371,9 +359,6 @@
 
 .method public static getString(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 13
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -567,8 +552,6 @@
 
 .method public static varargs getStringsByPrefix(Landroid/content/ContentResolver;[Ljava/lang/String;)Ljava/util/Map;
     .locals 8
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # [Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -653,7 +636,6 @@
 
 .method public static getVersionToken(Landroid/content/ContentResolver;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroid/content/ContentResolver;
 
     invoke-static {}, Lcom/google/android/gsf/Gservices;->maybeEnforceCalingOrSelfPermission()V
 

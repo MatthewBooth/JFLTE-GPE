@@ -28,7 +28,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/list/DialerPhoneNumberListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -51,7 +50,6 @@
 # virtual methods
 .method public configureLoader(Lcom/android/dialer/dialpad/SmartDialCursorLoader;)V
     .locals 2
-    .param p1    # Lcom/android/dialer/dialpad/SmartDialCursorLoader;
 
     invoke-virtual {p0}, Lcom/android/dialer/list/SmartDialNumberListAdapter;->getQueryString()Ljava/lang/String;
 
@@ -96,7 +94,6 @@
 
 .method public getDataUri(I)Landroid/net/Uri;
     .locals 5
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/list/SmartDialNumberListAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -135,8 +132,6 @@
 
 .method protected setHighlight(Lcom/android/contacts/common/list/ContactListItemView;Landroid/database/Cursor;)V
     .locals 6
-    .param p1    # Lcom/android/contacts/common/list/ContactListItemView;
-    .param p2    # Landroid/database/Cursor;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/list/ContactListItemView;->clearHighlightSequences()V
 
@@ -212,7 +207,6 @@
 
 .method public setQueryString(Ljava/lang/String;)V
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     const/4 v3, 0x0
 

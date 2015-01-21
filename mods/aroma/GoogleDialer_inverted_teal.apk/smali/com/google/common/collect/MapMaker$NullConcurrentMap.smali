@@ -53,7 +53,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/MapMaker;)V
     .locals 1
-    .param p1    # Lcom/google/common/collect/MapMaker;
 
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
@@ -74,7 +73,6 @@
 # virtual methods
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -83,7 +81,6 @@
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -111,7 +108,6 @@
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -182,7 +178,6 @@
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -198,8 +193,6 @@
 
 .method public remove(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 

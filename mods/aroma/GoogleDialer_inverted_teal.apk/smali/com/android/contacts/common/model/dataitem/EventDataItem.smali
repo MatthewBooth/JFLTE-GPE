@@ -6,7 +6,6 @@
 # direct methods
 .method constructor <init>(Landroid/content/ContentValues;)V
     .locals 0
-    .param p1    # Landroid/content/ContentValues;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/model/dataitem/DataItem;-><init>(Landroid/content/ContentValues;)V
 
@@ -49,8 +48,6 @@
 
 .method public shouldCollapseWith(Lcom/android/contacts/common/model/dataitem/DataItem;Landroid/content/Context;)Z
     .locals 4
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataItem;
-    .param p2    # Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -137,8 +134,6 @@
 
 .method public bridge synthetic shouldCollapseWith(Ljava/lang/Object;Landroid/content/Context;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Landroid/content/Context;
 
     check-cast p1, Lcom/android/contacts/common/model/dataitem/DataItem;
 

@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/calllog/CallLogActivity;Landroid/app/FragmentManager;)V
     .locals 0
-    .param p2    # Landroid/app/FragmentManager;
 
     iput-object p1, p0, Lcom/android/dialer/calllog/CallLogActivity$ViewPagerAdapter;->this$0:Lcom/android/dialer/calllog/CallLogActivity;
 
@@ -57,7 +56,6 @@
 
 .method public getItem(I)Landroid/app/Fragment;
     .locals 3
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -159,7 +157,6 @@
 
 .method public getPageTitle(I)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogActivity$ViewPagerAdapter;->this$0:Lcom/android/dialer/calllog/CallLogActivity;
 

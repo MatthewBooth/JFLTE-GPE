@@ -59,7 +59,6 @@
 
 .method public setDescription(Ljava/lang/String;)Lcom/google/android/gms/analytics/HitBuilders$ExceptionBuilder;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-string v0, "&exd"
 
@@ -70,7 +69,6 @@
 
 .method public setFatal(Z)Lcom/google/android/gms/analytics/HitBuilders$ExceptionBuilder;
     .locals 2
-    .param p1    # Z
 
     const-string v0, "&exf"
 

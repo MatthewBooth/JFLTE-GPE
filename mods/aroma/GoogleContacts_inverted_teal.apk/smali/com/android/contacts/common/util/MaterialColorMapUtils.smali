@@ -20,7 +20,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/res/Resources;)V
     .locals 1
-    .param p1    # Landroid/content/res/Resources;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +44,6 @@
 
 .method public static getDefaultPrimaryAndSecondaryColors(Landroid/content/res/Resources;)Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
     .locals 3
-    .param p0    # Landroid/content/res/Resources;
 
     const v2, 0x7f07001f
 
@@ -68,7 +66,6 @@
 
 .method public static hue(I)F
     .locals 11
-    .param p0    # I
 
     shr-int/lit8 v10, p0, 0x10
 
@@ -173,7 +170,6 @@
 # virtual methods
 .method public calculatePrimaryAndSecondaryColor(I)Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
     .locals 11
-    .param p1    # I
 
     const/4 v10, 0x0
 

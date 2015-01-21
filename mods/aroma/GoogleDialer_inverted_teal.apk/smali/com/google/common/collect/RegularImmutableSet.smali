@@ -26,10 +26,6 @@
 # direct methods
 .method constructor <init>([Ljava/lang/Object;I[Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # [Ljava/lang/Object;
-    .param p2    # I
-    .param p3    # [Ljava/lang/Object;
-    .param p4    # I
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/ImmutableSet$ArrayImmutableSet;-><init>([Ljava/lang/Object;)V
 
@@ -46,7 +42,6 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v2, 0x0
 

@@ -50,8 +50,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/drive/DriveId;Ljava/util/List;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/drive/DriveId;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -86,8 +84,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/drive/internal/ba;->a(Lcom/google/android/gms/drive/internal/SetResourceParentsRequest;Landroid/os/Parcel;I)V
 

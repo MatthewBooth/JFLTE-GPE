@@ -14,7 +14,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/ContentResolver;)V
     .locals 0
-    .param p1    # Landroid/content/ContentResolver;
 
     invoke-direct {p0, p1}, Landroid/content/AsyncQueryHandler;-><init>(Landroid/content/ContentResolver;)V
 
@@ -28,9 +27,6 @@
 
 .method protected final onQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/database/Cursor;
 
     move-object v0, p2
 
@@ -58,13 +54,6 @@
 
 .method public startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     .locals 8
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/net/Uri;
-    .param p4    # [Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # [Ljava/lang/String;
-    .param p7    # Ljava/lang/String;
 
     new-instance v2, Lcom/android/contacts/common/database/NoNullCursorAsyncQueryHandler$CookieWithProjection;
 

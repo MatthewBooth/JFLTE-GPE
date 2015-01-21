@@ -12,7 +12,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/CallDetailActivity;)V
     .locals 3
-    .param p1    # Lcom/android/dialer/CallDetailActivity;
 
     invoke-virtual {p1}, Lcom/android/dialer/CallDetailActivity;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -45,7 +44,6 @@
 
 .method private getSourcePackage(Landroid/database/Cursor;)Ljava/lang/String;
     .locals 1
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 
@@ -58,7 +56,6 @@
 
 .method private hasNoAudio(Landroid/database/Cursor;)Z
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -79,7 +76,6 @@
 
 .method private moveToFirst(Landroid/database/Cursor;)Z
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     if-eqz p1, :cond_0
 
@@ -111,9 +107,6 @@
 # virtual methods
 .method protected declared-synchronized onNotNullableQueryComplete(ILjava/lang/Object;Landroid/database/Cursor;)V
     .locals 8
-    .param p1    # I
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Landroid/database/Cursor;
 
     const/16 v1, 0x66
 
@@ -241,7 +234,6 @@
 
 .method public startVoicemailStatusQuery(Landroid/net/Uri;)V
     .locals 8
-    .param p1    # Landroid/net/Uri;
 
     const/4 v2, 0x0
 

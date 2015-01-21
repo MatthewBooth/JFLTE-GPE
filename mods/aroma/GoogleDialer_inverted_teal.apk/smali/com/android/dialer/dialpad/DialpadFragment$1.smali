@@ -33,8 +33,6 @@
 # virtual methods
 .method public onCallStateChanged(ILjava/lang/String;)V
     .locals 2
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     if-nez p1, :cond_0
 

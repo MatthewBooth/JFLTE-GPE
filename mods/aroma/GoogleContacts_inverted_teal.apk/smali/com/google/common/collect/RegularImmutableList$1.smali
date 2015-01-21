@@ -28,8 +28,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/RegularImmutableList;II)V
     .locals 0
-    .param p2    # I
-    .param p3    # I
 
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableList$1;->this$0:Lcom/google/common/collect/RegularImmutableList;
 
@@ -42,7 +40,6 @@
 # virtual methods
 .method protected get(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TE;"

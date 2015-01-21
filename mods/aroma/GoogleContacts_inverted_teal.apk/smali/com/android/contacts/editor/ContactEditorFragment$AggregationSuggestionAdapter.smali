@@ -36,9 +36,6 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;ZLcom/android/contacts/editor/AggregationSuggestionView$Listener;Ljava/util/List;)V
     .locals 0
-    .param p1    # Landroid/app/Activity;
-    .param p2    # Z
-    .param p3    # Lcom/android/contacts/editor/AggregationSuggestionView$Listener;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -81,7 +78,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/editor/ContactEditorFragment$AggregationSuggestionAdapter;->mSuggestions:Ljava/util/List;
 
@@ -94,7 +90,6 @@
 
 .method public getItemId(I)J
     .locals 2
-    .param p1    # I
 
     int-to-long v0, p1
 
@@ -103,9 +98,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/editor/ContactEditorFragment$AggregationSuggestionAdapter;->getItem(I)Ljava/lang/Object;
 

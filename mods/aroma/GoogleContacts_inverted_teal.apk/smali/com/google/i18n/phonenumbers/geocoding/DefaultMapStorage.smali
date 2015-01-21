@@ -22,7 +22,6 @@
 # virtual methods
 .method public getDescription(I)Ljava/lang/String;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/google/i18n/phonenumbers/geocoding/DefaultMapStorage;->descriptions:[Ljava/lang/String;
 
@@ -33,7 +32,6 @@
 
 .method public getPrefix(I)I
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/google/i18n/phonenumbers/geocoding/DefaultMapStorage;->phoneNumberPrefixes:[I
 
@@ -44,7 +42,6 @@
 
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 4
-    .param p1    # Ljava/io/ObjectInput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -160,7 +157,6 @@
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 5
-    .param p1    # Ljava/io/ObjectOutput;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

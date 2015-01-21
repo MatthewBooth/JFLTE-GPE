@@ -128,7 +128,6 @@
 
 .method public static createStrequentPhoneOnlyLoader(Landroid/content/Context;)Landroid/content/CursorLoader;
     .locals 7
-    .param p0    # Landroid/content/Context;
 
     const/4 v4, 0x0
 

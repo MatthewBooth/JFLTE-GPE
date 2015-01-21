@@ -30,8 +30,6 @@
 # direct methods
 .method constructor <init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
     .locals 4
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # Landroid/graphics/Bitmap;
 
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
@@ -139,7 +137,6 @@
 
 .method private static isGreaterThanZero(F)Z
     .locals 1
-    .param p0    # F
 
     const/4 v0, 0x0
 
@@ -164,7 +161,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 6
-    .param p1    # Landroid/graphics/Canvas;
 
     iget-object v0, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mBitmap:Landroid/graphics/Bitmap;
 
@@ -303,11 +299,6 @@
 
 .method gravityCompatApply(IIILandroid/graphics/Rect;Landroid/graphics/Rect;)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/graphics/Rect;
-    .param p5    # Landroid/graphics/Rect;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -318,7 +309,6 @@
 
 .method public setAlpha(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -340,7 +330,6 @@
 
 .method public setAntiAlias(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -353,7 +342,6 @@
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 1
-    .param p1    # Landroid/graphics/ColorFilter;
 
     iget-object v0, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -366,7 +354,6 @@
 
 .method public setCornerRadius(F)V
     .locals 2
-    .param p1    # F
 
     invoke-static {p1}, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->isGreaterThanZero(F)Z
 
@@ -397,7 +384,6 @@
 
 .method public setDither(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -410,7 +396,6 @@
 
 .method public setFilterBitmap(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Landroid/support/v4/graphics/drawable/RoundedBitmapDrawable;->mPaint:Landroid/graphics/Paint;
 

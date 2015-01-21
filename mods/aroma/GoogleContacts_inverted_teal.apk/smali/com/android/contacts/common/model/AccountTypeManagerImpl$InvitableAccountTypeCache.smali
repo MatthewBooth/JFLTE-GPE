@@ -41,7 +41,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/model/AccountTypeManagerImpl$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/model/AccountTypeManagerImpl$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/AccountTypeManagerImpl$InvitableAccountTypeCache;-><init>()V
 

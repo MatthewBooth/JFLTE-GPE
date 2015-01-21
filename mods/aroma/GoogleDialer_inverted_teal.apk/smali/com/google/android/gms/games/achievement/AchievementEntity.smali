@@ -61,23 +61,6 @@
 
 .method constructor <init>(ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;ILjava/lang/String;Lcom/google/android/gms/games/PlayerEntity;IILjava/lang/String;JJ)V
     .locals 2
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # Landroid/net/Uri;
-    .param p7    # Ljava/lang/String;
-    .param p8    # Landroid/net/Uri;
-    .param p9    # Ljava/lang/String;
-    .param p10    # I
-    .param p11    # Ljava/lang/String;
-    .param p12    # Lcom/google/android/gms/games/PlayerEntity;
-    .param p13    # I
-    .param p14    # I
-    .param p15    # Ljava/lang/String;
-    .param p16    # J
-    .param p18    # J
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -128,7 +111,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/achievement/Achievement;)V
     .locals 5
-    .param p1    # Lcom/google/android/gms/games/achievement/Achievement;
 
     const/4 v4, 0x0
 
@@ -760,7 +742,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/achievement/AchievementEntity;->a(Lcom/google/android/gms/games/achievement/Achievement;Ljava/lang/Object;)Z
 
@@ -943,8 +924,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/achievement/AchievementEntityCreator;->a(Lcom/google/android/gms/games/achievement/AchievementEntity;Landroid/os/Parcel;I)V
 

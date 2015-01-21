@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/ContactsAsyncHelper;Landroid/os/Looper;)V
     .locals 0
-    .param p2    # Landroid/os/Looper;
 
     iput-object p1, p0, Lcom/android/incallui/ContactsAsyncHelper$WorkerHandler;->this$0:Lcom/android/incallui/ContactsAsyncHelper;
 
@@ -32,8 +31,6 @@
 
 .method private getPhotoIconWhenAppropriate(Landroid/content/Context;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
     .locals 11
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/graphics/drawable/Drawable;
 
     const/4 v8, 0x0
 
@@ -129,7 +126,6 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
     .locals 7
-    .param p1    # Landroid/os/Message;
 
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 

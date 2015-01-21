@@ -24,10 +24,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/VCardService;Lcom/android/contacts/common/vcard/ExportRequest;ILjava/lang/String;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/vcard/VCardService;
-    .param p2    # Lcom/android/contacts/common/vcard/ExportRequest;
-    .param p3    # I
-    .param p4    # Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/android/contacts/common/vcard/ProcessorBase;-><init>()V
 
@@ -106,8 +102,6 @@
 
 .method private doFinishNotification(Ljava/lang/String;Ljava/lang/String;)V
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -138,9 +132,6 @@
 
 .method private doProgressNotification(Landroid/net/Uri;II)V
     .locals 9
-    .param p1    # Landroid/net/Uri;
-    .param p2    # I
-    .param p3    # I
 
     invoke-virtual {p1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
 
@@ -1146,7 +1137,6 @@
 
 .method private translateComposerError(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/android/contacts/common/vcard/ExportProcessor;->mService:Lcom/android/contacts/common/vcard/VCardService;
 
@@ -1211,7 +1201,6 @@
 # virtual methods
 .method public declared-synchronized cancel(Z)Z
     .locals 2
-    .param p1    # Z
 
     const/4 v0, 0x1
 

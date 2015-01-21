@@ -58,7 +58,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x2
 
@@ -105,7 +104,6 @@
 
 .method static synthetic access$000(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;)Landroid/content/Context;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
     iget-object v0, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->mContext:Landroid/content/Context;
 
@@ -114,7 +112,6 @@
 
 .method static synthetic access$100(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;)Lcom/google/android/dialer/reverselookup/PeopleApiClient;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
     iget-object v0, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->mPeopleClient:Lcom/google/android/dialer/reverselookup/PeopleApiClient;
 
@@ -123,8 +120,6 @@
 
 .method static synthetic access$200(Landroid/content/Context;Landroid/net/Uri;)[B
     .locals 1
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -156,7 +151,6 @@
 
 .method static synthetic access$500(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;)Landroid/os/Handler;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
     iget-object v0, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->mHandler:Landroid/os/Handler;
 
@@ -165,7 +159,6 @@
 
 .method static synthetic access$600(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
     iget-object v0, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->mCountryIso:Ljava/lang/String;
 
@@ -174,7 +167,6 @@
 
 .method static synthetic access$800(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;)Ljava/util/concurrent/ExecutorService;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
 
     iget-object v0, p0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->mImageExecutorService:Ljava/util/concurrent/ExecutorService;
 
@@ -183,8 +175,6 @@
 
 .method static synthetic access$900(Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;Landroid/content/Context;)[Landroid/accounts/Account;
     .locals 1
-    .param p0    # Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl;->getGoogleAccounts(Landroid/content/Context;)[Landroid/accounts/Account;
 
@@ -219,7 +209,6 @@
 
 .method private getGoogleAccounts(Landroid/content/Context;)[Landroid/accounts/Account;
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
@@ -236,7 +225,6 @@
 
 .method static httpToHttps(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
-    .param p0    # Ljava/lang/String;
 
     const/4 v3, 0x4
 
@@ -290,8 +278,6 @@
 
 .method private static loadPhotoFromContentUri(Landroid/content/Context;Landroid/net/Uri;)[B
     .locals 8
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/net/Uri;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -378,10 +364,6 @@
 # virtual methods
 .method public getPhoneNumberInfo(Ljava/lang/String;Lcom/android/incallui/service/PhoneNumberService$NumberLookupListener;Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;Z)V
     .locals 7
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/service/PhoneNumberService$NumberLookupListener;
-    .param p3    # Lcom/android/incallui/service/PhoneNumberService$ImageLookupListener;
-    .param p4    # Z
 
     :try_start_0
     new-instance v0, Lcom/google/android/dialer/reverselookup/PhoneNumberServiceImpl$LookupRunnable;

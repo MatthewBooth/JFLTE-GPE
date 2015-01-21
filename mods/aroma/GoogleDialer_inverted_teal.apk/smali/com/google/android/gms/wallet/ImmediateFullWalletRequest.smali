@@ -80,17 +80,6 @@
 
 .method constructor <init>(IILandroid/accounts/Account;Ljava/lang/String;IZZZLjava/lang/String;Z[Lcom/google/android/gms/wallet/CountrySpecification;Ljava/util/ArrayList;)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/accounts/Account;
-    .param p4    # Ljava/lang/String;
-    .param p5    # I
-    .param p6    # Z
-    .param p7    # Z
-    .param p8    # Z
-    .param p9    # Ljava/lang/String;
-    .param p10    # Z
-    .param p11    # [Lcom/google/android/gms/wallet/CountrySpecification;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
@@ -156,8 +145,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wallet/g;->a(Lcom/google/android/gms/wallet/ImmediateFullWalletRequest;Landroid/os/Parcel;I)V
 

@@ -162,7 +162,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/CallList;)Ljava/util/HashMap;
     .locals 1
-    .param p0    # Lcom/android/incallui/CallList;
 
     iget-object v0, p0, Lcom/android/incallui/CallList;->mCallByTelecommCall:Ljava/util/HashMap;
 
@@ -171,8 +170,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/CallList;Lcom/android/incallui/Call;)Z
     .locals 1
-    .param p0    # Lcom/android/incallui/CallList;
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallList;->updateCallInMap(Lcom/android/incallui/Call;)Z
 
@@ -183,9 +180,6 @@
 
 .method static synthetic access$200(Lcom/android/incallui/CallList;Lcom/android/incallui/Call;Ljava/util/List;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallList;
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Ljava/util/List;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/CallList;->updateCallTextMap(Lcom/android/incallui/Call;Ljava/util/List;)V
 
@@ -194,8 +188,6 @@
 
 .method static synthetic access$300(Lcom/android/incallui/CallList;Lcom/android/incallui/Call;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/CallList;
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallList;->finishDisconnectedCall(Lcom/android/incallui/Call;)V
 
@@ -204,7 +196,6 @@
 
 .method private finishDisconnectedCall(Lcom/android/incallui/Call;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/Call;
 
     const/4 v0, 0x1
 
@@ -219,7 +210,6 @@
 
 .method private getDelayForDisconnect(Lcom/android/incallui/Call;)I
     .locals 4
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getState()I
 
@@ -289,7 +279,6 @@
 
 .method private isCallDead(Lcom/android/incallui/Call;)Z
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     const/4 v1, 0x1
 
@@ -343,7 +332,6 @@
 
 .method private notifyListenersOfDisconnect(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v2, p0, Lcom/android/incallui/CallList;->mListeners:Ljava/util/Set;
 
@@ -374,7 +362,6 @@
 
 .method private onUpdateCall(Lcom/android/incallui/Call;)V
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -436,7 +423,6 @@
 
 .method private updateCallInMap(Lcom/android/incallui/Call;)Z
     .locals 6
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -565,7 +551,6 @@
 
 .method private updateCallTextMap(Lcom/android/incallui/Call;Ljava/util/List;)V
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -627,8 +612,6 @@
 # virtual methods
 .method public addCallUpdateListener(Ljava/lang/String;Lcom/android/incallui/CallList$CallUpdateListener;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/CallList$CallUpdateListener;
 
     iget-object v1, p0, Lcom/android/incallui/CallList;->mCallUpdateListenerMap:Ljava/util/HashMap;
 
@@ -656,7 +639,6 @@
 
 .method public addListener(Lcom/android/incallui/CallList$Listener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/CallList$Listener;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -789,7 +771,6 @@
 
 .method public getCallById(Ljava/lang/String;)Lcom/android/incallui/Call;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/CallList;->mCallById:Ljava/util/HashMap;
 
@@ -804,7 +785,6 @@
 
 .method public getCallByTelecommCall(Landroid/telecom/Call;)Lcom/android/incallui/Call;
     .locals 1
-    .param p1    # Landroid/telecom/Call;
 
     iget-object v0, p0, Lcom/android/incallui/CallList;->mCallByTelecommCall:Ljava/util/HashMap;
 
@@ -819,8 +799,6 @@
 
 .method public getCallWithState(II)Lcom/android/incallui/Call;
     .locals 5
-    .param p1    # I
-    .param p2    # I
 
     const/4 v3, 0x0
 
@@ -942,7 +920,6 @@
 
 .method public getFirstCallWithState(I)Lcom/android/incallui/Call;
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -1023,7 +1000,6 @@
 
 .method public getTextResponses(Ljava/lang/String;)Ljava/util/List;
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1137,7 +1113,6 @@
 
 .method public notifyCallUpdateListeners(Lcom/android/incallui/Call;)V
     .locals 5
-    .param p1    # Lcom/android/incallui/Call;
 
     iget-object v3, p0, Lcom/android/incallui/CallList;->mCallUpdateListenerMap:Ljava/util/HashMap;
 
@@ -1180,7 +1155,6 @@
 
 .method public notifyCallsOfDeviceRotation(I)V
     .locals 3
-    .param p1    # I
 
     iget-object v2, p0, Lcom/android/incallui/CallList;->mCallById:Ljava/util/HashMap;
 
@@ -1226,7 +1200,6 @@
 
 .method public onDisconnect(Lcom/android/incallui/Call;)V
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallList;->updateCallInMap(Lcom/android/incallui/Call;)Z
 
@@ -1264,7 +1237,6 @@
 
 .method public onIncoming(Lcom/android/incallui/Call;Ljava/util/List;)V
     .locals 4
-    .param p1    # Lcom/android/incallui/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1334,7 +1306,6 @@
 
 .method public onUpdate(Lcom/android/incallui/Call;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallList;->onUpdateCall(Lcom/android/incallui/Call;)V
 
@@ -1345,8 +1316,6 @@
 
 .method public removeCallUpdateListener(Ljava/lang/String;Lcom/android/incallui/CallList$CallUpdateListener;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/incallui/CallList$CallUpdateListener;
 
     iget-object v1, p0, Lcom/android/incallui/CallList;->mCallUpdateListenerMap:Ljava/util/HashMap;
 
@@ -1366,7 +1335,6 @@
 
 .method public removeListener(Lcom/android/incallui/CallList$Listener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/CallList$Listener;
 
     if-eqz p1, :cond_0
 
@@ -1380,7 +1348,6 @@
 
 .method public setPhone(Landroid/telecom/Phone;)V
     .locals 2
-    .param p1    # Landroid/telecom/Phone;
 
     iput-object p1, p0, Lcom/android/incallui/CallList;->mPhone:Landroid/telecom/Phone;
 

@@ -99,8 +99,6 @@
 
 .method private findLineEnd(Landroid/text/Editable;I)I
     .locals 4
-    .param p1    # Landroid/text/Editable;
-    .param p2    # I
 
     move v0, p2
 
@@ -178,8 +176,6 @@
 
 .method private findLineStart(Landroid/text/Editable;I)I
     .locals 4
-    .param p1    # Landroid/text/Editable;
-    .param p2    # I
 
     move v0, p2
 
@@ -386,7 +382,6 @@
 
 .method private removeImageChar(Landroid/text/SpannableStringBuilder;)Landroid/text/SpannableStringBuilder;
     .locals 11
-    .param p1    # Landroid/text/SpannableStringBuilder;
 
     new-instance v1, Landroid/text/SpannableStringBuilder;
 
@@ -752,7 +747,6 @@
 
 .method public onAction(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -763,8 +757,6 @@
 
 .method public onAction(IZ)V
     .locals 3
-    .param p1    # I
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditorManager;->mActions:Lcom/android/ex/editstyledtext/EditStyledText$EditModeActions;
 
@@ -980,7 +972,6 @@
 
 .method public onStartSelect(Z)V
     .locals 3
-    .param p1    # Z
 
     const-string v0, "EditStyledText.EditorManager"
 
@@ -1027,7 +1018,6 @@
 
 .method public onStartSelectAll(Z)V
     .locals 3
-    .param p1    # Z
 
     const-string v0, "EditStyledText.EditorManager"
 
@@ -1054,7 +1044,6 @@
 
 .method public setBackgroundColor(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditorManager;->mBackgroundColor:I
 
@@ -1063,8 +1052,6 @@
 
 .method public setTextComposingMask(II)V
     .locals 8
-    .param p1    # I
-    .param p2    # I
 
     const-string v5, "EditStyledText"
 
@@ -1258,8 +1245,6 @@
 
 .method public showSoftKey(II)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     const-string v1, "EditStyledText.EditorManager"
 
@@ -1404,10 +1389,6 @@
 
 .method public updateSpanNextToCursor(Landroid/text/Editable;III)V
     .locals 16
-    .param p1    # Landroid/text/Editable;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     const-string v13, "EditStyledText.EditorManager"
 
@@ -1661,10 +1642,6 @@
 
 .method public updateSpanPreviousFromCursor(Landroid/text/Editable;III)V
     .locals 16
-    .param p1    # Landroid/text/Editable;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     const-string v13, "EditStyledText.EditorManager"
 

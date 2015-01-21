@@ -9,7 +9,6 @@
 # direct methods
 .method public static e(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     invoke-static {}, Lcom/google/android/gms/analytics/x;->getLogger()Lcom/google/android/gms/analytics/Logger;
 
@@ -85,7 +84,6 @@
 
 .method public static i(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     invoke-static {}, Lcom/google/android/gms/analytics/x;->getLogger()Lcom/google/android/gms/analytics/Logger;
 
@@ -101,7 +99,6 @@
 
 .method public static v(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     invoke-static {}, Lcom/google/android/gms/analytics/x;->getLogger()Lcom/google/android/gms/analytics/Logger;
 
@@ -117,7 +114,6 @@
 
 .method public static w(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     invoke-static {}, Lcom/google/android/gms/analytics/x;->getLogger()Lcom/google/android/gms/analytics/Logger;
 

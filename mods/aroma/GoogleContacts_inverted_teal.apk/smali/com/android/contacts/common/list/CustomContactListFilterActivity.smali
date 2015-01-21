@@ -77,7 +77,6 @@
 
 .method static synthetic access$100(Landroid/net/Uri;)Landroid/net/Uri;
     .locals 1
-    .param p0    # Landroid/net/Uri;
 
     invoke-static {p0}, Lcom/android/contacts/common/list/CustomContactListFilterActivity;->addCallerIsSyncAdapterParameter(Landroid/net/Uri;)Landroid/net/Uri;
 
@@ -96,7 +95,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/common/list/CustomContactListFilterActivity;)Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/CustomContactListFilterActivity;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity;->mAdapter:Lcom/android/contacts/common/list/CustomContactListFilterActivity$DisplayAdapter;
 
@@ -105,7 +103,6 @@
 
 .method private static addCallerIsSyncAdapterParameter(Landroid/net/Uri;)Landroid/net/Uri;
     .locals 3
-    .param p0    # Landroid/net/Uri;
 
     invoke-virtual {p0}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
@@ -196,7 +193,6 @@
 # virtual methods
 .method protected getSyncMode(Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;)I
     .locals 2
-    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;
 
     const-string v0, "com.google"
 
@@ -225,10 +221,6 @@
 
 .method protected handleRemoveSync(Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;ILjava/lang/CharSequence;)V
     .locals 6
-    .param p1    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;
-    .param p2    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
-    .param p3    # I
-    .param p4    # Ljava/lang/CharSequence;
 
     const/4 v5, 0x0
 
@@ -305,11 +297,6 @@
 
 .method public onChildClick(Landroid/widget/ExpandableListView;Landroid/view/View;IIJ)Z
     .locals 4
-    .param p1    # Landroid/widget/ExpandableListView;
-    .param p2    # Landroid/view/View;
-    .param p3    # I
-    .param p4    # I
-    .param p5    # J
 
     const v3, 0x1020001
 
@@ -358,7 +345,6 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -388,7 +374,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 5
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v4, 0x1
 
@@ -472,9 +457,6 @@
 
 .method public onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
     .locals 8
-    .param p1    # Landroid/view/ContextMenu;
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ContextMenu$ContextMenuInfo;
 
     invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
 
@@ -543,8 +525,6 @@
 
 .method public onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;
     .locals 1
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -566,7 +546,6 @@
 
 .method public onLoadFinished(Landroid/content/Loader;Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;)V
     .locals 1
-    .param p2    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -588,8 +567,6 @@
 
 .method public bridge synthetic onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Landroid/content/Loader;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountSet;
 
@@ -621,7 +598,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 1
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -675,9 +651,6 @@
 
 .method protected showAddSync(Landroid/view/ContextMenu;Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;I)V
     .locals 5
-    .param p1    # Landroid/view/ContextMenu;
-    .param p2    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;
-    .param p3    # I
 
     const v3, 0x7f0b00b7
 
@@ -731,10 +704,6 @@
 
 .method protected showRemoveSync(Landroid/view/ContextMenu;Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;I)V
     .locals 7
-    .param p1    # Landroid/view/ContextMenu;
-    .param p2    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$AccountDisplay;
-    .param p3    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
-    .param p4    # I
 
     invoke-virtual {p3, p0}, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->getTitle(Landroid/content/Context;)Ljava/lang/CharSequence;
 

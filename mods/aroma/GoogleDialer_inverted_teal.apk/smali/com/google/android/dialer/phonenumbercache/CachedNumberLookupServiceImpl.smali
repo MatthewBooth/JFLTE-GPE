@@ -26,7 +26,6 @@
 
 .method private getContactUri(Landroid/database/Cursor;)Landroid/net/Uri;
     .locals 8
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v5, 0x0
 
@@ -153,8 +152,6 @@
 
 .method private getPhotoUri(Landroid/database/Cursor;Ljava/lang/String;)Landroid/net/Uri;
     .locals 4
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -209,7 +206,6 @@
 
 .method public static purgePeopleApiCacheEntries(Landroid/content/Context;)V
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;->getInstance(Landroid/content/Context;)Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
 
@@ -230,8 +226,6 @@
 # virtual methods
 .method public addContact(Landroid/content/Context;Lcom/android/dialer/service/CachedNumberLookupService$CachedContactInfo;)V
     .locals 8
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/dialer/service/CachedNumberLookupService$CachedContactInfo;
 
     instance-of v5, p2, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -395,9 +389,6 @@
 
 .method public addPhoto(Landroid/content/Context;Ljava/lang/String;[B)Z
     .locals 4
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
-    .param p3    # [B
 
     invoke-static {p2}, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheContract;->getPhotoLookupUri(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -445,7 +436,6 @@
 
 .method public bridge synthetic buildCachedContactInfo(Lcom/android/dialer/calllog/ContactInfo;)Lcom/android/dialer/service/CachedNumberLookupService$CachedContactInfo;
     .locals 1
-    .param p1    # Lcom/android/dialer/calllog/ContactInfo;
 
     invoke-virtual {p0, p1}, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl;->buildCachedContactInfo(Lcom/android/dialer/calllog/ContactInfo;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -456,7 +446,6 @@
 
 .method public buildCachedContactInfo(Lcom/android/dialer/calllog/ContactInfo;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
     .locals 1
-    .param p1    # Lcom/android/dialer/calllog/ContactInfo;
 
     new-instance v0, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -467,8 +456,6 @@
 
 .method public canReportAsInvalid(ILjava/lang/String;)Z
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     invoke-static {p1, p2}, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;->canReportAsInvalid(ILjava/lang/String;)Z
 
@@ -479,7 +466,6 @@
 
 .method public clearAllCacheEntries(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-static {p1}, Lcom/google/android/dialer/GoogleDialerDatabaseHelper;->getInstance(Landroid/content/Context;)Lcom/google/android/dialer/GoogleDialerDatabaseHelper;
 
@@ -492,7 +478,6 @@
 
 .method public isBusiness(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-static {p1}, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;->isBusiness(I)Z
 
@@ -503,7 +488,6 @@
 
 .method public isCacheUri(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     sget-object v0, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheContract;->AUTHORITY_URI:Landroid/net/Uri;
 
@@ -520,8 +504,6 @@
 
 .method public bridge synthetic lookupCachedContactFromNumber(Landroid/content/Context;Ljava/lang/String;)Lcom/android/dialer/service/CachedNumberLookupService$CachedContactInfo;
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl;->lookupCachedContactFromNumber(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
 
@@ -532,8 +514,6 @@
 
 .method public lookupCachedContactFromNumber(Landroid/content/Context;Ljava/lang/String;)Lcom/google/android/dialer/phonenumbercache/CachedNumberLookupServiceImpl$CachedContactInfoImpl;
     .locals 11
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
 
     const/4 v10, 0x0
 

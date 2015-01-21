@@ -27,7 +27,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/model/account/BaseAccountType$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/model/account/BaseAccountType$1;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/account/BaseAccountType$NameKindBuilder;-><init>()V
 
@@ -36,8 +35,6 @@
 
 .method private static checkAttributeTrue(ZLjava/lang/String;)V
     .locals 3
-    .param p0    # Z
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -86,9 +83,6 @@
 
 .method public parseDataKind(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)Ljava/util/List;
     .locals 25
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
-    .param p3    # Landroid/util/AttributeSet;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

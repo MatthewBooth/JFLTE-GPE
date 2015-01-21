@@ -31,7 +31,6 @@
 # direct methods
 .method constructor <init>(Lcom/android/contacts/common/ContactPhotoManagerImpl;I)V
     .locals 0
-    .param p2    # I
 
     iput-object p1, p0, Lcom/android/contacts/common/ContactPhotoManagerImpl$2;->this$0:Lcom/android/contacts/common/ContactPhotoManagerImpl;
 
@@ -44,20 +43,12 @@
 # virtual methods
 .method protected entryRemoved(ZLjava/lang/Object;Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;)V
     .locals 0
-    .param p1    # Z
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;
-    .param p4    # Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;
 
     return-void
 .end method
 
 .method protected bridge synthetic entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Z
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Ljava/lang/Object;
-    .param p4    # Ljava/lang/Object;
 
     check-cast p3, Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;
 
@@ -70,8 +61,6 @@
 
 .method protected sizeOf(Ljava/lang/Object;Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;
 
     iget-object v0, p2, Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;->bytes:[B
 
@@ -92,8 +81,6 @@
 
 .method protected bridge synthetic sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Lcom/android/contacts/common/ContactPhotoManagerImpl$BitmapHolder;
 

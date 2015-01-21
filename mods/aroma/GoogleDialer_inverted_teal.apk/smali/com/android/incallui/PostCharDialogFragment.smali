@@ -12,8 +12,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V
 
@@ -26,7 +24,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/PostCharDialogFragment;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/incallui/PostCharDialogFragment;
 
     iget-object v0, p0, Lcom/android/incallui/PostCharDialogFragment;->mCallId:Ljava/lang/String;
 
@@ -37,7 +34,6 @@
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 3
-    .param p1    # Landroid/content/DialogInterface;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onCancel(Landroid/content/DialogInterface;)V
 
@@ -56,7 +52,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 5
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
 

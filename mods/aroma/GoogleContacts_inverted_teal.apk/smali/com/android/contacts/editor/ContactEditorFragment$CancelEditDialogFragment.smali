@@ -25,7 +25,6 @@
 
 .method public static show(Lcom/android/contacts/editor/ContactEditorFragment;)V
     .locals 3
-    .param p0    # Lcom/android/contacts/editor/ContactEditorFragment;
 
     new-instance v0, Lcom/android/contacts/editor/ContactEditorFragment$CancelEditDialogFragment;
 
@@ -50,7 +49,6 @@
 # virtual methods
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     new-instance v1, Landroid/app/AlertDialog$Builder;
 

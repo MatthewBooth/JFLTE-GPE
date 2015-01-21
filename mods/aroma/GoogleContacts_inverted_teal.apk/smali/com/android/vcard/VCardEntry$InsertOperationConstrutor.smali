@@ -37,7 +37,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/vcard/VCardEntry;Ljava/util/List;I)V
     .locals 0
-    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -63,7 +62,6 @@
 # virtual methods
 .method public onElement(Lcom/android/vcard/VCardEntry$EntryElement;)Z
     .locals 2
-    .param p1    # Lcom/android/vcard/VCardEntry$EntryElement;
 
     invoke-interface {p1}, Lcom/android/vcard/VCardEntry$EntryElement;->isEmpty()Z
 
@@ -91,7 +89,6 @@
 
 .method public onElementGroupStarted(Lcom/android/vcard/VCardEntry$EntryLabel;)V
     .locals 0
-    .param p1    # Lcom/android/vcard/VCardEntry$EntryLabel;
 
     return-void
 .end method

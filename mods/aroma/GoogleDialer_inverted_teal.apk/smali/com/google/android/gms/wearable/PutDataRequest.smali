@@ -51,10 +51,6 @@
 
 .method constructor <init>(ILandroid/net/Uri;Landroid/os/Bundle;[B)V
     .locals 2
-    .param p1    # I
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Landroid/os/Bundle;
-    .param p4    # [B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -133,7 +129,6 @@
 
 .method public toString(Z)Ljava/lang/String;
     .locals 5
-    .param p1    # Z
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -320,8 +315,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wearable/c;->a(Lcom/google/android/gms/wearable/PutDataRequest;Landroid/os/Parcel;I)V
 

@@ -705,9 +705,6 @@
 
 .method public static getErrorPendingIntent(ILandroid/content/Context;I)Landroid/app/PendingIntent;
     .locals 2
-    .param p0    # I
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
 
     invoke-static {p1, p0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->getGooglePlayServicesAvailabilityRecoveryIntent(Landroid/content/Context;I)Landroid/content/Intent;
 
@@ -732,7 +729,6 @@
 
 .method public static getGooglePlayServicesAvailabilityRecoveryIntent(I)Landroid/content/Intent;
     .locals 1
-    .param p0    # I
 
     sparse-switch p0, :sswitch_data_0
 
@@ -777,8 +773,6 @@
 
 .method public static getGooglePlayServicesAvailabilityRecoveryIntent(Landroid/content/Context;I)Landroid/content/Intent;
     .locals 1
-    .param p0    # Landroid/content/Context;
-    .param p1    # I
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -791,7 +785,6 @@
 
 .method public static honorsDebugCertificates(Landroid/content/pm/PackageManager;)Z
     .locals 1
-    .param p0    # Landroid/content/pm/PackageManager;
 
     invoke-static {p0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->b(Landroid/content/pm/PackageManager;)Z
 
@@ -819,7 +812,6 @@
 
 .method public static isGooglePlayServicesAvailable(Landroid/content/Context;)I
     .locals 9
-    .param p0    # Landroid/content/Context;
 
     const/4 v4, 0x2
 
@@ -1207,8 +1199,6 @@
 
 .method public static isGoogleSignedPackage(Landroid/content/pm/PackageManager;Landroid/content/pm/PackageInfo;)Z
     .locals 3
-    .param p0    # Landroid/content/pm/PackageManager;
-    .param p1    # Landroid/content/pm/PackageInfo;
 
     const/4 v0, 0x1
 
@@ -1272,7 +1262,6 @@
 
 .method public static isUserRecoverableError(I)Z
     .locals 1
-    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -1305,8 +1294,6 @@
 
 .method public static showErrorNotification(ILandroid/content/Context;)V
     .locals 9
-    .param p0    # I
-    .param p1    # Landroid/content/Context;
 
     const/4 v8, 0x2
 

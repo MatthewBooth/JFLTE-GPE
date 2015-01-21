@@ -19,7 +19,6 @@
 # virtual methods
 .method public getMaxElevation(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 1
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-interface {p1}, Landroid/support/v7/widget/CardViewDelegate;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -38,7 +37,6 @@
 
 .method public getMinHeight(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 2
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-virtual {p0, p1}, Landroid/support/v7/widget/CardViewApi21;->getRadius(Landroid/support/v7/widget/CardViewDelegate;)F
 
@@ -53,7 +51,6 @@
 
 .method public getMinWidth(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 2
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-virtual {p0, p1}, Landroid/support/v7/widget/CardViewApi21;->getRadius(Landroid/support/v7/widget/CardViewDelegate;)F
 
@@ -68,7 +65,6 @@
 
 .method public getRadius(Landroid/support/v7/widget/CardViewDelegate;)F
     .locals 1
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     invoke-interface {p1}, Landroid/support/v7/widget/CardViewDelegate;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -93,12 +89,6 @@
 
 .method public initialize(Landroid/support/v7/widget/CardViewDelegate;Landroid/content/Context;IFFF)V
     .locals 3
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
-    .param p2    # Landroid/content/Context;
-    .param p3    # I
-    .param p4    # F
-    .param p5    # F
-    .param p6    # F
 
     new-instance v0, Landroid/support/v7/widget/RoundRectDrawable;
 
@@ -123,8 +113,6 @@
 
 .method public setMaxElevation(Landroid/support/v7/widget/CardViewDelegate;F)V
     .locals 3
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
-    .param p2    # F
 
     invoke-interface {p1}, Landroid/support/v7/widget/CardViewDelegate;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -151,7 +139,6 @@
 
 .method public updatePadding(Landroid/support/v7/widget/CardViewDelegate;)V
     .locals 6
-    .param p1    # Landroid/support/v7/widget/CardViewDelegate;
 
     const/4 v5, 0x0
 

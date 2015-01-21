@@ -89,9 +89,6 @@
 
 .method public constructor <init>(Landroid/content/res/Resources;II)V
     .locals 3
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # I
-    .param p3    # I
 
     const/4 v2, 0x1
 
@@ -130,7 +127,6 @@
 
 .method public constructor <init>(Lcom/android/incallui/widget/multiwaveview/TargetDrawable;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/widget/multiwaveview/TargetDrawable;
 
     const/4 v2, 0x1
 
@@ -292,7 +288,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 5
-    .param p1    # Landroid/graphics/Canvas;
 
     const/high16 v4, -0x41000000
 
@@ -556,7 +551,6 @@
 
 .method public setAlpha(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mAlpha:F
 
@@ -565,8 +559,6 @@
 
 .method public setDrawable(Landroid/content/res/Resources;I)V
     .locals 2
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # I
 
     const/4 v1, 0x0
 
@@ -602,7 +594,6 @@
 
 .method public setEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mEnabled:Z
 
@@ -611,7 +602,6 @@
 
 .method public setPositionX(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mPositionX:F
 
@@ -620,7 +610,6 @@
 
 .method public setPositionY(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mPositionY:F
 
@@ -629,7 +618,6 @@
 
 .method public setScaleX(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mScaleX:F
 
@@ -638,7 +626,6 @@
 
 .method public setScaleY(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mScaleY:F
 
@@ -647,7 +634,6 @@
 
 .method public setState([I)V
     .locals 2
-    .param p1    # [I
 
     iget-object v1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mDrawable:Landroid/graphics/drawable/Drawable;
 
@@ -667,7 +653,6 @@
 
 .method public setX(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mTranslationX:F
 
@@ -676,7 +661,6 @@
 
 .method public setY(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/TargetDrawable;->mTranslationY:F
 

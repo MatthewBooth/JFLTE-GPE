@@ -30,8 +30,6 @@
 # virtual methods
 .method public inflateUsing(Landroid/content/Context;Landroid/content/ContentValues;)Ljava/lang/CharSequence;
     .locals 4
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/content/ContentValues;
 
     const/4 v2, 0x0
 

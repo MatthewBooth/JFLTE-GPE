@@ -35,7 +35,6 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/CallerInfoAsyncQuery$1;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/CallerInfoAsyncQuery$1;
 
     invoke-direct {p0}, Lcom/android/incallui/CallerInfoAsyncQuery$CookieWrapper;-><init>()V
 

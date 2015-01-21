@@ -46,9 +46,6 @@
 
 .method protected getTypeLabel(Landroid/content/res/Resources;Ljava/lang/Integer;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
     .locals 3
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # Ljava/lang/Integer;
-    .param p3    # Ljava/lang/CharSequence;
 
     invoke-virtual {p0, p2}, Lcom/android/contacts/common/model/account/BaseAccountType$CommonInflater;->getTypeLabelResource(Ljava/lang/Integer;)I
 
@@ -102,8 +99,6 @@
 
 .method public inflateUsing(Landroid/content/Context;Landroid/content/ContentValues;)Ljava/lang/CharSequence;
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/content/ContentValues;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/model/account/BaseAccountType$CommonInflater;->getTypeColumn()Ljava/lang/String;
 
@@ -134,7 +129,6 @@
 
 .method protected isCustom(Ljava/lang/Integer;)Z
     .locals 1
-    .param p1    # Ljava/lang/Integer;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 

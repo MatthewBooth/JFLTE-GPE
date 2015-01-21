@@ -91,7 +91,6 @@
 
 .method private getMessageForStatusEntry(Landroid/database/Cursor;)Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$MessageStatusWithPriority;
     .locals 9
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 
@@ -205,9 +204,6 @@
 
 .method private getOverallState(III)Lcom/android/dialer/voicemail/VoicemailStatusHelperImpl$OverallState;
     .locals 2
-    .param p1    # I
-    .param p2    # I
-    .param p3    # I
 
     const/4 v1, 0x2
 
@@ -283,7 +279,6 @@
 
 .method private isVoicemailSourceActive(Landroid/database/Cursor;)Z
     .locals 3
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x1
 
@@ -370,7 +365,6 @@
 # virtual methods
 .method public getNumberActivityVoicemailSources(Landroid/database/Cursor;)I
     .locals 2
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v0, 0x0
 
@@ -402,7 +396,6 @@
 
 .method public getStatusMessages(Landroid/database/Cursor;)Ljava/util/List;
     .locals 3
-    .param p1    # Landroid/database/Cursor;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

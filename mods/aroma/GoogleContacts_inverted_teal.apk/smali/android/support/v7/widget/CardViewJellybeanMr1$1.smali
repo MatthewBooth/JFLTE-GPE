@@ -36,10 +36,6 @@
 # virtual methods
 .method public drawRoundRect(Landroid/graphics/Canvas;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
     .locals 0
-    .param p1    # Landroid/graphics/Canvas;
-    .param p2    # Landroid/graphics/RectF;
-    .param p3    # F
-    .param p4    # Landroid/graphics/Paint;
 
     invoke-virtual {p1, p2, p3, p3, p4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 

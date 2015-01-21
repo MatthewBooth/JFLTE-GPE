@@ -69,8 +69,6 @@
 
 .method public static canPlaceCallsTo(Ljava/lang/CharSequence;I)Z
     .locals 2
-    .param p0    # Ljava/lang/CharSequence;
-    .param p1    # I
 
     const/4 v0, 0x1
 
@@ -99,7 +97,6 @@
 
 .method public static isLegacyUnknownNumbers(Ljava/lang/CharSequence;)Z
     .locals 2
-    .param p0    # Ljava/lang/CharSequence;
 
     if-eqz p0, :cond_0
 
@@ -128,8 +125,6 @@
 
 .method public static isUnknownNumberThatCanBeLookedUp(Ljava/lang/CharSequence;I)Z
     .locals 2
-    .param p0    # Ljava/lang/CharSequence;
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -179,7 +174,6 @@
 # virtual methods
 .method public isSipNumber(Ljava/lang/CharSequence;)Z
     .locals 1
-    .param p1    # Ljava/lang/CharSequence;
 
     if-eqz p1, :cond_0
 
@@ -206,7 +200,6 @@
 
 .method public isVoicemailNumber(Ljava/lang/CharSequence;)Z
     .locals 1
-    .param p1    # Ljava/lang/CharSequence;
 
     if-eqz p1, :cond_0
 

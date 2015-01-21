@@ -6,8 +6,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Lcom/android/phone/common/widget/ResizingTextEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -32,9 +30,6 @@
 # virtual methods
 .method protected onFocusChanged(ZILandroid/graphics/Rect;)V
     .locals 3
-    .param p1    # Z
-    .param p2    # I
-    .param p3    # Landroid/graphics/Rect;
 
     invoke-super {p0, p1, p2, p3}, Lcom/android/phone/common/widget/ResizingTextEditText;->onFocusChanged(ZILandroid/graphics/Rect;)V
 
@@ -72,7 +67,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 4
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-super {p0, p1}, Lcom/android/phone/common/widget/ResizingTextEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z
 

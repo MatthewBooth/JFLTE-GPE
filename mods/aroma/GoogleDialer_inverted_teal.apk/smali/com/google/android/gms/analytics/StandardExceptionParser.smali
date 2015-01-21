@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Ljava/util/Collection;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -50,7 +49,6 @@
 # virtual methods
 .method protected getBestStackTraceElement(Ljava/lang/Throwable;)Ljava/lang/StackTraceElement;
     .locals 8
-    .param p1    # Ljava/lang/Throwable;
 
     const/4 v3, 0x0
 
@@ -148,8 +146,6 @@
 
 .method public getDescription(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/String;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/Throwable;
 
     invoke-virtual {p0, p2}, Lcom/google/android/gms/analytics/StandardExceptionParser;->getCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
@@ -172,9 +168,6 @@
 
 .method protected getDescription(Ljava/lang/Throwable;Ljava/lang/StackTraceElement;Ljava/lang/String;)Ljava/lang/String;
     .locals 7
-    .param p1    # Ljava/lang/Throwable;
-    .param p2    # Ljava/lang/StackTraceElement;
-    .param p3    # Ljava/lang/String;
 
     const/4 v6, 0x1
 
@@ -278,7 +271,6 @@
 
 .method public setIncludedPackages(Landroid/content/Context;Ljava/util/Collection;)V
     .locals 7
-    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

@@ -30,9 +30,6 @@
 
 .method public static doImport(Landroid/content/Context;ILcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 0
-    .param p0    # Landroid/content/Context;
-    .param p1    # I
-    .param p2    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     packed-switch p1, :pswitch_data_0
 
@@ -60,8 +57,6 @@
 
 .method public static doImportFromSdCard(Landroid/content/Context;Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -118,8 +113,6 @@
 
 .method public static doImportFromSim(Landroid/content/Context;Lcom/android/contacts/common/model/account/AccountWithDataSet;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Lcom/android/contacts/common/model/account/AccountWithDataSet;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -165,10 +158,6 @@
 
 .method public static getSelectAccountDialog(Landroid/content/Context;ILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/Dialog;
     .locals 9
-    .param p0    # Landroid/content/Context;
-    .param p1    # I
-    .param p2    # Landroid/content/DialogInterface$OnClickListener;
-    .param p3    # Landroid/content/DialogInterface$OnCancelListener;
 
     invoke-static {p0}, Lcom/android/contacts/common/model/AccountTypeManager;->getInstance(Landroid/content/Context;)Lcom/android/contacts/common/model/AccountTypeManager;
 

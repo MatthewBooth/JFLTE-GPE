@@ -94,7 +94,6 @@
 
 .method public onTransparentViewHeightChange(F)V
     .locals 2
-    .param p1    # F
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity$4;->this$0:Lcom/android/contacts/quickcontact/QuickContactActivity;
 

@@ -23,7 +23,6 @@
 # direct methods
 .method public constructor <init>([Landroid/graphics/drawable/Drawable;)V
     .locals 2
-    .param p1    # [Landroid/graphics/drawable/Drawable;
 
     invoke-direct {p0, p1}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
@@ -54,7 +53,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 4
-    .param p1    # Landroid/graphics/Canvas;
 
     const/16 v3, 0xff
 

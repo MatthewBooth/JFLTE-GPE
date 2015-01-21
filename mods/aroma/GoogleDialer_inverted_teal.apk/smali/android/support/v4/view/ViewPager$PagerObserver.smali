@@ -31,8 +31,6 @@
 
 .method synthetic constructor <init>(Landroid/support/v4/view/ViewPager;Landroid/support/v4/view/ViewPager$1;)V
     .locals 0
-    .param p1    # Landroid/support/v4/view/ViewPager;
-    .param p2    # Landroid/support/v4/view/ViewPager$1;
 
     invoke-direct {p0, p1}, Landroid/support/v4/view/ViewPager$PagerObserver;-><init>(Landroid/support/v4/view/ViewPager;)V
 

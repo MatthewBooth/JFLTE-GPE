@@ -40,8 +40,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 

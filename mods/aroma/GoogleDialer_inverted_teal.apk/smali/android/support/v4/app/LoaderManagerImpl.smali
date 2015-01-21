@@ -60,9 +60,6 @@
 
 .method constructor <init>(Ljava/lang/String;Landroid/support/v4/app/FragmentActivity;Z)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/support/v4/app/FragmentActivity;
-    .param p3    # Z
 
     invoke-direct {p0}, Landroid/support/v4/app/LoaderManager;-><init>()V
 
@@ -583,10 +580,6 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/io/FileDescriptor;
-    .param p3    # Ljava/io/PrintWriter;
-    .param p4    # [Ljava/lang/String;
 
     iget-object v3, p0, Landroid/support/v4/app/LoaderManagerImpl;->mLoaders:Landroid/support/v4/util/SparseArrayCompat;
 
@@ -916,7 +909,6 @@
 
 .method updateActivity(Landroid/support/v4/app/FragmentActivity;)V
     .locals 0
-    .param p1    # Landroid/support/v4/app/FragmentActivity;
 
     iput-object p1, p0, Landroid/support/v4/app/LoaderManagerImpl;->mActivity:Landroid/support/v4/app/FragmentActivity;
 

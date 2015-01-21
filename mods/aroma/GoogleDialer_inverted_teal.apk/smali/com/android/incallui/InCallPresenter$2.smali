@@ -33,7 +33,6 @@
 # virtual methods
 .method public onConferenceableCallsChanged(Landroid/telecom/Call;Ljava/util/List;)V
     .locals 4
-    .param p1    # Landroid/telecom/Call;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -111,8 +110,6 @@
 
 .method public onDetailsChanged(Landroid/telecom/Call;Landroid/telecom/Call$Details;)V
     .locals 3
-    .param p1    # Landroid/telecom/Call;
-    .param p2    # Landroid/telecom/Call$Details;
 
     iget-object v2, p0, Lcom/android/incallui/InCallPresenter$2;->this$0:Lcom/android/incallui/InCallPresenter;
 
@@ -156,8 +153,6 @@
 
 .method public onPostDialWait(Landroid/telecom/Call;Ljava/lang/String;)V
     .locals 2
-    .param p1    # Landroid/telecom/Call;
-    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/InCallPresenter$2;->this$0:Lcom/android/incallui/InCallPresenter;
 

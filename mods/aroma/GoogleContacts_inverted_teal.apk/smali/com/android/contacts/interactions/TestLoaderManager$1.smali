@@ -21,7 +21,6 @@
 # direct methods
 .method constructor <init>(Ljava/lang/String;Landroid/content/AsyncTaskLoader;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p2, p0, Lcom/android/contacts/interactions/TestLoaderManager$1;->val$loader:Landroid/content/AsyncTaskLoader;
 

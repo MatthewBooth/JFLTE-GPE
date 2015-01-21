@@ -27,9 +27,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/incallui/widget/multiwaveview/PointCloud;FFF)V
     .locals 0
-    .param p2    # F
-    .param p3    # F
-    .param p4    # F
 
     iput-object p1, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$Point;->this$0:Lcom/android/incallui/widget/multiwaveview/PointCloud;
 

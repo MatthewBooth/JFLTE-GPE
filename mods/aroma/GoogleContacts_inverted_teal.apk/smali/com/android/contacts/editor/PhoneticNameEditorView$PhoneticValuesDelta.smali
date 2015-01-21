@@ -23,7 +23,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/ValuesDelta;-><init>()V
 
@@ -66,7 +65,6 @@
 
 .method private parsePhoneticName(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -105,7 +103,6 @@
 # virtual methods
 .method public getAsString(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-string v0, "#phoneticName"
 
@@ -156,8 +153,6 @@
 
 .method public put(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const-string v0, "#phoneticName"
 

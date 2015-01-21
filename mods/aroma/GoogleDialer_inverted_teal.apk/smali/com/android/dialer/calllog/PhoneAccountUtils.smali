@@ -6,8 +6,6 @@
 # direct methods
 .method public static getAccount(Ljava/lang/String;Ljava/lang/String;)Landroid/telecom/PhoneAccountHandle;
     .locals 2
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -41,8 +39,6 @@
 
 .method public static getAccountIcon(Landroid/content/Context;Landroid/telecom/PhoneAccountHandle;)Landroid/graphics/drawable/Drawable;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     invoke-static {p0, p1}, Lcom/android/dialer/calllog/PhoneAccountUtils;->getAccountOrNull(Landroid/content/Context;Landroid/telecom/PhoneAccountHandle;)Landroid/telecom/PhoneAccount;
 
@@ -65,8 +61,6 @@
 
 .method public static getAccountLabel(Landroid/content/Context;Landroid/telecom/PhoneAccountHandle;)Ljava/lang/String;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     invoke-static {p0, p1}, Lcom/android/dialer/calllog/PhoneAccountUtils;->getAccountOrNull(Landroid/content/Context;Landroid/telecom/PhoneAccountHandle;)Landroid/telecom/PhoneAccount;
 
@@ -93,8 +87,6 @@
 
 .method private static getAccountOrNull(Landroid/content/Context;Landroid/telecom/PhoneAccountHandle;)Landroid/telecom/PhoneAccount;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     const-string v2, "telecom"
 

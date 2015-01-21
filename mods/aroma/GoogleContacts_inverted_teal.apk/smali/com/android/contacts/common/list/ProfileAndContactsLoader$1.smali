@@ -23,7 +23,6 @@
 # direct methods
 .method constructor <init>(Lcom/android/contacts/common/list/ProfileAndContactsLoader;[Landroid/database/Cursor;Landroid/database/Cursor;)V
     .locals 0
-    .param p2    # [Landroid/database/Cursor;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ProfileAndContactsLoader$1;->this$0:Lcom/android/contacts/common/list/ProfileAndContactsLoader;
 

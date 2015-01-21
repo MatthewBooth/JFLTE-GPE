@@ -12,8 +12,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -30,7 +28,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 4
-    .param p1    # Landroid/graphics/Canvas;
 
     invoke-virtual {p0}, Lcom/android/phone/common/dialpad/DialpadTextView;->getPaint()Landroid/text/TextPaint;
 
@@ -67,8 +64,6 @@
 
 .method protected onMeasure(II)V
     .locals 7
-    .param p1    # I
-    .param p2    # I
 
     invoke-super {p0, p1, p2}, Landroid/widget/TextView;->onMeasure(II)V
 

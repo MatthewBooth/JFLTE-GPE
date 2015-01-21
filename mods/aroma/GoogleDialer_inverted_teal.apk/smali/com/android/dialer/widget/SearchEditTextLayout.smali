@@ -56,8 +56,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -72,7 +70,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/widget/SearchEditTextLayout;)Landroid/widget/EditText;
     .locals 1
-    .param p0    # Lcom/android/dialer/widget/SearchEditTextLayout;
 
     iget-object v0, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mSearchView:Landroid/widget/EditText;
 
@@ -81,7 +78,6 @@
 
 .method static synthetic access$100(Lcom/android/dialer/widget/SearchEditTextLayout;)Lcom/android/dialer/widget/SearchEditTextLayout$OnBackButtonClickedListener;
     .locals 1
-    .param p0    # Lcom/android/dialer/widget/SearchEditTextLayout;
 
     iget-object v0, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mOnBackButtonClickedListener:Lcom/android/dialer/widget/SearchEditTextLayout$OnBackButtonClickedListener;
 
@@ -90,8 +86,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/widget/SearchEditTextLayout;F)V
     .locals 0
-    .param p0    # Lcom/android/dialer/widget/SearchEditTextLayout;
-    .param p1    # F
 
     invoke-direct {p0, p1}, Lcom/android/dialer/widget/SearchEditTextLayout;->setMargins(F)V
 
@@ -100,7 +94,6 @@
 
 .method private prepareAnimator(Z)V
     .locals 4
-    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mAnimator:Landroid/animation/ValueAnimator;
 
@@ -134,7 +127,6 @@
 
 .method private setMargins(F)V
     .locals 2
-    .param p1    # F
 
     invoke-virtual {p0}, Lcom/android/dialer/widget/SearchEditTextLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -189,7 +181,6 @@
 
 .method private updateVisibility(Z)V
     .locals 3
-    .param p1    # Z
 
     const/16 v2, 0x8
 
@@ -244,7 +235,6 @@
 # virtual methods
 .method public collapse(Z)V
     .locals 4
-    .param p1    # Z
 
     const/high16 v1, 0x3f800000
 
@@ -319,7 +309,6 @@
 
 .method public dispatchKeyEventPreIme(Landroid/view/KeyEvent;)Z
     .locals 2
-    .param p1    # Landroid/view/KeyEvent;
 
     iget-object v0, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mPreImeKeyListener:Landroid/view/View$OnKeyListener;
 
@@ -352,8 +341,6 @@
 
 .method public expand(ZZ)V
     .locals 9
-    .param p1    # Z
-    .param p2    # Z
 
     const/4 v8, 0x1
 
@@ -473,7 +460,6 @@
 
 .method public fadeOut(Lcom/android/phone/common/animation/AnimUtils$AnimationCallback;)V
     .locals 1
-    .param p1    # Lcom/android/phone/common/animation/AnimUtils$AnimationCallback;
 
     const/16 v0, 0xc8
 
@@ -650,7 +636,6 @@
 
 .method public setOnBackButtonClickedListener(Lcom/android/dialer/widget/SearchEditTextLayout$OnBackButtonClickedListener;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/widget/SearchEditTextLayout$OnBackButtonClickedListener;
 
     iput-object p1, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mOnBackButtonClickedListener:Lcom/android/dialer/widget/SearchEditTextLayout$OnBackButtonClickedListener;
 
@@ -659,7 +644,6 @@
 
 .method public setPreImeKeyListener(Landroid/view/View$OnKeyListener;)V
     .locals 0
-    .param p1    # Landroid/view/View$OnKeyListener;
 
     iput-object p1, p0, Lcom/android/dialer/widget/SearchEditTextLayout;->mPreImeKeyListener:Landroid/view/View$OnKeyListener;
 
@@ -668,7 +652,6 @@
 
 .method public setVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     const/4 v1, 0x0
 

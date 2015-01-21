@@ -46,8 +46,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 3
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     const/4 v1, -0x1
 
@@ -81,7 +79,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
@@ -140,7 +137,6 @@
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onDismiss(Landroid/content/DialogInterface;)V
 

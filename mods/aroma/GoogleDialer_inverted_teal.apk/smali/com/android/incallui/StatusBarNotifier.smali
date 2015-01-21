@@ -39,8 +39,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Lcom/android/incallui/ContactInfoCache;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/incallui/ContactInfoCache;
 
     const/4 v1, 0x0
 
@@ -83,9 +81,6 @@
 
 .method static synthetic access$100(Lcom/android/incallui/StatusBarNotifier;Lcom/android/incallui/Call;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/StatusBarNotifier;
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/StatusBarNotifier;->buildAndSendNotification(Lcom/android/incallui/Call;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
 
@@ -94,7 +89,6 @@
 
 .method private addAcceptUpgradeRequestAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"accept\" action in the incoming call Notification"
 
@@ -125,7 +119,6 @@
 
 .method private addAnswerAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"answer\" action in the incoming call Notification"
 
@@ -156,7 +149,6 @@
 
 .method private addDismissAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"dismiss\" action in the incoming call Notification"
 
@@ -187,7 +179,6 @@
 
 .method private addDismissUpgradeRequestAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"dismiss\" action in the incoming call Notification"
 
@@ -218,7 +209,6 @@
 
 .method private addHangupAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"hang-up\" action in the ongoing active call Notification"
 
@@ -249,9 +239,6 @@
 
 .method private addPersonReference(Landroid/app/Notification$Builder;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Landroid/app/Notification$Builder;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
-    .param p3    # Lcom/android/incallui/Call;
 
     iget-object v0, p2, Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;->lookupUri:Landroid/net/Uri;
 
@@ -303,7 +290,6 @@
 
 .method private addVideoCallAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"video\" action in the incoming call Notification"
 
@@ -334,7 +320,6 @@
 
 .method private addVoiceAction(Landroid/app/Notification$Builder;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
 
     const-string v1, "Will show \"voice\" action in the incoming call Notification"
 
@@ -365,8 +350,6 @@
 
 .method private buildAndSendNotification(Lcom/android/incallui/Call;Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;)V
     .locals 13
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
 
     invoke-static {}, Lcom/android/incallui/CallList;->getInstance()Lcom/android/incallui/CallList;
 
@@ -582,11 +565,6 @@
 
 .method private checkForChangeAndSaveData(IILandroid/graphics/Bitmap;Ljava/lang/String;I)Z
     .locals 5
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/graphics/Bitmap;
-    .param p4    # Ljava/lang/String;
-    .param p5    # I
 
     const/4 v2, 0x1
 
@@ -678,7 +656,6 @@
 
 .method static clearInCallNotification(Landroid/content/Context;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     const-class v1, Lcom/android/incallui/StatusBarNotifier;
 
@@ -707,9 +684,6 @@
 
 .method private configureFullScreenIntent(Landroid/app/Notification$Builder;Landroid/app/PendingIntent;Lcom/android/incallui/Call;)V
     .locals 4
-    .param p1    # Landroid/app/Notification$Builder;
-    .param p2    # Landroid/app/PendingIntent;
-    .param p3    # Lcom/android/incallui/Call;
 
     const/4 v1, 0x1
 
@@ -786,9 +760,6 @@
 
 .method private createIncomingCallNotification(Lcom/android/incallui/Call;ILandroid/app/Notification$Builder;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
-    .param p2    # I
-    .param p3    # Landroid/app/Notification$Builder;
 
     const/4 v2, 0x2
 
@@ -887,8 +858,6 @@
 
 .method private static createNotificationPendingIntent(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;
     .locals 4
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -909,7 +878,6 @@
 
 .method private getCallToShow(Lcom/android/incallui/CallList;)Lcom/android/incallui/Call;
     .locals 1
-    .param p1    # Lcom/android/incallui/CallList;
 
     if-nez p1, :cond_1
 
@@ -949,7 +917,6 @@
 
 .method private getContentString(Lcom/android/incallui/Call;)I
     .locals 4
-    .param p1    # Lcom/android/incallui/Call;
 
     const/4 v3, 0x3
 
@@ -1018,8 +985,6 @@
 
 .method private getContentTitle(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)Ljava/lang/String;
     .locals 2
-    .param p1    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
-    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -1059,7 +1024,6 @@
 
 .method private getIconToDisplay(Lcom/android/incallui/Call;)I
     .locals 2
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getState()I
 
@@ -1095,8 +1059,6 @@
 
 .method private getLargeIconToDisplay(Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;Z)Landroid/graphics/Bitmap;
     .locals 5
-    .param p1    # Lcom/android/incallui/ContactInfoCache$ContactCacheEntry;
-    .param p2    # Z
 
     const/4 v1, 0x0
 
@@ -1194,7 +1156,6 @@
 
 .method private showNotification(Lcom/android/incallui/Call;)V
     .locals 3
-    .param p1    # Lcom/android/incallui/Call;
 
     invoke-virtual {p1}, Lcom/android/incallui/Call;->getState()I
 
@@ -1234,8 +1195,6 @@
 
 .method private updateInCallNotification(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 6
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p2    # Lcom/android/incallui/CallList;
 
     const/4 v2, 0x1
 
@@ -1367,9 +1326,6 @@
 # virtual methods
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p3    # Lcom/android/incallui/CallList;
 
     const-string v0, "onStateChange"
 
@@ -1382,8 +1338,6 @@
 
 .method public updateNotification(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p2    # Lcom/android/incallui/CallList;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/StatusBarNotifier;->updateInCallNotification(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
 

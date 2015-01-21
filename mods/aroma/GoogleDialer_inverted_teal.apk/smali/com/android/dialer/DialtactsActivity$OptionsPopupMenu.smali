@@ -21,8 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/DialtactsActivity;Landroid/content/Context;Landroid/view/View;)V
     .locals 1
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/view/View;
 
     iput-object p1, p0, Lcom/android/dialer/DialtactsActivity$OptionsPopupMenu;->this$0:Lcom/android/dialer/DialtactsActivity;
 

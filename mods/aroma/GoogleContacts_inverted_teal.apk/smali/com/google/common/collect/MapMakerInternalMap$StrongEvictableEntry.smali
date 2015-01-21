@@ -54,7 +54,6 @@
 # direct methods
 .method constructor <init>(Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)V
     .locals 1
-    .param p2    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;I",

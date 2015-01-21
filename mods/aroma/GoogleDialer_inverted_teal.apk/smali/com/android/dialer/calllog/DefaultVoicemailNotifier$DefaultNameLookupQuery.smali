@@ -46,7 +46,6 @@
 
 .method private constructor <init>(Landroid/content/ContentResolver;)V
     .locals 0
-    .param p1    # Landroid/content/ContentResolver;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,8 +56,6 @@
 
 .method synthetic constructor <init>(Landroid/content/ContentResolver;Lcom/android/dialer/calllog/DefaultVoicemailNotifier$1;)V
     .locals 0
-    .param p1    # Landroid/content/ContentResolver;
-    .param p2    # Lcom/android/dialer/calllog/DefaultVoicemailNotifier$1;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/calllog/DefaultVoicemailNotifier$DefaultNameLookupQuery;-><init>(Landroid/content/ContentResolver;)V
 
@@ -69,7 +66,6 @@
 # virtual methods
 .method public query(Ljava/lang/String;)Ljava/lang/String;
     .locals 8
-    .param p1    # Ljava/lang/String;
 
     const/4 v7, 0x0
 

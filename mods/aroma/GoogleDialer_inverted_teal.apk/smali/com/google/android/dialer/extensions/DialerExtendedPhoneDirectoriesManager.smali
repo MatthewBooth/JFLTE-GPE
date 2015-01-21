@@ -19,7 +19,6 @@
 # virtual methods
 .method public getExtendedDirectories(Landroid/content/Context;)Ljava/util/List;
     .locals 8
-    .param p1    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

@@ -70,8 +70,6 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 8
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/android/common/http/UrlRules$RuleFormatException;
@@ -201,7 +199,6 @@
 # virtual methods
 .method public apply(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-boolean v0, p0, Lcom/google/android/common/http/UrlRules$Rule;->mBlock:Z
 
@@ -251,7 +248,6 @@
 
 .method public compareTo(Ljava/lang/Object;)I
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/common/http/UrlRules$Rule;
 

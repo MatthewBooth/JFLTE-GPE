@@ -34,8 +34,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/activities/ConfirmAddDetailActivity;Lcom/android/contacts/common/model/AccountTypeManager;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ConfirmAddDetailActivity;
-    .param p2    # Lcom/android/contacts/common/model/AccountTypeManager;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -50,7 +48,6 @@
 # virtual methods
 .method protected varargs doInBackground([Lcom/android/contacts/common/model/RawContactDeltaList;)Ljava/lang/Integer;
     .locals 12
-    .param p1    # [Lcom/android/contacts/common/model/RawContactDeltaList;
 
     const/4 v11, 0x2
 
@@ -154,7 +151,6 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Lcom/android/contacts/common/model/RawContactDeltaList;
 
@@ -167,7 +163,6 @@
 
 .method protected onPostExecute(Ljava/lang/Integer;)V
     .locals 6
-    .param p1    # Ljava/lang/Integer;
 
     const/4 v5, 0x2
 
@@ -243,7 +238,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Integer;
 

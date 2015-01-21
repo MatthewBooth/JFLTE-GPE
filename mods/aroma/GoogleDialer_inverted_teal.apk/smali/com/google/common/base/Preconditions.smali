@@ -6,9 +6,6 @@
 # direct methods
 .method private static badElementIndex(IILjava/lang/String;)Ljava/lang/String;
     .locals 5
-    .param p0    # I
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     const/4 v4, 0x2
 
@@ -94,9 +91,6 @@
 
 .method private static badPositionIndex(IILjava/lang/String;)Ljava/lang/String;
     .locals 5
-    .param p0    # I
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     const/4 v4, 0x2
 
@@ -182,9 +176,6 @@
 
 .method private static badPositionIndexes(III)Ljava/lang/String;
     .locals 4
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
 
     if-ltz p0, :cond_0
 
@@ -246,7 +237,6 @@
 
 .method public static checkArgument(Z)V
     .locals 1
-    .param p0    # Z
 
     if-nez p0, :cond_0
 
@@ -262,8 +252,6 @@
 
 .method public static checkArgument(ZLjava/lang/Object;)V
     .locals 2
-    .param p0    # Z
-    .param p1    # Ljava/lang/Object;
 
     if-nez p0, :cond_0
 
@@ -283,9 +271,6 @@
 
 .method public static varargs checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
     .locals 2
-    .param p0    # Z
-    .param p1    # Ljava/lang/String;
-    .param p2    # [Ljava/lang/Object;
 
     if-nez p0, :cond_0
 
@@ -305,8 +290,6 @@
 
 .method public static checkElementIndex(II)I
     .locals 1
-    .param p0    # I
-    .param p1    # I
 
     const-string v0, "index"
 
@@ -319,9 +302,6 @@
 
 .method public static checkElementIndex(IILjava/lang/String;)I
     .locals 2
-    .param p0    # I
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     if-ltz p0, :cond_0
 
@@ -366,7 +346,6 @@
 
 .method public static checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -395,8 +374,6 @@
 
 .method public static checkPositionIndex(II)I
     .locals 1
-    .param p0    # I
-    .param p1    # I
 
     const-string v0, "index"
 
@@ -409,9 +386,6 @@
 
 .method public static checkPositionIndex(IILjava/lang/String;)I
     .locals 2
-    .param p0    # I
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     if-ltz p0, :cond_0
 
@@ -434,9 +408,6 @@
 
 .method public static checkPositionIndexes(III)V
     .locals 2
-    .param p0    # I
-    .param p1    # I
-    .param p2    # I
 
     if-ltz p0, :cond_0
 
@@ -461,7 +432,6 @@
 
 .method public static checkState(Z)V
     .locals 1
-    .param p0    # Z
 
     if-nez p0, :cond_0
 
@@ -477,8 +447,6 @@
 
 .method public static checkState(ZLjava/lang/Object;)V
     .locals 2
-    .param p0    # Z
-    .param p1    # Ljava/lang/Object;
 
     if-nez p0, :cond_0
 
@@ -498,9 +466,6 @@
 
 .method public static varargs checkState(ZLjava/lang/String;[Ljava/lang/Object;)V
     .locals 2
-    .param p0    # Z
-    .param p1    # Ljava/lang/String;
-    .param p2    # [Ljava/lang/Object;
 
     if-nez p0, :cond_0
 
@@ -520,8 +485,6 @@
 
 .method static varargs format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
     .locals 7
-    .param p0    # Ljava/lang/String;
-    .param p1    # [Ljava/lang/Object;
 
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 

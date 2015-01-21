@@ -50,10 +50,6 @@
 
 .method protected synthetic entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Z
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Ljava/lang/Object;
-    .param p4    # Ljava/lang/Object;
 
     check-cast p2, Lcom/google/android/gms/common/images/a$a;
 
@@ -68,8 +64,6 @@
 
 .method protected synthetic sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/common/images/a$a;
 

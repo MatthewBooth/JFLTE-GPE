@@ -58,16 +58,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/games/GameEntity;Lcom/google/android/gms/games/PlayerEntity;[BLjava/lang/String;Ljava/util/ArrayList;IJJLandroid/os/Bundle;I)V
     .locals 0
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/games/GameEntity;
-    .param p3    # Lcom/google/android/gms/games/PlayerEntity;
-    .param p4    # [B
-    .param p5    # Ljava/lang/String;
-    .param p7    # I
-    .param p8    # J
-    .param p10    # J
-    .param p12    # Landroid/os/Bundle;
-    .param p13    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -113,7 +103,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/request/GameRequest;)V
     .locals 6
-    .param p1    # Lcom/google/android/gms/games/request/GameRequest;
 
     const/4 v0, 0x0
 
@@ -682,7 +671,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/request/GameRequestEntity;->a(Lcom/google/android/gms/games/request/GameRequest;Ljava/lang/Object;)Z
 
@@ -741,7 +729,6 @@
 
 .method public getRecipientStatus(Ljava/lang/String;)I
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/games/request/GameRequestEntity;->akx:Landroid/os/Bundle;
 
@@ -845,8 +832,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/request/GameRequestEntityCreator;->a(Lcom/google/android/gms/games/request/GameRequestEntity;Landroid/os/Parcel;I)V
 

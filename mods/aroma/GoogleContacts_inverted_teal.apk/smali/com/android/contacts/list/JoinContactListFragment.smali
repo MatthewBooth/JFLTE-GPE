@@ -60,7 +60,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/list/JoinContactListFragment;)J
     .locals 2
-    .param p0    # Lcom/android/contacts/list/JoinContactListFragment;
 
     iget-wide v0, p0, Lcom/android/contacts/list/JoinContactListFragment;->mTargetContactId:J
 
@@ -69,8 +68,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/list/JoinContactListFragment;Ljava/lang/String;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/list/JoinContactListFragment;
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/list/JoinContactListFragment;->showTargetContactName(Ljava/lang/String;)V
 
@@ -79,9 +76,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/list/JoinContactListFragment;Landroid/database/Cursor;Landroid/database/Cursor;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/list/JoinContactListFragment;
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # Landroid/database/Cursor;
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/list/JoinContactListFragment;->onContactListLoaded(Landroid/database/Cursor;Landroid/database/Cursor;)V
 
@@ -90,8 +84,6 @@
 
 .method private onContactListLoaded(Landroid/database/Cursor;Landroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # Landroid/database/Cursor;
 
     const/4 v1, 0x1
 
@@ -112,7 +104,6 @@
 
 .method private showTargetContactName(Ljava/lang/String;)V
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/android/contacts/list/JoinContactListFragment;->getActivity()Landroid/app/Activity;
 
@@ -199,8 +190,6 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040057
 
@@ -215,8 +204,6 @@
 
 .method protected onItemClick(IJ)V
     .locals 2
-    .param p1    # I
-    .param p2    # J
 
     invoke-virtual {p0}, Lcom/android/contacts/list/JoinContactListFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -240,7 +227,6 @@
 
 .method public onPickerResult(Landroid/content/Intent;)V
     .locals 2
-    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
@@ -258,7 +244,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -273,7 +258,6 @@
 
 .method public restoreSavedState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->restoreSavedState(Landroid/os/Bundle;)V
 
@@ -293,7 +277,6 @@
 
 .method public setOnContactPickerActionListener(Lcom/android/contacts/list/OnContactPickerActionListener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/OnContactPickerActionListener;
 
     iput-object p1, p0, Lcom/android/contacts/list/JoinContactListFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -302,8 +285,6 @@
 
 .method public setQueryString(Ljava/lang/String;Z)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactEntryListFragment;->setQueryString(Ljava/lang/String;Z)V
 
@@ -328,7 +309,6 @@
 
 .method public setTargetContactId(J)V
     .locals 1
-    .param p1    # J
 
     iput-wide p1, p0, Lcom/android/contacts/list/JoinContactListFragment;->mTargetContactId:J
 

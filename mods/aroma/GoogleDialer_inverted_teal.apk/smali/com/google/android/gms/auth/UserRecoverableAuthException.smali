@@ -9,8 +9,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Landroid/content/Intent;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/content/Intent;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/auth/GoogleAuthException;-><init>(Ljava/lang/String;)V
 

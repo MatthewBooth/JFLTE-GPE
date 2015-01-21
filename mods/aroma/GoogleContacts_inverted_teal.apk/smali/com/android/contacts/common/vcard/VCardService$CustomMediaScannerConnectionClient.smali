@@ -28,7 +28,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/VCardService;Ljava/lang/String;)V
     .locals 1
-    .param p2    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;->this$0:Lcom/android/contacts/common/vcard/VCardService;
 
@@ -63,8 +62,6 @@
 
 .method public onScanCompleted(Ljava/lang/String;Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/VCardService$CustomMediaScannerConnectionClient;->mConnection:Landroid/media/MediaScannerConnection;
 

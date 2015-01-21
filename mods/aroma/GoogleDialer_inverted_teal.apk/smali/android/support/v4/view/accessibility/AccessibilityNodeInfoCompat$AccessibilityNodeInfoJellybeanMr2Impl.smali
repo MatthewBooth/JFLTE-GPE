@@ -27,7 +27,6 @@
 # virtual methods
 .method public getViewIdResourceName(Ljava/lang/Object;)Ljava/lang/String;
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p1}, Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellybeanMr2;->getViewIdResourceName(Ljava/lang/Object;)Ljava/lang/String;
 

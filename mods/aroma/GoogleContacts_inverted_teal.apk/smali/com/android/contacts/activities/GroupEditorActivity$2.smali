@@ -66,8 +66,6 @@
 
 .method public onSaveFinished(ILandroid/content/Intent;)V
     .locals 3
-    .param p1    # I
-    .param p2    # Landroid/content/Intent;
 
     if-eqz p2, :cond_0
 

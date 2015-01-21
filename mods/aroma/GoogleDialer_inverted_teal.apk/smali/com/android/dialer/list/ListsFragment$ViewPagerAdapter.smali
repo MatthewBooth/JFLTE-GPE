@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/list/ListsFragment;Landroid/app/FragmentManager;)V
     .locals 0
-    .param p2    # Landroid/app/FragmentManager;
 
     iput-object p1, p0, Lcom/android/dialer/list/ListsFragment$ViewPagerAdapter;->this$0:Lcom/android/dialer/list/ListsFragment;
 
@@ -42,7 +41,6 @@
 
 .method public getItem(I)Landroid/app/Fragment;
     .locals 8
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment$ViewPagerAdapter;->this$0:Lcom/android/dialer/list/ListsFragment;
 
@@ -167,7 +165,6 @@
 
 .method public getItemId(I)J
     .locals 2
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment$ViewPagerAdapter;->this$0:Lcom/android/dialer/list/ListsFragment;
 
@@ -182,7 +179,6 @@
 
 .method public getPageTitle(I)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment$ViewPagerAdapter;->this$0:Lcom/android/dialer/list/ListsFragment;
 
@@ -198,8 +194,6 @@
 
 .method public instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
     .locals 3
-    .param p1    # Landroid/view/ViewGroup;
-    .param p2    # I
 
     invoke-super {p0, p1, p2}, Landroid/support/v13/app/FragmentPagerAdapter;->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
 

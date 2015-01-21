@@ -19,8 +19,6 @@
 # direct methods
 .method static synthetic access$500(Ljava/util/Collection;Ljava/lang/Object;)Ljava/util/Collection;
     .locals 1
-    .param p0    # Ljava/util/Collection;
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/common/collect/Synchronized;->collection(Ljava/util/Collection;Ljava/lang/Object;)Ljava/util/Collection;
 
@@ -31,7 +29,6 @@
 
 .method private static collection(Ljava/util/Collection;Ljava/lang/Object;)Ljava/util/Collection;
     .locals 2
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -57,7 +54,6 @@
 
 .method static map(Ljava/util/Map;Ljava/lang/Object;)Ljava/util/Map;
     .locals 1
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -83,7 +79,6 @@
 
 .method static set(Ljava/util/Set;Ljava/lang/Object;)Ljava/util/Set;
     .locals 1
-    .param p1    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",

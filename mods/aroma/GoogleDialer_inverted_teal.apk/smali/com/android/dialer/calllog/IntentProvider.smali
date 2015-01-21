@@ -32,9 +32,6 @@
 
 .method public static getCallDetailIntentProvider(J[JLjava/lang/String;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 2
-    .param p0    # J
-    .param p2    # [J
-    .param p3    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/dialer/calllog/IntentProvider$4;
 
@@ -45,8 +42,6 @@
 
 .method public static getPlayVoicemailIntentProvider(JLjava/lang/String;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 2
-    .param p0    # J
-    .param p2    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/dialer/calllog/IntentProvider$3;
 
@@ -57,7 +52,6 @@
 
 .method public static getReturnCallIntentProvider(Ljava/lang/String;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -70,8 +64,6 @@
 
 .method public static getReturnCallIntentProvider(Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 1
-    .param p0    # Ljava/lang/String;
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     new-instance v0, Lcom/android/dialer/calllog/IntentProvider$1;
 
@@ -82,7 +74,6 @@
 
 .method public static getReturnVideoCallIntentProvider(Ljava/lang/String;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -95,8 +86,6 @@
 
 .method public static getReturnVideoCallIntentProvider(Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;)Lcom/android/dialer/calllog/IntentProvider;
     .locals 1
-    .param p0    # Ljava/lang/String;
-    .param p1    # Landroid/telecom/PhoneAccountHandle;
 
     new-instance v0, Lcom/android/dialer/calllog/IntentProvider$2;
 

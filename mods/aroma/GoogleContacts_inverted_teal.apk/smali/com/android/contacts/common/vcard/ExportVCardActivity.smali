@@ -59,8 +59,6 @@
 
 .method static synthetic access$002(Lcom/android/contacts/common/vcard/ExportVCardActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/contacts/common/vcard/ExportVCardActivity;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ExportVCardActivity;->mErrorReason:Ljava/lang/String;
 
@@ -69,7 +67,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/common/vcard/ExportVCardActivity;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/vcard/ExportVCardActivity;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/ExportVCardActivity;->mTargetFileName:Ljava/lang/String;
 
@@ -78,8 +75,6 @@
 
 .method static synthetic access$102(Lcom/android/contacts/common/vcard/ExportVCardActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p0    # Lcom/android/contacts/common/vcard/ExportVCardActivity;
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ExportVCardActivity;->mTargetFileName:Ljava/lang/String;
 
@@ -88,7 +83,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/common/vcard/ExportVCardActivity;)Lcom/android/contacts/common/vcard/VCardService;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/vcard/ExportVCardActivity;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/ExportVCardActivity;->mService:Lcom/android/contacts/common/vcard/VCardService;
 
@@ -97,7 +91,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/common/vcard/ExportVCardActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/vcard/ExportVCardActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/common/vcard/ExportVCardActivity;->unbindAndFinish()V
 
@@ -141,7 +134,6 @@
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
 
     const/4 v0, 0x0
 
@@ -154,8 +146,6 @@
 
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 0
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     invoke-direct {p0}, Lcom/android/contacts/common/vcard/ExportVCardActivity;->unbindAndFinish()V
 
@@ -164,7 +154,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 8
-    .param p1    # Landroid/os/Bundle;
 
     const v7, 0x7f0e000d
 
@@ -333,8 +322,6 @@
 
 .method protected onCreateDialog(ILandroid/os/Bundle;)Landroid/app/Dialog;
     .locals 6
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
 
     const v3, 0x7f0b00dc
 
@@ -542,9 +529,6 @@
 
 .method protected onPrepareDialog(ILandroid/app/Dialog;Landroid/os/Bundle;)V
     .locals 4
-    .param p1    # I
-    .param p2    # Landroid/app/Dialog;
-    .param p3    # Landroid/os/Bundle;
 
     const v0, 0x7f0e000d
 
@@ -594,8 +578,6 @@
 
 .method public declared-synchronized onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 2
-    .param p1    # Landroid/content/ComponentName;
-    .param p2    # Landroid/os/IBinder;
 
     monitor-enter p0
 
@@ -634,7 +616,6 @@
 
 .method public declared-synchronized onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 2
-    .param p1    # Landroid/content/ComponentName;
 
     monitor-enter p0
 
@@ -703,7 +684,6 @@
 
 .method public unbindService(Landroid/content/ServiceConnection;)V
     .locals 1
-    .param p1    # Landroid/content/ServiceConnection;
 
     const/4 v0, 0x0
 

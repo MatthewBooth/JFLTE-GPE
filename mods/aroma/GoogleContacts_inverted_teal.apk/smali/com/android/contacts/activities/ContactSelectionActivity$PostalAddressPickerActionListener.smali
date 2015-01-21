@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/ContactSelectionActivity;Lcom/android/contacts/activities/ContactSelectionActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ContactSelectionActivity;
-    .param p2    # Lcom/android/contacts/activities/ContactSelectionActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ContactSelectionActivity$PostalAddressPickerActionListener;-><init>(Lcom/android/contacts/activities/ContactSelectionActivity;)V
 
@@ -46,7 +44,6 @@
 # virtual methods
 .method public onPickPostalAddressAction(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity$PostalAddressPickerActionListener;->this$0:Lcom/android/contacts/activities/ContactSelectionActivity;
 

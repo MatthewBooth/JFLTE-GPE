@@ -21,7 +21,6 @@
 # direct methods
 .method constructor <init>(Lcom/android/dialer/list/AllContactsFragment;Landroid/content/Context;)V
     .locals 0
-    .param p2    # Landroid/content/Context;
 
     iput-object p1, p0, Lcom/android/dialer/list/AllContactsFragment$1;->this$0:Lcom/android/dialer/list/AllContactsFragment;
 
@@ -34,10 +33,6 @@
 # virtual methods
 .method protected bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # I
 
     invoke-super {p0, p1, p2, p3, p4}, Lcom/android/contacts/common/list/DefaultContactListAdapter;->bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
 

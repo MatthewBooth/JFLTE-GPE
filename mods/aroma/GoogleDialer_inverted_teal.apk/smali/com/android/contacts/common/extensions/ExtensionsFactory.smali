@@ -30,7 +30,6 @@
 
 .method private static createInstance(Ljava/lang/String;)Ljava/lang/Object;
     .locals 5
-    .param p0    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -152,7 +151,6 @@
 
 .method public static init(Landroid/content/Context;)V
     .locals 5
-    .param p0    # Landroid/content/Context;
 
     sget-object v3, Lcom/android/contacts/common/extensions/ExtensionsFactory;->sProperties:Ljava/util/Properties;
 

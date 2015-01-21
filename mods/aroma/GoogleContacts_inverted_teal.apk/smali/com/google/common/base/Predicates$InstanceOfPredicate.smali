@@ -70,8 +70,6 @@
 
 .method synthetic constructor <init>(Ljava/lang/Class;Lcom/google/common/base/Predicates$1;)V
     .locals 0
-    .param p1    # Ljava/lang/Class;
-    .param p2    # Lcom/google/common/base/Predicates$1;
 
     invoke-direct {p0, p1}, Lcom/google/common/base/Predicates$InstanceOfPredicate;-><init>(Ljava/lang/Class;)V
 
@@ -82,7 +80,6 @@
 # virtual methods
 .method public apply(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Lcom/google/common/base/Predicates$InstanceOfPredicate;->clazz:Ljava/lang/Class;
 
@@ -95,7 +92,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 

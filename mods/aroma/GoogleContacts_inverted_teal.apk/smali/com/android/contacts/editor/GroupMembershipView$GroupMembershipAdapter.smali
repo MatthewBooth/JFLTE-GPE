@@ -31,8 +31,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/editor/GroupMembershipView;Landroid/content/Context;I)V
     .locals 0
-    .param p2    # Landroid/content/Context;
-    .param p3    # I
 
     iput-object p1, p0, Lcom/android/contacts/editor/GroupMembershipView$GroupMembershipAdapter;->this$0:Lcom/android/contacts/editor/GroupMembershipView;
 
@@ -45,7 +43,6 @@
 # virtual methods
 .method public getItemIsCheckable(I)Z
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/editor/GroupMembershipView$GroupMembershipAdapter;->getCount()I
 
@@ -68,7 +65,6 @@
 
 .method public getItemViewType(I)I
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/editor/GroupMembershipView$GroupMembershipAdapter;->getItemIsCheckable(I)Z
 
@@ -89,9 +85,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 3
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2, p3}, Landroid/widget/ArrayAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 

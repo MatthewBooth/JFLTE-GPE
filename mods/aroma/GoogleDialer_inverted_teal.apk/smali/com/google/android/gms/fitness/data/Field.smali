@@ -331,9 +331,6 @@
 
 .method constructor <init>(ILjava/lang/String;I)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -348,8 +345,6 @@
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     const/4 v0, 0x1
 
@@ -424,7 +419,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -528,8 +522,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/data/i;->a(Lcom/google/android/gms/fitness/data/Field;Landroid/os/Parcel;I)V
 

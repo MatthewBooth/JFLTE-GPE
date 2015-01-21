@@ -30,7 +30,6 @@
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 0
-    .param p1    # Landroid/content/DialogInterface;
 
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 

@@ -52,7 +52,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/StatusBarNotifier$1;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/StatusBarNotifier$1;
 
     invoke-direct {p0}, Lcom/android/incallui/StatusBarNotifier$1;->fire()V
 

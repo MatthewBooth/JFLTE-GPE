@@ -38,32 +38,24 @@
 
 .method public setFromIndex(Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-    .param p2    # I
 
     return-void
 .end method
 
 .method public setItemCount(Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-    .param p2    # I
 
     return-void
 .end method
 
 .method public setScrollable(Ljava/lang/Object;Z)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Z
 
     return-void
 .end method
 
 .method public setToIndex(Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-    .param p2    # I
 
     return-void
 .end method

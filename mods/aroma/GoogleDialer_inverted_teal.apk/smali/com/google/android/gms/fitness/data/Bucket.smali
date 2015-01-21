@@ -60,13 +60,6 @@
 
 .method constructor <init>(IJJLcom/google/android/gms/fitness/data/Session;ILjava/util/List;IZ)V
     .locals 2
-    .param p1    # I
-    .param p2    # J
-    .param p4    # J
-    .param p6    # Lcom/google/android/gms/fitness/data/Session;
-    .param p7    # I
-    .param p9    # I
-    .param p10    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IJJ",
@@ -106,7 +99,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/fitness/data/RawBucket;Ljava/util/List;Ljava/util/List;)V
     .locals 11
-    .param p1    # Lcom/google/android/gms/fitness/data/RawBucket;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -270,7 +262,6 @@
 
 .method public static getBucketString(I)Ljava/lang/String;
     .locals 1
-    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -328,7 +319,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-eq p1, p0, :cond_0
 
@@ -383,7 +373,6 @@
 
 .method public getEndTime(Ljava/util/concurrent/TimeUnit;)J
     .locals 3
-    .param p1    # Ljava/util/concurrent/TimeUnit;
 
     iget-wide v0, p0, Lcom/google/android/gms/fitness/data/Bucket;->ZS:J
 
@@ -406,7 +395,6 @@
 
 .method public getStartTime(Ljava/util/concurrent/TimeUnit;)J
     .locals 3
-    .param p1    # Ljava/util/concurrent/TimeUnit;
 
     iget-wide v0, p0, Lcom/google/android/gms/fitness/data/Bucket;->Pp:J
 
@@ -639,8 +627,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/data/c;->a(Lcom/google/android/gms/fitness/data/Bucket;Landroid/os/Parcel;I)V
 

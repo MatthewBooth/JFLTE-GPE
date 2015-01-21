@@ -20,7 +20,6 @@
 # virtual methods
 .method public onAttach(Landroid/app/Activity;)V
     .locals 1
-    .param p1    # Landroid/app/Activity;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 

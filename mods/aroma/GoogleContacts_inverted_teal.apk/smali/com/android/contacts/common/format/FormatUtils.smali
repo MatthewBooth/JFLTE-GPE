@@ -6,7 +6,6 @@
 # direct methods
 .method public static charArrayBufferToString(Landroid/database/CharArrayBuffer;)Ljava/lang/String;
     .locals 4
-    .param p0    # Landroid/database/CharArrayBuffer;
 
     new-instance v0, Ljava/lang/String;
 
@@ -23,8 +22,6 @@
 
 .method public static copyToCharArrayBuffer(Ljava/lang/String;Landroid/database/CharArrayBuffer;)V
     .locals 4
-    .param p0    # Ljava/lang/String;
-    .param p1    # Landroid/database/CharArrayBuffer;
 
     const/4 v3, 0x0
 
@@ -76,8 +73,6 @@
 
 .method public static indexOfWordPrefix(Ljava/lang/CharSequence;Ljava/lang/String;)I
     .locals 7
-    .param p0    # Ljava/lang/CharSequence;
-    .param p1    # Ljava/lang/String;
 
     const/4 v4, -0x1
 
@@ -197,8 +192,6 @@
 
 .method public static overlapPoint(Ljava/lang/String;Ljava/lang/String;)I
     .locals 2
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
 
     if-eqz p0, :cond_0
 
@@ -228,8 +221,6 @@
 
 .method public static overlapPoint([C[C)I
     .locals 8
-    .param p0    # [C
-    .param p1    # [C
 
     const/4 v5, -0x1
 

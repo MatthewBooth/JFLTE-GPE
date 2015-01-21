@@ -86,7 +86,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     iget-object v0, p0, Landroid/support/v4/util/MapCollections$ValuesCollection;->this$0:Landroid/support/v4/util/MapCollections;
 
@@ -194,7 +193,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     iget-object v1, p0, Landroid/support/v4/util/MapCollections$ValuesCollection;->this$0:Landroid/support/v4/util/MapCollections;
 

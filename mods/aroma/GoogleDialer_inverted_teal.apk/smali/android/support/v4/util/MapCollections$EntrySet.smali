@@ -46,7 +46,6 @@
 # virtual methods
 .method public bridge synthetic add(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/util/Map$Entry;
 
@@ -155,7 +154,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
 
     const/4 v3, 0x0
 
@@ -247,7 +245,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Landroid/support/v4/util/MapCollections;->equalsSetHelper(Ljava/util/Set;Ljava/lang/Object;)Z
 
@@ -371,7 +368,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 

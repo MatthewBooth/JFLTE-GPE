@@ -108,10 +108,6 @@
 
 .method static getResourceText(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/CharSequence;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
 
     const/4 v1, -0x1
 
@@ -147,7 +143,6 @@
 # virtual methods
 .method public addKind(Lcom/android/contacts/common/model/dataitem/DataKind;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 3
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -254,7 +249,6 @@
 
 .method public getDisplayIcon(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -304,7 +298,6 @@
 
 .method public getDisplayLabel(Landroid/content/Context;)Ljava/lang/CharSequence;
     .locals 3
-    .param p1    # Landroid/content/Context;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/account/AccountType;->syncAdapterPackageName:Ljava/lang/String;
 
@@ -356,7 +349,6 @@
 
 .method public getKindForMimetype(Ljava/lang/String;)Lcom/android/contacts/common/model/dataitem/DataKind;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/common/model/account/AccountType;->mMimeKinds:Ljava/util/HashMap;
 
@@ -418,7 +410,6 @@
 
 .method public getViewGroupLabel(Landroid/content/Context;)Ljava/lang/CharSequence;
     .locals 4
-    .param p1    # Landroid/content/Context;
 
     iget-object v1, p0, Lcom/android/contacts/common/model/account/AccountType;->syncAdapterPackageName:Ljava/lang/String;
 

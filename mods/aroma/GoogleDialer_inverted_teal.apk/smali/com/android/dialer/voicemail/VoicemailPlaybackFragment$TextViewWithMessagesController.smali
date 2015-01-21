@@ -27,8 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/widget/TextView;Landroid/widget/TextView;)V
     .locals 1
-    .param p1    # Landroid/widget/TextView;
-    .param p2    # Landroid/widget/TextView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,7 +45,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mLock:Ljava/lang/Object;
 
@@ -56,7 +53,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;)Ljava/lang/Runnable;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mRunnable:Ljava/lang/Runnable;
 
@@ -65,8 +61,6 @@
 
 .method static synthetic access$402(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;Ljava/lang/Runnable;)Ljava/lang/Runnable;
     .locals 0
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
-    .param p1    # Ljava/lang/Runnable;
 
     iput-object p1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mRunnable:Ljava/lang/Runnable;
 
@@ -75,7 +69,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mTemporaryTextView:Landroid/widget/TextView;
 
@@ -84,7 +77,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;)Landroid/widget/TextView;
     .locals 1
-    .param p0    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mPermanentTextView:Landroid/widget/TextView;
 
@@ -95,7 +87,6 @@
 # virtual methods
 .method public setPermanentText(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mPermanentTextView:Landroid/widget/TextView;
 
@@ -106,9 +97,6 @@
 
 .method public setTemporaryText(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;)V
     .locals 6
-    .param p1    # Ljava/lang/String;
-    .param p2    # J
-    .param p4    # Ljava/util/concurrent/TimeUnit;
 
     iget-object v1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;->mLock:Ljava/lang/Object;
 

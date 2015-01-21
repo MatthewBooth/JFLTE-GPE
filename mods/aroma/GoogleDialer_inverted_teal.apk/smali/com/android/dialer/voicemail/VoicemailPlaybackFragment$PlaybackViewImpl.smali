@@ -38,9 +38,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$ActivityReference;Landroid/content/Context;Landroid/view/View;)V
     .locals 3
-    .param p1    # Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$ActivityReference;
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -147,7 +144,6 @@
 
 .method private getString(I)Ljava/lang/String;
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mApplicationContext:Landroid/content/Context;
 
@@ -304,7 +300,6 @@
 
 .method public playbackError(Ljava/lang/Exception;)V
     .locals 2
-    .param p1    # Ljava/lang/Exception;
 
     invoke-virtual {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->disableUiElements()V
 
@@ -353,7 +348,6 @@
 
 .method public queryHasContent(Landroid/net/Uri;)Z
     .locals 9
-    .param p1    # Landroid/net/Uri;
 
     const/4 v7, 0x1
 
@@ -435,8 +429,6 @@
 
 .method public registerContentObserver(Landroid/net/Uri;Landroid/database/ContentObserver;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/database/ContentObserver;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mApplicationContext:Landroid/content/Context;
 
@@ -453,7 +445,6 @@
 
 .method public runOnUiThread(Ljava/lang/Runnable;)V
     .locals 2
-    .param p1    # Ljava/lang/Runnable;
 
     iget-object v1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mActivityReference:Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$ActivityReference;
 
@@ -471,7 +462,6 @@
 
 .method public sendFetchVoicemailRequest(Landroid/net/Uri;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -488,8 +478,6 @@
 
 .method public setClipPosition(II)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     const/4 v2, 0x0
 
@@ -588,7 +576,6 @@
 
 .method public setPositionSeekListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
     .locals 1
-    .param p1    # Landroid/widget/SeekBar$OnSeekBarChangeListener;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mPlaybackSeek:Landroid/widget/SeekBar;
 
@@ -599,7 +586,6 @@
 
 .method public setRateDecreaseButtonListener(Landroid/view/View$OnClickListener;)V
     .locals 1
-    .param p1    # Landroid/view/View$OnClickListener;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mRateDecreaseButton:Landroid/widget/ImageButton;
 
@@ -610,8 +596,6 @@
 
 .method public setRateDisplay(FI)V
     .locals 5
-    .param p1    # F
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mTextController:Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$TextViewWithMessagesController;
 
@@ -632,7 +616,6 @@
 
 .method public setRateIncreaseButtonListener(Landroid/view/View$OnClickListener;)V
     .locals 1
-    .param p1    # Landroid/view/View$OnClickListener;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mRateIncreaseButton:Landroid/widget/ImageButton;
 
@@ -643,7 +626,6 @@
 
 .method public setSpeakerPhoneOn(Z)V
     .locals 3
-    .param p1    # Z
 
     invoke-direct {p0}, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->getAudioManager()Landroid/media/AudioManager;
 
@@ -698,7 +680,6 @@
 
 .method public setSpeakerphoneListener(Landroid/view/View$OnClickListener;)V
     .locals 1
-    .param p1    # Landroid/view/View$OnClickListener;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mPlaybackSpeakerphone:Landroid/widget/ImageButton;
 
@@ -709,7 +690,6 @@
 
 .method public setStartStopListener(Landroid/view/View$OnClickListener;)V
     .locals 1
-    .param p1    # Landroid/view/View$OnClickListener;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mStartStopButton:Landroid/widget/ImageButton;
 
@@ -720,7 +700,6 @@
 
 .method public setVolumeControlStream(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mActivityReference:Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$ActivityReference;
 
@@ -738,7 +717,6 @@
 
 .method public unregisterContentObserver(Landroid/database/ContentObserver;)V
     .locals 1
-    .param p1    # Landroid/database/ContentObserver;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackFragment$PlaybackViewImpl;->mApplicationContext:Landroid/content/Context;
 

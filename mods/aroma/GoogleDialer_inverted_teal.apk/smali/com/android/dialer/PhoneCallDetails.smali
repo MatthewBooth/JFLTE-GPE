@@ -46,14 +46,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljava/lang/String;Ljava/lang/String;[IJJ)V
     .locals 23
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # Ljava/lang/CharSequence;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # [I
-    .param p7    # J
-    .param p9    # J
 
     const-string v12, ""
 
@@ -102,25 +94,6 @@
 
 .method public constructor <init>(Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljava/lang/String;Ljava/lang/String;[IJJLjava/lang/CharSequence;ILjava/lang/CharSequence;Landroid/net/Uri;Landroid/net/Uri;ILjava/lang/String;Landroid/graphics/drawable/Drawable;ILjava/lang/Long;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # Ljava/lang/CharSequence;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # [I
-    .param p7    # J
-    .param p9    # J
-    .param p11    # Ljava/lang/CharSequence;
-    .param p12    # I
-    .param p13    # Ljava/lang/CharSequence;
-    .param p14    # Landroid/net/Uri;
-    .param p15    # Landroid/net/Uri;
-    .param p16    # I
-    .param p17    # Ljava/lang/String;
-    .param p18    # Landroid/graphics/drawable/Drawable;
-    .param p19    # I
-    .param p20    # Ljava/lang/Long;
-    .param p21    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -181,19 +154,6 @@
 
 .method public constructor <init>(Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljava/lang/String;Ljava/lang/String;[IJJLjava/lang/String;Landroid/graphics/drawable/Drawable;ILjava/lang/Long;Ljava/lang/String;)V
     .locals 23
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # Ljava/lang/CharSequence;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
-    .param p6    # [I
-    .param p7    # J
-    .param p9    # J
-    .param p11    # Ljava/lang/String;
-    .param p12    # Landroid/graphics/drawable/Drawable;
-    .param p13    # I
-    .param p14    # Ljava/lang/Long;
-    .param p15    # Ljava/lang/String;
 
     const-string v12, ""
 

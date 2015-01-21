@@ -28,7 +28,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/common/collect/ImmutableSet$TransformedImmutableSet;I)V
     .locals 0
-    .param p2    # I
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableSet$TransformedImmutableSet$1;->this$0:Lcom/google/common/collect/ImmutableSet$TransformedImmutableSet;
 
@@ -41,7 +40,6 @@
 # virtual methods
 .method protected get(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TE;"

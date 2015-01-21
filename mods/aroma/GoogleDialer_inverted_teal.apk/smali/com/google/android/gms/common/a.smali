@@ -77,8 +77,6 @@
 
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 1
-    .param p1    # Landroid/content/ComponentName;
-    .param p2    # Landroid/os/IBinder;
 
     iget-object v0, p0, Lcom/google/android/gms/common/a;->LO:Ljava/util/concurrent/BlockingQueue;
 
@@ -89,7 +87,6 @@
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
     .locals 0
-    .param p1    # Landroid/content/ComponentName;
 
     return-void
 .end method

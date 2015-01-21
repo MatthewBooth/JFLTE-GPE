@@ -34,10 +34,6 @@
 
 .method constructor <init>(ILjava/lang/String;JLcom/google/android/gms/auth/firstparty/shared/LatencyTracker;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # J
-    .param p5    # Lcom/google/android/gms/auth/firstparty/shared/LatencyTracker;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -68,8 +64,6 @@
 
 .method public log(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     const/4 v0, 0x2
 
@@ -207,8 +201,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/google/android/gms/auth/firstparty/shared/LatencyTracker;->mName:Ljava/lang/String;
 

@@ -30,8 +30,6 @@
 
 .method public static addRectangularOutlineProvider(Landroid/view/View;Landroid/content/res/Resources;)V
     .locals 1
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/content/res/Resources;
 
     sget-object v0, Lcom/android/contacts/common/util/ViewUtil;->RECT_OUTLINE_PROVIDER:Landroid/view/ViewOutlineProvider;
 
@@ -42,7 +40,6 @@
 
 .method public static getConstantPreLayoutWidth(Landroid/view/View;)I
     .locals 3
-    .param p0    # Landroid/view/View;
 
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -68,7 +65,6 @@
 
 .method public static isViewLayoutRtl(Landroid/view/View;)Z
     .locals 2
-    .param p0    # Landroid/view/View;
 
     const/4 v0, 0x1
 
@@ -89,8 +85,6 @@
 
 .method public static setupFloatingActionButton(Landroid/view/View;Landroid/content/res/Resources;)V
     .locals 1
-    .param p0    # Landroid/view/View;
-    .param p1    # Landroid/content/res/Resources;
 
     sget-object v0, Lcom/android/contacts/common/util/ViewUtil;->OVAL_OUTLINE_PROVIDER:Landroid/view/ViewOutlineProvider;
 

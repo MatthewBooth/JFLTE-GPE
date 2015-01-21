@@ -37,7 +37,6 @@
 
 .method public getLayerType(Landroid/view/View;)I
     .locals 1
-    .param p1    # Landroid/view/View;
 
     invoke-static {p1}, Landroid/support/v4/view/ViewCompatHC;->getLayerType(Landroid/view/View;)I
 
@@ -48,8 +47,6 @@
 
 .method public setLayerPaint(Landroid/view/View;Landroid/graphics/Paint;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/graphics/Paint;
 
     invoke-virtual {p0, p1}, Landroid/support/v4/view/ViewCompat$HCViewCompatImpl;->getLayerType(Landroid/view/View;)I
 
@@ -64,9 +61,6 @@
 
 .method public setLayerType(Landroid/view/View;ILandroid/graphics/Paint;)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/graphics/Paint;
 
     invoke-static {p1, p2, p3}, Landroid/support/v4/view/ViewCompatHC;->setLayerType(Landroid/view/View;ILandroid/graphics/Paint;)V
 

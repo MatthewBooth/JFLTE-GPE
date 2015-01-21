@@ -77,7 +77,6 @@
 
 .method public onPanelClosed(Landroid/view/View;)V
     .locals 2
-    .param p1    # Landroid/view/View;
 
     # getter for: Lcom/android/dialer/list/ListsFragment;->DEBUG:Z
     invoke-static {}, Lcom/android/dialer/list/ListsFragment;->access$200()Z
@@ -105,7 +104,6 @@
 
 .method public onPanelFlingReachesEdge(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/list/ListsFragment$1;->this$0:Lcom/android/dialer/list/ListsFragment;
 
@@ -131,7 +129,6 @@
 
 .method public onPanelOpened(Landroid/view/View;)V
     .locals 2
-    .param p1    # Landroid/view/View;
 
     # getter for: Lcom/android/dialer/list/ListsFragment;->DEBUG:Z
     invoke-static {}, Lcom/android/dialer/list/ListsFragment;->access$200()Z
@@ -159,8 +156,6 @@
 
 .method public onPanelSlide(Landroid/view/View;F)V
     .locals 6
-    .param p1    # Landroid/view/View;
-    .param p2    # F
 
     const/high16 v4, 0x3f800000
 

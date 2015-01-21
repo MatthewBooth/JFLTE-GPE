@@ -32,8 +32,6 @@
 
 .method public static setSuperPrimary(Landroid/content/Context;J)V
     .locals 7
-    .param p0    # Landroid/content/Context;
-    .param p1    # J
 
     const/4 v5, 0x0
 

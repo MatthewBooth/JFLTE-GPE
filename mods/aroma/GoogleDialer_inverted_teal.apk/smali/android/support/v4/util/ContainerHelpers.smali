@@ -34,9 +34,6 @@
 
 .method static binarySearch([III)I
     .locals 5
-    .param p0    # [I
-    .param p1    # I
-    .param p2    # I
 
     const/4 v1, 0x0
 
@@ -73,8 +70,6 @@
 
 .method public static equal(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Ljava/lang/Object;
-    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -100,7 +95,6 @@
 
 .method public static idealByteArraySize(I)I
     .locals 3
-    .param p0    # I
 
     const/4 v2, 0x1
 
@@ -132,7 +126,6 @@
 
 .method public static idealIntArraySize(I)I
     .locals 1
-    .param p0    # I
 
     mul-int/lit8 v0, p0, 0x4
 

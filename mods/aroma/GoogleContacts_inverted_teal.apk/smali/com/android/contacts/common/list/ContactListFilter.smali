@@ -62,11 +62,6 @@
 
 .method public constructor <init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/drawable/Drawable;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Landroid/graphics/drawable/Drawable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,10 +80,6 @@
 
 .method public static createAccountFilter(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/graphics/drawable/Drawable;)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 6
-    .param p0    # Ljava/lang/String;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Landroid/graphics/drawable/Drawable;
 
     new-instance v0, Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -109,7 +100,6 @@
 
 .method public static createFilterWithType(I)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 6
-    .param p0    # I
 
     const/4 v2, 0x0
 
@@ -130,7 +120,6 @@
 
 .method public static restoreDefaultPreferences(Landroid/content/SharedPreferences;)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 4
-    .param p0    # Landroid/content/SharedPreferences;
 
     const/4 v3, -0x2
 
@@ -168,7 +157,6 @@
 
 .method private static restoreFromPreferences(Landroid/content/SharedPreferences;)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 7
-    .param p0    # Landroid/content/SharedPreferences;
 
     const/4 v6, -0x1
 
@@ -215,8 +203,6 @@
 
 .method public static storeToPreferences(Landroid/content/SharedPreferences;Lcom/android/contacts/common/list/ContactListFilter;)V
     .locals 4
-    .param p0    # Landroid/content/SharedPreferences;
-    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
 
     const/4 v1, 0x0
 
@@ -307,7 +293,6 @@
 # virtual methods
 .method public addAccountQueryParameterToUrl(Landroid/net/Uri$Builder;)Landroid/net/Uri$Builder;
     .locals 2
-    .param p1    # Landroid/net/Uri$Builder;
 
     iget v0, p0, Lcom/android/contacts/common/list/ContactListFilter;->filterType:I
 
@@ -354,7 +339,6 @@
 
 .method public compareTo(Lcom/android/contacts/common/list/ContactListFilter;)I
     .locals 3
-    .param p1    # Lcom/android/contacts/common/list/ContactListFilter;
 
     iget-object v1, p0, Lcom/android/contacts/common/list/ContactListFilter;->accountName:Ljava/lang/String;
 
@@ -398,7 +382,6 @@
 
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -419,7 +402,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x1
 
@@ -738,8 +720,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     iget v0, p0, Lcom/android/contacts/common/list/ContactListFilter;->filterType:I
 

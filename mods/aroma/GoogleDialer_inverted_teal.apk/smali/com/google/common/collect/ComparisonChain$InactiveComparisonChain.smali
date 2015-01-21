@@ -21,7 +21,6 @@
 # direct methods
 .method constructor <init>(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -36,16 +35,12 @@
 # virtual methods
 .method public compare(II)Lcom/google/common/collect/ComparisonChain;
     .locals 0
-    .param p1    # I
-    .param p2    # I
 
     return-object p0
 .end method
 
 .method public compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcom/google/common/collect/ComparisonChain;
     .locals 0
-    .param p1    # Ljava/lang/Comparable;
-    .param p2    # Ljava/lang/Comparable;
 
     return-object p0
 .end method

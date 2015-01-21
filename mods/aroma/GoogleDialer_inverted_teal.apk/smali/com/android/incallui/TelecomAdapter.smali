@@ -67,7 +67,6 @@
 
 .method private getTelecommCallById(Ljava/lang/String;)Landroid/telecom/Call;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-static {}, Lcom/android/incallui/CallList;->getInstance()Lcom/android/incallui/CallList;
 
@@ -144,8 +143,6 @@
 
 .method answerCall(Ljava/lang/String;I)V
     .locals 3
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     iget-object v1, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -205,7 +202,6 @@
 
 .method disconnectCall(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -230,7 +226,6 @@
 
 .method holdCall(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -255,7 +250,6 @@
 
 .method merge(Ljava/lang/String;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
 
     iget-object v3, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -316,7 +310,6 @@
 
 .method mute(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -339,8 +332,6 @@
 
 .method phoneAccountSelected(Ljava/lang/String;Landroid/telecom/PhoneAccountHandle;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/telecom/PhoneAccountHandle;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -372,8 +363,6 @@
 
 .method playDtmfTone(Ljava/lang/String;C)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # C
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -398,8 +387,6 @@
 
 .method postDialContinue(Ljava/lang/String;Z)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -424,9 +411,6 @@
 
 .method rejectCall(Ljava/lang/String;ZLjava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
-    .param p3    # Ljava/lang/String;
 
     iget-object v1, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -476,7 +460,6 @@
 
 .method separateCall(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -501,7 +484,6 @@
 
 .method setAudioRoute(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -524,7 +506,6 @@
 
 .method setContext(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     iput-object p1, p0, Lcom/android/incallui/TelecomAdapter;->mContext:Landroid/content/Context;
 
@@ -533,7 +514,6 @@
 
 .method public setPhone(Landroid/telecom/Phone;)V
     .locals 0
-    .param p1    # Landroid/telecom/Phone;
 
     iput-object p1, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -542,7 +522,6 @@
 
 .method stopDtmfTone(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -567,7 +546,6 @@
 
 .method swap(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     iget-object v2, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -605,7 +583,6 @@
 
 .method turnOffProximitySensor(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 
@@ -650,7 +627,6 @@
 
 .method unholdCall(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/incallui/TelecomAdapter;->mPhone:Landroid/telecom/Phone;
 

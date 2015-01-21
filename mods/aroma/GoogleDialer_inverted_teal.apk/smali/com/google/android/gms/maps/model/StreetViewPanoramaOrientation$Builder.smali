@@ -32,7 +32,6 @@
 # virtual methods
 .method public bearing(F)Lcom/google/android/gms/maps/model/StreetViewPanoramaOrientation$Builder;
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/google/android/gms/maps/model/StreetViewPanoramaOrientation$Builder;->bearing:F
 
@@ -55,7 +54,6 @@
 
 .method public tilt(F)Lcom/google/android/gms/maps/model/StreetViewPanoramaOrientation$Builder;
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/google/android/gms/maps/model/StreetViewPanoramaOrientation$Builder;->tilt:F
 

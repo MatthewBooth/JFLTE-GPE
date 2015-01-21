@@ -658,7 +658,6 @@
 
 .method public getValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 

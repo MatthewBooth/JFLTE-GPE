@@ -110,7 +110,6 @@
 
 .method protected entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Z
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ZTK;TV;TV;)V"
@@ -458,7 +457,6 @@
 
 .method public trimToSize(I)V
     .locals 4
-    .param p1    # I
 
     :goto_0
     monitor-enter p0

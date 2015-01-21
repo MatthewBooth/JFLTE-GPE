@@ -33,8 +33,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,9 +45,6 @@
 
 .method public constructor <init>(Ljava/lang/String;II)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
-    .param p3    # I
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/common/model/account/AccountType$EditField;-><init>(Ljava/lang/String;I)V
 
@@ -62,7 +57,6 @@
 # virtual methods
 .method public setLongForm(Z)Lcom/android/contacts/common/model/account/AccountType$EditField;
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditField;->longForm:Z
 
@@ -71,7 +65,6 @@
 
 .method public setOptional(Z)Lcom/android/contacts/common/model/account/AccountType$EditField;
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditField;->optional:Z
 
@@ -80,7 +73,6 @@
 
 .method public setShortForm(Z)Lcom/android/contacts/common/model/account/AccountType$EditField;
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditField;->shortForm:Z
 

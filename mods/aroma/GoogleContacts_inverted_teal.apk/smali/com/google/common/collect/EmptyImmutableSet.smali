@@ -53,7 +53,6 @@
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x0
 
@@ -79,7 +78,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     instance-of v1, p1, Ljava/util/Set;
 

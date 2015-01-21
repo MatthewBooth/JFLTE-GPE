@@ -27,7 +27,6 @@
 # virtual methods
 .method protected getTypeLabelResource(Ljava/lang/Integer;)I
     .locals 2
-    .param p1    # Ljava/lang/Integer;
 
     const v0, 0x7f0800c7
 

@@ -33,8 +33,6 @@
 # virtual methods
 .method public onCallAdded(Landroid/telecom/Phone;Landroid/telecom/Call;)V
     .locals 3
-    .param p1    # Landroid/telecom/Phone;
-    .param p2    # Landroid/telecom/Call;
 
     new-instance v0, Lcom/android/incallui/Call;
 
@@ -69,8 +67,6 @@
 
 .method public onCallRemoved(Landroid/telecom/Phone;Landroid/telecom/Call;)V
     .locals 3
-    .param p1    # Landroid/telecom/Phone;
-    .param p2    # Landroid/telecom/Call;
 
     iget-object v1, p0, Lcom/android/incallui/CallList$1;->this$0:Lcom/android/incallui/CallList;
 

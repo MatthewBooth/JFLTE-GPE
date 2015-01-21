@@ -67,7 +67,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/activities/ContactSelectionActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/ContactSelectionActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/ContactSelectionActivity;->startCreateNewContactActivity()V
 
@@ -238,7 +237,6 @@
 
 .method private getPhoneNumberPickerFragment(Lcom/android/contacts/list/ContactsRequest;)Lcom/android/contacts/common/list/PhoneNumberPickerFragment;
     .locals 1
-    .param p1    # Lcom/android/contacts/list/ContactsRequest;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity;->mRequest:Lcom/android/contacts/list/ContactsRequest;
 
@@ -470,7 +468,6 @@
 
 .method private showInputMethod(Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/view/View;
 
     const-string v1, "input_method"
 
@@ -772,9 +769,6 @@
 
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     invoke-super {p0, p1, p2, p3}, Lcom/android/contacts/ContactsActivity;->onActivityResult(IILandroid/content/Intent;)V
 
@@ -797,7 +791,6 @@
 
 .method public onAttachFragment(Landroid/app/Fragment;)V
     .locals 1
-    .param p1    # Landroid/app/Fragment;
 
     instance-of v0, p1, Lcom/android/contacts/common/list/ContactEntryListFragment;
 
@@ -837,7 +830,6 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -888,7 +880,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 3
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -990,7 +981,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 4
-    .param p1    # Landroid/view/Menu;
 
     const/4 v3, 0x1
 
@@ -1029,8 +1019,6 @@
 
 .method public onFocusChange(Landroid/view/View;Z)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Z
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -1063,7 +1051,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 3
-    .param p1    # Landroid/view/MenuItem;
 
     const/4 v0, 0x0
 
@@ -1112,7 +1099,6 @@
 
 .method public onQueryTextChange(Ljava/lang/String;)Z
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/activities/ContactSelectionActivity;->mListFragment:Lcom/android/contacts/common/list/ContactEntryListFragment;
 
@@ -1127,7 +1113,6 @@
 
 .method public onQueryTextSubmit(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -1136,7 +1121,6 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -1157,7 +1141,6 @@
 
 .method public returnPickerResult(Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -1174,7 +1157,6 @@
 
 .method public returnPickerResult(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -1317,7 +1299,6 @@
 
 .method public startActivityAndForwardResult(Landroid/content/Intent;)V
     .locals 5
-    .param p1    # Landroid/content/Intent;
 
     const/high16 v2, 0x2000000
 

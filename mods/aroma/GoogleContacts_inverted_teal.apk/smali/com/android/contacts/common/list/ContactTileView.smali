@@ -56,8 +56,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -72,7 +70,6 @@
 # virtual methods
 .method protected configureViewForImage(Z)V
     .locals 0
-    .param p1    # Z
 
     return-void
 .end method
@@ -92,8 +89,6 @@
 
 .method protected getDefaultImageRequest(Ljava/lang/String;Ljava/lang/String;)Lcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     new-instance v0, Lcom/android/contacts/common/ContactPhotoManager$DefaultImageRequest;
 
@@ -116,7 +111,6 @@
 
 .method protected getNameForView(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     return-object p1
 .end method
@@ -150,7 +144,6 @@
 
 .method public loadFromContact(Lcom/android/contacts/common/list/ContactEntry;)V
     .locals 7
-    .param p1    # Lcom/android/contacts/common/list/ContactEntry;
 
     const/16 v4, 0x8
 
@@ -477,7 +470,6 @@
 
 .method public setHorizontalDividerVisibility(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/list/ContactTileView;->mHorizontalDivider:Landroid/view/View;
 
@@ -493,7 +485,6 @@
 
 .method public setListener(Lcom/android/contacts/common/list/ContactTileView$Listener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/list/ContactTileView$Listener;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactTileView;->mListener:Lcom/android/contacts/common/list/ContactTileView$Listener;
 
@@ -502,7 +493,6 @@
 
 .method public setPhotoManager(Lcom/android/contacts/common/ContactPhotoManager;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/ContactPhotoManager;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ContactTileView;->mPhotoManager:Lcom/android/contacts/common/ContactPhotoManager;
 

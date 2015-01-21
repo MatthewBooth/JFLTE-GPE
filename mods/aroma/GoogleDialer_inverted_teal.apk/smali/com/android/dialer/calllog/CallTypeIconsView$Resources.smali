@@ -31,7 +31,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 10
-    .param p1    # Landroid/content/Context;
 
     const v9, 0x7f090085
 

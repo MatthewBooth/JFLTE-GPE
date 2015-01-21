@@ -116,7 +116,6 @@
 # virtual methods
 .method public onAnimationCancel(Landroid/animation/Animator;)V
     .locals 0
-    .param p1    # Landroid/animation/Animator;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/PhotoSelectionActivity$4;->capturePhotoPos()V
 
@@ -125,7 +124,6 @@
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 2
-    .param p1    # Landroid/animation/Animator;
 
     invoke-direct {p0}, Lcom/android/contacts/activities/PhotoSelectionActivity$4;->capturePhotoPos()V
 

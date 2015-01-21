@@ -12,9 +12,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/android/gms/common/data/DataHolder;ILcom/google/android/gms/games/internal/player/PlayerColumnNames;)V
     .locals 0
-    .param p1    # Lcom/google/android/gms/common/data/DataHolder;
-    .param p2    # I
-    .param p3    # Lcom/google/android/gms/games/internal/player/PlayerColumnNames;
 
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/d;-><init>(Lcom/google/android/gms/common/data/DataHolder;I)V
 
@@ -35,7 +32,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/internal/player/MostRecentGameInfoEntity;->a(Lcom/google/android/gms/games/internal/player/MostRecentGameInfo;Ljava/lang/Object;)Z
 
@@ -170,8 +166,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/internal/player/MostRecentGameInfoRef;->lR()Lcom/google/android/gms/games/internal/player/MostRecentGameInfo;
 

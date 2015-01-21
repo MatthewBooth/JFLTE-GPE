@@ -63,8 +63,6 @@
 # direct methods
 .method public constructor <init>(II)V
     .locals 0
-    .param p1    # I
-    .param p2    # I
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
@@ -73,8 +71,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 5
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v4, -0x1
 
@@ -406,7 +402,6 @@
 # virtual methods
 .method public resolveLeftMargin(I)I
     .locals 3
-    .param p1    # I
 
     iget v1, p0, Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;->narrowMarginLeft:I
 
@@ -442,7 +437,6 @@
 
 .method public resolveLeftPadding(I)I
     .locals 3
-    .param p1    # I
 
     int-to-float v1, p1
 
@@ -466,7 +460,6 @@
 
 .method public resolveRightMargin(I)I
     .locals 3
-    .param p1    # I
 
     iget v1, p0, Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;->narrowMarginRight:I
 
@@ -502,7 +495,6 @@
 
 .method public resolveRightPadding(I)I
     .locals 3
-    .param p1    # I
 
     int-to-float v1, p1
 
@@ -526,7 +518,6 @@
 
 .method public resolveWidth(I)I
     .locals 3
-    .param p1    # I
 
     iget v1, p0, Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;->narrowWidth:I
 

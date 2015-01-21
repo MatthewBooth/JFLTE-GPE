@@ -92,7 +92,6 @@
 
 .method public constructor <init>(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, -0x1
 
@@ -103,8 +102,6 @@
 
 .method public constructor <init>(II)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
 
     const/4 v3, 0x1
 
@@ -163,9 +160,6 @@
 
 .method public constructor <init>(IIJ)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # J
 
     invoke-direct {p0, p1, p2}, Lcom/android/dialer/calllog/CallLogFragment;-><init>(II)V
 
@@ -176,7 +170,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/calllog/CallLogFragment;)Landroid/os/Handler;
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mHandler:Landroid/os/Handler;
 
@@ -185,8 +178,6 @@
 
 .method static synthetic access$102(Lcom/android/dialer/calllog/CallLogFragment;Z)Z
     .locals 0
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/calllog/CallLogFragment;->mRefreshDataRequired:Z
 
@@ -195,7 +186,6 @@
 
 .method static synthetic access$200(Lcom/android/dialer/calllog/CallLogFragment;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mFadeInDuration:I
 
@@ -204,7 +194,6 @@
 
 .method static synthetic access$300(Lcom/android/dialer/calllog/CallLogFragment;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mFadeInStartDelay:I
 
@@ -213,7 +202,6 @@
 
 .method static synthetic access$400(Lcom/android/dialer/calllog/CallLogFragment;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mFadeOutDuration:I
 
@@ -222,7 +210,6 @@
 
 .method static synthetic access$500(Lcom/android/dialer/calllog/CallLogFragment;)F
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mExpandedItemTranslationZ:F
 
@@ -231,7 +218,6 @@
 
 .method static synthetic access$600(Lcom/android/dialer/calllog/CallLogFragment;)I
     .locals 1
-    .param p0    # Lcom/android/dialer/calllog/CallLogFragment;
 
     iget v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mExpandCollapseDuration:I
 
@@ -370,7 +356,6 @@
 
 .method private setVoicemailSourcesAvailable(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-boolean v1, p0, Lcom/android/dialer/calllog/CallLogFragment;->mVoicemailSourcesAvailable:Z
 
@@ -406,8 +391,6 @@
 
 .method private updateCallList(IJ)V
     .locals 2
-    .param p1    # I
-    .param p2    # J
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mCallLogQueryHandler:Lcom/android/dialer/calllog/CallLogQueryHandler;
 
@@ -418,7 +401,6 @@
 
 .method private updateEmptyMessage(I)V
     .locals 4
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -512,7 +494,6 @@
 
 .method private updateOnTransition(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallLogFragment;->mKeyguardManager:Landroid/app/KeyguardManager;
 
@@ -555,7 +536,6 @@
 
 .method private updateVoicemailStatusMessage(Landroid/database/Cursor;)V
     .locals 6
-    .param p1    # Landroid/database/Cursor;
 
     const/16 v5, 0x8
 
@@ -669,7 +649,6 @@
 
 .method public getViewForCallId(J)Lcom/android/dialer/calllog/CallLogListItemView;
     .locals 9
-    .param p1    # J
 
     invoke-virtual {p0}, Lcom/android/dialer/calllog/CallLogFragment;->getListView()Landroid/widget/ListView;
 
@@ -728,7 +707,6 @@
 
 .method public onBadDataReported(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -753,7 +731,6 @@
 
 .method public onCallsFetched(Landroid/database/Cursor;)Z
     .locals 5
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v4, 0x5
 
@@ -835,7 +812,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 8
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v5, 0x1
 
@@ -1114,9 +1090,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
-    .param p3    # Landroid/os/Bundle;
 
     const v1, 0x7f04000c
 
@@ -1219,7 +1192,6 @@
 
 .method public onItemExpanded(Lcom/android/dialer/calllog/CallLogListItemView;)V
     .locals 6
-    .param p1    # Lcom/android/dialer/calllog/CallLogListItemView;
 
     invoke-virtual {p1}, Lcom/android/dialer/calllog/CallLogListItemView;->getHeight()I
 
@@ -1266,7 +1238,6 @@
 
 .method public onReportButtonClick(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Lcom/android/dialerbind/ObjectFactory;->getReportDialogFragment(Ljava/lang/String;)Landroid/app/DialogFragment;
 
@@ -1312,7 +1283,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsListFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -1397,8 +1367,6 @@
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2}, Lcom/android/dialerbind/analytics/AnalyticsListFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
@@ -1433,7 +1401,6 @@
 
 .method public onVoicemailStatusFetched(Landroid/database/Cursor;)V
     .locals 3
-    .param p1    # Landroid/database/Cursor;
 
     const/4 v2, 0x1
 
@@ -1487,7 +1454,6 @@
 
 .method public setHasFooterView(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/calllog/CallLogFragment;->mHasFooterView:Z
 
@@ -1498,7 +1464,6 @@
 
 .method public setMenuVisibility(Z)V
     .locals 1
-    .param p1    # Z
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsListFragment;->setMenuVisibility(Z)V
 

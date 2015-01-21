@@ -36,8 +36,6 @@
 # virtual methods
 .method public onAccountTypeUpdated(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/activities/GroupDetailActivity$1;->this$0:Lcom/android/contacts/activities/GroupDetailActivity;
 
@@ -58,7 +56,6 @@
 
 .method public onContactSelected(Landroid/net/Uri;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -75,7 +72,6 @@
 
 .method public onEditRequested(Landroid/net/Uri;)V
     .locals 3
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -100,7 +96,6 @@
 
 .method public onGroupSizeUpdated(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/activities/GroupDetailActivity$1;->this$0:Lcom/android/contacts/activities/GroupDetailActivity;
 
@@ -115,7 +110,6 @@
 
 .method public onGroupTitleUpdated(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/activities/GroupDetailActivity$1;->this$0:Lcom/android/contacts/activities/GroupDetailActivity;
 

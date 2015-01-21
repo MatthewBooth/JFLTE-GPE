@@ -58,7 +58,6 @@
 
 .method public evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -140,11 +139,6 @@
 
 .method public onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # J
 
     :try_start_0
     new-instance v0, Landroid/content/Intent;
@@ -208,8 +202,6 @@
 
 .method protected onMeasure(II)V
     .locals 9
-    .param p1    # I
-    .param p2    # I
 
     const v0, 0x7fffffff
 
@@ -454,7 +446,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
-    .param p1    # Landroid/view/MotionEvent;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ha;->sX:Lcom/google/android/gms/internal/k;
 

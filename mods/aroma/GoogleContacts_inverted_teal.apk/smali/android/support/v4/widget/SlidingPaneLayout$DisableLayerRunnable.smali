@@ -26,7 +26,6 @@
 # direct methods
 .method constructor <init>(Landroid/support/v4/widget/SlidingPaneLayout;Landroid/view/View;)V
     .locals 0
-    .param p2    # Landroid/view/View;
 
     iput-object p1, p0, Landroid/support/v4/widget/SlidingPaneLayout$DisableLayerRunnable;->this$0:Landroid/support/v4/widget/SlidingPaneLayout;
 

@@ -439,7 +439,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->editContact()V
 
@@ -448,7 +447,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/quickcontact/QuickContactActivity;)Landroid/graphics/drawable/ColorDrawable;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mWindowScrim:Landroid/graphics/drawable/ColorDrawable;
 
@@ -457,7 +455,6 @@
 
 .method static synthetic access$1000(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mIsEntranceAnimationFinished:Z
 
@@ -466,8 +463,6 @@
 
 .method static synthetic access$1002(Lcom/android/contacts/quickcontact/QuickContactActivity;Z)Z
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mIsEntranceAnimationFinished:Z
 
@@ -484,7 +479,6 @@
 
 .method static synthetic access$1200(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mHasAlreadyBeenOpened:Z
 
@@ -493,7 +487,6 @@
 
 .method static synthetic access$1300(Lcom/android/contacts/quickcontact/QuickContactActivity;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mExtraMode:I
 
@@ -502,7 +495,6 @@
 
 .method static synthetic access$1400(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/common/util/MaterialColorMapUtils;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mMaterialColorMapUtils:Lcom/android/contacts/common/util/MaterialColorMapUtils;
 
@@ -511,8 +503,6 @@
 
 .method static synthetic access$1500(Lcom/android/contacts/quickcontact/QuickContactActivity;Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->setThemeColor(Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;)V
 
@@ -521,8 +511,6 @@
 
 .method static synthetic access$1600(Lcom/android/contacts/quickcontact/QuickContactActivity;Lcom/android/contacts/common/model/Contact;)Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->generateDataModelFromContact(Lcom/android/contacts/common/model/Contact;)Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
@@ -533,8 +521,6 @@
 
 .method static synthetic access$1700(Lcom/android/contacts/quickcontact/QuickContactActivity;Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->bindDataToCards(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
 
@@ -543,7 +529,6 @@
 
 .method static synthetic access$1800(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->showActivity()V
 
@@ -552,7 +537,6 @@
 
 .method static synthetic access$1900(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->runEntranceAnimation()V
 
@@ -561,8 +545,6 @@
 
 .method static synthetic access$202(Lcom/android/contacts/quickcontact/QuickContactActivity;Z)Z
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mHasIntentLaunched:Z
 
@@ -571,8 +553,6 @@
 
 .method static synthetic access$2200(Lcom/android/contacts/quickcontact/QuickContactActivity;Landroid/graphics/Bitmap;)I
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Landroid/graphics/Bitmap;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->colorFromBitmap(Landroid/graphics/Bitmap;)I
 
@@ -583,7 +563,6 @@
 
 .method static synthetic access$2300(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mHasComputedThemeColor:Z
 
@@ -592,8 +571,6 @@
 
 .method static synthetic access$2302(Lcom/android/contacts/quickcontact/QuickContactActivity;Z)Z
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mHasComputedThemeColor:Z
 
@@ -602,7 +579,6 @@
 
 .method static synthetic access$2400(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/widget/QuickContactImageView;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mPhotoView:Lcom/android/contacts/widget/QuickContactImageView;
 
@@ -611,8 +587,6 @@
 
 .method static synthetic access$2500(Lcom/android/contacts/quickcontact/QuickContactActivity;Lcom/android/contacts/common/model/Contact;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->bindContactData(Lcom/android/contacts/common/model/Contact;)V
 
@@ -621,7 +595,6 @@
 
 .method static synthetic access$2600(Lcom/android/contacts/quickcontact/QuickContactActivity;)Landroid/net/Uri;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mLookupUri:Landroid/net/Uri;
 
@@ -646,7 +619,6 @@
 
 .method static synthetic access$2900(Lcom/android/contacts/quickcontact/QuickContactActivity;)Ljava/util/Map;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mRecentLoaderResults:Ljava/util/Map;
 
@@ -655,7 +627,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/widget/MultiShrinkScroller;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mScroller:Lcom/android/contacts/widget/MultiShrinkScroller;
 
@@ -664,7 +635,6 @@
 
 .method static synthetic access$3000(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->isAllRecentDataLoaded()Z
 
@@ -675,7 +645,6 @@
 
 .method static synthetic access$3100(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->bindRecentData()V
 
@@ -684,8 +653,6 @@
 
 .method static synthetic access$3200(Lcom/android/contacts/quickcontact/QuickContactActivity;Ljava/util/List;)Ljava/util/List;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Ljava/util/List;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->contactInteractionsToEntries(Ljava/util/List;)Ljava/util/List;
 
@@ -696,7 +663,6 @@
 
 .method static synthetic access$3300(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mRecentCard:Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
@@ -705,7 +671,6 @@
 
 .method static synthetic access$3400(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mAboutCard:Lcom/android/contacts/quickcontact/ExpandingEntryCardView;
 
@@ -714,8 +679,6 @@
 
 .method static synthetic access$3502(Lcom/android/contacts/quickcontact/QuickContactActivity;Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Landroid/os/AsyncTask;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mRecentDataTask:Landroid/os/AsyncTask;
 
@@ -724,7 +687,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->isContactEditable()Z
 
@@ -735,7 +697,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mOnlyOnePhoneNumber:Z
 
@@ -744,7 +705,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/quickcontact/QuickContactActivity;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-boolean v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mOnlyOneEmail:Z
 
@@ -753,7 +713,6 @@
 
 .method static synthetic access$700(Lcom/android/contacts/quickcontact/QuickContactActivity;)Lcom/android/contacts/common/model/Contact;
     .locals 1
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mContactData:Lcom/android/contacts/common/model/Contact;
 
@@ -762,8 +721,6 @@
 
 .method static synthetic access$702(Lcom/android/contacts/quickcontact/QuickContactActivity;Lcom/android/contacts/common/model/Contact;)Lcom/android/contacts/common/model/Contact;
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     iput-object p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mContactData:Lcom/android/contacts/common/model/Contact;
 
@@ -772,7 +729,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/quickcontact/QuickContactActivity;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
 
     invoke-direct {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->updateStatusBarColor()V
 
@@ -781,8 +737,6 @@
 
 .method static synthetic access$902(Lcom/android/contacts/quickcontact/QuickContactActivity;Z)Z
     .locals 0
-    .param p0    # Lcom/android/contacts/quickcontact/QuickContactActivity;
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mIsExitAnimationInProgress:Z
 
@@ -813,7 +767,6 @@
 
 .method private bindContactData(Lcom/android/contacts/common/model/Contact;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     const-string v0, "bindContactData"
 
@@ -880,7 +833,6 @@
 
 .method private bindDataToCards(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/quickcontact/QuickContactActivity;->startInteractionLoaders(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
 
@@ -992,7 +944,6 @@
 
 .method private colorFromBitmap(Landroid/graphics/Bitmap;)I
     .locals 3
-    .param p1    # Landroid/graphics/Bitmap;
 
     const/16 v0, 0x18
 
@@ -1158,10 +1109,6 @@
 
 .method private static dataItemToEntry(Lcom/android/contacts/common/model/dataitem/DataItem;Landroid/content/Context;Lcom/android/contacts/common/model/Contact;Lcom/android/contacts/quickcontact/QuickContactActivity$MutableString;)Lcom/android/contacts/quickcontact/ExpandingEntryCardView$Entry;
     .locals 69
-    .param p0    # Lcom/android/contacts/common/model/dataitem/DataItem;
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/contacts/common/model/Contact;
-    .param p3    # Lcom/android/contacts/quickcontact/QuickContactActivity$MutableString;
 
     const/16 v44, 0x0
 
@@ -3101,7 +3048,6 @@
 
 .method private dataItemsToEntries(Ljava/util/List;Lcom/android/contacts/quickcontact/QuickContactActivity$MutableString;)Ljava/util/List;
     .locals 5
-    .param p2    # Lcom/android/contacts/quickcontact/QuickContactActivity$MutableString;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3208,7 +3154,6 @@
 
 .method private generateDataModelFromContact(Lcom/android/contacts/common/model/Contact;)Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
     .locals 26
-    .param p1    # Lcom/android/contacts/common/model/Contact;
 
     const-string v23, "Build data items map"
 
@@ -3587,8 +3532,6 @@
 
 .method private static getIntentResolveLabel(Landroid/content/Intent;Landroid/content/Context;)Ljava/lang/String;
     .locals 6
-    .param p0    # Landroid/content/Intent;
-    .param p1    # Landroid/content/Context;
 
     const/4 v5, 0x1
 
@@ -3658,7 +3601,6 @@
 
 .method private getPreAuthorizedUri(Landroid/net/Uri;)Landroid/net/Uri;
     .locals 6
-    .param p1    # Landroid/net/Uri;
 
     new-instance v1, Landroid/os/Bundle;
 
@@ -4009,7 +3951,6 @@
 
 .method private isMimeExcluded(Ljava/lang/String;)Z
     .locals 6
-    .param p1    # Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -4086,7 +4027,6 @@
 
 .method private populateContactAndAboutCard(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
     .locals 29
-    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
     move-object/from16 v0, p1
 
@@ -4446,7 +4386,6 @@
 
 .method private processIntent(Landroid/content/Intent;)V
     .locals 13
-    .param p1    # Landroid/content/Intent;
 
     const/4 v12, 0x0
 
@@ -4635,7 +4574,6 @@
 
 .method private setHeaderNameText(I)V
     .locals 2
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/quickcontact/QuickContactActivity;->mScroller:Lcom/android/contacts/widget/MultiShrinkScroller;
 
@@ -4671,7 +4609,6 @@
 
 .method private setHeaderNameText(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4693,7 +4630,6 @@
 
 .method private setThemeColor(Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;)V
     .locals 3
-    .param p1    # Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;
 
     iget v0, p1, Lcom/android/contacts/common/util/MaterialColorMapUtils$MaterialPalette;->mPrimaryColor:I
 
@@ -4843,7 +4779,6 @@
 
 .method private startInteractionLoaders(Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;)V
     .locals 12
-    .param p1    # Lcom/android/contacts/quickcontact/QuickContactActivity$Cp2DataCardModel;
 
     const/4 v11, 0x1
 
@@ -5026,7 +4961,6 @@
 
 .method private toggleStar(Landroid/view/MenuItem;)V
     .locals 8
-    .param p1    # Landroid/view/MenuItem;
 
     const/4 v4, 0x1
 
@@ -5194,7 +5128,6 @@
 # virtual methods
 .method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
-    .param p1    # Landroid/view/MotionEvent;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -5242,9 +5175,6 @@
 
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -5299,7 +5229,6 @@
 
 .method public onContextItemSelected(Landroid/view/MenuItem;)Z
     .locals 8
-    .param p1    # Landroid/view/MenuItem;
 
     const/4 v4, 0x1
 
@@ -5411,7 +5340,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 10
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v9, 0x0
 
@@ -5787,7 +5715,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 2
-    .param p1    # Landroid/view/Menu;
 
     invoke-virtual {p0}, Lcom/android/contacts/quickcontact/QuickContactActivity;->getMenuInflater()Landroid/view/MenuInflater;
 
@@ -5804,7 +5731,6 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -5825,7 +5751,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 9
-    .param p1    # Landroid/view/MenuItem;
 
     const/4 v5, 0x1
 
@@ -6045,7 +5970,6 @@
 
 .method public onPrepareOptionsMenu(Landroid/view/Menu;)Z
     .locals 9
-    .param p1    # Landroid/view/Menu;
 
     const/4 v4, 0x1
 
@@ -6193,7 +6117,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 

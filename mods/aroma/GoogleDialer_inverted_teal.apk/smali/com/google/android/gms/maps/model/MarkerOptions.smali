@@ -90,20 +90,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/maps/model/LatLng;Ljava/lang/String;Ljava/lang/String;Landroid/os/IBinder;FFZZZFFFF)V
     .locals 3
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/maps/model/LatLng;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Ljava/lang/String;
-    .param p5    # Landroid/os/IBinder;
-    .param p6    # F
-    .param p7    # F
-    .param p8    # Z
-    .param p9    # Z
-    .param p10    # Z
-    .param p11    # F
-    .param p12    # F
-    .param p13    # F
-    .param p14    # F
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -332,8 +318,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {}, Lcom/google/android/gms/maps/internal/v;->nK()Z
 

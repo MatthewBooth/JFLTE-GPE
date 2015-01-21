@@ -50,7 +50,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;Ljava/io/File;)V
     .locals 3
-    .param p2    # Ljava/io/File;
 
     const/4 v1, 0x0
 
@@ -93,7 +92,6 @@
 
 .method private getVCardFileRecursively(Ljava/io/File;)V
     .locals 13
-    .param p1    # Ljava/io/File;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardScanThread$CanceledException;,
@@ -278,7 +276,6 @@
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
 
     const/4 v0, 0x1
 
@@ -289,8 +286,6 @@
 
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     const/4 v0, -0x2
 

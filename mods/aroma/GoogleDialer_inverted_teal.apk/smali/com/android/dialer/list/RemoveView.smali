@@ -20,7 +20,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
@@ -29,8 +28,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, -0x1
 
@@ -41,9 +38,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -94,7 +88,6 @@
 # virtual methods
 .method public onDragEvent(Landroid/view/DragEvent;)Z
     .locals 5
-    .param p1    # Landroid/view/DragEvent;
 
     const/4 v4, 0x1
 
@@ -234,7 +227,6 @@
 
 .method public setDragDropController(Lcom/android/dialer/list/DragDropController;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/list/DragDropController;
 
     iput-object p1, p0, Lcom/android/dialer/list/RemoveView;->mDragDropController:Lcom/android/dialer/list/DragDropController;
 

@@ -45,7 +45,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;Ljava/util/concurrent/atomic/AtomicInteger;)V
     .locals 1
-    .param p2    # Ljava/util/concurrent/atomic/AtomicInteger;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TV;",

@@ -62,13 +62,6 @@
 
 .method constructor <init>(IZLjava/util/List;Ljava/util/List;ZIIZI)V
     .locals 0
-    .param p1    # I
-    .param p2    # Z
-    .param p5    # Z
-    .param p6    # I
-    .param p7    # I
-    .param p8    # Z
-    .param p9    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IZ",
@@ -120,8 +113,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     sget-object v0, Lcom/google/android/gms/appdatasearch/QuerySpecification;->CREATOR:Lcom/google/android/gms/appdatasearch/w;
 

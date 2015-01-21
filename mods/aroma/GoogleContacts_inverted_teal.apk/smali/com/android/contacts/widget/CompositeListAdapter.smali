@@ -36,7 +36,6 @@
 
 .method public constructor <init>(I)V
     .locals 3
-    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -81,7 +80,6 @@
 # virtual methods
 .method addAdapter(Landroid/widget/ListAdapter;)V
     .locals 9
-    .param p1    # Landroid/widget/ListAdapter;
 
     const/4 v8, 0x0
 
@@ -297,7 +295,6 @@
 
 .method public getItem(I)Ljava/lang/Object;
     .locals 5
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/CompositeListAdapter;->ensureCacheValid()V
 
@@ -351,7 +348,6 @@
 
 .method public getItemId(I)J
     .locals 6
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/CompositeListAdapter;->ensureCacheValid()V
 
@@ -405,7 +401,6 @@
 
 .method public getItemViewType(I)I
     .locals 6
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/CompositeListAdapter;->ensureCacheValid()V
 
@@ -469,9 +464,6 @@
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/CompositeListAdapter;->ensureCacheValid()V
 
@@ -545,7 +537,6 @@
 
 .method public isEnabled(I)Z
     .locals 5
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/widget/CompositeListAdapter;->ensureCacheValid()V
 

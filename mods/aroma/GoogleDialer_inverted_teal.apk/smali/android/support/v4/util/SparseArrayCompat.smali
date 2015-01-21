@@ -57,7 +57,6 @@
 
 .method public constructor <init>(I)V
     .locals 2
-    .param p1    # I
 
     const/4 v1, 0x0
 
@@ -251,7 +250,6 @@
 
 .method public keyAt(I)I
     .locals 1
-    .param p1    # I
 
     iget-boolean v0, p0, Landroid/support/v4/util/SparseArrayCompat;->mGarbage:Z
 
@@ -367,7 +365,6 @@
 
 .method public valueAt(I)Ljava/lang/Object;
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TE;"

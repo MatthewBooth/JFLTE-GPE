@@ -35,7 +35,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;)Z
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
     iget-boolean v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->mUngrouped:Z
 
@@ -44,7 +43,6 @@
 
 .method public static fromAfter(Landroid/content/ContentValues;)Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
     .locals 2
-    .param p0    # Landroid/content/ContentValues;
 
     new-instance v0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
@@ -61,7 +59,6 @@
 
 .method public static fromBefore(Landroid/content/ContentValues;)Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
     .locals 2
-    .param p0    # Landroid/content/ContentValues;
 
     new-instance v0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
 
@@ -80,11 +77,6 @@
 
 .method public static fromSettings(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
     .locals 9
-    .param p0    # Landroid/content/ContentResolver;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # Z
 
     const/4 v3, 0x0
 
@@ -549,7 +541,6 @@
 
 .method public getTitle(Landroid/content/Context;)Ljava/lang/CharSequence;
     .locals 6
-    .param p1    # Landroid/content/Context;
 
     iget-boolean v3, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->mUngrouped:Z
 
@@ -675,7 +666,6 @@
 
 .method public putShouldSync(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->mUngrouped:Z
 
@@ -710,7 +700,6 @@
 
 .method public putVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;->mUngrouped:Z
 
@@ -745,7 +734,6 @@
 
 .method protected setUngrouped(Z)Lcom/android/contacts/common/list/CustomContactListFilterActivity$GroupDelta;
     .locals 1
-    .param p1    # Z
 
     const/4 v0, 0x1
 

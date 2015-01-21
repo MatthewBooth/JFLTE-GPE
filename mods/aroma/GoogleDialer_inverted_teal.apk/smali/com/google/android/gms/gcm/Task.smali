@@ -38,7 +38,6 @@
 
 .method constructor <init>(Landroid/os/Parcel;)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
 
     const/4 v2, 0x0
 
@@ -103,8 +102,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     const/4 v1, 0x1
 

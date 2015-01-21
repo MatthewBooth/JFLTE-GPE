@@ -47,8 +47,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Lcom/android/incallui/AudioModeProvider;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lcom/android/incallui/AudioModeProvider;
 
     const/4 v0, 0x0
 
@@ -357,7 +355,6 @@
 
 .method public onAudioMode(I)V
     .locals 0
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/incallui/ProximitySensor;->updateProximitySensorMode()V
 
@@ -366,7 +363,6 @@
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 2
-    .param p1    # Landroid/content/res/Configuration;
 
     const/4 v0, 0x1
 
@@ -389,7 +385,6 @@
 
 .method public onDialpadVisible(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/incallui/ProximitySensor;->mDialpadVisible:Z
 
@@ -400,7 +395,6 @@
 
 .method public onInCallShowing(Z)V
     .locals 1
-    .param p1    # Z
 
     if-eqz p1, :cond_1
 
@@ -432,16 +426,12 @@
 
 .method public onMute(Z)V
     .locals 0
-    .param p1    # Z
 
     return-void
 .end method
 
 .method public onStateChange(Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/InCallPresenter$InCallState;Lcom/android/incallui/CallList;)V
     .locals 5
-    .param p1    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p2    # Lcom/android/incallui/InCallPresenter$InCallState;
-    .param p3    # Lcom/android/incallui/CallList;
 
     const/4 v2, 0x1
 
@@ -502,14 +492,12 @@
 
 .method public onSupportedAudioMode(I)V
     .locals 0
-    .param p1    # I
 
     return-void
 .end method
 
 .method public orientationChanged(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/ProximitySensor;->mOrientation:I
 

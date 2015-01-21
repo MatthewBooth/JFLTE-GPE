@@ -181,7 +181,6 @@
 
 .method private createDirectoryIfDoesNotExist(Ljava/io/File;)V
     .locals 3
-    .param p1    # Ljava/io/File;
 
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
@@ -275,8 +274,6 @@
 
 .method private deleteFile(Ljava/lang/String;Z)Z
     .locals 2
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     if-eqz p2, :cond_0
 
@@ -301,7 +298,6 @@
 
 .method private deleteFiles(Ljava/lang/String;)Z
     .locals 4
-    .param p1    # Ljava/lang/String;
 
     const/4 v3, 0x1
 
@@ -328,7 +324,6 @@
 
 .method private getE164Number(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheProvider;->getContext()Landroid/content/Context;
 
@@ -347,7 +342,6 @@
 
 .method private getNumberFromUri(Landroid/net/Uri;)Ljava/lang/String;
     .locals 3
-    .param p1    # Landroid/net/Uri;
 
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
@@ -383,7 +377,6 @@
 
 .method private getNumberFromValues(Landroid/content/ContentValues;)Ljava/lang/String;
     .locals 3
-    .param p1    # Landroid/content/ContentValues;
 
     const-string v1, "number"
 
@@ -418,7 +411,6 @@
 
 .method private getPhotoForNumber(Ljava/lang/String;)Ljava/io/File;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     new-instance v0, Ljava/io/File;
 
@@ -431,7 +423,6 @@
 
 .method private getThumbnailForNumber(Ljava/lang/String;)Ljava/io/File;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     new-instance v0, Ljava/io/File;
 
@@ -444,7 +435,6 @@
 
 .method private isNumberInCache(Ljava/lang/String;)Z
     .locals 7
-    .param p1    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -482,8 +472,6 @@
 
 .method private openFileForRead(Ljava/lang/String;Z)Landroid/os/ParcelFileDescriptor;
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
@@ -550,8 +538,6 @@
 
 .method private openFileForWrite(Ljava/lang/String;Z)Landroid/os/ParcelFileDescriptor;
     .locals 5
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     const/4 v2, 0x0
 
@@ -617,9 +603,6 @@
 
 .method private setHavePhoto(Ljava/lang/String;ZZ)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
-    .param p3    # Z
 
     if-eqz p2, :cond_0
 
@@ -710,9 +693,6 @@
 # virtual methods
 .method public delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 6
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # [Ljava/lang/String;
 
     sget-object v3, Lcom/google/android/dialer/phonenumbercache/PhoneNumberCacheProvider;->sUriMatcher:Landroid/content/UriMatcher;
 
@@ -770,7 +750,6 @@
 
 .method public getType(Landroid/net/Uri;)Ljava/lang/String;
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     const/4 v0, 0x0
 
@@ -779,8 +758,6 @@
 
 .method public insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
     .locals 12
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/ContentValues;
 
     const/4 v8, 0x0
 
@@ -1014,8 +991,6 @@
 
 .method public openFile(Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
     .locals 7
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
@@ -1121,11 +1096,6 @@
 
 .method public query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 10
-    .param p1    # Landroid/net/Uri;
-    .param p2    # [Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
 
     const/4 v5, 0x0
 
@@ -1187,10 +1157,6 @@
 
 .method public update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/ContentValues;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [Ljava/lang/String;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 

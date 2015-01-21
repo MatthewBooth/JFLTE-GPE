@@ -41,13 +41,6 @@
 
 .method constructor <init>(ILjava/lang/String;JJ[BILjava/lang/String;)V
     .locals 1
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # J
-    .param p5    # J
-    .param p7    # [B
-    .param p8    # I
-    .param p9    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -70,7 +63,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/quest/Milestone;)V
     .locals 4
-    .param p1    # Lcom/google/android/gms/games/quest/Milestone;
 
     const/4 v3, 0x0
 
@@ -425,7 +417,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/quest/MilestoneEntity;->a(Lcom/google/android/gms/games/quest/Milestone;Ljava/lang/Object;)Z
 
@@ -528,8 +519,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/games/quest/MilestoneEntityCreator;->a(Lcom/google/android/gms/games/quest/MilestoneEntity;Landroid/os/Parcel;I)V
 

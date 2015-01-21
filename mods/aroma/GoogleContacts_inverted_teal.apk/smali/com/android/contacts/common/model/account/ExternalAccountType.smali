@@ -75,9 +75,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Z)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Z
 
     const/4 v0, 0x0
 
@@ -88,10 +85,6 @@
 
 .method constructor <init>(Landroid/content/Context;Ljava/lang/String;ZLandroid/content/res/XmlResourceParser;)V
     .locals 9
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Z
-    .param p4    # Landroid/content/res/XmlResourceParser;
 
     invoke-direct {p0}, Lcom/android/contacts/common/model/account/BaseAccountType;-><init>()V
 
@@ -303,7 +296,6 @@
 
 .method private checkKindExists(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;
@@ -346,8 +338,6 @@
 
 .method private loadContactsXml(Landroid/content/Context;Ljava/lang/String;)Landroid/content/res/XmlResourceParser;
     .locals 17
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/content/pm/PackageManager$NameNotFoundException;
@@ -464,10 +454,6 @@
 
 .method static resolveExternalResId(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
     .locals 8
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     const/4 v4, -0x1
 
@@ -697,8 +683,6 @@
 
 .method protected inflate(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
     .locals 20
-    .param p1    # Landroid/content/Context;
-    .param p2    # Lorg/xmlpull/v1/XmlPullParser;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/android/contacts/common/model/account/AccountType$DefinitionException;

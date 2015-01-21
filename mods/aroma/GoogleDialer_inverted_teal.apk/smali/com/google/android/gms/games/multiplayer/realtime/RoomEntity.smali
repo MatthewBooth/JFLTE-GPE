@@ -72,15 +72,6 @@
 
 .method constructor <init>(ILjava/lang/String;Ljava/lang/String;JILjava/lang/String;ILandroid/os/Bundle;Ljava/util/ArrayList;I)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # J
-    .param p6    # I
-    .param p7    # Ljava/lang/String;
-    .param p8    # I
-    .param p9    # Landroid/os/Bundle;
-    .param p11    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -124,7 +115,6 @@
 
 .method public constructor <init>(Lcom/google/android/gms/games/multiplayer/realtime/Room;)V
     .locals 5
-    .param p1    # Lcom/google/android/gms/games/multiplayer/realtime/Room;
 
     invoke-direct {p0}, Lcom/google/android/gms/games/internal/GamesDowngradeableSafeParcel;-><init>()V
 
@@ -677,7 +667,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/games/multiplayer/realtime/RoomEntity;->a(Lcom/google/android/gms/games/multiplayer/realtime/Room;Ljava/lang/Object;)Z
 
@@ -817,8 +806,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/google/android/gms/games/multiplayer/realtime/RoomEntity;->gP()Z
 

@@ -32,7 +32,6 @@
 
 .method private static addHeaders(Ljava/net/HttpURLConnection;Ljava/util/List;)V
     .locals 4
-    .param p0    # Ljava/net/HttpURLConnection;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -84,9 +83,6 @@
 
 .method public static getRequestAsByteArray(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)[B
     .locals 20
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -498,9 +494,6 @@
 
 .method public static getRequestAsString(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;
     .locals 4
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -556,8 +549,6 @@
 
 .method private static handleBadResponse(Ljava/lang/String;[B)V
     .locals 3
-    .param p0    # Ljava/lang/String;
-    .param p1    # [B
 
     sget-object v0, Lcom/google/android/dialer/util/HttpFetcher;->TAG:Ljava/lang/String;
 
@@ -594,7 +585,6 @@
 
 .method private static obfuscateUrl(Ljava/lang/String;)Ljava/lang/String;
     .locals 8
-    .param p0    # Ljava/lang/String;
 
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -699,8 +689,6 @@
 
 .method private static reWriteUrl(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 

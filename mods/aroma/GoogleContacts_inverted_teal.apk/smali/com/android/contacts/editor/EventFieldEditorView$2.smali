@@ -48,10 +48,6 @@
 # virtual methods
 .method public onDateSet(Lcom/android/contacts/datepicker/DatePicker;III)V
     .locals 8
-    .param p1    # Lcom/android/contacts/datepicker/DatePicker;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     const/4 v5, 0x0
 

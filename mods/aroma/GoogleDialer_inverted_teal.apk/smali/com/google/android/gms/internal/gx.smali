@@ -5,7 +5,6 @@
 # direct methods
 .method public static d(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x3
 
@@ -57,7 +56,6 @@
 
 .method public static w(Ljava/lang/String;)V
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     const/4 v0, 0x5
 

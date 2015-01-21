@@ -48,9 +48,6 @@
 
 .method public static show(Landroid/app/FragmentManager;Ljava/util/ArrayList;ILjava/lang/String;)V
     .locals 4
-    .param p0    # Landroid/app/FragmentManager;
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -104,8 +101,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 8
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     invoke-virtual {p0}, Lcom/android/dialer/interactions/PhoneNumberInteraction$PhoneDisambiguationDialogFragment;->getActivity()Landroid/app/Activity;
 
@@ -181,7 +176,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 6
-    .param p1    # Landroid/os/Bundle;
 
     invoke-virtual {p0}, Lcom/android/dialer/interactions/PhoneNumberInteraction$PhoneDisambiguationDialogFragment;->getActivity()Landroid/app/Activity;
 

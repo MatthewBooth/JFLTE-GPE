@@ -21,7 +21,6 @@
 # direct methods
 .method constructor <init>(Ljava/lang/String;Landroid/content/ContentResolver;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p2, p0, Lcom/google/android/gsf/Gservices$1;->val$cr:Landroid/content/ContentResolver;
 

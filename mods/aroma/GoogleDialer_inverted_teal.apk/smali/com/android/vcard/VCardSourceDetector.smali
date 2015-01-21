@@ -341,7 +341,6 @@
 
 .method public onPropertyCreated(Lcom/android/vcard/VCardProperty;)V
     .locals 9
-    .param p1    # Lcom/android/vcard/VCardProperty;
 
     const/4 v8, 0x3
 

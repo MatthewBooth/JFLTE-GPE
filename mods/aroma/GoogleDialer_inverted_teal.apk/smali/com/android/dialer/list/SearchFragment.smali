@@ -40,7 +40,6 @@
 
 .method static synthetic access$000(Lcom/android/dialer/list/SearchFragment;)Lcom/android/dialer/list/OnListFragmentScrolledListener;
     .locals 1
-    .param p0    # Lcom/android/dialer/list/SearchFragment;
 
     iget-object v0, p0, Lcom/android/dialer/list/SearchFragment;->mActivityScrollListener:Lcom/android/dialer/list/OnListFragmentScrolledListener;
 
@@ -75,7 +74,6 @@
 
 .method public onAttach(Landroid/app/Activity;)V
     .locals 5
-    .param p1    # Landroid/app/Activity;
 
     const/4 v3, 0x1
 
@@ -146,8 +144,6 @@
 
 .method protected onItemClick(IJ)V
     .locals 8
-    .param p1    # I
-    .param p2    # J
 
     invoke-virtual {p0}, Lcom/android/dialer/list/SearchFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -355,8 +351,6 @@
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/os/Bundle;
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
@@ -375,7 +369,6 @@
 
 .method public setAddToContactNumber(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/dialer/list/SearchFragment;->mAddToContactNumber:Ljava/lang/String;
 
@@ -384,7 +377,6 @@
 
 .method protected setSearchMode(Z)V
     .locals 2
-    .param p1    # Z
 
     const/4 v1, 0x0
 
@@ -404,7 +396,6 @@
 
 .method public updatePosition(Z)V
     .locals 10
-    .param p1    # Z
 
     const/4 v6, 0x0
 

@@ -74,10 +74,6 @@
 
 .method public constructor <init>(Ljava/lang/String;IIZ)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -132,7 +128,6 @@
 
 .method public static toString(Ljava/text/SimpleDateFormat;)Ljava/lang/String;
     .locals 1
-    .param p0    # Ljava/text/SimpleDateFormat;
 
     if-nez p0, :cond_0
 

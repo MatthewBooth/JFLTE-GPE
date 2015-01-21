@@ -93,8 +93,6 @@
 # virtual methods
 .method public invalidateChildRegion(Landroid/support/v4/widget/SlidingPaneLayout;Landroid/view/View;)V
     .locals 3
-    .param p1    # Landroid/support/v4/widget/SlidingPaneLayout;
-    .param p2    # Landroid/view/View;
 
     iget-object v1, p0, Landroid/support/v4/widget/SlidingPaneLayout$SlidingPanelLayoutImplJB;->mGetDisplayList:Ljava/lang/reflect/Method;
 

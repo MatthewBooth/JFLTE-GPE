@@ -21,8 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroid/view/inputmethod/InputConnection;Lcom/android/ex/editstyledtext/EditStyledText;)V
     .locals 1
-    .param p1    # Landroid/view/inputmethod/InputConnection;
-    .param p2    # Lcom/android/ex/editstyledtext/EditStyledText;
 
     const/4 v0, 0x1
 
@@ -37,8 +35,6 @@
 # virtual methods
 .method public commitText(Ljava/lang/CharSequence;I)Z
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
 
     const-string v0, "EditStyledText"
 

@@ -64,7 +64,6 @@
 
 .method protected getPhoneUri(I)Landroid/net/Uri;
     .locals 2
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/dialer/list/SmartDialSearchFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -81,8 +80,6 @@
 
 .method public onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;
     .locals 3
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",

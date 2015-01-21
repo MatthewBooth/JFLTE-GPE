@@ -46,8 +46,6 @@
 # virtual methods
 .method public compare(Lcom/android/contacts/common/list/ContactEntry;Lcom/android/contacts/common/list/ContactEntry;)I
     .locals 3
-    .param p1    # Lcom/android/contacts/common/list/ContactEntry;
-    .param p2    # Lcom/android/contacts/common/list/ContactEntry;
 
     invoke-static {}, Lcom/google/common/collect/ComparisonChain;->start()Lcom/google/common/collect/ComparisonChain;
 
@@ -78,8 +76,6 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/list/ContactEntry;
 

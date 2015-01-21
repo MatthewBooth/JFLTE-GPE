@@ -23,7 +23,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/list/PinnedHeaderListAdapter;-><init>(Landroid/content/Context;)V
 
@@ -36,8 +35,6 @@
 
 .method static synthetic access$002(Lcom/android/contacts/widget/PinnedHeaderListDemoActivity$TestPinnedHeaderListAdapter;I)I
     .locals 0
-    .param p0    # Lcom/android/contacts/widget/PinnedHeaderListDemoActivity$TestPinnedHeaderListAdapter;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/widget/PinnedHeaderListDemoActivity$TestPinnedHeaderListAdapter;->mPinnedHeaderCount:I
 
@@ -48,9 +45,6 @@
 # virtual methods
 .method protected bindHeaderView(Landroid/view/View;ILandroid/database/Cursor;)V
     .locals 2
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
 
     const v1, 0x7f0e00ba
 
@@ -71,10 +65,6 @@
 
 .method protected bindView(Landroid/view/View;ILandroid/database/Cursor;I)V
     .locals 2
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # I
 
     const v1, 0x1020014
 
@@ -105,9 +95,6 @@
 
 .method public getPinnedHeaderView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 4
-    .param p1    # I
-    .param p2    # Landroid/view/View;
-    .param p3    # Landroid/view/ViewGroup;
 
     const/4 v3, 0x0
 
@@ -138,10 +125,6 @@
 
 .method protected newHeaderView(Landroid/content/Context;ILandroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # Landroid/view/ViewGroup;
 
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -160,11 +143,6 @@
 
 .method protected newView(Landroid/content/Context;ILandroid/database/Cursor;ILandroid/view/ViewGroup;)Landroid/view/View;
     .locals 3
-    .param p1    # Landroid/content/Context;
-    .param p2    # I
-    .param p3    # Landroid/database/Cursor;
-    .param p4    # I
-    .param p5    # Landroid/view/ViewGroup;
 
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -183,7 +161,6 @@
 
 .method public setHeaders([Ljava/lang/String;)V
     .locals 0
-    .param p1    # [Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/widget/PinnedHeaderListDemoActivity$TestPinnedHeaderListAdapter;->mHeaders:[Ljava/lang/String;
 

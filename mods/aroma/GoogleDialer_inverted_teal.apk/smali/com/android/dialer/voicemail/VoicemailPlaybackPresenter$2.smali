@@ -44,7 +44,6 @@
 # virtual methods
 .method public varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Exception;
     .locals 4
-    .param p1    # [Ljava/lang/Void;
 
     :try_start_0
     iget-object v1, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$2;->this$0:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter;
@@ -138,7 +137,6 @@
 
 .method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -151,7 +149,6 @@
 
 .method public onPostExecute(Ljava/lang/Exception;)V
     .locals 1
-    .param p1    # Ljava/lang/Exception;
 
     if-nez p1, :cond_0
 
@@ -178,7 +175,6 @@
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Exception;
 

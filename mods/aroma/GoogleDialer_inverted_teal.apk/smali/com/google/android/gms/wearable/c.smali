@@ -74,7 +74,6 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wearable/c;->hC(Landroid/os/Parcel;)Lcom/google/android/gms/wearable/PutDataRequest;
 
@@ -263,7 +262,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/wearable/c;->kc(I)[Lcom/google/android/gms/wearable/PutDataRequest;
 

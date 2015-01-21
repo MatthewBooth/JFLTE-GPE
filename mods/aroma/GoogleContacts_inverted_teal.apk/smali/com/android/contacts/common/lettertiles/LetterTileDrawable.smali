@@ -70,7 +70,6 @@
 
 .method public constructor <init>(Landroid/content/res/Resources;)V
     .locals 4
-    .param p1    # Landroid/content/res/Resources;
 
     const/4 v3, 0x0
 
@@ -202,10 +201,6 @@
 
 .method private drawBitmap(Landroid/graphics/Bitmap;IILandroid/graphics/Canvas;)V
     .locals 9
-    .param p1    # Landroid/graphics/Bitmap;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # Landroid/graphics/Canvas;
 
     const/4 v8, 0x0
 
@@ -310,7 +305,6 @@
 
 .method private drawLetterTile(Landroid/graphics/Canvas;)V
     .locals 10
-    .param p1    # Landroid/graphics/Canvas;
 
     const/4 v3, 0x1
 
@@ -511,7 +505,6 @@
 
 .method private static getBitmapForContactType(I)Landroid/graphics/Bitmap;
     .locals 1
-    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -547,7 +540,6 @@
 
 .method private static isEnglishLetter(C)Z
     .locals 1
-    .param p0    # C
 
     const/16 v0, 0x41
 
@@ -580,7 +572,6 @@
 
 .method private pickColor(Ljava/lang/String;)I
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -632,7 +623,6 @@
 # virtual methods
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 2
-    .param p1    # Landroid/graphics/Canvas;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->getBounds()Landroid/graphics/Rect;
 
@@ -682,7 +672,6 @@
 
 .method public setAlpha(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -693,7 +682,6 @@
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
     .locals 1
-    .param p1    # Landroid/graphics/ColorFilter;
 
     iget-object v0, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mPaint:Landroid/graphics/Paint;
 
@@ -704,8 +692,6 @@
 
 .method public setContactDetails(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mDisplayName:Ljava/lang/String;
 
@@ -716,7 +702,6 @@
 
 .method public setContactType(I)V
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mContactType:I
 
@@ -725,7 +710,6 @@
 
 .method public setIsCircular(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mIsCircle:Z
 
@@ -734,7 +718,6 @@
 
 .method public setOffset(F)V
     .locals 1
-    .param p1    # F
 
     const/high16 v0, -0x41000000
 
@@ -765,7 +748,6 @@
 
 .method public setScale(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/contacts/common/lettertiles/LetterTileDrawable;->mScale:F
 

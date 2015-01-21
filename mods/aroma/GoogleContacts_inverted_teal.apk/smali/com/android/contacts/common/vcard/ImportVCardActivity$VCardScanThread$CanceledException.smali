@@ -31,8 +31,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardScanThread;Lcom/android/contacts/common/vcard/ImportVCardActivity$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardScanThread;
-    .param p2    # Lcom/android/contacts/common/vcard/ImportVCardActivity$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardScanThread$CanceledException;-><init>(Lcom/android/contacts/common/vcard/ImportVCardActivity$VCardScanThread;)V
 

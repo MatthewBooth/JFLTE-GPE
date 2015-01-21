@@ -19,8 +19,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Z)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Z
 
     invoke-direct {p0}, Landroid/app/Fragment;-><init>()V
 
@@ -35,7 +33,6 @@
 # virtual methods
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 5
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
 
@@ -81,8 +78,6 @@
 
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 2
-    .param p1    # Landroid/widget/CompoundButton;
-    .param p2    # Z
 
     iget-object v0, p0, Lcom/google/android/dialer/settings/SwitchSettingsFragment;->mPreferences:Landroid/content/SharedPreferences;
 
@@ -103,7 +98,6 @@
 
 .method public setSwitch(Landroid/widget/Switch;)V
     .locals 1
-    .param p1    # Landroid/widget/Switch;
 
     iput-object p1, p0, Lcom/google/android/dialer/settings/SwitchSettingsFragment;->mSwitch:Landroid/widget/Switch;
 

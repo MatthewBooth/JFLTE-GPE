@@ -5,7 +5,6 @@
 # virtual methods
 .method protected getAsBoolean(Ljava/lang/String;)Ljava/lang/Boolean;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/sa;->aX(Ljava/lang/String;)Z
 
@@ -32,7 +31,6 @@
 
 .method protected getAsDouble(Ljava/lang/String;)Ljava/lang/Double;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/sa;->aX(Ljava/lang/String;)Z
 
@@ -59,7 +57,6 @@
 
 .method protected getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/sa;->aX(Ljava/lang/String;)Z
 
@@ -86,7 +83,6 @@
 
 .method protected getAsLong(Ljava/lang/String;)Ljava/lang/Long;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/sa;->aX(Ljava/lang/String;)Z
 
@@ -113,7 +109,6 @@
 
 .method protected getBoolean(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -126,7 +121,6 @@
 
 .method protected getDouble(Ljava/lang/String;)D
     .locals 2
-    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -139,7 +133,6 @@
 
 .method protected getFloat(Ljava/lang/String;)F
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -152,7 +145,6 @@
 
 .method protected getInteger(Ljava/lang/String;)I
     .locals 1
-    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -165,7 +157,6 @@
 
 .method protected getLong(Ljava/lang/String;)J
     .locals 2
-    .param p1    # Ljava/lang/String;
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 

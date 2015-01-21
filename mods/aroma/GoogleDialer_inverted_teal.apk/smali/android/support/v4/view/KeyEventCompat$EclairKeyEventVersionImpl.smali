@@ -27,7 +27,6 @@
 # virtual methods
 .method public startTracking(Landroid/view/KeyEvent;)V
     .locals 0
-    .param p1    # Landroid/view/KeyEvent;
 
     invoke-static {p1}, Landroid/support/v4/view/KeyEventCompatEclair;->startTracking(Landroid/view/KeyEvent;)V
 

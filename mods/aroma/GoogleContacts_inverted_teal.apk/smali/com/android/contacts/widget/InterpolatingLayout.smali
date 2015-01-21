@@ -20,7 +20,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;)V
 
@@ -41,8 +40,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -63,9 +60,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -110,7 +104,6 @@
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
     .locals 1
-    .param p1    # Landroid/util/AttributeSet;
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/widget/InterpolatingLayout;->generateLayoutParams(Landroid/util/AttributeSet;)Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;
 
@@ -121,7 +114,6 @@
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;
     .locals 2
-    .param p1    # Landroid/util/AttributeSet;
 
     new-instance v0, Lcom/android/contacts/widget/InterpolatingLayout$LayoutParams;
 
@@ -136,11 +128,6 @@
 
 .method protected onLayout(ZIIII)V
     .locals 17
-    .param p1    # Z
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
-    .param p5    # I
 
     const/4 v7, 0x0
 
@@ -336,8 +323,6 @@
 
 .method protected onMeasure(II)V
     .locals 19
-    .param p1    # I
-    .param p2    # I
 
     invoke-static/range {p1 .. p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 

@@ -49,7 +49,6 @@
 
 .method static synthetic access$400(Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;)F
     .locals 1
-    .param p0    # Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;->radius:F
 
@@ -58,7 +57,6 @@
 
 .method static synthetic access$500(Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;)F
     .locals 1
-    .param p0    # Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;->width:F
 
@@ -67,7 +65,6 @@
 
 .method static synthetic access$600(Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;)F
     .locals 1
-    .param p0    # Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;
 
     iget v0, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;->alpha:F
 
@@ -94,7 +91,6 @@
 
 .method public setAlpha(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;->alpha:F
 
@@ -103,7 +99,6 @@
 
 .method public setRadius(F)V
     .locals 0
-    .param p1    # F
 
     iput p1, p0, Lcom/android/incallui/widget/multiwaveview/PointCloud$WaveManager;->radius:F
 

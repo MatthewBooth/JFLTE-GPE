@@ -27,7 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;-><init>(Landroid/content/Context;)V
 
@@ -76,8 +75,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Lcom/android/incallui/widget/multiwaveview/GlowPadView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -120,7 +117,6 @@
 
 .method static synthetic access$000(Lcom/android/incallui/GlowPadWrapper;)V
     .locals 0
-    .param p0    # Lcom/android/incallui/GlowPadWrapper;
 
     invoke-direct {p0}, Lcom/android/incallui/GlowPadWrapper;->triggerPing()V
 
@@ -212,8 +208,6 @@
 
 .method public onGrabbed(Landroid/view/View;I)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     const-string v0, "onGrabbed()"
 
@@ -226,16 +220,12 @@
 
 .method public onGrabbedStateChange(Landroid/view/View;I)V
     .locals 0
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     return-void
 .end method
 
 .method public onReleased(Landroid/view/View;I)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     const-string v0, "onReleased()"
 
@@ -260,8 +250,6 @@
 
 .method public onTrigger(Landroid/view/View;I)V
     .locals 5
-    .param p1    # Landroid/view/View;
-    .param p2    # I
 
     const/4 v4, 0x1
 
@@ -359,7 +347,6 @@
 
 .method public setAnswerListener(Lcom/android/incallui/GlowPadWrapper$AnswerListener;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/GlowPadWrapper$AnswerListener;
 
     iput-object p1, p0, Lcom/android/incallui/GlowPadWrapper;->mAnswerListener:Lcom/android/incallui/GlowPadWrapper$AnswerListener;
 

@@ -21,8 +21,6 @@
 # direct methods
 .method constructor <init>(Lcom/android/dialer/dialpad/DialpadFragment;Landroid/content/Context;Landroid/view/View;)V
     .locals 0
-    .param p2    # Landroid/content/Context;
-    .param p3    # Landroid/view/View;
 
     iput-object p1, p0, Lcom/android/dialer/dialpad/DialpadFragment$3;->this$0:Lcom/android/dialer/dialpad/DialpadFragment;
 

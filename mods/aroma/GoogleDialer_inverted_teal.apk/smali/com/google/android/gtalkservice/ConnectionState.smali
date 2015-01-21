@@ -38,7 +38,6 @@
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,7 +52,6 @@
 
 .method public static final toString(I)Ljava/lang/String;
     .locals 1
-    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 
@@ -115,8 +113,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     iget v0, p0, Lcom/google/android/gtalkservice/ConnectionState;->mState:I
 

@@ -22,7 +22,6 @@
 # direct methods
 .method constructor <init>(Lcom/google/android/gms/appdatasearch/SuggestionResults;I)V
     .locals 0
-    .param p2    # I
 
     iput-object p1, p0, Lcom/google/android/gms/appdatasearch/SuggestionResults$Result;->DH:Lcom/google/android/gms/appdatasearch/SuggestionResults;
 

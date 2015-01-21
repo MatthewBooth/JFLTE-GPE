@@ -183,7 +183,6 @@
 
 .method private idealByteArraySize(I)I
     .locals 3
-    .param p1    # I
 
     const/4 v2, 0x1
 
@@ -215,7 +214,6 @@
 
 .method private idealIntArraySize(I)I
     .locals 1
-    .param p1    # I
 
     mul-int/lit8 v0, p1, 0x4
 
@@ -232,7 +230,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 

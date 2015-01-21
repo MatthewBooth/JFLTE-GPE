@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ExportVCardActivity;Landroid/net/Uri;)V
     .locals 0
-    .param p2    # Landroid/net/Uri;
 
     iput-object p1, p0, Lcom/android/contacts/common/vcard/ExportVCardActivity$ExportConfirmationListener;->this$0:Lcom/android/contacts/common/vcard/ExportVCardActivity;
 
@@ -39,7 +38,6 @@
 
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ExportVCardActivity;Ljava/lang/String;)V
     .locals 2
-    .param p2    # Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -72,8 +70,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 4
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     const/4 v1, -0x1
 

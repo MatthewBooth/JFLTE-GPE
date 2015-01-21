@@ -42,10 +42,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/VCardService;Lcom/android/contacts/common/vcard/VCardImportExportListener;Lcom/android/contacts/common/vcard/ImportRequest;I)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/vcard/VCardService;
-    .param p2    # Lcom/android/contacts/common/vcard/VCardImportExportListener;
-    .param p3    # Lcom/android/contacts/common/vcard/ImportRequest;
-    .param p4    # I
 
     const/4 v1, 0x0
 
@@ -82,11 +78,6 @@
 
 .method private readOneVCard(Ljava/io/InputStream;ILjava/lang/String;Lcom/android/vcard/VCardInterpreter;[I)Z
     .locals 9
-    .param p1    # Ljava/io/InputStream;
-    .param p2    # I
-    .param p3    # Ljava/lang/String;
-    .param p4    # Lcom/android/vcard/VCardInterpreter;
-    .param p5    # [I
 
     const/4 v4, 0x0
 
@@ -923,7 +914,6 @@
 # virtual methods
 .method public declared-synchronized cancel(Z)Z
     .locals 2
-    .param p1    # Z
 
     const/4 v0, 0x1
 
@@ -1052,7 +1042,6 @@
 
 .method public onEntryCreated(Lcom/android/vcard/VCardEntry;)V
     .locals 6
-    .param p1    # Lcom/android/vcard/VCardEntry;
 
     iget v0, p0, Lcom/android/contacts/common/vcard/ImportProcessor;->mCurrentCount:I
 

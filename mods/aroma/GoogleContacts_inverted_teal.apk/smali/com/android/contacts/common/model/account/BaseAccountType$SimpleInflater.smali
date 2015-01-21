@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x0
 
@@ -37,8 +36,6 @@
 
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,7 +48,6 @@
 
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, -0x1
 
@@ -72,8 +68,6 @@
 
 .method public inflateUsing(Landroid/content/Context;Landroid/content/ContentValues;)Ljava/lang/CharSequence;
     .locals 8
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/content/ContentValues;
 
     const/4 v5, 0x1
 

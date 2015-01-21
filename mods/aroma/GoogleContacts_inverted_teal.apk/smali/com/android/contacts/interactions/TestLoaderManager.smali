@@ -35,7 +35,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/interactions/TestLoaderManager;)Ljava/util/HashSet;
     .locals 1
-    .param p0    # Lcom/android/contacts/interactions/TestLoaderManager;
 
     iget-object v0, p0, Lcom/android/contacts/interactions/TestLoaderManager;->mFinishedLoaders:Ljava/util/HashSet;
 
@@ -134,7 +133,6 @@
 # virtual methods
 .method public destroyLoader(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/contacts/interactions/TestLoaderManager;->mDelegate:Landroid/app/LoaderManager;
 
@@ -145,10 +143,6 @@
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/io/FileDescriptor;
-    .param p3    # Ljava/io/PrintWriter;
-    .param p4    # [Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/interactions/TestLoaderManager;->mDelegate:Landroid/app/LoaderManager;
 
@@ -159,7 +153,6 @@
 
 .method public getLoader(I)Landroid/content/Loader;
     .locals 1
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<D:",
@@ -181,8 +174,6 @@
 
 .method public initLoader(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;
     .locals 2
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<D:",
@@ -211,8 +202,6 @@
 
 .method public restartLoader(ILandroid/os/Bundle;Landroid/app/LoaderManager$LoaderCallbacks;)Landroid/content/Loader;
     .locals 1
-    .param p1    # I
-    .param p2    # Landroid/os/Bundle;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<D:",
@@ -237,7 +226,6 @@
 
 .method public setDelegate(Landroid/app/LoaderManager;)V
     .locals 2
-    .param p1    # Landroid/app/LoaderManager;
 
     if-eqz p1, :cond_0
 
@@ -266,7 +254,6 @@
 
 .method varargs declared-synchronized waitForLoaders([I)V
     .locals 8
-    .param p1    # [I
 
     monitor-enter p0
 

@@ -28,7 +28,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -53,7 +52,6 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/dialerbind/analytics/AnalyticsActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 

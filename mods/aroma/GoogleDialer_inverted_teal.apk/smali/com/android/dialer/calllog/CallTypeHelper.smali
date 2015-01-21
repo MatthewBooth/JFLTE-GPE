@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/res/Resources;)V
     .locals 1
-    .param p1    # Landroid/content/res/Resources;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -107,7 +106,6 @@
 
 .method public static isMissedCallType(I)Z
     .locals 2
-    .param p0    # I
 
     const/4 v0, 0x1
 
@@ -134,8 +132,6 @@
 # virtual methods
 .method public getCallTypeText(IZ)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # I
-    .param p2    # Z
 
     packed-switch p1, :pswitch_data_0
 

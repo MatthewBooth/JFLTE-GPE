@@ -62,7 +62,6 @@
 # virtual methods
 .method public createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/auth/AccountChangeEventsRequest;
     .locals 6
-    .param p1    # Landroid/os/Parcel;
 
     const/4 v1, 0x0
 
@@ -164,7 +163,6 @@
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/AccountChangeEventsRequestCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/auth/AccountChangeEventsRequest;
 
@@ -175,7 +173,6 @@
 
 .method public newArray(I)[Lcom/google/android/gms/auth/AccountChangeEventsRequest;
     .locals 1
-    .param p1    # I
 
     new-array v0, p1, [Lcom/google/android/gms/auth/AccountChangeEventsRequest;
 
@@ -184,7 +181,6 @@
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/auth/AccountChangeEventsRequestCreator;->newArray(I)[Lcom/google/android/gms/auth/AccountChangeEventsRequest;
 

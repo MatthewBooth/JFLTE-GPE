@@ -36,8 +36,6 @@
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
-    .param p2    # I
 
     iget-object v0, p0, Lcom/android/incallui/AnswerFragment$2;->this$0:Lcom/android/incallui/AnswerFragment;
 

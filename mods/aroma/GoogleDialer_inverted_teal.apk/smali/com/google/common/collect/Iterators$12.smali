@@ -30,7 +30,6 @@
 # direct methods
 .method constructor <init>(I[Ljava/lang/Object;I)V
     .locals 0
-    .param p1    # I
 
     iput-object p2, p0, Lcom/google/common/collect/Iterators$12;->val$array:[Ljava/lang/Object;
 
@@ -45,7 +44,6 @@
 # virtual methods
 .method protected get(I)Ljava/lang/Object;
     .locals 2
-    .param p1    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TT;"

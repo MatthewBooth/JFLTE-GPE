@@ -39,7 +39,6 @@
 # virtual methods
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/gcm/PeriodicTask$1;->ei(Landroid/os/Parcel;)Lcom/google/android/gms/gcm/PeriodicTask;
 
@@ -70,7 +69,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/gcm/PeriodicTask$1;->fU(I)[Lcom/google/android/gms/gcm/PeriodicTask;
 

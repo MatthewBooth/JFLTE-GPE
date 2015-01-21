@@ -25,9 +25,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Landroid/graphics/Bitmap;I)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/graphics/Bitmap;
-    .param p3    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

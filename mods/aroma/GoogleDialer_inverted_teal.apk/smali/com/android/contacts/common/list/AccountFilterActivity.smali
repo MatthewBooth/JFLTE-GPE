@@ -52,7 +52,6 @@
 
 .method static synthetic access$100(Landroid/content/Context;)Ljava/util/List;
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     invoke-static {p0}, Lcom/android/contacts/common/list/AccountFilterActivity;->loadAccountFilters(Landroid/content/Context;)Ljava/util/List;
 
@@ -71,7 +70,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/common/list/AccountFilterActivity;)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/AccountFilterActivity;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/AccountFilterActivity;->mCurrentFilter:Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -80,7 +78,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/common/list/AccountFilterActivity;)Landroid/widget/ListView;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/AccountFilterActivity;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/AccountFilterActivity;->mListView:Landroid/widget/ListView;
 
@@ -89,7 +86,6 @@
 
 .method private static loadAccountFilters(Landroid/content/Context;)Ljava/util/List;
     .locals 13
-    .param p0    # Landroid/content/Context;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -223,9 +219,6 @@
 # virtual methods
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 4
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     const/4 v3, -0x1
 
@@ -268,7 +261,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 5
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v4, 0x0
 
@@ -334,9 +326,6 @@
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 4
-    .param p2    # Landroid/view/View;
-    .param p3    # I
-    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -397,7 +386,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 1
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 

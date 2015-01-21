@@ -48,7 +48,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
 
     if-ne p1, p0, :cond_0
 

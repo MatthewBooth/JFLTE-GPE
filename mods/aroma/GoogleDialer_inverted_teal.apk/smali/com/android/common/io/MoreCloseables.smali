@@ -6,7 +6,6 @@
 # direct methods
 .method public static closeQuietly(Landroid/content/res/AssetFileDescriptor;)V
     .locals 1
-    .param p0    # Landroid/content/res/AssetFileDescriptor;
 
     if-eqz p0, :cond_0
 
@@ -27,7 +26,6 @@
 
 .method public static closeQuietly(Landroid/database/Cursor;)V
     .locals 0
-    .param p0    # Landroid/database/Cursor;
 
     if-eqz p0, :cond_0
 

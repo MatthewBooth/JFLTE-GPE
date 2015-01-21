@@ -45,11 +45,6 @@
 
 .method constructor <init>(I[BLjava/lang/String;Landroid/os/ParcelFileDescriptor;Landroid/net/Uri;)V
     .locals 0
-    .param p1    # I
-    .param p2    # [B
-    .param p3    # Ljava/lang/String;
-    .param p4    # Landroid/os/ParcelFileDescriptor;
-    .param p5    # Landroid/net/Uri;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -78,7 +73,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v0, 0x1
 
@@ -297,8 +291,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     or-int/lit8 v0, p2, 0x1
 

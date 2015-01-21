@@ -35,7 +35,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -46,8 +45,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -74,7 +71,6 @@
 
 .method private getCallTypeDrawable(I)Landroid/graphics/drawable/Drawable;
     .locals 1
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -126,7 +122,6 @@
 # virtual methods
 .method public add(I)V
     .locals 4
-    .param p1    # I
 
     iget-object v1, p0, Lcom/android/dialer/calllog/CallTypeIconsView;->mCallTypes:Ljava/util/List;
 
@@ -193,7 +188,6 @@
 
 .method public getCallType(I)I
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/dialer/calllog/CallTypeIconsView;->mCallTypes:Ljava/util/List;
 
@@ -232,7 +226,6 @@
 
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 7
-    .param p1    # Landroid/graphics/Canvas;
 
     const/4 v6, 0x0
 
@@ -324,8 +317,6 @@
 
 .method protected onMeasure(II)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
 
     iget v0, p0, Lcom/android/dialer/calllog/CallTypeIconsView;->mWidth:I
 
@@ -338,7 +329,6 @@
 
 .method public setShowVideo(Z)V
     .locals 2
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/dialer/calllog/CallTypeIconsView;->mShowVideo:Z
 

@@ -12,7 +12,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/res/Resources;)V
     .locals 1
-    .param p1    # Landroid/content/res/Resources;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -29,8 +28,6 @@
 
 .method public constructor <init>(Lcom/android/dialer/calllog/PhoneNumberUtilsWrapper;Landroid/content/res/Resources;)V
     .locals 0
-    .param p1    # Lcom/android/dialer/calllog/PhoneNumberUtilsWrapper;
-    .param p2    # Landroid/content/res/Resources;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,8 +42,6 @@
 # virtual methods
 .method getDisplayName(Ljava/lang/CharSequence;I)Ljava/lang/CharSequence;
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
 
     const v1, 0x7f080142
 
@@ -135,9 +130,6 @@
 
 .method public getDisplayNumber(Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/CharSequence;
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # Ljava/lang/CharSequence;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;->getDisplayName(Ljava/lang/CharSequence;I)Ljava/lang/CharSequence;
 

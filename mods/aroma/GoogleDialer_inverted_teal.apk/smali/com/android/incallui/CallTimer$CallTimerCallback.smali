@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/incallui/CallTimer;Lcom/android/incallui/CallTimer$1;)V
     .locals 0
-    .param p1    # Lcom/android/incallui/CallTimer;
-    .param p2    # Lcom/android/incallui/CallTimer$1;
 
     invoke-direct {p0, p1}, Lcom/android/incallui/CallTimer$CallTimerCallback;-><init>(Lcom/android/incallui/CallTimer;)V
 

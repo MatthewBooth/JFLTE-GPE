@@ -6,7 +6,6 @@
 # direct methods
 .method public static varargs newJsonArray([Lorg/json/JSONObject;)Lorg/json/JSONArray;
     .locals 5
-    .param p0    # [Lorg/json/JSONObject;
 
     new-instance v1, Lorg/json/JSONArray;
 

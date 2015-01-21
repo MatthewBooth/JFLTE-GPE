@@ -43,7 +43,6 @@
 
 .method static synthetic access$000(Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;)I
     .locals 1
-    .param p0    # Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
 
     iget v0, p0, Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;->listPosition:I
 
@@ -52,8 +51,6 @@
 
 .method static synthetic access$002(Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;I)I
     .locals 0
-    .param p0    # Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;->listPosition:I
 
@@ -62,8 +59,6 @@
 
 .method static synthetic access$102(Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;I)I
     .locals 0
-    .param p0    # Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;
-    .param p1    # I
 
     iput p1, p0, Lcom/android/common/widget/GroupingListAdapter$PositionMetadata;->groupPosition:I
 

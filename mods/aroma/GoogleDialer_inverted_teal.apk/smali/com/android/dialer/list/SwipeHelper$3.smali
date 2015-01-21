@@ -44,7 +44,6 @@
 # virtual methods
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 3
-    .param p1    # Landroid/animation/ValueAnimator;
 
     iget-boolean v0, p0, Lcom/android/dialer/list/SwipeHelper$3;->val$canAnimViewBeDismissed:Z
 

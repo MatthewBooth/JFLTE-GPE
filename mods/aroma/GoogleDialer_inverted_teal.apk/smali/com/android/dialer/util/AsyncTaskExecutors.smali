@@ -177,7 +177,6 @@
 
 .method public static setFactoryForTest(Lcom/android/dialer/util/AsyncTaskExecutors$AsyncTaskExecutorFactory;)V
     .locals 2
-    .param p0    # Lcom/android/dialer/util/AsyncTaskExecutors$AsyncTaskExecutorFactory;
 
     const-class v1, Lcom/android/dialer/util/AsyncTaskExecutors;
 

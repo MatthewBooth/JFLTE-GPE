@@ -18,7 +18,6 @@
 # direct methods
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -35,7 +34,6 @@
 
 .method static synthetic access$100(Lcom/google/common/base/Joiner;)Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/google/common/base/Joiner;
 
     iget-object v0, p0, Lcom/google/common/base/Joiner;->separator:Ljava/lang/String;
 
@@ -44,7 +42,6 @@
 
 .method public static on(C)Lcom/google/common/base/Joiner;
     .locals 2
-    .param p0    # C
 
     new-instance v0, Lcom/google/common/base/Joiner;
 
@@ -59,7 +56,6 @@
 
 .method public static on(Ljava/lang/String;)Lcom/google/common/base/Joiner;
     .locals 1
-    .param p0    # Ljava/lang/String;
 
     new-instance v0, Lcom/google/common/base/Joiner;
 
@@ -135,7 +131,6 @@
 
 .method public final appendTo(Ljava/lang/StringBuilder;Ljava/lang/Iterable;)Ljava/lang/StringBuilder;
     .locals 1
-    .param p1    # Ljava/lang/StringBuilder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -159,7 +154,6 @@
 
 .method public final appendTo(Ljava/lang/StringBuilder;Ljava/util/Iterator;)Ljava/lang/StringBuilder;
     .locals 2
-    .param p1    # Ljava/lang/StringBuilder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -189,8 +183,6 @@
 
 .method public final appendTo(Ljava/lang/StringBuilder;[Ljava/lang/Object;)Ljava/lang/StringBuilder;
     .locals 1
-    .param p1    # Ljava/lang/StringBuilder;
-    .param p2    # [Ljava/lang/Object;
 
     invoke-static {p2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
@@ -253,7 +245,6 @@
 
 .method public final join([Ljava/lang/Object;)Ljava/lang/String;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
@@ -268,7 +259,6 @@
 
 .method toString(Ljava/lang/Object;)Ljava/lang/CharSequence;
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     invoke-static {p1}, Lcom/google/common/base/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -291,7 +281,6 @@
 
 .method public withKeyValueSeparator(Ljava/lang/String;)Lcom/google/common/base/Joiner$MapJoiner;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     new-instance v0, Lcom/google/common/base/Joiner$MapJoiner;
 

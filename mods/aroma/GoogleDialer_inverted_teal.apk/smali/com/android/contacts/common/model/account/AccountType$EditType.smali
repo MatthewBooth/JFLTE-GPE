@@ -29,8 +29,6 @@
 # direct methods
 .method public constructor <init>(II)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,7 +47,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     const/4 v1, 0x0
 
@@ -83,7 +80,6 @@
 
 .method public setCustomColumn(Ljava/lang/String;)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditType;->customColumn:Ljava/lang/String;
 
@@ -92,7 +88,6 @@
 
 .method public setSecondary(Z)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditType;->secondary:Z
 
@@ -101,7 +96,6 @@
 
 .method public setSpecificMax(I)Lcom/android/contacts/common/model/account/AccountType$EditType;
     .locals 0
-    .param p1    # I
 
     iput p1, p0, Lcom/android/contacts/common/model/account/AccountType$EditType;->specificMax:I
 

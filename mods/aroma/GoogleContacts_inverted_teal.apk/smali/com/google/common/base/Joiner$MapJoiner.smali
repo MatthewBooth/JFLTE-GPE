@@ -23,8 +23,6 @@
 # direct methods
 .method private constructor <init>(Lcom/google/common/base/Joiner;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Lcom/google/common/base/Joiner;
-    .param p2    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,9 +41,6 @@
 
 .method synthetic constructor <init>(Lcom/google/common/base/Joiner;Ljava/lang/String;Lcom/google/common/base/Joiner$1;)V
     .locals 0
-    .param p1    # Lcom/google/common/base/Joiner;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Lcom/google/common/base/Joiner$1;
 
     invoke-direct {p0, p1, p2}, Lcom/google/common/base/Joiner$MapJoiner;-><init>(Lcom/google/common/base/Joiner;Ljava/lang/String;)V
 
@@ -174,7 +169,6 @@
 
 .method public appendTo(Ljava/lang/StringBuilder;Ljava/lang/Iterable;)Ljava/lang/StringBuilder;
     .locals 1
-    .param p1    # Ljava/lang/StringBuilder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -200,7 +194,6 @@
 
 .method public appendTo(Ljava/lang/StringBuilder;Ljava/util/Iterator;)Ljava/lang/StringBuilder;
     .locals 2
-    .param p1    # Ljava/lang/StringBuilder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -232,7 +225,6 @@
 
 .method public appendTo(Ljava/lang/StringBuilder;Ljava/util/Map;)Ljava/lang/StringBuilder;
     .locals 1
-    .param p1    # Ljava/lang/StringBuilder;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

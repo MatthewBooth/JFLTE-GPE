@@ -44,8 +44,6 @@
 # direct methods
 .method private doTabChanged(Ljava/lang/String;Landroid/support/v4/app/FragmentTransaction;)Landroid/support/v4/app/FragmentTransaction;
     .locals 6
-    .param p1    # Ljava/lang/String;
-    .param p2    # Landroid/support/v4/app/FragmentTransaction;
 
     const/4 v1, 0x0
 
@@ -351,7 +349,6 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
-    .param p1    # Landroid/os/Parcelable;
 
     move-object v0, p1
 
@@ -392,7 +389,6 @@
 
 .method public onTabChanged(Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     iget-boolean v1, p0, Landroid/support/v4/app/FragmentTabHost;->mAttached:Z
 
@@ -423,7 +419,6 @@
 
 .method public setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V
     .locals 0
-    .param p1    # Landroid/widget/TabHost$OnTabChangeListener;
 
     iput-object p1, p0, Landroid/support/v4/app/FragmentTabHost;->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;
 

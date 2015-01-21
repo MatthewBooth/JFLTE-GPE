@@ -30,7 +30,6 @@
 # virtual methods
 .method public loadMetadata(Ljava/lang/String;)Ljava/io/InputStream;
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const-class v0, Lcom/google/i18n/phonenumbers/PhoneNumberUtil;
 

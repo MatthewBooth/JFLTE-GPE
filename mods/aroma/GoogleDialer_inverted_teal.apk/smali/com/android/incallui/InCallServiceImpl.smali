@@ -16,7 +16,6 @@
 # virtual methods
 .method public onPhoneCreated(Landroid/telecom/Phone;)V
     .locals 4
-    .param p1    # Landroid/telecom/Phone;
 
     const-string v0, "onPhoneCreated"
 
@@ -75,7 +74,6 @@
 
 .method public onPhoneDestroyed(Landroid/telecom/Phone;)V
     .locals 2
-    .param p1    # Landroid/telecom/Phone;
 
     const-string v0, "onPhoneDestroyed"
 

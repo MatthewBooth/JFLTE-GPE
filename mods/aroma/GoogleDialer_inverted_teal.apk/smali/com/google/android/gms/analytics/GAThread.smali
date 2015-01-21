@@ -46,7 +46,6 @@
 # direct methods
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -369,7 +368,6 @@
 
 .method static getInstance(Landroid/content/Context;)Lcom/google/android/gms/analytics/GAThread;
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     sget-object v0, Lcom/google/android/gms/analytics/GAThread;->yW:Lcom/google/android/gms/analytics/GAThread;
 

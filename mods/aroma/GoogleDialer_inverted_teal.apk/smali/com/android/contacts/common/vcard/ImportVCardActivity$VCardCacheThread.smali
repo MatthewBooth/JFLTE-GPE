@@ -36,8 +36,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/vcard/ImportVCardActivity;[Landroid/net/Uri;)V
     .locals 4
-    .param p1    # Lcom/android/contacts/common/vcard/ImportVCardActivity;
-    .param p2    # [Landroid/net/Uri;
 
     const/4 v3, 0x0
 
@@ -74,9 +72,6 @@
 
 .method private constructImportRequest([BLandroid/net/Uri;Ljava/lang/String;)Lcom/android/contacts/common/vcard/ImportRequest;
     .locals 22
-    .param p1    # [B
-    .param p2    # Landroid/net/Uri;
-    .param p3    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -509,8 +504,6 @@
 
 .method private copyTo(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
     .locals 11
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -849,7 +842,6 @@
 
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 2
-    .param p1    # Landroid/content/DialogInterface;
 
     const-string v0, "VCardImport"
 

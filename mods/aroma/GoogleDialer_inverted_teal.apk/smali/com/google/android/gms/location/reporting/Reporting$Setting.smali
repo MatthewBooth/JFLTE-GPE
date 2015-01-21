@@ -16,7 +16,6 @@
 # direct methods
 .method public static isOn(I)Z
     .locals 1
-    .param p0    # I
 
     if-lez p0, :cond_0
 
@@ -33,7 +32,6 @@
 
 .method public static sanitize(I)I
     .locals 1
-    .param p0    # I
 
     packed-switch p0, :pswitch_data_0
 

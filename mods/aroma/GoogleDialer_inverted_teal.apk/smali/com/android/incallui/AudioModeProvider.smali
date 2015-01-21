@@ -95,7 +95,6 @@
 # virtual methods
 .method public addListener(Lcom/android/incallui/AudioModeProvider$AudioModeListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/AudioModeProvider$AudioModeListener;
 
     iget-object v0, p0, Lcom/android/incallui/AudioModeProvider;->mListeners:Ljava/util/List;
 
@@ -167,8 +166,6 @@
 
 .method public onAudioModeChange(IZ)V
     .locals 3
-    .param p1    # I
-    .param p2    # Z
 
     iget v2, p0, Lcom/android/incallui/AudioModeProvider;->mAudioMode:I
 
@@ -239,7 +236,6 @@
 
 .method public onSupportedAudioModeChange(I)V
     .locals 3
-    .param p1    # I
 
     iput p1, p0, Lcom/android/incallui/AudioModeProvider;->mSupportedModes:I
 
@@ -274,7 +270,6 @@
 
 .method public removeListener(Lcom/android/incallui/AudioModeProvider$AudioModeListener;)V
     .locals 1
-    .param p1    # Lcom/android/incallui/AudioModeProvider$AudioModeListener;
 
     iget-object v0, p0, Lcom/android/incallui/AudioModeProvider;->mListeners:Ljava/util/List;
 
@@ -294,7 +289,6 @@
 
 .method public setPhone(Landroid/telecom/Phone;)V
     .locals 2
-    .param p1    # Landroid/telecom/Phone;
 
     iput-object p1, p0, Lcom/android/incallui/AudioModeProvider;->mPhone:Landroid/telecom/Phone;
 

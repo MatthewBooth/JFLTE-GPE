@@ -175,7 +175,6 @@
 # virtual methods
 .method public getValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 

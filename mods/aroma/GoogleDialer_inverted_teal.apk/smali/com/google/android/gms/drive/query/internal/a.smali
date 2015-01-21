@@ -204,7 +204,6 @@
 
 .method public synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/drive/query/internal/a;->cA(Landroid/os/Parcel;)Lcom/google/android/gms/drive/query/internal/ComparisonFilter;
 
@@ -223,7 +222,6 @@
 
 .method public synthetic newArray(I)[Ljava/lang/Object;
     .locals 1
-    .param p1    # I
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/drive/query/internal/a;->dO(I)[Lcom/google/android/gms/drive/query/internal/ComparisonFilter;
 

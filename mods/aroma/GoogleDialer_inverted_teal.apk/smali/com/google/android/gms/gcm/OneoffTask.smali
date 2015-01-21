@@ -50,7 +50,6 @@
 
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/gcm/Task;-><init>(Landroid/os/Parcel;)V
 
@@ -71,8 +70,6 @@
 
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/google/android/gms/gcm/OneoffTask$1;)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # Lcom/google/android/gms/gcm/OneoffTask$1;
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/gcm/OneoffTask;-><init>(Landroid/os/Parcel;)V
 
@@ -83,8 +80,6 @@
 # virtual methods
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-super {p0, p1, p2}, Lcom/google/android/gms/gcm/Task;->writeToParcel(Landroid/os/Parcel;I)V
 

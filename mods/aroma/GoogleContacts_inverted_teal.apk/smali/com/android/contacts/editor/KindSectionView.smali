@@ -40,7 +40,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -51,8 +50,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -69,7 +66,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/KindSectionView;)Landroid/view/View;
     .locals 1
-    .param p0    # Lcom/android/contacts/editor/KindSectionView;
 
     iget-object v0, p0, Lcom/android/contacts/editor/KindSectionView;->mAddFieldFooter:Landroid/view/View;
 
@@ -78,8 +74,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/editor/KindSectionView;Ljava/lang/Runnable;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/editor/KindSectionView;
-    .param p1    # Ljava/lang/Runnable;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/KindSectionView;->runWhenWindowFocused(Ljava/lang/Runnable;)V
 
@@ -88,7 +82,6 @@
 
 .method private createEditorView(Lcom/android/contacts/common/model/ValuesDelta;)Landroid/view/View;
     .locals 9
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     iget-object v1, p0, Lcom/android/contacts/editor/KindSectionView;->mKind:Lcom/android/contacts/common/model/dataitem/DataKind;
 
@@ -286,7 +279,6 @@
 
 .method private isEmptyNoop(Lcom/android/contacts/common/model/ValuesDelta;)Z
     .locals 6
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const/4 v5, 0x0
 
@@ -354,7 +346,6 @@
 
 .method private postWhenWindowFocused(Ljava/lang/Runnable;)V
     .locals 1
-    .param p1    # Ljava/lang/Runnable;
 
     new-instance v0, Lcom/android/contacts/editor/KindSectionView$2;
 
@@ -367,7 +358,6 @@
 
 .method private runWhenWindowFocused(Ljava/lang/Runnable;)V
     .locals 1
-    .param p1    # Ljava/lang/Runnable;
 
     invoke-virtual {p0}, Lcom/android/contacts/editor/KindSectionView;->hasWindowFocus()Z
 
@@ -622,7 +612,6 @@
 
 .method public onDeleteRequested(Lcom/android/contacts/editor/Editor;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/editor/Editor;
 
     invoke-virtual {p0}, Lcom/android/contacts/editor/KindSectionView;->getEditorCount()I
 
@@ -705,7 +694,6 @@
 
 .method public onRequest(I)V
     .locals 1
-    .param p1    # I
 
     const/4 v0, 0x3
 
@@ -726,7 +714,6 @@
 
 .method public onWindowFocusChanged(Z)V
     .locals 3
-    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onWindowFocusChanged(Z)V
 
@@ -833,7 +820,6 @@
 
 .method public setEnabled(Z)V
     .locals 4
-    .param p1    # Z
 
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
@@ -892,10 +878,6 @@
 
 .method public setState(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
     .locals 3
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p3    # Z
-    .param p4    # Lcom/android/contacts/editor/ViewIdGenerator;
 
     const/4 v2, -0x1
 
@@ -963,7 +945,6 @@
 
 .method public setTitleVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     const v0, 0x7f0e00b3
 
@@ -988,7 +969,6 @@
 
 .method protected updateAddFooterVisible(Z)V
     .locals 2
-    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/editor/KindSectionView;->mReadOnly:Z
 

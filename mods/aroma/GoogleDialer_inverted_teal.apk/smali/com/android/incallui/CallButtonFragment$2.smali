@@ -36,7 +36,6 @@
 # virtual methods
 .method public onDismiss(Landroid/widget/PopupMenu;)V
     .locals 0
-    .param p1    # Landroid/widget/PopupMenu;
 
     invoke-virtual {p1}, Landroid/widget/PopupMenu;->dismiss()V
 

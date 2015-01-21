@@ -29,7 +29,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Readable;)V
     .locals 1
-    .param p1    # Ljava/lang/Readable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -82,7 +81,6 @@
 
 .method static synthetic access$000(Lcom/google/common/io/LineReader;)Ljava/util/Queue;
     .locals 1
-    .param p0    # Lcom/google/common/io/LineReader;
 
     iget-object v0, p0, Lcom/google/common/io/LineReader;->lines:Ljava/util/Queue;
 

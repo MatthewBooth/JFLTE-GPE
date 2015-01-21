@@ -14,7 +14,6 @@
 # direct methods
 .method private static initialize(Landroid/content/Context;)V
     .locals 3
-    .param p0    # Landroid/content/Context;
 
     const/4 v2, 0x1
 
@@ -55,7 +54,6 @@
 
 .method public static isCameraIntentRegistered(Landroid/content/Context;)Z
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Landroid/content/Intent;
 
@@ -72,8 +70,6 @@
 
 .method public static isIntentRegistered(Landroid/content/Context;Landroid/content/Intent;)Z
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/content/Intent;
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -104,7 +100,6 @@
 
 .method public static isPhone(Landroid/content/Context;)Z
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     sget-boolean v0, Lcom/android/contacts/util/PhoneCapabilityTester;->sIsInitialized:Z
 
@@ -120,7 +115,6 @@
 
 .method public static isSipPhone(Landroid/content/Context;)Z
     .locals 1
-    .param p0    # Landroid/content/Context;
 
     sget-boolean v0, Lcom/android/contacts/util/PhoneCapabilityTester;->sIsInitialized:Z
 

@@ -29,7 +29,6 @@
 
 .method public resetWidth(I)V
     .locals 1
-    .param p1    # I
 
     iget-object v0, p0, Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$HorizontalLineSpan;->mDrawable:Lcom/android/ex/editstyledtext/EditStyledText$EditStyledTextSpans$HorizontalLineDrawable;
 

@@ -55,8 +55,6 @@
 
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
 
     const/4 v0, 0x4
 
@@ -67,9 +65,6 @@
 
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
 
     const/4 v0, 0x0
 
@@ -90,7 +85,6 @@
 
 .method static getNewInstanceForTest(Landroid/content/Context;)Lcom/android/dialer/database/DialerDatabaseHelper;
     .locals 2
-    .param p0    # Landroid/content/Context;
 
     new-instance v0, Lcom/android/dialer/database/DialerDatabaseHelper;
 
@@ -103,8 +97,6 @@
 
 .method private removeDeletedContacts(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
     .locals 9
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Ljava/lang/String;
 
     const/4 v8, 0x0
 
@@ -234,8 +226,6 @@
 
 .method private removePotentiallyCorruptedContacts(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
     .locals 4
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Ljava/lang/String;
 
     const/4 v3, 0x0
 
@@ -294,8 +284,6 @@
 
 .method private removeUpdatedContacts(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/Cursor;)V
     .locals 4
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Landroid/database/Cursor;
 
     invoke-virtual {p1}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
@@ -417,7 +405,6 @@
 
 .method private setupTables(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 2
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {p0, p1}, Lcom/android/dialer/database/DialerDatabaseHelper;->dropTables(Landroid/database/sqlite/SQLiteDatabase;)V
 
@@ -452,7 +439,6 @@
 # virtual methods
 .method countPrefixTableRows(Landroid/database/sqlite/SQLiteDatabase;)I
     .locals 2
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     const-string v0, "SELECT COUNT(1) FROM prefix_table"
 
@@ -469,7 +455,6 @@
 
 .method public dropTables(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 1
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     const-string v0, "DROP TABLE IF EXISTS prefix_table"
 
@@ -488,8 +473,6 @@
 
 .method public getLooseMatches(Ljava/lang/String;Lcom/android/dialer/dialpad/SmartDialNameMatcher;)Ljava/util/ArrayList;
     .locals 32
-    .param p1    # Ljava/lang/String;
-    .param p2    # Lcom/android/dialer/dialpad/SmartDialNameMatcher;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -791,9 +774,6 @@
 
 .method public getProperty(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 11
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     const/4 v10, 0x0
 
@@ -885,9 +865,6 @@
 
 .method public getPropertyAsInt(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;I)I
     .locals 3
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Ljava/lang/String;
-    .param p3    # I
 
     const-string v2, ""
 
@@ -913,8 +890,6 @@
 
 .method insertNamePrefixes(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/Cursor;)V
     .locals 10
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Landroid/database/Cursor;
 
     const-string v7, "display_name"
 
@@ -1011,9 +986,6 @@
 
 .method protected insertUpdatedContactsAndNumberPrefix(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/Cursor;Ljava/lang/Long;)V
     .locals 16
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Landroid/database/Cursor;
-    .param p3    # Ljava/lang/Long;
 
     invoke-virtual/range {p1 .. p1}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
@@ -1326,7 +1298,6 @@
 
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 0
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-direct {p0, p1}, Lcom/android/dialer/database/DialerDatabaseHelper;->setupTables(Landroid/database/sqlite/SQLiteDatabase;)V
 
@@ -1335,9 +1306,6 @@
 
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 4
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # I
-    .param p3    # I
 
     const/4 v3, 0x4
 
@@ -1390,7 +1358,6 @@
 
 .method removeAllContacts(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 2
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
 
     const/4 v1, 0x0
 
@@ -1407,9 +1374,6 @@
 
 .method public setProperty(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
-    .param p1    # Landroid/database/sqlite/SQLiteDatabase;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
 
     new-instance v0, Landroid/content/ContentValues;
 

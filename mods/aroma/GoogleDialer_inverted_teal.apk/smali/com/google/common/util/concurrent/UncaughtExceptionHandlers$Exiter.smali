@@ -48,8 +48,6 @@
 # virtual methods
 .method public uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
     .locals 6
-    .param p1    # Ljava/lang/Thread;
-    .param p2    # Ljava/lang/Throwable;
 
     const/4 v5, 0x1
 

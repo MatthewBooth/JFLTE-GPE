@@ -35,7 +35,6 @@
 # direct methods
 .method private constructor <init>(Ljava/util/Collection;Ljava/lang/Object;)V
     .locals 0
-    .param p2    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -53,9 +52,6 @@
 
 .method synthetic constructor <init>(Ljava/util/Collection;Ljava/lang/Object;Lcom/google/common/collect/Synchronized$1;)V
     .locals 0
-    .param p1    # Ljava/util/Collection;
-    .param p2    # Ljava/lang/Object;
-    .param p3    # Lcom/google/common/collect/Synchronized$1;
 
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Synchronized$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V
 
@@ -166,7 +162,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/google/common/collect/Synchronized$SynchronizedCollection;->mutex:Ljava/lang/Object;
 
@@ -314,7 +309,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/google/common/collect/Synchronized$SynchronizedCollection;->mutex:Ljava/lang/Object;
 

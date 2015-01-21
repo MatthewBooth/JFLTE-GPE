@@ -32,9 +32,6 @@
 # direct methods
 .method public constructor <init>(Landroid/view/View;Landroid/widget/ImageView;Landroid/widget/ImageView;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/widget/ImageView;
-    .param p3    # Landroid/widget/ImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,7 +60,6 @@
 
 .method private hitAlternateIcon(Landroid/view/MotionEvent;)Z
     .locals 6
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v1, 0x1
 
@@ -159,7 +155,6 @@
 
 .method private hitThirdIcon(Landroid/view/MotionEvent;)Z
     .locals 4
-    .param p1    # Landroid/view/MotionEvent;
 
     const/4 v0, 0x1
 
@@ -241,8 +236,6 @@
 # virtual methods
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 9
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/MotionEvent;
 
     const/4 v5, 0x1
 

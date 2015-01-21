@@ -44,7 +44,6 @@
 # virtual methods
 .method public varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Boolean;
     .locals 2
-    .param p1    # [Ljava/lang/Void;
 
     iget-object v0, p0, Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler$1;->this$1:Lcom/android/dialer/voicemail/VoicemailPlaybackPresenter$FetchResultHandler;
 
@@ -77,7 +76,6 @@
 
 .method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -90,7 +88,6 @@
 
 .method public onPostExecute(Ljava/lang/Boolean;)V
     .locals 2
-    .param p1    # Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -139,7 +136,6 @@
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Boolean;
 

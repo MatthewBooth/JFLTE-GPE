@@ -36,7 +36,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -55,8 +54,6 @@
 # virtual methods
 .method public addRoot(Ljava/lang/String;Ljava/io/File;)V
     .locals 4
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/io/File;
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -116,7 +113,6 @@
 
 .method public getFileForUri(Landroid/net/Uri;)Ljava/io/File;
     .locals 9
-    .param p1    # Landroid/net/Uri;
 
     const/4 v7, 0x1
 
@@ -249,7 +245,6 @@
 
 .method public getUriForFile(Ljava/io/File;)Landroid/net/Uri;
     .locals 9
-    .param p1    # Ljava/io/File;
 
     :try_start_0
     invoke-virtual {p1}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;

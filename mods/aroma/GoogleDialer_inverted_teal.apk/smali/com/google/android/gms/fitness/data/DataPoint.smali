@@ -51,14 +51,6 @@
 
 .method constructor <init>(ILcom/google/android/gms/fitness/data/DataSource;JJ[Lcom/google/android/gms/fitness/data/Value;Lcom/google/android/gms/fitness/data/DataSource;JJ)V
     .locals 1
-    .param p1    # I
-    .param p2    # Lcom/google/android/gms/fitness/data/DataSource;
-    .param p3    # J
-    .param p5    # J
-    .param p7    # [Lcom/google/android/gms/fitness/data/Value;
-    .param p8    # Lcom/google/android/gms/fitness/data/DataSource;
-    .param p9    # J
-    .param p11    # J
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -83,7 +75,6 @@
 
 .method constructor <init>(Ljava/util/List;Lcom/google/android/gms/fitness/data/RawDataPoint;)V
     .locals 16
-    .param p2    # Lcom/google/android/gms/fitness/data/RawDataPoint;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -253,7 +244,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
 
@@ -315,7 +305,6 @@
 
 .method public getStartTime(Ljava/util/concurrent/TimeUnit;)J
     .locals 3
-    .param p1    # Ljava/util/concurrent/TimeUnit;
 
     iget-wide v0, p0, Lcom/google/android/gms/fitness/data/DataPoint;->aag:J
 
@@ -330,7 +319,6 @@
 
 .method public getTimestamp(Ljava/util/concurrent/TimeUnit;)J
     .locals 3
-    .param p1    # Ljava/util/concurrent/TimeUnit;
 
     iget-wide v0, p0, Lcom/google/android/gms/fitness/data/DataPoint;->aaf:J
 
@@ -495,8 +483,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/fitness/data/d;->a(Lcom/google/android/gms/fitness/data/DataPoint;Landroid/os/Parcel;I)V
 

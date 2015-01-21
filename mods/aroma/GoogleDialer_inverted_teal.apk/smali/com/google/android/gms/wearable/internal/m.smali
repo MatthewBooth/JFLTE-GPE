@@ -236,7 +236,6 @@
 
 .method public toString(Z)Ljava/lang/String;
     .locals 5
-    .param p1    # Z
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -437,8 +436,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/wearable/internal/n;->a(Lcom/google/android/gms/wearable/internal/m;Landroid/os/Parcel;I)V
 

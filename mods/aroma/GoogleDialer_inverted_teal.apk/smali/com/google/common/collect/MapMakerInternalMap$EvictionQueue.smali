@@ -98,7 +98,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
 
     move-object v0, p1
 
@@ -209,7 +208,6 @@
 
 .method public bridge synthetic offer(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
 
@@ -299,7 +297,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
 
     move-object v0, p1
 

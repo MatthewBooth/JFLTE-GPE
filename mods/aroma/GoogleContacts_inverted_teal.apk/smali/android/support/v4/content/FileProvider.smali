@@ -83,8 +83,6 @@
 
 .method private static varargs buildPath(Ljava/io/File;[Ljava/lang/String;)Ljava/io/File;
     .locals 6
-    .param p0    # Ljava/io/File;
-    .param p1    # [Ljava/lang/String;
 
     move-object v1, p0
 
@@ -125,8 +123,6 @@
 
 .method private static copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
     .locals 2
-    .param p0    # [Ljava/lang/Object;
-    .param p1    # I
 
     const/4 v1, 0x0
 
@@ -139,8 +135,6 @@
 
 .method private static copyOf([Ljava/lang/String;I)[Ljava/lang/String;
     .locals 2
-    .param p0    # [Ljava/lang/String;
-    .param p1    # I
 
     const/4 v1, 0x0
 
@@ -153,8 +147,6 @@
 
 .method private static getPathStrategy(Landroid/content/Context;Ljava/lang/String;)Landroid/support/v4/content/FileProvider$PathStrategy;
     .locals 5
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     sget-object v3, Landroid/support/v4/content/FileProvider;->sCache:Ljava/util/HashMap;
 
@@ -229,9 +221,6 @@
 
 .method public static getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
     .locals 2
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/io/File;
 
     invoke-static {p0, p1}, Landroid/support/v4/content/FileProvider;->getPathStrategy(Landroid/content/Context;Ljava/lang/String;)Landroid/support/v4/content/FileProvider$PathStrategy;
 
@@ -246,7 +235,6 @@
 
 .method private static modeToMode(Ljava/lang/String;)I
     .locals 4
-    .param p0    # Ljava/lang/String;
 
     const-string v1, "r"
 
@@ -350,8 +338,6 @@
 
 .method private static parsePathStrategy(Landroid/content/Context;Ljava/lang/String;)Landroid/support/v4/content/FileProvider$PathStrategy;
     .locals 13
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -532,8 +518,6 @@
 # virtual methods
 .method public attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/content/pm/ProviderInfo;
 
     invoke-super {p0, p1, p2}, Landroid/content/ContentProvider;->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
 
@@ -576,9 +560,6 @@
 
 .method public delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
-    .param p3    # [Ljava/lang/String;
 
     iget-object v1, p0, Landroid/support/v4/content/FileProvider;->mStrategy:Landroid/support/v4/content/FileProvider$PathStrategy;
 
@@ -605,7 +586,6 @@
 
 .method public getType(Landroid/net/Uri;)Ljava/lang/String;
     .locals 6
-    .param p1    # Landroid/net/Uri;
 
     iget-object v4, p0, Landroid/support/v4/content/FileProvider;->mStrategy:Landroid/support/v4/content/FileProvider$PathStrategy;
 
@@ -656,8 +636,6 @@
 
 .method public insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/ContentValues;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -678,8 +656,6 @@
 
 .method public openFile(Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
     .locals 3
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/FileNotFoundException;
@@ -705,11 +681,6 @@
 
 .method public query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 12
-    .param p1    # Landroid/net/Uri;
-    .param p2    # [Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [Ljava/lang/String;
-    .param p5    # Ljava/lang/String;
 
     iget-object v10, p0, Landroid/support/v4/content/FileProvider;->mStrategy:Landroid/support/v4/content/FileProvider$PathStrategy;
 
@@ -826,10 +797,6 @@
 
 .method public update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 2
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/ContentValues;
-    .param p3    # Ljava/lang/String;
-    .param p4    # [Ljava/lang/String;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 

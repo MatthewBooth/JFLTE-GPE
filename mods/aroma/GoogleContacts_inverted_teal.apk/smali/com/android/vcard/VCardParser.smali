@@ -31,8 +31,6 @@
 
 .method public parse(Ljava/io/InputStream;Lcom/android/vcard/VCardInterpreter;)V
     .locals 0
-    .param p1    # Ljava/io/InputStream;
-    .param p2    # Lcom/android/vcard/VCardInterpreter;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,

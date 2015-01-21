@@ -42,8 +42,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/list/ProviderStatusWatcher;Lcom/android/contacts/list/ProviderStatusWatcher$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/ProviderStatusWatcher;
-    .param p2    # Lcom/android/contacts/list/ProviderStatusWatcher$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;-><init>(Lcom/android/contacts/list/ProviderStatusWatcher;)V
 
@@ -67,7 +65,6 @@
 # virtual methods
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Boolean;
     .locals 7
-    .param p1    # [Ljava/lang/Void;
 
     :try_start_0
     iget-object v0, p0, Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;->this$0:Lcom/android/contacts/list/ProviderStatusWatcher;
@@ -272,7 +269,6 @@
 
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Ljava/lang/Void;
 
@@ -285,7 +281,6 @@
 
 .method protected onCancelled(Ljava/lang/Boolean;)V
     .locals 0
-    .param p1    # Ljava/lang/Boolean;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;->cleanUp()V
 
@@ -294,7 +289,6 @@
 
 .method protected bridge synthetic onCancelled(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Boolean;
 
@@ -305,7 +299,6 @@
 
 .method protected onPostExecute(Ljava/lang/Boolean;)V
     .locals 1
-    .param p1    # Ljava/lang/Boolean;
 
     invoke-direct {p0}, Lcom/android/contacts/list/ProviderStatusWatcher$LoaderTask;->cleanUp()V
 
@@ -328,7 +321,6 @@
 
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Boolean;
 

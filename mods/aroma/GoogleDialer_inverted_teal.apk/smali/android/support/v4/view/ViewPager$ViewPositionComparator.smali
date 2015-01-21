@@ -40,8 +40,6 @@
 # virtual methods
 .method public compare(Landroid/view/View;Landroid/view/View;)I
     .locals 4
-    .param p1    # Landroid/view/View;
-    .param p2    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -87,8 +85,6 @@
 
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p1, Landroid/view/View;
 

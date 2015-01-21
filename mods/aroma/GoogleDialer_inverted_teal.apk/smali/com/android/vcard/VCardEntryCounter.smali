@@ -49,7 +49,6 @@
 
 .method public onPropertyCreated(Lcom/android/vcard/VCardProperty;)V
     .locals 0
-    .param p1    # Lcom/android/vcard/VCardProperty;
 
     return-void
 .end method

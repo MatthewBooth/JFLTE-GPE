@@ -284,7 +284,6 @@
 
 .method public constructor <init>(I)V
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/vcard/VCardParser;-><init>()V
 
@@ -301,7 +300,6 @@
 # virtual methods
 .method public addInterpreter(Lcom/android/vcard/VCardInterpreter;)V
     .locals 1
-    .param p1    # Lcom/android/vcard/VCardInterpreter;
 
     iget-object v0, p0, Lcom/android/vcard/VCardParser_V30;->mVCardParserImpl:Lcom/android/vcard/VCardParserImpl_V30;
 
@@ -322,7 +320,6 @@
 
 .method public parse(Ljava/io/InputStream;)V
     .locals 1
-    .param p1    # Ljava/io/InputStream;
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,

@@ -66,8 +66,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/editor/ViewIdGenerator;Landroid/os/Parcel;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/editor/ViewIdGenerator;
-    .param p1    # Landroid/os/Parcel;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/ViewIdGenerator;->readFromParcel(Landroid/os/Parcel;)V
 
@@ -76,10 +74,6 @@
 
 .method private static getMapKey(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;I)Ljava/lang/String;
     .locals 3
-    .param p0    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p3    # I
 
     const/16 v2, 0x2a
 
@@ -153,7 +147,6 @@
 
 .method private readFromParcel(Landroid/os/Parcel;)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
 
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
@@ -182,10 +175,6 @@
 
 .method public getId(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;I)I
     .locals 4
-    .param p1    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p2    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p3    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p4    # I
 
     invoke-static {p1, p2, p3, p4}, Lcom/android/contacts/editor/ViewIdGenerator;->getMapKey(Lcom/android/contacts/common/model/RawContactDelta;Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;I)Ljava/lang/String;
 
@@ -221,8 +210,6 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
-    .param p1    # Landroid/os/Parcel;
-    .param p2    # I
 
     iget v0, p0, Lcom/android/contacts/editor/ViewIdGenerator;->mNextId:I
 

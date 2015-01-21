@@ -36,7 +36,6 @@
 # virtual methods
 .method public onLongClick(Landroid/view/View;)Z
     .locals 5
-    .param p1    # Landroid/view/View;
 
     move-object v0, p1
 

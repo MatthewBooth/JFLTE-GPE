@@ -31,7 +31,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/dialer/list/DragDropController$DragItemContainer;)V
     .locals 1
-    .param p1    # Lcom/android/dialer/list/DragDropController$DragItemContainer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,7 +55,6 @@
 # virtual methods
 .method public addOnDragDropListener(Lcom/android/dialer/list/OnDragDropListener;)V
     .locals 1
-    .param p1    # Lcom/android/dialer/list/OnDragDropListener;
 
     iget-object v0, p0, Lcom/android/dialer/list/DragDropController;->mOnDragDropListeners:Ljava/util/List;
 
@@ -76,9 +74,6 @@
 
 .method public handleDragFinished(IIZ)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Z
 
     if-eqz p3, :cond_0
 
@@ -139,9 +134,6 @@
 
 .method public handleDragHovered(Landroid/view/View;II)V
     .locals 6
-    .param p1    # Landroid/view/View;
-    .param p2    # I
-    .param p3    # I
 
     iget-object v4, p0, Lcom/android/dialer/list/DragDropController;->mLocationOnScreen:[I
 
@@ -200,8 +192,6 @@
 
 .method handleDragStarted(II)Z
     .locals 3
-    .param p1    # I
-    .param p2    # I
 
     iget-object v2, p0, Lcom/android/dialer/list/DragDropController;->mDragItemContainer:Lcom/android/dialer/list/DragDropController$DragItemContainer;
 

@@ -143,7 +143,6 @@
 
 .method public editContact(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactPickerFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -154,8 +153,6 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040017
 
@@ -178,8 +175,6 @@
 
 .method protected onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 4
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
 
@@ -215,8 +210,6 @@
 
 .method protected onItemClick(IJ)V
     .locals 3
-    .param p1    # I
-    .param p2    # J
 
     invoke-virtual {p0}, Lcom/android/contacts/list/ContactPickerFragment;->isLegacyCompatibilityMode()Z
 
@@ -287,9 +280,6 @@
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 2
-    .param p2    # Landroid/view/View;
-    .param p3    # I
-    .param p4    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -321,7 +311,6 @@
 
 .method public onPickerResult(Landroid/content/Intent;)V
     .locals 2
-    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactPickerFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -336,7 +325,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -363,8 +351,6 @@
 
 .method public onShortcutIntentCreated(Landroid/net/Uri;Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactPickerFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -375,7 +361,6 @@
 
 .method public pickContact(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactPickerFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -386,7 +371,6 @@
 
 .method public restoreSavedState(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->restoreSavedState(Landroid/os/Bundle;)V
 
@@ -425,7 +409,6 @@
 
 .method public setCreateContactEnabled(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/list/ContactPickerFragment;->mCreateContactEnabled:Z
 
@@ -434,7 +417,6 @@
 
 .method public setEditMode(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/list/ContactPickerFragment;->mEditMode:Z
 
@@ -443,7 +425,6 @@
 
 .method public setOnContactPickerActionListener(Lcom/android/contacts/list/OnContactPickerActionListener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/list/OnContactPickerActionListener;
 
     iput-object p1, p0, Lcom/android/contacts/list/ContactPickerFragment;->mListener:Lcom/android/contacts/list/OnContactPickerActionListener;
 
@@ -452,7 +433,6 @@
 
 .method public setShortcutRequested(Z)V
     .locals 0
-    .param p1    # Z
 
     iput-boolean p1, p0, Lcom/android/contacts/list/ContactPickerFragment;->mShortcutRequested:Z
 

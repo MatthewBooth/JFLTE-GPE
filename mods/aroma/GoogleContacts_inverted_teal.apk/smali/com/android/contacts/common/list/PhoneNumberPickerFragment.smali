@@ -102,7 +102,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/list/PhoneNumberPickerFragment;)Lcom/android/contacts/common/list/ContactListFilter;
     .locals 1
-    .param p0    # Lcom/android/contacts/common/list/PhoneNumberPickerFragment;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mFilter:Lcom/android/contacts/common/list/ContactListFilter;
 
@@ -181,7 +180,6 @@
 # virtual methods
 .method protected cacheContactInfo(I)V
     .locals 0
-    .param p1    # I
 
     return-void
 .end method
@@ -253,7 +251,6 @@
 
 .method protected getPhoneNumber(I)Ljava/lang/String;
     .locals 2
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -270,7 +267,6 @@
 
 .method protected getPhoneUri(I)Landroid/net/Uri;
     .locals 2
-    .param p1    # I
 
     invoke-virtual {p0}, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->getAdapter()Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
@@ -295,8 +291,6 @@
 
 .method protected inflateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     const v0, 0x7f040012
 
@@ -311,9 +305,6 @@
 
 .method public onActivityResult(IILandroid/content/Intent;)V
     .locals 2
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     const/4 v0, 0x1
 
@@ -351,8 +342,6 @@
 
 .method protected onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 4
-    .param p1    # Landroid/view/LayoutInflater;
-    .param p2    # Landroid/view/ViewGroup;
 
     invoke-super {p0, p1, p2}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
 
@@ -411,8 +400,6 @@
 
 .method protected onItemClick(IJ)V
     .locals 5
-    .param p1    # I
-    .param p2    # J
 
     invoke-virtual {p0, p1}, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->getPhoneUri(I)Landroid/net/Uri;
 
@@ -484,7 +471,6 @@
 
 .method public onLoadFinished(Landroid/content/Loader;Landroid/database/Cursor;)V
     .locals 1
-    .param p2    # Landroid/database/Cursor;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -522,8 +508,6 @@
 
 .method public bridge synthetic onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Landroid/content/Loader;
-    .param p2    # Ljava/lang/Object;
 
     check-cast p2, Landroid/database/Cursor;
 
@@ -534,7 +518,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 2
-    .param p1    # Landroid/view/MenuItem;
 
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
@@ -568,7 +551,6 @@
 
 .method public onPickerResult(Landroid/content/Intent;)V
     .locals 2
-    .param p1    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mListener:Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
 
@@ -583,7 +565,6 @@
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -604,8 +585,6 @@
 
 .method public onShortcutIntentCreated(Landroid/net/Uri;Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/content/Intent;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mListener:Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
 
@@ -616,7 +595,6 @@
 
 .method public pickPhoneNumber(Landroid/net/Uri;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mShortcutAction:Ljava/lang/String;
 
@@ -637,7 +615,6 @@
 
 .method public restoreSavedState(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->restoreSavedState(Landroid/os/Bundle;)V
 
@@ -670,7 +647,6 @@
 
 .method public setOnPhoneNumberPickerActionListener(Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mListener:Lcom/android/contacts/common/list/OnPhoneNumberPickerActionListener;
 
@@ -679,7 +655,6 @@
 
 .method protected setPhotoPosition(Lcom/android/contacts/common/list/ContactEntryListAdapter;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/common/list/ContactEntryListAdapter;
 
     check-cast p1, Lcom/android/contacts/common/list/PhoneNumberListAdapter;
 
@@ -692,7 +667,6 @@
 
 .method protected setSearchMode(Z)V
     .locals 0
-    .param p1    # Z
 
     invoke-super {p0, p1}, Lcom/android/contacts/common/list/ContactEntryListFragment;->setSearchMode(Z)V
 
@@ -703,7 +677,6 @@
 
 .method public setShortcutAction(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
 
     iput-object p1, p0, Lcom/android/contacts/common/list/PhoneNumberPickerFragment;->mShortcutAction:Ljava/lang/String;
 
@@ -724,7 +697,6 @@
 
 .method protected startPhoneNumberShortcutIntent(Landroid/net/Uri;)V
     .locals 2
-    .param p1    # Landroid/net/Uri;
 
     new-instance v0, Lcom/android/contacts/common/list/ShortcutIntentBuilder;
 

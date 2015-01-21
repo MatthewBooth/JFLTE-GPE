@@ -29,7 +29,6 @@
 # virtual methods
 .method newEntry(Lcom/google/common/collect/MapMakerInternalMap$Segment;Ljava/lang/Object;ILcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;)Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
     .locals 1
-    .param p3    # I
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",

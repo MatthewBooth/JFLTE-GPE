@@ -34,8 +34,6 @@
 
 .method synthetic constructor <init>(Lcom/android/contacts/activities/ActionBarAdapter;Lcom/android/contacts/activities/ActionBarAdapter$1;)V
     .locals 0
-    .param p1    # Lcom/android/contacts/activities/ActionBarAdapter;
-    .param p2    # Lcom/android/contacts/activities/ActionBarAdapter$1;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/ActionBarAdapter$SearchTextWatcher;-><init>(Lcom/android/contacts/activities/ActionBarAdapter;)V
 
@@ -46,27 +44,18 @@
 # virtual methods
 .method public afterTextChanged(Landroid/text/Editable;)V
     .locals 0
-    .param p1    # Landroid/text/Editable;
 
     return-void
 .end method
 
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     return-void
 .end method
 
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # I
-    .param p3    # I
-    .param p4    # I
 
     iget-object v0, p0, Lcom/android/contacts/activities/ActionBarAdapter$SearchTextWatcher;->this$0:Lcom/android/contacts/activities/ActionBarAdapter;
 

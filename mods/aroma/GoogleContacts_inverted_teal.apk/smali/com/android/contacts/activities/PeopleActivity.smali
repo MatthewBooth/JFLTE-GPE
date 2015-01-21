@@ -134,7 +134,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mTabPagerAdapter:Lcom/android/contacts/activities/PeopleActivity$TabPagerAdapter;
 
@@ -143,7 +142,6 @@
 
 .method static synthetic access$100(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/common/list/ViewPagerTabs;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mViewPagerTabs:Lcom/android/contacts/common/list/ViewPagerTabs;
 
@@ -152,7 +150,6 @@
 
 .method static synthetic access$200(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/activities/ActionBarAdapter;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mActionBarAdapter:Lcom/android/contacts/activities/ActionBarAdapter;
 
@@ -161,8 +158,6 @@
 
 .method static synthetic access$300(Lcom/android/contacts/activities/PeopleActivity;I)V
     .locals 0
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/PeopleActivity;->showEmptyStateForTab(I)V
 
@@ -171,7 +166,6 @@
 
 .method static synthetic access$400(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/list/DefaultContactBrowseListFragment;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mAllFragment:Lcom/android/contacts/list/DefaultContactBrowseListFragment;
 
@@ -180,7 +174,6 @@
 
 .method static synthetic access$500(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/list/ContactTileListFragment;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mFavoritesFragment:Lcom/android/contacts/list/ContactTileListFragment;
 
@@ -189,8 +182,6 @@
 
 .method static synthetic access$600(Lcom/android/contacts/activities/PeopleActivity;I)I
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
-    .param p1    # I
 
     invoke-direct {p0, p1}, Lcom/android/contacts/activities/PeopleActivity;->getTabPositionForTextDirection(I)I
 
@@ -201,7 +192,6 @@
 
 .method static synthetic access$700(Lcom/android/contacts/activities/PeopleActivity;)[Ljava/lang/String;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mTabTitles:[Ljava/lang/String;
 
@@ -210,7 +200,6 @@
 
 .method static synthetic access$800(Lcom/android/contacts/activities/PeopleActivity;)Lcom/android/contacts/common/list/ContactListFilterController;
     .locals 1
-    .param p0    # Lcom/android/contacts/activities/PeopleActivity;
 
     iget-object v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mContactListFilterController:Lcom/android/contacts/common/list/ContactListFilterController;
 
@@ -320,7 +309,6 @@
 
 .method private configureFragments(Z)V
     .locals 6
-    .param p1    # Z
 
     if-eqz p1, :cond_3
 
@@ -432,7 +420,6 @@
 
 .method private createViewsAndFragments(Landroid/os/Bundle;)V
     .locals 14
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v13, 0x1
 
@@ -732,7 +719,6 @@
 
 .method private getTabPositionForTextDirection(I)I
     .locals 1
-    .param p1    # I
 
     invoke-direct {p0}, Lcom/android/contacts/activities/PeopleActivity;->isRTL()Z
 
@@ -799,9 +785,6 @@
 
 .method private makeMenuItemVisible(Landroid/view/Menu;IZ)V
     .locals 1
-    .param p1    # Landroid/view/Menu;
-    .param p2    # I
-    .param p3    # Z
 
     invoke-interface {p1, p2}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -817,7 +800,6 @@
 
 .method private processIntent(Z)Z
     .locals 5
-    .param p1    # Z
 
     const/4 v1, 0x0
 
@@ -963,7 +945,6 @@
 
 .method private setQueryTextToFragment(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x1
 
@@ -994,7 +975,6 @@
 
 .method private showEmptyStateForTab(I)V
     .locals 3
-    .param p1    # I
 
     const/4 v2, -0x1
 
@@ -1043,7 +1023,6 @@
 
 .method private updateDebugOptionsVisibility(Z)V
     .locals 1
-    .param p1    # Z
 
     iget-boolean v0, p0, Lcom/android/contacts/activities/PeopleActivity;->mEnableDebugMenuOptions:Z
 
@@ -1126,7 +1105,6 @@
 
 .method private updateViewConfiguration(Z)V
     .locals 9
-    .param p1    # Z
 
     const/16 v8, 0x8
 
@@ -1379,7 +1357,6 @@
 
 .method public onAction(I)V
     .locals 4
-    .param p1    # I
 
     packed-switch p1, :pswitch_data_0
 
@@ -1459,9 +1436,6 @@
 
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
-    .param p1    # I
-    .param p2    # I
-    .param p3    # Landroid/content/Intent;
 
     packed-switch p1, :pswitch_data_0
 
@@ -1498,7 +1472,6 @@
 
 .method public onAttachFragment(Landroid/app/Fragment;)V
     .locals 2
-    .param p1    # Landroid/app/Fragment;
 
     instance-of v0, p1, Lcom/android/contacts/list/ContactsUnavailableFragment;
 
@@ -1548,7 +1521,6 @@
 
 .method public onClick(Landroid/view/View;)V
     .locals 5
-    .param p1    # Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -1650,7 +1622,6 @@
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v3, 0x3
 
@@ -1740,7 +1711,6 @@
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 2
-    .param p1    # Landroid/view/Menu;
 
     invoke-virtual {p0}, Lcom/android/contacts/activities/PeopleActivity;->areContactsAvailable()Z
 
@@ -1803,8 +1773,6 @@
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
     .locals 5
-    .param p1    # I
-    .param p2    # Landroid/view/KeyEvent;
 
     const/4 v4, 0x0
 
@@ -1882,7 +1850,6 @@
 
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 4
-    .param p1    # Landroid/content/Intent;
 
     const/4 v3, 0x1
 
@@ -1923,7 +1890,6 @@
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
     .locals 7
-    .param p1    # Landroid/view/MenuItem;
 
     const/high16 v6, 0x80000
 
@@ -2113,7 +2079,6 @@
 
 .method public onPrepareOptionsMenu(Landroid/view/Menu;)Z
     .locals 9
-    .param p1    # Landroid/view/Menu;
 
     const/4 v5, 0x1
 
@@ -2268,7 +2233,6 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Lcom/android/contacts/ContactsActivity;->onRestoreInstanceState(Landroid/os/Bundle;)V
 
@@ -2327,7 +2291,6 @@
 
 .method protected onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     const/4 v1, 0x0
 

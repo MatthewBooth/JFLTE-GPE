@@ -6,7 +6,6 @@
 # direct methods
 .method public static getVibrateWhenRingingSetting(Landroid/content/Context;)Z
     .locals 4
-    .param p0    # Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -50,11 +49,6 @@
 
 .method public static updateRingtoneName(Landroid/content/Context;Landroid/os/Handler;ILandroid/preference/Preference;I)V
     .locals 11
-    .param p0    # Landroid/content/Context;
-    .param p1    # Landroid/os/Handler;
-    .param p2    # I
-    .param p3    # Landroid/preference/Preference;
-    .param p4    # I
 
     if-nez p3, :cond_0
 

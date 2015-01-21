@@ -65,7 +65,6 @@
 
 .method public onCallNumberDirectly(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment$2;->this$0:Lcom/android/contacts/list/ContactTileListFragment;
 
@@ -91,8 +90,6 @@
 
 .method public onContactSelected(Landroid/net/Uri;Landroid/graphics/Rect;)V
     .locals 1
-    .param p1    # Landroid/net/Uri;
-    .param p2    # Landroid/graphics/Rect;
 
     iget-object v0, p0, Lcom/android/contacts/list/ContactTileListFragment$2;->this$0:Lcom/android/contacts/list/ContactTileListFragment;
 

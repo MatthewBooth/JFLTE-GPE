@@ -80,7 +80,6 @@
 
 .method public static getScaledPagingTouchSlop(Landroid/view/ViewConfiguration;)I
     .locals 1
-    .param p0    # Landroid/view/ViewConfiguration;
 
     sget-object v0, Landroid/support/v4/view/ViewConfigurationCompat;->IMPL:Landroid/support/v4/view/ViewConfigurationCompat$ViewConfigurationVersionImpl;
 

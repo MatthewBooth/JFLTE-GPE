@@ -16,7 +16,6 @@
 # virtual methods
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 1
-    .param p1    # Landroid/content/Intent;
 
     const/4 v0, 0x0
 

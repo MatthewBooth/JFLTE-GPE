@@ -27,9 +27,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/res/Resources;Lcom/android/dialer/calllog/CallTypeHelper;Lcom/android/dialer/calllog/PhoneNumberUtilsWrapper;)V
     .locals 2
-    .param p1    # Landroid/content/res/Resources;
-    .param p2    # Lcom/android/dialer/calllog/CallTypeHelper;
-    .param p3    # Lcom/android/dialer/calllog/PhoneNumberUtilsWrapper;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,7 +53,6 @@
 
 .method private getCallLocationAndDate(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 3
-    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v1, p0, Lcom/android/dialer/PhoneCallDetailsHelper;->mDescriptionItems:Ljava/util/ArrayList;
 
@@ -122,9 +118,6 @@
 
 .method private setCallCountAndDate(Lcom/android/dialer/PhoneCallDetailsViews;Ljava/lang/Integer;Ljava/lang/CharSequence;)V
     .locals 6
-    .param p1    # Lcom/android/dialer/PhoneCallDetailsViews;
-    .param p2    # Ljava/lang/Integer;
-    .param p3    # Ljava/lang/CharSequence;
 
     if-eqz p2, :cond_0
 
@@ -173,7 +166,6 @@
 # virtual methods
 .method public getCallDate(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 7
-    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-wide v0, p1, Lcom/android/dialer/PhoneCallDetails;->date:J
 
@@ -194,7 +186,6 @@
 
 .method public getCallTypeOrLocation(Lcom/android/dialer/PhoneCallDetails;)Ljava/lang/CharSequence;
     .locals 5
-    .param p1    # Lcom/android/dialer/PhoneCallDetails;
 
     const/4 v0, 0x0
 
@@ -283,8 +274,6 @@
 
 .method public setCallDetailsHeader(Landroid/widget/TextView;Lcom/android/dialer/PhoneCallDetails;)V
     .locals 7
-    .param p1    # Landroid/widget/TextView;
-    .param p2    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v2, p0, Lcom/android/dialer/PhoneCallDetailsHelper;->mPhoneNumberHelper:Lcom/android/dialer/calllog/PhoneNumberDisplayHelper;
 
@@ -327,7 +316,6 @@
 
 .method public setCurrentTimeForTest(J)V
     .locals 1
-    .param p1    # J
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -340,8 +328,6 @@
 
 .method public setPhoneCallDetails(Lcom/android/dialer/PhoneCallDetailsViews;Lcom/android/dialer/PhoneCallDetails;)V
     .locals 11
-    .param p1    # Lcom/android/dialer/PhoneCallDetailsViews;
-    .param p2    # Lcom/android/dialer/PhoneCallDetails;
 
     iget-object v7, p1, Lcom/android/dialer/PhoneCallDetailsViews;->callTypeIcons:Lcom/android/dialer/calllog/CallTypeIconsView;
 

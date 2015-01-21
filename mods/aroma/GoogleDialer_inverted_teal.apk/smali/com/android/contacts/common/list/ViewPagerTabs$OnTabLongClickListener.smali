@@ -26,7 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/android/contacts/common/list/ViewPagerTabs;I)V
     .locals 0
-    .param p2    # I
 
     iput-object p1, p0, Lcom/android/contacts/common/list/ViewPagerTabs$OnTabLongClickListener;->this$0:Lcom/android/contacts/common/list/ViewPagerTabs;
 
@@ -41,7 +40,6 @@
 # virtual methods
 .method public onLongClick(Landroid/view/View;)Z
     .locals 10
-    .param p1    # Landroid/view/View;
 
     const/4 v9, 0x1
 

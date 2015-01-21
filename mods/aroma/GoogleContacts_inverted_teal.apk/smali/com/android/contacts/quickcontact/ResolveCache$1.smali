@@ -33,8 +33,6 @@
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/content/Intent;
 
     # invokes: Lcom/android/contacts/quickcontact/ResolveCache;->flush()V
     invoke-static {}, Lcom/android/contacts/quickcontact/ResolveCache;->access$000()V

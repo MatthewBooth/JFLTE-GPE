@@ -27,7 +27,6 @@
 # virtual methods
 .method protected getTypeLabelResource(Ljava/lang/Integer;)I
     .locals 1
-    .param p1    # Ljava/lang/Integer;
 
     if-nez p1, :cond_0
 

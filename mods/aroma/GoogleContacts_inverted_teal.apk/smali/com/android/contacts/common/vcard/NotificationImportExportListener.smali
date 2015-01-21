@@ -18,7 +18,6 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
-    .param p1    # Landroid/app/Activity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,8 +44,6 @@
 
 .method static constructCancelNotification(Landroid/content/Context;Ljava/lang/String;)Landroid/app/Notification;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -95,10 +92,6 @@
 
 .method static constructFinishNotification(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Notification;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
-    .param p3    # Landroid/content/Intent;
 
     const/4 v2, 0x0
 
@@ -153,8 +146,6 @@
 
 .method static constructImportFailureNotification(Landroid/content/Context;Ljava/lang/String;)Landroid/app/Notification;
     .locals 3
-    .param p0    # Landroid/content/Context;
-    .param p1    # Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -209,14 +200,6 @@
 
 .method static constructProgressNotification(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;II)Landroid/app/Notification;
     .locals 8
-    .param p0    # Landroid/content/Context;
-    .param p1    # I
-    .param p2    # Ljava/lang/String;
-    .param p3    # Ljava/lang/String;
-    .param p4    # I
-    .param p5    # Ljava/lang/String;
-    .param p6    # I
-    .param p7    # I
 
     const/4 v4, 0x1
 
@@ -362,7 +345,6 @@
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)Z
     .locals 3
-    .param p1    # Landroid/os/Message;
 
     const/4 v2, 0x1
 
@@ -383,8 +365,6 @@
 
 .method public onCancelRequest(Lcom/android/contacts/common/vcard/CancelRequest;I)V
     .locals 7
-    .param p1    # Lcom/android/contacts/common/vcard/CancelRequest;
-    .param p2    # I
 
     const/4 v6, 0x0
 
@@ -443,7 +423,6 @@
 
 .method public onExportFailed(Lcom/android/contacts/common/vcard/ExportRequest;)V
     .locals 4
-    .param p1    # Lcom/android/contacts/common/vcard/ExportRequest;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/NotificationImportExportListener;->mHandler:Landroid/os/Handler;
 
@@ -468,8 +447,6 @@
 
 .method public onExportProcessed(Lcom/android/contacts/common/vcard/ExportRequest;I)V
     .locals 9
-    .param p1    # Lcom/android/contacts/common/vcard/ExportRequest;
-    .param p2    # I
 
     const/4 v7, 0x0
 
@@ -526,8 +503,6 @@
 
 .method public onImportCanceled(Lcom/android/contacts/common/vcard/ImportRequest;I)V
     .locals 7
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
-    .param p2    # I
 
     iget-object v2, p0, Lcom/android/contacts/common/vcard/NotificationImportExportListener;->mContext:Landroid/app/Activity;
 
@@ -564,7 +539,6 @@
 
 .method public onImportFailed(Lcom/android/contacts/common/vcard/ImportRequest;)V
     .locals 4
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/NotificationImportExportListener;->mHandler:Landroid/os/Handler;
 
@@ -589,9 +563,6 @@
 
 .method public onImportFinished(Lcom/android/contacts/common/vcard/ImportRequest;ILandroid/net/Uri;)V
     .locals 11
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
-    .param p2    # I
-    .param p3    # Landroid/net/Uri;
 
     iget-object v6, p0, Lcom/android/contacts/common/vcard/NotificationImportExportListener;->mContext:Landroid/app/Activity;
 
@@ -664,11 +635,6 @@
 
 .method public onImportParsed(Lcom/android/contacts/common/vcard/ImportRequest;ILcom/android/vcard/VCardEntry;II)V
     .locals 10
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
-    .param p2    # I
-    .param p3    # Lcom/android/vcard/VCardEntry;
-    .param p4    # I
-    .param p5    # I
 
     invoke-virtual {p3}, Lcom/android/vcard/VCardEntry;->isIgnorable()Z
 
@@ -767,9 +733,6 @@
 
 .method public onImportProcessed(Lcom/android/contacts/common/vcard/ImportRequest;II)V
     .locals 9
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
-    .param p2    # I
-    .param p3    # I
 
     const/4 v1, 0x1
 

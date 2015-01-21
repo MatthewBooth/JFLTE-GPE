@@ -6,7 +6,6 @@
 # direct methods
 .method private static calculateXyzLuma(I)F
     .locals 3
-    .param p0    # I
 
     const v0, 0x3e59b3d0
 
@@ -51,7 +50,6 @@
 
 .method public static isBitmapWhiteAtTopOrBottom(Landroid/graphics/Bitmap;)Z
     .locals 13
-    .param p0    # Landroid/graphics/Bitmap;
 
     const-string v2, "isBitmapWhiteAtTopOrBottom"
 
@@ -321,7 +319,6 @@
 
 .method private static isWhite(I)Z
     .locals 2
-    .param p0    # I
 
     invoke-static {p0}, Lcom/android/contacts/quickcontact/WhitenessUtils;->calculateXyzLuma(I)F
 
@@ -346,7 +343,6 @@
 
 .method private static scaleBitmapDown(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 6
-    .param p0    # Landroid/graphics/Bitmap;
 
     const/16 v0, 0x64
 

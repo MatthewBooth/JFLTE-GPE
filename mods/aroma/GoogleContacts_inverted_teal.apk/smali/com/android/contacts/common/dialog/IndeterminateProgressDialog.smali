@@ -76,7 +76,6 @@
 
 .method static synthetic access$000(Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;)V
     .locals 0
-    .param p0    # Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;
 
     invoke-direct {p0}, Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;->superDismiss()V
 
@@ -125,10 +124,6 @@
 
 .method public static show(Landroid/app/FragmentManager;Ljava/lang/CharSequence;Ljava/lang/CharSequence;J)Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;
     .locals 5
-    .param p0    # Landroid/app/FragmentManager;
-    .param p1    # Ljava/lang/CharSequence;
-    .param p2    # Ljava/lang/CharSequence;
-    .param p3    # J
 
     new-instance v0, Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;
 
@@ -212,7 +207,6 @@
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
 
     invoke-super {p0, p1}, Landroid/app/DialogFragment;->onCreate(Landroid/os/Bundle;)V
 
@@ -225,7 +219,6 @@
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 2
-    .param p1    # Landroid/os/Bundle;
 
     new-instance v0, Landroid/app/ProgressDialog;
 
@@ -270,7 +263,6 @@
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
 
     iget-object v0, p0, Lcom/android/contacts/common/dialog/IndeterminateProgressDialog;->mOldDialog:Landroid/app/Dialog;
 

@@ -69,11 +69,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Ljava/util/List;IIJJ)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-    .param p3    # I
-    .param p4    # I
-    .param p5    # J
-    .param p7    # J
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -102,7 +97,6 @@
 
 .method private caseAndDotInsensitiveEmailComparisonClause(I)Ljava/lang/String;
     .locals 5
-    .param p1    # I
 
     if-lez p1, :cond_0
 
@@ -155,7 +149,6 @@
 
 .method private getInteractionsFromEventsCursor(Landroid/database/Cursor;)Ljava/util/List;
     .locals 5
-    .param p1    # Landroid/database/Cursor;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -412,8 +405,6 @@
 
 .method private getSharedEventsCursor(ZI)Landroid/database/Cursor;
     .locals 20
-    .param p1    # Z
-    .param p2    # I
 
     invoke-direct/range {p0 .. p0}, Lcom/android/contacts/interactions/CalendarInteractionsLoader;->getOwnedCalendarIds()Ljava/util/List;
 
@@ -704,7 +695,6 @@
 # virtual methods
 .method public bridge synthetic deliverResult(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Ljava/util/List;
 

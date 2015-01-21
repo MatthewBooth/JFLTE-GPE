@@ -21,8 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroid/database/Cursor;Landroid/database/Cursor;)V
     .locals 0
-    .param p1    # Landroid/database/Cursor;
-    .param p2    # Landroid/database/Cursor;
 
     invoke-direct {p0, p1}, Landroid/database/CursorWrapper;-><init>(Landroid/database/Cursor;)V
 

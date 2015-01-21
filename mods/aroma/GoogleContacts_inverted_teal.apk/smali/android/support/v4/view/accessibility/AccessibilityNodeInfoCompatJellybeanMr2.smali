@@ -6,7 +6,6 @@
 # direct methods
 .method public static getViewIdResourceName(Ljava/lang/Object;)Ljava/lang/String;
     .locals 1
-    .param p0    # Ljava/lang/Object;
 
     check-cast p0, Landroid/view/accessibility/AccessibilityNodeInfo;
 

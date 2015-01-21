@@ -44,7 +44,6 @@
 # virtual methods
 .method public varargs doInBackground([Lcom/android/contacts/common/vcard/VCardService;)Lcom/android/contacts/common/vcard/ImportRequest;
     .locals 4
-    .param p1    # [Lcom/android/contacts/common/vcard/VCardService;
 
     iget-object v2, p0, Lcom/android/contacts/common/vcard/NfcImportVCardActivity$ImportTask;->this$0:Lcom/android/contacts/common/vcard/NfcImportVCardActivity;
 
@@ -79,7 +78,6 @@
 
 .method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # [Ljava/lang/Object;
 
     check-cast p1, [Lcom/android/contacts/common/vcard/VCardService;
 
@@ -104,7 +102,6 @@
 
 .method public onPostExecute(Lcom/android/contacts/common/vcard/ImportRequest;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/vcard/ImportRequest;
 
     iget-object v0, p0, Lcom/android/contacts/common/vcard/NfcImportVCardActivity$ImportTask;->this$0:Lcom/android/contacts/common/vcard/NfcImportVCardActivity;
 
@@ -117,7 +114,6 @@
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
 
     check-cast p1, Lcom/android/contacts/common/vcard/ImportRequest;
 

@@ -14,7 +14,6 @@
 
 .method public static show(Landroid/app/FragmentManager;)V
     .locals 2
-    .param p0    # Landroid/app/FragmentManager;
 
     new-instance v0, Lcom/android/contacts/common/dialog/ClearFrequentsDialog;
 
@@ -31,7 +30,6 @@
 # virtual methods
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 5
-    .param p1    # Landroid/os/Bundle;
 
     invoke-virtual {p0}, Lcom/android/contacts/common/dialog/ClearFrequentsDialog;->getActivity()Landroid/app/Activity;
 

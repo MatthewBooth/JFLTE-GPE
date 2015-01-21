@@ -21,7 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/TextFieldsEditorView;-><init>(Landroid/content/Context;)V
 
@@ -30,8 +29,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Lcom/android/contacts/editor/TextFieldsEditorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -40,9 +37,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-    .param p2    # Landroid/util/AttributeSet;
-    .param p3    # I
 
     invoke-direct {p0, p1, p2, p3}, Lcom/android/contacts/editor/TextFieldsEditorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -51,7 +45,6 @@
 
 .method private eraseFullName(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 1
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     const/4 v0, 0x0
 
@@ -62,7 +55,6 @@
 
 .method private eraseStructuredName(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 4
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     sget-object v0, Lcom/android/contacts/common/util/NameConverter;->STRUCTURED_NAME_FIELDS:[Ljava/lang/String;
 
@@ -87,7 +79,6 @@
 
 .method private rebuildFullName(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 3
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-direct {p0, p1}, Lcom/android/contacts/editor/StructuredNameEditorView;->valuesToStructuredNameMap(Lcom/android/contacts/common/model/ValuesDelta;)Ljava/util/Map;
 
@@ -108,7 +99,6 @@
 
 .method private rebuildStructuredName(Lcom/android/contacts/common/model/ValuesDelta;)V
     .locals 5
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
 
     invoke-virtual {p1}, Lcom/android/contacts/common/model/ValuesDelta;->getDisplayName()Ljava/lang/String;
 
@@ -386,7 +376,6 @@
 
 .method private valuesToStructuredNameMap(Lcom/android/contacts/common/model/ValuesDelta;)Ljava/util/Map;
     .locals 6
-    .param p1    # Lcom/android/contacts/common/model/ValuesDelta;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -433,8 +422,6 @@
 # virtual methods
 .method public onFieldChanged(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-    .param p2    # Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/android/contacts/editor/StructuredNameEditorView;->isFieldChanged(Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -517,7 +504,6 @@
 
 .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
     .locals 2
-    .param p1    # Landroid/os/Parcelable;
 
     move-object v0, p1
 
@@ -572,7 +558,6 @@
 
 .method public setDisplayName(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -583,11 +568,6 @@
 
 .method public setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
     .locals 2
-    .param p1    # Lcom/android/contacts/common/model/dataitem/DataKind;
-    .param p2    # Lcom/android/contacts/common/model/ValuesDelta;
-    .param p3    # Lcom/android/contacts/common/model/RawContactDelta;
-    .param p4    # Z
-    .param p5    # Lcom/android/contacts/editor/ViewIdGenerator;
 
     invoke-super/range {p0 .. p5}, Lcom/android/contacts/editor/TextFieldsEditorView;->setValues(Lcom/android/contacts/common/model/dataitem/DataKind;Lcom/android/contacts/common/model/ValuesDelta;Lcom/android/contacts/common/model/RawContactDelta;ZLcom/android/contacts/editor/ViewIdGenerator;)V
 

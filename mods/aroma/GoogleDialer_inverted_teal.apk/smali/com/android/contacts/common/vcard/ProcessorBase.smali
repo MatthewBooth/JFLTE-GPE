@@ -44,8 +44,6 @@
 
 .method public final get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
     .locals 1
-    .param p1    # J
-    .param p3    # Ljava/util/concurrent/TimeUnit;
 
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
