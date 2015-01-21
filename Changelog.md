@@ -21,8 +21,7 @@ Visit http://ultimarom.com for downloads
 * Added clock mods
 * Added CyanogenMOD browser option to AROMA
 * Added a choice in AROMA for Eleven and Apollo music players
-* Added MusicFX from CM12 to AROMA
-* Added CM Browser to AROMA
+* Added AudioFX from CM12 to AROMA
 * Removed Gear Manager as it's not working
 * Live walpapers are now optional in AROMA
 * Updated build.prop
