@@ -240,7 +240,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","phasebeam") == "1" then
 		ui_print("Installing Phase Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/phaseBeam", "/system/app");
+        package_extract_dir("aroma/apps/live_wallpapers/phasebeam", "/system/app");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","photophase") == "1" then
 		ui_print("Installing Photo Phase LWP");
