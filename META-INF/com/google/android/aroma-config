@@ -164,7 +164,8 @@ textbox(
 			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
 
 			"browser",				"<#selectbg_g>Browser</#>","",																				"group",
-			"cyan",					"CyanogenMod", 			"Cyanogen's new Lollipop browser app",												"select.selected",
+			"chrome",				"Chrome", 			    "Google Chrome",												                    "select.selected",
+			"cyan",					"CyanogenMod", 			"Cyanogen's new Lollipop browser app",												"select",
 			"none",					"None", 				"Do not install a browser",															"select",
 
 			"dpi",					"<#selectbg_g>Dots-Per-Inch</#>","",																		"group",

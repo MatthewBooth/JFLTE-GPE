@@ -182,6 +182,10 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     endif;
 	
 # Browser
+	if file_getprop("/tmp/aroma-data/install.prop","browser") == "chrome" then
+        ui_print("Installing Google Chrome");
+        package_extract_dir("aroma/apps/browsers/chrome", "/system/app");
+    endif;
     if file_getprop("/tmp/aroma-data/install.prop","browser") == "cyan" then
         ui_print("Installing CyanogenMod Browser");
         package_extract_dir("aroma/apps/browsers/cyan", "/system/priv-app");
