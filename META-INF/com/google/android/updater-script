@@ -164,18 +164,8 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Apollo Music Player");
         package_extract_dir("aroma/apps/music/apollo", "/system/app");
     endif;
-
+	
 # DSP Audio
-    if file_getprop("/tmp/aroma-data/install.prop","browser") == "cyan" then
-        ui_print("Installing CyanogenMod Browser");
-        package_extract_dir("aroma/apps/browser/cyan", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","browser") == "chrome" then
-        ui_print("Installing Google Chrome");
-        package_extract_dir("aroma/apps/browser/chrome", "/system/app");
-    endif;
-
-# Browser
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "stock" then
         ui_print("Installing Stock DSP");
         package_extract_dir("aroma/apps/audio/stock", "/system");
@@ -189,6 +179,16 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "cyan" then
         ui_print("Installing Cyanogen DSP");
         package_extract_dir("aroma/apps/audio/cyan", "/system");
+    endif;
+	
+# Browser
+    if file_getprop("/tmp/aroma-data/install.prop","browser") == "cyan" then
+        ui_print("Installing CyanogenMod Browser");
+        package_extract_dir("aroma/apps/browser/cyan", "/system/priv-app");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","browser") == "chrome" then
+        ui_print("Installing Google Chrome");
+        package_extract_dir("aroma/apps/browser/chrome", "/system/app");
     endif;
 
 # Data Apps
