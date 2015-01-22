@@ -110,7 +110,7 @@ textbox(
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
 		"factory",				"Full System Wipe", 	"Wipes app /data and /system. Leaves internal storage untouched",															"select.selected",
-		"full",					"Factory Reset", 		"Wipes everything internal storage <#ff4444>(RECOMMENDED)</#>",											"select.selected",
+		"full",					"Factory Reset", 		"Wipes everything including internal storage <#ff4444>(RECOMMENDED)</#>",											"select.selected",
 		"nothing",				"Dirty Flash", 			"Wipes just /system",												                        						"select"
 	);
 
