@@ -4,8 +4,9 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150121
+### Changelog 20150123
 * Fixed tethering and enabled bluetooth tethering for all carriers
+* Updated Chrome
 * Updated Google Search
 * Updated Google Play Services
 * Updated AOSP Gallery
@@ -20,6 +21,8 @@ Visit http://ultimarom.com for downloads
 * Added hold back to kill current app
 * Added clock mods
 * Added CyanogenMOD browser option to AROMA
+* Added hardware swap file options in AROMA
+* Added CM Calculator
 * Added a choice in AROMA for Eleven and Apollo music players
 * Added AudioFX from CM12 to AROMA
 * Removed Gear Manager as it's not working

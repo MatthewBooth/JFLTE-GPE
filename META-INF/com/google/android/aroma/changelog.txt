@@ -1,5 +1,6 @@
-<b><#selectbg_g>JFLTE-GPE-20150121</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150123</#></b>
 <*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
+<*>Updated Chrome</*>
 <*>Updated Google Search</*>
 <*>Updated Google Play Services</*>
 <*>Updated AOSP Gallery</*>
@@ -14,6 +15,8 @@
 <*>Added hold back to kill current app</*>
 <*>Added clock mods</*>
 <*>Added CyanogenMOD browser option to AROMA</*>
+<*>Added hardware swap file options in AROMA</*>
+<*>Added CM Calculator</*>
 <*>Added a choice in AROMA for Eleven and Apollo music players</*>
 <*>Added AudioFX from CM12 to AROMA</*>
 <*>Removed Gear Manager as it's not working</*>
