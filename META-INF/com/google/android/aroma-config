@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150121");
+ini_set("rom_version",          "20150123");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150121");
+ini_set("rom_date",             "20150123");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -158,8 +158,8 @@ textbox(
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
 			"stock",				"Stock", 				"Stock Google Contacts and Dialer",													"select.selected",
+			"invertedteal",		    "Material Dark", 		"Material dark with teal themed Google Contacts and Dialer",						"select",
 			"invertedstock",		"Inverted Stock", 		"Dark themed Google Contacts and Dialer",											"select",
-			"invertedteal",		    "Inverted Teal", 		"Material dark with teal themed Google Contacts and Dialer",						"select",
 
 			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
 			"stock",				"Stock", 				"Stock Settings app",																"select.selected",
