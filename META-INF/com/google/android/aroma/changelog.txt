@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150123</#></b></*>
+<b><#selectbg_g>JFLTE-GPE-20150123</#></b>
 <*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
 <*>Updated Chrome</*>
 <*>Updated Google Search</*>
