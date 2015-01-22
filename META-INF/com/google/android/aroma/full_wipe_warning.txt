@@ -1,7 +1,7 @@
 <b><#ff4444>WARNING</#></b>
 
-Full wipe will erase the entire internal storage. 
-
+Full wipe will erase the entire internal storage. Make sure the ZIP is on external storage!
+Do not use this option if you downloaded the ROM via OTA updates
 Please ensure you understand this before continuing.
 
 
