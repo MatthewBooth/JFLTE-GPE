@@ -8,8 +8,8 @@
     <color name="dialer_theme_color_dark">#ff21272b</color>
     <color name="background_dialpad">#ff1f292f</color>
     <color name="background_dialpad_pressed">#80333333</color>
-    <color name="dialpad_primary_text_color">#ffffffff</color>
-    <color name="dialpad_secondary_text_color">#ff02cfbc</color>
+    <color name="dialpad_primary_text_color">@color/dialer_theme_color</color>
+    <color name="dialpad_secondary_text_color">#ff888888</color>
     <color name="dialpad_digits_text_color">#ffcccccc</color>
     <color name="dialpad_separator_line_color">#ff333333</color>
     <color name="dialpad_icon_tint">#ffb3b3b3</color>
@@ -18,7 +18,7 @@
     <color name="focus_color">#44ff0000</color>
     <color name="ripple_material_dark">#20ffffff</color>
     <color name="primary_text_color">#ffffffff</color>
-    <color name="secondary_text_color">#ff018276</color>
+    <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
     <color name="section_header_text_color">#ff009587</color>
     <color name="main_header_separator_color">#ffaaaaaa</color>
     <color name="secondary_header_separator_color">#ff333333</color>
