@@ -15,6 +15,8 @@ Visit http://ultimarom.com for downloads
 * Updated Interface app
 * Updated kernel to latest Googy 1.2.7
 * Updated SuperSU
+* Added full wipe option to aroma
+* Added pre-boot kernel options in aroma
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks
@@ -26,6 +28,7 @@ Visit http://ultimarom.com for downloads
 * Added a choice in AROMA for Eleven and Apollo music players
 * Added AudioFX from CM12 to AROMA
 * Removed Gear Manager as it's not working
+* Removed WAV option from SoundRecorder, since it's not working
 * Live walpapers are now optional in AROMA
 * Updated build.prop
 
