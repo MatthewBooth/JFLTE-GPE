@@ -116,9 +116,9 @@ textbox(
 
 	if file_getprop("/tmp/aroma-data/wipe.prop","wipe") == "full" then
 		agreebox(
-			    "Terms and Credits",
-			    "Please read the Terms and Conditions below.",
-			    "@ultima",
+			    "Warning",
+			    "Please read the text below.",
+			    "@alert",
 			    resread("full_wipe.txt"),
 			    "I understand",
 			    "Please check you understand"
