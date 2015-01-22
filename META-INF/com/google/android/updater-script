@@ -53,6 +53,11 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 		set_perm(0, 0, 0777, "/tmp/bash");
 		run_program("/tmp/wipe.sh");
 	endif;
+
+	if file_getprop("/tmp/aroma-data/wipe.prop","wipe") == "full" then  
+		ui_print("Full wiping...");
+		delete_recursive("/data"); 
+	endif;
 	
 	ui_print("Clearing Cache and Dalvik...");
 	delete_recursive("/data/dalvik-cache"); 

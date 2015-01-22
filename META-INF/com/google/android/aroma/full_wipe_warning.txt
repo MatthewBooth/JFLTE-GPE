@@ -1,0 +1,7 @@
+<b><#ff4444>WARNING</#></b>
+
+Full wipe will erase the entire internal storage. 
+
+Please ensure you understand this before continuing.
+
+

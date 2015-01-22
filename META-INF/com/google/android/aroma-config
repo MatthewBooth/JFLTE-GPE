@@ -109,9 +109,21 @@ textbox(
 		"wipe.prop",
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
-		"factory",				"Factory Reset", 		"Wipe everything on the data partition, except /data/media (the internal storage) <#ff4444>(RECOMMENDED)</#>",		"select.selected",
-		"nothing",				"Nothing", 				"Wipe just /system. Same as a 'dirty' flash",												                        "select"
+		"factory",				"Factory Reset", 		"Wipes app /data and /system. Leaves /sdcard untouched",															"select.selected",
+		"full",					"Full Wipe", 			"Wipes everything /scard, /data and /system <#ff4444>(RECOMMENDED)</#>",											"select.selected",
+		"nothing",				"Dirty Flash", 			"Wipes just /system",												                        						"select"
 	);
+
+	if file_getprop("/tmp/aroma-data/wipe.prop","wipe") == "full" then
+		agreebox(
+			    "Terms and Credits",
+			    "Please read the Terms and Conditions below.",
+			    "@ultima",
+			    resread("full_wipe.txt"),
+			    "I understand",
+			    "Please check you understand"
+			);
+	endif;
 		
 	  #-------------------------+-----------------[     Install Data     ]----------------+---------------#
 	  #-------------------------+---------------------------------------------------------+---------------#
