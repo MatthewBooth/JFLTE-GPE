@@ -198,6 +198,20 @@ textbox(
 			"photophase",			"Photo Phase", 			"",																					"check.checked",
 			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
+
+		form(
+			"Hardswap",
+			"Hardware Swap partition",
+			"@alert",
+			"hardswap.prop",
+
+			"swap",					"<#selectbg_g>Amount</#>","",																				"group",
+			"0",					"0 Megabytes",			"Remove",																			"select.selected",
+			"64",					"64 Megabytes",			"",																					"select",
+			"128",					"128 Megabytes",		"",																					"select",
+			"256",					"256 Megabytes",		"<#ff4444>(RECOMMENDED)</#>",														"select",
+			"512",					"512 Megabytes",		"",																					"select"
+		);
 			
 	  
 ini_set("text_next", "Install");

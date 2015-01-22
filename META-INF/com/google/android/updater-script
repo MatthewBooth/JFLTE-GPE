@@ -669,6 +669,13 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
     set_metadata("/system/bin/.ext", "uid", 0, "gid", 0, "mode", 0777, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
     run_program("/system/xbin/su", "--install");
 
+# Hardswap enable or disable
+
+ui_print("<b><#009688>Setting Swap...</#></b>");	
+	package_extract_file("aroma/scripts/hardswap.sh", "/tmp/hardswap.sh");
+	set_perm(0, 0, 0777, "/tmp/hardswap.sh");
+	run_program("/tmp/hardswap.sh", "/cache", file_getprop("/tmp/aroma-data/hardswap.prop", "swap"));
+
 ui_print("<b><#009688>Installing GoogyMax Kernel...</#></b>");
 		
 	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
