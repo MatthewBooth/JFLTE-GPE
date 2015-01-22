@@ -232,10 +232,10 @@ textbox(
 			"kernel.prop",
 
 			"govenor",				"<#selectbg_g>CPU Govenor</#>","",																			"group",
-			"ondemand",				"OnDemand",				"",																					"select.selected",
-			"interactive",			"Interactive",			"",																					"select",
-			"intelliactive",		"Intelliactive",		"<#ff4444>(RECOMMENDED)</#>",														"select",
-			"intellidemand",		"Intellidemand",		"",																					"select",
+			"ondemand",				"OnDemand",				"Stock Samsung",																	"select.selected",
+			"interactive",			"Interactive",			"Stock Google",																		"select",
+			"intelliactive",		"Intelliactive",		"Faux Interactive",														            "select",
+			"intellidemand",		"Intellidemand",		"Faux OnDemand",																	"select",
 
 			"arch_power",			"<#selectbg_g>CPU Power Saving</#>","",																		"group",
 			"arch_power_enable",	"ARCH_POWER",			"Architecture dependant power functions",											"check",
