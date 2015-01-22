@@ -109,8 +109,8 @@ textbox(
 		"wipe.prop",
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
-		"factory",				"Factory Reset", 		"Wipes app /data and /system. Leaves /sdcard untouched",															"select.selected",
-		"full",					"Full Wipe", 			"Wipes everything /scard, /data and /system <#ff4444>(RECOMMENDED)</#>",											"select.selected",
+		"factory",				"Full System Wipe", 	"Wipes app /data and /system. Leaves internal storage untouched",															"select.selected",
+		"full",					"Factory Reset", 		"Wipes everything internal storage <#ff4444>(RECOMMENDED)</#>",											"select.selected",
 		"nothing",				"Dirty Flash", 			"Wipes just /system",												                        						"select"
 	);
 
