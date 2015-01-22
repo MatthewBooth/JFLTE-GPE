@@ -87,8 +87,8 @@
     <color name="conference_call_manager_secondary_text_color">#ff999999</color>
     <color name="secondary_call_info_divider_highlight_color">#ffffffff</color>
     <color name="end_call_touch_feedback_tint">#ffdddddd</color>
-    <color name="incall_dialpad_background">#ffffffff</color>
-    <color name="incall_dialpad_background_pressed">#ccaaaaaa</color>
+    <color name="incall_dialpad_background">#ff222222</color>
+    <color name="incall_dialpad_background_pressed">#80333333</color>
     <color name="button_background_color">@color/incall_background_color</color>
     <color name="button_selected_color">@color/dialer_theme_color_dark</color>
     <color name="button_default_color">#b3ffffff</color>

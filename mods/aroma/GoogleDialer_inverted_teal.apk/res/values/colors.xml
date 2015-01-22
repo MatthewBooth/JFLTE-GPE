@@ -23,7 +23,7 @@
     <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#ff0000ee</color>
-    <color name="dialer_theme_color">#ff009587</color>
+    <color name="dialer_theme_color">#ff009688</color>
     <color name="dialer_theme_color_dark">#ff21272b</color>
     <color name="background_dialpad">#ff1f292f</color>
     <color name="background_dialpad_pressed">#80333333</color>
@@ -38,7 +38,7 @@
     <color name="ripple_material_dark">#20ffffff</color>
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
-    <color name="section_header_text_color">#ff009587</color>
+    <color name="section_header_text_color">#ff009688</color>
     <color name="main_header_separator_color">#ffaaaaaa</color>
     <color name="secondary_header_separator_color">#ffd0d0d0</color>
     <color name="people_app_theme_color">#ffcccccc</color>
@@ -58,7 +58,7 @@
     <color name="actionbar_icon_color">#ffffffff</color>
     <color name="actionbar_background_color_dark">#ff21272b</color>
     <color name="tab_ripple_color">@color/tab_accent_color</color>
-    <color name="tab_accent_color">#ff009587</color>
+    <color name="tab_accent_color">#ff009688</color>
     <color name="tab_selected_underline_color">@color/tab_accent_color</color>
     <color name="frequently_contacted_title_color">@color/actionbar_background_color</color>
     <color name="actionbar_text_color">#ffffffff</color>
@@ -113,7 +113,7 @@
     <color name="call_log_missed_call_highlight_color">@color/dialer_red_highlight_color</color>
     <color name="call_log_voicemail_highlight_color">#ff33b5e5</color>
     <color name="recent_call_log_item_phone_icon_tint">#ffffffff</color>
-    <color name="call_log_extras_text_color">#ffffffff</color>
+    <color name="call_log_extras_text_color">#ff00685f</color>
     <color name="voicemail_playback_seek_bar_yet_to_play">#ffcecece</color>
     <color name="voicemail_playback_seek_bar_already_played">#ff39c9ff</color>
     <color name="item_selected">#660099cc</color>
