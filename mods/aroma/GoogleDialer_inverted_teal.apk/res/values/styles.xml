@@ -333,8 +333,8 @@
         <item name="android:textColorSecondary">@color/setting_secondary_color</item>
         <item name="android:windowBackground">@color/setting_background_color</item>
         <item name="android:textColor">@color/setting_primary_color</item>
-        <item name="android:textColorLink">@color/dialtacts_theme_color</item>
-        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
+        <item name="android:textColorLink">#ff009587</item>
+        <item name="android:colorAccent">#ff009587</item>
     </style>
     <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">@color/dialtacts_theme_color</item>
