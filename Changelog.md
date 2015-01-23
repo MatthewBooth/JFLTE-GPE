@@ -16,7 +16,6 @@ Visit http://ultimarom.com for downloads
 * Updated kernel to latest Googy 1.2.7
 * Updated SuperSU
 * Added full wipe option to aroma
-* Added pre-boot kernel options in aroma
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks
