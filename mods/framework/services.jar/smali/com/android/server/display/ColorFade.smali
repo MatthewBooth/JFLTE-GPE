@@ -280,6 +280,8 @@
     iget-object v0, p0, Lcom/android/server/display/ColorFade;->mTexMatrix:[F
 
     invoke-virtual {v8, v0}, Landroid/graphics/SurfaceTexture;->getTransformMatrix([F)V
+	
+	invoke-virtual {v8}, Landroid/graphics/SurfaceTexture;->release()V
 
     iget-object v0, p0, Lcom/android/server/display/ColorFade;->mTexCoordBuffer:Ljava/nio/FloatBuffer;
 

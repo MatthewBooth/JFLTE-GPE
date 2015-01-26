@@ -113,7 +113,7 @@
     <color name="call_log_missed_call_highlight_color">@color/dialer_red_highlight_color</color>
     <color name="call_log_voicemail_highlight_color">#ff33b5e5</color>
     <color name="recent_call_log_item_phone_icon_tint">#ffffffff</color>
-    <color name="call_log_extras_text_color">#ff00685f</color>
+    <color name="call_log_extras_text_color">#ffffffff</color>
     <color name="voicemail_playback_seek_bar_yet_to_play">#ffcecece</color>
     <color name="voicemail_playback_seek_bar_already_played">#ff39c9ff</color>
     <color name="item_selected">#660099cc</color>

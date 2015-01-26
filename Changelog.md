@@ -4,6 +4,16 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
+### Changelog 20150124
+* Removed debug code from OTA app
+* Fixed spacing for U/D on network meter
+* Fixed Calculator delete string for English UK
+* Fix 1 color in Dialer
+* Replace gray voicemail icon with teal 
+* Update Interface app (Remove right clock, and back to kill settings over 2000ms
+* Update OTA info in build.prop
+
+
 ### Changelog 20150123
 * Fixed tethering and enabled bluetooth tethering for all carriers
 * Updated Chrome
