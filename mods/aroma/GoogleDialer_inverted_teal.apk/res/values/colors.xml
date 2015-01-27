@@ -42,7 +42,7 @@
     <color name="main_header_separator_color">#ffaaaaaa</color>
     <color name="secondary_header_separator_color">#ffd0d0d0</color>
     <color name="people_app_theme_color">#ffcccccc</color>
-    <color name="dialtacts_theme_color">#ff263238</color>
+    <color name="dialtacts_theme_color">#ff009688</color>
     <color name="image_placeholder">#ffdddddd</color>
     <color name="dialtacts_secondary_text_color">#ffcccccc</color>
     <color name="contact_tile_shadow_box_color">#7f000000</color>
