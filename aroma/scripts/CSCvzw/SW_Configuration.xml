@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SCH-I545</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>I545VZW</CSCName>
+	<CSCVersion>FNK1</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/VZW/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>
