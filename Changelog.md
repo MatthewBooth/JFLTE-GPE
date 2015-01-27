@@ -6,11 +6,15 @@ Visit http://ultimarom.com for downloads
 
 ### Changelog 20150127
 * Patched colorfade memory leak in services.jar
+* Network improvements for Verizon Wireless
 * Removed debug code from OTA app
 * Fixed spacing for U/D on network meter
 * Fixed Calculator delete string for English UK
 * Updates to our themed dialers
 * Sound recorder updates, Can now record in mp4 and wav
+* Updated CM music player, compiled from source
+* Updated CM browser, compiled from source
+* Updated CM MMS, compiled from source
 * Update OTA info in build.prop
 
 

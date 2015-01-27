@@ -153,7 +153,7 @@ textbox(
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
-			"aosp",					"AOSP",				    "Install AOSP Messaging <#ff4444>EXPERIMENTAL</#>",									"select",
+			"aosp",					"CM",				    "Install CyanogenMOD Messaging",									                "select",
 			"no",					"No", 					"Do not install a MMS app",													        "select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
@@ -163,7 +163,7 @@ textbox(
 
 			"settings",				"<#selectbg_g>Settings</#>","",																				"group",
 			"stock",				"Stock", 				"Stock Settings app",																"select.selected",
-			"dark",					"Dark", 				"Dark themed Settings app",															"select",
+			"dark",					"Dark", 				"Material dark themed Settings app",												"select",
 
 			"audio",				"<#selectbg_g>Audio</#>","",																				"group",
 			"eleven",				"Eleven", 				"Cyanogen's new Lollipop Music app",												"select.selected",
