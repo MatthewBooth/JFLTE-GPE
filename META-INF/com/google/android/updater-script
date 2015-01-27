@@ -769,7 +769,7 @@ ui_print("<b><#009688>Finishing Installation...</#></b>");
 	endif;
 	
 	if (getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then  
-        package_extract_file("aroma/scripts/CSCvzw", "/system");
+        package_extract_dir("aroma/scripts/CSCvzw", "/system");
 	endif;
 
     if (getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then    
