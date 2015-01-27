@@ -4,7 +4,7 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150127
+### Changelog 20150128
 * Patched colorfade memory leak in services.jar
 * Network improvements for Verizon Wireless
 * Removed debug code from OTA app
@@ -12,9 +12,7 @@ Visit http://ultimarom.com for downloads
 * Fixed Calculator delete string for English UK
 * Updates to our themed dialers
 * Sound recorder updates, Can now record in mp4 and wav
-* Updated CM music player, compiled from source
-* Updated CM browser, compiled from source
-* Updated CM MMS, compiled from source
+* Compiled updated CM apps from source
 * Update OTA info in build.prop
 
 
