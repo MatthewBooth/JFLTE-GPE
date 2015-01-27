@@ -769,20 +769,7 @@ ui_print("<b><#009688>Finishing Installation...</#></b>");
 	endif;
 	
 	if (getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then  
-		package_extract_file("aroma/scripts/CSCvzw/SW_Configuration.xml", "/system");
-		package_extract_file("aroma/scripts/CSCvzw/CSCVersion.xml", "/system");
-		package_extract_file("aroma/scripts/CSCvzw/etc/apns-conf.xml", "/system/etc");
-	    package_extract_file("aroma/scripts/CSCvzw/csc/contents.db", "/system/csc");
-		package_extract_file("aroma/scripts/CSCvzw/csc/customer.xml", "/system/csc");
-		package_extract_file("aroma/scripts/CSCvzw/csc/others.xml", "/system/csc");
-		package_extract_file("aroma/scripts/CSCvzw/csc/sales_code.dat", "/system/csc");
-	    set_perm(0, 0, 0644, "/system/SW_Configuration.xml");
-		set_perm(0, 0, 0644, "/system/CSCversion.xml");
-		set_perm(0, 0, 0644, "/system/etc/apns-conf.xml");
-		set_perm(0, 0, 0644, "/system/csc/contents.db");
-		set_perm(0, 0, 0644, "/system/csc/customer.xml");
-		set_perm(0, 0, 0644, "/system/csc/others.xml");
-		set_perm(0, 0, 0644, "/system/csc/sales_code.dat");
+        package_extract_file("aroma/scripts/CSCvzw", "/system");
 	endif;
 
     if (getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then    
