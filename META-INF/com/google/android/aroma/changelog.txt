@@ -1,26 +1,8 @@
-<b><#selectbg_g>JFLTE-GPE-20150123</#></b>
-<*>Fixed tethering and enabled bluetooth tethering for all carriers</*>
-<*>Updated Chrome</*>
-<*>Updated Google Search</*>
-<*>Updated Google Play Services</*>
-<*>Updated AOSP Gallery</*>
-<*>Updated Live walpapers</*>
-<*>Updated the Inverted Teal phone/contacts app</*>
-<*>Updated Interface app</*>
-<*>Updated kernel to latest Googy 1.2.7</*>
-<*>Updated SuperSU</*>
-<*>Added full wipe option to aroma</*>
-<*>Added volume panel timeout options</*>
-<*>Added heads up timeout options</*>
-<*>Added long press to skip tracks</*>
-<*>Added hold back to kill current app</*>
-<*>Added clock mods</*>
-<*>Added CyanogenMOD browser option to AROMA</*>
-<*>Added hardware swap file options in AROMA</*>
-<*>Added CM Calculator</*>
-<*>Added a choice in AROMA for Eleven and Apollo music players</*>
-<*>Added AudioFX from CM12 to AROMA</*>
-<*>Removed Gear Manager as it's not working</*>
-<*>Removed WAV option from SoundRecorder, since it's not working</*>
-<*>Live walpapers are now optional in AROMA</*>
-<*>Updated build.prop</*>
+<b><#selectbg_g>JFLTE-GPE-20150127</#></b>
+<*>Patched colorfade memory leak in services.jar</*>
+<*>Removed debug code from OTA app</*>
+<*>Fixed spacing for U/D on network meter</*>
+<*>Fixed Calculator delete string for English UK</*>
+<*>Updates to our themed dialers</*>
+<*>Sound recorder updates, Can now record in mp4 and wav</*>
+<*>Update OTA info in build.prop</*>

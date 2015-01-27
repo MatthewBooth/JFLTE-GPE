@@ -4,13 +4,13 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150124
+### Changelog 20150127
+* Patched colorfade memory leak in services.jar
 * Removed debug code from OTA app
 * Fixed spacing for U/D on network meter
 * Fixed Calculator delete string for English UK
-* Fix 1 color in Dialer
-* Replace gray voicemail icon with teal 
-* Update Interface app (Remove right clock, and back to kill settings over 2000ms
+* Updates to our themed dialers
+* Sound recorder updates, Can now record in mp4 and wav
 * Update OTA info in build.prop
 
 
