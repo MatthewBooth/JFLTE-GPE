@@ -32,7 +32,7 @@
     <color name="dialpad_digits_text_color">#ffcccccc</color>
     <color name="dialpad_separator_line_color">#ff333333</color>
     <color name="dialpad_icon_tint">#ff8e8e8e</color>
-    <color name="dialpad_voicemail_tint">#ff919191</color>
+    <color name="dialpad_voicemail_tint">#ff009688</color>
     <color name="holo_list_background_color">#ff1f292f</color>
     <color name="focus_color">#44ff0000</color>
     <color name="ripple_material_dark">#20ffffff</color>
