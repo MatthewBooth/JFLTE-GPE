@@ -682,13 +682,11 @@
   <apn carrier="Sprint EHRPD ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="Sprint LTE internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
   <apn carrier="Sprint EHRPD internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
-  <apn carrier="Sprint internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Boost" mcc="310" mnc="120" apn="cinet.spcs" type="default,supl,mms,dun,fota" mmsc="http://mm.myboostmobile.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Credo Mobile" mcc="310" mnc="120" apn="n.w1.ispsn" type="default,mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="FreedomPop" mcc="310" mnc="120" apn="n.f6.ispsn" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Ringplus" mcc="310" mnc="120" apn="n.r5.ispsn" type="default" protocol="IPV4" roaming_protocol="IPV4" />
-  <apn carrier="Ting" mcc="310" mnc="120" apn="n.t8.ispsn" type="default,mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Virgin Mobile" mcc="310" mnc="120" apn="n.vmu.ispsn" user="Sprint" password="*" mmsproxy="68.28.31.7" mmsport="80" mmsc="http://mmsc.vmobl.com:8088/mms?" type="default,supl,mms,fota,dun" />
+  <apn carrier="Sprint internet" mcc="310" mnc="120" apn="n.ispsn" type="mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Boost" mcc="310" mnc="120" apn="cinet.spcs" type="supl,mms,dun,fota" mmsc="http://mm.myboostmobile.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Credo Mobile" mcc="310" mnc="120" apn="n.w1.ispsn" type="mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Ting" mcc="310" mnc="120" apn="n.t8.ispsn" type="mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Virgin Mobile" mcc="310" mnc="120" apn="n.vmu.ispsn" user="Sprint" password="*" mmsproxy="68.28.31.7" mmsport="80" mmsc="http://mmsc.vmobl.com:8088/mms?" type="supl,mms,fota,dun" />
   <apn carrier="My Multi Media" mcc="310" mnc="130" apn="mms.c1.ama" user="cell1mms" password="cell1" mmsc="http://mms.iot1.com/amarillo/mms.php" type="mms" />
   <apn carrier="Cricket AIO" mcc="310" mnc="150" apn="ndo" mmsc="http://mmsc.aiowireless.net" mmsproxy="proxy.aiowireless.net" mmsport="80" type="default,mms,fota,supl" />
   <apn carrier="T-Mobile US 160" mcc="310" mnc="160" apn="epc.tmobile.com" user="none" password="none" server="*" mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc" type="default,supl,mms" />
@@ -842,6 +840,7 @@
   <apn carrier="BMobile Prepaid" mcc="374" mnc="12" apn="bconnected" type="default" port="8080" />
   <apn carrier="BMobile MMS" mcc="374" mnc="12" apn="mms" type="mms" mmsc="http://192.168.210.104/mmrelay.app" mmsproxy="192.168.210.104" mmsport="8080"/>
   <apn carrier="BMobile Buzz" mcc="374" mnc="12" apn="buzz" type="default,mms" proxy="192.168.210.104" port="8080" mmsc="http://192.168.210.103/operator/wap"  />
+  <apn carrier="Digicel TT" mcc="374" mnc="13" apn="web.digiceltt.com" type="default,supl" />
   <apn carrier="Azercell" mcc="400" mnc="01" apn="internet" type="default,supl" />
   <apn carrier="Azercell MMS" mcc="400" mnc="01" apn="mms" mmsc="http://mms.azercell.com/cMMSC/post" mmsproxy="10.0.154.101" mmsport="8080" type="mms" />
   <apn carrier="Bakcell" mcc="400" mnc="02" apn="mms" mmsc="http://mms.bakcell.com/mms/wapenc" mmsproxy="213.172.091.046" mmsport="8080" type="default,supl,mms" />
@@ -1387,6 +1386,7 @@
   <apn carrier="@nifty do LTE" mcc="440" mnc="10" apn="lte.fenics.jp" user="nifty@lte.nifty.com" password="nifty" authtype="3" type="default,supl" />
   <apn carrier="BB.excite" mcc="440" mnc="10" apn="vmobile.jp" user="bb@excite.co.jp" password="excite" authtype="3" type="default,supl" />
   <apn carrier="BIGLOBE" mcc="440" mnc="10" apn="biglobe.jp" user="user" password="0000" authtype="2" type="default,supl" />
+  <apn carrier="DMM mobile" mcc="440" mnc="10" apn="vmobile.jp" user="dmm@dmm.com" password="dmm" authtype="3" type="default,supl" />
   <apn carrier="DTI" mcc="440" mnc="10" apn="dream.jp" user="user@dream.jp" password="dti" authtype="2" type="default,supl" />
   <apn carrier="IIJmio/BIC SIM" mcc="440" mnc="10" apn="iijmio.jp" user="mio@iij" password="iij" authtype="3" type="default,supl" />
   <apn carrier="NifMo" mcc="440" mnc="10" apn="mda.nifty.com" user="mda@nifty" password="nifty" authtype="3" type="default,supl" />
@@ -1424,6 +1424,7 @@
   <apn carrier="smile.world" mcc="440" mnc="20" apn="smile.world" user="dna1trop" password="so2t3k3m2a" mmsc="http://mms/" mmsproxy="smilemms.softbank.ne.jp" mmsport="8080" authtype="1" type="default,supl,mms" />
   <apn carrier="LTE NET" mcc="440" mnc="50" apn="uno.au-net.ne.jp" user="685840734641020@uno.au-net.ne.jp" password="KpyrR6BP" authtype="2" type="default,mms,supl,hipri" protocol="IPV4V6" roaming_protocol="IP" />
   <apn carrier="LTE NET for DATA" mcc="440" mnc="50" apn="au.au-net.ne.jp" user="user@au.au-net.ne.jp" password="au" authtype="2" type="default,mms,supl,hipri" protocol="IPV4V6" roaming_protocol="IP" />
+  <apn carrier="UQ mobile" mcc="440" mnc="50" apn="uqmobile.jp" user="uq@uqmobile.jp" password="uq" authtype="2" type="default,supl,hipri,dun" />
   <apn carrier="mineo" mcc="440" mnc="50" apn="mineo.jp" user="mineo@k-opti.com" password="mineo" authtype="2" type="default,supl,hipri" />
   <apn carrier="SKT3G" mcc="450" mnc="05" apn="web.sktelecom.com" mmsc="http://omms.nate.com:9082/oma_mms" mmsproxy="smart.nate.com" mmsport="9093" type="default,supl,mms" />
   <apn carrier="SK Telecom (Roaming)" mcc="450" mnc="05" apn="roaming.sktelecom.com" server="*" mmsc="vmms.nate.com" mmsport="8082" type="default,supl,mms" />
@@ -1777,6 +1778,10 @@
   <apn carrier="Movistar MMS" mcc="710" mnc="300" apn="mms.movistar.ni" user="movistarni" password="movistarni" mmsproxy="10.12.23.1" mmsport="80" mmsc="http://mms.movistar.ni" authtype="1" type="mms" />
   <apn carrier="Enitel" mcc="710" mnc="730" apn="internet.ideasalo.ni" user="internet" password="internet" authtype="1" type="default,supl,dun" />
   <apn carrier="Enitel MMS" mcc="710" mnc="730" apn="mms.indeasalo.ni" user="mms" password="mms" mmsproxy="10.6.32.2" mmsport="8080" mmsc="http://10.6.32.27/servlets/mms" authtype="1" type="mms" />
+  <apn carrier="Claro" mcc="712" mnc="03" apn="internet.ideasclaro" type="default,supl" />
+  <apn carrier="Claro  MMS" mcc="712" mnc="03" apn="mms.ideasclaro" mmsproxy="216.230.133.66" mmsport="8080" mmsc="http://mms.ideasclaro.com:8002" type="mms" />
+  <apn carrier="Movistar Internet" mcc="712" mnc="04" apn="internet.movistart.cr" user="movistarcr" password="movistarcr" authtype="1" type="default,supl" />
+  <apn carrier="Movistar MMS" mcc="712" mnc="04" apn="mms.movistar.cr" user="movistarcr" password="movistarcr" mmsc="http://mms.movistar.cr" mmsproxy="10.221.79.83" mmsport="80" authtype="1" type="mms" />
   <apn carrier="Cable and Wireless Panama" mcc="714" mnc="01" apn="apn01.cwpanama.com.pa" type="default,supl" />
   <apn carrier="Cable and Wireless Panama MMS" mcc="714" mnc="01" apn="apn02.cwpanama.com.pa" mmsc="http://mms.zonamovil.com.pa:80/i.bin" mmsproxy="172.25.3.5" mmsport="8080" type="mms" />
   <apn carrier="Movistar PA" mcc="714" mnc="02" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl"/>
