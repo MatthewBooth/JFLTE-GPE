@@ -5,6 +5,7 @@ temp/*
 system/framework/android.policy.jar
 system/framework/services.jar
 system/framework/framework-res.apk
+system/framework/framework.jar
 system/priv-app/SystemUI/*
 
 aroma/apps/contacts_dialer/invertedstock/GoogleDialer/GoogleDialer.apk

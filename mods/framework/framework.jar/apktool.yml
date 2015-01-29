@@ -1,0 +1,4 @@
+version: 2.0.0-RC3
+apkFileName: framework.jar
+unknownFiles:
+  preloaded-classes: '8'
