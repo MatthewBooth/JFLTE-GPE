@@ -15,60 +15,55 @@
 
 
 # instance fields
-.field resolver:Landroid/content/ContentResolver;
-
 .field final synthetic this$0:Lcom/android/systemui/statusbar/policy/Clock;
 
 
 # direct methods
 .method constructor <init>(Lcom/android/systemui/statusbar/policy/Clock;Landroid/os/Handler;)V
-    .locals 1
+    .locals 0
     .param p2    # Landroid/os/Handler;
 
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/policy/Clock;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
-    # getter for: Lcom/android/systemui/statusbar/policy/Clock;->mContext:Landroid/content/Context;
-    invoke-static {p1}, Lcom/android/systemui/statusbar/policy/Clock;->access$400(Lcom/android/systemui/statusbar/policy/Clock;)Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->resolver:Landroid/content/ContentResolver;
-
     return-void
 .end method
 
 
 # virtual methods
-.method public observe()V
-    .locals 5
+.method observe()V
+    .locals 3
 
-    const/4 v4, 0x0
+    const/4 v2, 0x0
 
-   const-string v3, "clock_dow"
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/policy/Clock;
 
-    invoke-static {v3}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
+    iget-object v1, v1, Lcom/android/systemui/statusbar/policy/Clock;->mContext:Landroid/content/Context;
 
-    move-result-object v2
-
-    const-string v3, "clock_am_pm"
-
-    invoke-static {v3}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    iget-object v3, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->resolver:Landroid/content/ContentResolver;
+    const-string v1, "status_bar_am_pm"
 
-    invoke-virtual {v3, v2, v4, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+    invoke-static {v1}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
-    iget-object v3, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->resolver:Landroid/content/ContentResolver;
+    move-result-object v1
 
-    invoke-virtual {v3, v0, v4, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+    invoke-virtual {v0, v1, v2, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+
+    const-string v1, "status_bar_dow"
+
+    invoke-static {v1}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/policy/Clock;
+
+    invoke-virtual {v1}, Lcom/android/systemui/statusbar/policy/Clock;->updateSettings()V
 
     return-void
 .end method
@@ -79,17 +74,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/policy/Clock;
 
-    invoke-virtual {v0}, Lcom/android/systemui/statusbar/policy/Clock;->updateClock()V
-
-    return-void
-.end method
-
-.method public release()V
-    .locals 1
-
-    iget-object v0, p0, Lcom/android/systemui/statusbar/policy/Clock$SettingsObserver;->resolver:Landroid/content/ContentResolver;
-
-    invoke-virtual {v0, p0}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/policy/Clock;->updateSettings()V
 
     return-void
 .end method

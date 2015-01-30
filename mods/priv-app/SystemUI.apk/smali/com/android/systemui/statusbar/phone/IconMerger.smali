@@ -4,6 +4,8 @@
 
 
 # instance fields
+.field private mClockLocation:I
+
 .field private mIconSize:I
 
 .field private mMoreView:Landroid/view/View;
@@ -42,16 +44,16 @@
 .end method
 
 .method private checkOverflow(I)V
-    .locals 8
+    .locals 9
     .param p1    # I
 
     const/4 v2, 0x1
 
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    iget-object v6, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
+    iget-object v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
 
-    if-nez v6, :cond_1
+    if-nez v7, :cond_1
 
     :cond_0
     :goto_0
@@ -62,7 +64,7 @@
 
     move-result v0
 
-    const/4 v4, 0x0
+    const/4 v5, 0x0
 
     const/4 v1, 0x0
 
@@ -71,17 +73,17 @@
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/statusbar/phone/IconMerger;->getChildAt(I)Landroid/view/View;
 
-    move-result-object v6
+    move-result-object v7
 
-    invoke-virtual {v6}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v7}, Landroid/view/View;->getVisibility()I
 
-    move-result v6
+    move-result v7
 
-    const/16 v7, 0x8
+    const/16 v8, 0x8
 
-    if-eq v6, v7, :cond_2
+    if-eq v7, v8, :cond_2
 
-    add-int/lit8 v4, v4, 0x1
+    add-int/lit8 v5, v5, 0x1
 
     :cond_2
     add-int/lit8 v1, v1, 0x1
@@ -89,46 +91,82 @@
     goto :goto_1
 
     :cond_3
-    iget-object v6, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
+    iget-object v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mMoreView:Landroid/view/View;
 
-    invoke-virtual {v6}, Landroid/view/View;->getVisibility()I
+    invoke-virtual {v7}, Landroid/view/View;->getVisibility()I
 
-    move-result v6
+    move-result v7
 
-    if-nez v6, :cond_5
+    if-nez v7, :cond_7
 
     move v3, v2
 
     :goto_2
-    if-eqz v3, :cond_4
+    if-eqz v3, :cond_6
 
-    add-int/lit8 v4, v4, -0x1
+    iget-object v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v7}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v7
+
+    invoke-virtual {v7}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v7
+
+    iget v4, v7, Landroid/util/DisplayMetrics;->widthPixels:I
+
+    iget v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mClockLocation:I
+
+    const/4 v8, 0x2
+
+    if-eq v7, v8, :cond_4
+
+    iget v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mClockLocation:I
+
+    const/4 v8, 0x3
+
+    if-ne v7, v8, :cond_5
 
     :cond_4
-    iget v6, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
+    iget v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
 
-    mul-int/2addr v6, v4
+    div-int v7, v4, v7
 
-    if-le v6, p1, :cond_6
+    div-int/lit8 v7, v7, 0x2
+
+    add-int/lit8 v7, v7, 0x1
+
+    if-le v5, v7, :cond_6
+
+    :cond_5
+    add-int/lit8 v5, v5, -0x1
+
+    :cond_6
+    iget v7, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
+
+    mul-int/2addr v7, v5
+
+    if-le v7, p1, :cond_8
 
     :goto_3
     if-eq v2, v3, :cond_0
 
-    new-instance v5, Lcom/android/systemui/statusbar/phone/IconMerger$1;
+    new-instance v6, Lcom/android/systemui/statusbar/phone/IconMerger$1;
 
-    invoke-direct {v5, p0, v2}, Lcom/android/systemui/statusbar/phone/IconMerger$1;-><init>(Lcom/android/systemui/statusbar/phone/IconMerger;Z)V
+    invoke-direct {v6, p0, v2}, Lcom/android/systemui/statusbar/phone/IconMerger$1;-><init>(Lcom/android/systemui/statusbar/phone/IconMerger;Z)V
 
-    invoke-virtual {p0, v5}, Lcom/android/systemui/statusbar/phone/IconMerger;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v6}, Lcom/android/systemui/statusbar/phone/IconMerger;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 
-    :cond_5
-    move v3, v5
+    :cond_7
+    move v3, v6
 
     goto :goto_2
 
-    :cond_6
-    move v2, v5
+    :cond_8
+    move v2, v6
 
     goto :goto_3
 .end method
@@ -153,27 +191,60 @@
 .end method
 
 .method protected onMeasure(II)V
-    .locals 3
-    .param p1    # I
-    .param p2    # I
+    .locals 4
 
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/IconMerger;->getMeasuredWidth()I
 
-    move-result v0
+    move-result v1
 
-    iget v1, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
+    iget v2, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mClockLocation:I
 
-    rem-int v1, v0, v1
+    const/4 v3, 0x2
 
-    sub-int v1, v0, v1
+    if-ne v2, v3, :cond_0
+
+    iget-object v2, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    move-result-object v2
+
+    iget v0, v2, Landroid/util/DisplayMetrics;->widthPixels:I
+
+    div-int/lit8 v2, v0, 0x2
+
+    iget v3, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
+
+    mul-int/lit8 v3, v3, 0x2
+
+    sub-int v1, v2, v3
+
+    :cond_0
+    iget v2, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mIconSize:I
+
+    rem-int v2, v1, v2
+
+    sub-int v2, v1, v2
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/IconMerger;->getMeasuredHeight()I
 
-    move-result v2
+    move-result v3
 
-    invoke-virtual {p0, v1, v2}, Lcom/android/systemui/statusbar/phone/IconMerger;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v2, v3}, Lcom/android/systemui/statusbar/phone/IconMerger;->setMeasuredDimension(II)V
+
+    return-void
+.end method
+
+.method public setClockAndDateStatus(I)V
+    .locals 0
+
+    iput p1, p0, Lcom/android/systemui/statusbar/phone/IconMerger;->mClockLocation:I
 
     return-void
 .end method

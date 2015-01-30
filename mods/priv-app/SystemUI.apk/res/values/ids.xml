@@ -313,8 +313,7 @@
     <item type="id" name="recent_inspect_item">false</item>
     <item type="id" name="networkTraffic">false</item>
     <item type="id" name="battery_level_text">false</item>
-    <item type="id" name="center_clock">false</item>
     <item type="id" name="left_clock">false</item>
-    <item type="id" name="center_clock_area">false</item>
-    <item type="id" name="left_clock_area">false</item>
+    <item type="id" name="center_clock_layout">false</item>
+    <item type="id" name="center_clock">false</item>
 </resources>

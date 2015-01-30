@@ -37,14 +37,10 @@
 
 # virtual methods
 .method observe()V
-    .locals 4
+    .locals 3
 
-    .prologue
-    const/4 v3, 0x0
+    const/4 v2, 0x0
 
-    const/4 v2, -0x1
-
-    .line 650
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
     iget-object v1, v1, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mContext:Landroid/content/Context;
@@ -55,33 +51,71 @@
 
     .line 651
     .local v0, "resolver":Landroid/content/ContentResolver;
-    const-string v1, "clock_position"
+    const-string v1, "status_bar_clock"
 
     invoke-static {v1}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1, v3, p0, v2}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;I)V
+   invoke-virtual {v0, v1, v2, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+
 
     .line 654
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
-    invoke-virtual {v1}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->updateClock()V
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->update()V
+
 
     .line 688
     return-void
 .end method
 
 .method public onChange(Z)V
-    .locals 2
-    .param p1, "selfChange"    # Z
+    .locals 0
 
-    .prologue
-    .line 691
-    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->update()V
 
-    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->updateClock()V
-
-    .line 693
     return-void
+.end method
+
+.method public update()V
+    .locals 8
+
+    const/4 v4, 0x1
+
+    const/4 v5, 0x0
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
+
+    iget-object v3, v3, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
+
+    iget-object v3, v3, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v3
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
+
+    const-string v6, "status_bar_clock"
+
+    invoke-static {v2, v6, v4}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v6
+
+    # setter for: Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mClockLocation:I
+    invoke-static {v3, v6}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->access$333(Lcom/android/systemui/statusbar/phone/PhoneStatusBar;I)I
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$SettingsObserver;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
+
+    invoke-virtual {v3}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->updateClockView()V
+
+    return-void
+
 .end method
