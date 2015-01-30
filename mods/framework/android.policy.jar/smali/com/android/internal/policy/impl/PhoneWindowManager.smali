@@ -19443,6 +19443,22 @@
 
     move-object/from16 v0, p0
 
+    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v8}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v8
+
+    const-string v9, "navbar_height"
+
+    const/16 v10, 0x90
+
+    invoke-static {v8, v9, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v12
+
+    move-object/from16 v0, p0
+
     iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
 
     move-object/from16 v0, p0
@@ -19456,12 +19472,6 @@
     move-object/from16 v0, p0
 
     iget v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
-
-    const v12, 0x1050011
-
-    invoke-virtual {v5, v12}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
-
-    move-result v12
 
     aput v12, v10, v11
 
