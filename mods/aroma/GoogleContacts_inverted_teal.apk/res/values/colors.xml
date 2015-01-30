@@ -20,7 +20,7 @@
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
     <color name="section_header_text_color">#ff009587</color>
-    <color name="main_header_separator_color">#ffaaaaaa</color>
+    <color name="main_header_separator_color">#ff333333</color>
     <color name="secondary_header_separator_color">#ff333333</color>
     <color name="people_app_theme_color">#ffcccccc</color>
     <color name="dialtacts_theme_color">#ff009587</color>
