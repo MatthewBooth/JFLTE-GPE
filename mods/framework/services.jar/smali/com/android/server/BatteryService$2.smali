@@ -43,6 +43,15 @@
 
     if-eqz v1, :cond_0
 
+    # getter for: Lcom/android/server/BatteryService;->TAG:Ljava/lang/String;
+    invoke-static {}, Lcom/android/server/BatteryService;->access$500()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "silent_reboot shutdownIfNoPowerLocked"
+
+    invoke-static {v1, v2}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;)I
+
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.ACTION_REQUEST_SHUTDOWN"
@@ -62,7 +71,7 @@
     iget-object v1, p0, Lcom/android/server/BatteryService$2;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mContext:Landroid/content/Context;
-    invoke-static {v1}, Lcom/android/server/BatteryService;->access$500(Lcom/android/server/BatteryService;)Landroid/content/Context;
+    invoke-static {v1}, Lcom/android/server/BatteryService;->access$600(Lcom/android/server/BatteryService;)Landroid/content/Context;
 
     move-result-object v1
 

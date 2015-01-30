@@ -65,7 +65,7 @@
     iget-object v1, p0, Lcom/android/server/BatteryService$9;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mInvalidCharger:I
-    invoke-static {v1}, Lcom/android/server/BatteryService;->access$600(Lcom/android/server/BatteryService;)I
+    invoke-static {v1}, Lcom/android/server/BatteryService;->access$700(Lcom/android/server/BatteryService;)I
 
     move-result v1
 
@@ -74,7 +74,7 @@
     iget-object v1, p0, Lcom/android/server/BatteryService$9;->this$0:Lcom/android/server/BatteryService;
 
     # setter for: Lcom/android/server/BatteryService;->mInvalidCharger:I
-    invoke-static {v1, v0}, Lcom/android/server/BatteryService;->access$602(Lcom/android/server/BatteryService;I)I
+    invoke-static {v1, v0}, Lcom/android/server/BatteryService;->access$702(Lcom/android/server/BatteryService;I)I
 
     :cond_0
     monitor-exit v2

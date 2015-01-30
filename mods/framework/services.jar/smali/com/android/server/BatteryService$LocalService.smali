@@ -57,7 +57,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$LocalService;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mBatteryProps:Landroid/os/BatteryProperties;
-    invoke-static {v0}, Lcom/android/server/BatteryService;->access$700(Lcom/android/server/BatteryService;)Landroid/os/BatteryProperties;
+    invoke-static {v0}, Lcom/android/server/BatteryService;->access$900(Lcom/android/server/BatteryService;)Landroid/os/BatteryProperties;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$LocalService;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mBatteryLevelLow:Z
-    invoke-static {v0}, Lcom/android/server/BatteryService;->access$1300(Lcom/android/server/BatteryService;)Z
+    invoke-static {v0}, Lcom/android/server/BatteryService;->access$2000(Lcom/android/server/BatteryService;)Z
 
     move-result v0
 
@@ -127,7 +127,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$LocalService;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mInvalidCharger:I
-    invoke-static {v0}, Lcom/android/server/BatteryService;->access$600(Lcom/android/server/BatteryService;)I
+    invoke-static {v0}, Lcom/android/server/BatteryService;->access$700(Lcom/android/server/BatteryService;)I
 
     move-result v0
 
@@ -161,7 +161,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$LocalService;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mPlugType:I
-    invoke-static {v0}, Lcom/android/server/BatteryService;->access$1200(Lcom/android/server/BatteryService;)I
+    invoke-static {v0}, Lcom/android/server/BatteryService;->access$1900(Lcom/android/server/BatteryService;)I
 
     move-result v0
 
@@ -196,7 +196,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$LocalService;->this$0:Lcom/android/server/BatteryService;
 
     # invokes: Lcom/android/server/BatteryService;->isPoweredLocked(I)Z
-    invoke-static {v0, p1}, Lcom/android/server/BatteryService;->access$1100(Lcom/android/server/BatteryService;I)Z
+    invoke-static {v0, p1}, Lcom/android/server/BatteryService;->access$1800(Lcom/android/server/BatteryService;I)Z
 
     move-result v0
 

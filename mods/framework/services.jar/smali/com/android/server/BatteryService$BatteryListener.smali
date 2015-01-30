@@ -53,7 +53,7 @@
     iget-object v2, p0, Lcom/android/server/BatteryService$BatteryListener;->this$0:Lcom/android/server/BatteryService;
 
     # invokes: Lcom/android/server/BatteryService;->update(Landroid/os/BatteryProperties;)V
-    invoke-static {v2, p1}, Lcom/android/server/BatteryService;->access$900(Lcom/android/server/BatteryService;Landroid/os/BatteryProperties;)V
+    invoke-static {v2, p1}, Lcom/android/server/BatteryService;->access$1600(Lcom/android/server/BatteryService;Landroid/os/BatteryProperties;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

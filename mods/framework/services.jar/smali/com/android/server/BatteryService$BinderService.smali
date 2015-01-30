@@ -50,7 +50,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$BinderService;->this$0:Lcom/android/server/BatteryService;
 
     # getter for: Lcom/android/server/BatteryService;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/server/BatteryService;->access$500(Lcom/android/server/BatteryService;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/server/BatteryService;->access$600(Lcom/android/server/BatteryService;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
     iget-object v0, p0, Lcom/android/server/BatteryService$BinderService;->this$0:Lcom/android/server/BatteryService;
 
     # invokes: Lcom/android/server/BatteryService;->dumpInternal(Ljava/io/PrintWriter;[Ljava/lang/String;)V
-    invoke-static {v0, p2, p3}, Lcom/android/server/BatteryService;->access$1000(Lcom/android/server/BatteryService;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-static {v0, p2, p3}, Lcom/android/server/BatteryService;->access$1700(Lcom/android/server/BatteryService;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 
     goto :goto_0
 .end method
