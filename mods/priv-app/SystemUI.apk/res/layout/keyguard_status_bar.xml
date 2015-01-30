@@ -9,6 +9,7 @@
         <FrameLayout android:layout_gravity="center_vertical" android:id="@id/system_icons_container" android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_height">
             <include layout="@layout/system_icons" />
         </FrameLayout>
+        <com.android.systemui.BatteryLevelTextView android:textSize="@dimen/battery_level_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/battery_level_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" android:paddingEnd="@dimen/battery_level_padding_end" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
     </LinearLayout>
     <com.android.keyguard.CarrierText android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/keyguard_carrier_text" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_header_height_keyguard" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_marginStart="@dimen/keyguard_carrier_text_margin" android:layout_toStartOf="@id/system_icons_super_container" />
 </com.android.systemui.statusbar.phone.KeyguardStatusBarView>

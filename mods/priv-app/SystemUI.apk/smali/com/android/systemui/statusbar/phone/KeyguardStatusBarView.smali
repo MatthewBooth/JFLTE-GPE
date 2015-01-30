@@ -7,8 +7,6 @@
 
 
 # instance fields
-.field private mBatteryCharging:Z
-
 .field private mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
 
 .field private mBatteryLevel:Lcom/android/systemui/BatteryLevelTextView;
@@ -25,10 +23,6 @@
 
 .field private mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-.field private mObserver:Landroid/database/ContentObserver;
-
-.field private mShowBatteryText:Z
-
 .field private mSystemIconsSuperContainer:Landroid/view/View;
 
 .field private mSystemIconsSwitcherHiddenExpandedMargin:I
@@ -36,44 +30,16 @@
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-    .locals 2
+    .locals 0
     .param p1    # Landroid/content/Context;
     .param p2    # Landroid/util/AttributeSet;
 
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    new-instance v0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$1;
-
-    new-instance v1, Landroid/os/Handler;
-
-    invoke-direct {v1}, Landroid/os/Handler;-><init>()V
-
-    invoke-direct {v0, p0, v1}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$1;-><init>(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;Landroid/os/Handler;)V
-
-    iput-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mObserver:Landroid/database/ContentObserver;
-
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->loadShowBatteryTextSetting()V
-
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->loadShowBatteryTextSetting()V
-
-    return-void
-.end method
-
-.method static synthetic access$100(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->updateVisibilities()V
-
-    return-void
-.end method
-
-.method static synthetic access$200(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/widget/ImageView;
+.method static synthetic access$000(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/widget/ImageView;
     .locals 1
     .param p0    # Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;
 
@@ -82,7 +48,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$300(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+.method static synthetic access$100(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
     .locals 1
     .param p0    # Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;
 
@@ -91,7 +57,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$400(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/view/View;
+.method static synthetic access$200(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/view/View;
     .locals 1
     .param p0    # Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;
 
@@ -100,7 +66,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$500(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/view/animation/Interpolator;
+.method static synthetic access$300(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)Landroid/view/animation/Interpolator;
     .locals 1
     .param p0    # Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;
 
@@ -133,9 +99,9 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$3;
+    new-instance v3, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$2;
 
-    invoke-direct {v3, p0, v1, v0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$3;-><init>(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;ZI)V
+    invoke-direct {v3, p0, v1, v0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$2;-><init>(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;ZI)V
 
     invoke-virtual {v2, v3}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
@@ -161,37 +127,6 @@
     move-result v0
 
     iput v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mSystemIconsSwitcherHiddenExpandedMargin:I
-
-    return-void
-.end method
-
-.method private loadShowBatteryTextSetting()V
-    .locals 4
-
-    const/4 v0, 0x0
-
-    const/4 v1, 0x2
-
-    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v2
-
-    const-string v3, "status_bar_show_battery_percent"
-
-    invoke-static {v2, v3, v0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
-
-    move-result v2
-
-    if-ne v1, v2, :cond_0
-
-    const/4 v0, 0x1
-
-    :cond_0
-    iput-boolean v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mShowBatteryText:Z
 
     return-void
 .end method
@@ -268,77 +203,65 @@
 .method private updateVisibilities()V
     .locals 3
 
-    const/4 v0, 0x0
+    const/4 v2, 0x0
 
-    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-    invoke-virtual {v1}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
 
-    move-result-object v1
+    move-result-object v0
 
-    if-eq v1, p0, :cond_4
+    if-eq v0, p0, :cond_2
 
-    iget-boolean v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mKeyguardUserSwitcherShowing:Z
+    iget-boolean v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mKeyguardUserSwitcherShowing:Z
 
-    if-nez v1, :cond_4
+    if-nez v0, :cond_2
 
-    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-    invoke-virtual {v1}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
 
-    move-result-object v1
+    move-result-object v0
 
-    if-eqz v1, :cond_0
+    if-eqz v0, :cond_0
 
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->getOverlay()Landroid/view/ViewGroupOverlay;
 
-    move-result-object v1
+    move-result-object v0
 
-    iget-object v2, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
-
-    invoke-virtual {v1, v2}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V
-
-    :cond_0
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-    invoke-virtual {p0, v1, v0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->addView(Landroid/view/View;I)V
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+
+    invoke-virtual {p0, v0, v2}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->addView(Landroid/view/View;I)V
 
     :cond_1
     :goto_0
-    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryLevel:Lcom/android/systemui/BatteryLevelTextView;
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryLevel:Lcom/android/systemui/BatteryLevelTextView;
 
-    iget-boolean v2, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryCharging:Z
-
-    if-nez v2, :cond_2
-
-    iget-boolean v2, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mShowBatteryText:Z
-
-    if-eqz v2, :cond_3
-
-    :cond_2
-    const/4 v0, 0x1
-
-    :cond_3
-    invoke-virtual {v1, v0}, Lcom/android/systemui/BatteryLevelTextView;->setShowPercent(Z)V
+    invoke-virtual {v0, v2}, Lcom/android/systemui/BatteryLevelTextView;->setVisibility(I)V
 
     return-void
 
-    :cond_4
-    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+    :cond_2
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-    invoke-virtual {v1}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/MultiUserSwitch;->getParent()Landroid/view/ViewParent;
 
-    move-result-object v1
+    move-result-object v0
 
-    if-ne v1, p0, :cond_1
+    if-ne v0, p0, :cond_1
 
-    iget-boolean v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mKeyguardUserSwitcherShowing:Z
+    iget-boolean v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mKeyguardUserSwitcherShowing:Z
 
-    if-eqz v1, :cond_1
+    if-eqz v0, :cond_1
 
-    iget-object v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mMultiUserSwitch:Lcom/android/systemui/statusbar/phone/MultiUserSwitch;
 
-    invoke-virtual {p0, v1}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->removeView(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->removeView(Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -353,81 +276,12 @@
     return v0
 .end method
 
-.method public onAttachedToWindow()V
-    .locals 4
-
-    invoke-super {p0}, Landroid/widget/RelativeLayout;->onAttachedToWindow()V
-
-    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v0
-
-    const-string v1, "status_bar_show_battery_percent"
-
-    invoke-static {v1}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mObserver:Landroid/database/ContentObserver;
-
-    invoke-virtual {v0, v1, v2, v3}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
-
-    return-void
-.end method
-
 .method public onBatteryLevelChanged(IZZ)V
-    .locals 2
-
-    iget-boolean v1, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryCharging:Z
-
-    if-eq v1, p3, :cond_1
-
-    const/4 v0, 0x1
-
-    :goto_0
-    iput-boolean p3, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryCharging:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->updateVisibilities()V
-
-    :cond_0
-    return-void
-
-    :cond_1
-    const/4 v0, 0x0
-
-    goto :goto_0
-.end method
-
-.method protected onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
+    .param p1    # I
+    .param p2    # Z
+    .param p3    # Z
 
-    invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->onConfigurationChanged(Landroid/content/res/Configuration;)V
-
-    return-void
-.end method
-
-.method public onDetachedFromWindow()V
-    .locals 1
-
-    invoke-super {p0}, Landroid/widget/RelativeLayout;->onDetachedFromWindow()V
-
-    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
-
-    invoke-virtual {v0, p0}, Lcom/android/systemui/statusbar/policy/BatteryController;->removeStateChangedCallback(Lcom/android/systemui/statusbar/policy/BatteryController$BatteryStateChangeCallback;)V
-
-    :cond_0
     return-void
 .end method
 
@@ -517,6 +371,10 @@
 
     invoke-virtual {v0, p1}, Lcom/android/systemui/BatteryMeterView;->setBatteryController(Lcom/android/systemui/statusbar/policy/BatteryController;)V
 
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;->mBatteryLevel:Lcom/android/systemui/BatteryLevelTextView;
+
+    invoke-virtual {v0, p1}, Lcom/android/systemui/BatteryLevelTextView;->setBatteryController(Lcom/android/systemui/statusbar/policy/BatteryController;)V
+
     return-void
 .end method
 
@@ -590,9 +448,9 @@
     .locals 1
     .param p1    # Lcom/android/systemui/statusbar/policy/UserInfoController;
 
-    new-instance v0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$2;
+    new-instance v0, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$1;
 
-    invoke-direct {v0, p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$2;-><init>(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)V
+    invoke-direct {v0, p0}, Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView$1;-><init>(Lcom/android/systemui/statusbar/phone/KeyguardStatusBarView;)V
 
     invoke-virtual {p1, v0}, Lcom/android/systemui/statusbar/policy/UserInfoController;->addListener(Lcom/android/systemui/statusbar/policy/UserInfoController$OnUserInfoChangedListener;)V
 

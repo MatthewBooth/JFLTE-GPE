@@ -56,10 +56,11 @@
 # direct methods
 .method public constructor <init>(Lcom/android/systemui/BatteryMeterView;Landroid/content/res/Resources;)V
     .locals 5
+    .param p2    # Landroid/content/res/Resources;
 
-    const/4 v3, 0x0
+    const/4 v4, 0x0
 
-    const/4 v4, 0x1
+    const/4 v3, 0x1
 
     iput-object p1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
 
@@ -83,13 +84,13 @@
 
     new-instance v1, Landroid/graphics/Paint;
 
-    invoke-direct {v1, v4}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mTextPaint:Landroid/graphics/Paint;
 
     const-string v1, "sans-serif-condensed"
 
-    invoke-static {v1, v4}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-static {v1, v3}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     move-result-object v0
 
@@ -105,7 +106,7 @@
 
     new-instance v1, Landroid/graphics/Paint;
 
-    invoke-direct {v1, v4}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mFrontPaint:Landroid/graphics/Paint;
 
@@ -117,11 +118,11 @@
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mFrontPaint:Landroid/graphics/Paint;
 
-    invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setDither(Z)V
+    invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setDither(Z)V
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mFrontPaint:Landroid/graphics/Paint;
 
-    invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mFrontPaint:Landroid/graphics/Paint;
 
@@ -131,7 +132,7 @@
 
     new-instance v1, Landroid/graphics/Paint;
 
-    invoke-direct {v1, v4}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBackPaint:Landroid/graphics/Paint;
 
@@ -153,11 +154,11 @@
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBackPaint:Landroid/graphics/Paint;
 
-    invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setDither(Z)V
+    invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setDither(Z)V
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBackPaint:Landroid/graphics/Paint;
 
-    invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+    invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBackPaint:Landroid/graphics/Paint;
 
@@ -165,19 +166,9 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    iget-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBackPaint:Landroid/graphics/Paint;
-
-    new-instance v2, Landroid/graphics/PorterDuffXfermode;
-
-    sget-object v3, Landroid/graphics/PorterDuff$Mode;->XOR:Landroid/graphics/PorterDuff$Mode;
-
-    invoke-direct {v2, v3}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
-
-    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
-
     new-instance v1, Landroid/graphics/Paint;
 
-    invoke-direct {v1, v4}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mWarningTextPaint:Landroid/graphics/Paint;
 
@@ -188,13 +179,13 @@
 
     move-result-object v2
 
-    aget v2, v2, v4
+    aget v2, v2, v3
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
     const-string v1, "sans-serif"
 
-    invoke-static {v1, v4}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-static {v1, v3}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     move-result-object v0
 
@@ -222,7 +213,7 @@
 
     new-instance v1, Landroid/graphics/Paint;
 
-    invoke-direct {v1, v4}, Landroid/graphics/Paint;-><init>(I)V
+    invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mBoltPaint:Landroid/graphics/Paint;
 
@@ -247,6 +238,10 @@
 
 .method private drawCircle(Landroid/graphics/Canvas;Lcom/android/systemui/BatteryMeterView$BatteryTracker;FLandroid/graphics/RectF;)V
     .locals 17
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Lcom/android/systemui/BatteryMeterView$BatteryTracker;
+    .param p3    # F
+    .param p4    # Landroid/graphics/RectF;
 
     move-object/from16 v0, p2
 
@@ -842,6 +837,16 @@
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setTextSize(F)V
 
+    iget-object v3, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mWarningTextPaint:Landroid/graphics/Paint;
+
+    iget v4, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mCircleSize:I
+
+    int-to-float v4, v4
+
+    div-float/2addr v4, v9
+
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setTextSize(F)V
+
     iget v3, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mCircleSize:I
 
     int-to-float v3, v3
@@ -981,6 +986,7 @@
 
 .method private loadBoltPoints(Landroid/content/res/Resources;)[F
     .locals 8
+    .param p1    # Landroid/content/res/Resources;
 
     const v5, 0x7f060002
 
@@ -1063,6 +1069,7 @@
 
 .method private updateChargeAnim(Lcom/android/systemui/BatteryMeterView$BatteryTracker;)V
     .locals 4
+    .param p1    # Lcom/android/systemui/BatteryMeterView$BatteryTracker;
 
     const/4 v2, 0x0
 
@@ -1202,6 +1209,8 @@
 
 .method public onDraw(Landroid/graphics/Canvas;Lcom/android/systemui/BatteryMeterView$BatteryTracker;)V
     .locals 2
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Lcom/android/systemui/BatteryMeterView$BatteryTracker;
 
     iget-boolean v0, p0, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->mDisposed:Z
 
@@ -1231,6 +1240,10 @@
 
 .method public onSizeChanged(IIII)V
     .locals 0
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     invoke-direct {p0}, Lcom/android/systemui/BatteryMeterView$CircleBatteryMeterDrawable;->initSizeBasedStuff()V
 

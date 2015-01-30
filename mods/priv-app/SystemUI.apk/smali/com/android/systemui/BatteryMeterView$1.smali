@@ -1,4 +1,4 @@
-.class synthetic Lcom/android/systemui/BatteryMeterView$1;
+.class Lcom/android/systemui/BatteryMeterView$1;
 .super Ljava/lang/Object;
 .source "BatteryMeterView.java"
 

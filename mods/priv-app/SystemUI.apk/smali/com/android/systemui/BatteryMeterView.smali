@@ -93,6 +93,7 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
 
     const/4 v0, 0x0
 
@@ -105,6 +106,8 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
 
     const/4 v0, 0x0
 
@@ -115,6 +118,9 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 11
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/util/AttributeSet;
+    .param p3    # I
 
     const/4 v7, 0x0
 
@@ -341,6 +347,7 @@
 
 .method static synthetic access$100(Lcom/android/systemui/BatteryMeterView;)Ljava/lang/Object;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mLock:Ljava/lang/Object;
 
@@ -349,6 +356,7 @@
 
 .method static synthetic access$1000(Lcom/android/systemui/BatteryMeterView;)F
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mSubpixelSmoothingLeft:F
 
@@ -357,6 +365,7 @@
 
 .method static synthetic access$1100(Lcom/android/systemui/BatteryMeterView;)F
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mSubpixelSmoothingRight:F
 
@@ -365,6 +374,7 @@
 
 .method static synthetic access$1200(Lcom/android/systemui/BatteryMeterView;)I
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mCriticalLevel:I
 
@@ -373,6 +383,7 @@
 
 .method static synthetic access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
 
@@ -381,6 +392,7 @@
 
 .method static synthetic access$1400(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mTextPath:Landroid/graphics/Path;
 
@@ -389,6 +401,7 @@
 
 .method static synthetic access$1500(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mClipPath:Landroid/graphics/Path;
 
@@ -397,6 +410,7 @@
 
 .method static synthetic access$1600(Lcom/android/systemui/BatteryMeterView;)Ljava/lang/String;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mWarningString:Ljava/lang/String;
 
@@ -405,6 +419,7 @@
 
 .method static synthetic access$1700(Lcom/android/systemui/BatteryMeterView;)Ljava/lang/Runnable;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mInvalidate:Ljava/lang/Runnable;
 
@@ -413,6 +428,7 @@
 
 .method static synthetic access$1800(Lcom/android/systemui/BatteryMeterView;)Landroid/os/Handler;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mHandler:Landroid/os/Handler;
 
@@ -421,6 +437,7 @@
 
 .method static synthetic access$200(Lcom/android/systemui/BatteryMeterView;)Lcom/android/systemui/BatteryMeterView$BatteryMeterDrawable;
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mBatteryMeterDrawable:Lcom/android/systemui/BatteryMeterView$BatteryMeterDrawable;
 
@@ -429,6 +446,7 @@
 
 .method static synthetic access$300(Lcom/android/systemui/BatteryMeterView;)V
     .locals 0
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     invoke-direct {p0}, Lcom/android/systemui/BatteryMeterView;->loadShowBatterySetting()V
 
@@ -437,6 +455,7 @@
 
 .method static synthetic access$500(Lcom/android/systemui/BatteryMeterView;)I
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mFrameColor:I
 
@@ -445,6 +464,7 @@
 
 .method static synthetic access$600(Lcom/android/systemui/BatteryMeterView;)[I
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView;->mColors:[I
 
@@ -453,6 +473,7 @@
 
 .method static synthetic access$700(Lcom/android/systemui/BatteryMeterView;)I
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mHeight:I
 
@@ -461,6 +482,8 @@
 
 .method static synthetic access$702(Lcom/android/systemui/BatteryMeterView;I)I
     .locals 0
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/systemui/BatteryMeterView;->mHeight:I
 
@@ -469,6 +492,7 @@
 
 .method static synthetic access$800(Lcom/android/systemui/BatteryMeterView;)I
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mWidth:I
 
@@ -477,6 +501,8 @@
 
 .method static synthetic access$802(Lcom/android/systemui/BatteryMeterView;I)I
     .locals 0
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
+    .param p1    # I
 
     iput p1, p0, Lcom/android/systemui/BatteryMeterView;->mWidth:I
 
@@ -485,6 +511,7 @@
 
 .method static synthetic access$900(Lcom/android/systemui/BatteryMeterView;)F
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView;
 
     iget v0, p0, Lcom/android/systemui/BatteryMeterView;->mButtonHeightFraction:F
 
@@ -531,7 +558,9 @@
     :pswitch_0
     invoke-virtual {p0, v2}, Lcom/android/systemui/BatteryMeterView;->setMode(Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;)V
 
-    invoke-virtual {p0, v4}, Lcom/android/systemui/BatteryMeterView;->setShowPercent(Z)V
+    iput-boolean v4, p0, Lcom/android/systemui/BatteryMeterView;->mShowPercent:Z
+
+    invoke-virtual {p0}, Lcom/android/systemui/BatteryMeterView;->invalidateIfVisible()V
 
     return-void
 
@@ -548,6 +577,8 @@
     :pswitch_2
     sget-object v2, Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;->BATTERY_METER_GONE:Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;
 
+    const/4 v4, 0x0
+
     goto :goto_1
 
     :pswitch_3
@@ -561,8 +592,6 @@
     const/4 v4, 0x0
 
     goto :goto_1
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x2
@@ -578,6 +607,7 @@
 # virtual methods
 .method protected createBatteryMeterDrawable(Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;)Lcom/android/systemui/BatteryMeterView$BatteryMeterDrawable;
     .locals 3
+    .param p1    # Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;
 
     iget-object v1, p0, Lcom/android/systemui/BatteryMeterView;->mContext:Landroid/content/Context;
 
@@ -620,17 +650,26 @@
 
     goto :goto_0
 
+    :pswitch_2
+    const/4 v1, 0x0
+
+    goto :goto_0
+
     nop
 
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_0
         :pswitch_1
+        :pswitch_2
+        :pswitch_2
     .end packed-switch
 .end method
 
 .method public dispatchDemoCommand(Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 5
+    .param p1    # Ljava/lang/String;
+    .param p2    # Landroid/os/Bundle;
 
     const/4 v4, 0x0
 
@@ -759,6 +798,7 @@
 
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 3
+    .param p1    # Landroid/graphics/Canvas;
 
     iget-object v2, p0, Lcom/android/systemui/BatteryMeterView;->mLock:Ljava/lang/Object;
 
@@ -802,6 +842,7 @@
 
 .method public getColorForLevel(I)I
     .locals 5
+    .param p1    # I
 
     iget-boolean v3, p0, Lcom/android/systemui/BatteryMeterView;->mPowerSaveEnabled:Z
 
@@ -942,7 +983,7 @@
 
     move-result-object v2
 
-    const-string v3, "status_bar_show_battery_percent"
+    const-string v3, "status_bar_battery_style"
 
     invoke-static {v3}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -960,7 +1001,7 @@
 
     move-result-object v2
 
-    const-string v3, "status_bar_battery_style"
+    const-string v3, "status_bar_show_battery_percent"
 
     invoke-static {v3}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -975,6 +1016,9 @@
 
 .method public onBatteryLevelChanged(IZZ)V
     .locals 0
+    .param p1    # I
+    .param p2    # Z
+    .param p3    # Z
 
     return-void
 .end method
@@ -1005,6 +1049,8 @@
 
 .method protected onMeasure(II)V
     .locals 5
+    .param p1    # I
+    .param p2    # I
 
     const/4 v4, 0x0
 
@@ -1021,6 +1067,14 @@
     sget-object v3, Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;->BATTERY_METER_CIRCLE:Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;
 
     if-ne v2, v3, :cond_1
+
+    int-to-float v2, v0
+
+    const v3, 0x400aaaab
+
+    add-float/2addr v2, v3
+
+    float-to-int v0, v2
 
     move v1, v0
 
@@ -1081,6 +1135,10 @@
 
 .method protected onSizeChanged(IIII)V
     .locals 2
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     iput p2, p0, Lcom/android/systemui/BatteryMeterView;->mHeight:I
 
@@ -1116,6 +1174,7 @@
 
 .method public setBatteryController(Lcom/android/systemui/statusbar/policy/BatteryController;)V
     .locals 1
+    .param p1    # Lcom/android/systemui/statusbar/policy/BatteryController;
 
     iput-object p1, p0, Lcom/android/systemui/BatteryMeterView;->mBatteryController:Lcom/android/systemui/statusbar/policy/BatteryController;
 
@@ -1132,6 +1191,7 @@
 
 .method public setMode(Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;)V
     .locals 4
+    .param p1    # Lcom/android/systemui/BatteryMeterView$BatteryMeterMode;
 
     const/16 v3, 0x8
 
@@ -1270,14 +1330,4 @@
     invoke-virtual {p0, v3}, Lcom/android/systemui/BatteryMeterView;->setVisibility(I)V
 
     goto :goto_0
-.end method
-
-.method public setShowPercent(Z)V
-    .locals 0
-
-    iput-boolean p1, p0, Lcom/android/systemui/BatteryMeterView;->mShowPercent:Z
-
-    invoke-virtual {p0}, Lcom/android/systemui/BatteryMeterView;->invalidateIfVisible()V
-
-    return-void
 .end method

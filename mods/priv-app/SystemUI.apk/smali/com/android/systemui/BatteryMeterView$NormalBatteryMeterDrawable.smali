@@ -54,6 +54,8 @@
 # direct methods
 .method public constructor <init>(Lcom/android/systemui/BatteryMeterView;Landroid/content/res/Resources;Z)V
     .locals 5
+    .param p2    # Landroid/content/res/Resources;
+    .param p3    # Z
 
     const/4 v4, 0x0
 
@@ -236,6 +238,8 @@
 
 .method static synthetic access$400(Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;Landroid/content/res/Resources;)[F
     .locals 1
+    .param p0    # Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;
+    .param p1    # Landroid/content/res/Resources;
 
     invoke-direct {p0, p1}, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->loadBoltPoints(Landroid/content/res/Resources;)[F
 
@@ -246,6 +250,7 @@
 
 .method private loadBoltPoints(Landroid/content/res/Resources;)[F
     .locals 8
+    .param p1    # Landroid/content/res/Resources;
 
     iget-boolean v5, p0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
@@ -366,6 +371,8 @@
 
 .method public onDraw(Landroid/graphics/Canvas;Lcom/android/systemui/BatteryMeterView$BatteryTracker;)V
     .locals 35
+    .param p1    # Landroid/graphics/Canvas;
+    .param p2    # Lcom/android/systemui/BatteryMeterView$BatteryTracker;
 
     move-object/from16 v0, p0
 
@@ -404,7 +411,33 @@
 
     invoke-virtual {v3}, Lcom/android/systemui/BatteryMeterView;->getPaddingTop()I
 
-    move-result v27
+    move-result v5
+
+    move-object/from16 v0, p0
+
+    iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
+
+    if-eqz v3, :cond_4
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mHeight:I
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$700(Lcom/android/systemui/BatteryMeterView;)I
+
+    move-result v3
+
+    int-to-float v3, v3
+
+    const v6, 0x3df5c28f
+
+    mul-float/2addr v3, v6
+
+    float-to-int v3, v3
+
+    :goto_1
+    add-int v27, v5, v3
 
     move-object/from16 v0, p0
 
@@ -428,7 +461,33 @@
 
     invoke-virtual {v3}, Lcom/android/systemui/BatteryMeterView;->getPaddingBottom()I
 
-    move-result v23
+    move-result v5
+
+    move-object/from16 v0, p0
+
+    iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
+
+    if-eqz v3, :cond_5
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mHeight:I
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$700(Lcom/android/systemui/BatteryMeterView;)I
+
+    move-result v3
+
+    int-to-float v3, v3
+
+    const v6, 0x3da3d70a
+
+    mul-float/2addr v3, v6
+
+    float-to-int v3, v3
+
+    :goto_2
+    add-int v23, v5, v3
 
     move-object/from16 v0, p0
 
@@ -460,11 +519,11 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_4
+    if-eqz v3, :cond_6
 
     move/from16 v3, v29
 
-    :goto_1
+    :goto_3
     int-to-float v3, v3
 
     move-object/from16 v0, p0
@@ -520,7 +579,7 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_5
+    if-eqz v3, :cond_7
 
     move-object/from16 v0, p0
 
@@ -661,12 +720,12 @@
 
     iput v5, v3, Landroid/graphics/RectF;->right:F
 
-    :goto_2
+    :goto_4
     move-object/from16 v0, p0
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_6
+    if-eqz v3, :cond_8
 
     move-object/from16 v0, p0
 
@@ -680,7 +739,7 @@
 
     iput v5, v3, Landroid/graphics/RectF;->right:F
 
-    :goto_3
+    :goto_5
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
@@ -765,36 +824,36 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->plugged:Z
 
-    if-eqz v3, :cond_7
+    if-eqz v3, :cond_9
 
     move-object/from16 v0, p0
 
     iget v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mChargeColor:I
 
-    :goto_4
+    :goto_6
     invoke-virtual {v5, v3}, Landroid/graphics/Paint;->setColor(I)V
 
     const/16 v3, 0x60
 
     move/from16 v0, v20
 
-    if-lt v0, v3, :cond_8
+    if-lt v0, v3, :cond_a
 
     const/high16 v16, 0x3f800000
 
     :cond_2
-    :goto_5
+    :goto_7
     const/high16 v3, 0x3f800000
 
     cmpl-float v3, v16, v3
 
-    if-nez v3, :cond_a
+    if-nez v3, :cond_c
 
     move-object/from16 v0, p0
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_9
+    if-eqz v3, :cond_b
 
     move-object/from16 v0, p0
 
@@ -804,7 +863,7 @@
 
     move/from16 v21, v0
 
-    :goto_6
+    :goto_8
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -843,7 +902,7 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_c
+    if-eqz v3, :cond_e
 
     move-object/from16 v0, p0
 
@@ -1029,12 +1088,12 @@
 
     invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
 
-    :goto_7
+    :goto_9
     move-object/from16 v0, p2
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->plugged:Z
 
-    if-eqz v3, :cond_13
+    if-eqz v3, :cond_15
 
     move-object/from16 v0, p0
 
@@ -1054,11 +1113,11 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_d
+    if-eqz v3, :cond_f
 
     const/high16 v3, 0x41100000
 
-    :goto_8
+    :goto_a
     div-float v3, v6, v3
 
     add-float v11, v5, v3
@@ -1081,11 +1140,11 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_e
+    if-eqz v3, :cond_10
 
     const/high16 v3, 0x40900000
 
-    :goto_9
+    :goto_b
     div-float v3, v6, v3
 
     add-float v14, v5, v3
@@ -1108,11 +1167,11 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_f
+    if-eqz v3, :cond_11
 
     const/high16 v3, 0x40c00000
 
-    :goto_a
+    :goto_c
     div-float v3, v6, v3
 
     sub-float v13, v5, v3
@@ -1135,11 +1194,11 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_10
+    if-eqz v3, :cond_12
 
     const/high16 v3, 0x40e00000
 
-    :goto_b
+    :goto_d
     div-float v3, v6, v3
 
     sub-float v10, v5, v3
@@ -1182,7 +1241,7 @@
 
     cmpl-float v3, v3, v10
 
-    if-eqz v3, :cond_12
+    if-eqz v3, :cond_14
 
     :cond_3
     move-object/from16 v0, p0
@@ -1259,7 +1318,7 @@
 
     const/16 v19, 0x2
 
-    :goto_c
+    :goto_e
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltPoints:[F
@@ -1268,7 +1327,7 @@
 
     move/from16 v0, v19
 
-    if-ge v0, v3, :cond_11
+    if-ge v0, v3, :cond_13
 
     move-object/from16 v0, p0
 
@@ -1330,14 +1389,24 @@
 
     add-int/lit8 v19, v19, 0x2
 
-    goto :goto_c
+    goto :goto_e
 
     :cond_4
-    move/from16 v3, v18
+    const/4 v3, 0x0
 
     goto/16 :goto_1
 
     :cond_5
+    const/4 v3, 0x0
+
+    goto/16 :goto_2
+
+    :cond_6
+    move/from16 v3, v18
+
+    goto/16 :goto_3
+
+    :cond_7
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
@@ -1477,9 +1546,9 @@
 
     iput v5, v3, Landroid/graphics/RectF;->right:F
 
-    goto/16 :goto_2
+    goto/16 :goto_4
 
-    :cond_6
+    :cond_8
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
@@ -1492,9 +1561,9 @@
 
     iput v5, v3, Landroid/graphics/RectF;->top:F
 
-    goto/16 :goto_3
+    goto/16 :goto_5
 
-    :cond_7
+    :cond_9
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -1505,9 +1574,9 @@
 
     move-result v3
 
-    goto/16 :goto_4
+    goto/16 :goto_6
 
-    :cond_8
+    :cond_a
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -1523,9 +1592,9 @@
 
     const/16 v16, 0x0
 
-    goto/16 :goto_5
+    goto/16 :goto_7
 
-    :cond_9
+    :cond_b
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
@@ -1534,14 +1603,14 @@
 
     move/from16 v21, v0
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    :cond_a
+    :cond_c
     move-object/from16 v0, p0
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_b
+    if-eqz v3, :cond_d
 
     move-object/from16 v0, p0
 
@@ -1565,9 +1634,9 @@
 
     sub-float v21, v3, v5
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    :cond_b
+    :cond_d
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
@@ -1590,216 +1659,216 @@
 
     add-float v21, v3, v5
 
-    goto/16 :goto_6
-
-    :cond_c
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->right:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->right:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->right:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->right:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->bottom:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->left:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->bottom:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->left:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->left:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
-
-    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
-    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
-
-    move-result-object v3
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v5, v5, Landroid/graphics/RectF;->left:F
-
-    move-object/from16 v0, p0
-
-    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
-
-    iget v6, v6, Landroid/graphics/RectF;->top:F
-
-    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
-
-    goto/16 :goto_7
-
-    :cond_d
-    const/high16 v3, 0x40900000
-
     goto/16 :goto_8
 
     :cond_e
-    const/high16 v3, 0x40c00000
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->right:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->right:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->right:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->right:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->bottom:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->left:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->bottom:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->left:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->left:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
+
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
+
+    # getter for: Lcom/android/systemui/BatteryMeterView;->mShapePath:Landroid/graphics/Path;
+    invoke-static {v3}, Lcom/android/systemui/BatteryMeterView;->access$1300(Lcom/android/systemui/BatteryMeterView;)Landroid/graphics/Path;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->left:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mButtonFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
 
     goto/16 :goto_9
 
     :cond_f
-    const/high16 v3, 0x40e00000
+    const/high16 v3, 0x40900000
 
     goto/16 :goto_a
 
     :cond_10
-    const/high16 v3, 0x41200000
+    const/high16 v3, 0x40c00000
 
     goto/16 :goto_b
 
     :cond_11
+    const/high16 v3, 0x40e00000
+
+    goto/16 :goto_c
+
+    :cond_12
+    const/high16 v3, 0x41200000
+
+    goto/16 :goto_d
+
+    :cond_13
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltPath:Landroid/graphics/Path;
@@ -1860,12 +1929,18 @@
 
     invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->lineTo(FF)V
 
-    :cond_12
+    :cond_14
+    move-object/from16 v0, p0
+
+    iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
+
+    if-eqz v3, :cond_17
+
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
 
-    iget v3, v3, Landroid/graphics/RectF;->bottom:F
+    iget v3, v3, Landroid/graphics/RectF;->left:F
 
     sub-float v3, v3, v21
 
@@ -1873,18 +1948,19 @@
 
     iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
 
-    iget v5, v5, Landroid/graphics/RectF;->bottom:F
+    iget v5, v5, Landroid/graphics/RectF;->left:F
 
     move-object/from16 v0, p0
 
     iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
 
-    iget v6, v6, Landroid/graphics/RectF;->top:F
+    iget v6, v6, Landroid/graphics/RectF;->right:F
 
     sub-float/2addr v5, v6
 
     div-float v12, v3, v5
 
+    :goto_f
     const/4 v3, 0x0
 
     invoke-static {v12, v3}, Ljava/lang/Math;->max(FF)F
@@ -1901,7 +1977,7 @@
 
     cmpg-float v3, v12, v3
 
-    if-gtz v3, :cond_15
+    if-gtz v3, :cond_18
 
     move-object/from16 v0, p0
 
@@ -1915,8 +1991,8 @@
 
     invoke-virtual {v0, v3, v5}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    :cond_13
-    :goto_d
+    :cond_15
+    :goto_10
     const/16 v24, 0x0
 
     const/4 v7, 0x0
@@ -1929,7 +2005,7 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$BatteryTracker;->plugged:Z
 
-    if-nez v3, :cond_14
+    if-nez v3, :cond_16
 
     move-object/from16 v0, p0
 
@@ -1942,7 +2018,7 @@
 
     move/from16 v0, v20
 
-    if-le v0, v3, :cond_14
+    if-le v0, v3, :cond_16
 
     move-object/from16 v0, p0
 
@@ -1950,7 +2026,7 @@
 
     iget-boolean v3, v3, Lcom/android/systemui/BatteryMeterView;->mShowPercent:Z
 
-    if-eqz v3, :cond_14
+    if-eqz v3, :cond_16
 
     move-object/from16 v0, p2
 
@@ -1958,10 +2034,10 @@
 
     const/16 v5, 0x64
 
-    if-ne v3, v5, :cond_16
+    if-ne v3, v5, :cond_19
 
-    :cond_14
-    :goto_e
+    :cond_16
+    :goto_11
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -1983,7 +2059,7 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_1c
+    if-eqz v3, :cond_21
 
     move-object/from16 v0, p0
 
@@ -1993,7 +2069,7 @@
 
     iput v0, v3, Landroid/graphics/RectF;->right:F
 
-    :goto_f
+    :goto_12
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -2078,7 +2154,7 @@
 
     move/from16 v0, v20
 
-    if-gt v0, v3, :cond_1d
+    if-gt v0, v3, :cond_22
 
     move-object/from16 v0, p0
 
@@ -2139,7 +2215,34 @@
 
     goto/16 :goto_0
 
-    :cond_15
+    :cond_17
+    move-object/from16 v0, p0
+
+    iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
+
+    iget v3, v3, Landroid/graphics/RectF;->bottom:F
+
+    sub-float v3, v3, v21
+
+    move-object/from16 v0, p0
+
+    iget-object v5, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
+
+    iget v5, v5, Landroid/graphics/RectF;->bottom:F
+
+    move-object/from16 v0, p0
+
+    iget-object v6, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mBoltFrame:Landroid/graphics/RectF;
+
+    iget v6, v6, Landroid/graphics/RectF;->top:F
+
+    sub-float/2addr v5, v6
+
+    div-float v12, v3, v5
+
+    goto/16 :goto_f
+
+    :cond_18
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
@@ -2157,9 +2260,9 @@
 
     invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
-    goto/16 :goto_d
+    goto/16 :goto_10
 
-    :cond_16
+    :cond_19
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mTextPaint:Landroid/graphics/Paint;
@@ -2180,29 +2283,29 @@
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_17
+    if-eqz v3, :cond_1a
 
     const v17, 0x3f19999a
 
-    :goto_10
+    :goto_13
     move-object/from16 v0, p0
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_18
+    if-eqz v3, :cond_1b
 
     const/high16 v22, 0x3f400000
 
-    :goto_11
+    :goto_14
     move-object/from16 v0, p0
 
     iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
 
-    if-eqz v3, :cond_19
+    if-eqz v3, :cond_1c
 
     const v28, 0x3f5c28f6
 
-    :goto_12
+    :goto_15
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mTextPaint:Landroid/graphics/Paint;
@@ -2217,9 +2320,9 @@
 
     const/16 v9, 0x64
 
-    if-ne v6, v9, :cond_1a
+    if-ne v6, v9, :cond_1d
 
-    :goto_13
+    :goto_16
     mul-float v5, v5, v17
 
     invoke-virtual {v3, v5}, Landroid/graphics/Paint;->setTextSize(F)V
@@ -2280,14 +2383,20 @@
 
     mul-float v8, v3, v5
 
-    cmpl-float v3, v21, v8
+    move-object/from16 v0, p0
 
-    if-lez v3, :cond_1b
+    iget-boolean v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mHorizontal:Z
+
+    if-eqz v3, :cond_1f
+
+    cmpl-float v3, v7, v21
+
+    if-lez v3, :cond_1e
 
     const/16 v24, 0x1
 
-    :goto_14
-    if-nez v24, :cond_14
+    :goto_17
+    if-nez v24, :cond_16
 
     move-object/from16 v0, p0
 
@@ -2343,34 +2452,49 @@
 
     invoke-virtual {v3, v5, v6}, Landroid/graphics/Path;->op(Landroid/graphics/Path;Landroid/graphics/Path$Op;)Z
 
-    goto/16 :goto_e
-
-    :cond_17
-    const v17, 0x3ee66666
-
-    goto/16 :goto_10
-
-    :cond_18
-    const v22, 0x3f19999a
-
     goto/16 :goto_11
 
-    :cond_19
-    const/high16 v28, 0x3f400000
-
-    goto/16 :goto_12
-
     :cond_1a
-    move/from16 v17, v22
+    const v17, 0x3ee66666
 
     goto/16 :goto_13
 
     :cond_1b
-    const/16 v24, 0x0
+    const v22, 0x3f19999a
 
-    goto :goto_14
+    goto/16 :goto_14
 
     :cond_1c
+    const/high16 v28, 0x3f400000
+
+    goto/16 :goto_15
+
+    :cond_1d
+    move/from16 v17, v22
+
+    goto/16 :goto_16
+
+    :cond_1e
+    const/16 v24, 0x0
+
+    goto :goto_17
+
+    :cond_1f
+    cmpl-float v3, v21, v8
+
+    if-lez v3, :cond_20
+
+    const/16 v24, 0x1
+
+    :goto_18
+    goto :goto_17
+
+    :cond_20
+    const/16 v24, 0x0
+
+    goto :goto_18
+
+    :cond_21
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->mFrame:Landroid/graphics/RectF;
@@ -2379,9 +2503,9 @@
 
     iput v0, v3, Landroid/graphics/RectF;->top:F
 
-    goto/16 :goto_f
+    goto/16 :goto_12
 
-    :cond_1d
+    :cond_22
     if-eqz v24, :cond_0
 
     move-object/from16 v0, p0
@@ -2397,6 +2521,10 @@
 
 .method public onSizeChanged(IIII)V
     .locals 3
+    .param p1    # I
+    .param p2    # I
+    .param p3    # I
+    .param p4    # I
 
     iget-object v0, p0, Lcom/android/systemui/BatteryMeterView$NormalBatteryMeterDrawable;->this$0:Lcom/android/systemui/BatteryMeterView;
 
