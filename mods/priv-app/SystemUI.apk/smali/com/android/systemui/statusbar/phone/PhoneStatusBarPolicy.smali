@@ -8,6 +8,10 @@
 
 
 # instance fields
+.field private mAlarmIconObserver:Landroid/database/ContentObserver;
+
+.field private mAlarmIconVisible:Z
+
 .field private mBluetoothEnabled:Z
 
 .field private final mCast:Lcom/android/systemui/statusbar/policy/CastController;
@@ -79,6 +83,12 @@
 
     iput-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mCastCallback:Lcom/android/systemui/statusbar/policy/CastController$Callback;
 
+    new-instance v1, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy$3;
+
+    invoke-direct {v1, p0, v7}, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy$3;-><init>(Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;Landroid/os/Handler;)V
+
+    iput-object v1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mAlarmIconObserver:Landroid/database/ContentObserver;
+    
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mCast:Lcom/android/systemui/statusbar/policy/CastController;
@@ -273,6 +283,28 @@
 
     invoke-interface {v3, v4}, Lcom/android/systemui/statusbar/policy/CastController;->addCallback(Lcom/android/systemui/statusbar/policy/CastController$Callback;)V
 
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mAlarmIconObserver:Landroid/database/ContentObserver;
+
+    const/4 v4, 0x1
+
+    invoke-virtual {v3, v4}, Landroid/database/ContentObserver;->onChange(Z)V
+
+    iget-object v3, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v3
+
+    const-string v4, "show_alarm_icon"
+
+    invoke-static {v4}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v4
+
+    iget-object v5, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mAlarmIconObserver:Landroid/database/ContentObserver;
+
+    invoke-virtual {v3, v4, v6, v5}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+
     return-void
 .end method
 
@@ -333,6 +365,22 @@
     return-void
 .end method
 
+.method static synthetic access$702(Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;Z)Z
+    .locals 0
+
+    iput-boolean p1, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mAlarmIconVisible:Z
+
+    return p1
+.end method
+
+.method static synthetic access$800(Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;)Landroid/content/Context;
+    .locals 1
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
+
+    return-object v0
+.end method
+
 .method static synthetic access$600(Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;)V
     .locals 0
     .param p0    # Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;
@@ -343,49 +391,57 @@
 .end method
 
 .method private updateAlarm()V
-    .locals 5
+    .locals 7
 
-    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
+    const/4 v2, 0x1
 
-    invoke-static {v0}, Lcom/android/internal/policy/impl/RomUtils;->getHideAlarmIcon(Landroid/content/Context;)Z
+    const/4 v3, 0x0
 
-    move-result v4
+    iget-object v4, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
 
-    iget-object v2, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
+    const-string v5, "alarm"
 
-    const-string v3, "alarm"
-
-    invoke-virtual {v2, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v4, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/app/AlarmManager;
 
-    const/4 v2, -0x2
+    const/4 v4, -0x2
 
-    invoke-virtual {v0, v2}, Landroid/app/AlarmManager;->getNextAlarmClock(I)Landroid/app/AlarmManager$AlarmClockInfo;
+    invoke-virtual {v0, v4}, Landroid/app/AlarmManager;->getNextAlarmClock(I)Landroid/app/AlarmManager$AlarmClockInfo;
 
-    move-result-object v2
+    move-result-object v4
 
-    if-nez v4, :cond_0
+    if-eqz v4, :cond_0
 
-    if-eqz v2, :cond_0
-
-    const/4 v1, 0x1
+    move v1, v2
 
     :goto_0
-    iget-object v2, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mService:Landroid/app/StatusBarManager;
+    iget-object v4, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mService:Landroid/app/StatusBarManager;
 
-    const-string v3, "alarm_clock"
+    const-string v5, "alarm_clock"
 
-    invoke-virtual {v2, v3, v1}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
+    if-eqz v1, :cond_1
+
+    iget-boolean v6, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mAlarmIconVisible:Z
+
+    if-eqz v6, :cond_1
+
+    :goto_1
+    invoke-virtual {v4, v5, v2}, Landroid/app/StatusBarManager;->setIconVisibility(Ljava/lang/String;Z)V
 
     return-void
 
     :cond_0
-    const/4 v1, 0x0
+    move v1, v3
 
     goto :goto_0
+
+    :cond_1
+    move v2, v3
+
+    goto :goto_1
 .end method
 
 .method private final updateBluetooth()V
