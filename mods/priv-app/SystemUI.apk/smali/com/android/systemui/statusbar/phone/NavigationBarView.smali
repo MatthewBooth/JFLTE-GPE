@@ -1859,9 +1859,18 @@
     move v1, v3
 
     :goto_4
+
+    iget-object v2, p0, Lcom/android/systemui/statusbar/phone/NavigationBarView;->mContext:Landroid/content/Context;
+
+    invoke-static {v2}, Lcom/android/internal/policy/impl/RomUtils;->showImeSwitcher(Landroid/content/Context;)Z
+
+    move-result v5
+
     invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/NavigationBarView;->getImeSwitchButton()Landroid/view/View;
 
     move-result-object v2
+
+    if-eqz v5, :cond_8
 
     if-eqz v1, :cond_8
 
