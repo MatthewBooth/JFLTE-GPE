@@ -1,8 +1,26 @@
 # JFLTE-GPE
 
-Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
+Visit [https://github.com/Kryten2k35/JFLTE-GPE](GitHub) for full source
 
-Visit http://ultimarom.com for downloads
+Visit [http://ultimarom.com](UltimaROM) for downloads
+
+### Changelog 201501--
+* Updated Busybox to 1.23.0-Stericson
+* Updated Google Messenger
+* Updated NetworkTraffic mod style to match the clock (font weight and style)
+* Added new method for disabling hardware buttons, also added ability to use Menu button as Recents, as has been requested a lot
+* Added new method of turning off the hardware keys backlight (no more rebooting to change this)
+* Added markdown parsing of the changelog in Settings (check Settings->About->ROM Changelog)
+* Added Battery light (LED) controls
+* Added Double tap statusbar to sleep
+* Added quick pull down of the quick tiles
+* Added alarm icon switching without having to toggle an alarm
+* Added IME notification icon switching
+* Added navigation bar height option (can be used to force soft menu key in apps if off)
+* Fixed OTAUpdates "cancel" button not updating to "install" when download finishes
+* Fixed battery views and readded the text and landscape icons. Now shows on lockscreen properly
+* Fixed clock mod to allow left clock using new CyanogenMod method
+* Fixed NetworkTraffic mod not showing a single line correctly
 
 ### Changelog 20150128
 * Patched colorfade memory leak in services.jar
