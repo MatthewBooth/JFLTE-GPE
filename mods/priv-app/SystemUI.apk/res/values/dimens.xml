@@ -266,6 +266,6 @@
     <dimen name="disappear_y_translation">-32.0dip</dimen>
     <dimen name="sim_card_name_maxwidth">100.0dip</dimen>
     <dimen name="sim_card_name_padding">6.0dip</dimen>
-    <dimen name="net_traffic_single_text_size">12.0dip</dimen>
+    <dimen name="net_traffic_single_text_size">11.0dip</dimen>
     <dimen name="net_traffic_multi_text_size">9.0dip</dimen>
 </resources>
