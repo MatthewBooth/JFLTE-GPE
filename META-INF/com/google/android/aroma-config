@@ -214,7 +214,7 @@ textbox(
 			"photophase",			"Photo Phase", 			"",																					"check.checked",
 			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
-
+	if file_getprop("/tmp/aroma-data/wipe.prop","kernel") == "googymax" then
 		form(
 			"Hardswap",
 			"Hardware Swap partition",
@@ -297,7 +297,7 @@ textbox(
 #			"ac",					"AC",					"USB 700mA | AC 1900mA",															"select",
 #			"max",					"Max",					"USB 1000mA | AC 1900mA",															"select"
 #		);
-			
+	endif;
 	  
 ini_set("text_next", "Install");
 ##
@@ -356,3 +356,4 @@ if getvar("reboot_it")=="1" then
 endif;
 
 #---- FINISH
+
