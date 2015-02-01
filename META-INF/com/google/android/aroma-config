@@ -110,7 +110,7 @@ textbox(
 
 		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
 		"factory",				"Full System Wipe", 	"Wipes /data and /system and cache. Leaves internal storage untouched",															"select.selected",
-		"full",					"Factory Reset", 		"Wipes everything including internal storage <#ff4444>(RECOMMENDED)</#>",											"select.selected",
+		"full",					"Factory Reset", 		"Wipes everything including internal storage <#F44336>(RECOMMENDED)</#>",											"select.selected",
 		"nothing",				"Dirty Flash", 			"Wipes just /system",												                        						"select"
 	);
 
@@ -118,7 +118,7 @@ textbox(
 		agreebox(
 			    "Warning",
 			    "Please read the text below.",
-			    "@alert",
+			    "@warning",
 			    resread("full_wipe_warning.txt"),
 			    "I understand",
 			    "Please check you understand"
@@ -131,7 +131,7 @@ textbox(
 		form(
 			"Custom Installation",
 			"Choose your options",
-			"@install",
+			"@text",
 			"install.prop",
 
 			"kernel",				"<#selectbg_g>Kernel</#>","",																			    "group",
@@ -157,7 +157,7 @@ textbox(
 
 			"messenger",			"<#selectbg_g>MMS</#>","",																			        "group",
 			"google",				"Google", 				"Install Google Messenger",											                "select.selected",
-			"aosp",					"CM",				    "Install CyanogenMOD Messaging <#ff4444>EXPERIMENTAL</#>",									                "select",
+			"aosp",					"CM",				    "Install CyanogenMOD Messaging <#F44336>EXPERIMENTAL</#>",									                "select",
 			"no",					"No", 					"Do not install a MMS app",													        "select",
 
 			"contacts_dialer",		"<#selectbg_g>Contacts and Dialer</#>","",																	"group",
@@ -176,7 +176,7 @@ textbox(
 
 			"dsp",					"<#selectbg_g>Digital Signal Processing</#>","",															"group",
 			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select.selected",
-			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method <#ff4444>Recommended</#>",			"select",
+			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method <#F44336>Recommended</#>",			"select",
 			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
 
 			"browser",				"<#selectbg_g>Browser</#>","",																				"group",
@@ -218,21 +218,21 @@ textbox(
 		form(
 			"Hardswap",
 			"Hardware Swap partition",
-			"@alert",
+			"@warning",
 			"hardswap.prop",
 
 			"swap",					"<#selectbg_g>Amount</#>","",																				"group",
 			"0",					"0 Megabytes",			"Remove",																			"select.selected",
 			"64",					"64 Megabytes",			"",																					"select",
 			"128",					"128 Megabytes",		"",																					"select",
-			"256",					"256 Megabytes",		"<#ff4444>(RECOMMENDED)</#>",														"select",
+			"256",					"256 Megabytes",		"<#F44336>(RECOMMENDED)</#>",														"select",
 			"512",					"512 Megabytes",		"",																					"select"
 		);
 
 #		form(
 #			"GoogyMax",
 #			"GoogyMax Kernel configuration",
-#			"@alert",
+#			"@warning",
 #			"kernel.prop",
 #
 #			"govenor",				"<#selectbg_g>CPU Govenor</#>","",																			"group",
@@ -247,7 +247,7 @@ textbox(
 #			"sched_mc",				"<#selectbg_g>SCHED_MC</#>","",																				"group",
 #			"0",					"Off",					"",																					"select.selected",
 #			"1",					"Try to load first core","",																				"select",
-#			"2",					"Bias to semi-idle cores","<#ff4444>(RECOMMENDED)</#>",														"select",
+#			"2",					"Bias to semi-idle cores","<#F44336>(RECOMMENDED)</#>",														"select",
 #
 #			"cpu_undervolt",		"<#selectbg_g>CPU Undervolt</#>","",																		"group",
 #			"0",					"Off",					"",																					"select.selected",
@@ -259,13 +259,13 @@ textbox(
 #			"zram",					"<#selectbg_g>ZRAM</#>","",																					"group",
 #			"0",					"0 Megabytes",			"Remove",																			"select.selected",
 #			"128",					"128 Megabytes",		"",																					"select",
-#			"256",					"256 Megabytes",		"<#ff4444>(RECOMMENDED)</#>",														"select",
+#			"256",					"256 Megabytes",		"<#F44336>(RECOMMENDED)</#>",														"select",
 #			"512",					"512 Megabytes",		"",																					"select",
 #			"768",					"768 Megabytes",		"",																					"select",
 #
 #			"int_shed",				"<#selectbg_g>Internal Scheduler</#>","",																	"group",
 #			"cfq",					"CFQ",					"Completely Fair Queuing",															"select.selected",
-#			"fiops",				"FIOPS",				"Fair In-Out Performance Scheduler <#ff4444>(RECOMMENDED)</#>",						"select",
+#			"fiops",				"FIOPS",				"Fair In-Out Performance Scheduler <#F44336>(RECOMMENDED)</#>",						"select",
 #			"noop",					"NOOP",					"The simplest scheduler",															"select",
 #			"deadline",				"DEADLINE",				"Service start time guarantee",														"select",
 #			"fifo",					"FIFO",					"First in, First out Scheduler",													"select",
@@ -275,11 +275,11 @@ textbox(
 #			"256",					"256kb",				"",																					"select",
 #			"512",					"512kb",				"",																					"select",
 #			"1024",					"1024kb",				"",																					"select",
-#			"2048",					"2048kb",				"<#ff4444>(RECOMMENDED)</#>",														"select",
+#			"2048",					"2048kb",				"<#F44336>(RECOMMENDED)</#>",														"select",
 #
 #			"ext_shed",				"<#selectbg_g>External Storage Scheduler</#>","",															"group",
 #			"cfq",					"CFQ",					"Completely Fair Queuing",															"select.selected",
-#			"fiops",				"FIOPS",				"Fair In-Out Performance Scheduler <#ff4444>(RECOMMENDED)</#>",						"select",
+#			"fiops",				"FIOPS",				"Fair In-Out Performance Scheduler <#F44336>(RECOMMENDED)</#>",						"select",
 #			"noop",					"NOOP",					"The simplest scheduler",															"select",
 #			"deadline",				"DEADLINE",				"Service start time guarantee",														"select",
 #			"fifo",					"FIFO",					"First in, First out Scheduler",													"select",
@@ -289,7 +289,7 @@ textbox(
 #			"256",					"256kb",				"",																					"select",
 #			"512",					"512kb",				"",																					"select",
 #			"1024",					"1024kb",				"",																					"select",
-#			"2048",					"2048kb",				"<#ff4444>(RECOMMENDED)</#>",														"select",
+#			"2048",					"2048kb",				"<#F44336>(RECOMMENDED)</#>",														"select",
 #
 #			"charging",				"<#selectbg_g>Charge Control</#>","",																		"group",
 #			"default",				"Default",				"USB 700mA | AC 1450mA",															"select.selected",
