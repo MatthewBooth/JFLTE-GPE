@@ -214,7 +214,7 @@ textbox(
 			"photophase",			"Photo Phase", 			"",																					"check.checked",
 			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
-	if file_getprop("/tmp/aroma-data/wipe.prop","kernel") == "googymax" then
+	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "googymax" then
 		form(
 			"Hardswap",
 			"Hardware Swap partition",
