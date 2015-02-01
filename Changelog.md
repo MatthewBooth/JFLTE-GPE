@@ -4,10 +4,11 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 201501--
+### Changelog 20150205
 * Updated Busybox to 1.23.0-Stericson
 * Updated Google Messenger
 * Updated NetworkTraffic mod style to match the clock (font weight and style)
+* Updated AROMA installer - now dark themed by @Kryten2k35
 * Added new method for disabling hardware buttons, also added ability to use Menu button as Recents, as has been requested a lot
 * Added new method of turning off the hardware keys backlight (no more rebooting to change this)
 * Added markdown parsing of the changelog in Settings (check Settings->About->ROM Changelog)
@@ -17,10 +18,12 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 * Added alarm icon switching without having to toggle an alarm
 * Added IME notification icon switching
 * Added navigation bar height option (can be used to force soft menu key in apps if off)
+* Added Ambient Display (on by default - this is default Android behaviour)
 * Fixed OTAUpdates "cancel" button not updating to "install" when download finishes
 * Fixed battery views and readded the text and landscape icons. Now shows on lockscreen properly
 * Fixed clock mod to allow left clock using new CyanogenMod method
 * Fixed NetworkTraffic mod not showing a single line correctly
+* Fixed default Trebuchet layout
 
 ### Changelog 20150128
 * Patched colorfade memory leak in services.jar

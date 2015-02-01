@@ -1,10 +1,20 @@
-<b><#selectbg_g>JFLTE-GPE-20150128</#></b>
-<*>Patched colorfade memory leak in services.jar</*>
-<*>Network improvements for Verizon Wireless</*>
-<*>Removed debug code from OTA app</*>
-<*>Fixed spacing for U/D on network meter</*>
-<*>Fixed Calculator delete string for English UK</*>
-<*>Updates to our themed dialers</*>
-<*>Sound recorder updates, Can now record in mp4 and wav</*>
-<*>Compiled updated CM apps from source</*>
-<*>Update OTA info in build.prop</*>
+<b><#selectbg_g>JFLTE-GPE-20150205</#></b>
+<*>Updated Busybox to 1.23.0-Stericson</*>
+<*>Updated Google Messenger</*>
+<*>Updated NetworkTraffic mod style to match the clock (font weight and style)</*>
+<*>Updated AROMA installer - now dark themed by @Kryten2k35</*>
+<*>Added new method for disabling hardware buttons, also added ability to use Menu button as Recents, as has been requested a lot</*>
+<*>Added new method of turning off the hardware keys backlight (no more rebooting to change this)</*>
+<*>Added markdown parsing of the changelog in Settings (check Settings->About->ROM Changelog)</*>
+<*>Added Battery light (LED) controls</*>
+<*>Added Double tap statusbar to sleep</*>
+<*>Added quick pull down of the quick tiles</*>
+<*>Added alarm icon switching without having to toggle an alarm</*>
+<*>Added IME notification icon switching</*>
+<*>Added navigation bar height option (can be used to force soft menu key in apps if off)</*>
+<*>Added Ambient Display (on by default - this is default Android behaviour)</*>
+<*>Fixed OTAUpdates "cancel" button not updating to "install" when download finishes</*>
+<*>Fixed battery views and readded the text and landscape icons. Now shows on lockscreen properly</*>
+<*>Fixed clock mod to allow left clock using new CyanogenMod method</*>
+<*>Fixed NetworkTraffic mod not showing a single line correctly</*>
+<*>Fixed default Trebuchet layout</*>
