@@ -592,9 +592,13 @@
 .end method
 
 .method public systemRunning()V
-    .locals 0
+    .locals 2
 
-    invoke-direct {p0}, Lcom/android/server/MmsServiceBroker;->tryConnecting()V
+    const-string v0, "MmsServiceBroker"
+
+    const-string v1, "systemRunning"
+
+    invoke-static {v0, v1}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method
