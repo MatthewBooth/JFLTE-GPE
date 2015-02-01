@@ -202,13 +202,7 @@
 
     iget-object v0, p0, Lcom/android/server/BatteryService;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    const v1, 0x10e003d
-
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
+    invoke-static {v0}, Lcom/android/internal/policy/impl/RomUtils;->getCriticalBatteryLevel(Landroid/content/Context;)I
 
     move-result v0
 
