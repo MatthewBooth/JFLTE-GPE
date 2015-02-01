@@ -687,24 +687,47 @@ ui_print("<b><#009688>Setting Swap...</#></b>");
 	set_perm(0, 0, 0777, "/tmp/hardswap.sh");
 	run_program("/tmp/hardswap.sh", "/cache", file_getprop("/tmp/aroma-data/hardswap.prop", "swap"));
 
-ui_print("<b><#009688>Installing GoogyMax Kernel...</#></b>");
-		
-	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
-		getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
-		package_extract_dir("aroma/scripts/loki", "/tmp");
-		package_extract_file("aroma/kernel/boot.img", "/tmp/boot.img");
+## Kernel
 
-		set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
-		set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
-		set_perm(0, 0, 0777, "/tmp/loki_patch");
-		set_perm(0, 0, 0777, "/tmp/loki_flash");
-		run_program("/tmp/flash_kernel.sh");
-	else 
-		package_extract_file("aroma/kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "stock" then
+      	ui_print("<b><#009688>Installing Stock Kernel...</#></b>");	
+	  	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+			package_extract_dir("aroma/scripts/loki", "/tmp");
+			package_extract_file("aroma/kernel/stock/boot.img", "/tmp/boot.img");
+
+			set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+			set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+			set_perm(0, 0, 0777, "/tmp/loki_patch");
+			set_perm(0, 0, 0777, "/tmp/loki_flash");
+			run_program("/tmp/flash_kernel.sh");
+		else 
+			package_extract_file("aroma/kernel/stock/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		endif;
+
+		package_extract_dir("aroma/kernel/stock/system", "/system");
+		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+    endif;	
+
+    if file_getprop("/tmp/aroma-data/install.prop","kernel") == "googymax" then
+		ui_print("<b><#009688>Installing GoogyMax Kernel...</#></b>");	
+		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+			package_extract_dir("aroma/scripts/loki", "/tmp");
+			package_extract_file("aroma/kernel/googymax/boot.img", "/tmp/boot.img");
+
+			set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+			set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+			set_perm(0, 0, 0777, "/tmp/loki_patch");
+			set_perm(0, 0, 0777, "/tmp/loki_flash");
+			run_program("/tmp/flash_kernel.sh");
+		else 
+			package_extract_file("aroma/kernel/googymax/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		endif;
+
+		package_extract_dir("aroma/kernel/googymax/system", "/system");
+		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 	endif;
-
-	package_extract_dir("aroma/kernel/system", "/system");
-	set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 
 #	package_extract_file("aroma/scripts/kernel/kernel_general.sh", "/tmp/kernel_general.sh");
 #	set_perm(0, 0, 0777, "/tmp/kernel_general.sh");
