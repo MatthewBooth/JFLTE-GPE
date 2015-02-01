@@ -4,7 +4,7 @@ cd /data
 FILES=(*)
 
 for i in *; do
-	if [ "$i" != "media" ] || [ "$i" != "TWRP" ]; then
+	if [ "$i" != "media" ]; then
 		rm -R "$i"
 	fi
 done
