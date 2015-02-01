@@ -24,6 +24,7 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 * Fixed clock mod to allow left clock using new CyanogenMod method
 * Fixed NetworkTraffic mod not showing a single line correctly
 * Fixed default Trebuchet layout
+* Removed hidden battery init.d hack - new battery methods work properly now
 
 ### Changelog 20150128
 * Patched colorfade memory leak in services.jar

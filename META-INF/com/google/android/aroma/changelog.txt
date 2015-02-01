@@ -18,3 +18,4 @@
 <*>Fixed clock mod to allow left clock using new CyanogenMod method</*>
 <*>Fixed NetworkTraffic mod not showing a single line correctly</*>
 <*>Fixed default Trebuchet layout</*>
+<*>Removed hidden battery init.d hack - new battery methods work properly now</*>
