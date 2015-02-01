@@ -86,7 +86,7 @@
     <bool name="config_dreamsActivatedOnDockByDefault">true</bool>
     <bool name="config_dreamsActivatedOnSleepByDefault">false</bool>
     <bool name="config_dreamsEnabledOnBattery">false</bool>
-    <bool name="config_dozeAfterScreenOff">false</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_cellBroadcastAppLinks">true</bool>

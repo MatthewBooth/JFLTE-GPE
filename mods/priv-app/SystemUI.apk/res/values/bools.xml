@@ -19,7 +19,7 @@
     <bool name="config_enableKeyguardService">true</bool>
     <bool name="enable_ticker">false</bool>
     <bool name="config_keyguardUserSwitcher">false</bool>
-    <bool name="doze_display_state_supported">false</bool>
+    <bool name="doze_display_state_supported">true</bool>
     <bool name="doze_pulse_on_significant_motion">false</bool>
     <bool name="doze_pulse_on_pick_up">false</bool>
     <bool name="doze_pulse_on_notifications">true</bool>
