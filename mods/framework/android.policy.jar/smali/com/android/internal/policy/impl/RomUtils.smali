@@ -507,3 +507,42 @@
 
     return v3
 .end method
+
+.method public static getCriticalBatteryLevel(Landroid/content/Context;)I
+    .locals 4
+    .param p0    # Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v2, "crit_battery_level"
+
+    const/16 v1, 0x5
+
+    invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v3
+
+    return v3
+.end method
+
+.method public static getLowBatteryLevel(Landroid/content/Context;)I
+    .locals 4
+    .param p0    # Landroid/content/Context;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v2, "low_battery_level"
+
+    const/16 v1, 0xf
+
+    invoke-static {v0, v2, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v3
+
+    return v3
+.end method
+
