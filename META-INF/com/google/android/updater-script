@@ -636,7 +636,7 @@ ui_print("<b><#009688>Setting Permissions...</#></b>");
 	set_metadata("/system/vendor/pittpatt/models/detection", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata_recursive("/system/vendor/pittpatt/models/recognition", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-
+	set_perm_recursive(0, 0, 0755, 0755, "/system/etc/init.d");
 ui_print("<b><#009688>Installing BusyBox...</#></b>");
 	run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
