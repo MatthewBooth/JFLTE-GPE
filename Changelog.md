@@ -1,8 +1,8 @@
 # JFLTE-GPE
 
-Visit [https://github.com/Kryten2k35/JFLTE-GPE](GitHub) for full source
+Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
-Visit [http://ultimarom.com](UltimaROM) for downloads
+Visit [UltimaROM](http://ultimarom.com) for downloads
 
 ### Changelog 201501--
 * Updated Busybox to 1.23.0-Stericson
