@@ -1,9 +1,6 @@
 .class Lcom/android/systemui/statusbar/policy/NetworkTraffic$3;
-.super Ljava/lang/Object;
+.super Landroid/content/BroadcastReceiver;
 .source "NetworkTraffic.java"
-
-# interfaces
-.implements Ljava/lang/Runnable;
 
 
 # annotations
@@ -27,26 +24,37 @@
 
     iput-object p1, p0, Lcom/android/systemui/statusbar/policy/NetworkTraffic$3;->this$0:Lcom/android/systemui/statusbar/policy/NetworkTraffic;
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public run()V
+.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 2
+    .param p1    # Landroid/content/Context;
+    .param p2    # Landroid/content/Intent;
 
-    iget-object v0, p0, Lcom/android/systemui/statusbar/policy/NetworkTraffic$3;->this$0:Lcom/android/systemui/statusbar/policy/NetworkTraffic;
-
-    # getter for: Lcom/android/systemui/statusbar/policy/NetworkTraffic;->mTrafficHandler:Landroid/os/Handler;
-    invoke-static {v0}, Lcom/android/systemui/statusbar/policy/NetworkTraffic;->access$1600(Lcom/android/systemui/statusbar/policy/NetworkTraffic;)Landroid/os/Handler;
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
 
-    const/4 v1, 0x0
+    if-eqz v0, :cond_0
 
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->sendEmptyMessage(I)Z
+    const-string v1, "android.net.conn.CONNECTIVITY_CHANGE"
 
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/NetworkTraffic$3;->this$0:Lcom/android/systemui/statusbar/policy/NetworkTraffic;
+
+    # invokes: Lcom/android/systemui/statusbar/policy/NetworkTraffic;->updateSettings()V
+    invoke-static {v1}, Lcom/android/systemui/statusbar/policy/NetworkTraffic;->access$1900(Lcom/android/systemui/statusbar/policy/NetworkTraffic;)V
+
+    :cond_0
     return-void
 .end method
