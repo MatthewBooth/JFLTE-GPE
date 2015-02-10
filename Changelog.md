@@ -4,16 +4,18 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150205
+### Changelog 20150210
 * Updated Busybox to 1.23.0-Stericson
-* Updated Google Messenger
+* Updated Google Apps
 * Updated NetworkTraffic mod style to match the clock (font weight and style)
-* Updated AROMA installer - now dark themed by @Kryten2k35
+* Updated AROMA installer - now dark themed
+* Added mDNIe Controls to Interface
+* Added stock kernel option into AROMA
+* Added a better autohide method into the Network Meter, including a threshold slider
 * Added new method for disabling hardware buttons, also added ability to use Menu button as Recents, as has been requested a lot
 * Added new method of turning off the hardware keys backlight (no more rebooting to change this)
 * Added markdown parsing of the changelog in Settings (check Settings->About->ROM Changelog)
 * Added Battery light (LED) controls
-* Added Double tap statusbar to sleep
 * Added quick pull down of the quick tiles
 * Added alarm icon switching without having to toggle an alarm
 * Added IME notification icon switching
