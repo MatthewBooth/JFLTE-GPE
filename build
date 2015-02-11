@@ -1,9 +1,11 @@
 #!/bin/bash
 
 echo "Select to either BUILD the ROM, or just the modified apps/jars"
-select build in "build" "apps"; do
-    case $build in
-        build ) ./tools/build_linux; break;;
-        apps )  ./tools/compile_apps_linux; break;;
+select CHOICE in "build" "apps"; do
+    case "$CHOICE" in
+        build) ./tools/build_linux ;;
+        apps) ./tools/compile_apps_linux ;;
     esac
 done
+
+exit 0
