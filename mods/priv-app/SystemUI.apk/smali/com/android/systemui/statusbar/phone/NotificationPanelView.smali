@@ -294,9 +294,9 @@
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mContext:Landroid/content/Context;
 
-    new-instance v2, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;
+    new-instance v2, Lcom/android/systemui/statusbar/phone/NotificationPanelView$1;
 
-    invoke-direct {v2, p0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;-><init>(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)V
+    invoke-direct {v2, p0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView$1;-><init>(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)V
 
     invoke-direct {v0, v1, v2}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
@@ -4623,18 +4623,6 @@
     move-result v0
 
     iput v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mQsFalsingThreshold:I
-
-    invoke-virtual {p0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    const v1, 0x7f0c002a
-
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBarHeaderHeight:I
 
     return-void
 .end method
