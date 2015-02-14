@@ -493,6 +493,25 @@
     return p1
 .end method
 
+.method static synthetic access$900(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Landroid/animation/ObjectAnimator;
+    .locals 1
+    .param p0    # Lcom/android/systemui/statusbar/phone/NotificationPanelView;
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mQsContainerAnimator:Landroid/animation/ObjectAnimator;
+
+    return-object v0
+.end method
+
+.method static synthetic access$902(Lcom/android/systemui/statusbar/phone/NotificationPanelView;Landroid/animation/ObjectAnimator;)Landroid/animation/ObjectAnimator;
+    .locals 0
+    .param p0    # Lcom/android/systemui/statusbar/phone/NotificationPanelView;
+    .param p1    # Landroid/animation/ObjectAnimator;
+
+    iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mQsContainerAnimator:Landroid/animation/ObjectAnimator;
+
+    return-object p1
+.end method
+
 .method static synthetic access$802(Lcom/android/systemui/statusbar/phone/NotificationPanelView;Z)Z
     .locals 0
     .param p0    # Lcom/android/systemui/statusbar/phone/NotificationPanelView;
