@@ -1,23 +1,7 @@
-<b><#selectbg_g>JFLTE-GPE-20150210</#></b>
-<*>Updated Busybox to 1.23.0-Stericson</*>
-<*>Updated Google Apps</*>
-<*>Updated NetworkTraffic mod style to match the clock (font weight and style)</*>
-<*>Updated AROMA installer - now dark themed</*>
-<*>Added mDNIe Controls to Interface</*>
-<*>Added stock kernel option into AROMA</*>
-<*>Added a better autohide method into the Network Meter, including a threshold slider</*>
-<*>Added new method for disabling hardware buttons, also added ability to use Menu button as Recents, as has been requested a lot</*>
-<*>Added new method of turning off the hardware keys backlight (no more rebooting to change this)</*>
-<*>Added markdown parsing of the changelog in Settings (check Settings->About->ROM Changelog)</*>
-<*>Added Battery light (LED) controls</*>
-<*>Added quick pull down of the quick tiles</*>
-<*>Added alarm icon switching without having to toggle an alarm</*>
-<*>Added IME notification icon switching</*>
-<*>Added navigation bar height option (can be used to force soft menu key in apps if off)</*>
-<*>Added Ambient Display (on by default - this is default Android behaviour)</*>
-<*>Fixed OTAUpdates "cancel" button not updating to "install" when download finishes</*>
-<*>Fixed battery views and readded the text and landscape icons. Now shows on lockscreen properly</*>
-<*>Fixed clock mod to allow left clock using new CyanogenMod method</*>
-<*>Fixed NetworkTraffic mod not showing a single line correctly</*>
-<*>Fixed default Trebuchet layout</*>
-<*>Removed hidden battery init.d hack - new battery methods work properly now
+<b><#selectbg_g>JFLTE-GPE-20150217</#></b>
+<*>Boot animation memory leak fixed thanks to arter97</*>
+<*>Fixed System FC when expanding a content sensitive notification</*>
+<*>Updated SuperSU</*>
+<*>Updated Googy kernel to 1.2.9</*>
+<*>Modded framework and apks now compiled with latest apktool</*>
+<*>Network meter settings will now be properly themed white if stock settings is chosen in AROMA</*>
