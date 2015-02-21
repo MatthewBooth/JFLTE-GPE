@@ -4,13 +4,17 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150217
+### Changelog 20150222
 * Boot animation memory leak fixed thanks to arter97
 * Fixed System FC when expanding a content sensitive notification
+* Network meter settings will now be properly themed white if stock settings is chosen in AROMA
+* Landscape navigation bar will now properly hide if set to 0 dpi
 * Updated SuperSU
 * Updated Googy kernel to 1.2.9
+* Updated CM apns
 * Modded framework and apks now compiled with latest apktool
-* Network meter settings will now be properly themed white if stock settings is chosen in AROMA
+* Removed CSC
+* Removed Snote preload data
 
 ### Changelog 20150210
 * Updated Busybox to 1.23.0-Stericson
