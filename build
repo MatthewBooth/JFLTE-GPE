@@ -3,8 +3,8 @@
 echo "Select to either BUILD the ROM, or just the modified apps/jars"
 select CHOICE in "build" "apps"; do
     case "$CHOICE" in
-        build) ./tools/build_linux ;;
-        apps) ./tools/compile_apps_linux ;;
+        build) ./tools/build_linux break;;
+        apps) ./tools/compile_apps_linux break;;
     esac
 done
 
