@@ -4,7 +4,7 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150222
+### Changelog 20150223
 * Boot animation memory leak fixed thanks to arter97
 * Fixed System FC when expanding a content sensitive notification
 * Network meter settings will now be properly themed white if stock settings is chosen in AROMA

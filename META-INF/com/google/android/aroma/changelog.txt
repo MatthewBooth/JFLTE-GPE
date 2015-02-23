@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150222</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150223</#></b>
 <*>Boot animation memory leak fixed thanks to arter97</*>
 <*>Fixed System FC when expanding a content sensitive notification</*>
 <*>Network meter settings will now be properly themed white if stock settings is chosen in AROMA</*>
