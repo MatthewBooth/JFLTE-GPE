@@ -4,6 +4,12 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
+### Changelog 20150224
+* Revert a commit regarding landscape navigation bar
+* Remove menu to recents for now, might be back later
+* Updated build.prop
+* Some AROMA touch ups
+
 ### Changelog 20150223
 * Boot animation memory leak fixed thanks to arter97
 * Fixed System FC when expanding a content sensitive notification

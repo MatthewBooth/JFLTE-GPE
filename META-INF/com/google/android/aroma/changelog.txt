@@ -1,11 +1,6 @@
-<b><#selectbg_g>JFLTE-GPE-20150223</#></b>
+<b><#selectbg_g>JFLTE-GPE-20150224</#>
 <*>Boot animation memory leak fixed thanks to arter97</*>
-<*>Fixed System FC when expanding a content sensitive notification</*>
-<*>Network meter settings will now be properly themed white if stock settings is chosen in AROMA</*>
-<*>Landscape navigation bar will now properly hide if set to 0 dpi</*>
-<*>Updated SuperSU 2.46</*>
-<*>Updated OTAUpdater to 2.2</*>
-<*>Updated Googy kernel to 1.2.9</*>
-<*>Updated CM APNs</*>
-<*>Modded framework and apks now compiled with latest apktool</*>
-<*>Removed SNote preload data
+<*>Revert a commit regarding landscape navigation bar</*>
+<*>Remove menu to recents for now, might be back later</*>
+<*>Updated build.prop</*>
+<*>Some AROMA touch ups</*>
