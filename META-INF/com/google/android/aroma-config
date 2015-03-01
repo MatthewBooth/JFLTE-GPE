@@ -136,8 +136,9 @@ textbox(
 
 			"kernel",				"<#selectbg_g>Kernel</#>","",																			    "group",
 			"stock",				"Stock", 				"Stock GPe Kernel",															        "select",
-			"googymax",				"GoogyMax3", 			"GoogyMax 3 1.2.9 Kernel",											                "select.selected",
-			
+			"googymax",				"GoogyMax3", 			"GoogyMax 3 1.3.0 Final Kernel",											        "select.selected",
+			"alucard",				"Alucard", 				"Alucard 1.1a Kernel",											       				"select",
+		
 			"launcher",				"<#selectbg_g>Launcher</#>","",																			    "group",
 			"google",				"Google", 				"Google Now Launcher",														        "select.selected",
 			"stock",				"Trebuchet", 			"CyanogenMod Launcher",														        "select",

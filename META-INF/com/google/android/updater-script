@@ -730,6 +730,30 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 	endif;
 
+	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "alucard" then
+
+		ui_print("<b><#009688>Installing Alucard Kernel...</#></b>");	
+		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+			package_extract_dir("aroma/scripts/loki", "/tmp");
+			package_extract_file("aroma/kernel/alucard/boot.img", "/tmp/boot.img");
+
+			set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+			set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+			set_perm(0, 0, 0777, "/tmp/loki_patch");
+			set_perm(0, 0, 0777, "/tmp/loki_flash");
+			run_program("/tmp/flash_kernel.sh");
+		else 
+			package_extract_file("aroma/kernel/googymax/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		endif;
+
+		package_extract_dir("aroma/kernel/googymax/system", "/system");
+		package_extract_dir("aroma/kernel/googymax/data", "/data");
+		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+		set_perm(0, 0, 0755, "/system/xbin/zip");
+		set_perm(0, 0, 0755, "/system/wget/wget");
+	endif;
+
 #	package_extract_file("aroma/scripts/kernel/kernel_general.sh", "/tmp/kernel_general.sh");
 #	set_perm(0, 0, 0777, "/tmp/kernel_general.sh");
 #
