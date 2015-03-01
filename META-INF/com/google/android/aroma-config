@@ -178,6 +178,7 @@ textbox(
 			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select.selected",
 			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method <#F44336>Recommended</#>",			"select",
 			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
+			"none",					"None",					"Don't install (<#F44336>Use if installing V4A yourself</#>).",						"select",
 
 			"browser",				"<#selectbg_g>Browser</#>","",																				"group",
 			"chrome",				"Chrome", 			    "Google Chrome",												                    "select.selected",
