@@ -754,59 +754,6 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 		set_perm(0, 0, 0755, "/system/wget/wget");
 	endif;
 
-#	package_extract_file("aroma/scripts/kernel/kernel_general.sh", "/tmp/kernel_general.sh");
-#	set_perm(0, 0, 0777, "/tmp/kernel_general.sh");
-#
-# CPU Govenor
-#	run_program("/tmp/kernel_general.sh","scaling_governor", file_getprop("/tmp/aroma-data/kernel.prop", "govenor"));
-#   
-# Arch Power
-#	package_extract_file("aroma/scripts/kernel/kernel_arch.sh", "/tmp/kernel_arch.sh");
-#	set_perm(0, 0, 0777, "/tmp/kernel_arch.sh");
-#	run_program("/tmp/kernel_arch.sh",file_getprop("/tmp/aroma-data/kernel.prop", "arch_power_enable"));
-
-# Sched MC
-#	run_program("/tmp/kernel_general.sh","sched_mc_power_savings", file_getprop("/tmp/aroma-data/kernel.prop", "sched_mc"));
-
-# CPU undervolt
-#	run_program("/tmp/kernel_general.sh","CPUVOLT1", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT2", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT3", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT4", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT5", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT6", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT7", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT8", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT9", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT10", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT11", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT12", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT13", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT14", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-#	run_program("/tmp/kernel_general.sh","CPUVOLT15", file_getprop("/tmp/aroma-data/kernel.prop", "cpu_undervolt"));
-
-# ZRAM
-#	package_extract_file("aroma/scripts/kernel/kernel_zram.sh", "/tmp/kernel_zram.sh");
-#	set_perm(0, 0, 0777, "/tmp/kernel_zram.sh");
-#	run_program("/tmp/kernel_zram.sh", file_getprop("/tmp/aroma-data/kernel.prop", "zram"));
-
-# Internal Scheduler
-#	run_program("/tmp/kernel_general.sh","int_scheduler", file_getprop("/tmp/aroma-data/kernel.prop", "int_shed"));
-
-# Internal Readahead
-#	run_program("/tmp/kernel_general.sh","int_read_ahead_kb", file_getprop("/tmp/aroma-data/kernel.prop", "int_readahead"));
-
-# External Scheduler
-#	run_program("/tmp/kernel_general.sh","ext_scheduler", file_getprop("/tmp/aroma-data/kernel.prop", "ext_shed"));
-
-# External Readahead
-#	run_program("/tmp/kernel_general.sh","ext_read_ahead_kb", file_getprop("/tmp/aroma-data/kernel.prop", "ext_readahead"));
-
-# Charge Control
-#	package_extract_file("aroma/scripts/kernel/kernel_charging.sh", "/tmp/kernel_charging.sh");
-#	set_perm(0, 0, 0777, "/tmp/kernel_charging.sh");
-#	run_program("/tmp/kernel_charging.sh", file_getprop("/tmp/aroma-data/kernel.prop", "charging"));
-	
 ui_print("<b><#009688>Finishing Installation...</#></b>");
 
       
