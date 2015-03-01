@@ -19410,7 +19410,7 @@
 
     iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
-    const v9, 0x112002a
+    const v9, 0x1120027
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -19700,7 +19700,7 @@
 
     if-lt v8, v9, :cond_c
 
-    const v9, 0x1120072
+    const v9, 0x112006b
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -19763,7 +19763,7 @@
 
     iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
-    const v9, 0x112002a
+    const v9, 0x1120027
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
 
