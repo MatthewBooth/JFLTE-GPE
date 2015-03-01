@@ -19351,7 +19351,7 @@
 .end method
 
 .method public setInitialDisplaySize(Landroid/view/Display;III)V
-    .locals 17
+    .locals 18
     .param p1    # Landroid/view/Display;
     .param p2    # I
     .param p3    # I
@@ -19359,15 +19359,15 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
-    if-eqz v8, :cond_0
+    if-eqz v9, :cond_0
 
     invoke-virtual/range {p1 .. p1}, Landroid/view/Display;->getDisplayId()I
 
-    move-result v8
+    move-result v9
 
-    if-eqz v8, :cond_1
+    if-eqz v9, :cond_1
 
     :cond_0
     :goto_0
@@ -19382,11 +19382,11 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v8}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v9}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    move-result-object v5
+    move-result-object v6
 
     move/from16 v0, p2
 
@@ -19394,130 +19394,153 @@
 
     if-le v0, v1, :cond_4
 
-    move/from16 v6, p3
+    move/from16 v7, p3
 
     move/from16 v2, p2
 
-    const/4 v8, 0x0
+    const/4 v9, 0x0
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
 
-    const/4 v8, 0x2
-
-    move-object/from16 v0, p0
-
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
-
-    const v8, 0x1120027
-
-    invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getBoolean(I)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_3
-
-    const/4 v8, 0x1
+    const/4 v9, 0x2
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
-    const/4 v8, 0x3
+    const v9, 0x112002a
+
+    invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_3
+
+    const/4 v9, 0x1
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+
+    const/4 v9, 0x3
+
+    move-object/from16 v0, p0
+
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
     :goto_1
-    const v8, 0x1050010
+    const v9, 0x1050010
 
-    invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
-    move-result v8
-
-    move-object/from16 v0, p0
-
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarHeight:I
+    move-result v9
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
-
-    invoke-virtual {v8}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v8
-
-    const-string v9, "navbar_height"
-
-    const/16 v10, 0x90
-
-    invoke-static {v8, v9, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
-
-    move-result v12
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mStatusBarHeight:I
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
 
     move-object/from16 v0, p0
 
-    iget v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+    iget v10, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
+    iget-object v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
 
     move-object/from16 v0, p0
 
-    iget v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
-
-    aput v12, v10, v11
-
-    aput v12, v8, v9
+    iget v12, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
+    iget-object v13, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v13}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v13
+
+    const-string v14, "navbar_height"
+
+    const/16 v15, 0x90
+
+    invoke-static {v13, v14, v15}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v13
+
+    aput v13, v11, v12
+
+    aput v13, v9, v10
 
     move-object/from16 v0, p0
 
-    iget v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
+    iget v10, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
 
     move-object/from16 v0, p0
 
-    iget v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
-
-    const v12, 0x1050012
-
-    invoke-virtual {v5, v12}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
-
-    move-result v12
-
-    aput v12, v10, v11
-
-    aput v12, v8, v9
+    iget-object v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarHeightForRotation:[I
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarWidthForRotation:[I
+    iget v12, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
     move-object/from16 v0, p0
 
-    iget v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+    iget-object v13, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
+    invoke-virtual {v13}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v13
+
+    const-string v14, "navbar_height"
+
+    const/16 v15, 0x90
+
+    invoke-static {v13, v14, v15}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v13
+
+    aput v13, v11, v12
+
+    aput v13, v9, v10
+
+    move-object/from16 v0, p0
+
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v9}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v9
+
+    const-string v10, "navbar_height"
+
+    const/16 v11, 0x90
+
+    invoke-static {v9, v10, v11}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v9
+
+    if-nez v9, :cond_6
+
+    const/4 v4, 0x1
+
+    :goto_2
     move-object/from16 v0, p0
 
     iget-object v10, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarWidthForRotation:[I
 
     move-object/from16 v0, p0
 
-    iget v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
+    iget v11, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
 
     move-object/from16 v0, p0
 
@@ -19525,7 +19548,7 @@
 
     move-object/from16 v0, p0
 
-    iget v13, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+    iget v13, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
     move-object/from16 v0, p0
 
@@ -19533,257 +19556,306 @@
 
     move-object/from16 v0, p0
 
-    iget v15, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
-
-    const v16, 0x1050013
-
-    move/from16 v0, v16
-
-    invoke-virtual {v5, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
-
-    move-result v16
-
-    aput v16, v14, v15
-
-    aput v16, v12, v13
-
-    aput v16, v10, v11
-
-    aput v16, v8, v9
-
-    mul-int/lit16 v8, v6, 0xa0
-
-    div-int v7, v8, p4
-
-    mul-int/lit16 v8, v2, 0xa0
-
-    div-int v3, v8, p4
-
-    const/16 v8, 0x258
-
-    if-ge v7, v8, :cond_6
-
-    const/4 v8, 0x1
-
-    :goto_2
-    move-object/from16 v0, p0
-
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarCanMove:Z
+    iget v15, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+    iget-object v0, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarWidthForRotation:[I
 
-    invoke-static {v8}, Lcom/android/internal/policy/impl/RomUtils;->getHasNavigationBar(Landroid/content/Context;)Z
-
-    move-result v8
+    move-object/from16 v16, v0
 
     move-object/from16 v0, p0
 
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
+    iget v0, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
-    const-string v8, "qemu.hw.mainkeys"
+    move/from16 v17, v0
 
-    invoke-static {v8}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    const-string v8, "1"
-
-    invoke-virtual {v8, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_7
-
-    const/4 v8, 0x0
-
-    move-object/from16 v0, p0
-
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
-
-    :cond_2
-    :goto_3
-    const-string v8, "portrait"
-
-    const-string v9, "persist.demo.hdmirotation"
-
-    invoke-static {v9}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v9
-
-    invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_8
-
-    move-object/from16 v0, p0
-
-    iget v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
-
-    move-object/from16 v0, p0
-
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotation:I
-
-    :goto_4
-    const-string v8, "persist.demo.hdmirotationlock"
+    if-eqz v4, :cond_7
 
     const/4 v9, 0x0
 
-    invoke-static {v8, v9}, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;Z)Z
+    :goto_3
+    aput v9, v16, v17
 
-    move-result v8
+    aput v9, v14, v15
+
+    aput v9, v12, v13
+
+    aput v9, v10, v11
+
+    mul-int/lit16 v9, v7, 0xa0
+
+    div-int v8, v9, p4
+
+    mul-int/lit16 v9, v2, 0xa0
+
+    div-int v3, v9, p4
+
+    move/from16 v0, p2
+
+    move/from16 v1, p3
+
+    if-eq v0, v1, :cond_8
+
+    const/16 v9, 0x258
+
+    if-ge v8, v9, :cond_8
+
+    const/4 v9, 0x1
+
+    :goto_4
+    move-object/from16 v0, p0
+
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mNavigationBarCanMove:Z
 
     move-object/from16 v0, p0
 
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotationLock:Z
+    iget-object v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
-    const/16 v8, 0x3c0
-
-    if-lt v3, v8, :cond_9
-
-    const/16 v8, 0x2d0
-
-    if-lt v7, v8, :cond_9
-
-    const v8, 0x112006b
-
-    invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getBoolean(I)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_9
-
-    const-string v8, "true"
-
-    const-string v9, "config.override_forced_orient"
-
-    invoke-static {v9}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v9}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v9
 
-    invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v10, "system_pref_enable_navigation_bar"
 
-    move-result v8
+    const/4 v11, 0x0
 
-    if-nez v8, :cond_9
+    invoke-static {v9, v10, v11}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
-    const/4 v8, 0x1
+    move-result v9
+
+    const/4 v10, 0x1
+
+    if-ne v9, v10, :cond_9
+
+    const/4 v9, 0x1
 
     :goto_5
     move-object/from16 v0, p0
 
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceDefaultOrientation:Z
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
+
+    const-string v9, "qemu.hw.mainkeys"
+
+    invoke-static {v9}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v9, "1"
+
+    invoke-virtual {v9, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_a
+
+    const/4 v9, 0x0
+
+    move-object/from16 v0, p0
+
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
+
+    :cond_2
+    :goto_6
+    const-string v9, "portrait"
+
+    const-string v10, "persist.demo.hdmirotation"
+
+    invoke-static {v10}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v10
+
+    invoke-virtual {v9, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_b
+
+    move-object/from16 v0, p0
+
+    iget v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+
+    move-object/from16 v0, p0
+
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotation:I
+
+    :goto_7
+    const-string v9, "persist.demo.hdmirotationlock"
+
+    const/4 v10, 0x0
+
+    invoke-static {v9, v10}, Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v9
+
+    move-object/from16 v0, p0
+
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotationLock:Z
+
+    const/16 v9, 0x3c0
+
+    if-lt v3, v9, :cond_c
+
+    const/16 v9, 0x2d0
+
+    if-lt v8, v9, :cond_c
+
+    const v9, 0x1120072
+
+    invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_c
+
+    const-string v9, "true"
+
+    const-string v10, "config.override_forced_orient"
+
+    invoke-static {v10}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v10
+
+    invoke-virtual {v9, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-nez v9, :cond_c
+
+    const/4 v9, 0x1
+
+    :goto_8
+    move-object/from16 v0, p0
+
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceDefaultOrientation:Z
 
     goto/16 :goto_0
 
     :cond_3
-    const/4 v8, 0x3
+    const/4 v9, 0x3
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
 
-    const/4 v8, 0x1
+    const/4 v9, 0x1
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
     goto/16 :goto_1
 
     :cond_4
-    move/from16 v6, p2
+    move/from16 v7, p2
 
     move/from16 v2, p3
 
-    const/4 v8, 0x0
+    const/4 v9, 0x0
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mPortraitRotation:I
 
-    const/4 v8, 0x2
-
-    move-object/from16 v0, p0
-
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
-
-    const v8, 0x1120027
-
-    invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getBoolean(I)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_5
-
-    const/4 v8, 0x3
+    const/4 v9, 0x2
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mUpsideDownRotation:I
 
-    const/4 v8, 0x1
+    const v9, 0x112002a
+
+    invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_5
+
+    const/4 v9, 0x3
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+
+    const/4 v9, 0x1
+
+    move-object/from16 v0, p0
+
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
     goto/16 :goto_1
 
     :cond_5
-    const/4 v8, 0x1
+    const/4 v9, 0x1
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
 
-    const/4 v8, 0x3
+    const/4 v9, 0x3
 
     move-object/from16 v0, p0
 
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mSeascapeRotation:I
 
     goto/16 :goto_1
 
     :cond_6
-    const/4 v8, 0x0
+    const/4 v4, 0x0
 
     goto/16 :goto_2
 
     :cond_7
-    const-string v8, "0"
+    const v9, 0x1050013
 
-    invoke-virtual {v8, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
-    move-result v8
-
-    if-eqz v8, :cond_2
-
-    const/4 v8, 0x1
-
-    move-object/from16 v0, p0
-
-    iput-boolean v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
+    move-result v9
 
     goto/16 :goto_3
 
     :cond_8
-    move-object/from16 v0, p0
-
-    iget v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
-
-    move-object/from16 v0, p0
-
-    iput v8, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotation:I
+    const/4 v9, 0x0
 
     goto/16 :goto_4
 
     :cond_9
-    const/4 v8, 0x0
+    const/4 v9, 0x0
 
-    goto :goto_5
+    goto/16 :goto_5
+
+    :cond_a
+    const-string v9, "0"
+
+    invoke-virtual {v9, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_2
+
+    const/4 v9, 0x1
+
+    move-object/from16 v0, p0
+
+    iput-boolean v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHasNavigationBar:Z
+
+    goto/16 :goto_6
+
+    :cond_b
+    move-object/from16 v0, p0
+
+    iget v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mLandscapeRotation:I
+
+    move-object/from16 v0, p0
+
+    iput v9, v0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDemoHdmiRotation:I
+
+    goto/16 :goto_7
+
+    :cond_c
+    const/4 v9, 0x0
+
+    goto :goto_8
 .end method
 
 .method public setLastInputMethodWindowLw(Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManagerPolicy$WindowState;)V
