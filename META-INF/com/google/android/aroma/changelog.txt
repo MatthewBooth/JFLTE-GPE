@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150301</#>
+<b><#selectbg_g>JFLTE-GPE-20150302</#>
 <*>Fixed the orientation bug. Both menu to recents and normal functions are working properly</*>
 <*>Updated Cyanogen Messaging source code to 20150301</*>
 <*>Updated Trebuchet source code to 20150301</*>
