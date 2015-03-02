@@ -227,7 +227,7 @@ textbox(
 			"0",					"0 Megabytes",			"Remove",																			"select.selected",
 			"64",					"64 Megabytes",			"",																					"select",
 			"128",					"128 Megabytes",		"",																					"select",
-			"256",					"256 Megabytes",		"<#F44336>(RECOMMENDED)</#>",														"select",
+			"256",					"256 Megabytes",		"",														"select",
 			"512",					"512 Megabytes",		"",																					"select"
 		);
 	endif;
