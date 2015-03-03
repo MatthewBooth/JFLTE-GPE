@@ -4,7 +4,7 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150302
+### Changelog 20150303
 * Fixed the orientation bug. Both menu to recents and normal functions are working properly
 * Updated Cyanogen Messaging source code to 20150301
 * Updated Trebuchet source code to 20150301
@@ -16,6 +16,7 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 * Updated Google App
 * Updated Apex Launcher
 * Updated Googy Max3 to 1.3.0 Final. Thanks Googy_Anas for all the hard work!
+* Updated OTA Updates app. Better Lollipop theming (checked the official guides). Added some developer stuff (BitCoin donations now accepted)
 * Added Alucard Kernel option in the installer
 * Added option to not install a DSP (MusicFX, AudioFX, DSP Manager) in case you want to use Viper4Android instead (not included)
 

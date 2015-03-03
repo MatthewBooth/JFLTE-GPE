@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150302</#>
+<b><#selectbg_g>JFLTE-GPE-20150303</#>
 <*>Fixed the orientation bug. Both menu to recents and normal functions are working properly</*>
 <*>Updated Cyanogen Messaging source code to 20150301</*>
 <*>Updated Trebuchet source code to 20150301</*>
@@ -10,5 +10,6 @@
 <*>Updated Google App</*>
 <*>Updated Apex Launcher</*>
 <*>Updated Googy Max3 to 1.3.0 Final. Thanks Googy_Anas for all the hard work!</*>
+<*>Updated OTA Updates app. Better Lollipop theming (checked the official guides). Added some developer stuff (BitCoin donations now accepted)</*>
 <*>Added Alucard Kernel option in the installer</*>
 <*>Added option to not install a DSP (MusicFX, AudioFX, DSP Manager) in case you want to use Viper4Android instead (not included)</*>
