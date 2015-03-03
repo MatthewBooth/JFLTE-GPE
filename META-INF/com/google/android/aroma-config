@@ -28,10 +28,10 @@
  ini_set("transition","stack");
 
 ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150301");
+ini_set("rom_version",          "20150302");
 ini_set("rom_author",           "Danvdh and Kryten2k35");
 ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150301");
+ini_set("rom_date",             "20150302");
 setvar("rom_website", 			"www.ultimarom.com");
 setvar("rom_codename",          "LRX22C");
 setvar("rom_codebase", 			"Google Play Edition");
@@ -227,7 +227,7 @@ textbox(
 			"0",					"0 Megabytes",			"Remove",																			"select.selected",
 			"64",					"64 Megabytes",			"",																					"select",
 			"128",					"128 Megabytes",		"",																					"select",
-			"256",					"256 Megabytes",		"<#F44336>(RECOMMENDED)</#>",														"select",
+			"256",					"256 Megabytes",		"",														"select",
 			"512",					"512 Megabytes",		"",																					"select"
 		);
 	endif;

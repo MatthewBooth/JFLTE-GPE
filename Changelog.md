@@ -4,7 +4,7 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150301
+### Changelog 20150302
 * Fixed the orientation bug. Both menu to recents and normal functions are working properly
 * Updated Cyanogen Messaging source code to 20150301
 * Updated Trebuchet source code to 20150301
