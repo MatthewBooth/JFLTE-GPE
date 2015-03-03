@@ -748,7 +748,6 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 		endif;
 
 		package_extract_dir("aroma/kernel/alucard/system", "/system");
-		package_extract_dir("aroma/kernel/alucard/data", "/data");
 		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 		set_perm(0, 0, 0755, "/system/xbin/zip");
 		set_perm(0, 0, 0755, "/system/wget/wget");
