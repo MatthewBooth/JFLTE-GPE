@@ -6,7 +6,11 @@ system/framework/android.policy.jar
 system/framework/services.jar
 system/framework/framework-res.apk
 system/framework/framework.jar
+system/framework/telephony-common.jar
+
 system/priv-app/SystemUI/*
+system/priv-app/Telecom/*
+system/priv-app/TeleService/*
 
 aroma/apps/contacts_dialer/invertedstock/GoogleDialer/GoogleDialer.apk
 aroma/apps/contacts_dialer/invertedstock/GoogleContacts/GoogleContacts.apk
@@ -20,4 +24,3 @@ tmp/
 
 tools/bin/.JavaPATH
 *.JavaPATH
-tools/bin/.JavaPATH
