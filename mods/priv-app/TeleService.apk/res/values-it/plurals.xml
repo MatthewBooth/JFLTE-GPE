@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Nessuna connessione dati per %s minuti</item>
+        <item quantity="one">Nessuna connessione dati per %s minuto</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Il telefono sarà in modalità di richiamata di emergenza per %s minuti. In questa modalità non è possibile utilizzare alcuna applicazione che faccia uso di una connessione dati. Uscire adesso?</item>
+        <item quantity="one">Il telefono sarà in modalità di richiamata di emergenza per %s minuto. In questa modalità non è possibile utilizzare alcuna applicazione che faccia uso di una connessione dati. Uscire adesso?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"L'azione selezionata non è disponibile in modalità di richiamata di emergenza. Il telefono sarà in questa modalità per %s minuti. Uscire adesso?"</item>
+        <item quantity="one">"L'azione selezionata non è disponibile in modalità di richiamata di emergenza. Il telefono sarà in questa modalità per %s minuto. Uscire adesso?"</item>
+    </plurals>
+</resources>

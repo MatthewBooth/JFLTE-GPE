@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.CdmaSystemSelectListPreference android:entries="@array/cdma_system_select_choices" android:title="@string/cdma_system_select_title" android:key="cdma_system_select_key" android:summary="@string/cdma_system_select_summary" android:dialogTitle="@string/cdma_system_select_dialogtitle" android:entryValues="@array/cdma_system_select_values" />
+    <com.android.phone.CdmaSubscriptionListPreference android:entries="@array/cdma_subscription_choices" android:title="@string/cdma_subscription_title" android:key="cdma_subscription_key" android:summary="@string/cdma_subscription_summary" android:dialogTitle="@string/cdma_subscription_dialogtitle" android:entryValues="@array/cdma_subscription_values" />
+    <PreferenceScreen android:persistent="false" android:title="@string/apn_settings" android:key="button_apn_key" />
+    <PreferenceScreen android:title="@string/cdma_activate_device" android:key="cdma_activate_device_key">
+        <intent android:action="com.android.phone.PERFORM_VOICELESS_CDMA_PROVISIONING">
+            <extra android:name="autoStart" android:value="true" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/carrier_settings_title" android:key="carrier_settings_key">
+        <intent android:targetPackage="@string/carrier_settings" android:action="android.intent.action.MAIN" android:targetClass="@string/carrier_settings_menu" />
+    </PreferenceScreen>
+</PreferenceScreen>

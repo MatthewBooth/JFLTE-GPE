@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="notification_missedCallTitle">Apel nepreluat</string>
+    <string name="notification_missedCallsTitle">Apeluri nepreluate</string>
+    <string name="notification_missedCallsMsg">%s (de) apeluri nepreluate</string>
+    <string name="notification_missedCallTicker">Apel nepreluat de la %s</string>
+    <string name="notification_missedCall_call_back">Sunaţi înapoi</string>
+    <string name="notification_missedCall_message">Mesaj</string>
+    <string name="accessibility_call_muted">Apel cu sunet dezactivat.</string>
+    <string name="accessibility_speakerphone_enabled">Difuzor activat.</string>
+    <string name="respond_via_sms_canned_response_1">Nu pot acum. Despre ce e vorba?</string>
+    <string name="respond_via_sms_canned_response_2">Te sun imediat înapoi.</string>
+    <string name="respond_via_sms_canned_response_3">Te sun mai târziu.</string>
+    <string name="respond_via_sms_canned_response_4">Nu pot acum. Vorbim mai târziu?</string>
+    <string name="respond_via_sms_setting_title">Răspunsuri rapide</string>
+    <string name="respond_via_sms_setting_title_2">Editaţi răspunsurile rapide</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Răspuns rapid</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetați aplic. prestabilită</string>
+    <string name="respond_via_sms_confirmation_format">Mesajul a fost trimis la %s.</string>
+    <string name="outgoing_call_not_allowed">Acest utilizator nu are permisiunea de a efectua apeluri telefonice către alte numere în afară de cele de urgență</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Apelul nu s-a trimis; niciun număr valid introdus.</string>
+    <string name="no_vm_number">Lipseşte numărul mesageriei vocale</string>
+    <string name="no_vm_number_msg">Niciun număr de mesagerie vocală nu este stocat pe cardul SIM.</string>
+    <string name="add_vm_number_str">Adăugaţi numărul</string>
+</resources>

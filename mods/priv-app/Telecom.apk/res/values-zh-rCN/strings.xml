@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">电话</string>
+    <string name="unknown">未知</string>
+    <string name="notification_missedCallTitle">未接电话</string>
+    <string name="notification_missedCallsTitle">未接电话</string>
+    <string name="notification_missedCallsMsg">%s 个未接电话</string>
+    <string name="notification_missedCallTicker">来自%s的未接电话</string>
+    <string name="notification_missedCall_call_back">回拨</string>
+    <string name="notification_missedCall_message">短信</string>
+    <string name="accessibility_call_muted">通话已静音。</string>
+    <string name="accessibility_speakerphone_enabled">扬声器已启用。</string>
+    <string name="respond_via_sms_canned_response_1">现在无法接听。有什么事吗？</string>
+    <string name="respond_via_sms_canned_response_2">我马上会打给你。</string>
+    <string name="respond_via_sms_canned_response_3">我稍后会再打给你。</string>
+    <string name="respond_via_sms_canned_response_4">现在无法接听。能稍后再打给我吗？</string>
+    <string name="respond_via_sms_setting_title">快速回复</string>
+    <string name="respond_via_sms_setting_title_2">修改快速回复</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">快速回复</string>
+    <string name="respond_via_sms_menu_reset_default_activity">重置默认应用</string>
+    <string name="respond_via_sms_confirmation_format">讯息已发送至 %s。</string>
+    <string name="outgoing_call_not_allowed">此用户无权拨打非紧急呼救电话</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">拨号失败，因为输入的号码无效。</string>
+    <string name="no_vm_number">缺少语音信箱号码</string>
+    <string name="no_vm_number_msg">SIM卡上未存储语音信箱号码。</string>
+    <string name="add_vm_number_str">添加号码</string>
+    <string name="headset_plugin_view_text">耳机已插入到手机。</string>
+    <string name="headset_plugin_view_title">耳机插入</string>
+</resources>

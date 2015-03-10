@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Inga dataanslutningar på %s minuter</item>
+        <item quantity="one">Inga dataanslutningar på %s minut</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonen kommer att vara i läget Återuppringning vid nödsamtal i %s minuter. I det här läget kan inga appar som kräver en dataanslutning användas. Vill du avsluta nu?</item>
+        <item quantity="one">Telefonen kommer att vara i läget Återuppringning vid nödsamtal i %s minut. I det här läget kan inga appar som kräver en dataanslutning användas. Vill du avsluta nu?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Den valda åtgärden är inte tillgänglig i läget Återuppringning vid nödsamtal. Telefonen kommer att vara i det här läget i %s minuter. Vill du avsluta nu?</item>
+        <item quantity="one">Den valda åtgärden är inte tillgänglig i läget Återuppringning vid nödsamtal. Telefonen kommer att vara i det här läget i %s minut. Vill du avsluta nu?</item>
+    </plurals>
+</resources>

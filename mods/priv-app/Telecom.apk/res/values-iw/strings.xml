@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">טלפון</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="notification_missedCallTitle">שיחה שלא נענתה</string>
+    <string name="notification_missedCallsTitle">שיחות שלא נענו</string>
+    <string name="notification_missedCallsMsg">%s שיחות שלא נענו</string>
+    <string name="notification_missedCallTicker">שיחה שלא נענתה מאת %s</string>
+    <string name="notification_missedCall_call_back">התקשר חזרה</string>
+    <string name="notification_missedCall_message">שלח הודעה</string>
+    <string name="accessibility_call_muted">שיחה מושתקת.</string>
+    <string name="accessibility_speakerphone_enabled">רמקול מופעל.</string>
+    <string name="respond_via_sms_canned_response_1">אני לא יכול לדבר עכשיו. מה קורה?</string>
+    <string name="respond_via_sms_canned_response_2">אני מיד חוזר אליך.</string>
+    <string name="respond_via_sms_canned_response_3">אני אתקשר אליך יותר מאוחר.</string>
+    <string name="respond_via_sms_canned_response_4">אני לא יכול לדבר עכשיו. תתקשר אלי מאוחר יותר?</string>
+    <string name="respond_via_sms_setting_title">תגובות מהירות</string>
+    <string name="respond_via_sms_setting_title_2">ערוך תגובות מהירות</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">תגובה מהירה</string>
+    <string name="respond_via_sms_menu_reset_default_activity">אפס את האפליקציה המוגדר כברירת מחדל</string>
+    <string name="respond_via_sms_confirmation_format">הודעה נשלחה אל %s.</string>
+    <string name="outgoing_call_not_allowed">משתמש זה אינו רשאי לבצע שיחות טלפון שאינן שיחות חירום</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">השיחה לא נשלחה. לא הוזן מספר חוקי.</string>
+    <string name="no_vm_number">חסר מספר של דואר קולי</string>
+    <string name="no_vm_number_msg">‏בכרטיס ה-SIM לא מאוחסן מספר של דואר קולי.</string>
+    <string name="add_vm_number_str">הוסף מספר</string>
+</resources>

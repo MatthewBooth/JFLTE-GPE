@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">電話</string>
+    <string name="unknown">通知不可能</string>
+    <string name="notification_missedCallTitle">不在着信</string>
+    <string name="notification_missedCallsTitle">不在着信</string>
+    <string name="notification_missedCallsMsg">不在着信%s件</string>
+    <string name="notification_missedCallTicker">%sさんからの不在着信</string>
+    <string name="notification_missedCall_call_back">コールバック</string>
+    <string name="notification_missedCall_message">メッセージ</string>
+    <string name="accessibility_call_muted">通話がミュートされています。</string>
+    <string name="accessibility_speakerphone_enabled">スピーカーが有効です。</string>
+    <string name="respond_via_sms_canned_response_1">ただいま電話に出られません。ご用件をお知らせください。</string>
+    <string name="respond_via_sms_canned_response_2">ただいま電話に出られません。すぐに折り返しご連絡いたします。</string>
+    <string name="respond_via_sms_canned_response_3">ただいま電話に出られません。後ほど折り返しご連絡いたします。</string>
+    <string name="respond_via_sms_canned_response_4">ただいま電話に出られません。後ほどご連絡をお願いいたします。</string>
+    <string name="respond_via_sms_setting_title">クイック返信</string>
+    <string name="respond_via_sms_setting_title_2">クイック返信の編集</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">クイック返信</string>
+    <string name="respond_via_sms_menu_reset_default_activity">デフォルトのアプリをリセット</string>
+    <string name="respond_via_sms_confirmation_format">%sにメッセージを送信しました。</string>
+    <string name="outgoing_call_not_allowed">このユーザーは緊急通報以外の通話は発信できません</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">発信できません。有効な番号が入力されていません。</string>
+    <string name="no_vm_number">ボイスメール番号がありません</string>
+    <string name="no_vm_number_msg">SIMカードにボイスメールの番号がありません。</string>
+    <string name="add_vm_number_str">番号を追加</string>
+</resources>

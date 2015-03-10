@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Ifoni</string>
+    <string name="unknown">Akwaziwa</string>
+    <string name="notification_missedCallTitle">Ikholi ekulahlekele</string>
+    <string name="notification_missedCallsTitle">Amakholi akuphuthele</string>
+    <string name="notification_missedCallsMsg">%s amakholi akulahlekele</string>
+    <string name="notification_missedCallTicker">Uphuthelwe ikholi ephuma ku-%s</string>
+    <string name="notification_missedCall_call_back">Phinda ushaye</string>
+    <string name="notification_missedCall_message">Umlayezo</string>
+    <string name="accessibility_call_muted">Ikholu ithulisiwe</string>
+    <string name="accessibility_speakerphone_enabled">Isipikha sefoni sinikwe amandla</string>
+    <string name="respond_via_sms_canned_response_1">Angikwazi ukukhuluma okwamanje. Kwenzenjani?</string>
+    <string name="respond_via_sms_canned_response_2">" Ngizophinde ngikushayele ucingo."</string>
+    <string name="respond_via_sms_canned_response_3">Ngizokushayela ucingo emva kwesikhathi</string>
+    <string name="respond_via_sms_canned_response_4">Angikwazi ukukhuluma okwamanje. Ngicela uphinde ungishayele ucingo kamuva?</string>
+    <string name="respond_via_sms_setting_title">Izimpendulo ezisheshayo</string>
+    <string name="respond_via_sms_setting_title_2">Hlela izimpendulo ezisheshayo</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Izimpendulo ezisheshayo</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Setha kabusha uhlelo lokusebenza lokuzenzakalelayo</string>
+    <string name="respond_via_sms_confirmation_format">Umlayezo othunyelwe ku %s.</string>
+    <string name="outgoing_call_not_allowed">Lo msebenzisi akavunyelwe ukwenza amakholi wefoni okungewona wesimo esiphuthumayo</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Ikholi ayithunyelwe, ayikho inombolo evumelekile efakiwe.</string>
+    <string name="no_vm_number">Inombolo engekho yomyalezo wezwi</string>
+    <string name="no_vm_number_msg">Ayikho inombolo yomlayezo wezwi egcinwe ekhadini le-SIM.</string>
+    <string name="add_vm_number_str">Engeza inombolo</string>
+</resources>

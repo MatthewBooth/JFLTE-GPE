@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">ስልክ</string>
+    <string name="unknown">ያልታወቀ</string>
+    <string name="notification_missedCallTitle">ያመለጠጥሪ</string>
+    <string name="notification_missedCallsTitle">ያመለጡ ጥሪዎች</string>
+    <string name="notification_missedCallsMsg">%s ያመለጡ ጥሪዎች</string>
+    <string name="notification_missedCallTicker">ከ%s ያመለጠ ጥሪ</string>
+    <string name="notification_missedCall_call_back">መልሰህ ደውል</string>
+    <string name="notification_missedCall_message">መልዕክት</string>
+    <string name="accessibility_call_muted">"ጥሪ ፀጥ  ብሏል"</string>
+    <string name="accessibility_speakerphone_enabled">የስልክ ድምፅ ማጉያ ነቅቷል።</string>
+    <string name="respond_via_sms_canned_response_1">አሁን ማውራት አልችልም። ሰላም ነው?</string>
+    <string name="respond_via_sms_canned_response_2">ወዲያው መልሼ እደውላለሁ።</string>
+    <string name="respond_via_sms_canned_response_3">ኋላ እደውላለሁ።</string>
+    <string name="respond_via_sms_canned_response_4">አሁን ማውራት አልችልም። ትንሽ ቆይተው ይደውሉ?</string>
+    <string name="respond_via_sms_setting_title">ፈጣን ምላሾች</string>
+    <string name="respond_via_sms_setting_title_2">ፈጣን ምላሾች አርትዕ</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">ፈጣን ምላሽ</string>
+    <string name="respond_via_sms_menu_reset_default_activity">ነባሪውን መተግበሪያ ዳግም አስጀምር</string>
+    <string name="respond_via_sms_confirmation_format">ለ %s የተላከ መልዕክት</string>
+    <string name="outgoing_call_not_allowed">ይህ ተጠቃሚ የአስቸኳይ አደጋ ያልሆኑ ስልክ ጥሪዎችን እንዲያደርጉ አልተፈቀደላቸውም</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">ጥሪ አልተላከም፣ ትክክለኛ ቁጥር አልገባም።</string>
+    <string name="no_vm_number">የድምፅመልዕክት ቁጥርአመለጠ</string>
+    <string name="no_vm_number_msg">በSIM ካርዱ ላይምንም የድምፅመልዕክት ቁጥር አልከተቀመጠም።</string>
+    <string name="add_vm_number_str">ቁጥር አክል</string>
+</resources>

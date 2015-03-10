@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Điện thoại</string>
+    <string name="unknown">Không xác định</string>
+    <string name="notification_missedCallTitle">Cuộc gọi nhỡ</string>
+    <string name="notification_missedCallsTitle">Cuộc gọi nhỡ</string>
+    <string name="notification_missedCallsMsg">%s cuộc gọi nhỡ</string>
+    <string name="notification_missedCallTicker">Cuộc gọi nhỡ từ %s</string>
+    <string name="notification_missedCall_call_back">Gọi lại</string>
+    <string name="notification_missedCall_message">Tin nhắn</string>
+    <string name="accessibility_call_muted">Đã tắt tiếng cuộc gọi.</string>
+    <string name="accessibility_speakerphone_enabled">Đã bật loa ngoài.</string>
+    <string name="respond_via_sms_canned_response_1">Giờ tôi ko thể nói chuyện. Gì vậy?</string>
+    <string name="respond_via_sms_canned_response_2">Tôi sẽ gọi lại ngay.</string>
+    <string name="respond_via_sms_canned_response_3">Tôi sẽ gọi lại sau.</string>
+    <string name="respond_via_sms_canned_response_4">Giờ tôi ko thể nói chuyện. Gọi sau nhé?</string>
+    <string name="respond_via_sms_setting_title">Trả lời nhanh</string>
+    <string name="respond_via_sms_setting_title_2">Chỉnh sửa trả lời nhanh</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Trả lời nhanh</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Đặt lại ứng dụng mặc định</string>
+    <string name="respond_via_sms_confirmation_format">Đã gửi tin nhắn tới %s.</string>
+    <string name="outgoing_call_not_allowed">Người dùng này không được phép thực hiện cuộc gọi điện thoại không khẩn cấp</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Không gọi được, bạn đã nhập số không hợp lệ.</string>
+    <string name="no_vm_number">Thiếu số thư thoại</string>
+    <string name="no_vm_number_msg">Không có số thư thoại nào được lưu trữ trên thẻ SIM.</string>
+    <string name="add_vm_number_str">Thêm số điện thoại</string>
+</resources>

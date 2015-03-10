@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ei verkkoyhteyttä %s minuuttiin</item>
+        <item quantity="one">Ei verkkoyhteyttä %s minuuttiin</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Puhelin on hätäpuhelujen takaisinsoittotilassa %s minuutin ajan. Tässä tilassa datayhteyttä hyödyntäviä sovelluksia ei voi käyttää. Haluatko lopettaa nyt?</item>
+        <item quantity="one">Puhelin on hätäpuhelujen takaisinsoittotilassa %s minuutin ajan. Tässä tilassa datayhteyttä hyödyntäviä sovelluksia ei voi käyttää. Haluatko lopettaa nyt?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Valittu toiminto ei ole käytettävissä hätäpuhelujen takaisinsoittotilassa. Puhelu pysyy tässä tilassa %s minuutin ajan. Haluatko poistua nyt?</item>
+        <item quantity="one">Valittu toiminto ei ole käytettävissä hätäpuhelujen takaisinsoittotilassa. Puhelu pysyy tässä tilassa %s minuutin ajan. Haluatko poistua nyt?</item>
+    </plurals>
+</resources>

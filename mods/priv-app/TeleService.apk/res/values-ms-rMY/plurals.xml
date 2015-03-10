@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Tiada sambungan data selama %s minit</item>
+        <item quantity="one">Tiada sambungan data selama %s minit</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon akan berada dalam mod Panggilan Balik Kecemasan untuk %s minit. Semasa dalam mod ini tiada sebarang aplikasi yang menggunakan sambungan data boleh digunakan. Adakah anda mahu keluar sekarang?</item>
+        <item quantity="one">Telefon akan berada dalam mod Panggilan Balik Kecemasan untuk %s minit. Semasa dalam mod ini tiada sebarang aplikasi yang menggunakan sambungan data boleh digunakan. Adakah anda mahu keluar sekarang?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Tindakan yang dipilih tidak tersedia dalam mod Panggilan Balik Kecemasan. Telefon akan berada dalam mod ini untuk %s minit. Adakah anda mahu keluar sekarang?</item>
+        <item quantity="one">Tindakan yang dipilih tidak tersedia dalam mod Panggilan Balik Kecemasan. Telefon akan berada dalam mod ini untuk %s minit. Adakah anda mahu keluar sekarang?</item>
+    </plurals>
+</resources>

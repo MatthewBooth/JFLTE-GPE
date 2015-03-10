@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Mặc định mạng</item>
+        <item>Ẩn số</item>
+        <item>Hiển thị số</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Toàn cầu</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Chỉ EvDo</item>
+        <item>CDMA không có EvDo</item>
+        <item>CDMA/EvDo tự động</item>
+        <item>GSM/WCDMA tự động</item>
+        <item>Chỉ WCDMA</item>
+        <item>Chỉ GSM</item>
+        <item>GSM/WCDMA được ưa thích</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Pháp</item>
+        <item>Tiếng Tây Ban Nha</item>
+        <item>Tiếng Nhật</item>
+        <item>Tiếng Hàn</item>
+        <item>Tiếng Trung</item>
+        <item>Tiếng Do Thái</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Chỉ nhà riêng</item>
+        <item>Tự động</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>Tắt TTY</item>
+        <item>TTY Đầy</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Thường</item>
+        <item>Dài</item>
+    </string-array>
+</resources>

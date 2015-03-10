@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Настройки сети по умолчанию</item>
+        <item>Скрыть номер</item>
+        <item>Показывать номер</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Весь мир</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA и LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Только EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>CDMA/EvDo (авторежим)</item>
+        <item>GSM/WCDMA (авторежим)</item>
+        <item>Только WCDMA</item>
+        <item>Только GSM</item>
+        <item>GSM/WCDMA (предпочтительно)</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>английский</item>
+        <item>французский</item>
+        <item>испанский</item>
+        <item>японский</item>
+        <item>корейский</item>
+        <item>китайский</item>
+        <item>иврит</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Только домашняя</item>
+        <item>Автоматически</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>Телетайп выключен</item>
+        <item>Полнофункциональный телетайп</item>
+        <item>Телетайп с возможностью слышать собеседника</item>
+        <item>Телетайп с возможностью передачи голоса</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Обычные</item>
+        <item>Длинные</item>
+    </string-array>
+</resources>

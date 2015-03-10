@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/uplmn_list_setting_title" android:key="button_uplmn_list_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

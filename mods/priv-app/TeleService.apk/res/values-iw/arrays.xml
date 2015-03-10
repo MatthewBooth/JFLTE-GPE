@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>רשת ברירת מחדל</item>
+        <item>הסתר מספר</item>
+        <item>הצג מספר</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>גלובלי</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>‏EvDo בלבד</item>
+        <item>‏CDMA ללא EvDo</item>
+        <item>‏CDMA/EvDo אוטומטי</item>
+        <item>‏GSM/‏WCDMA אוטומטי</item>
+        <item>‏WCDMA בלבד</item>
+        <item>‏GSM בלבד</item>
+        <item>‏GSM/WCDMA מועדף</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>אנגלית</item>
+        <item>צרפתית</item>
+        <item>ספרדית</item>
+        <item>יפנית</item>
+        <item>קוריאנית</item>
+        <item>סינית</item>
+        <item>עברית</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>בית בלבד</item>
+        <item>אוטומטי</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>‏TTY כבוי</item>
+        <item>‏TTY מלא</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>רגיל</item>
+        <item>ארוך</item>
+    </string-array>
+</resources>

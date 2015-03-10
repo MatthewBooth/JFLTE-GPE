@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s dakika boyunca veri bağlantısı yok</item>
+        <item quantity="one">%s dakika boyunca veri bağlantısı yok</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon %s dakika boyunca Acil Geri Arama modunda olacaktır. Bu moddayken, veri bağlantısı kullanan uygulamalar kullanılamaz. Şimdi çıkmak istiyor musunuz?</item>
+        <item quantity="one">Telefon %s dakika boyunca Acil Geri Arama modunda olacaktır. Bu moddayken, veri bağlantısı kullanan uygulamalar kullanılamaz. Şimdi çıkmak istiyor musunuz?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Seçilen işlem Acil Geri Arama modunda kullanılamaz. Telefon %s dakika boyunca bu modda kalacak. Şimdi çıkmak istiyor musunuz?</item>
+        <item quantity="one">Seçilen işlem Acil Geri Arama modunda kullanılamaz. Telefon %s dakika boyunca bu modda kalacak. Şimdi çıkmak istiyor musunuz?</item>
+    </plurals>
+</resources>

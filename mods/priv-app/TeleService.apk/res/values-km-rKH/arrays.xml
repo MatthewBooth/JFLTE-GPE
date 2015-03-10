@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>លំនាំដើម​បណ្ដាញ</item>
+        <item>លាក់​​លេខ</item>
+        <item>បង្ហាញ​លេខ</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>សកល</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>តែ EvDo ​ប៉ុណ្ណោះ</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA/EvDo ស្វ័យប្រវត្តិ</item>
+        <item>GSM/WCDMA ស្វ័យប្រវត្តិ</item>
+        <item>តែ WCDMA ប៉ុណ្ណោះ</item>
+        <item>តែ GSM ប៉ុណ្ណោះ</item>
+        <item>GSM/WCDMA ដែល​ចូលចិត្ត​</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>អង់គ្លេស</item>
+        <item>​បារាំង</item>
+        <item>​អេស្ប៉ាញ</item>
+        <item>ជប៉ុន</item>
+        <item>កូរ៉េ</item>
+        <item>ចិន</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>១</item>
+        <item>២</item>
+        <item>៣</item>
+        <item>៤</item>
+        <item>៥</item>
+        <item>៦</item>
+        <item>៧</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>តែ​ដើម​ប៉ុណ្ណោះ</item>
+        <item>ដោយ​ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM / ស៊ីមកាត</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>០</item>
+        <item>១</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>បិទ TTY</item>
+        <item>TTY ពេញ</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>ធម្មតា</item>
+        <item>វែង</item>
+    </string-array>
+</resources>

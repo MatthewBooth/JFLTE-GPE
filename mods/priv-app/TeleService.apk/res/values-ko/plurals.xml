@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s분 동안 데이터 연결 없음</item>
+        <item quantity="one">%s분 동안 데이터 연결 없음</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">휴대전화가 %s분간 긴급 콜백 모드를 유지합니다. 그 동안 데이터 연결이 필요한 애플리케이션을 사용할 수 없습니다. 종료하시겠습니까?</item>
+        <item quantity="one">휴대전화가 %s분간 긴급 콜백 모드를 유지합니다. 그 동안 데이터 연결이 필요한 앱을 사용할 수 없습니다. 종료하시겠습니까?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">긴급 콜백 모드에서는 선택한 작업을 사용할 수 없습니다. 휴대전화가 %s분간 현재 모드를 유지합니다. 종료하시겠습니까?</item>
+        <item quantity="one">긴급 콜백 모드에서는 선택한 작업을 사용할 수 없습니다. 휴대전화가 %s분간 현재 모드를 유지합니다. 종료하시겠습니까?</item>
+    </plurals>
+</resources>

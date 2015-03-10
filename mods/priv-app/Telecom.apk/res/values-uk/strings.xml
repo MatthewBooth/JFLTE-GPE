@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Номер телефону</string>
+    <string name="unknown">Невідомий</string>
+    <string name="notification_missedCallTitle">Пропущ. виклик</string>
+    <string name="notification_missedCallsTitle">Пропущ. дзвінки</string>
+    <string name="notification_missedCallsMsg">Пропущ. дзвінк: %s</string>
+    <string name="notification_missedCallTicker">Пропущ. виклик від %s</string>
+    <string name="notification_missedCall_call_back">Передзвонити</string>
+    <string name="notification_missedCall_message">Повідомлення</string>
+    <string name="accessibility_call_muted">Звук виклику вимкнено.</string>
+    <string name="accessibility_speakerphone_enabled">Гучний зв’язок увімкнено.</string>
+    <string name="respond_via_sms_canned_response_1">Не можу говорити. У чому справа?</string>
+    <string name="respond_via_sms_canned_response_2">Я зараз передзвоню.</string>
+    <string name="respond_via_sms_canned_response_3">Я передзвоню пізніше.</string>
+    <string name="respond_via_sms_canned_response_4">Не можу говорити. Передзвоніть.</string>
+    <string name="respond_via_sms_setting_title">Швидкі відповіді</string>
+    <string name="respond_via_sms_setting_title_2">Редагувати швидкі відповіді</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Швидка відповідь</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Скинути програму за умовчанням</string>
+    <string name="respond_via_sms_confirmation_format">Повідомлення надіслано на номер %s.</string>
+    <string name="outgoing_call_not_allowed">Цьому користувачу не дозволено здійснювати звичайні телефонні дзвінки</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Дзвінок не відбувся, введіть дійсний номер.</string>
+    <string name="no_vm_number">Відстун. номер голос. пошти</string>
+    <string name="no_vm_number_msg">На SIM-карті немає збереж. номерів голос. пошти.</string>
+    <string name="add_vm_number_str">Додати номер</string>
+</resources>

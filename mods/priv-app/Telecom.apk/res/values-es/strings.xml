@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Teléfono</string>
+    <string name="unknown">Desconocido</string>
+    <string name="notification_missedCallTitle">Llamada perdida</string>
+    <string name="notification_missedCallsTitle">Llamadas perdidas</string>
+    <string name="notification_missedCallsMsg">%s llamadas perdidas</string>
+    <string name="notification_missedCallTicker">Llamada perdida de %s</string>
+    <string name="notification_missedCall_call_back">Llamar</string>
+    <string name="notification_missedCall_message">Mensaje</string>
+    <string name="accessibility_call_muted">Llamada silenciada</string>
+    <string name="accessibility_speakerphone_enabled">Altavoz habilitado</string>
+    <string name="respond_via_sms_canned_response_1">No puedo hablar. ¿Es importante?</string>
+    <string name="respond_via_sms_canned_response_2">Te llamo en cuanto pueda.</string>
+    <string name="respond_via_sms_canned_response_3">Te llamo más tarde.</string>
+    <string name="respond_via_sms_canned_response_4">No puedo hablar. Llámame luego.</string>
+    <string name="respond_via_sms_setting_title">Respuestas rápidas</string>
+    <string name="respond_via_sms_setting_title_2">Editar respuestas rápidas</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Respuestas rápidas</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Restablecer aplicación</string>
+    <string name="respond_via_sms_confirmation_format">Mensaje enviado a %s</string>
+    <string name="outgoing_call_not_allowed">Este usuario solo puede realizar llamadas de emergencia</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">No se ha enviado la llamada; el número introducido no es válido.</string>
+    <string name="no_vm_number">Falta el número del buzón de voz.</string>
+    <string name="no_vm_number_msg">No se ha almacenado ningún número de buzón de voz en la tarjeta SIM.</string>
+    <string name="add_vm_number_str">Añadir número</string>
+</resources>

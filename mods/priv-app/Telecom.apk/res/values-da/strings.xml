@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Ukendt</string>
+    <string name="notification_missedCallTitle">Ubesvarede opkald</string>
+    <string name="notification_missedCallsTitle">Ubesvarede opkald</string>
+    <string name="notification_missedCallsMsg">%s ubesvarede opkald</string>
+    <string name="notification_missedCallTicker">Ubesvarede opkald fra %s</string>
+    <string name="notification_missedCall_call_back">Ring tilbage</string>
+    <string name="notification_missedCall_message">Besked</string>
+    <string name="accessibility_call_muted">Lyd slået fra opkald.</string>
+    <string name="accessibility_speakerphone_enabled">Højttalertelefon aktiveret.</string>
+    <string name="respond_via_sms_canned_response_1">Kan ikke tale nu. Hvad sker der?</string>
+    <string name="respond_via_sms_canned_response_2">Jeg ringer tilbage lige om lidt.</string>
+    <string name="respond_via_sms_canned_response_3">Jeg ringer til dig senere.</string>
+    <string name="respond_via_sms_canned_response_4">Kan ikke tale nu. Ringer du senere?</string>
+    <string name="respond_via_sms_setting_title">Hurtige svar</string>
+    <string name="respond_via_sms_setting_title_2">Rediger hurtige svar</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Hurtigt svar</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Nulstil standardapp</string>
+    <string name="respond_via_sms_confirmation_format">Meddelelsen er sendt til %s.</string>
+    <string name="outgoing_call_not_allowed">Denne bruger har kun tilladelse til at foretage nødopkald</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Opkaldet kunne ikke sendes. Der blev ikke indtastet et gyldigt nummer.</string>
+    <string name="no_vm_number">Telefonsvarernummer mangler</string>
+    <string name="no_vm_number_msg">Der er ikke gemt noget telefonsvarernummer på SIM-kortet.</string>
+    <string name="add_vm_number_str">Tilføj nummer</string>
+</resources>

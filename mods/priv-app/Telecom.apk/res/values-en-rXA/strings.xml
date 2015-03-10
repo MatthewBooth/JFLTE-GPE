@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">[Þĥöñé one two]</string>
+    <string name="unknown">[Ûñķñöŵñ one two]</string>
+    <string name="notification_missedCallTitle">[Ḿîššéð çåļļ one two]</string>
+    <string name="notification_missedCallsTitle">[Ḿîššéð çåļļš one two]</string>
+    <string name="notification_missedCallsMsg">[%s ḿîššéð çåļļš one two three]</string>
+    <string name="notification_missedCallTicker">[Ḿîššéð çåļļ ƒŕöḿ %s one two three]</string>
+    <string name="notification_missedCall_call_back">[Çåļļ ɓåçķ one two]</string>
+    <string name="notification_missedCall_message">[Ḿéššåĝé one two]</string>
+    <string name="accessibility_call_muted">[Çåļļ ḿûţéð. one two]</string>
+    <string name="accessibility_speakerphone_enabled">[Šþéåķéŕþĥöñé éñåɓļéð. one two three]</string>
+    <string name="respond_via_sms_canned_response_1">"[Çåñ'ţ ţåļķ ñöŵ. Ŵĥåţ'š ûþ¿ one two three four five six seven]"</string>
+    <string name="respond_via_sms_canned_response_2">"[Î'ļļ çåļļ ýöû ŕîĝĥţ ɓåçķ. one two three four five six]"</string>
+    <string name="respond_via_sms_canned_response_3">"[Î'ļļ çåļļ ýöû ļåţéŕ. one two three]"</string>
+    <string name="respond_via_sms_canned_response_4">"[Çåñ'ţ ţåļķ ñöŵ. Çåļļ ḿé ļåţéŕ¿ one two three four five six seven]"</string>
+    <string name="respond_via_sms_setting_title">[qûîçķ ŕéšþöñšéš one two three]</string>
+    <string name="respond_via_sms_setting_title_2">[Éðîţ Qûîçķ ŕéšþöñšéš one two three]</string>
+    <string name="respond_via_sms_setting_summary">[ one]</string>
+    <string name="respond_via_sms_edittext_dialog_title">[qûîçķ ŕéšþöñšé one two three]</string>
+    <string name="respond_via_sms_menu_reset_default_activity">[Ŕéšéţ ðéƒåûļţ åþþ one two three]</string>
+    <string name="respond_via_sms_confirmation_format">[Ḿéššåĝé šéñţ ţö %s. one two three]</string>
+    <string name="phone_account_preferences_title">[Þĥöñé åççöûñţ šéţţîñĝš one two three]</string>
+    <string name="default_outgoing_account_title">[Ðéƒåûļţ öûţĝöîñĝ åççöûñţ one two three]</string>
+    <string name="sim_call_manager_account">[Ŵî-Fî çåļļîñĝ åççöûñţ one two three]</string>
+    <string name="account_ask_every_time">[Åšķ éVéŕý ţîḿé one two three]</string>
+    <string name="do_not_use_sim_call_manager">[Ðö ñöţ ûšé Ŵî-Fî çåļļîñĝ one two three four five six]</string>
+    <string name="outgoing_call_not_allowed">[Ţĥîš ûšéŕ îš ñöţ åļļöŵéð ţö ḿåķé ñöñ-éḿéŕĝéñçý þĥöñé çåļļš one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">[Çåļļ ñöţ šéñţ, ñö Våļîð ñûḿɓéŕ éñţéŕéð. one two three four five six seven eight nine]</string>
+    <string name="no_vm_number">[Ḿîššîñĝ Vöîçéḿåîļ ñûḿɓéŕ one two three]</string>
+    <string name="no_vm_number_msg">[Ñö Vöîçéḿåîļ ñûḿɓéŕ îš šţöŕéð öñ ţĥé ŠÎḾ çåŕð. one two three four five six seven eight nine ten]</string>
+    <string name="add_vm_number_str">[Åðð ñûḿɓéŕ one two]</string>
+    <string name="test_account_0_label">[q Ḿöɓîļé one two]</string>
+    <string name="test_account_1_label">[Ḿåŕķéţ Ŵîŕéļéšš one two three]</string>
+    <string name="test_account_2_label">[Šöñöḿå Çîŕçļéš Ţåļķ Þļûš one two three]</string>
+    <string name="test_account_3_label">[βåý νöîçé Çĥåţ Þŕö one two three]</string>
+    <string name="test_account_0_short_description">[Åççöûñţ ŵîţĥ q Ḿöɓîļé one two three]</string>
+    <string name="test_account_1_short_description">[Åççöûñţ ŵîţĥ Ḿåŕķéţ Ŵîŕéļéšš one two three four]</string>
+    <string name="test_account_2_short_description">[Ţåļķ ţö éVéŕýöñé îñ ýöûŕ Çîŕçļéš¡ one two three four five six seven eight]</string>
+    <string name="test_account_3_short_description">[Çĥåţ ŵîţĥ Çĥåţ Ñéţŵöŕķ ûšéŕš one two three four five six seven]</string>
+    <string name="handle_restricted">[ŔÉŠŢŔÎÇŢÉÐ one two]</string>
+    <string name="headset_plugin_view_text">[Ĥéåðšéţ îš þļûĝĝéð îñ. one two three]</string>
+    <string name="headset_plugin_view_title">[Ĥéåðšéţ one two]</string>
+</resources>

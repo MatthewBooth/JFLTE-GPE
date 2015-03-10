@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">تلفن</string>
+    <string name="unknown">ناشناس</string>
+    <string name="notification_missedCallTitle">تماس بی پاسخ</string>
+    <string name="notification_missedCallsTitle">تماس‌های بی پاسخ</string>
+    <string name="notification_missedCallsMsg">%s تماس بی پاسخ</string>
+    <string name="notification_missedCallTicker">تماس بی پاسخ از %s</string>
+    <string name="notification_missedCall_call_back">پاسخ تماس</string>
+    <string name="notification_missedCall_message">پیام</string>
+    <string name="accessibility_call_muted">تماس نادیده گرفته شد.</string>
+    <string name="accessibility_speakerphone_enabled">تلفن آیفون‌دار فعال شد.</string>
+    <string name="respond_via_sms_canned_response_1">اکنون نمی‌توانم صحبت کنم. موضوع چیست؟</string>
+    <string name="respond_via_sms_canned_response_2">به زودی با شما تماس می‌گیرم.</string>
+    <string name="respond_via_sms_canned_response_3">بعداً با شما تماس می‌گیرم.</string>
+    <string name="respond_via_sms_canned_response_4">اکنون نمی‌توانم صحبت کنم. بعداً به من زنگ می‌زنید؟</string>
+    <string name="respond_via_sms_setting_title">پاسخ‌های سریع</string>
+    <string name="respond_via_sms_setting_title_2">ویرایش پاسخ‌های سریع</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">پاسخ سریع</string>
+    <string name="respond_via_sms_menu_reset_default_activity">بازنشانی برنامه‌ پیش‌فرض</string>
+    <string name="respond_via_sms_confirmation_format">پیام به %s ارسال شد.</string>
+    <string name="outgoing_call_not_allowed">این کاربر اجازه برقراری تماس‌های تلفنی غیر اضطراری ندارد.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">تماس ارسال نشد، هیچ شماره معتبری وارد نشده است.</string>
+    <string name="no_vm_number">عدم وجود شماره پست صوتی</string>
+    <string name="no_vm_number_msg">شماره پست صوتی در سیم کارت ذخیره نشده است.</string>
+    <string name="add_vm_number_str">افزودن شماره</string>
+</resources>

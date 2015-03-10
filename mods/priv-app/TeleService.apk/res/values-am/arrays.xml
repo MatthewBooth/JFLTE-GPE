@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>ነባሪ አውታረመረብ</item>
+        <item>ቁጥር ደብቅ</item>
+        <item>ቁጥርአሳይ</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>እንግሊዘኛ</item>
+        <item>ፈረንሳይኛ</item>
+        <item>ስፓኒሽ</item>
+        <item>ጃፓናዊ</item>
+        <item>ኮሪያኛ</item>
+        <item>ቻይናዊ</item>
+        <item>እብራይስጥ</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>መነሻ ብቻ</item>
+        <item>ራስ ሰር</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY ጠፍቷል</item>
+        <item>TTY ሙሉ</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>መደበኛ</item>
+        <item>ረጅም</item>
+    </string-array>
+</resources>

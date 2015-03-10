@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Vaikevõrk</item>
+        <item>Peida number</item>
+        <item>Näita numbrit</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Globaalne</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Ainult EvDo</item>
+        <item>CDMA ilma EvDo-ta</item>
+        <item>Automaatne CDMA/EvDo</item>
+        <item>Automaatne GSM/WCDMA</item>
+        <item>Ainult WCDMA</item>
+        <item>Ainult GSM</item>
+        <item>Eelistatud GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Inglise</item>
+        <item>Prantsuse</item>
+        <item>Hispaania</item>
+        <item>Jaapani</item>
+        <item>Korea</item>
+        <item>Hiina</item>
+        <item>Heebrea</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Ainult kodus</item>
+        <item>Automaatne</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY väljas</item>
+        <item>TTY on täis</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Tavaline</item>
+        <item>Pikk</item>
+    </string-array>
+</resources>

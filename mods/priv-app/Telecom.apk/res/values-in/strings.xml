@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telepon</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="notification_missedCallTitle">Panggilan tak terjawab</string>
+    <string name="notification_missedCallsTitle">Panggilan tak terjawab</string>
+    <string name="notification_missedCallsMsg">%s panggilan tak terjawab</string>
+    <string name="notification_missedCallTicker">Panggilan tak terjawab dari %s</string>
+    <string name="notification_missedCall_call_back">Hubungi kembali</string>
+    <string name="notification_missedCall_message">Pesan</string>
+    <string name="accessibility_call_muted">Panggilan disenyapkan.</string>
+    <string name="accessibility_speakerphone_enabled">Pengeras suara ponsel diaktifkan.</string>
+    <string name="respond_via_sms_canned_response_1">Tak bisa bicara sekarang. Ada apa?</string>
+    <string name="respond_via_sms_canned_response_2">Saya segera telepon balik.</string>
+    <string name="respond_via_sms_canned_response_3">Nanti saya telepon balik.</string>
+    <string name="respond_via_sms_canned_response_4">Tak bisa bicara skrg. Tlp lg nanti?</string>
+    <string name="respond_via_sms_setting_title">Tanggapan cepat</string>
+    <string name="respond_via_sms_setting_title_2">Edit tanggapan cepat</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Tanggapan cepat</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Setel ulang aplikasi default</string>
+    <string name="respond_via_sms_confirmation_format">Pesan dikirim ke %s.</string>
+    <string name="outgoing_call_not_allowed">Pengguna ini tidak diizinkan untuk membuat panggilan telepon non-darurat</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Panggilan tidak terkirim, tidak ada nomor valid yang dimasukkan.</string>
+    <string name="no_vm_number">Nomor kotak pesan hilang</string>
+    <string name="no_vm_number_msg">Tidak ada nomor kotak pesan tersimpan pada kartu SIM.</string>
+    <string name="add_vm_number_str">Tambahkan nomor</string>
+</resources>

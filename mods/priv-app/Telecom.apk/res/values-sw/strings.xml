@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Nambari ya simu</string>
+    <string name="unknown">Haijulikani</string>
+    <string name="notification_missedCallTitle">Simu isiyojibiwa</string>
+    <string name="notification_missedCallsTitle">Simu zisizojibiwa</string>
+    <string name="notification_missedCallsMsg">%s simu ambazo hazijajibiwa</string>
+    <string name="notification_missedCallTicker">Simu isiyojibiwa kutoka %s</string>
+    <string name="notification_missedCall_call_back">Mpigie</string>
+    <string name="notification_missedCall_message">Ujumbe</string>
+    <string name="accessibility_call_muted">Simu imezimwa.</string>
+    <string name="accessibility_speakerphone_enabled">Spika za simu zimewezeshwa</string>
+    <string name="respond_via_sms_canned_response_1">Siwezi kuongea sasa. Kuna nini?</string>
+    <string name="respond_via_sms_canned_response_2">Nitakupigia sasa hivi.</string>
+    <string name="respond_via_sms_canned_response_3">Nitakupigia baadaye.</string>
+    <string name="respond_via_sms_canned_response_4">Siwezi kuongea sasa. Nipigie baadaye</string>
+    <string name="respond_via_sms_setting_title">Majibu ya haraka</string>
+    <string name="respond_via_sms_setting_title_2">Hariri majibu ya haraka</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Majibu ya haraka</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Weka upya programu chaguo-msingi</string>
+    <string name="respond_via_sms_confirmation_format">Ujumbe uliotumwa kwa %s .</string>
+    <string name="outgoing_call_not_allowed">Mtumiaji huyu haruhusiwi kupiga simu zisizo za dharura</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Simu haijatumwa, hakuna nambari sahihi iliyowekwa.</string>
+    <string name="no_vm_number">Nambari ya sauti inayokosekana</string>
+    <string name="no_vm_number_msg">Hakuna nambari ya ujumbe wa sauti iliyohifadhiwa katika SIM kadi.</string>
+    <string name="add_vm_number_str">Ongeza nambari</string>
+</resources>

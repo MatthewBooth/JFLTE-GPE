@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="notification_missedCallTitle">Cevapsız çağrı</string>
+    <string name="notification_missedCallsTitle">Cevapsız çağrılar</string>
+    <string name="notification_missedCallsMsg">%s cevapsız çağrı</string>
+    <string name="notification_missedCallTicker">Cevapsız çağrı: %s</string>
+    <string name="notification_missedCall_call_back">Geri ara</string>
+    <string name="notification_missedCall_message">Mesaj gönder</string>
+    <string name="accessibility_call_muted">Çağrı sesi kapatıldı.</string>
+    <string name="accessibility_speakerphone_enabled">Hoparlör etkin.</string>
+    <string name="respond_via_sms_canned_response_1">Şimdi konuşamam. Konu nedir?</string>
+    <string name="respond_via_sms_canned_response_2">Seni hemen geri arayacağım.</string>
+    <string name="respond_via_sms_canned_response_3">Seni daha sonra ararım.</string>
+    <string name="respond_via_sms_canned_response_4">Şimdi konuşamam. Daha sonra arar mısın?</string>
+    <string name="respond_via_sms_setting_title">Hızlı yanıtlar</string>
+    <string name="respond_via_sms_setting_title_2">Hızlı yanıtları düzenle</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Hızlı yanıt</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Varsayılan uygulamayı sıfırla</string>
+    <string name="respond_via_sms_confirmation_format">Mesaj, %s numaralı telefona gönderildi.</string>
+    <string name="outgoing_call_not_allowed">Bu kullanıcının acil olmayan telefon çağrıları yapmasına izin verilmiyor</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Çağrı gönderilmedi, geçerli bir numara girilmedi.</string>
+    <string name="no_vm_number">Eksik sesli mesaj numarası</string>
+    <string name="no_vm_number_msg">SIM kartta depolanan sesli mesaj numarası yok.</string>
+    <string name="add_vm_number_str">Numara ekle</string>
+</resources>

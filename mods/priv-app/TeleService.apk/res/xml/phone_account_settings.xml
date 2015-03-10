@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/phone_account_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.settings.AccountSelectionPreference android:persistent="false" android:title="@string/phone_accounts_make_calls_with" android:key="default_outgoing_account" android:defaultValue="" />
+    <PreferenceCategory android:persistent="false" android:title="@string/wifi_calling_call_assistant" android:key="phone_accounts_call_assistant_settings_category_key">
+        <com.android.phone.settings.AccountSelectionPreference android:title="@string/wifi_calling_call_assistant" android:key="wifi_calling_call_assistant_preference" android:summary="@string/wifi_calling_call_assistant_none" />
+        <Preference android:persistent="false" android:title="@string/wifi_calling_call_assistant_configure" android:key="wifi_calling_configure_call_assistant_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/sip_settings" android:key="phone_accounts_sip_settings_category_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/sip_accounts">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.services.telephony.sip.SipSettings" />
+        </PreferenceScreen>
+        <ListPreference android:persistent="true" android:entries="@array/sip_call_options_entries" android:title="@string/sip_call_options_title" android:key="use_sip_calling_options_key" android:entryValues="@array/sip_call_options_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sip_receive_calls" android:key="sip_receive_calls_key" android:summary="@string/sip_receive_calls_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

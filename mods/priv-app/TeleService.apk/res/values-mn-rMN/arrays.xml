@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Сүлжээний тохиргоогоор</item>
+        <item>Дугаар нууцлах</item>
+        <item>Дугаар харуулах</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Глобаль</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Зөвхөн EvDo</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA/EvDo авто</item>
+        <item>GSM/WCDMA авто</item>
+        <item>Зөвхөн WCDMA</item>
+        <item>Зөвхөн GSM</item>
+        <item>GSM/WCDMA эхэнд нь</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Англи</item>
+        <item>Франц</item>
+        <item>Испани</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Хятад</item>
+        <item>Еврей</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Зөвхөн Гэрийн</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Үгүй</item>
+        <item>TTY Дүүрэн</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Энгийн</item>
+        <item>Урт</item>
+    </string-array>
+</resources>

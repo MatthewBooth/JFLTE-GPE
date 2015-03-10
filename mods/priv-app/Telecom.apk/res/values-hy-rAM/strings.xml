@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Հեռախոս</string>
+    <string name="unknown">Անհայտ</string>
+    <string name="notification_missedCallTitle">Բաց թողնված զանգ</string>
+    <string name="notification_missedCallsTitle">Բաց թողնված զանգեր</string>
+    <string name="notification_missedCallsMsg">%s բաց թողնված զանգ</string>
+    <string name="notification_missedCallTicker">Բաց թողնված զանգ %s-ից</string>
+    <string name="notification_missedCall_call_back">Հետ զանգել</string>
+    <string name="notification_missedCall_message">Ուղարկել հաղորդագրություն</string>
+    <string name="accessibility_call_muted">Զանգը խլացված է:</string>
+    <string name="accessibility_speakerphone_enabled">Բարձրախոսը միացված է:</string>
+    <string name="respond_via_sms_canned_response_1">Չեմ կարող խոսել հիմա: Ի՞նչ կա չկա:</string>
+    <string name="respond_via_sms_canned_response_2">Ես ձեզ հիմա հետ կզանգեմ:</string>
+    <string name="respond_via_sms_canned_response_3">Ես ձեր մի փոքր ուշ կզանգեմ:</string>
+    <string name="respond_via_sms_canned_response_4">Չեմ կարող խոսել հիմա: Զանգե՞մ ձեզ մի փոքր ուշ:</string>
+    <string name="respond_via_sms_setting_title">Արագ պատասխաններ</string>
+    <string name="respond_via_sms_setting_title_2">Խմբագրել արագ պատասխանները</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Արագ պատասխան</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Վերականգնել լռելյայն հավելվածը</string>
+    <string name="respond_via_sms_confirmation_format">Հաղորդագրությունն ուղարկվել է %s-ին:</string>
+    <string name="outgoing_call_not_allowed">Այս օգտվողին չի թույլատրվում կատարել ոչ արտակարգ զանգեր</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Զանգը չի կատարվել, անվավեր համար է մուտքագրված:</string>
+    <string name="no_vm_number">Բացակայում է ձայնային փոստի համարը</string>
+    <string name="no_vm_number_msg">SIM քարտում ձայնային փոստի ոչ մի համար գրանցված չէ:</string>
+    <string name="add_vm_number_str">Ավելացնել համար</string>
+</resources>

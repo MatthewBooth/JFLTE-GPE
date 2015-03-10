@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" android:sharedUserId="android.uid.phone" coreApp="true" package="com.android.server.telecom" platformBuildVersionCode="21" platformBuildVersionName="5.0-I9505GUEUDNL3">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.BIND_CONNECTION_SERVICE"/>
+    <uses-permission android:name="android.permission.BIND_INCALL_SERVICE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_CALLLOG_INFO"/>
+    <permission android:label="Register CALL_PROVIDER or SIM_SUBSCRIPTION PhoneAccount" android:name="com.android.server.telecom.permission.REGISTER_PROVIDER_OR_SUBSCRIPTION" android:protectionLevel="signature"/>
+    <permission android:label="Register CONNECTION_MANAGER PhoneAccount" android:name="com.android.server.telecom.permission.REGISTER_CONNECTION_MANAGER" android:protectionLevel="signature"/>
+    <permission android:label="Broadcast the call type/duration information" android:name="android.permission.BROADCAST_CALLLOG_INFO" android:protectionLevel="system|signature"/>
+    <permission android:label="Register to handle the broadcasted call type/duration information" android:name="android.permission.PROCESS_CALLLOG_INFO" android:protectionLevel="system|signature"/>
+    <application android:allowBackup="false" android:icon="@mipmap/ic_launcher_phone" android:label="@string/telecommAppLabel" android:name="TelecomApp" android:persistent="true" android:supportsRtl="true">
+        <activity android:excludeFromRecents="true" android:name="CallActivity" android:permission="android.permission.CALL_PHONE" android:theme="@style/Theme.Telecomm.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/ic_launcher_sip_call">
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sip"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="PrivilegedCallActivity" android:permission="android.permission.CALL_PRIVILEGED" android:targetActivity="CallActivity">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_PRIVILEGED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/ic_launcher_sip_call" android:priority="1000">
+                <action android:name="android.intent.action.CALL_PRIVILEGED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sip"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_PRIVILEGED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_PRIVILEGED"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="EmergencyCallActivity" android:permission="android.permission.CALL_PRIVILEGED" android:targetActivity="CallActivity">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_EMERGENCY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:icon="@drawable/ic_launcher_sip_call" android:priority="1000">
+                <action android:name="android.intent.action.CALL_EMERGENCY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sip"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_EMERGENCY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.CALL_EMERGENCY"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:name="IncomingCallActivity" android:targetActivity="CallActivity">
+            <intent-filter>
+                <action android:name="android.telecom.action.INCOMING_CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <receiver android:exported="false" android:name="TelecomBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.server.telecom.ACTION_CALL_BACK_FROM_NOTIFICATION"/>
+                <action android:name="com.android.server.telecom.ACTION_CALL_BACK_FROM_NOTIFICATION"/>
+                <action android:name="com.android.server.telecom.ACTION_SEND_SMS_FROM_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="PhoneAccountBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/respond_via_sms_setting_title" android:name=".RespondViaSmsSettings$Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".ErrorDialogActivity" android:theme="@style/Theme.Telecomm.Transparent"/>
+        <receiver android:exported="false" android:name=".CallReceiver"/>
+        <service android:name="BluetoothPhoneService" android:singleUser="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.IBluetoothHeadsetPhone"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

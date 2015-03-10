@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="notification_missedCallTitle">Panggilan tidak dijawab</string>
+    <string name="notification_missedCallsTitle">Panggilan tidak dijawab</string>
+    <string name="notification_missedCallsMsg">%s panggilan tidak dijawab</string>
+    <string name="notification_missedCallTicker">Panggilan tidak dijawab daripada %s</string>
+    <string name="notification_missedCall_call_back">Panggil balik</string>
+    <string name="notification_missedCall_message">Mesej</string>
+    <string name="accessibility_call_muted">Panggilan diredam.</string>
+    <string name="accessibility_speakerphone_enabled">Telefon pembesar suara didayakan.</string>
+    <string name="respond_via_sms_canned_response_1">Tak boleh berckp skrg. Apa cerita?</string>
+    <string name="respond_via_sms_canned_response_2">Saya akn segera hubungi awak nanti.</string>
+    <string name="respond_via_sms_canned_response_3">Saya akan hubungi awak kemudian.</string>
+    <string name="respond_via_sms_canned_response_4">Tdk blh berckp skg. Tel saya nanti?</string>
+    <string name="respond_via_sms_setting_title">Respons pantas</string>
+    <string name="respond_via_sms_setting_title_2">Edit respons pantas</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Respons pantas</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Tetapkan semula apl lalai</string>
+    <string name="respond_via_sms_confirmation_format">Mesej dihantar ke %s.</string>
+    <string name="outgoing_call_not_allowed">Pengguna ini tidak dibenarkan membuat panggilan telefon bukan kecemasan</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Panggilan tidak dihantar, tiada nombor yang sah dimasukkan.</string>
+    <string name="no_vm_number">Nombor mel suara tiada</string>
+    <string name="no_vm_number_msg">Tidak ada nombor mel suara disimpan pada kad SIM.</string>
+    <string name="add_vm_number_str">Tambah nombor</string>
+</resources>

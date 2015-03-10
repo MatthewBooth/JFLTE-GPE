@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_55 (Oracle Corporation)
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_text_holo_dark.png
+SHA1-Digest: GKe+hLrwaxnGiBgejAPNXIpUnhw=
+
+Name: res/menu/respond_via_message_settings_menu.xml
+SHA1-Digest: Xm8Pbxa6KSTQAk78kVAnbesOizY=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_phone.png
+SHA1-Digest: LZQTVjNejYAJCyON1QhU72fFYN0=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: j0AFA4hvXbOaTxLDQbCi/UDyhoE=
+
+Name: resources.arsc
+SHA1-Digest: Xk2ppuUcHLVEsvxv1YiGldEpK70=
+
+Name: classes.dex
+SHA1-Digest: sET3OTUqmMpqo5dMUGNqSVqZe8w=
+
+Name: AndroidManifest.xml
+SHA1-Digest: tKDgVNoZB6demg69H4aiXxbq8KE=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_phone.png
+SHA1-Digest: leeN2Uz9IKE9b9PqIKnNl2v6Yp0=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest: oUTl0gn2Rqj+DV3lMuua9gEoLDA=
+
+Name: res/xml/respond_via_sms_settings.xml
+SHA1-Digest: w2uagKlrqwyurLBSxVdTSTu89/k=
+
+Name: res/drawable-xhdpi-v4/ic_launcher_sip_call.png
+SHA1-Digest: kWwoCsCV0r4f2K2dHEYRrflbFjg=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_phone.png
+SHA1-Digest: 3LFCkBI6jvMzOcCai42jHvNBZlE=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_phone.png
+SHA1-Digest: xIm0qt0LBomMkE38XTlszE6WZEE=
+
+Name: res/drawable-xhdpi-v4/ic_text_holo_dark.png
+SHA1-Digest: 0qF4k9ujZ8x/Y76grljKwJaGEpM=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_phone.png
+SHA1-Digest: SuPbb/EKxt4cGt/lyXeK27LRq9E=
+

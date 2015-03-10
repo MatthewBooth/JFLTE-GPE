@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telemóvel</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="notification_missedCallTitle">Chamada não atendida</string>
+    <string name="notification_missedCallsTitle">Chamadas não atendidas</string>
+    <string name="notification_missedCallsMsg">%s chamadas não atendidas</string>
+    <string name="notification_missedCallTicker">Chamada não atendida de %s</string>
+    <string name="notification_missedCall_call_back">Ligar de volta</string>
+    <string name="notification_missedCall_message">Mensagem</string>
+    <string name="accessibility_call_muted">Chamada sem som.</string>
+    <string name="accessibility_speakerphone_enabled">Alta voz ativada.</string>
+    <string name="respond_via_sms_canned_response_1">Não posso falar agora. Que se passa?</string>
+    <string name="respond_via_sms_canned_response_2">Telefono-lhe já a seguir.</string>
+    <string name="respond_via_sms_canned_response_3">Telefono-lhe mais tarde.</string>
+    <string name="respond_via_sms_canned_response_4">Pode telefonar-me mais tarde?</string>
+    <string name="respond_via_sms_setting_title">Respostas rápidas</string>
+    <string name="respond_via_sms_setting_title_2">Editar respostas rápidas</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Resposta rápida</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Repor aplicação predefinida</string>
+    <string name="respond_via_sms_confirmation_format">Mensagem enviada para %s.</string>
+    <string name="outgoing_call_not_allowed">Este utilizador não está autorizado a fazer chamadas telefónicas que não sejam de emergência</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">A chamada não foi efetuada. Não foi introduzido um número válido.</string>
+    <string name="no_vm_number">Número do correio de voz em falta</string>
+    <string name="no_vm_number_msg">Não existe um número de correio de voz armazenado no cartão SIM.</string>
+    <string name="add_vm_number_str">Adicionar número</string>
+</resources>

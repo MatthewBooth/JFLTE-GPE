@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Zdana postavka mreže</item>
+        <item>Sakrij broj</item>
+        <item>Prikaži broj</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Globalno</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Samo EvDo</item>
+        <item>CDMA bez EvDo-a</item>
+        <item>Automatski CDMA/EvDo</item>
+        <item>Automatski GSM/WCDMA</item>
+        <item>Samo WCDMA</item>
+        <item>Samo GSM</item>
+        <item>Preferirano GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>engleski</item>
+        <item>francuski</item>
+        <item>španjolski</item>
+        <item>japanski</item>
+        <item>korejski</item>
+        <item>kineski</item>
+        <item>hebrejski</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Samo matično</item>
+        <item>Automatski</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>Isključen je TTY</item>
+        <item>TTY je pun</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normalni</item>
+        <item>Dugo</item>
+    </string-array>
+</resources>

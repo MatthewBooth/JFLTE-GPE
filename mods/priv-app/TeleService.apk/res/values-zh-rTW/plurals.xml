@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">接下來將出現 %s 分鐘的資料斷線狀態</item>
+        <item quantity="one">接下來的 %s 分鐘內沒有資料連線</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">手機在接下來的 %s 分鐘都將處於緊急回撥模式。在這個模式中，所有使用數據連線的應用程式皆無法運作。您要立即退出嗎？</item>
+        <item quantity="one">手機在接下來的 %s 分鐘都將處於緊急回撥模式。在這個模式中，所有使用數據連線的應用程式皆無法運作。您要立即退出嗎？</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">緊急回撥模式不支援您要執行的操作。手機在接下來的 %s 分鐘都將處於這個模式，您要立即退出嗎？</item>
+        <item quantity="one">緊急回撥模式不支援您要執行的操作。手機在接下來的 %s 分鐘都將處於這個模式，您要立即退出嗎？</item>
+    </plurals>
+</resources>

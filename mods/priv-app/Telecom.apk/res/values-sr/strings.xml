@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Телефон</string>
+    <string name="unknown">Непознато</string>
+    <string name="notification_missedCallTitle">Пропуштен позив</string>
+    <string name="notification_missedCallsTitle">Пропуштени позиви</string>
+    <string name="notification_missedCallsMsg">Број пропуштених позива: %s</string>
+    <string name="notification_missedCallTicker">Пропуштен позив од: %s</string>
+    <string name="notification_missedCall_call_back">Узврати позив</string>
+    <string name="notification_missedCall_message">Порука</string>
+    <string name="accessibility_call_muted">Звук позива је искључен.</string>
+    <string name="accessibility_speakerphone_enabled">Спикерфон је омогућен.</string>
+    <string name="respond_via_sms_canned_response_1">У гужви сам. Шта је у питању?</string>
+    <string name="respond_via_sms_canned_response_2">Позваћу те ускоро.</string>
+    <string name="respond_via_sms_canned_response_3">Позваћу те касније.</string>
+    <string name="respond_via_sms_canned_response_4">У гужви сам. Да се чујемо касније?</string>
+    <string name="respond_via_sms_setting_title">Брзи одговори</string>
+    <string name="respond_via_sms_setting_title_2">Измена брзих одговора</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Брзи одговор</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Ресетуј подразумев. апликацију</string>
+    <string name="respond_via_sms_confirmation_format">Порука је послата на број %s.</string>
+    <string name="outgoing_call_not_allowed">Овом кориснику није дозвољено да упућује телефонске позиве који нису хитни</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Позив није послат, није унет важећи број.</string>
+    <string name="no_vm_number">Недостаје број за говорну пошту</string>
+    <string name="no_vm_number_msg">Није ускладиштен ниједан број говорне поште на SIM картици.</string>
+    <string name="add_vm_number_str">Додај број</string>
+</resources>

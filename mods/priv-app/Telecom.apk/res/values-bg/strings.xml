@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Телефон</string>
+    <string name="unknown">Неизвестен номер</string>
+    <string name="notification_missedCallTitle">Пропуснато обаждане</string>
+    <string name="notification_missedCallsTitle">Пропуснати обаждания</string>
+    <string name="notification_missedCallsMsg">%s пропуснати обаждания</string>
+    <string name="notification_missedCallTicker">Пропуснато обаждане от %s</string>
+    <string name="notification_missedCall_call_back">Обратно обаждане</string>
+    <string name="notification_missedCall_message">Съобщение</string>
+    <string name="accessibility_call_muted">Обаждането бе спряно.</string>
+    <string name="accessibility_speakerphone_enabled">Високоговорителят бе активиран.</string>
+    <string name="respond_via_sms_canned_response_1">Сега не мога да говоря. Какво има?</string>
+    <string name="respond_via_sms_canned_response_2">Ще ви се обадя веднага обратно.</string>
+    <string name="respond_via_sms_canned_response_3">Ще ви се обадя по-късно.</string>
+    <string name="respond_via_sms_canned_response_4">Сега не мога да говоря. По-късно?</string>
+    <string name="respond_via_sms_setting_title">Бързи отговори</string>
+    <string name="respond_via_sms_setting_title_2">Редактиране на бързи отговори</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Бърз отговор</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Възст. на станд. настройки</string>
+    <string name="respond_via_sms_confirmation_format">До %s бе изпратено съобщение.</string>
+    <string name="outgoing_call_not_allowed">На този потребител е разрешено да провежда само спешни обаждания</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Обаждането не е изпратено, не е въведен валиден номер.</string>
+    <string name="no_vm_number">Липсващ номер на гласова поща</string>
+    <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
+    <string name="add_vm_number_str">Добавяне на номер</string>
+</resources>

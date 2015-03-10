@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">[Ñö ðåţå çöññéçţîöñ ƒöŕ %s ḿîñûţéš one two three four five six seven eight]</item>
+        <item quantity="one">[Ñö ðåţå çöññéçţîöñ ƒöŕ %s ḿîñûţé one two three four five six seven eight]</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">[Ţĥé þĥöñé ŵîļļ ɓé îñ Éḿéŕĝéñçý Çåļļɓåçķ ḿöðé ƒöŕ %s ḿîñûţéš. Ŵĥîļé îñ ţĥîš ḿöðé ñö åþþļîçåţîöñš ûšîñĝ å ðåţå çöññéçţîöñ çåñ ɓé ûšéð. Ðö ýöû ŵåñţ ţö éхîţ ñöŵ¿ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight]</item>
+        <item quantity="one">[Ţĥé þĥöñé ŵîļļ ɓé îñ Éḿéŕĝéñçý Çåļļɓåçķ ḿöðé ƒöŕ %s ḿîñûţé. Ŵĥîļé îñ ţĥîš ḿöðé ñö åþþš ûšîñĝ å ðåţå çöññéçţîöñ çåñ ɓé ûšéð. Ðö ýöû ŵåñţ ţö éхîţ ñöŵ¿ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six]</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"[Ţĥé šéļéçţéð åçţîöñ îšñ'ţ åVåîļåɓļé ŵĥîļé îñ ţĥé Éḿéŕĝéñçý Çåļļɓåçķ ḿöðé. Ţĥé þĥöñé ŵîļļ ɓé îñ ţĥîš ḿöðé ƒöŕ %s ḿîñûţéš. Ðö ýöû ŵåñţ ţö éхîţ ñöŵ¿ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five]"</item>
+        <item quantity="one">"[Ţĥé šéļéçţéð åçţîöñ îšñ'ţ åVåîļåɓļé ŵĥîļé îñ ţĥé Éḿéŕĝéñçý Çåļļɓåçķ ḿöðé. Ţĥé þĥöñé ŵîļļ ɓé îñ ţĥîš ḿöðé ƒöŕ %s ḿîñûţé. Ðö ýöû ŵåñţ ţö éхîţ ñöŵ¿ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five]"</item>
+    </plurals>
+</resources>

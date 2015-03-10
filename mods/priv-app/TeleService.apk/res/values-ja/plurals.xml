@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s分間データ接続できません</item>
+        <item quantity="one">%s分間データ接続できません</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">端末はあと%s分間、緊急通報待機モードです。このモードではデータ通信を行うアプリケーションは使用できません。今すぐこのモードを終了しますか？</item>
+        <item quantity="one">端末はあと%s分間、緊急通報待機モードです。このモードではデータ通信を行うアプリは使用できません。今すぐこのモードを終了しますか？</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">選択した操作は緊急通報待機モードでは実行できません。端末はあと%s分間このモードです。今すぐこのモードを終了しますか？</item>
+        <item quantity="one">選択した操作は緊急通報待機モードでは実行できません。端末はあと%s分間このモードです。今すぐこのモードを終了しますか？</item>
+    </plurals>
+</resources>

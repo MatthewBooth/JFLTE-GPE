@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/uplmn_list_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:title="@string/network_id" android:key="network_id_key" />
+    <EditTextPreference android:singleLine="true" android:title="@string/dialog_network_priority_title" android:key="priority_key" android:dialogTitle="@string/dialog_network_priority_title" android:inputType="number" />
+    <ListPreference android:entries="@array/uplmn_prefer_network_mode_td_choices" android:title="@string/gsm_umts_network_preferences_title" android:key="network_mode_key" android:dialogTitle="@string/gsm_umts_network_preferences_dialogtitle" android:entryValues="@array/uplmn_prefer_network_mode_values" />
+</PreferenceScreen>

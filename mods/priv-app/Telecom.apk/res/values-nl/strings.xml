@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefoon</string>
+    <string name="unknown">Onbekend</string>
+    <string name="notification_missedCallTitle">Gemiste oproep</string>
+    <string name="notification_missedCallsTitle">Gemiste oproepen</string>
+    <string name="notification_missedCallsMsg">%s gemiste oproepen</string>
+    <string name="notification_missedCallTicker">Gemiste oproep van %s</string>
+    <string name="notification_missedCall_call_back">Terugbellen</string>
+    <string name="notification_missedCall_message">Bericht</string>
+    <string name="accessibility_call_muted">Oproep gedempt.</string>
+    <string name="accessibility_speakerphone_enabled">Telefoonluidspreker is ingeschakeld.</string>
+    <string name="respond_via_sms_canned_response_1">Kan nu niet opnemen. Alles goed?</string>
+    <string name="respond_via_sms_canned_response_2">Ik bel je zo terug.</string>
+    <string name="respond_via_sms_canned_response_3">Ik bel je later.</string>
+    <string name="respond_via_sms_canned_response_4">Kan nu niet opnemen. Bel me later.</string>
+    <string name="respond_via_sms_setting_title">Snelle reacties</string>
+    <string name="respond_via_sms_setting_title_2">Snelle reacties bewerken</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Snelle reactie</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Standaardapp opnieuw instellen</string>
+    <string name="respond_via_sms_confirmation_format">Bericht verzonden naar %s.</string>
+    <string name="outgoing_call_not_allowed">Het is deze gebruiker niet toegestaan niet-noodoproepen te plaatsen</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Oproep niet verzonden, geen geldig nummer ingevoerd.</string>
+    <string name="no_vm_number">Voicemailnummer ontbreekt</string>
+    <string name="no_vm_number_msg">Er is geen voicemailnummer op de SIM-kaart opgeslagen.</string>
+    <string name="add_vm_number_str">Nummer toevoegen</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Телефон</string>
+    <string name="unknown">Неизвестный абонент</string>
+    <string name="notification_missedCallTitle">Пропущенный вызов</string>
+    <string name="notification_missedCallsTitle">Пропущенные вызовы</string>
+    <string name="notification_missedCallsMsg">Пропущенных вызовов: %s</string>
+    <string name="notification_missedCallTicker">Пропущенные вызовы от абонента %s</string>
+    <string name="notification_missedCall_call_back">Позвонить</string>
+    <string name="notification_missedCall_message">Написать</string>
+    <string name="accessibility_call_muted">Звук выключен.</string>
+    <string name="accessibility_speakerphone_enabled">Громкая связь включена.</string>
+    <string name="respond_via_sms_canned_response_1">Не могу говорить. Что случилось?</string>
+    <string name="respond_via_sms_canned_response_2">Я сейчас вам перезвоню.</string>
+    <string name="respond_via_sms_canned_response_3">Я перезвоню вам позже.</string>
+    <string name="respond_via_sms_canned_response_4">Не могу говорить. Позвоните позже.</string>
+    <string name="respond_via_sms_setting_title">Быстрые ответы</string>
+    <string name="respond_via_sms_setting_title_2">Быстрые ответы</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Быстрый ответ</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Сбросить стандартные настройки</string>
+    <string name="respond_via_sms_confirmation_format">Сообщение отправлено на номер %s.</string>
+    <string name="outgoing_call_not_allowed">Этот пользователь может звонить только в службы экстренной помощи</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Для вызова укажите действительный номер телефона.</string>
+    <string name="no_vm_number">Не указан номер голосовой почты</string>
+    <string name="no_vm_number_msg">На SIM-карте нет ни одного номера голосовой почты.</string>
+    <string name="add_vm_number_str">Добавить номер</string>
+</resources>

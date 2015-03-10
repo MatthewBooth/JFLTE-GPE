@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">โทรศัพท์</string>
+    <string name="unknown">ไม่ทราบ</string>
+    <string name="notification_missedCallTitle">สายที่ไม่ได้รับ</string>
+    <string name="notification_missedCallsTitle">สายที่ไม่ได้รับ</string>
+    <string name="notification_missedCallsMsg">%s สายที่ไม่ได้รับ</string>
+    <string name="notification_missedCallTicker">สายที่ไม่ได้รับจาก %s</string>
+    <string name="notification_missedCall_call_back">โทรกลับ</string>
+    <string name="notification_missedCall_message">ข้อความ</string>
+    <string name="accessibility_call_muted">ปิดเสียงการโทร</string>
+    <string name="accessibility_speakerphone_enabled">เปิดใช้งานลำโพงแล้ว</string>
+    <string name="respond_via_sms_canned_response_1">ตอนนี้คุยไม่ได้ มีอะไรหรือเปล่า</string>
+    <string name="respond_via_sms_canned_response_2">เดี๋ยวจะโทรกลับทันที</string>
+    <string name="respond_via_sms_canned_response_3">เดี๋ยวจะโทรหาทีหลัง</string>
+    <string name="respond_via_sms_canned_response_4">ตอนนี้คุยไม่ได้ โทรมาใหม่ได้ไหม</string>
+    <string name="respond_via_sms_setting_title">คำตอบด่วน</string>
+    <string name="respond_via_sms_setting_title_2">แก้ไขคำตอบด่วน</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">คำตอบด่วน</string>
+    <string name="respond_via_sms_menu_reset_default_activity">รีเซ็ตแอปพลิเคชันเริ่มต้น</string>
+    <string name="respond_via_sms_confirmation_format">ส่งข้อความไปยัง %s แล้ว</string>
+    <string name="outgoing_call_not_allowed">ไม่อนุญาตให้ผู้ใช้รายนี้ดำเนินการโทรที่ไม่ฉุกเฉิน</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">ไม่ได้โทรออก ไม่ได้ป้อนหมายเลขที่ถูกต้อง</string>
+    <string name="no_vm_number">ไม่มีหมายเลขข้อความเสียง</string>
+    <string name="no_vm_number_msg">ไม่มีหมายเลขข้อความเสียงจัดเก็บอยู่ในซิมการ์ด</string>
+    <string name="add_vm_number_str">เพิ่มหมายเลข</string>
+</resources>

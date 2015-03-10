@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ingen dataforbindelse i %s minutter</item>
+        <item quantity="one">Ingen dataforbindelse i %s minut</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonen vil være i nødtilbagekaldstilstand i %s minutter. Mens du er i denne tilstand kan ingen applikationer, der bruger en dataforbindelse, anvendes. Vil du afslutte nu?</item>
+        <item quantity="one">Telefonen vil være i nødtilbagekaldstilstand i %s minut. Mens du er i denne tilstand kan ingen apps, der bruger en dataforbindelse, anvendes. Vil du afslutte nu?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Den valgte handling er ikke tilgængelig i nødtilbagekaldstilstand. Telefonen vil være i denne tilstand i %s minutter. Vil du afslutte nu?</item>
+        <item quantity="one">Den valgte handling er ikke tilgængelig i nødtilbagekaldstilstand. Telefonen vil være i denne tilstand i %s minut. Vil du afslutte nu?</item>
+    </plurals>
+</resources>

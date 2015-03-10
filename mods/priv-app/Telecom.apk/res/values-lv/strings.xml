@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Tālrunis</string>
+    <string name="unknown">Nezināms</string>
+    <string name="notification_missedCallTitle">Neatbildēts zvans</string>
+    <string name="notification_missedCallsTitle">Neatbildētie zvani</string>
+    <string name="notification_missedCallsMsg">%s neatbildēts(-i) zvans(-i)</string>
+    <string name="notification_missedCallTicker">Neatbildēts zvans no: %s</string>
+    <string name="notification_missedCall_call_back">Atzvanīt</string>
+    <string name="notification_missedCall_message">Ziņojums</string>
+    <string name="accessibility_call_muted">Zvana skaņa ir izslēgta.</string>
+    <string name="accessibility_speakerphone_enabled">Skaļrunis ir iespējots.</string>
+    <string name="respond_via_sms_canned_response_1">Nevaru runāt. Kas gadījās?</string>
+    <string name="respond_via_sms_canned_response_2">Tūlīt atzvanīšu.</string>
+    <string name="respond_via_sms_canned_response_3">Piezvanīšu vēlāk.</string>
+    <string name="respond_via_sms_canned_response_4">Nevaru runāt. Vai piezvanīsi vēlāk?</string>
+    <string name="respond_via_sms_setting_title">Ātrās atbildes</string>
+    <string name="respond_via_sms_setting_title_2">Ātro atbilžu rediģēšana</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Ātrā atbilde</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Atiestatīt noklus. lietotni</string>
+    <string name="respond_via_sms_confirmation_format">Ziņojums nosūt. uz šādu tālr. nr.: %s.</string>
+    <string name="outgoing_call_not_allowed">Šim lietotājam nav atļauts veikt ārkārtas tālruņa zvanus.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Zvans nav nosūtīts; nav ievadīts derīgs numurs.</string>
+    <string name="no_vm_number">Trūkst balss pasta numura</string>
+    <string name="no_vm_number_msg">SIM kartē neviens balss pasta numurs nav saglabāts.</string>
+    <string name="add_vm_number_str">Pievienot numuru</string>
+</resources>

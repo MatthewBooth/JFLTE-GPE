@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">ტელეფონი</string>
+    <string name="unknown">უცნობი</string>
+    <string name="notification_missedCallTitle">გამოტოვებული ზარი</string>
+    <string name="notification_missedCallsTitle">გამოტოვებული ზარები</string>
+    <string name="notification_missedCallsMsg">%s გამოტოვებული ზარები</string>
+    <string name="notification_missedCallTicker">გამოტოვებული ზარი %s-ისგან</string>
+    <string name="notification_missedCall_call_back">გადარეკვა</string>
+    <string name="notification_missedCall_message">შეტყობინების გაგზავნა</string>
+    <string name="accessibility_call_muted">ზარი დადუმებულია.</string>
+    <string name="accessibility_speakerphone_enabled">სპიკერები ჩართულია.</string>
+    <string name="respond_via_sms_canned_response_1">ვერ ვლაპარაკობ. რა ხდება?</string>
+    <string name="respond_via_sms_canned_response_2">ცოტა ხანში გადმოვრეკავ.</string>
+    <string name="respond_via_sms_canned_response_3">მოგვიანებით გადმოვრეკავ.</string>
+    <string name="respond_via_sms_canned_response_4">ვერ ვპასუხობ. მოგვიანებით დამირეკე.</string>
+    <string name="respond_via_sms_setting_title">სწრაფი პასუხი</string>
+    <string name="respond_via_sms_setting_title_2">სწრაფი პასუხის რედაქტირება</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">სწრაფი პასუხი</string>
+    <string name="respond_via_sms_menu_reset_default_activity">ნაგულისხმევი აპის ისევ დაყენება</string>
+    <string name="respond_via_sms_confirmation_format">შეტყობინება გაიგზავნა %s-თან.</string>
+    <string name="outgoing_call_not_allowed">ამ მომხმარებელს არ აქვს უფლება, განახორციელოს არასაგანგებო სატელეფონო ზარები.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">ვერ გაიგზავნა, ტელეფონის ნომერი სწორად არ იქნა შეყვანილი.</string>
+    <string name="no_vm_number">ხმოვანი ფოსტის ნომერი არ არის</string>
+    <string name="no_vm_number_msg">SIM ბარათზე ხმოვანი ფოსტის ნომერი შენახული არ არის.</string>
+    <string name="add_vm_number_str">ნომრის დამატება</string>
+</resources>

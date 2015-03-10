@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">電話</string>
+    <string name="unknown">不明</string>
+    <string name="notification_missedCallTitle">未接來電</string>
+    <string name="notification_missedCallsTitle">未接來電</string>
+    <string name="notification_missedCallsMsg">%s 通未接來電</string>
+    <string name="notification_missedCallTicker">來自 %s 的未接來電</string>
+    <string name="notification_missedCall_call_back">回撥</string>
+    <string name="notification_missedCall_message">簡訊</string>
+    <string name="accessibility_call_muted">通話已靜音。</string>
+    <string name="accessibility_speakerphone_enabled">喇叭已啟用</string>
+    <string name="respond_via_sms_canned_response_1">我現在不方便通話，有什麼事？</string>
+    <string name="respond_via_sms_canned_response_2">我待會就回電。</string>
+    <string name="respond_via_sms_canned_response_3">我晚點回電。</string>
+    <string name="respond_via_sms_canned_response_4">我現在不方便通話，晚點再打來好嗎？</string>
+    <string name="respond_via_sms_setting_title">快速回應</string>
+    <string name="respond_via_sms_setting_title_2">編輯快速回應</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">快速回應</string>
+    <string name="respond_via_sms_menu_reset_default_activity">重設預設應用程式</string>
+    <string name="respond_via_sms_confirmation_format">訊息已傳送至 %s。</string>
+    <string name="outgoing_call_not_allowed">這位使用者只能撥打緊急電話</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">輸入的號碼無效，無法撥出。</string>
+    <string name="no_vm_number">遺失語音信箱號碼</string>
+    <string name="no_vm_number_msg">SIM 卡中未儲存語音信箱號碼。</string>
+    <string name="add_vm_number_str">新增號碼</string>
+    <string name="headset_plugin_view_text">耳機已插入到手機</string>
+    <string name="headset_plugin_view_title">耳機插入</string>
+</resources>

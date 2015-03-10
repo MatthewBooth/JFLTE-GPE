@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Foon</string>
+    <string name="unknown">Onbekend</string>
+    <string name="notification_missedCallTitle">Gemiste oproep</string>
+    <string name="notification_missedCallsTitle">Gemiste oproepe</string>
+    <string name="notification_missedCallsMsg">%s gemiste oproepe</string>
+    <string name="notification_missedCallTicker">Gemiste oproep van %s</string>
+    <string name="notification_missedCall_call_back">Bel terug</string>
+    <string name="notification_missedCall_message">Boodskap</string>
+    <string name="accessibility_call_muted">Oproep stilgemaak.</string>
+    <string name="accessibility_speakerphone_enabled">Luidsprekerfoon geaktiveer.</string>
+    <string name="respond_via_sms_canned_response_1">"Kan nie nou praat nie. Wat's nuus?"</string>
+    <string name="respond_via_sms_canned_response_2">Ek bel jou nou-nou terug.</string>
+    <string name="respond_via_sms_canned_response_3">Ek bel jou later.</string>
+    <string name="respond_via_sms_canned_response_4">Kan nie nou praat nie. Bel my later?</string>
+    <string name="respond_via_sms_setting_title">Vinnige antwoorde</string>
+    <string name="respond_via_sms_setting_title_2">Redigeer vinnige antwoorde</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Vinnige antwoord</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Stel verstek program terug</string>
+    <string name="respond_via_sms_confirmation_format">Boodskap gestuur na %s.</string>
+    <string name="outgoing_call_not_allowed">Hierdie gebruiker word nie toegelaat om nienood-foonoproepe te maak nie</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Oproep nie gestuur nie; geen geldige nommer is ingevoer nie.</string>
+    <string name="no_vm_number">Vermiste stemboodskapnommer</string>
+    <string name="no_vm_number_msg">Geen stemboodskapnommer is op die SIM-kaart gestoor nie.</string>
+    <string name="add_vm_number_str">Voeg nommer by</string>
+</resources>

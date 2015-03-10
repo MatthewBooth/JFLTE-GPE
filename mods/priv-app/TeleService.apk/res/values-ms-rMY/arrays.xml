@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Lalai rangkaian</item>
+        <item>Sembunyikan nombor</item>
+        <item>Tunjukkan nombor</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Global</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EvDo sahaja</item>
+        <item>CDMA tanpa EvDo</item>
+        <item>CDMA/EvDo auto</item>
+        <item>GSM/WCDMA auto</item>
+        <item>WCDMA sahaja</item>
+        <item>GSM sahaja</item>
+        <item>GSM/WCDMA diutamakan</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Bahasa Inggeris</item>
+        <item>Bahasa Perancis</item>
+        <item>Bahasa Sepanyol</item>
+        <item>Bahasa Jepun</item>
+        <item>Bahasa Korea</item>
+        <item>Bahasa Cina</item>
+        <item>Bahasa Ibrani</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Rumah sahaja</item>
+        <item>Automatik</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Dimatikan</item>
+        <item>TTY Penuh</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Biasa</item>
+        <item>Panjang</item>
+    </string-array>
+</resources>

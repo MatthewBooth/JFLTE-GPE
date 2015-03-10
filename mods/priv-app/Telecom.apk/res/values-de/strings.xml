@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="notification_missedCallTitle">Entgangener Anruf</string>
+    <string name="notification_missedCallsTitle">Entgangene Anrufe</string>
+    <string name="notification_missedCallsMsg">%s entgangene Anrufe</string>
+    <string name="notification_missedCallTicker">Entgangener Anruf von %s</string>
+    <string name="notification_missedCall_call_back">Zurückrufen</string>
+    <string name="notification_missedCall_message">Nachricht</string>
+    <string name="accessibility_call_muted">Anruf stummgeschaltet</string>
+    <string name="accessibility_speakerphone_enabled">Freisprechfunktion aktiviert</string>
+    <string name="respond_via_sms_canned_response_1">"Kann jetzt nicht sprechen. Was gibt's?"</string>
+    <string name="respond_via_sms_canned_response_2">Ich rufe gleich zurück.</string>
+    <string name="respond_via_sms_canned_response_3">Ich rufe später zurück.</string>
+    <string name="respond_via_sms_canned_response_4">Kann jetzt nicht sprechen. Später?</string>
+    <string name="respond_via_sms_setting_title">Kurzantworten</string>
+    <string name="respond_via_sms_setting_title_2">Kurzantworten bearbeiten</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Kurzantwort</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Standard-App zurücksetzen</string>
+    <string name="respond_via_sms_confirmation_format">Nachricht an %s gesendet</string>
+    <string name="outgoing_call_not_allowed">Dieser Nutzer darf abgesehen von Notrufen keine Anrufe tätigen.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Anruf nicht verbunden; keine gültige Nummer eingegeben.</string>
+    <string name="no_vm_number">Fehlende Mailbox-Nummer</string>
+    <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Mailbox-Nummer gespeichert.</string>
+    <string name="add_vm_number_str">Nummer hinzufügen</string>
+</resources>

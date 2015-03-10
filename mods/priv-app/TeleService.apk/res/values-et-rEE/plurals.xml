@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Andmeühendus puudub %s minutiks</item>
+        <item quantity="one">Andmeühendus puudub %s minutiks</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon on hädaolukorra tagasihelistusrežiimis %s minutit. Selles režiimis ei saa kasutada ühtegi andmesideühendust kasutavat rakendust. Kas soovite kohe väljuda?</item>
+        <item quantity="one">Telefon on hädaolukorra tagasihelistusrežiimis %s minut. Selles režiimis ei saa kasutada ühtegi andmesideühendusel põhinevat rakendust. Kas soovite kohe väljuda?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Valitud toiming pole hädaolukorra tagasihelistusrežiimis kättesaadav. Telefon on selles režiimis %s minut. Kas soovite kohe väljuda?</item>
+        <item quantity="one">Valitud toiming ei ole hädaolukorra tagasihelistusrežiimis saadaval. Telefon on selles režiimis %s minut. Kas soovite kohe väljuda?</item>
+    </plurals>
+</resources>

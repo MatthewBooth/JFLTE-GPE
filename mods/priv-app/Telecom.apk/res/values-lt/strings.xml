@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefonas</string>
+    <string name="unknown">Nežinomas</string>
+    <string name="notification_missedCallTitle">Praleistas skambutis</string>
+    <string name="notification_missedCallsTitle">Praleisti skambučiai</string>
+    <string name="notification_missedCallsMsg">%s praleisti (-ų) skambučiai (-ų)</string>
+    <string name="notification_missedCallTicker">praleistas skambutis nuo %s</string>
+    <string name="notification_missedCall_call_back">Perskambinti</string>
+    <string name="notification_missedCall_message">Pranešimas</string>
+    <string name="accessibility_call_muted">Skambutis nutildytas.</string>
+    <string name="accessibility_speakerphone_enabled">Garsiakalbis įgalintas.</string>
+    <string name="respond_via_sms_canned_response_1">Dabar negaliu kalbėti. Kas nutiko?</string>
+    <string name="respond_via_sms_canned_response_2">Netrukus perskambinsiu.</string>
+    <string name="respond_via_sms_canned_response_3">Paskambinsiu vėliau.</string>
+    <string name="respond_via_sms_canned_response_4">Dabar negaliu kalb. Pask. vėliau.</string>
+    <string name="respond_via_sms_setting_title">Greiti atsakai</string>
+    <string name="respond_via_sms_setting_title_2">Redaguoti greitus atsakus</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Greitas atsakas</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Nustat. iš naujo numat. prog.</string>
+    <string name="respond_via_sms_confirmation_format">Pranešimas išsiųstas numeriu %s.</string>
+    <string name="outgoing_call_not_allowed">Šiam naudotojui leidžiama vykdyti tik skambučius pagalbos numeriais</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Skambutis neatliktas; įvestas netinkamas numeris.</string>
+    <string name="no_vm_number">Trūksta balso pašto numerio</string>
+    <string name="no_vm_number_msg">SIM kortelėje nėra išsaugoto balso pašto numerio.</string>
+    <string name="add_vm_number_str">Pridėti numerį</string>
+</resources>

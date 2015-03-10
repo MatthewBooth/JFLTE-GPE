@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Žiadne dátové pripojenie po dobu %s min</item>
+        <item quantity="one">Žiadne dátové pripojenie po dobu %s min</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefón bude v režime spätného núdzového volania počas %s min. V tomto režime nie je možné používať žiadne aplikácie používajúce dátové pripojenie. Chcete ho ukončiť?</item>
+        <item quantity="one">Telefón bude v režime spätného núdzového volania počas %s min. V tomto režime nie je možné používať žiadne aplikácie používajúce dátové pripojenie. Chcete ho ukončiť?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Vybratá akcia nie je k dispozícii v režime Tiesňového spätného volania. Telefón v ňom bude %s min. Chcete ho ukončiť?</item>
+        <item quantity="one">Vybratá akcia nie je k dispozícii v režime Tiesňového spätného volania. Telefón v ňom bude %s min. Chcete ho ukončiť?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/apn_settings" android:key="button_apn_key" />
+    <PreferenceScreen android:persistent="false" android:title="@string/networks" android:key="button_carrier_sel_key" android:summary="@string/sum_carrier_select">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NetworkSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/carrier_settings_title" android:key="carrier_settings_key">
+        <intent android:targetPackage="@string/carrier_settings" android:action="android.intent.action.MAIN" android:targetClass="@string/carrier_settings_menu" />
+    </PreferenceScreen>
+</PreferenceScreen>

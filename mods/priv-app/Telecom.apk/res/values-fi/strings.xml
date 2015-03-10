@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Puhelin</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="notification_missedCallTitle">Vastaamatta jäänyt puhelu</string>
+    <string name="notification_missedCallsTitle">Vastaamattomat puhelut</string>
+    <string name="notification_missedCallsMsg">%s vastaamatonta puhelua</string>
+    <string name="notification_missedCallTicker">Vastaamatta jäänyt puhelu numerosta %s</string>
+    <string name="notification_missedCall_call_back">Soita takaisin</string>
+    <string name="notification_missedCall_message">Viesti</string>
+    <string name="accessibility_call_muted">Puhelu mykistetty.</string>
+    <string name="accessibility_speakerphone_enabled">Kaiutin käytössä.</string>
+    <string name="respond_via_sms_canned_response_1">En voi puhua nyt. Mikä hätänä?</string>
+    <string name="respond_via_sms_canned_response_2">Soitan sinulle heti takaisin.</string>
+    <string name="respond_via_sms_canned_response_3">Soitan sinulle myöhemmin.</string>
+    <string name="respond_via_sms_canned_response_4">En voi puhua nyt. Soita myöhemmin?</string>
+    <string name="respond_via_sms_setting_title">Pikavastaukset</string>
+    <string name="respond_via_sms_setting_title_2">Muokkaa pikavastausta</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Pikavastaukset</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Palauta oletussovellus</string>
+    <string name="respond_via_sms_confirmation_format">Viesti lähetetty numeroon %s.</string>
+    <string name="outgoing_call_not_allowed">Tämä käyttäjä saa soittaa vain hätäpuheluita</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Puhelua ei soitettu, et antanut kelvollista numeroa.</string>
+    <string name="no_vm_number">Puhelinvastaajan numero puuttuu</string>
+    <string name="no_vm_number_msg">SIM-kortille ei ole tallennettu puhelinvastaajan numeroa.</string>
+    <string name="add_vm_number_str">Lisää numero</string>
+</resources>

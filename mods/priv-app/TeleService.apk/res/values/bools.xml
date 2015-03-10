@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ignore_sim_network_locked_events">false</bool>
+    <bool name="ignore_perso_locked_events">false</bool>
+    <bool name="icc_perso_unlock_allow_dismiss">true</bool>
+    <bool name="sim_network_unlock_allow_dismiss">true</bool>
+    <bool name="world_phone">true</bool>
+    <bool name="config_enable_dialer_key_vibration">true</bool>
+    <bool name="hac_enabled">false</bool>
+    <bool name="dtmf_type_enabled">true</bool>
+    <bool name="auto_retry_enabled">false</bool>
+    <bool name="allow_local_dtmf_tones">true</bool>
+    <bool name="config_show_onscreen_dial_button">true</bool>
+    <bool name="send_mic_mute_to_AudioManager">true</bool>
+    <bool name="has_in_call_noise_suppression">false</bool>
+    <bool name="allow_emergency_numbers_in_call_log">false</bool>
+    <bool name="csp_enabled">true</bool>
+    <bool name="config_voice_privacy_disable">false</bool>
+    <bool name="config_apn_expand">true</bool>
+    <bool name="config_operator_selection_expand">true</bool>
+    <bool name="config_prefer_2g">true</bool>
+    <bool name="config_enabled_lte">true</bool>
+    <bool name="config_show_cdma">false</bool>
+    <bool name="config_use_hfa_for_provisioning">false</bool>
+    <bool name="config_use_otasp_for_provisioning">false</bool>
+    <bool name="config_carrier_settings_enable">false</bool>
+    <bool name="config_additional_call_setting">true</bool>
+    <bool name="config_show_apn_setting_cdma">false</bool>
+    <bool name="config_uplmn_for_usim">false</bool>
+    <bool name="config_allow_hfa_outside_of_setup_wizard">true</bool>
+</resources>

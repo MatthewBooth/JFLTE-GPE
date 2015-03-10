@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telepono</string>
+    <string name="unknown">Di-kilala</string>
+    <string name="notification_missedCallTitle">Hindi nasagot na tawag</string>
+    <string name="notification_missedCallsTitle">Mga hindi nasagot na tawag</string>
+    <string name="notification_missedCallsMsg">%s (na) hindi nasagot na tawag</string>
+    <string name="notification_missedCallTicker">Hindi nasagot na tawag mula kay %s</string>
+    <string name="notification_missedCall_call_back">Tawagan</string>
+    <string name="notification_missedCall_message">Padalhan ng mensahe</string>
+    <string name="accessibility_call_muted">Naka-mute ang tawag.</string>
+    <string name="accessibility_speakerphone_enabled">Pinapagana ang speakerphone.</string>
+    <string name="respond_via_sms_canned_response_1">Di masagot ngayon. Ano meron?</string>
+    <string name="respond_via_sms_canned_response_2">Tawagan kita ulit.</string>
+    <string name="respond_via_sms_canned_response_3">Tawagan kita mamaya.</string>
+    <string name="respond_via_sms_canned_response_4">Di masagot ngayon. Tawag ka mamaya?</string>
+    <string name="respond_via_sms_setting_title">Mga mabilisang tugon</string>
+    <string name="respond_via_sms_setting_title_2">I-edit ang mga mabilisang tugon</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Mabilisang tugon</string>
+    <string name="respond_via_sms_menu_reset_default_activity">I-reset ang default na app</string>
+    <string name="respond_via_sms_confirmation_format">Naipadala ang mensahe sa %s.</string>
+    <string name="outgoing_call_not_allowed">Hindi pinapahintulutan ang user na ito na gumawa ng mga hindi pang-emergency na tawag sa telepono</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Hindi naipadala ang tawag, walang inilagay na wastong numero.</string>
+    <string name="no_vm_number">Nawawala ang numero ng voicemail</string>
+    <string name="no_vm_number_msg">Walang nakaimbak na numero ng voicemail sa SIM card.</string>
+    <string name="add_vm_number_str">Magdagdag ng numero</string>
+</resources>

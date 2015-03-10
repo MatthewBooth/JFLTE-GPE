@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dialpad_key_button_touch_tint" format="color" />
+    <attr name="resizing_text_min_size" format="dimension" />
+    <attr name="enableButtonText" format="string" />
+    <attr name="disableButtonText" format="string" />
+    <attr name="changeNumButtonText" format="string" />
+    <attr name="confirmMode">
+        <enum name="activation" value="1" />
+        <enum name="confirm" value="0" />
+    </attr>
+    <attr name="serviceClass">
+        <enum name="data" value="2" />
+        <enum name="voice" value="1" />
+    </attr>
+    <attr name="reason">
+        <enum name="busy" value="1" />
+        <enum name="no_reply" value="2" />
+        <enum name="not_reachable" value="3" />
+        <enum name="unconditional" value="0" />
+    </attr>
+    <attr name="preferenceBackgroundColor" format="color" />
+</resources>

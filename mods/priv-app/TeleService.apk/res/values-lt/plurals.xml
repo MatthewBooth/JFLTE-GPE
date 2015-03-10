@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Jokio duomenų ryšio %s min.</item>
+        <item quantity="one">Jokio duomenų ryšio %s min.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s min. telefonas veiks atgalinio skambinimo pagalbos numeriu režimu. Telefonui veikiant šiuo režimu, negalėsite naudoti jokių ryšio su duomenimis programų. Ar norite šį režimą išjungti dabar?</item>
+        <item quantity="one">%s min. telefonas veiks atgalinio skambinimo pagalbos numeriu režimu. Telefonui veikiant šiuo režimu, negalėsite naudoti jokių ryšio su duomenimis programų. Ar norite šį režimą išjungti dabar?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Skambinant atgalinio pagalbos numerio režimu pasirinkto veiksmo atlikti nepavyks. Šiuo režimu telefonas veiks %s min. Ar norite šį režimą išjungti dabar?</item>
+        <item quantity="one">Skambinant pagalbos telefonu pasirinkto veiksmo atlikti nepavyks. Šiuo režimu telefonas veiks %s min. Ar norite šį režimą išjungti dabar?</item>
+    </plurals>
+</resources>

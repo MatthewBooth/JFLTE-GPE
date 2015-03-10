@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/callind_multi_sim" android:key="button_call_independent_serv">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.SelectSubscription" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_settings" android:key="button_misc_category_key" />
+    <com.android.phone.settings.AccountSelectionPreference android:persistent="false" android:title="@string/phone_accounts_make_calls_with" android:key="default_outgoing_account" android:defaultValue="" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_retry_mode_title" android:key="button_auto_retry_key" android:summary="@string/auto_retry_mode_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/tty_mode_entries" android:title="@string/tty_mode_option_title" android:key="button_tty_mode_key" android:summary="@string/tty_mode_option_summary" android:entryValues="@array/tty_mode_values" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/hac_mode_title" android:key="button_hac_key" android:summary="@string/hac_mode_summary" />
+    <ListPreference android:entries="@array/dtmf_tone_entries" android:title="@string/dtmf_tones_title" android:key="button_dtmf_settings" android:summary="@string/dtmf_tones_summary" android:entryValues="@array/dtmf_tone_values" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/enable_video_calling_title" android:key="button_enable_video_calling" android:defaultValue="true" />
+    <com.android.phone.settings.AccountSelectionPreference android:persistent="false" android:title="@string/phone_account_wifi_calling" android:key="wifi_call_manager_account" android:defaultValue="" />
+    <PreferenceScreen android:persistent="false" android:title="@string/xdivert_title" android:key="button_xdivert" android:summary="@string/xdivert_summary">
+        <intent android:targetPackage="com.qti.xdivert" android:action="android.intent.action.MAIN" android:targetClass="com.qti.xdivert.XDivertSetting" />
+    </PreferenceScreen>
+</PreferenceScreen>

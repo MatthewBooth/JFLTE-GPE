@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="notification_missedCallTitle">Nem fogadott hívás</string>
+    <string name="notification_missedCallsTitle">Nem fogadott hívások</string>
+    <string name="notification_missedCallsMsg">%s nem fogadott hívás</string>
+    <string name="notification_missedCallTicker">Nem fogadott hívás: %s</string>
+    <string name="notification_missedCall_call_back">Visszahívás</string>
+    <string name="notification_missedCall_message">Üzenet</string>
+    <string name="accessibility_call_muted">Hívás némítva.</string>
+    <string name="accessibility_speakerphone_enabled">Kihangosítás engedélyezve.</string>
+    <string name="respond_via_sms_canned_response_1">Most nem alkalmas. Mi újság?</string>
+    <string name="respond_via_sms_canned_response_2">Hamarosan visszahívom.</string>
+    <string name="respond_via_sms_canned_response_3">Később visszahívom.</string>
+    <string name="respond_via_sms_canned_response_4">Most nem alkalmas. Hívna később?</string>
+    <string name="respond_via_sms_setting_title">Gyors válaszok</string>
+    <string name="respond_via_sms_setting_title_2">Gyors válaszok szerkesztése</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Gyors válasz</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Alapalkalmazás visszaállítása</string>
+    <string name="respond_via_sms_confirmation_format">Üzenet elküldve ide: %s.</string>
+    <string name="outgoing_call_not_allowed">Ez a felhasználó csak vészhelyzeti telefonhívásokat kezdeményezhet</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">A hívás indítása érvénytelen szám beírása miatt nem történt meg.</string>
+    <string name="no_vm_number">Hiányzik a hangposta száma</string>
+    <string name="no_vm_number_msg">Nincs hangpostaszám a SIM kártyán.</string>
+    <string name="add_vm_number_str">Szám hozzáadása</string>
+</resources>

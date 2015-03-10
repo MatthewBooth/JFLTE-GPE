@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">फ़ोन</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="notification_missedCallTitle">छूटी कॉल</string>
+    <string name="notification_missedCallsTitle">छूटी कॉल</string>
+    <string name="notification_missedCallsMsg">%s छूटी कॉल</string>
+    <string name="notification_missedCallTicker">%s की कॉल छूटी</string>
+    <string name="notification_missedCall_call_back">वापस कॉल करें</string>
+    <string name="notification_missedCall_message">संदेश</string>
+    <string name="accessibility_call_muted">कॉल म्‍यूट की गई.</string>
+    <string name="accessibility_speakerphone_enabled">स्‍पीकरफ़ोन सक्षम.</string>
+    <string name="respond_via_sms_canned_response_1">अभी बात नहीं हो सकती. क्‍या चल रहा है?</string>
+    <string name="respond_via_sms_canned_response_2">मैं आपको वापस कॉल करूंगा/करूंगी.</string>
+    <string name="respond_via_sms_canned_response_3">मैं आपको बाद में कॉल करूंगा/करूंगी.</string>
+    <string name="respond_via_sms_canned_response_4">अभी बात नहीं हो सकती. बाद में कॉल करें?</string>
+    <string name="respond_via_sms_setting_title">झटपट उत्तर</string>
+    <string name="respond_via_sms_setting_title_2">झटपट उत्तर संपादित करें</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">झटपट उत्तर</string>
+    <string name="respond_via_sms_menu_reset_default_activity">"डिफ़ॉल्ट ऐप्स  रीसेट करें"</string>
+    <string name="respond_via_sms_confirmation_format">%s को संदेश भेजा गया.</string>
+    <string name="outgoing_call_not_allowed">इस उपयोगकर्ता को गैर-आपातकालीन फ़ोन कॉल करने की अनुमति नहीं है</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">कॉल नहीं भेजा गया, कोई मान्य नंबर नहीं डाला गया था.</string>
+    <string name="no_vm_number">गुम वॉयस मेल नंबर</string>
+    <string name="no_vm_number_msg">सिम कार्ड पर कोई वॉयस मेल नंबर संग्रहीत नहीं है.</string>
+    <string name="add_vm_number_str">नंबर जोड़ें</string>
+</resources>

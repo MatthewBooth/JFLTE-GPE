@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Προεπιλογή δικτύου</item>
+        <item>Απόκρυψη αριθμού</item>
+        <item>Εμφάνιση αριθμού</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Παγκόσμια</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Μόνο EvDo</item>
+        <item>CDMA χωρίς EvDo</item>
+        <item>Αυτόματη επιλογή EvDo/CDMA</item>
+        <item>Αυτόματη επιλογή GSM/WCDMA</item>
+        <item>Μόνο WCDMA</item>
+        <item>Μόνο GSM</item>
+        <item>Προτιμώνται GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Αγγλικά</item>
+        <item>Γαλλικά</item>
+        <item>Ισπανικά</item>
+        <item>Ιαπωνικά</item>
+        <item>Κορεατικά</item>
+        <item>Κινεζικά</item>
+        <item>Εβραϊκά</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Μόνο αρχική σελίδα</item>
+        <item>Αυτόματο</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Απενεργοποιήθηκε</item>
+        <item>TTY πλήρες</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Κανονική</item>
+        <item>Συνεχόμενος</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Nieznany</string>
+    <string name="notification_missedCallTitle">Nieodebrane połączenie</string>
+    <string name="notification_missedCallsTitle">Połączenia nieodebrane</string>
+    <string name="notification_missedCallsMsg">%s nieodebranych połączeń</string>
+    <string name="notification_missedCallTicker">Nieodebrane połączenie z %s</string>
+    <string name="notification_missedCall_call_back">Oddzwoń</string>
+    <string name="notification_missedCall_message">Wiadomość</string>
+    <string name="accessibility_call_muted">Połączenie wyciszone.</string>
+    <string name="accessibility_speakerphone_enabled">Głośnik włączony.</string>
+    <string name="respond_via_sms_canned_response_1">Nie mogę rozmawiać. Co słychać?</string>
+    <string name="respond_via_sms_canned_response_2">Za chwilę do Ciebie oddzwonię.</string>
+    <string name="respond_via_sms_canned_response_3">Zadzwonię do Ciebie później.</string>
+    <string name="respond_via_sms_canned_response_4">Nie mogę rozmawiać. Zadzwonisz później?</string>
+    <string name="respond_via_sms_setting_title">Szybkie odpowiedzi</string>
+    <string name="respond_via_sms_setting_title_2">Edytuj szybkie odpowiedzi</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Szybka odpowiedź</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetuj domyślną aplikację</string>
+    <string name="respond_via_sms_confirmation_format">Wiadomość wysłano na numer %s.</string>
+    <string name="outgoing_call_not_allowed">Ten użytkownik nie ma uprawnień do połączeń innych niż alarmowe</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Połączenie niezrealizowane. Nie podano poprawnego numeru.</string>
+    <string name="no_vm_number">Brakuje numeru poczty głosowej</string>
+    <string name="no_vm_number_msg">Na karcie SIM nie ma zapisanego numeru poczty głosowej.</string>
+    <string name="add_vm_number_str">Dodaj numer</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="floating_action_button_animation_duration">250</integer>
+    <integer name="dialpad_slide_in_duration">400</integer>
+    <integer name="dialpad_slide_out_duration">400</integer>
+    <integer name="OtaShowActivationScreen">1</integer>
+    <integer name="OtaShowListeningScreen">1</integer>
+    <integer name="OtaShowActivateFailTimes">0</integer>
+    <integer name="OtaPlaySuccessFailureTone">0</integer>
+    <integer name="dialpad_layout_weight_digits">20</integer>
+    <integer name="dialpad_layout_weight_dialpad">65</integer>
+    <integer name="dialpad_layout_weight_additional_buttons">15</integer>
+</resources>

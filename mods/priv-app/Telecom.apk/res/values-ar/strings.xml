@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">الهاتف</string>
+    <string name="unknown">غير معروف</string>
+    <string name="notification_missedCallTitle">مكالمة فائتة</string>
+    <string name="notification_missedCallsTitle">المكالمات الفائتة</string>
+    <string name="notification_missedCallsMsg">%s من المكالمات الفائتة</string>
+    <string name="notification_missedCallTicker">مكالمة فائتة من %s</string>
+    <string name="notification_missedCall_call_back">معاودة الاتصال</string>
+    <string name="notification_missedCall_message">رسالة</string>
+    <string name="accessibility_call_muted">تم كتم صوت المكالمة.</string>
+    <string name="accessibility_speakerphone_enabled">تم تمكين مكبر صوت الهاتف.</string>
+    <string name="respond_via_sms_canned_response_1">لا يمكنني التحدث الآن. ماذا هناك؟</string>
+    <string name="respond_via_sms_canned_response_2">سأعاود الاتصال بك.</string>
+    <string name="respond_via_sms_canned_response_3">سأتصل بك لاحقًا.</string>
+    <string name="respond_via_sms_canned_response_4">لا يمكنني التحدث الآن. اتصل بي لاحقًا.</string>
+    <string name="respond_via_sms_setting_title">الردود السريعة</string>
+    <string name="respond_via_sms_setting_title_2">تعديل الردود السريعة</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">رد سريع</string>
+    <string name="respond_via_sms_menu_reset_default_activity">إعادة تعيين التطبيق الافتراضي</string>
+    <string name="respond_via_sms_confirmation_format">تم إرسال الرسالة إلى %s.</string>
+    <string name="outgoing_call_not_allowed">هذا المستخدم غير مسموح له بإجراء مكالمات هاتفية بخلاف مكالمات الطوارئ</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">لم يتم إرسال الاتصال، لم يتم إدخال رقم صالح.</string>
+    <string name="no_vm_number">رقم البريد الصوتي مفقود</string>
+    <string name="no_vm_number_msg">‏لم يتم تخزين رقم بريد صوتي على بطاقة SIM.</string>
+    <string name="add_vm_number_str">إضافة رقم</string>
+</resources>

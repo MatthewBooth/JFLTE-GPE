@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">ទូរស័ព្ទ</string>
+    <string name="unknown">មិន​ស្គាល់</string>
+    <string name="notification_missedCallTitle">ខកខាន​ទទួល</string>
+    <string name="notification_missedCallsTitle">ខកខាន​ទទួល</string>
+    <string name="notification_missedCallsMsg">%s ខកខាន​ការ​​ទទួល</string>
+    <string name="notification_missedCallTicker">ខកខាន​ទទួល​ពី %s</string>
+    <string name="notification_missedCall_call_back">ហៅ​ទៅ​វិញ</string>
+    <string name="notification_missedCall_message">សារ</string>
+    <string name="accessibility_call_muted">ការ​ហៅ​បិទ​សំឡេង។</string>
+    <string name="accessibility_speakerphone_enabled">បាន​បើក​អូប៉ាល័រ​ទូរស័ព្ទ។</string>
+    <string name="respond_via_sms_canned_response_1">មិន​អាច​និយាយ​បាន​ឥឡូវ​នេះ។ មាន​អ្វី​កើត​ឡើង?</string>
+    <string name="respond_via_sms_canned_response_2">ខ្ញុំ​នឹង​ហៅ​​​​ទៅ​អ្នក​​វិញ។</string>
+    <string name="respond_via_sms_canned_response_3">ខ្ញុំ​នឹង​ហៅ​ទៅ​អ្នក​នៅ​ពេល​ក្រោយ។</string>
+    <string name="respond_via_sms_canned_response_4">មិន​អាច​និយាយ​បាន​ទេ​ឥឡូវ​នេះ។ ហៅ​​​​មក​ខ្ញុំ​ពេល​ក្រោយ?</string>
+    <string name="respond_via_sms_setting_title">ការ​ឆ្លើយតប​រហ័ស</string>
+    <string name="respond_via_sms_setting_title_2">កែ​ការ​ឆ្លើយតប​រហ័ស</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">ឆ្លើយតប​រហ័ស</string>
+    <string name="respond_via_sms_menu_reset_default_activity">កំណត់​កម្មវិធី​លំនាំដើម​ឡើងវិញ</string>
+    <string name="respond_via_sms_confirmation_format">បាន​ផ្ញើ​សារ​ទៅ %s ។</string>
+    <string name="outgoing_call_not_allowed">អ្នក​ប្រើ​ម្នាក់​នេះ​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​បង្កើត​កា​រ​ហៅ​ទូរស័ព្ទ​ពេល​មិន​អាសន្ន</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">មិន​បាន​ផ្ញើ​ការ​ហៅ បាន​បញ្ចូល​លេខ​​​មិន​ត្រឹមត្រូវ។</string>
+    <string name="no_vm_number">បាត់​​ចំនួន​​សារ​ជា​សំឡេង</string>
+    <string name="no_vm_number_msg">គ្មាន​ចំនួន​សារ​ជា​សំឡេង​​ត្រូវ​បាន​រក្សា​ទុក​នៅ​លើ​ស៊ី​ម​កាត​ទេ​។</string>
+    <string name="add_vm_number_str">បន្ថែម​លេខ</string>
+</resources>

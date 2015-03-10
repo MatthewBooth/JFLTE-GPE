@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">لا اتصال بيانات لمدة %s دقيقة</item>
+        <item quantity="one">لا اتصال بيانات لمدة %s دقيقة</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">سيكون الهاتف في وضع معاودة الاتصال بالطوارئ لمدة %s دقائق. لا يمكن استخدام تطبيقات تستخدم اتصال البيانات أثناء استخدام هذا الوضع. هل تريد الخروج الآن؟</item>
+        <item quantity="one">سيكون الهاتف في وضع معاودة الاتصال بالطوارئ لمدة %s دقائق. لا يمكن استخدام تطبيقات أثناء استخدام هذا الوضع. هل تريد الخروج الآن؟</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">الإجراء المحدد ليس متاحًا أثناء استخدام وضع معاودة الاتصال بالطوارئ. سيظل الهاتف في هذا الوضع لمدة %s دقائق. هل تريد الخروج الآن؟</item>
+        <item quantity="one">الإجراء المحدد ليس متاحًا أثناء استخدام وضع معاودة الاتصال بالطوارئ. سيظل الهاتف في هذا الوضع لمدة %s دقائق. هل تريد الخروج الآن؟</item>
+    </plurals>
+</resources>

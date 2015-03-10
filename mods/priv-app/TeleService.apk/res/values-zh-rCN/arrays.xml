@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>网络默认设置</item>
+        <item>隐藏号码</item>
+        <item>显示号码</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>通用</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>仅 EvDo</item>
+        <item>CDMA，无 EvDo 功能</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+        <item>首选 GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>英语</item>
+        <item>法语</item>
+        <item>西班牙语</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>中文</item>
+        <item>希伯来语</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>仅本地系统</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>未启用 TTY</item>
+        <item>TTY 完整</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>正常</item>
+        <item>长</item>
+    </string-array>
+</resources>

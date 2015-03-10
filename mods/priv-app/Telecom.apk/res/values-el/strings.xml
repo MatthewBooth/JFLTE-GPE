@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Τηλέφωνο</string>
+    <string name="unknown">Άγνωστος</string>
+    <string name="notification_missedCallTitle">Αναπάντητη κλήση</string>
+    <string name="notification_missedCallsTitle">Αναπάντητες κλήσεις</string>
+    <string name="notification_missedCallsMsg">%s αναπάντητες κλήσεις</string>
+    <string name="notification_missedCallTicker">Αναπάντητη κλήση από %s</string>
+    <string name="notification_missedCall_call_back">Επανάκληση</string>
+    <string name="notification_missedCall_message">Μήνυμα</string>
+    <string name="accessibility_call_muted">Η κλήση τέθηκε σε σίγαση.</string>
+    <string name="accessibility_speakerphone_enabled">Η ανοικτή συνομιλία ενεργοποιήθηκε.</string>
+    <string name="respond_via_sms_canned_response_1">Δεν μπορώ τώρα. Συμβαίνει κάτι;</string>
+    <string name="respond_via_sms_canned_response_2">Θα σου τηλεφωνήσω αμέσως.</string>
+    <string name="respond_via_sms_canned_response_3">Θα σου τηλεφωνήσω αργότερα.</string>
+    <string name="respond_via_sms_canned_response_4">Δεν μπορώ τώρα. Πάρε με αργότερα.</string>
+    <string name="respond_via_sms_setting_title">Γρήγορες απαντήσεις</string>
+    <string name="respond_via_sms_setting_title_2">Επεξεργασία γρήγορων απαντήσεων</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Γρήγορη απάντηση</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Επαναφορά προεπιλ. εφαρμογής</string>
+    <string name="respond_via_sms_confirmation_format">Το μήνυμα εστάλη στο %s.</string>
+    <string name="outgoing_call_not_allowed">Δεν επιτρέπεται σε αυτόν το χρήστη να πραγματοποιεί τηλεφωνικές κλήσεις οι οποίες δεν είναι εκτάκτου ανάγκης</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Η κλήση δεν πραγματοποιήθηκε, δεν έγινε εισαγωγή έγκυρου αριθμού.</string>
+    <string name="no_vm_number">Λείπει ο αριθμός αυτόματου τηλεφωνητή</string>
+    <string name="no_vm_number_msg">Δεν έχει αποθηκευτεί αριθμός για τον αυτόματο τηλεφωνητή στην κάρτα SIM.</string>
+    <string name="add_vm_number_str">Προσθήκη αριθμού</string>
+</resources>

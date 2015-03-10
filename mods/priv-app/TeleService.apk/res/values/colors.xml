@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_theme_color">#ff0288d1</color>
+    <color name="dialer_theme_color_dark">#ff0277bd</color>
+    <color name="background_dialpad">#fffcfcfc</color>
+    <color name="background_dialpad_pressed">#ffececec</color>
+    <color name="dialpad_primary_text_color">@color/dialer_theme_color</color>
+    <color name="dialpad_secondary_text_color">#ff737373</color>
+    <color name="dialpad_digits_text_color">#ff333333</color>
+    <color name="dialpad_separator_line_color">#ffdadada</color>
+    <color name="dialpad_icon_tint">#ffb3b3b3</color>
+    <color name="dialpad_voicemail_tint">#ff919191</color>
+    <color name="incall_callTypeSip">#ff99ce3f</color>
+    <color name="incall_call_banner_background">#a0000000</color>
+    <color name="incall_secondary_info_background">#8033b5e5</color>
+    <color name="incall_call_banner_text_color">#ffffffff</color>
+    <color name="dtmf_dialer_display_text">#ffffffff</color>
+    <color name="people_app_theme_color">#ff33b5e5</color>
+    <color name="on_hold_dim_effect">#cc000000</color>
+    <color name="manage_conference_secondary_text_color">#ff888888</color>
+    <color name="phone_settings_background_color">#fff5f5f5</color>
+    <color name="phone_settings_actionbar_text_color">#ffffffff</color>
+    <color name="actionbar_background_color">@color/dialer_theme_color</color>
+    <color name="actionbar_background_color_dark">@color/dialer_theme_color_dark</color>
+    <color name="actionbar_icon_color">#ffffffff</color>
+    <color name="setting_primary_color">#ff333333</color>
+    <color name="setting_secondary_color">#ff737373</color>
+    <color name="dialer_dialpad_touch_tint">#330288d1</color>
+    <color name="floating_action_button_touch_tint">#80ffffff</color>
+    <color name="network_operators_color_primary">#ff263238</color>
+    <color name="network_operators_color_primary_dark">#ff21272b</color>
+</resources>

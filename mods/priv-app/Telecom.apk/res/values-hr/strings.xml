@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="notification_missedCallTitle">Propušteni poziv</string>
+    <string name="notification_missedCallsTitle">Propušteni pozivi</string>
+    <string name="notification_missedCallsMsg">Broj propuštenih poziva: %s</string>
+    <string name="notification_missedCallTicker">Propušten poziv kontakta %s</string>
+    <string name="notification_missedCall_call_back">Povratni poziv</string>
+    <string name="notification_missedCall_message">Poruka</string>
+    <string name="accessibility_call_muted">Zvuk poziva isključen.</string>
+    <string name="accessibility_speakerphone_enabled">Zvučnik je omogućen.</string>
+    <string name="respond_via_sms_canned_response_1">Sada ne mogu razgovarati. Što ima?</string>
+    <string name="respond_via_sms_canned_response_2">Nazvat ću vas odmah.</string>
+    <string name="respond_via_sms_canned_response_3">Zvat ću vas kasnije.</string>
+    <string name="respond_via_sms_canned_response_4">Sada ne mogu razgovarati. Nazovite me kasnije?</string>
+    <string name="respond_via_sms_setting_title">Brzi odgovori</string>
+    <string name="respond_via_sms_setting_title_2">Uređivanje brzih odgovora</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Brzi odgovor</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Poništavanje zadane aplikacije</string>
+    <string name="respond_via_sms_confirmation_format">Poruka poslana na broj %s.</string>
+    <string name="outgoing_call_not_allowed">Ovaj korisnik smije uspostavljati samo hitne pozive</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Poziv nije uspostavljen, nije unesen važeći broj.</string>
+    <string name="no_vm_number">Nedostaje broj govorne pošte</string>
+    <string name="no_vm_number_msg">Na SIM kartici nije spremljen broj govorne pošte.</string>
+    <string name="add_vm_number_str">Dodaj broj</string>
+</resources>

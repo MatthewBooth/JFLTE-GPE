@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">ໂທລະສັບ</string>
+    <string name="unknown">ບໍ່ຮູ້ຈັກ</string>
+    <string name="notification_missedCallTitle">ສາຍທີ່ບໍ່ໄດ້ຮັບ</string>
+    <string name="notification_missedCallsTitle">ສາຍທີ່ບໍ່ໄດ້ຮັບ</string>
+    <string name="notification_missedCallsMsg">%s ສາຍບໍ່ໄດ້ຮັບ</string>
+    <string name="notification_missedCallTicker">ສາຍທີ່ບໍ່ໄດ້ຮັບຈາກ %s</string>
+    <string name="notification_missedCall_call_back">ໂທກັບ</string>
+    <string name="notification_missedCall_message">ຂໍ້ຄວາມ</string>
+    <string name="accessibility_call_muted">ປິດສຽງການໂທແລ້ວ.</string>
+    <string name="accessibility_speakerphone_enabled">ເປີດລຳໂພງແລ້ວ.</string>
+    <string name="respond_via_sms_canned_response_1">ບໍ່ສາມາດລົມໄດ້ໃນຕອນນີ້. ມີຫຍັງບໍ່?</string>
+    <string name="respond_via_sms_canned_response_2">ຂ້ອຍຈະໂທກັບຫາເຈົ້າທັນທີ.</string>
+    <string name="respond_via_sms_canned_response_3">ຂ້ອຍຈະໂທຫາເຈົ້ານຳຫຼັງ.</string>
+    <string name="respond_via_sms_canned_response_4">ຕອນນີ້ລົມບໍ່ໄດ້ເທື່ອ. ເຈົ້າຄ່ອຍໂທຫາຂ້ອຍໃໝ່ໄດ້ບໍ່?</string>
+    <string name="respond_via_sms_setting_title">ຕອບກັບດ່ວນ</string>
+    <string name="respond_via_sms_setting_title_2">ແກ້ໄຂຂໍ້ຄວາມຕອບກັບດ່ວນ</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">ຕອບກັບດ່ວນ</string>
+    <string name="respond_via_sms_menu_reset_default_activity">ຄືນຄ່າແອັບຯເລີ່ມຕົ້ນ</string>
+    <string name="respond_via_sms_confirmation_format">ສົ່ງຂໍ້ຄວາມຫາ %s ແລ້ວ.</string>
+    <string name="outgoing_call_not_allowed">ຜູ່​ໃຊ້​ນີ້ບໍ່​ໄດ້​ຮັບ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໂທ​ສຸກ​ເສີນ​ໄດ້</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">ບໍ່ໄດ້ໂທເທື່ອ, ເບີໂທທີ່ລະບຸບໍ່ຖືກຕ້ອງ.</string>
+    <string name="no_vm_number">ບໍ່ມີເບີຂໍ້ຄວາມສຽງ</string>
+    <string name="no_vm_number_msg">ບໍ່ມີເບີຂໍ້ຄວາມສຽງຖືກບັນທຶກໃນ SIM card.</string>
+    <string name="add_vm_number_str">ເພີ່ມໝາຍເລກ</string>
+</resources>

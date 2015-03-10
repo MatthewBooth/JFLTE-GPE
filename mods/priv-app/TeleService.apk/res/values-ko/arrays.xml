@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>네트워크 기본값</item>
+        <item>발신자 표시 제한</item>
+        <item>발신자 표시</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>글로벌</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA+LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EvDo 전용</item>
+        <item>CDMA(EvDo 없음)</item>
+        <item>CDMA/EvDo 자동</item>
+        <item>GSM/WCDMA 자동</item>
+        <item>WCDMA 전용</item>
+        <item>GSM 전용</item>
+        <item>GSM/WCDMA로 기본 설정</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>영어</item>
+        <item>프랑스어</item>
+        <item>스페인어</item>
+        <item>일본어</item>
+        <item>한국어</item>
+        <item>중국어</item>
+        <item>히브리어</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>집 전용</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY 사용 안함</item>
+        <item>TTY 전체</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>보통</item>
+        <item>길게</item>
+    </string-array>
+</resources>

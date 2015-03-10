@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Alukho uxhumano lwamaminithi angu-%s</item>
+        <item quantity="one">Alukho uxhumano lwedatha lwamaminithi angu-%s</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Ucingo luzoba semodini ye-Emergency Callback amaminithi angu-%s. Ngenkathi ikule modi azikho izinhlelo ezisebenzisa ukuxhumana kwedatha ezingasetshenziswa. Ufuna ukuphuma manje?</item>
+        <item quantity="one">Ucingo luzoba semodini ye-Emergency Callback amaminithi angu-%s. Ngenkathi ikule modi awekho ama-apps asebenzisa ukuxhumana kwedatha angasetshenziswa. Ufuna ukuphuma manje?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Isenzo esikhethiwe asitholakali ngenkathi ukumodi ye-Emergency Callback. Ucingo luzoba kule modi amaminithi angu-%s. Ufuna ukuphuma manje?</item>
+        <item quantity="one">Isenzo esikhethiwe asitholakali uma usemodini ye-Emergency Callback. Ucingo luzoba kule modi amaminithi angu-%s. Ufuna ukuphuma manje?</item>
+    </plurals>
+</resources>

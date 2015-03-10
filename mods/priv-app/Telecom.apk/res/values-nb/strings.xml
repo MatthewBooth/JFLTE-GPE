@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Ukjent</string>
+    <string name="notification_missedCallTitle">Tapt anrop</string>
+    <string name="notification_missedCallsTitle">Tapte anrop</string>
+    <string name="notification_missedCallsMsg">%s tapte anrop</string>
+    <string name="notification_missedCallTicker">Tapt anrop fra %s</string>
+    <string name="notification_missedCall_call_back">Ring tilbake</string>
+    <string name="notification_missedCall_message">Melding</string>
+    <string name="accessibility_call_muted">Samtalelyd er kuttet.</string>
+    <string name="accessibility_speakerphone_enabled">Høyttaler er aktivert.</string>
+    <string name="respond_via_sms_canned_response_1">Kan ikke snakke nå. Hva skjer?</string>
+    <string name="respond_via_sms_canned_response_2">Jeg ringer deg straks tilbake.</string>
+    <string name="respond_via_sms_canned_response_3">Jeg ringer deg senere.</string>
+    <string name="respond_via_sms_canned_response_4">Ikke nå. Ringer du meg senere?</string>
+    <string name="respond_via_sms_setting_title">Hurtigsvar</string>
+    <string name="respond_via_sms_setting_title_2">Rediger hurtigsvar</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Hurtigsvar</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Tilbakestill standardappen</string>
+    <string name="respond_via_sms_confirmation_format">Melding er sendt til %s.</string>
+    <string name="outgoing_call_not_allowed">Denne brukeren har bare tillatelse til å ringe nødnumre</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Kunne ikke ringe. Du har ikke angitt et gyldig nummer.</string>
+    <string name="no_vm_number">Mangler nummer til telefonsvarer</string>
+    <string name="no_vm_number_msg">Det er ikke lagret noe telefonsvarernummer på SIM-kortet.</string>
+    <string name="add_vm_number_str">Legg til nummer</string>
+</resources>

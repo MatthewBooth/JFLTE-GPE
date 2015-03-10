@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>नेटवर्क सामान्य</item>
+        <item>नंबर छुपाएं</item>
+        <item>नंबर दिखाएं</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>वैश्विक</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>केवल EvDo</item>
+        <item>EvDo के बिना CDMA</item>
+        <item>CDMA/EvDo स्वतः</item>
+        <item>GSM/WCDMA स्वत:</item>
+        <item>केवल WCDMA</item>
+        <item>केवल GSM</item>
+        <item>GSM/WCDMA पसंदीदा</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>अंग्रेज़ी</item>
+        <item>फ़्रांसीसी</item>
+        <item>स्पेनिश</item>
+        <item>जापानी</item>
+        <item>कोरियाई</item>
+        <item>चीनी</item>
+        <item>हिब्रू</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>केवल होम</item>
+        <item>स्वचालित</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/सिम</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY बंद</item>
+        <item>TTY पूर्ण</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>सामान्य</item>
+        <item>लंबा</item>
+    </string-array>
+</resources>

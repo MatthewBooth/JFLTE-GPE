@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Chaguo-msingi la mtandao</item>
+        <item>Ficha nambari</item>
+        <item>Onyesha nambari</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Ulimwenguni Kote</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EvDo pekee</item>
+        <item>CDMA w/o EvDo</item>
+        <item>CDMA/EvDo otomatiki</item>
+        <item>GSM/WCDMA otomatiki</item>
+        <item>WCDMA pekee</item>
+        <item>GSM pekee</item>
+        <item>GSM/WCDMA inapendelewa</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Kiingereza</item>
+        <item>Kifaransa</item>
+        <item>Kihispania</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kichina</item>
+        <item>Kiyahudi</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Nyumbani tu</item>
+        <item>Otomatiki</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>Zima TTY</item>
+        <item>TTY Kamili</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Kawaida</item>
+        <item>Ndefu</item>
+    </string-array>
+</resources>

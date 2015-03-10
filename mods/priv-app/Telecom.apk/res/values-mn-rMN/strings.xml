@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Утас</string>
+    <string name="unknown">Тодорхойгүй</string>
+    <string name="notification_missedCallTitle">Аваагүй дуудлага</string>
+    <string name="notification_missedCallsTitle">Аваагүй дуудлагууд</string>
+    <string name="notification_missedCallsMsg">%s аваагүй дуудлага</string>
+    <string name="notification_missedCallTicker">%s-н аваагүй дуудлага</string>
+    <string name="notification_missedCall_call_back">Буцааж залгах</string>
+    <string name="notification_missedCall_message">Зурвас</string>
+    <string name="accessibility_call_muted">Дууг хаасан.</string>
+    <string name="accessibility_speakerphone_enabled">Чанга яригчийг идэвхжүүлсэн.</string>
+    <string name="respond_via_sms_canned_response_1">Ярих боломжгүй байна. Сонин юу байна?</string>
+    <string name="respond_via_sms_canned_response_2">Би тань руу яг одоо буцаагаад залгана.</string>
+    <string name="respond_via_sms_canned_response_3">Би тань руу дараа залгана.</string>
+    <string name="respond_via_sms_canned_response_4">Одоо ярих боломжгүй байна. Дараа надруу залгах уу?</string>
+    <string name="respond_via_sms_setting_title">Шуурхай хариунууд</string>
+    <string name="respond_via_sms_setting_title_2">Шуурхай хариунуудыг засах</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Шуурхай хариу</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Үндсэн апп-г сэргээх</string>
+    <string name="respond_via_sms_confirmation_format">Зурвасыг %s руу илгээв.</string>
+    <string name="outgoing_call_not_allowed">Энэ хэрэглэгч нь яаралтай бус утасны дуудлага хийх эрхгүй</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Дуудлага илгээгдсэнгүй, зөв дугаар оруулаагүй байна.</string>
+    <string name="no_vm_number">Дуут шуудангийн дугаар байхгүй</string>
+    <string name="no_vm_number_msg">SIM карт дээр дуут шуудангийн дугаар хадгалагдаагүй байна.</string>
+    <string name="add_vm_number_str">Дугаар нэмэх</string>
+</resources>

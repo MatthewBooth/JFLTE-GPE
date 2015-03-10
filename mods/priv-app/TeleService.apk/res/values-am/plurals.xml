@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">ለ %s ደቂቃ ምንም የውሂብ ተያያዥነት የለም</item>
+        <item quantity="one">" ለ%s ደቂቃ ምንም የውሂብ ተያያዥነት የለም"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">ለ%sደቂቃዎች ስልኩ በየአደጋ ጥሪ ሁናቴ ውስጥ ይሆናል። በዚህ ሁናቴ ውስጥ ምንም መተግበሪያዎች የውሂብ ግንኙነት በመጠቀም መጠቀም አይቻልም። አሁን መውጣት ይፈልጋሉ?</item>
+        <item quantity="one">ለ%s ደቂቃ ስልኩ በየአደጋ ጥሪ ሁናቴ ውስጥ ይሆናል። በዚህ ሁናቴ ውስጥ ምንም መተግበሪያዎች የውሂብ ግንኙነት በመጠቀም መጠቀም አይቻልም። አሁን መውጣት ይፈልጋሉ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">የአደጋ ጥሪ ሁናቴ በሚሆንበት ጊዜ የተመረጠው እርምጃ አይገኝም። ስልኩ ለ%s ደቂቃዎች በዚህ ሁናቴ ውስጥ ይሆናል። አሁን መውጣት ይፈልጋሉ?</item>
+        <item quantity="one">የአደጋ ጥሪ ሁናቴ በሚሆንበት ጊዜ የተመረጠው እርምጃ አይገኝም። ስልኩ ለ%s ደቂቃ በዚህ ሁናቴ ውስጥ ይሆናል። አሁን መውጣት ይፈልጋሉ?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Tundmatu</string>
+    <string name="notification_missedCallTitle">Vastamata kõne</string>
+    <string name="notification_missedCallsTitle">Vastamata kõned</string>
+    <string name="notification_missedCallsMsg">%s vastamata kõnet</string>
+    <string name="notification_missedCallTicker">Vastamata kõne helistajalt %s</string>
+    <string name="notification_missedCall_call_back">Helista tagasi</string>
+    <string name="notification_missedCall_message">Sõnum</string>
+    <string name="accessibility_call_muted">Kõne on summutatud.</string>
+    <string name="accessibility_speakerphone_enabled">Valjuhääldi on sisse lülitatud.</string>
+    <string name="respond_via_sms_canned_response_1">Ei saa praegu rääkida. Milles asi?</string>
+    <string name="respond_via_sms_canned_response_2">Helistan kohe tagasi.</string>
+    <string name="respond_via_sms_canned_response_3">Helistan sulle hiljem.</string>
+    <string name="respond_via_sms_canned_response_4">Ei saa rääkida. Helistad hiljem?</string>
+    <string name="respond_via_sms_setting_title">Kiirvastused</string>
+    <string name="respond_via_sms_setting_title_2">Kiirvastuste muutmine</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Kiirvastus</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Lähtesta vaikerakendus</string>
+    <string name="respond_via_sms_confirmation_format">Sõnum on saadetud numbrile %s.</string>
+    <string name="outgoing_call_not_allowed">See kasutaja võib teha ainult hädaabikõnesid</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Kõnet ei tehtud, sisestati kehtetu number.</string>
+    <string name="no_vm_number">Puudub kõnepostinumber</string>
+    <string name="no_vm_number_msg">SIM-kaardile pole salvestatud ühtegi kõnepostinumbrit.</string>
+    <string name="add_vm_number_str">Lisa number</string>
+</resources>

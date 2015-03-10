@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Tīkla noklusējums</item>
+        <item>Slēpt numuru</item>
+        <item>Rādīt numuru</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Vispārējs</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Tikai EvDo</item>
+        <item>CDMA bez EvDo</item>
+        <item>CDMA/EvDo automātiski</item>
+        <item>GSM/WCDMA automātiski</item>
+        <item>Tikai WCDMA</item>
+        <item>Tikai GSM</item>
+        <item>Ieteicams GSM/WCDMA režīms</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>angļu</item>
+        <item>franču</item>
+        <item>spāņu</item>
+        <item>japāņu</item>
+        <item>korejiešu</item>
+        <item>ķīniešu</item>
+        <item>ivrits</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Tikai mājās</item>
+        <item>Automātiski</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>Teletaips ir izslēgts</item>
+        <item>Viss teletaips</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normāls</item>
+        <item>Ilgs</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Okuzenzakalelayo kwenethiwekhi</item>
+        <item>Fihla inombolo</item>
+        <item>Bonisa inombolo</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>I-LTE / WCDMA</item>
+        <item>I-LTE</item>
+        <item>Emhlabeni jikelele</item>
+        <item>I-GSM/WCDMA/LTE</item>
+        <item>I-CDMA + LTE/EvDo</item>
+        <item>I-CDMA/EvDo/GSM/WCDMA</item>
+        <item>I-EvDo kuphela</item>
+        <item>I-CDMA w/o EvDo</item>
+        <item>I-CDMA / EvDo ezenzakalelayo</item>
+        <item>Okuzenzakalelayo kwe-GSM /WCDMA</item>
+        <item>I-WCDMA kuphela</item>
+        <item>I-GSM kuphela</item>
+        <item>Okukhethwayo kwe-GSM / WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>i-English</item>
+        <item>isi-French</item>
+        <item>isi-Spanish</item>
+        <item>isi-Japanese</item>
+        <item>isi-Korean</item>
+        <item>isi-Chinese</item>
+        <item>isi-Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>44</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Ekhaya kuphela</item>
+        <item>Okuzenzakalelayo</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>I_RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>I-TTY Ivaliwe</item>
+        <item>I-TTY Igcwele</item>
+        <item>I-TTY HCO</item>
+        <item>I-TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Jwayelekile</item>
+        <item>Kude</item>
+    </string-array>
+</resources>

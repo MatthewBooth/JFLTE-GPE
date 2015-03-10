@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Мрежа по подразбиране</item>
+        <item>Скриване на номера</item>
+        <item>Номерът да се показва</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA</item>
+        <item>LTE</item>
+        <item>Глобален</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Само EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>Авт. CDMA/EvDo</item>
+        <item>Авт. GSM/WCDMA</item>
+        <item>Само WCDMA</item>
+        <item>Само GSM</item>
+        <item>Предпочита се GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>английски</item>
+        <item>френски</item>
+        <item>испански</item>
+        <item>японски</item>
+        <item>корейски</item>
+        <item>китайски</item>
+        <item>иврит</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Само „Начало“</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY е изкл.</item>
+        <item>Пълен TTY режим</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Нормална</item>
+        <item>Продължително</item>
+    </string-array>
+</resources>

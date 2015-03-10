@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="telecommAppLabel">Telefon</string>
+    <string name="unknown">Neznámý volající</string>
+    <string name="notification_missedCallTitle">Zmeškaný hovor</string>
+    <string name="notification_missedCallsTitle">Zmeškané hovory</string>
+    <string name="notification_missedCallsMsg">Zmeškané hovory: %s.</string>
+    <string name="notification_missedCallTicker">Zmeškaný hovor od volajícího %s.</string>
+    <string name="notification_missedCall_call_back">Zavolat zpět</string>
+    <string name="notification_missedCall_message">Zpráva</string>
+    <string name="accessibility_call_muted">Hovor ztlumen.</string>
+    <string name="accessibility_speakerphone_enabled">Reproduktor je zapnutý.</string>
+    <string name="respond_via_sms_canned_response_1">Teď nemůžu telefonovat, o co jde?</string>
+    <string name="respond_via_sms_canned_response_2">Zavolám zpátky.</string>
+    <string name="respond_via_sms_canned_response_3">Zavolám později.</string>
+    <string name="respond_via_sms_canned_response_4">Nemůžu telefonovat, volejte jindy.</string>
+    <string name="respond_via_sms_setting_title">Rychlé odpovědi</string>
+    <string name="respond_via_sms_setting_title_2">Upravit rychlé odpovědi</string>
+    <string name="respond_via_sms_setting_summary" />
+    <string name="respond_via_sms_edittext_dialog_title">Rychlá odpověď</string>
+    <string name="respond_via_sms_menu_reset_default_activity">Resetovat výchozí aplikaci</string>
+    <string name="respond_via_sms_confirmation_format">Zpráva byla odeslána na číslo %s.</string>
+    <string name="outgoing_call_not_allowed">Uživatel smí uskutečňovat pouze tísňová volání.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Hovor nelze spojit, nebylo zadáno platné číslo.</string>
+    <string name="no_vm_number">Chybí číslo hlasové schránky</string>
+    <string name="no_vm_number_msg">Na SIM kartě není uloženo žádné číslo hlasové schránky.</string>
+    <string name="add_vm_number_str">Přidat číslo</string>
+</resources>

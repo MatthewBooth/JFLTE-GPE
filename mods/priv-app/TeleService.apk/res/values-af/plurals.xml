@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Geen dataverbinding vir %s minute nie</item>
+        <item quantity="one">Geen dataverbinding vir %s minuut nie</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">"Die telefoon sal in Noodterugbel-modus wees vir %s minute. Terwyl in hierdie modus kan geen programme wat 'n dataverbinding nodig het, gebruik word nie. Wil jy nou uitgaan?"</item>
+        <item quantity="one">"Die telefoon sal in Noodterugbel-modus wees vir %s minuut. Terwyl in hierdie modus kan geen programme wat 'n dataverbinding nodig het, gebruik word nie. Wil jy nou uitgaan?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Die geselekteerde aksie is nie beskikbaar terwyl in die Noodterugbelmodus is nie. Die foon sal in hierdie modus vir %s minuut wees. Wil jy nou uitgaan?</item>
+        <item quantity="one">Die geselekteerde aksie is nie beskikbaar terwyl in die Noodterugbelmodus is nie. Die foon sal in hierdie modus vir %s minuut wees. Wil jy nou uitgaan?</item>
+    </plurals>
+</resources>
