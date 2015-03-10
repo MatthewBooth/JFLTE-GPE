@@ -184,16 +184,25 @@
 
     move-result v6
 
-    if-eqz v6, :cond_2
+    if-eqz v6, :cond_3
 
     const-string v6, "android.intent.action.CALL"
 
     invoke-virtual {v6, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
+    move-result v6
+
+    if-nez v6, :cond_1
+
+    const-string v6, "android.intent.action.CALL_PRIVILEGED"
+
+    invoke-virtual {v6, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
+    :cond_1
     const-string v0, "Placing call immediately instead of waiting for  OutgoingCallBroadcastReceiver: %s"
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -218,7 +227,7 @@
 
     goto :goto_0
 
-    :cond_1
+    :cond_2
     const-string v0, "Unhandled intent %s. Ignoring and not placing call."
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -231,7 +240,7 @@
 
     goto :goto_0
 
-    :cond_2
+    :cond_3
     iget-object v0, p0, Lcom/android/server/telecom/NewOutgoingCallIntentBroadcaster;->mContext:Landroid/content/Context;
 
     invoke-static {v12, v0}, Landroid/telephony/PhoneNumberUtils;->getNumberFromIntent(Landroid/content/Intent;Landroid/content/Context;)Ljava/lang/String;
@@ -242,7 +251,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     const-string v0, "Empty number obtained from the call intent."
 
@@ -254,12 +263,12 @@
 
     goto :goto_0
 
-    :cond_3
+    :cond_4
     invoke-static {v13}, Landroid/telephony/PhoneNumberUtils;->isUriNumber(Ljava/lang/String;)Z
 
     move-result v6
 
-    if-nez v6, :cond_4
+    if-nez v6, :cond_5
 
     invoke-static {v13}, Landroid/telephony/PhoneNumberUtils;->convertKeypadLettersToDigits(Ljava/lang/String;)Ljava/lang/String;
 
@@ -269,7 +278,7 @@
 
     move-result-object v13
 
-    :cond_4
+    :cond_5
     const-string v0, "Checking restrictions for number : %s"
 
     new-array v2, v1, [Ljava/lang/Object;
@@ -282,7 +291,7 @@
 
     invoke-static {p0, v0, v2}, Lcom/android/server/telecom/Log;->v(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    if-eqz v13, :cond_6
+    if-eqz v13, :cond_7
 
     iget-object v0, p0, Lcom/android/server/telecom/NewOutgoingCallIntentBroadcaster;->mContext:Landroid/content/Context;
 
@@ -290,7 +299,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_6
+    if-eqz v0, :cond_7
 
     move v0, v1
 
@@ -317,9 +326,9 @@
 
     move-result v2
 
-    if-eqz v2, :cond_5
+    if-eqz v2, :cond_6
 
-    if-eqz v0, :cond_7
+    if-eqz v0, :cond_8
 
     const-string v2, "ACTION_CALL_PRIVILEGED is used while the number is a potential emergency number. Using ACTION_CALL_EMERGENCY as an action instead."
 
@@ -340,7 +349,7 @@
 
     invoke-virtual {v12, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    :cond_5
+    :cond_6
     invoke-virtual {v12}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v2
@@ -351,13 +360,13 @@
 
     move-result v7
 
-    if-eqz v7, :cond_c
+    if-eqz v7, :cond_d
 
-    if-eqz v0, :cond_14
+    if-eqz v0, :cond_15
 
     iget-boolean v0, p0, Lcom/android/server/telecom/NewOutgoingCallIntentBroadcaster;->mIsDefaultOrSystemPhoneApp:Z
 
-    if-nez v0, :cond_8
+    if-nez v0, :cond_9
 
     const-string v0, "Cannot call potential emergency number %s with CALL Intent %s unless caller is system or default dialer."
 
@@ -425,21 +434,21 @@
 
     goto/16 :goto_0
 
-    :cond_6
+    :cond_7
     move v0, v5
 
     goto/16 :goto_1
 
-    :cond_7
+    :cond_8
     const-string v2, "android.intent.action.CALL"
 
     goto :goto_2
 
-    :cond_8
+    :cond_9
     move v2, v1
 
     :goto_3
-    if-eqz v2, :cond_9
+    if-eqz v2, :cond_a
 
     const-string v0, "Placing call immediately instead of waiting for  OutgoingCallBroadcastReceiver: %s"
 
@@ -449,7 +458,7 @@
 
     invoke-static {p0, v0, v4}, Lcom/android/server/telecom/Log;->i(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    if-eqz v6, :cond_f
+    if-eqz v6, :cond_10
 
     const-string v0, "sip"
 
@@ -482,8 +491,8 @@
 
     invoke-virtual/range {v6 .. v11}, Lcom/android/server/telecom/CallsManager;->placeOutgoingCall(Lcom/android/server/telecom/Call;Landroid/net/Uri;Landroid/telecom/GatewayInfo;ZI)V
 
-    :cond_9
-    if-nez v2, :cond_10
+    :cond_a
+    if-nez v2, :cond_11
 
     move v0, v1
 
@@ -494,13 +503,13 @@
 
     invoke-direct {v7, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    if-eqz v13, :cond_a
+    if-eqz v13, :cond_b
 
     const-string v2, "android.intent.extra.PHONE_NUMBER"
 
     invoke-virtual {v7, v2, v13}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    :cond_a
+    :cond_b
     const/high16 v2, 0x10000000
 
     invoke-virtual {v7, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
@@ -513,7 +522,7 @@
 
     invoke-static {p0, v2, v4}, Lcom/android/server/telecom/Log;->v(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    if-eqz v12, :cond_b
+    if-eqz v12, :cond_c
 
     const-string v2, "com.android.phone.extra.GATEWAY_PROVIDER_PACKAGE"
 
@@ -531,16 +540,16 @@
 
     move-result v2
 
-    if-nez v2, :cond_11
+    if-nez v2, :cond_12
 
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
-    if-nez v2, :cond_11
+    if-nez v2, :cond_12
 
     :goto_6
-    if-eqz v1, :cond_12
+    if-eqz v1, :cond_13
 
     const-string v1, "com.android.phone.extra.GATEWAY_PROVIDER_PACKAGE"
 
@@ -568,7 +577,7 @@
 
     invoke-static {p0, v1, v2}, Lcom/android/server/telecom/Log;->d(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    :cond_b
+    :cond_c
     :goto_7
     iget-object v6, p0, Lcom/android/server/telecom/NewOutgoingCallIntentBroadcaster;->mContext:Landroid/content/Context;
 
@@ -576,7 +585,7 @@
 
     const-string v9, "android.permission.PROCESS_OUTGOING_CALLS"
 
-    if-eqz v0, :cond_13
+    if-eqz v0, :cond_14
 
     new-instance v10, Lcom/android/server/telecom/NewOutgoingCallIntentBroadcaster$NewOutgoingCallBroadcastIntentReceiver;
 
@@ -593,16 +602,16 @@
 
     goto/16 :goto_0
 
-    :cond_c
+    :cond_d
     const-string v7, "android.intent.action.CALL_EMERGENCY"
 
     invoke-virtual {v7, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
-    if-eqz v2, :cond_e
+    if-eqz v2, :cond_f
 
-    if-nez v0, :cond_d
+    if-nez v0, :cond_e
 
     const-string v0, "Cannot call non-potential-emergency number %s with EMERGENCY_CALL Intent %s."
 
@@ -618,12 +627,12 @@
 
     goto/16 :goto_0
 
-    :cond_d
+    :cond_e
     move v2, v1
 
     goto/16 :goto_3
 
-    :cond_e
+    :cond_f
     const-string v0, "Unhandled Intent %s. Ignoring and not placing call."
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -636,22 +645,22 @@
 
     goto/16 :goto_0
 
-    :cond_f
+    :cond_10
     const-string v0, "tel"
 
     goto/16 :goto_4
 
-    :cond_10
+    :cond_11
     move v0, v5
 
     goto/16 :goto_5
 
-    :cond_11
+    :cond_12
     move v1, v5
 
     goto :goto_6
 
-    :cond_12
+    :cond_13
     const-string v1, "No provider extras found in call intent."
 
     new-array v2, v5, [Ljava/lang/Object;
@@ -660,12 +669,12 @@
 
     goto :goto_7
 
-    :cond_13
+    :cond_14
     move-object v10, v3
 
     goto :goto_8
 
-    :cond_14
+    :cond_15
     move v2, v5
 
     goto/16 :goto_3
