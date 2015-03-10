@@ -4,5 +4,5 @@ FILE=JFLTE-GPE-${VERSION}.zip
 ./tools/compile_apps_linux
 rm -rf JFLTE-GPE-*.zip
 7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF aroma system data Changelog.md
-cd ../overlay
-7za u -mx9 -up1q1r2x2y2z1w2 -xr@tools/exclusion.txt "$FILE" system
+7za u -mx9 -up1q1r2x2y2z1w2 -xr@tools/exclusion.txt "$FILE" overlay/system
+cd ..
