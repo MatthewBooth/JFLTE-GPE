@@ -5,21 +5,6 @@
         <item>הסתר מספר</item>
         <item>הצג מספר</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>גלובלי</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>‏EvDo בלבד</item>
-        <item>‏CDMA ללא EvDo</item>
-        <item>‏CDMA/EvDo אוטומטי</item>
-        <item>‏GSM/‏WCDMA אוטומטי</item>
-        <item>‏WCDMA בלבד</item>
-        <item>‏GSM בלבד</item>
-        <item>‏GSM/WCDMA מועדף</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>אנגלית</item>
         <item>צרפתית</item>

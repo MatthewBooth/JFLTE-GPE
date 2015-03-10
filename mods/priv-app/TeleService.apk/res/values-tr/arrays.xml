@@ -5,21 +5,6 @@
         <item>Numarayı gizle</item>
         <item>Numarayı göster</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Dünya Genelinde</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Yalnızca EvDo</item>
-        <item>EvDo olmadan CDMA</item>
-        <item>CDMA/EvDo otomatik</item>
-        <item>GSM/WCDMA otomatik</item>
-        <item>Yalnızca WCDMA</item>
-        <item>Yalnızca GSM</item>
-        <item>GSM/WCDMA tercih edilen</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>İngilizce</item>
         <item>Fransızca</item>

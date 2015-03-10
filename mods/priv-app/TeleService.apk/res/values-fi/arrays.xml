@@ -5,21 +5,6 @@
         <item>Piilota numero</item>
         <item>Näytä numero</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Maailmanlaajuinen</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Vain EvDo</item>
-        <item>CDMA ilman EvDoa</item>
-        <item>Automaattinen CDMA/EvDo</item>
-        <item>Automaattinen GSM/WCDMA</item>
-        <item>Vain WCDMA</item>
-        <item>Vain GSM</item>
-        <item>Ensisijaisesti GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>englanti</item>
         <item>ranska</item>

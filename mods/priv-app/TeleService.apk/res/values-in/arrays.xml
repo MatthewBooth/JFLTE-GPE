@@ -5,21 +5,6 @@
         <item>Sembunyikan nomor</item>
         <item>Tampilkan nomor</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Global</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>EvDo saja</item>
-        <item>CDMA tanpa EvDo</item>
-        <item>CDMA/EvDo otomatis</item>
-        <item>GSM/WCDMA otomatis</item>
-        <item>WCDMA saja</item>
-        <item>GSM saja</item>
-        <item>GSM/WCDMA lebih disukai</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Inggris</item>
         <item>Prancis</item>

@@ -5,21 +5,6 @@
         <item>Skrýt číslo</item>
         <item>Zobrazit číslo</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Globální</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Pouze EvDo</item>
-        <item>CDMA bez EvDo</item>
-        <item>CDMA/EvDo – automaticky</item>
-        <item>GSM/WCDMA – automaticky</item>
-        <item>Pouze WCDMA</item>
-        <item>Pouze GSM</item>
-        <item>GSM/WCDMA – preferováno</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>angličtina</item>
         <item>francouzština</item>

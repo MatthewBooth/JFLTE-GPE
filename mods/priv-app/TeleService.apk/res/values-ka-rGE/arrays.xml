@@ -5,21 +5,6 @@
         <item>ნომრის დამალვა</item>
         <item>ნომრის ჩვენება</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>გლობალური</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>მხოლოდ EvDo</item>
-        <item>CDMA, EvDo-ის გარეშე</item>
-        <item>CDMA/EvDo ავტო</item>
-        <item>GSM/WCDMA ავტო</item>
-        <item>მხოლოდ WCDMA</item>
-        <item>მხოლოდ GSM</item>
-        <item>GSM/WCDMA უპირატესობით</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>ინგლისური</item>
         <item>ფრანგული</item>

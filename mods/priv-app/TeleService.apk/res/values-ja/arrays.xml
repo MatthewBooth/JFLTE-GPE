@@ -5,21 +5,6 @@
         <item>番号を非通知</item>
         <item>番号を通知</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>グローバル</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA+LTE/EV-DO</item>
-        <item>CDMA/EV-DO/GSM/WCDMA</item>
-        <item>EV-DOのみ</item>
-        <item>CDMA（EV-DO非準拠）</item>
-        <item>CDMA/EV-DO自動</item>
-        <item>GSM/WCDMA自動</item>
-        <item>WCDMAのみ</item>
-        <item>GSMのみ</item>
-        <item>GSM/WCDMAを優先</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>英語</item>
         <item>フランス語</item>

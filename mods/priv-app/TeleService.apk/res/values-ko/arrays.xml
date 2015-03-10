@@ -5,21 +5,6 @@
         <item>발신자 표시 제한</item>
         <item>발신자 표시</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>글로벌</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA+LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>EvDo 전용</item>
-        <item>CDMA(EvDo 없음)</item>
-        <item>CDMA/EvDo 자동</item>
-        <item>GSM/WCDMA 자동</item>
-        <item>WCDMA 전용</item>
-        <item>GSM 전용</item>
-        <item>GSM/WCDMA로 기본 설정</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>영어</item>
         <item>프랑스어</item>

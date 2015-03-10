@@ -5,21 +5,6 @@
         <item>Ascundeţi numărul</item>
         <item>Afişaţi numărul</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Global</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Numai EvDo</item>
-        <item>CDMA fără EvDo</item>
-        <item>CDMA/EvDo automat</item>
-        <item>GSM/WCDMA automat</item>
-        <item>Numai WCDMA</item>
-        <item>Numai GSM</item>
-        <item>GSM/WCDMA preferat</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Engleză</item>
         <item>Franceză</item>

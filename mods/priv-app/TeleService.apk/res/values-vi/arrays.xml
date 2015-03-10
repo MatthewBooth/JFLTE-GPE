@@ -5,21 +5,6 @@
         <item>Ẩn số</item>
         <item>Hiển thị số</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Toàn cầu</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Chỉ EvDo</item>
-        <item>CDMA không có EvDo</item>
-        <item>CDMA/EvDo tự động</item>
-        <item>GSM/WCDMA tự động</item>
-        <item>Chỉ WCDMA</item>
-        <item>Chỉ GSM</item>
-        <item>GSM/WCDMA được ưa thích</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Tiếng Anh</item>
         <item>Tiếng Pháp</item>

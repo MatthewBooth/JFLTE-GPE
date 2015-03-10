@@ -5,21 +5,6 @@
         <item>ເຊື່ອງເບີໂທ</item>
         <item>ສະແດງເບີໂທ</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>ທົ່ວໂລກ</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>EvDo ເທົ່ານັ້ນ</item>
-        <item>CDMA w/o EvDo</item>
-        <item>CDMA/EvDo ອັດຕະໂນມັດ</item>
-        <item>GSM/WCDMA ອັດຕະໂນມັດ</item>
-        <item>WCDMA ເທົ່ານັ້ນ</item>
-        <item>GSM ເທົ່ານັ້ນ</item>
-        <item>ຕ້ອງການ GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>ພາສາອັງກິດ</item>
         <item>ຝຣັ່ງ</item>

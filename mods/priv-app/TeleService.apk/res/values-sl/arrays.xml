@@ -5,21 +5,6 @@
         <item>Skrij številko</item>
         <item>Prikaz številke</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Globalno</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Samo EvDo</item>
-        <item>CDMA brez EvDo</item>
-        <item>Samodejno CDMA/EvDo</item>
-        <item>Samodejno GSM/WCDMA</item>
-        <item>Samo WCDMA</item>
-        <item>Samo GSM</item>
-        <item>Prednostno GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>angleščina</item>
         <item>francoščina</item>

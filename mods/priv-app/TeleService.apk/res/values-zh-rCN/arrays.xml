@@ -5,21 +5,6 @@
         <item>隐藏号码</item>
         <item>显示号码</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>通用</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>仅 EvDo</item>
-        <item>CDMA，无 EvDo 功能</item>
-        <item>CDMA/EvDo 自动选择</item>
-        <item>GSM/WCDMA 自动选择</item>
-        <item>仅 WCDMA</item>
-        <item>仅 GSM</item>
-        <item>首选 GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>英语</item>
         <item>法语</item>

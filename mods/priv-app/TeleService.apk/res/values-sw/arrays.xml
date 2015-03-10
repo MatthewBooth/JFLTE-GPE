@@ -5,21 +5,6 @@
         <item>Ficha nambari</item>
         <item>Onyesha nambari</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Ulimwenguni Kote</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>EvDo pekee</item>
-        <item>CDMA w/o EvDo</item>
-        <item>CDMA/EvDo otomatiki</item>
-        <item>GSM/WCDMA otomatiki</item>
-        <item>WCDMA pekee</item>
-        <item>GSM pekee</item>
-        <item>GSM/WCDMA inapendelewa</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Kiingereza</item>
         <item>Kifaransa</item>

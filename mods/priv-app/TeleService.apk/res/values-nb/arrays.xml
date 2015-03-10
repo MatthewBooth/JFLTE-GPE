@@ -5,21 +5,6 @@
         <item>Skjul nummer</item>
         <item>Vis nummer</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Overordnet</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Bare EvDo</item>
-        <item>CDMA uten EvDo</item>
-        <item>CDMA/EvDo automatisk</item>
-        <item>GSM / WCDMA automatisk</item>
-        <item>Bare WCDMA</item>
-        <item>Bare GSM</item>
-        <item>GSM/WCDMA foretrukket</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Engelsk</item>
         <item>Fransk</item>

@@ -5,21 +5,6 @@
         <item>नंबर छुपाएं</item>
         <item>नंबर दिखाएं</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>वैश्विक</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>केवल EvDo</item>
-        <item>EvDo के बिना CDMA</item>
-        <item>CDMA/EvDo स्वतः</item>
-        <item>GSM/WCDMA स्वत:</item>
-        <item>केवल WCDMA</item>
-        <item>केवल GSM</item>
-        <item>GSM/WCDMA पसंदीदा</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>अंग्रेज़ी</item>
         <item>फ़्रांसीसी</item>

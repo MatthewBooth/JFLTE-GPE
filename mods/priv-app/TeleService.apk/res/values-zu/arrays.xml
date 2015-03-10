@@ -5,21 +5,6 @@
         <item>Fihla inombolo</item>
         <item>Bonisa inombolo</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>I-LTE / WCDMA</item>
-        <item>I-LTE</item>
-        <item>Emhlabeni jikelele</item>
-        <item>I-GSM/WCDMA/LTE</item>
-        <item>I-CDMA + LTE/EvDo</item>
-        <item>I-CDMA/EvDo/GSM/WCDMA</item>
-        <item>I-EvDo kuphela</item>
-        <item>I-CDMA w/o EvDo</item>
-        <item>I-CDMA / EvDo ezenzakalelayo</item>
-        <item>Okuzenzakalelayo kwe-GSM /WCDMA</item>
-        <item>I-WCDMA kuphela</item>
-        <item>I-GSM kuphela</item>
-        <item>Okukhethwayo kwe-GSM / WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>i-English</item>
         <item>isi-French</item>

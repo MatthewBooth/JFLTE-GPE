@@ -5,21 +5,6 @@
         <item>Сакриј број</item>
         <item>Прикажи број</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Глобално</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Само EvDo</item>
-        <item>CDMA без EvDo-а</item>
-        <item>CDMA/EvDo аутоматски</item>
-        <item>GSM/WCDMA аутоматски</item>
-        <item>Само WCDMA</item>
-        <item>Само GSM</item>
-        <item>GSM/WCDMA има предност</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>енглески</item>
         <item>француски</item>

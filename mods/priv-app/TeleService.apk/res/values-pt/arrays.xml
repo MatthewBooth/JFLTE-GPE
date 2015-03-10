@@ -5,21 +5,6 @@
         <item>Ocultar número</item>
         <item>Mostrar número</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Global</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Somente EvDo</item>
-        <item>CDMA sem EvDo</item>
-        <item>CDMA/EvDo automático</item>
-        <item>GSM/WCDMA automático</item>
-        <item>Somente WCDMA</item>
-        <item>Somente GSM</item>
-        <item>GSM/WCDMA preferencial</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Inglês</item>
         <item>Francês</item>

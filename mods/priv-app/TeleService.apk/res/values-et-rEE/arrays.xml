@@ -5,21 +5,6 @@
         <item>Peida number</item>
         <item>Näita numbrit</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Globaalne</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Ainult EvDo</item>
-        <item>CDMA ilma EvDo-ta</item>
-        <item>Automaatne CDMA/EvDo</item>
-        <item>Automaatne GSM/WCDMA</item>
-        <item>Ainult WCDMA</item>
-        <item>Ainult GSM</item>
-        <item>Eelistatud GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Inglise</item>
         <item>Prantsuse</item>

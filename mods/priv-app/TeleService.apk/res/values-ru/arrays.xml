@@ -5,21 +5,6 @@
         <item>Скрыть номер</item>
         <item>Показывать номер</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE/WCDMA</item>
-        <item>LTE</item>
-        <item>Весь мир</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA и LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Только EvDo</item>
-        <item>CDMA без EvDo</item>
-        <item>CDMA/EvDo (авторежим)</item>
-        <item>GSM/WCDMA (авторежим)</item>
-        <item>Только WCDMA</item>
-        <item>Только GSM</item>
-        <item>GSM/WCDMA (предпочтительно)</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>английский</item>
         <item>французский</item>

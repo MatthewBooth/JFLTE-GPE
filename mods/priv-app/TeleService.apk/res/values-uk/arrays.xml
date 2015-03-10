@@ -5,21 +5,6 @@
         <item>Сховати номер</item>
         <item>Показ. номер</item>
     </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Загальний</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Лише EvDo</item>
-        <item>CDMA без EvDo</item>
-        <item>Авто CDMA/EvDo</item>
-        <item>Авто GSM/WCDMA</item>
-        <item>Лише WCDMA</item>
-        <item>Лише GSM</item>
-        <item>Рекомендовано GSM/WCDMA</item>
-    </string-array>
     <string-array name="list_language_entries">
         <item>Англійська</item>
         <item>Французька</item>
