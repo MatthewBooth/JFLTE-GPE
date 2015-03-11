@@ -211,10 +211,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing ES File Explorer");
         package_extract_dir("aroma/apps/data/es_file_explorer", "/data");
     endif;
-    if file_getprop("/tmp/aroma-data/install.prop","gmail") == "1" then
-        ui_print("Installing GMail");
-        package_extract_dir("aroma/apps/data/gmail", "/data/app");
-    endif;
     if file_getprop("/tmp/aroma-data/install.prop","lockclock") == "1" then
         ui_print("Installing cLock");
         package_extract_dir("aroma/apps/data/lockclock", "/data/app");
