@@ -4,6 +4,24 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
+### Changelog 20150314
+* Added AOSP Email. Removed Gmail as a result of this
+* CM Calculator update
+* Added CM Calendar (LP themed AOSP Calendar)
+* Updated Play Store
+* Updated AudioFX
+* Updated Eleven
+* Updated cLock
+* Updated Chrome
+* Updated Messaging (Google)
+* Updated Google Play Services
+* Updated Google Talkback
+* Updated Google WebView
+* Updated OTAUpdates app to 2.3
+* Changed around the Google Dialer and Contacts theme a little. More true to Material Dark, now.
+* Also changed the Dark Settings in the same way
+* Updated the AROMA theming as well.
+
 ### Changelog 20150303
 * Fixed the orientation bug. Both menu to recents and normal functions are working properly
 * Updated Cyanogen Messaging source code to 20150301

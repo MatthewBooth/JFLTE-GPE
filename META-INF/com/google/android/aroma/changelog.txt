@@ -1,15 +1,17 @@
-<b><#selectbg_g>JFLTE-GPE-20150303</#>
-<*>Fixed the orientation bug. Both menu to recents and normal functions are working properly</*>
-<*>Updated Cyanogen Messaging source code to 20150301</*>
-<*>Updated Trebuchet source code to 20150301</*>
-<*>Updated AudioFX source code to 20150301 (includes new icon)</*>
-<*>Updated Eleven (Music) source code to 20150301 (includes new icon)</*>
-<*>Updated Cyanogen Browser source code to 20150301</*>
-<*>Updated Google Launcher</*>
+<b><#selectbg_g>JFLTE-GPE-20150314</#>
+<*>Added AOSP Email. Removed Gmail as a result of this</*>
+<*>CM Calculator update</*>
+<*>Added CM Calendar (LP themed AOSP Calendar)</*>
+<*>Updated Play Store</*>
+<*>Updated AudioFX</*>
+<*>Updated Eleven</*>
+<*>Updated cLock</*>
+<*>Updated Chrome</*>
+<*>Updated Messaging (Google)</*>
 <*>Updated Google Play Services</*>
-<*>Updated Google App</*>
-<*>Updated Apex Launcher</*>
-<*>Updated Googy Max3 to 1.3.0 Final. Thanks Googy_Anas for all the hard work!</*>
-<*>Updated OTA Updates app. Better Lollipop theming (checked the official guides). Added some developer stuff (BitCoin donations now accepted)</*>
-<*>Added Alucard Kernel option in the installer</*>
-<*>Added option to not install a DSP (MusicFX, AudioFX, DSP Manager) in case you want to use Viper4Android instead (not included)</*>
+<*>Updated Google Talkback</*>
+<*>Updated Google WebView</*>
+<*>Updated OTAUpdates app to 2.3</*>
+<*>Changed around the Google Dialer and Contacts theme a little. More true to Material Dark, now.</*>
+<*>Also changed the Dark Settings in the same way</*>
+<*>Updated the AROMA theming as well.</*>
