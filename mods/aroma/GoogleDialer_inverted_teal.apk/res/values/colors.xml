@@ -28,7 +28,7 @@
     <color name="background_dialpad">#ff1f292f</color>
     <color name="background_dialpad_pressed">#80333333</color>
     <color name="dialpad_primary_text_color">#ffffffff</color>
-    <color name="dialpad_secondary_text_color">#ff02cfbc</color>
+    <color name="dialpad_secondary_text_color">#ff80cbc4</color>
     <color name="dialpad_digits_text_color">#ffcccccc</color>
     <color name="dialpad_separator_line_color">#ff333333</color>
     <color name="dialpad_icon_tint">#ff8e8e8e</color>
@@ -73,7 +73,7 @@
     <color name="contact_all_list_background_color">#ff1f292f</color>
     <color name="incall_background_color">@color/dialer_theme_color</color>
     <color name="incall_accent_color">#ffffffff</color>
-    <color name="incall_call_banner_background_color">@color/incall_background_color</color>
+    <color name="incall_call_banner_background_color">#ff80cbc4</color>
     <color name="incall_call_banner_text_color">#ffffffff</color>
     <color name="incall_call_banner_subtext_color">#ccffffff</color>
     <color name="incall_banner_secondary_background_color">#fff5f5f5</color>
