@@ -8,6 +8,7 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 * Added AOSP Email. Removed Gmail as a result of this
 * CM Calculator update
 * Added CM Calendar (LP themed AOSP Calendar)
+* Added Viper4Android
 * Updated Play Store
 * Updated AudioFX
 * Updated Eleven

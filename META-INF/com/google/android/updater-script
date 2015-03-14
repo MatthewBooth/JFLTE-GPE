@@ -185,11 +185,14 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing AudioFX");
         package_extract_dir("aroma/apps/audio/stock", "/system");
         package_extract_dir("aroma/apps/audio/audiofx", "/system");
-        delete_recursive("/system/priv-app/MusicFX");
     endif;
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "dsp" then
         ui_print("Installing Cyanogen DSP");
         package_extract_dir("aroma/apps/audio/dsp", "/system");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper" then
+        ui_print("Installing Viper4Android");
+        package_extract_dir("aroma/apps/audio/viper", "/system");
     endif;
 	
 # Browser

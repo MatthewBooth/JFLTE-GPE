@@ -179,7 +179,7 @@ textbox(
 			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select.selected",
 			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method <#F44336>Recommended</#>",			"select",
 			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
-			"none",					"None",					"Don't install (<#F44336>Use if installing V4A yourself</#>).",						"select",
+			"viper",				"Viper4Android",		"Install Viper4Android DSP",														"select",
 
 			"browser",				"<#selectbg_g>Browser</#>","",																				"group",
 			"chrome",				"Chrome", 			    "Google Chrome",												                    "select.selected",
@@ -215,6 +215,19 @@ textbox(
 			"photophase",			"Photo Phase", 			"",																					"check.checked",
 			"sunbeam",              "Sun Beam",        		"",                                                     							"check.checked"
 		);
+
+	if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper" then
+		form(
+			"Viper4Android",
+			"V4A Theming",
+			"@warning",
+			"v4a.prop",
+
+			"theme",				"<#selectbg_g>Viper4Android Theme</#>","",																	"group",
+			"dark",					"Dark",					"Material Dark themed V4A FX",														"select.selected",
+			"light",				"Light",				"Material Light themed V4A FX",														"select"
+		);
+	endif;
 	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "googymax" then
 		form(
 			"Hardswap",
