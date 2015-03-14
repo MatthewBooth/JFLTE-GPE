@@ -24,14 +24,14 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	unmount("/cache");
 	unmount("/data");
 	unmount("/system");
-	ui_print("<b><#009688>|----------- JFLTE-GPE ----------|</#></b>");
+	ui_print("<b><#80cbc4>|----------- JFLTE-GPE ----------|</#></b>");
 	ui_print(" ");
 	ui_print(" ");
 
 
 #### Mounting
 	
-	ui_print("<b><#009688>Mounting and Formatting Devices...</#></b>");
+	ui_print("<b><#80cbc4>Mounting and Formatting Devices...</#></b>");
 
 	run_program("/sbin/mount", "-t", "auto", "/system");
 	run_program("/sbin/mount", "-t", "auto", "/cache");
@@ -68,7 +68,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 
 #### Install System
 	
-	ui_print("<b><#009688>Installing System...</#></b>");
+	ui_print("<b><#80cbc4>Installing System...</#></b>");
 	package_extract_dir("system", "/system");
 	package_extract_file("Changelog.md", "/system/etc/CHANGELOG.txt");
 
@@ -76,7 +76,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	delete_recursive("/data/data/com.ota.updates");
 	delete_recursive("/data/data/com.ultima.settings");
 
-	ui_print("<b><#009688>Installing Data...</#></b>");
+	ui_print("<b><#80cbc4>Installing Data...</#></b>");
 	package_extract_dir("data", "/data");
 
 
@@ -193,6 +193,12 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
     if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper" then
         ui_print("Installing Viper4Android");
         package_extract_dir("aroma/apps/audio/viper", "/system");
+        if file_getprop("/tmp/aroma-data/v4a.prop","theme") == "dark" then
+        	package_extract_dir("aroma/apps/audio/viper_theme/dark", "/system");
+        endif;
+        if file_getprop("/tmp/aroma-data/v4a.prop","theme") == "light" then
+        	package_extract_dir("aroma/apps/audio/viper_theme/light", "/system");
+        endif;
     endif;
 	
 # Browser
@@ -271,7 +277,7 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 
 
 #### Symlinking, permissions and Busybox
-ui_print("<b><#009688>Symlinking...</#></b>");
+ui_print("<b><#80cbc4>Symlinking...</#></b>");
 	symlink("app_process32", "/system/bin/app_process");
 	symlink("dalvikvm32", "/system/bin/dalvikvm");
 	symlink("/data/misc/audio/mbhc.bin", "/system/etc/firmware/wcd9310/wcd9310_mbhc.bin");
@@ -558,7 +564,7 @@ ui_print("<b><#009688>Symlinking...</#></b>");
 	symlink("toolbox", "/system/bin/vmstat");
 	symlink("toolbox", "/system/bin/watchprops");
 	symlink("toolbox", "/system/bin/wipe");
-ui_print("<b><#009688>Setting Permissions...</#></b>");
+ui_print("<b><#80cbc4>Setting Permissions...</#></b>");
 	set_metadata_recursive("/system", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata_recursive("/system/bin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata("/system/bin/ATFWD-daemon", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:ATFWD-daemon_exec:s0");
@@ -636,11 +642,11 @@ ui_print("<b><#009688>Setting Permissions...</#></b>");
 	set_metadata_recursive("/system/vendor/pittpatt/models/recognition", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_perm_recursive(0, 0, 0755, 0755, "/system/etc/init.d");
-ui_print("<b><#009688>Installing BusyBox...</#></b>");
+ui_print("<b><#80cbc4>Installing BusyBox...</#></b>");
 	run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
 #### Rooting
-ui_print("<b><#009688>Installing SuperSU...</#></b>");
+ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
     package_extract_file("aroma/scripts/disableroot.sh", "/tmp/disableroot.sh");
     set_perm(0, 0, 0755, "/tmp/disableroot.sh");
     run_program("/tmp/disableroot.sh");
@@ -683,7 +689,7 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 ## Kernel
 
 	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "stock" then
-      	ui_print("<b><#009688>Installing Stock Kernel...</#></b>");	
+      	ui_print("<b><#80cbc4>Installing Stock Kernel...</#></b>");	
 	  	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
 			package_extract_dir("aroma/scripts/loki", "/tmp");
@@ -705,12 +711,12 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
     if file_getprop("/tmp/aroma-data/install.prop","kernel") == "googymax" then
 
     	# Hardswap enable or disable
-		ui_print("<b><#009688>Setting Swap...</#></b>");	
+		ui_print("<b><#80cbc4>Setting Swap...</#></b>");	
 			package_extract_file("aroma/scripts/hardswap.sh", "/tmp/hardswap.sh");
 			set_perm(0, 0, 0777, "/tmp/hardswap.sh");
 			run_program("/tmp/hardswap.sh", "/cache", file_getprop("/tmp/aroma-data/hardswap.prop", "swap"));
 
-		ui_print("<b><#009688>Installing GoogyMax Kernel...</#></b>");	
+		ui_print("<b><#80cbc4>Installing GoogyMax Kernel...</#></b>");	
 		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
 			package_extract_dir("aroma/scripts/loki", "/tmp");
@@ -731,7 +737,7 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 
 	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "alucard" then
 
-		ui_print("<b><#009688>Installing Alucard Kernel...</#></b>");	
+		ui_print("<b><#80cbc4>Installing Alucard Kernel...</#></b>");	
 		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
 			package_extract_dir("aroma/scripts/loki", "/tmp");
@@ -752,7 +758,7 @@ ui_print("<b><#009688>Installing SuperSU...</#></b>");
 		set_perm(0, 0, 0755, "/system/wget/wget");
 	endif;
 
-ui_print("<b><#009688>Finishing Installation...</#></b>");
+ui_print("<b><#80cbc4>Finishing Installation...</#></b>");
 
       
 	if (getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then  
@@ -770,17 +776,17 @@ ui_print("<b><#009688>Finishing Installation...</#></b>");
 	    set_perm(0, 0, 0644, "/data/eri.xml");
 	endif;
 	
-ui_print("<b><#009688>ROM Installed!</#></b>");
+ui_print("<b><#80cbc4>ROM Installed!</#></b>");
 ui_print(" ");	
 
 
-ui_print("<b><#009688>Unmounting Everything...</#></b>");
+ui_print("<b><#80cbc4>Unmounting Everything...</#></b>");
 unmount("/system");
 unmount("/data");
 unmount("/cache");
 ui_print(" ");
 ui_print(" ");
-ui_print("<b><#009688>Install Complete");
+ui_print("<b><#80cbc4>Install Complete");
 ui_print(" ");
 ui_print("Please be aware the first boot may take some time.");
 ui_print(" ");
