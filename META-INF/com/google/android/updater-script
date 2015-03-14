@@ -190,15 +190,15 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Cyanogen DSP");
         package_extract_dir("aroma/apps/audio/dsp", "/system");
     endif;
-    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper" then
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_dark" then
         ui_print("Installing Viper4Android");
         package_extract_dir("aroma/apps/audio/viper", "/system");
-        if file_getprop("/tmp/aroma-data/v4a.prop","theme") == "dark" then
-        	package_extract_dir("aroma/apps/audio/viper_theme/dark", "/system");
-        endif;
-        if file_getprop("/tmp/aroma-data/v4a.prop","theme") == "light" then
-        	package_extract_dir("aroma/apps/audio/viper_theme/light", "/system");
-        endif;
+        package_extract_dir("aroma/apps/audio/viper_theme/dark", "/system");
+    endif;
+ 	if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_light" then
+ 		ui_print("Installing Viper4Android");
+ 		package_extract_dir("aroma/apps/audio/viper", "/system");
+        package_extract_dir("aroma/apps/audio/viper_theme/light", "/system");
     endif;
 	
 # Browser
