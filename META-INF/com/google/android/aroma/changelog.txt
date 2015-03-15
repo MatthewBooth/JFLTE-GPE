@@ -1,4 +1,4 @@
-<b><#selectbg_g>JFLTE-GPE-20150314</#>
+<b><#selectbg_g>JFLTE-GPE-20150315</#>
 <*>Added AOSP Email. Removed Gmail as a result of this</*>
 <*>CM Calculator update</*>
 <*>Added CM Calendar (LP themed AOSP Calendar)</*>

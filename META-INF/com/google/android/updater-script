@@ -194,11 +194,19 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
         ui_print("Installing Viper4Android");
         package_extract_dir("aroma/apps/audio/viper", "/system");
         package_extract_dir("aroma/apps/audio/viper_theme/dark", "/system");
+        package_extract_file("aroma/scripts/viper.sh", "/tmp/viper.sh");
+    	set_perm(0, 0, 0755, "/tmp/viper.sh");
+    	run_program("/tmp/viper.sh");
+    	delete("/tmp/viper.sh");
     endif;
  	if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_light" then
  		ui_print("Installing Viper4Android");
  		package_extract_dir("aroma/apps/audio/viper", "/system");
         package_extract_dir("aroma/apps/audio/viper_theme/light", "/system");
+        package_extract_file("aroma/scripts/viper.sh", "/tmp/viper.sh");
+    	set_perm(0, 0, 0755, "/tmp/viper.sh");
+    	run_program("/tmp/viper.sh");
+    	delete("/tmp/viper.sh");
     endif;
 	
 # Browser
