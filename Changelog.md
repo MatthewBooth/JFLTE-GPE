@@ -18,7 +18,7 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 * Updated Google Play Services
 * Updated Google Talkback
 * Updated Google WebView
-* Updated OTAUpdates app to 2.3
+* Updated OTAUpdates app to 2.3.1
 * Changed around the Google Dialer and Contacts theme a little. More true to Material Dark, now.
 * Also changed the Dark Settings in the same way
 * Updated the AROMA theming as well.
