@@ -4,7 +4,7 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
-### Changelog 20150314
+### Changelog 20150315
 * Added AOSP Email. Removed Gmail as a result of this
 * CM Calculator update
 * Added CM Calendar (LP themed AOSP Calendar)
