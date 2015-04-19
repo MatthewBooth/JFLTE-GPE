@@ -4,6 +4,14 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
+### Changelog 20150419
+* Simplified installer options
+* Many items moved to addons in the OTA app
+* This sort of fixes the Exchange issues people had, since they can install GMail or AOSP Mail themselves
+* Made updating prebuilt apps easier without having to issue a new ROM
+* Removed hardswap stuff
+* Updated Google Play, Search, Services and WebView
+
 ### Changelog 20150315
 * Added AOSP Email. Removed Gmail as a result of this
 * CM Calculator update

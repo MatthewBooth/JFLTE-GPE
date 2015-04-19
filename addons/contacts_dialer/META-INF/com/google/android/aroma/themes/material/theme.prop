@@ -1,0 +1,67 @@
+img.background=background
+img.titlebar=titlebar
+img.navbar=navbar
+img.dialog=dialog
+img.dialog.titlebar=dialog_titlebar
+img.progress=progress_empty.9
+img.prograss.fill=progress_full.9
+img.selection=select
+img.selection.push=select_push
+
+img.button=button_rest
+img.button.focus=button_focus
+img.button.push=button_press
+
+img.checkbox=cb
+img.checkbox.focus=cb_sel
+img.checkbox.push=cb_sel
+img.checkbox.on=cb_on
+img.checkbox.on.focus=cb_on_sel
+img.checkbox.on.push=cb_on_sel
+
+img.radio=radio
+img.radio.focus=radio_sel
+img.radio.push=radio_sel
+img.radio.on=radio_on
+img.radio.on.focus=radio_on_sel
+img.radio.on.push=radio_on_sel
+
+
+color.winbg           = #333333
+color.winbg_g         = #333333
+color.winfg           = #ffffff
+color.winfg_gray      = #333333
+color.dialogbg        = #333333
+color.dialogbg_g      = #333333
+color.dialogfg        = #ffffff
+color.textbg          = #21272b
+color.textfg          = #ffffff
+color.textfg_gray     = #cccccc
+color.controlbg       = #333333
+color.controlbg_g     = #333333
+color.controlfg       = #ffffff
+color.selectbg        = #333333
+color.selectbg_g      = #ffffff
+color.selectfg        = #ffffff
+color.titlebg         = #333333
+color.titlebg_g       = #333333
+color.titlefg         = #ffffff
+color.dlgtitlebg      = #333333
+color.dlgtitlebg_g    = #333333
+color.dlgtitlefg      = #ffffff
+color.scrollbar       = #80c4b4
+color.navbg           = #f5f5f5
+color.navbg_g         = #f5f5f5
+color.border          = #333333
+color.border_g        = #333333
+color.progressglow    = #00b9a7
+
+
+config.roundsize             = 1
+config.button_roundsize      = 1
+config.window_roundsize      = 1
+config.transition_frame      = 5
+
+info.themename        = Material Dark
+info.description      = Material Dark Theme for AROMA Installer
+info.author           = Kryten2k35

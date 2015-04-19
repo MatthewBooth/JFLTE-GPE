@@ -1,0 +1,10 @@
+#! /bin/bash
+cd addons
+for d in */ ; do
+	cd "$d"
+	NAME=$(cat zipname.txt)
+	7za a -r -mx9 -xr@../../tools/exclusion.txt ../JFLTE-GPE_$NAME.zip *
+	cd ..
+done
+cd ..
+exit 0

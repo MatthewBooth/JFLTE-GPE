@@ -1,0 +1,137 @@
+### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+##
+#
+##
+#
+# 				  AROMA Installer
+# 		Written by Kryten2k35 & Danvdh Using AROMA Installer
+#
+# Initializing Rom Information & Variables
+#
+ ini_set("force_colorspace","rgba");
+ #ini_set("dp","5");
+ ini_set("transition","stack");
+
+ini_set("rom_name",             "JFLTE-GPE");
+ini_set("rom_version",          "20150315");
+ini_set("rom_author",           "Danvdh and Kryten2k35");
+ini_set("rom_device",           "jflte");
+ini_set("rom_date",             "20150315");
+setvar("rom_website", 			"www.ultimarom.com");
+setvar("rom_codename",          "LRX22C");
+setvar("rom_codebase", 			"Google Play Edition");
+setvar("rom_type",				"GPE");
+##
+# Splash Screen
+#
+splash(
+  #-- Duration 2000ms / 2 seconds
+    2500,
+  
+  #-- <AROMA Resource Dir>/JFLTE-GPE.png
+    "JFLTE-GPE"
+);
+##
+# Load Language, Fonts and Theme
+#
+  loadlang("langs/en.lang");
+  
+fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+fontresload( "1", "ttf/Roboto-Regular.ttf", "16" ); 
+theme("material");
+
+
+###################################################################################################################
+#                                                                                                                 #
+#                                           INSTALLATION                                                          #
+#                                                                                                                 #
+###################################################################################################################
+
+
+		form(
+			"Custom Installation",
+			"Choose your options",
+			"@text",
+			"install.prop",
+
+			"dsp",					"<#selectbg_g>Digital Signal Processing</#>","",															"group",
+			"stock",				"Stock", 				"Stock Digital Signal Processing",													"select.selected",
+			"audiofx",				"AudioFX",				"Cyanogen new Digital Signal Processing method",									"select",
+			"dsp",					"DSP",					"Cyanogen old Digital Signal Processing",											"select",
+			"viper_dark",			"Viper4Android",		"Install Viper4Android DSP (Dark Theme)",											"select",
+			"viper_light",			"Viper4Android",		"Install Viper4Android DSP (Light Theme)",											"select"
+		);
+	  
+ini_set("text_next", "Install");
+##
+#
+# Next Screen is Installation UI, So change the next button text to "Install Now"
+#
+checkviewbox(
+  #-- Title
+    "Ready to Install",
+  
+  #-- Text
+    "The wizard is ready to begin installation.\n\n\n\n\n\n"+
+	"<#selectbg_g>Press <b>Install Now</b> to begin the installation.\n\n"+
+	"If you want to review or change any of your installation settings, press <b>Back</b>.\n\nPress Menu Key -> Quit Installation to exit the wizard.</#>\n\n",
+
+  #-- Icon
+    "@text",
+
+  #-- Checkbox Text
+    "Reboot Automatically",
+
+  #-- Initial Checkbox value ( 0=unchecked, 1=checked ) -  (Optional, default:0)
+    "1",
+
+  #-- Save checked value in variable "reboot_it" (Optional)
+    "reboot_it"
+);
+
+ini_set("text_next", "Done");
+
+
+###################################################################################################################
+#                                                                                                                 #
+#                                       INSTALLATION  PROCESS                                                     #
+#                                                                                                                 #
+###################################################################################################################
+
+install(
+		"Installing ROM",
+		"<b>Installation</b>:",
+		"@install",
+		"Installation of <b>"+ini_get("rom_name")+"</b> completed."
+	);
+
+###
+#
+# Check if reboot checkbox was checked
+if getvar("reboot_it")=="1" then
+
+	# reboot("onfinish");   - Reboot if anything finished
+	# reboot("now");        - Reboot Directly
+	# reboot("disable");    - If you set reboot("onfinish") before, use this command to revert it.
+
+	reboot("onfinish");
+
+endif;
+
+#---- FINISH
+

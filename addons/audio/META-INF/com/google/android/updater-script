@@ -1,0 +1,82 @@
+#### Begin
+
+	unmount("/cache");
+	unmount("/data");
+	unmount("/system");
+
+#### Mounting
+	
+	ui_print("<b><#80cbc4>Installing Digital Signal Processing</#></b>");
+
+	run_program("/sbin/mount", "-t", "auto", "/system");
+	run_program("/sbin/mount", "-t", "auto", "/cache");
+	run_program("/sbin/mount", "-t", "auto", "/data");
+	
+# DSP Audio
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "stock" then
+        ui_print("Installing Stock DSP");
+        package_extract_dir("stock", "/system");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "audiofx" then
+        ui_print("Installing AudioFX");
+        package_extract_dir("stock", "/system");
+        package_extract_dir("audiofx", "/system");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "dsp" then
+        ui_print("Installing Cyanogen DSP");
+        package_extract_dir("dsp", "/system");
+
+        delete("/system/priv-app/MusicFX.apk");
+        delete("/system/lib/soundfx/libaudiopreprocessing.so");
+        delete("/system/lib/soundfx/libbundlewrapper.so");
+        delete("/system/lib/soundfx/libdownmix.so");
+        delete("/system/lib/soundfx/libeffectproxy.so");
+        delete("/system/lib/soundfx/libldnhncr.so");
+        delete("/system/lib/soundfx/libreverbwrapper.so");
+        delete("/system/lib/soundfx/libvisualizer.so");
+    endif;
+    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_dark" then
+        ui_print("Installing Viper4Android");
+        package_extract_dir("viper", "/system");
+        package_extract_dir("viper_theme/dark", "/system");
+        package_extract_file("viper.sh", "/tmp/viper.sh");
+    	set_perm(0, 0, 0755, "/tmp/viper.sh");
+    	run_program("/tmp/viper.sh");
+    	delete("/tmp/viper.sh");
+
+        delete("/system/priv-app/MusicFX.apk");
+        delete("/system/lib/soundfx/libaudiopreprocessing.so");
+        delete("/system/lib/soundfx/libbundlewrapper.so");
+        delete("/system/lib/soundfx/libdownmix.so");
+        delete("/system/lib/soundfx/libeffectproxy.so");
+        delete("/system/lib/soundfx/libldnhncr.so");
+        delete("/system/lib/soundfx/libreverbwrapper.so");
+        delete("/system/lib/soundfx/libvisualizer.so");
+    endif;
+ 	if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_light" then
+ 		ui_print("Installing Viper4Android");
+ 		package_extract_dir("viper", "/system");
+        package_extract_dir("viper_theme/light", "/system");
+        package_extract_file("viper.sh", "/tmp/viper.sh");
+    	set_perm(0, 0, 0755, "/tmp/viper.sh");
+    	run_program("/tmp/viper.sh");
+    	delete("/tmp/viper.sh");
+
+        delete("/system/priv-app/MusicFX.apk");
+        delete("/system/lib/soundfx/libaudiopreprocessing.so");
+        delete("/system/lib/soundfx/libbundlewrapper.so");
+        delete("/system/lib/soundfx/libdownmix.so");
+        delete("/system/lib/soundfx/libeffectproxy.so");
+        delete("/system/lib/soundfx/libldnhncr.so");
+        delete("/system/lib/soundfx/libreverbwrapper.so");
+        delete("/system/lib/soundfx/libvisualizer.so");
+    endif;
+
+unmount("/system");
+unmount("/data");
+unmount("/cache");
+ui_print(" ");
+ui_print(" ");
+ui_print("<b><#80cbc4>Install Complete");
+ui_print("<#F44336>Reboot now</#></b>");
+#### We're done

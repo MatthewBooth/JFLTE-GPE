@@ -73,7 +73,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	package_extract_file("Changelog.md", "/system/etc/CHANGELOG.txt");
 
 # Clear OTA app data for those that anger developers and dirty flash >.<
-	delete_recursive("/data/data/com.ota.updates");
 	delete_recursive("/data/data/com.ultima.settings");
 
 	ui_print("<b><#80cbc4>Installing Data...</#></b>");
@@ -87,202 +86,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 		set_perm(0, 0, 0777, "/tmp/set_dpi.sh");
 		run_program("/tmp/set_dpi.sh", file_getprop("/tmp/aroma-data/install.prop","dpi"));
 	endif;
-
-#### Installing custom apps
-
-# Launchers
-    if file_getprop("/tmp/aroma-data/install.prop","launcher") == "google" then
-      ui_print("Installing Google Experience Launcher");
-	  package_extract_dir("aroma/apps/launchers/google", "/system/app");
-    endif;	
-	if file_getprop("/tmp/aroma-data/install.prop","launcher") == "stock" then
-		ui_print("Installing Trebuchet Launcher");
-		package_extract_dir("aroma/apps/launchers/trebuchet", "/system/priv-app");
-	endif;
-	if file_getprop("/tmp/aroma-data/install.prop","launcher") == "nova" then
-      ui_print("Installing Nova Launcher");
-	  package_extract_dir("aroma/apps/launchers/nova", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","launcher") == "apex" then
-      ui_print("Installing Apex Launcher");
-	  package_extract_dir("aroma/apps/launchers/apex", "/system/app");
-    endif;
-
-# Cameras
-	if file_getprop("/tmp/aroma-data/install.prop","camera") == "camera_google" then
-		ui_print("Installing Google Camera");
-		package_extract_dir("aroma/apps/cameras/google", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","camera") == "camera_moto" then
-		ui_print("Installing Motorola Camera");
-		package_extract_dir("aroma/apps/cameras/moto", "/system/priv-app");
-	endif;
-	if file_getprop("/tmp/aroma-data/install.prop","camera") == "camera_opo" then
-		ui_print("Installing OnePlus One Camera");
-		package_extract_dir("aroma/apps/cameras/opo", "/system/app");
-	endif;
-
-# Gallery
-    if file_getprop("/tmp/aroma-data/install.prop","gallery") == "aosp" then
-        ui_print("Installing AOSP Gallery");
-        package_extract_dir("aroma/apps/gallery/aosp", "/system");
-    endif;
-	if file_getprop("/tmp/aroma-data/install.prop","gallery") == "moto" then
-        ui_print("Installing Moto Gallery");
-        package_extract_dir("aroma/apps/gallery/moto", "/system");
-    endif;
-	
-# Messenger
-    if file_getprop("/tmp/aroma-data/install.prop","messenger") == "google" then
-        ui_print("Installing Google Messenger");
-        package_extract_dir("aroma/apps/mms/messenger", "/system/priv-app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","messenger") == "aosp" then
-        ui_print("Installing AOSP Messaging");
-        package_extract_dir("aroma/apps/mms/aosp", "/system/priv-app");
-    endif;
-
-# Contacts and Dialer
-    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "stock" then
-        ui_print("Installing Stock Contacts and Dialer");
-        package_extract_dir("aroma/apps/contacts_dialer/stock", "/system/priv-app");
-    endif;
-   	if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "invertedteal" then
-        ui_print("Installing material dark Contacts and Dialer");
-        package_extract_dir("aroma/apps/contacts_dialer/invertedteal", "/system/priv-app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","contacts_dialer") == "invertedstock" then
-        ui_print("Installing Dark Contacts and Dialer");
-        package_extract_dir("aroma/apps/contacts_dialer/invertedstock", "/system/priv-app");
-    endif;
-
-# Settings
-    if file_getprop("/tmp/aroma-data/install.prop","settings") == "stock" then
-        ui_print("Installing Stock Settings");
-        package_extract_dir("aroma/apps/settings/stock", "/system/priv-app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","settings") == "dark" then
-        ui_print("Installing Dark Settings");
-        package_extract_dir("aroma/apps/settings/dark", "/system/priv-app");
-    endif;
-
-# Music Apps
-	if file_getprop("/tmp/aroma-data/install.prop","audio") == "eleven" then
-        ui_print("Installing Eleven Music Player");
-        package_extract_dir("aroma/apps/music/eleven", "/system/app");
-    endif;
-	if file_getprop("/tmp/aroma-data/install.prop","audio") == "apollo" then
-        ui_print("Installing Apollo Music Player");
-        package_extract_dir("aroma/apps/music/apollo", "/system/app");
-    endif;
-	
-# DSP Audio
-    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "stock" then
-        ui_print("Installing Stock DSP");
-        package_extract_dir("aroma/apps/audio/stock", "/system");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "audiofx" then
-        ui_print("Installing AudioFX");
-        package_extract_dir("aroma/apps/audio/stock", "/system");
-        package_extract_dir("aroma/apps/audio/audiofx", "/system");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "dsp" then
-        ui_print("Installing Cyanogen DSP");
-        package_extract_dir("aroma/apps/audio/dsp", "/system");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_dark" then
-        ui_print("Installing Viper4Android");
-        package_extract_dir("aroma/apps/audio/viper", "/system");
-        package_extract_dir("aroma/apps/audio/viper_theme/dark", "/system");
-        package_extract_file("aroma/scripts/viper.sh", "/tmp/viper.sh");
-    	set_perm(0, 0, 0755, "/tmp/viper.sh");
-    	run_program("/tmp/viper.sh");
-    	delete("/tmp/viper.sh");
-    endif;
- 	if file_getprop("/tmp/aroma-data/install.prop","dsp") == "viper_light" then
- 		ui_print("Installing Viper4Android");
- 		package_extract_dir("aroma/apps/audio/viper", "/system");
-        package_extract_dir("aroma/apps/audio/viper_theme/light", "/system");
-        package_extract_file("aroma/scripts/viper.sh", "/tmp/viper.sh");
-    	set_perm(0, 0, 0755, "/tmp/viper.sh");
-    	run_program("/tmp/viper.sh");
-    	delete("/tmp/viper.sh");
-    endif;
-	
-# Browser
-	if file_getprop("/tmp/aroma-data/install.prop","browser") == "chrome" then
-        ui_print("Installing Google Chrome");
-        package_extract_dir("aroma/apps/browsers/chrome", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","browser") == "cyan" then
-        ui_print("Installing CyanogenMod Browser");
-        package_extract_dir("aroma/apps/browsers/cyan", "/system/priv-app");
-    endif;
-
-# Data Apps
-	if file_getprop("/tmp/aroma-data/install.prop","adaway") == "1" then
-		ui_print("Installing AdAway");
-        package_extract_dir("aroma/apps/data/adaway", "/data");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","es_file_explorer") == "1" then
-        ui_print("Installing ES File Explorer");
-        package_extract_dir("aroma/apps/data/es_file_explorer", "/data");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","lockclock") == "1" then
-        ui_print("Installing cLock");
-        package_extract_dir("aroma/apps/data/lockclock", "/data/app");
-    endif;
-	if file_getprop("/tmp/aroma-data/install.prop","ears") == "1" then
-        ui_print("Installing Google Sound Search");
-        package_extract_dir("aroma/apps/ears", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","tts") == "1" then
-        ui_print("Installing Google Text-to-Speech");
-        package_extract_dir("aroma/apps/data/tts", "/data/app");
-    endif;
-	if file_getprop("/tmp/aroma-data/install.prop","wallet") == "1" then
-        ui_print("Installing Google Wallet");
-        package_extract_dir("aroma/apps/wallet/google", "/system/priv-app");
-    endif;
-
-# Live Wallpapers
-	if file_getprop("/tmp/aroma-data/install.prop","galaxy") == "1" then
-		ui_print("Installing Black Hole LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/galaxy", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","grass") == "1" then
-		ui_print("Installing Grass LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/grass", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","spiral") == "1" then
-		ui_print("Installing Holo Spiral LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/spiral", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","microbes") == "1" then
-		ui_print("Installing Microbes LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/microbes", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","noisefield") == "1" then
-		ui_print("Installing Bubbles LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/noisefield", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","phasebeam") == "1" then
-		ui_print("Installing Phase Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/phasebeam", "/system/app");
-    endif;
-	if file_getprop("/tmp/aroma-data/install.prop","spectrum") == "1" then
-		ui_print("Installing Spectrum LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/spectrum", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","photophase") == "1" then
-		ui_print("Installing Photo Phase LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/photophase", "/system/app");
-    endif;
-    if file_getprop("/tmp/aroma-data/install.prop","sunbeam") == "1" then
-		ui_print("Installing Sun Beam LWP");
-        package_extract_dir("aroma/apps/live_wallpapers/sunbeam", "/system/app");
-    endif;
-
 
 #### Symlinking, permissions and Busybox
 ui_print("<b><#80cbc4>Symlinking...</#></b>");
@@ -718,12 +521,6 @@ ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
 
     if file_getprop("/tmp/aroma-data/install.prop","kernel") == "googymax" then
 
-    	# Hardswap enable or disable
-		ui_print("<b><#80cbc4>Setting Swap...</#></b>");	
-			package_extract_file("aroma/scripts/hardswap.sh", "/tmp/hardswap.sh");
-			set_perm(0, 0, 0777, "/tmp/hardswap.sh");
-			run_program("/tmp/hardswap.sh", "/cache", file_getprop("/tmp/aroma-data/hardswap.prop", "swap"));
-
 		ui_print("<b><#80cbc4>Installing GoogyMax Kernel...</#></b>");	
 		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
@@ -740,6 +537,48 @@ ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
 		endif;
 
 		package_extract_dir("aroma/kernel/googymax/system", "/system");
+		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+	endif;
+
+	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "hulk" then
+
+		ui_print("<b><#80cbc4>Installing GoogyMax Kernel...</#></b>");	
+		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+			package_extract_dir("aroma/scripts/loki", "/tmp");
+			package_extract_file("aroma/kernel/hulk/boot.img", "/tmp/boot.img");
+
+			set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+			set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+			set_perm(0, 0, 0777, "/tmp/loki_patch");
+			set_perm(0, 0, 0777, "/tmp/loki_flash");
+			run_program("/tmp/flash_kernel.sh");
+		else 
+			package_extract_file("aroma/kernel/hulk/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		endif;
+
+		package_extract_dir("aroma/kernel/hulk/system", "/system");
+		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+	endif;
+
+	if file_getprop("/tmp/aroma-data/install.prop","kernel") == "hulk_oc" then
+
+		ui_print("<b><#80cbc4>Installing GoogyMax Kernel...</#></b>");	
+		if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
+			getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
+			package_extract_dir("aroma/scripts/loki", "/tmp");
+			package_extract_file("aroma/kernel/hulk_oc/boot.img", "/tmp/boot.img");
+
+			set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
+			set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
+			set_perm(0, 0, 0777, "/tmp/loki_patch");
+			set_perm(0, 0, 0777, "/tmp/loki_flash");
+			run_program("/tmp/flash_kernel.sh");
+		else 
+			package_extract_file("aroma/kernel/hulk_oc/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		endif;
+
+		package_extract_dir("aroma/kernel/hulk/system", "/system");
 		set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 	endif;
 

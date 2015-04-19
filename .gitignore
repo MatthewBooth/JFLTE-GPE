@@ -12,11 +12,13 @@ system/priv-app/SystemUI/*
 system/priv-app/Telecom/*
 system/priv-app/TeleService/*
 
-aroma/apps/contacts_dialer/invertedstock/GoogleDialer/GoogleDialer.apk
-aroma/apps/contacts_dialer/invertedstock/GoogleContacts/GoogleContacts.apk
+addons/contacts_dialer/invertedstock/GoogleDialer/GoogleDialer.apk
+addons/contacts_dialer/invertedstock/GoogleContacts/GoogleContacts.apk
 
-aroma/apps/contacts_dialer/invertedteal/GoogleDialer/GoogleDialer.apk
-aroma/apps/contacts_dialer/invertedteal/GoogleContacts/GoogleContacts.apk
+addons/contacts_dialer/invertedteal/GoogleDialer/GoogleDialer.apk
+addons/contacts_dialer/invertedteal/GoogleContacts/GoogleContacts.apk
+
+addons/*.zip
 
 build/
 dist/

@@ -46,8 +46,8 @@ if [ -d priv-app ]; then
 	cd ..
 fi
 
-if [ -d aroma ]; then
-	cd aroma
+if [ -d addons ]; then
+	cd addons
 	for f in *
 	do
 		"$APKTOOL" b -c "$f"

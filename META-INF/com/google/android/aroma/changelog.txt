@@ -1,18 +1,7 @@
-<b><#selectbg_g>JFLTE-GPE-20150315</#>
-<*>Added AOSP Email. Removed Gmail as a result of this</*>
-<*>CM Calculator update</*>
-<*>Added CM Calendar (LP themed AOSP Calendar)</*>
-<*>Added Viper4Android</*>
-<*>Updated Play Store</*>
-<*>Updated AudioFX</*>
-<*>Updated Eleven</*>
-<*>Updated cLock</*>
-<*>Updated Chrome</*>
-<*>Updated Messaging (Google)</*>
-<*>Updated Google Play Services</*>
-<*>Updated Google Talkback</*>
-<*>Updated Google WebView</*>
-<*>Updated OTAUpdates app to 2.3.1</*>
-<*>Changed around the Google Dialer and Contacts theme a little. More true to Material Dark, now.</*>
-<*>Also changed the Dark Settings in the same way</*>
-<*>Updated the AROMA theming as well.</*>
+<b><#selectbg_g>JFLTE-GPE-20150419</#>
+<*>Simplified installer options</*>
+<*>Many items moved to addons in the OTA app</*>
+<*>This sort of fixes the Exchange issues people had, since they can install GMail or AOSP Mail themselves</*>
+<*>Made updating prebuilt apps easier without having to issue a new ROM</*>
+<*>Removed hardswap stuff</*>
+<*>Updated Google Play, Search, Services and WebView</*>
