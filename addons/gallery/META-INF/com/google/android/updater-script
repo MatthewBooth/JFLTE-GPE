@@ -12,8 +12,8 @@
 	run_program("/sbin/mount", "-t", "auto", "/cache");
 	run_program("/sbin/mount", "-t", "auto", "/data");
 	
-ui_print("Installing Music");
-package_extract_dir(file_getprop("/tmp/aroma-data/install.prop","item"), "/system/app");
+ui_print("Installing Gallery");
+package_extract_dir(file_getprop("/tmp/aroma-data/install.prop","item"), "/system");
    
 unmount("/system");
 unmount("/data");

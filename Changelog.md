@@ -4,6 +4,14 @@ Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
 
+### Changelog 20150601
+* Still waiting for 5.1...
+* Updated Google Photos to the newest version, the stand alone
+* Updated OTA Updates to 2.4.2
+* Updated Google Camera, Search, Services and Clock (DeskClockGoogle) to the Android M Preview versions
+* Updated Chrome, Play Store and Keyboard
+* New, better, AROMA theme
+
 ### Changelog 20150419
 * Simplified installer options
 * Many items moved to addons in the OTA app
