@@ -1,8 +1,17 @@
 # JFLTE-GPE
 
-Visit [GitHub](https://github.com/Kryten2k35/JFLTE-GPE) for full source
+Visit [GitHub](https://github.com/MatthewBooth/JFLTE-GPE) for full source
 
 Visit [UltimaROM](http://ultimarom.com) for downloads
+
+Visit [MatthewBooth](http://github.com/MatthewBooth) for Developer information
+
+### Changelog 20150610
+* Emergency release to fix faulty clock issue
+* Updated some Gapps that have had updates since the last release... because why not
+* Rolled back Google Play Services to official versions
+* Added SimpleFileExplorer as default, because we lacked a file manager. Why not ES File Explorer? It uploads data to China
+* Updated Hulk Kernel to 1.3.1
 
 ### Changelog 20150601
 * Still waiting for 5.1...

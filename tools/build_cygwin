@@ -3,7 +3,7 @@ VERSION=$(date +%Y%m%d)
 FILE=JFLTE-GPE-${VERSION}.zip
 ./tools/compile_apps_cygwin
 rm -rf JFLTE-GPE-*.zip
-7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF aroma system data Changelog.md
+7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF aroma system data Changelog.md rom_info changelog
 cd overlay
 7za u -mx9 -up1q1r2x2y2z1w2 -xr@../tools/exclusion.txt ../"$FILE" system
 cd ..

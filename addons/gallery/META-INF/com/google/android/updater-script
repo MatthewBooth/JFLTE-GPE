@@ -14,6 +14,7 @@
 	
 ui_print("Installing Gallery");
 package_extract_dir(file_getprop("/tmp/aroma-data/install.prop","item"), "/system");
+delete_recursive("/system/app/GooglePhotos");
    
 unmount("/system");
 unmount("/data");

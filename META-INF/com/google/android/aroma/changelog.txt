@@ -1,7 +1,0 @@
-<b><#selectbg_g>JFLTE-GPE-20150601</#>
-<*>Still waiting for 5.1...</*>
-<*>Updated Google Photos to the newest version, the stand alone</*>
-<*>Updated OTA Updates to 2.4.2</*>
-<*>Updated Google Camera, Search, Services and Clock (DeskClockGoogle) to the Android M Preview versions</*>
-<*>Updated Chrome, Play Store and Keyboard</*>
-<*>New, better, AROMA theme</*>

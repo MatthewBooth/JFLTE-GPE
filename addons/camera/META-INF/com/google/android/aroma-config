@@ -69,9 +69,9 @@ theme("material");
 			"@text",
 			"install.prop",
 
-			"item",		"<#selectbg_g>Camera</#>","",																				"group",
-			"moto",			"Motorola", 			"Motorola Camera. Saving to SD card supported, no HDR",							    "select",
-			"opo",			"OnePlus One", 			"OnePlus One Cyanogen Camera. SDCard and HDR supported. Burst mode and power button shutter are not",  "select"
+			"item",			"<#selectbg_g>Camera</#>",		"",																											"group",
+			"moto",			"Motorola", 					"Motorola Camera. Saving to SD card supported, no HDR",							    						"select",
+			"opo",			"OnePlus One", 					"OnePlus One Cyanogen Camera. SDCard and HDR supported. Burst mode and power button shutter are not",  		"select"
 		);
 	  
 ini_set("text_next", "Install");

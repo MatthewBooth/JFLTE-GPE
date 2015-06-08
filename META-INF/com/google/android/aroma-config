@@ -27,15 +27,15 @@
  #ini_set("dp","5");
  ini_set("transition","stack");
 
-ini_set("rom_name",             "JFLTE-GPE");
-ini_set("rom_version",          "20150419");
-ini_set("rom_author",           "Danvdh and Kryten2k35");
-ini_set("rom_device",           "jflte");
-ini_set("rom_date",             "20150419");
-setvar("rom_website", 			"www.ultimarom.com");
-setvar("rom_codename",          "LRX22C");
-setvar("rom_codebase", 			"Google Play Edition");
-setvar("rom_type",				"GPE");
+ini_set("rom_name",             zipprop("rom_info", "build_name"));
+ini_set("rom_version",          zipprop("rom_info", "build_date"));
+ini_set("rom_author",           zipprop("rom_info", "build_author"));
+ini_set("rom_device",           zipprop("rom_info", "build_device"));
+ini_set("rom_date",             zipprop("rom_info", "build_date"));
+setvar("rom_website", 			zipprop("rom_info", "build_website"));
+setvar("rom_codename",          zipprop("rom_info", "build_codename"));
+setvar("rom_codebase", 			zipprop("rom_info", "build_codebase"));
+setvar("rom_type",				zipprop("rom_info", "build_type"));
 ##
 # Splash Screen
 #
@@ -88,7 +88,7 @@ textbox(
     "@agreement",
   
   #-- Arg 4
-    resread("changelog.txt")
+    zipread("changelog")
 );
 
 
