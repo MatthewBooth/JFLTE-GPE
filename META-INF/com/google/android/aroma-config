@@ -54,130 +54,7 @@ splash(
 fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
 fontresload( "1", "ttf/Roboto-Regular.ttf", "16" ); 
 theme("material");
-###################################################################################################################
-#                                                                                                                 #
-#                                           INFORMATION                                                          #
-#                                                                                                                 #
-###################################################################################################################
-viewbox(
-  "Welcome",
-    "You are about to install: <b>"+ ini_get("rom_name")+"</b>.\n\n\n\n\n\n"+
-    "<#selectbg_g>ROM Information:\n\n"+
-      "ROM Version	\t\t: <b>"+ini_get("rom_version")+"</b>\n"+
-	  "ROM Codename\t\t: <b>"+getvar("rom_codename")+"</b>\n"+
-	  "ROM Type\t\t\t: <b>"+getvar("rom_type")+"</b>\n"+
-	  "ROM Codebase\t\t: <b>"+getvar("rom_codebase")+"</b>\n"+
-      "ROM Updated\t\t: <b>"+ini_get("rom_date")+"</b>\n\n\n\n\n\n\n\n\n\n\n\n\n"+
-    "Press Next to Continue...</#>",
-    "@welcome"
-);
 
-###################################################################################################################
-#                                                                                                                 #
-#                                              CHANGELOG                                                          #
-#                                                                                                                 #
-###################################################################################################################
-textbox(
-  #-- Title
-    "<~changelog.title>",
-  
-  #-- Subtitle
-    "Changelog",
-  
-  #-- Icon
-    "@agreement",
-  
-  #-- Arg 4
-    zipread("changelog")
-);
-
-
-###################################################################################################################
-#                                                                                                                 #
-#                                           INSTALLATION                                                          #
-#                                                                                                                 #
-###################################################################################################################
-
-
-  #-------------------------+-----------------[ Clear and Wipe Data ]-----------------+---------------#
-  #-------------------------+---------------------------------------------------------+---------------#
-
-	form(
-		"Wiping Data",
-		"Decide whether to wipe data or not",
-		"@device",
-		"wipe.prop",
-
-		"wipe",					"<#selectbg_g>Please Choose a wiping method</#>",				"",																			"group",
-		"factory",				"Full System Wipe", 	"Wipes /data and /system and cache. Leaves internal storage untouched",												"select.selected",
-		"full",					"Factory Reset", 		"Wipes everything including internal storage <#F44336>(RECOMMENDED)</#>",											"select.selected",
-		"nothing",				"Dirty Flash", 			"Wipes just /system",												                        						"select"
-	);
-
-	if file_getprop("/tmp/aroma-data/wipe.prop","wipe") == "full" then
-		agreebox(
-			    "Warning",
-			    "Please read the text below.",
-			    "@warning",
-			    resread("full_wipe_warning.txt"),
-			    "I understand",
-			    "Please check you understand"
-			);
-	endif;
-		
-	  #-------------------------+-----------------[     Install Data     ]----------------+---------------#
-	  #-------------------------+---------------------------------------------------------+---------------#
-
-		form(
-			"Custom Installation",
-			"Choose your options",
-			"@text",
-			"install.prop",
-
-			"kernel",				"<#selectbg_g>Kernel</#>","",																			    "group",
-			"stock",				"Stock", 				"Stock GPe Kernel - works for some",										        "select",
-			"googymax",				"GoogyMax3", 			"GoogyMax 3 1.3.0 Final Kernel",											        "select",
-			"hulk",					"Hulk", 				"Hulk kernel v1.1",											        				"select.selected",
-			"hulk_oc",				"Hulk OC", 				"Hulk kernel v1.1 with Overclocking",											    "select",
-			"alucard",				"Alucard", 				"Alucard 1.1a Kernel",											       				"select",
-		
-			"dpi",					"<#selectbg_g>Dots-Per-Inch</#>","",																		"group",
-			"480",					"480", 					"Stock value",																		"select.selected",
-			"460",					"460",					"Set a value of 460",																"select",
-			"440",					"440",					"Set a value of 440",																"select",
-			"420",					"420",					"Set a value of 420",																"select",
-			"400",					"400",					"Set a value of 400",																"select",
-			"380",					"380",					"Set a value of 380",																"select",
-			"370",					"370",					"Set a value of 370",																"select",
-			"360",					"360",					"Set a value of 360",																"select"
-		);
-	  
-ini_set("text_next", "Install");
-##
-#
-# Next Screen is Installation UI, So change the next button text to "Install Now"
-#
-checkviewbox(
-  #-- Title
-    "Ready to Install",
-  
-  #-- Text
-    "The wizard is ready to begin installation.\n\n\n\n\n\n"+
-	"<#selectbg_g>Press <b>Install Now</b> to begin the installation.\n\n"+
-	"If you want to review or change any of your installation settings, press <b>Back</b>.\n\nPress Menu Key -> Quit Installation to exit the wizard.</#>\n\n",
-
-  #-- Icon
-    "@text",
-
-  #-- Checkbox Text
-    "Reboot Automatically",
-
-  #-- Initial Checkbox value ( 0=unchecked, 1=checked ) -  (Optional, default:0)
-    "1",
-
-  #-- Save checked value in variable "reboot_it" (Optional)
-    "reboot_it"
-);
 
 ini_set("text_next", "Done");
 
@@ -190,23 +67,10 @@ ini_set("text_next", "Done");
 
 install(
 		"Installing ROM",
-		"<b>Installation</b>:",
+		"Installation of <b>"+ini_get("rom_name")+"</b>",
 		"@install",
 		"Installation of <b>"+ini_get("rom_name")+"</b> completed."
 	);
-
-###
-#
-# Check if reboot checkbox was checked
-if getvar("reboot_it")=="1" then
-
-	# reboot("onfinish");   - Reboot if anything finished
-	# reboot("now");        - Reboot Directly
-	# reboot("disable");    - If you set reboot("onfinish") before, use this command to revert it.
-
-	reboot("onfinish");
-
-endif;
 
 #---- FINISH
 

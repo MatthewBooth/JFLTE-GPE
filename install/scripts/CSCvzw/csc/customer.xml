@@ -1,0 +1,120 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+
+<CustomerData>
+
+  <GeneralInfo>
+
+    <CSCEdition>ED003</CSCEdition>
+
+    <Country>USA</Country>
+
+    <CountryISO>US</CountryISO>
+
+    <Region>NA</Region>
+
+    <SalesCode>VZW</SalesCode>
+
+    <NbNetworkInfo>1</NbNetworkInfo>
+
+    <NetworkInfo>
+
+      <MCCMNC>31000</MCCMNC>
+
+      <NetworkName>VZW</NetworkName>
+
+    </NetworkInfo>
+
+  </GeneralInfo>
+
+  <Settings>
+
+  	<Contact>
+        <SpeedDial>
+            <DialPosition>95</DialPosition>
+            <TelName>#DATA - Data Used</TelName>
+            <TelNum>#3282</TelNum>
+        </SpeedDial>  		
+	    <SpeedDial>
+            <DialPosition>96</DialPosition>
+            <TelName>#BAL - Check Balance</TelName>
+            <TelNum>#225</TelNum>
+        </SpeedDial>
+        <SpeedDial>
+            <DialPosition>97</DialPosition>
+            <TelName>#MIN - Minutes Used</TelName>
+            <TelNum>#646</TelNum>
+        </SpeedDial>
+        <SpeedDial>
+            <DialPosition>98</DialPosition>
+            <TelName>#PMT - Make a Payment</TelName>
+            <TelNum>#768</TelNum>
+        </SpeedDial>
+        <NbPreInstalledContact>1</NbPreInstalledContact>
+        <PreInstalledContact>
+            <TelName>#UPG - Upgrade Eligibility</TelName>
+            <TelNum>#874</TelNum>
+        </PreInstalledContact>
+	</Contact>
+	
+    <Main>
+
+      <Phone>
+
+        <DefLanguage>automatic</DefLanguage>
+
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+
+    </Main>
+
+    <Messages>
+      <SMS>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+			  <MaxRecipient>50</MaxRecipient>
+		    <MsgTypeThreshold>
+	        <ThresholdValue>7</ThresholdValue>
+	        <ThresholdType>pagecount</ThresholdType>
+	      </MsgTypeThreshold>
+      </SMS>
+      <MMS>
+        <GroupMessaging>on</GroupMessaging> 
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1.2m</MessageSize>
+          <ImageResizeResolution>qsxga</ImageResizeResolution>
+		  <MaxRecipientMMS>50</MaxRecipientMMS>
+        </MmsSending>
+      </MMS>
+    </Messages>
+
+    <ActiveSync>
+      <SyncSms>OFF</SyncSms>
+    </ActiveSync> 
+    
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+
+      <Bookmark>
+        <NetworkName>VZW</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/</URL>
+      </Bookmark>
+    </Browser>
+    <Multimedia>
+      <Camera>
+        <BurstShot>off</BurstShot>
+      </Camera>
+	</Multimedia>
+  </Settings>
+</CustomerData>

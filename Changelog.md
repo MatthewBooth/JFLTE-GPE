@@ -6,6 +6,20 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 
 Visit [MatthewBooth](http://github.com/MatthewBooth) for Developer information
 
+### Changelog 20150613
+* Fixed Google Now FCing when used
+* Made alucard_24's kernel the default 
+	* Worked with him to rebase his GE5.0 kernel to be fully up to date
+	* Christopher GCC 4.9.3 compiled
+	* Optimised for speed (-O3)
+* Removed all installer options now. Installer simply installs. Hulk or Googy kernel can be found in their threads
+* Stock GE kernel in addons
+* DPI changing in Interface app
+* Fixed a small bug in OTA Updates, version is now v2.4.4
+* Better supersu installation method in installer. Won't affect users, but makes it easier for me.
+* New Android M default wallpaper
+* Updated Google Camera, Keyboard and Chrome
+
 ### Changelog 20150610
 * Emergency release to fix faulty clock issue
 * Updated some Gapps that have had updates since the last release... because why not

@@ -1,0 +1,8 @@
+# AT&T SGS4
+bootloader=I337UCUAMDB
+bootloader=I337UCUAMDL
+# Verizon SGS4
+bootloader=I545VRUAMDK
+# Galaxy Stellar
+bootloader=I200VRALH2
+bootloader=I200VRBMA1
