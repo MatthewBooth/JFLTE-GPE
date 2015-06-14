@@ -51,7 +51,6 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	
 	ui_print("<b><#80cbc4>Installing System...</#></b>");
 	package_extract_dir("system", "/system");
-	package_extract_file("Changelog.md", "/system/etc/CHANGELOG.txt");
 
 # Clear OTA app data for those that anger developers and dirty flash >.<
 

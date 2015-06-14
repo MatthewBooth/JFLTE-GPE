@@ -27,21 +27,18 @@
  #ini_set("dp","5");
  ini_set("transition","stack");
 
-ini_set("rom_name",             zipprop("rom_info", "build_name"));
-ini_set("rom_version",          zipprop("rom_info", "build_date"));
-ini_set("rom_author",           zipprop("rom_info", "build_author"));
-ini_set("rom_device",           zipprop("rom_info", "build_device"));
-ini_set("rom_date",             zipprop("rom_info", "build_date"));
-setvar("rom_website", 			zipprop("rom_info", "build_website"));
-setvar("rom_codename",          zipprop("rom_info", "build_codename"));
-setvar("rom_codebase", 			zipprop("rom_info", "build_codebase"));
-setvar("rom_type",				zipprop("rom_info", "build_type"));
+ini_set("rom_name",             "JFLTE-GPE");
+ini_set("rom_version",          "");
+ini_set("rom_author",           "");
+ini_set("rom_device",           "");
+ini_set("rom_date",             "");
+
 ##
 # Splash Screen
 #
 splash(
   #-- Duration 2000ms / 2 seconds
-    2500,
+    3000,
   
   #-- <AROMA Resource Dir>/JFLTE-GPE.png
     "JFLTE-GPE"
