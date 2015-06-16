@@ -13,6 +13,7 @@
             </com.android.keyguard.AlphaOptimizedLinearLayout>
         </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
         <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.systemui.statusbar.policy.NetworkTraffic android:gravity="center|right" android:id="@id/networkTraffic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="false" android:fontFamily="sans-serif-condensed" />
             <include layout="@layout/system_icons" />
             <com.android.systemui.BatteryLevelTextView android:textSize="@dimen/battery_level_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/battery_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
             <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="7.0dip" />
