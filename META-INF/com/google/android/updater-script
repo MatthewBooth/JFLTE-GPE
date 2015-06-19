@@ -52,6 +52,9 @@ assert(getprop("ro.product.device") == "jflte" || getprop("ro.build.product") ==
 	ui_print("<b><#80cbc4>Installing System...</#></b>");
 	package_extract_dir("system", "/system");
 
+	# DivX DRM file fix for some videos
+	package_extract_file("system/lib/libDivxDrm.so", "/system/lib/libdivxdrm.so");
+
 # Clear OTA app data for those that anger developers and dirty flash >.<
 
 	delete_recursive("/data/data/com.ultima.settings");
