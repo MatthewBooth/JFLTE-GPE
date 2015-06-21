@@ -279,6 +279,7 @@ ui_print("<b><#80cbc4>Symlinking...</#></b>");
 	symlink("/system/lib/libjni_pacprocessor.so", "/system/app/PacProcessor/lib/arm/libjni_pacprocessor.so");
 	symlink("/system/lib/libnfc_nci_jni.so", "/system/app/NfcNci/lib/arm/libnfc_nci_jni.so");
 	symlink("/system/lib/libprintspooler_jni.so", "/system/app/PrintSpooler/lib/arm/libprintspooler_jni.so");
+	symlink("/system/wget/wget", "/system/bin/wget");
 	symlink("toolbox", "/system/bin/cat");
 	symlink("toolbox", "/system/bin/chcon");
 	symlink("toolbox", "/system/bin/chmod");
@@ -429,6 +430,7 @@ ui_print("<b><#80cbc4>Setting Permissions...</#></b>");
 	set_metadata_recursive("/system/vendor/pittpatt/models/recognition", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 	set_perm_recursive(0, 0, 0755, 0755, "/system/etc/init.d");
+	set_perm(0, 0, 0755, "/system/wget/wget");
 
 ui_print("<b><#80cbc4>Installing BusyBox...</#></b>");
 	run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
