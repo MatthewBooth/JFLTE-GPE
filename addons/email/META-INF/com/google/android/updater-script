@@ -13,7 +13,9 @@
 	run_program("/sbin/mount", "-t", "auto", "/data");
 	
 ui_print("Installing Email");
+delete_recursive("/system/app/Gmail2", "/system/app/Exchange3Google", "/system/app/Email", "/system/app/Exchange2");
 package_extract_dir(file_getprop("/tmp/aroma-data/install.prop","item"), "/system/app");
+
    
 unmount("/system");
 unmount("/data");

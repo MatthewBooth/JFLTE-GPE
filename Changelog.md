@@ -6,8 +6,11 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 
 Visit [MatthewBooth](http://github.com/MatthewBooth) for Developer information
 
-### Changelog 20150618
+### Changelog 20150621
 * Changed the method of assigning the buttons for disabling and menu-to-recents (flashes a file)
+* Added GMail as default (again)
+* Updated Google Exchange Services
+* Updated Google Clock, WebView, Play Services, Photos
 * Updated @Alucard24 kernel, removed the battery drain and fixed the IR blaster
 * Updated NetworkMeter position from Optimised CM-12.1 and changed font to sans-serif-condensed
 * Added some stock build.prop values from TouchWiz 5.0.1 build.prop (mostly OpenGL optimisations)

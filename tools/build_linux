@@ -3,15 +3,19 @@ VERSION=$(date +%Y%m%d)
 TIMESTAMP=$(date)
 UTC=$(date +%s)
 FILE=JFLTE-GPE-${VERSION}.zip
+OUT=out/${VERSION}
 ./tools/compile_apps_linux
-rm -rf JFLTE-GPE-*.zip
+if [ ! -e "$OUT" ];then
+	mkdir "$OUT"
+fi
+rm -rf "$OUT"/JFLTE-GPE-*.zip
 cp Changelog.md overlay/system/etc/CHANGELOG.txt
 sed -i "s/.*ro.build.version.incremental.*/ro.build.version.incremental=$VERSION/g" overlay/system/build.prop
 sed -i "s/.*ro.ota.version.*/ro.ota.version=$VERSION/g" overlay/system/build.prop
 sed -i "s/.*ro.build.date=.*/ro.build.date=$TIMESTAMP/g" overlay/system/build.prop
 sed -i "s/.*ro.build.date.utc.*/ro.build.date.utc=$UTC/g" overlay/system/build.prop
-7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF install system data
+7za a -mx9 -xr@tools/exclusion.txt "$OUT"/"$FILE" META-INF install system data
 cd overlay
-7za u -mx9 -up1q1r2x2y2z1w2 -xr@../tools/exclusion.txt ../"$FILE" system
+7za u -mx9 -up1q1r2x2y2z1w2 -xr@../tools/exclusion.txt ../"$OUT"/"$FILE" system
 cd ..
-md5sum "$FILE" > "$FILE".md5
+md5sum "$OUT"/"$FILE" > "$OUT"/"$FILE".md5

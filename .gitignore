@@ -3,6 +3,7 @@ JFLTE-GPE-*.zip.md5
 temp/*
 .fuse_*
 
+*.zip.tmp
 system/framework/android.policy.jar
 system/framework/services.jar
 system/framework/framework-res.apk
@@ -24,6 +25,7 @@ addons/*.zip
 build/
 dist/
 tmp/
+out/
 
 tools/bin/.JavaPATH
 *.JavaPATH
