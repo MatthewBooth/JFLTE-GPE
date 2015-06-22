@@ -444,7 +444,7 @@ ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
 
 ## Kernel
 
-ui_print("<b><#80cbc4>Installing Alucard Kernel...</#></b>");	
+ui_print("<b><#80cbc4>Installing JFLTE-GPE Kernel...</#></b>");	
 	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 		getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
 		package_extract_dir("install/scripts/loki", "/tmp");
