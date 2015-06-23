@@ -14,7 +14,7 @@ sed -i "s/.*ro.build.version.incremental.*/ro.build.version.incremental=$VERSION
 sed -i "s/.*ro.ota.version.*/ro.ota.version=$VERSION/g" overlay/system/build.prop
 sed -i "s/.*ro.build.date=.*/ro.build.date=$TIMESTAMP/g" overlay/system/build.prop
 sed -i "s/.*ro.build.date.utc.*/ro.build.date.utc=$UTC/g" overlay/system/build.prop
-7za a -mx9 -xr@tools/exclusion.txt "$OUT"/"$FILE" META-INF install system data
+7za a -mx9 -xr@tools/exclusion.txt "$OUT"/"$FILE" META-INF install system boot.img
 cd overlay
 7za u -mx9 -up1q1r2x2y2z1w2 -xr@../tools/exclusion.txt ../"$OUT"/"$FILE" system
 cd ..

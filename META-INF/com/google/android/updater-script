@@ -439,7 +439,7 @@ ui_print("<b><#80cbc4>Installing BusyBox...</#></b>");
 #### Rooting
 
 ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
-    package_extract_dir("install/scripts/supersu", "/tmp/supersu");
+    package_extract_dir("install/supersu", "/tmp/supersu");
 	run_program("/sbin/busybox", "unzip", "/tmp/supersu/supersu.zip", "META-INF/com/google/android/*", "-d", "/tmp/supersu");
 	run_program("/sbin/busybox", "sh", "/tmp/supersu/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/supersu/supersu.zip");
 
@@ -448,8 +448,8 @@ ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
 ui_print("<b><#80cbc4>Installing JFLTE-GPE Kernel...</#></b>");	
 	if (getprop("ro.product.device") == "jflteatt" || getprop("ro.build.product") == "jflteatt" || 
 		getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
-		package_extract_dir("install/scripts/loki", "/tmp");
-		package_extract_file("install/kernel/boot.img", "/tmp/boot.img");
+		package_extract_dir("install/loki", "/tmp");
+		package_extract_file("boot.img", "/tmp/boot.img");
 
 		set_perm(0, 0, 0777, "/tmp/loki_bootloaders");
 		set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");
@@ -457,25 +457,22 @@ ui_print("<b><#80cbc4>Installing JFLTE-GPE Kernel...</#></b>");
 		set_perm(0, 0, 0777, "/tmp/loki_flash");
 		run_program("/tmp/flash_kernel.sh");
 	else 
-		package_extract_file("install/kernel/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+		package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
 	endif;
-
-	package_extract_dir("install/kernel/system", "/system");
-	set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 
 ## Finishing
 
 ui_print("<b><#80cbc4>Finishing Installation...</#></b>");
       
 	if (getprop("ro.product.device") == "jfltevzw" || getprop("ro.build.product") == "jfltevzw") then
-		package_extract_dir("install/scripts/CSCvzw", "/system");  
-		package_extract_file("install/scripts/default_network.sh", "/tmp/default_network.sh");
+		package_extract_dir("install/CSCvzw", "/system");  
+		package_extract_file("install/default_network.sh", "/tmp/default_network.sh");
 		set_perm(0, 0, 0777, "/tmp/default_network.sh");
 		run_program("/tmp/default_network.sh");
 	endif;
 
     if (getprop("ro.product.device") == "jfltespr" || getprop("ro.build.product") == "jfltespr") then    
-		package_extract_file("install/scripts/eri.xml", "/data/eri.xml");
+		package_extract_file("install/eri.xml", "/data/eri.xml");
 	    set_perm(0, 0, 0644, "/data/eri.xml");
 	endif;
 	
