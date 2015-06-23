@@ -436,13 +436,6 @@ ui_print("<b><#80cbc4>Setting Permissions...</#></b>");
 ui_print("<b><#80cbc4>Installing BusyBox...</#></b>");
 	run_program("/system/xbin/busybox", "--install", "-s", "/system/xbin");
 
-#### Rooting
-
-ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
-    package_extract_dir("install/supersu", "/tmp/supersu");
-	run_program("/sbin/busybox", "unzip", "/tmp/supersu/supersu.zip", "META-INF/com/google/android/*", "-d", "/tmp/supersu");
-	run_program("/sbin/busybox", "sh", "/tmp/supersu/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/supersu/supersu.zip");
-
 ## Kernel
 
 ui_print("<b><#80cbc4>Installing JFLTE-GPE Kernel...</#></b>");	
@@ -475,13 +468,21 @@ ui_print("<b><#80cbc4>Finishing Installation...</#></b>");
 		package_extract_file("install/eri.xml", "/data/eri.xml");
 	    set_perm(0, 0, 0644, "/data/eri.xml");
 	endif;
+
+#### Rooting
+
+ui_print("<b><#80cbc4>Installing SuperSU...</#></b>");
+    package_extract_dir("install/supersu", "/tmp/supersu");
+	run_program("/sbin/busybox", "unzip", "/tmp/supersu/supersu.zip", "META-INF/com/google/android/*", "-d", "/tmp/supersu");
+	run_program("/sbin/busybox", "sh", "/tmp/supersu/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/supersu/supersu.zip");
 	
 ui_print("<b><#80cbc4>ROM Installed!</#></b>");
 ui_print(" ");	
 
 ui_print("<b><#80cbc4>Unmounting Everything...</#></b>");
-unmount("/system");
-unmount("/data");
+# SuperSU script unmounts these
+#unmount("/system");
+#unmount("/data");
 unmount("/cache");
 ui_print(" ");
 ui_print(" ");
