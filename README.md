@@ -16,7 +16,9 @@ Or, follow the [Windows building instructions](docs/WINDOWS.md).
 Issues can be viewed and reported on the [Issues](https://github.com/MatthewBooth/JFLTE-GPE/issues) page.
 
 # Authors
-@[MatthewBooth](http://forum.xda-developers.com/member.php?u=3443334) - Maintainer
+
+@[MatthewBooth](http://forum.xda-developers.com/member.php?u=3443334)
+
 @[danvdh](http://forum.xda-developers.com/member.php?u=4830253)
 
 # Permission
