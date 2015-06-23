@@ -1,12 +1,150 @@
 #!/bin/bash
 
-echo "Select to either BUILD the ROM, or just the modified apps/jars"
-select CHOICE in "build" "apps" "addons"; do
-    case "$CHOICE" in
-        build) ./tools/build_linux break;;
-        apps) ./tools/compile_apps_linux break;;
-	addons) ./tools/build_addons break;;
-    esac
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  BUILD_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$BUILD_DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
 done
+BUILD_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+VERSION=$(date +%Y%m%d)
+TIMESTAMP=$(date)
+UTC=$(date +%s)
+
+ROMNAME=JFLTE-GPE
+FILE="$ROMNAME"-${VERSION}.zip
+OUT="$BUILD_DIR"/../out/"$VERSION"
+
+TOOLS="$BUILD_DIR"/tools
+APKTOOL="$TOOLS"/apktool
+SYSTEM="$BUILD_DIR"/system
+FRAMEWORK="$SYSTEM"/framework
+OVERLAY="$BUILD_DIR"/overlay/system
+
+KERNEL="$BUILD_DIR"/../Kernel
+KERNEL_DIST="$KERNEL"/dist
+
+buildROM() {
+
+	if [ ! -e "$OUT" ];then
+		mkdir "$OUT"
+	fi
+
+	rm -rf "$OUT"/"$ROMNAME"-*.zip
+
+	cp "$BUILD_DIR"/Changelog.md "$OVERLAY"/etc/CHANGELOG.txt
+
+	sed -i "s/.*ro.build.version.incremental.*/ro.build.version.incremental=$VERSION/g" "$OVERLAY"/build.prop
+	sed -i "s/.*ro.ota.version.*/ro.ota.version=$VERSION/g" "$OVERLAY"/build.prop
+	sed -i "s/.*ro.build.date=.*/ro.build.date=$TIMESTAMP/g" "$OVERLAY"/build.prop
+	sed -i "s/.*ro.build.date.utc.*/ro.build.date.utc=$UTC/g" "$OVERLAY"/build.prop
+
+	7za a -mx9 -xr@"$TOOLS"/exclusion.txt "$OUT"/"$FILE" "$BUILD_DIR"/META-INF "$BUILD_DIR"/install "$SYSTEM" "$BUILD_DIR"/boot.img
+
+	7za u -mx9 -up1q1r2x2y2z1w2 -xr@"$TOOLS"/exclusion.txt "$OUT"/"$FILE" "$OVERLAY"
+
+	md5sum "$OUT"/"$FILE" > "$OUT"/"$FILE".md5
+}
+
+buildApps() {
+	cd "$BUILD_DIR"/mods
+
+	if [ -d framework ]; then
+		cd framework
+		for f in * ; do
+			"$APKTOOL" b -c "$f"
+			cp "$f"/dist/"$f" "$FRAMEWORK"/"$f"
+			rm -rf "$f"/dist "$f"/build
+		done
+		cd ..
+	fi
+
+	"$APKTOOL" if "$FRAMEWORK"/framework-res.apk
+
+	if [ -d app ]; then
+		cd app
+		for f in * ; do
+			"$APKTOOL" b -c "$f"
+			if [ ! -d "$SYSTEM"/app/"${f%%.*}" ]; then
+				mkdir -p "$SYSTEM"/app/"${f%%.*}"
+			fi
+			cp "$f"/dist/"$f" "$SYSTEM"/app/"${f%%.*}"/"$f"
+			rm -rf "$f"/dist "$f"/build
+		done
+		cd ..
+	fi
+
+	if [ -d priv-app ]; then
+		cd priv-app
+		for f in * ; do
+			"$APKTOOL" b -c "$f"
+			if [ ! -d "$SYSTEM"/priv-app/"${f%%.*}" ]; then
+				mkdir -p "$SYSTEM"/priv-app/"${f%%.*}"
+			fi
+			cp "$f"/dist/"$f" "$SYSTEM"/priv-app/"${f%%.*}"/"$f"
+			rm -rf "$f"/dist "$f"/build
+		done
+		cd ..
+	fi
+
+	if [ -d addons ]; then
+		cd addons
+		for f in * ; do
+			"$APKTOOL" b -c "$f"
+			INSTALL_LOC=$(cat "$f"/install_loc)
+			DEST=../../"$INSTALL_LOC"
+			cp "$f"/dist/"$f" "$DEST"
+			rm -rf "$f"/dist "$f"/build
+		done
+		cd ..
+	fi
+
+	cd ..
+}
+
+buildAddons() {
+	cd addons
+	for d in */ ; do
+		cd "$d"
+		NAME=$(cat zipname.txt)
+		7za a -r -mx9 -xr@"$TOOLS"/exclusion.txt ../"$ROMNAME"_$NAME.zip *
+		cd ..
+	done
+	cd ..
+}
+
+buildKernel() {
+	cd "$KERNEL"
+	make clean
+	make mrproper
+	./build_kernel.sh
+
+	if [ -e "$KERNEL"/arch/arm/boot/zImage ];then
+		cp "$KERNEL_DIST"/boot.img "$BUILD_DIR"/boot.img
+		rm -rf "$OVERLAY"/lib/modules/*
+		cp -r "$KERNEL_DIST"/modules "$OVERLAY"/lib/modules
+	else
+		echo "Kernel failed to build"
+		exit 0
+	fi
+}
+
+start() {
+
+	echo "Select to either BUILD the ROM, or just the modified apps/jars"
+	select CHOICE in "Build ROM, Kernel and Files" "Build ROM" "Build Kernel" "Build Modded Files" "Build Addons" "Exit"; do
+	    case "$CHOICE" in
+	        "Build ROM, Kernel and Files" ) buildKernel; buildApps; buildROM; start; break;;
+	        "Build ROM" ) buildROM; start; break;;
+			"Build Kernel" ) buildKernel; start; break;;
+			"Build Modded Files" ) buildApps; start; break;;
+			"Build Addons" ) buildAddons; start; break;;
+			"Exit" ) exit 0; break;;
+	    esac
+	done
+}
+
+start
 
 exit 0
