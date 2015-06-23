@@ -1,0 +1,13 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t cm"
+
+ 
+$L "   __  ____  __   ____  ____       ___  ____  ____ ";
+$L " _(  )(  __)(  ) (_  _)(  __)___  / __)(  _ \(  __)";
+$L "/ \) \ ) _) / (_/\ )(   ) _)(___)( (_ \ ) __/ ) _) ";
+$L "\____/(__)  \____/(__) (____)     \___/(__)  (____)";
+
+$L "Welcome to `getprop ro.ota.romname`-`getprop ro.ota.version`";

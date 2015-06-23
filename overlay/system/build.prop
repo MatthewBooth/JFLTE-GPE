@@ -278,4 +278,4 @@ persist.adb.notify=0
 ro.ota.romname=JFLTE-GPE
 ro.ota.version=20150621
 ro.ota.manifest=https://romhut.com/roms/danvdh-googleedition/ota.xml
-ro.ota.default_theme=2
+ro.ota.default_theme=0
