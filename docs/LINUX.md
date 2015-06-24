@@ -5,7 +5,7 @@ Welcome to the dark side! Let's get started in building this ROM.
 1. Open the terminal and install some essential parts to compile this ROM with the following command:
 
 ```bash
-sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 openjdk-7-jdk openjdk-7-jre git-core p7zip-full unzip zip unrar rar
+sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 openjdk-7-jdk openjdk-7-jre git-core p7zip-full unzip zip unrar rar schedtool
 ```
 
 2. Now make a folder for the ROM to go in
@@ -18,10 +18,10 @@ sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 ope
 
 ```bash
 	cd ~/android/JFLTE-GPE
-	git -b GED-5.0 --single-branch clone https://github.com/MatthewBooth/JFLTE-GPE ROM
-	git -b GED-5.0 --single-branch clone https://github.com/MatthewBooth/JFLTE-GPE-Kernel Kernel
-	git -b GED-5.0 --single-branch clone https://github.com/MatthewBooth/JFLTE-GPE-Ramdisk Ramdisk
-	git clone https://github.com/Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9 Christopher83_Linaro_4.9.3
+	git clone -b GED-5.0 --single-branch https://github.com/MatthewBooth/JFLTE-GPE ROM
+	git clone -b GED-5.0 --single-branch https://github.com/MatthewBooth/JFLTE-GPE-Kernel Kernel
+	git clone -b GED-5.0 --single-branch https://github.com/MatthewBooth/JFLTE-GPE-Ramdisk Ramdisk
+	git clone -b master https://github.com/Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9 Christopher83_Linaro_4.9.3
 ```
 
 4. Now we can build, by doing the following
