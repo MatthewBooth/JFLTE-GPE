@@ -5,7 +5,7 @@ Welcome to the dark side! Let's get started in building this ROM.
 1. Open the terminal and install some essential parts to compile this ROM with the following command:
 
 ```bash
-sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 openjdk-7-jdk openjdk-7-jre git-core p7zip-full unzip zip unrar rar schedtool
+sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2 openjdk-7-jdk openjdk-7-jre git p7zip-full unzip zip unrar rar schedtool bison curl flex gnupg gperf libesd0-dev liblz4-tool libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev
 ```
 
 2. Now make a folder for the ROM to go in
