@@ -6,6 +6,15 @@ Visit [UltimaROM](http://ultimarom.com) for downloads
 
 Visit [MatthewBooth](http://github.com/MatthewBooth) for Developer information
 
+### Changelog 20150630
+* Added GoogyMax3 back as the default kernel
+* STWeaks was readded after I mistakenly remove dit.
+* Verizon default network value is 10, as per TouchWiz Lollipop values
+* Updated APN and SPN's from CyanogenMod.
+* Removed Archi Init, since everything is done via all the kernels we use.
+* Updated Interface app to be clearer on the purpose of the new disable/enable menu to recents on buttons, and how to set them
+* Updated some stock Gapps.
+
 ### Changelog 20150621
 * Changed the method of assigning the buttons for disabling and menu-to-recents (flashes a file)
 * Added GMail as default (again)
